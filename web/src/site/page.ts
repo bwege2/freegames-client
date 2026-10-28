@@ -3,6 +3,7 @@
 // how many play it right now.
 import { size, type Game } from './catalog.ts';
 import { el, legalFooter } from './dom.ts';
+import { downloadOf, megabytes } from './downloads.ts';
 import { listHref } from './list.ts';
 import { liveText, onLive, playersOf, popularText } from './live.ts';
 import { thumb } from './thumb.ts';
@@ -33,6 +34,15 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
       return b;
     }))
     : el('div', { className: 'shots' }, el('span', { className: 'shot shot-none' }, thumb(g), el('span', { textContent: 'Screenshots arrive with the port.' })));
+  // what Play downloads the first time (dist/downloads.json; nothing on the development server)
+  const download = el('span', { textContent: '…' });
+  const playSize = el('span', { className: 'play-size' });
+  if (g.load) {
+    void downloadOf(m.id).then((d) => {
+      download.textContent = d ? `${megabytes(d.bytes)} the first time, then from your browser's cache` : '–';
+      if (d) playSize.textContent = `${megabytes(d.bytes)}, only the first time`;
+    });
+  }
   const o = m.original;
   const facts: [string, Node | string][] = [
     ['Original', `${o.author}, ${o.year}`],
@@ -42,13 +52,14 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     ['Original package', size(o.packageBytes)],
     ['Genre', m.genres.join(', ')],
     ['Players', m.players],
+    ...(g.load ? [['Download', download] as [string, Node]] : []),
     ['Source', el('a', { href: o.url, textContent: o.url.replace(/^https?:\/\//, ''), target: '_blank', rel: 'noopener' })],
   ];
   return el('main', { className: 'page' },
     el('a', { className: 'back-link', href: listHref(), textContent: '← All games' }),
     el('header', { className: 'page-head' },
       el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), live, popular),
-      play),
+      el('div', { className: 'play-box' }, play, playSize)),
     shots,
     el('section', { className: 'about' },
       el('div', { className: 'summary' }, ...m.summary.map((p) => el('p', { textContent: p }))),

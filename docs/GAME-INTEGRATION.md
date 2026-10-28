@@ -193,6 +193,23 @@ server authority and state relay: `docs/SERVER.md`.
 Local multiplayer the original had (hot-seat, two players on one keyboard) stays as it was; online is
 an extra mode of the game's own menu.
 
+## Downloads: what Play fetches first
+
+Play downloads the game's files before it starts the game and shows how much, how far and how long still; the game
+then finds them in the browser's cache. The build lists them (`web/scripts/downloads.mjs` → `dist/downloads.json`):
+the game's code, its workers and every asset its code references (`import x from '../assets/f.bin?url'`,
+`new URL('../assets/f.bin', import.meta.url)`). The game page shows the total. Files the game loads only later,
+while playing (music, the rest of a large world), go in `game.json` as `"lazyAssets": ["assets/music/**"]` (globs in
+the game's folder): Play does not wait for them. Built assets are named by their content, so browsers keep them.
+
+## Workers, shared memory and what a page may load
+
+The site's pages are cross-origin isolated (`Cross-Origin-Opener-Policy: same-origin`,
+`Cross-Origin-Embedder-Policy: require-corp`, from the server and from Vite). So a game may run its parts in
+workers that share memory and wait on each other (`SharedArrayBuffer`, `Atomics.wait` in a worker), where the
+original's threads block on each other; check `crossOriginIsolated` and show a clear message if it is false.
+In return a game loads nothing from other sites: every script, image, sound and font comes from its own folder.
+
 ## Running it
 
 ```sh

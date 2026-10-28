@@ -7,6 +7,7 @@ import { createSession } from '../sdk/context.ts';
 import type { GameInstance } from '../sdk/game.ts';
 import type { Game } from './catalog.ts';
 import { el } from './dom.ts';
+import { downloadOf, megabytes, preload, progressText, type Download } from './downloads.ts';
 import { liveText, onLive, playersOf, refreshLive } from './live.ts';
 
 /** Debug counters for tests (scripts/e2e.mjs): plays started and plays still running. */
@@ -64,8 +65,13 @@ export function play(app: HTMLElement, g: Game, back: () => void): Playing {
   stats.started++;
   stats.running++;
   let instance: GameInstance | null = null;
+  const loading = new AbortController();
   const ready = (async () => {
     try {
+      // the game's files first, with progress: then the game finds them in the browser's cache
+      const d = await downloadOf(m.id);
+      if (d && d.bytes > 0 && !stopped) await showProgress(host, m.title, d, loading.signal);
+      if (stopped) return;
       const start = await g.load!();
       if (stopped) return;
       instance = await start(host, session.ctx);
@@ -82,6 +88,7 @@ export function play(app: HTMLElement, g: Game, back: () => void): Playing {
       if (stopped) return;
       stopped = true;
       listening.abort();
+      loading.abort();
       await ready;
       try { await instance?.stop(); } catch (e) { console.error(`${m.id} stop`, e); }
       session.dispose();
@@ -93,6 +100,29 @@ export function play(app: HTMLElement, g: Game, back: () => void): Playing {
       refreshLive();
     },
   };
+}
+
+/** the download of the game's files, shown once it takes longer than a moment (from the cache it does not) */
+async function showProgress(host: HTMLElement, title: string, d: Download, signal: AbortSignal): Promise<void> {
+  const bar = el('progress', { className: 'player-loading-bar', max: d.bytes, value: 0 });
+  bar.setAttribute('aria-label', `Downloading ${title}`);
+  const text = el('p', { className: 'player-loading-text', textContent: progressText(0, d.bytes, 0) });
+  const box = el('div', { className: 'player-loading' }, el('p', { className: 'player-loading-title', textContent: `Downloading ${title}: ${megabytes(d.bytes)}, only the first time` }), bar, text);
+  const t0 = performance.now();
+  let last = 0;
+  const shown = setTimeout(() => host.replaceChildren(box), 250);
+  try {
+    await preload(d, (done, total) => {
+      const now = performance.now();
+      if (now - last < 100 && done < total) return;
+      last = now;
+      bar.value = done;
+      text.textContent = progressText(done, total, now - t0);
+    }, signal);
+  } finally {
+    clearTimeout(shown);
+    box.remove();
+  }
 }
 
 async function fullscreen(host: HTMLElement): Promise<void> {

@@ -8,13 +8,18 @@ const server = {
   '/wt-info': { target: `http://${SERVER}` },
 };
 
+// the server's pages are cross-origin isolated (SharedArrayBuffer for games whose threads wait on each other);
+// the development server does the same
+const headers = { 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Embedder-Policy': 'require-corp' };
+
 export default defineConfig({
   base: './',
   build: {
     target: 'es2022',
     chunkSizeWarningLimit: 2000,
+    manifest: true,
     rollupOptions: { input: { main: 'index.html' } },
   },
-  server: { port: 5290, proxy: server },
-  preview: { proxy: server },
+  server: { port: 5290, proxy: server, headers },
+  preview: { proxy: server, headers },
 });

@@ -5,12 +5,12 @@
 // same window; two players race online through the shared lobby (over WebTransport where the browser
 // can); Back and browser-back stop the game (no running play, the frame loop stops); the players now
 // (every play counts, shown on the list, its filter, the game page and the player bar); the legal pages
-// (Impressum, privacy, licenses with the source archive, which holds the website and not the server).
+// (Impressum, privacy, licenses with the links to the source of this release).
 // Screenshots go to $E2E_SHOTS (default: dist-e2e/).
 import puppeteer from 'puppeteer-core';
-import { execFileSync, spawn } from 'node:child_process';
+import { spawn } from 'node:child_process';
 import { pbkdf2Sync, randomBytes } from 'node:crypto';
-import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync } from 'node:fs';
 import { createServer } from 'node:net';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
@@ -419,18 +419,14 @@ try {
     }
     check(!/@/.test(await l.goto(`${base}datenschutz.html`).then(() => l.evaluate(() => document.body.innerText))), 'legal: the privacy policy has no e-mail address as text either');
     await l.goto(`${base}licenses.html`, { waitUntil: 'networkidle0' });
-    const href = await l.$eval('a.download', (a) => a.getAttribute('href')).catch(() => null);
-    const res = href ? await fetch(new URL(href, `${base}licenses.html`)) : null;
-    if (res?.ok) {
-      const file = join(mkdtempSync(join(tmpdir(), 'fg-src-')), 'src.tar.gz');
-      writeFileSync(file, Buffer.from(await res.arrayBuffer()));
-      const names = execFileSync('tar', ['-tzf', file], { encoding: 'utf8', maxBuffer: 64 << 20 }).split('\n').map((n) => n.replace(/^[^/]+\//, '')).filter(Boolean);
-      check(names.includes('web/package.json') && names.includes('web/src/site/main.ts') && names.includes('SOURCE.md') && names.includes('web/LICENSE.md'),
-        `legal: the source archive holds the website (${names.length} entries)`);
-      // files only (the archive also lists the directories above the XPilot maps)
-      const server = names.filter((n) => !n.endsWith('/') && /^(server\/(?!src\/main\/resources\/xpilot\/lib\/maps\/)|slipstream\/|pom\.xml$|tools\/deploy)/.test(n));
-      check(server.length === 0, `legal: the source archive holds nothing of the game server${server.length ? ` (${server.slice(0, 3).join(', ')})` : ''}`);
-    } else check(false, `legal: the licenses page offers the source archive (${href ?? 'no link'}${res ? `, HTTP ${res.status}` : ''})`);
+    // the source: one release's tag in the public repository, every game's folder in it, and the offer for earlier versions
+    const repoTree = /^https:\/\/github\.com\/bwege2\/freegames-client\/tree\/(main|release-\d{4}-\d{2}-\d{2}(?:\.\d+)?)(?:\/|$)/;
+    const source = (await l.$$eval('a', (as) => as.map((a) => a.href))).filter((h) => repoTree.test(h));
+    const tags = new Set(source.map((h) => repoTree.exec(h)[1]));
+    const noSource = listed.filter((id) => !source.some((h) => h.endsWith(`/web/games/${id}`)));
+    check(tags.size === 1 && noSource.length === 0 && source.some((h) => h.endsWith('/web/src')),
+      `legal: the licenses page links one release's source (${[...tags].join(', ')}), the website's and every game's folder${noSource.length ? ` (missing ${noSource.join(', ')})` : ''}`);
+    check(/last three years, free of charge/.test(await l.evaluate(() => document.body.innerText)), 'legal: the licenses page offers the source of earlier versions on request');
     for (const t of ['GPL-2.0', 'GPL-3.0', 'LGPL-3.0', 'capnp-es', 'xpilot', 'freegames']) {
       const r = await fetch(`${base}licenses/${t}.txt`);
       check(r.ok && (await r.text()).length > 200, `legal: licenses/${t}.txt`);
@@ -469,11 +465,21 @@ try {
     await octx.close();
   }
 
+  // ---- the pages are cross-origin isolated (workers may share memory: SharedArrayBuffer, Atomics.wait)
+  {
+    const ip = await browser.newPage();
+    await ip.goto(base, { waitUntil: 'networkidle0' });
+    check(await ip.evaluate(() => crossOriginIsolated && typeof SharedArrayBuffer === 'function'), 'isolation: the site is cross-origin isolated (SharedArrayBuffer)');
+    await ip.close();
+  }
+
   // ---- what search engines read: robots.txt, the sitemap, a plain page per game, the list as links
   {
     const robots = await (await fetch(`${base}robots.txt`)).text();
     check(/Sitemap: https:\/\/freegames\.stream\/sitemap\.xml/.test(robots) && /Disallow: \/admin\//.test(robots), 'seo: robots.txt names the sitemap and keeps out /admin/');
-    const sitemap = await (await fetch(`${base}sitemap.xml`)).text();
+    const sm = await fetch(`${base}sitemap.xml`);
+    check(sm.headers.get('content-type')?.startsWith('application/xml'), `seo: the sitemap is served as XML (${sm.headers.get('content-type')})`);
+    const sitemap = await sm.text();
     const missing = listed.filter((id) => !sitemap.includes(`<loc>https://freegames.stream/${id}/</loc>`));
     check(missing.length === 0, `seo: the sitemap lists every game's page${missing.length ? ` (missing ${missing.join(', ')})` : ''}`);
     const raw = await (await fetch(base)).text();
@@ -493,6 +499,32 @@ try {
     const started = await sp.waitForFunction(() => location.hash === '#/wumpus/play' && document.querySelector('.player-host canvas, .player-host .fg-term-page'), { timeout: 10000 }).then(() => true, () => false);
     check(started, "seo: the game page's Play link starts the game in the site");
     await sp.close();
+  }
+
+  // ---- the download before a game starts: its size on the page, then progress (amount, percent, time left)
+  {
+    const dl = await (await fetch(`${base}downloads.json`)).json();
+    const playableIds = listed.filter((d) => existsSync(join(web, 'games', d, 'src', 'index.ts')));
+    const missing = playableIds.filter((id) => !(dl[id]?.bytes > 0));
+    check(missing.length === 0 && dl.frozenbubble.files.some(([f]) => /fb-data-.*\.bin$/.test(f)),
+      `downloads: every game's start-up files are listed${missing.length ? ` (missing ${missing.join(', ')})` : ''} (Frozen Bubble ${(dl.frozenbubble.bytes / 1e6).toFixed(1)} MB)`);
+    const dctx = await browser.createBrowserContext();
+    const dp = await dctx.newPage();
+    // a slow line, so that the progress shows: 20 Mbit/s
+    const cdp = await dp.createCDPSession();
+    await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 20, downloadThroughput: 2.5e6, uploadThroughput: 1e6 });
+    await dp.goto(`${base}#/frozenbubble`, { waitUntil: 'networkidle0' });
+    const fact = await dp.waitForFunction(() => [...document.querySelectorAll('.facts dd')].map((d) => d.textContent).find((t) => /MB the first time/.test(t ?? '')), { timeout: 5000 }).then((h) => h.jsonValue(), () => null);
+    check(!!fact, `downloads: the game page says how much Play downloads (${fact})`);
+    await dp.click('.page .play');
+    const seen = await dp.waitForFunction(() => document.querySelector('.player-loading-text')?.textContent, { timeout: 10000 }).then(() => true, () => false);
+    await new Promise((r) => setTimeout(r, 2500));
+    const text = await dp.$eval('.player-loading-text', (e) => e.textContent).catch(() => '');
+    check(seen && /^[\d.]+ of [\d.]+ MB \(\d+ %\) · about .* left$/.test(text), `downloads: the player shows amount, percent and time left (${text})`);
+    await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 0, downloadThroughput: -1, uploadThroughput: -1 });
+    const started = await dp.waitForFunction(() => !document.querySelector('.player-loading') && document.querySelector('.player-host canvas'), { timeout: 60000 }).then(() => true, () => false);
+    check(started, 'downloads: after the download the game starts');
+    await dctx.close();
   }
 
   // ---- every playable game: Play from its page, it draws, takes keys, Back stops it

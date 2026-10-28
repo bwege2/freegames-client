@@ -143,7 +143,6 @@ writeFileSync(indexFile, index);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *
 Allow: /
 Disallow: /admin/
-Disallow: /source/
 Sitemap: ${SITE}sitemap.xml
 `);
 const urls = [SITE, ...games.map((g) => `${SITE}${g.id}/`), `${SITE}licenses.html`];
