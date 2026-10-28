@@ -140,7 +140,12 @@ if (preview) {
 writeFileSync(indexFile, index);
 
 // ---- robots.txt and sitemap.xml
-writeFileSync(join(dist, 'robots.txt'), `User-agent: *
+// Yandex's robots (all of them answer to "Yandex") do not crawl the site, so Yandex does not list it, also when
+// IndexNow (tools/deploy/indexnow.mjs), which shares every report with all its engines, tells it of the pages
+writeFileSync(join(dist, 'robots.txt'), `User-agent: Yandex
+Disallow: /
+
+User-agent: *
 Allow: /
 Disallow: /admin/
 Sitemap: ${SITE}sitemap.xml

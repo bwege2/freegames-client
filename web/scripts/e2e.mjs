@@ -475,8 +475,11 @@ try {
 
   // ---- what search engines read: robots.txt, the sitemap, a plain page per game, the list as links
   {
+    const key = (await (await fetch(`${base}indexnow.txt`)).text()).trim();
+    check(/^[A-Za-z0-9-]{8,128}$/.test(key), 'seo: the site serves its IndexNow key (indexnow.txt)');
     const robots = await (await fetch(`${base}robots.txt`)).text();
     check(/Sitemap: https:\/\/freegames\.stream\/sitemap\.xml/.test(robots) && /Disallow: \/admin\//.test(robots), 'seo: robots.txt names the sitemap and keeps out /admin/');
+    check(/User-agent: Yandex\nDisallow: \/\n/.test(robots), 'seo: robots.txt keeps Yandex out');
     const sm = await fetch(`${base}sitemap.xml`);
     check(sm.headers.get('content-type')?.startsWith('application/xml'), `seo: the sitemap is served as XML (${sm.headers.get('content-type')})`);
     const sitemap = await sm.text();
