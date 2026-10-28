@@ -1,0 +1,22 @@
+{
+ "name": "out-return-version",
+ "args": [
+  "-b",
+  "-r",
+  "1",
+  "-Q",
+  "1002",
+  "imp.red"
+ ],
+ "time": 5009,
+ "cycles": 0,
+ "input": null,
+ "status": 184,
+ "stdout": "Imp by A. K. Dewdney (1984); written down for the port's tests scores 0\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 0881a568",
+  "H 1 80000 8a9fc305"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "name": "frontend-name",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "name Ann Example",
+  "e4",
+  "show board",
+  "result 1-0 {White wins}",
+  "list",
+  "list name",
+  "list score",
+  "list reverse",
+  "name Bob",
+  "d4",
+  "result 1/2-1/2",
+  "list",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : White (1) : 1. e4\nThinking...\n\nMy move is : Nc6\nWhite (2) : White (2) : Save to game.000\nWhite (2) : AnnExample 100% 1 0 0\nWhite (2) : AnnExample 100% 1 0 0\nWhite (2) : AnnExample 100% 1 0 0\nWhite (2) : AnnExample 100% 1 0 0\nWhite (2) : White (2) : 2. d4\nThinking...\n\nMy move is : d5\nWhite (3) : Save to game.001\nWhite (3) : Error (unknown command): result 1/2-1/2\nAnnExample 100% 1 0 0\nBob 50% 0 0 1\nWhite (3) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {
+  "game.000": "[Event \"\"]\n[Site \"\"]\n[Date \"2001.09.09\"]\n[Round \"\"]\n[White \"Ann Example\"]\n[Black \"GNU Chess 6.3.0\"]\n[WhiteELO \"0\"]\n[BlackELO \"0\"]\n[Result \"1-0\"]\n\n1. e4 Nc6 1-0 {White wins}\n\n",
+  "game.001": "[Event \"\"]\n[Site \"\"]\n[Date \"2001.09.09\"]\n[Round \"\"]\n[White \"Bob\"]\n[Black \"GNU Chess 6.3.0\"]\n[WhiteELO \"0\"]\n[BlackELO \"0\"]\n[Result \"1/2-1/2\"]\n\n1. e4 Nc6 2. d4 d5 1/2-1/2\n\n",
+  "log.000": "1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nresult: 1-0 {White wins}\n",
+  "log.001": "2. d4\n\nblack  KQkq  d3\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \n\nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nresult: 1/2-1/2\n",
+  "players.dat": "AnnExample 1 0 0\nBob 0 0 1\n"
+ }
+}

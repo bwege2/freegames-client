@@ -1,0 +1,83 @@
+{
+  "id": "teeworlds",
+  "title": "Teeworlds",
+  "tagline": "Small round tees with grappling hooks and big guns: fast online deathmatch and capture the flag.",
+  "summary": [
+    "Teeworlds (2007) is a fast online shooter in two dimensions. You are a tee, a little round creature, and you run, jump and swing through the map on your grappling hook, which also pulls other players. Hammer, pistol, shotgun, grenade launcher and laser rifle lie in the map with health, armor and the ninja power-up.",
+    "Five game types: deathmatch, team deathmatch, capture the flag, and the survival modes last man standing and last team standing, on the official maps. Players join and leave a running game; votes change the map or move players to the spectators; you dress your tee from body, marking, decoration, hands, feet and eyes in your own colours.",
+    "This port follows Teeworlds 0.7.5, the last official release. Its server runs in our server, one game per room, and the original client runs in the browser; they speak the original's network protocol."
+  ],
+  "original": {
+    "author": "Magnus Auvinen and the Teeworlds team",
+    "year": 2007,
+    "platform": "C++/SDL/OpenGL (Linux, Windows, macOS)",
+    "version": "Teeworlds 0.7.5 (2020)",
+    "license": "zlib (code), CC BY-SA 3.0 (graphics, sounds, maps), Bitstream Vera (font)",
+    "packageBytes": 8935505,
+    "url": "https://www.teeworlds.com/"
+  },
+  "players": "1–16 online",
+  "genres": [
+    "Side-scroller"
+  ],
+  "modes": [
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "A / D",
+      "action": "Run left / right"
+    },
+    {
+      "input": "Space",
+      "action": "Jump (and once more in the air)"
+    },
+    {
+      "input": "Mouse",
+      "action": "Aim (click the game to capture the mouse)"
+    },
+    {
+      "input": "Left mouse button",
+      "action": "Fire"
+    },
+    {
+      "input": "Right mouse button",
+      "action": "Grappling hook"
+    },
+    {
+      "input": "1–5, mouse wheel",
+      "action": "Choose a weapon"
+    },
+    {
+      "input": "T / Y / X",
+      "action": "Chat to all / to your team / whisper"
+    },
+    {
+      "input": "Tab, E",
+      "action": "Scoreboard, statistics"
+    },
+    {
+      "input": "Left Shift",
+      "action": "Emoticons (choose with the mouse)"
+    },
+    {
+      "input": "F3 / F4",
+      "action": "Vote yes / no"
+    },
+    {
+      "input": "Esc",
+      "action": "Menu: teams, players, server info, votes, settings (name, tee, controls)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "battle.png",
+      "caption": "A deathmatch on dm1: four tees with their weapons, the HUD with health, armor and ammo"
+    },
+    {
+      "file": "ctf.png",
+      "caption": "Capture the flag on ctf1: a red tee at its flag's stand, the team scores at the right"
+    }
+  ],
+  "added": "2026-10-28"
+}

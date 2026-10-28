@@ -1,0 +1,19 @@
+{
+ "name": "adapter-bookadd",
+ "args": [],
+ "time": 1000000000,
+ "files": {
+  "small.pgn": "[Event \"one\"]\n[Result \"1-0\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 1-0\n\n[Event \"two\"]\n[Result \"1-0\"]\n\n1. e4 e5 2. Nf3 {a comment} Nc6 3. Bc4 Bc5 1-0\n\n[Event \"three\"]\n[Result \"1/2-1/2\"]\n\n1. e4 e5 2. Nf3 Nf6 (2... d6 3. d4) 3. Nxe5 d6 1/2-1/2\n\n[Event \"four\"]\n[Result \"1-0\"]\n\n1. d4 d5 2. c4 e6 1-0\n\n[Event \"five\"]\n[Result \"1-0\"]\n\n1. d4 d5 2. c4 c6 $1 1-0\n\n[Event \"six\"]\n[Result \"1/2-1/2\"]\n\n1. d4 d5! 2. c4 dxc4 1/2-1/2\n\n[Event \"seven\"]\n[Result \"0-1\"]\n\n1. c4 e5 2. Nc3 Nf6 0-1\n"
+ },
+ "input": [
+  "easy",
+  "book add small.pgn",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : White (1) : inserting games ...\n7 games.\n21 entries.\nfiltering entries ...\n6 entries.\nsorting entries ...\nsaving entries ...\nall done!\n",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {
+  "book.bin": "\u0006d\u009b\u00a6\u009b\u008c\u009f\u00f8\u0002\u009a\u0000\u0005\u0000\u0000\u0000\u0000\bD\u0093\u001an\u00f4\u00b9\u00a0\u0001\u0095\u0000\u0005\u0000\u0000\u0000\u0000F;\u0096\u0018\u0016\u0091\u00fc\u009c\u0003\u001c\u0000\u0005\u0000\u0000\u0000\u0000F;\u0096\u0018\u0016\u0091\u00fc\u009c\u0002\u00db\u0000\u0005\u0000\u0000\u0000\u0000\u0082<\u009bP\u00fd\u0011A\u0096\r$\u0000\u0001\u0000\u0000\u0000\u0000\u0083\u000e\u00b9\u00b2\u0007X\u00d1\u00de\f\u00e3\u0000\u0001\u0000\u0000\u0000\u0000"
+ }
+}

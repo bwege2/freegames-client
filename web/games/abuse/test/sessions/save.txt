@@ -1,0 +1,27 @@
+# level 20: save at the console next to the start (slot 1), then load it from the main menu
+# args -f levels/level20.spe
+# home gamma 40
+50 key down SPACE
+51 key up SPACE
+134 mouse 300 15
+134 button 1 down
+135 button 1 up
+160 key down LEFT
+163 key up LEFT
+170 key down DOWN
+172 key up DOWN
+
+177 mouse 18 52
+177 button 1 down
+178 button 1 up
+220 key down ESCAPE
+221 key up ESCAPE
+
+223 mouse 300 37
+223 button 1 down
+224 button 1 up
+
+236 mouse 18 52
+236 button 1 down
+237 button 1 up
+330 end

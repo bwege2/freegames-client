@@ -1,0 +1,3 @@
+# the title sequence (logo, the story text) without input
+# home gamma 40
+400 end

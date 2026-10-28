@@ -1,0 +1,9 @@
+# 1-player multiplayer training with chain-reaction (menu: Return, Down x3, Return, Y)
+# time 1278000000
+3000 tap return
+3600 tap down
+3800 tap down
+4000 tap down
+4400 tap return
+5000 tap y
+10000 end

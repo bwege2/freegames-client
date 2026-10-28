@@ -1,0 +1,12 @@
+m
+m ,pmars.mac
+m
+m stepper
+m nosuch
+m user
+myloop=!!~s~!4
+twice=r~r
+.
+m myloop
+m twice
+quit

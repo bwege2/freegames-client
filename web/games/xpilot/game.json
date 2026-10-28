@@ -1,0 +1,84 @@
+{
+  "id": "xpilot",
+  "title": "XPilot",
+  "tagline": "Thrust, turn and shoot it out with other pilots in a space arena.",
+  "summary": [
+    "XPilot (1992) is a multiplayer space combat game. Every player flies a small thrust-and-turn fighter through a world of walls, fuel stations, cannons, wormholes and gravity, shooting the others while trying to reach the map's objective.",
+    "The map decides the game: steal the other team's ball and bring it home to your base, race through the checkpoints, or fight it out with items such as mines, heat-seeking missiles, cloaks and phasing devices. Robots fly along when there are few players.",
+    "This port follows XPilot NG 4.7.3 (2010), the last release. Its server runs inside our server, one world per room that players join and leave while it runs, and its X11 client runs in the browser."
+  ],
+  "original": {
+    "author": "Bjørn Stabell, Ken Ronny Schouten, Bert Gijsbers, Dick Balaska; XPilot NG: Uoti Urpala, Juha Lindström, Kristian Söderblom, Erik Andersson",
+    "year": 1992,
+    "platform": "C/X11 (Unix, Linux)",
+    "version": "XPilot NG 4.7.3",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 3469062,
+    "url": "http://xpilot.sourceforge.net/"
+  },
+  "players": "1–16 online, robots fill the room (alone with robots works too)",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "A / S",
+      "action": "Turn left / right"
+    },
+    {
+      "input": "Shift",
+      "action": "Thrust"
+    },
+    {
+      "input": "Enter",
+      "action": "Fire"
+    },
+    {
+      "input": "Space",
+      "action": "Shield"
+    },
+    {
+      "input": "Tab, \\, ', ;, /",
+      "action": "Drop a mine; fire a missile, torpedo, heat-seeker, laser"
+    },
+    {
+      "input": "F (or Ctrl)",
+      "action": "Refuel, repair, connect to a ball; D drops the ball"
+    },
+    {
+      "input": "Arrow keys, Page Up / Down",
+      "action": "Lock on the closest, next or previous player"
+    },
+    {
+      "input": "M",
+      "action": "Talk (commands like /help start with a slash)"
+    },
+    {
+      "input": "Mouse",
+      "action": "Steering, once you click into the game (Esc releases the mouse)"
+    },
+    {
+      "input": "Welcome screen",
+      "action": "Internet lists the rooms; Create Room picks a map, team play, lives and robots"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "dogfight.png",
+      "caption": "Three players and three robots on circle2, under cannon fire"
+    },
+    {
+      "file": "circle.png",
+      "caption": "Another pilot's view of the same round: radar, score list and messages"
+    },
+    {
+      "file": "create-room.png",
+      "caption": "Create Room: the original's welcome screen, with this site's rooms as its servers"
+    }
+  ],
+  "added": "2026-10-26"
+}

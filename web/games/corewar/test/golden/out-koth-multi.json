@@ -1,0 +1,30 @@
+{
+ "name": "out-koth-multi",
+ "args": [
+  "-k",
+  "-r",
+  "5",
+  "paper.red",
+  "stone.red",
+  "scanner.red"
+ ],
+ "time": 5002,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "Program \"Paper\" (length 8) by \"the port's tests\"\n\n       ORG      START\nSTART  SPL.B  $     1, $     0     \n       SPL.B  $     1, $     0     \n       SPL.B  @     0, }  3620     \n       MOV.I  }    -1, >    -1     \n       MOV.I  $     3, >  2005     \n       MOV.I  {    -3, <     1     \n       JMP.B  @     0, >    -4     \n       DAT.F  <  2667, < -2666     \n\nProgram \"Stone\" (length 10) by \"the port's tests\"\n\n       ORG      START\nSTART  SPL.B  #     0, <   -10     \n       MOV.I  $     7, @     5     \n       ADD.F  $     5, $     4     \n       DJN.B  $    -2, #  1000     \n       MOV.I  $     5, >     2     \n       JMP.B  $    -1, <    -5     \n       DAT.F  #  3045, # -1910     \n       DAT.F  #  3045, #  3045     \n       DAT.F  >    -1, }     1     \n       DAT.F  <     1, <     1     \n\nProgram \"Scanner\" (length 11) by \"the port's tests\"\n\n       ORG      START\n       DAT.F  #     0, #    12     \nSTART  ADD.F  $     8, $    -1     \n       CMP.I  *    -2, @    -2     \n       SLT.AB #    20, $    -3     \n       DJN.F  $    -3, <  -200     \n       MOV.AB #    14, $     2     \n       MOV.I  $     4, >    -6     \n       DJN.B  $    -1, #     0     \n       JMP.B  $    -7, $     0     \n       DAT.F  #    98, #    98     \n       SPL.B  #     0, #     0     \n\n16 0 3 2 0\n16 0 3 2 0\n4 0 0 2 3\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 245 1780 4709afc2",
+  "H 1 240000 8fbeb2ee",
+  "R 2 0 4162 5724 e4b780de",
+  "H 2 164899 979c1dad",
+  "R 3 0 7605 5032 61cfa88a",
+  "H 3 164817 1449c59b",
+  "R 4 0 1537 478 0a20259a",
+  "H 4 240000 9efedd82",
+  "R 5 0 4286 1873 d805df72",
+  "H 5 163724 e5df693c"
+ ]
+}

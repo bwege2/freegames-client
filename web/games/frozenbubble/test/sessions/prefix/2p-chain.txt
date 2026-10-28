@@ -1,0 +1,6 @@
+# 2-player game with chain-reaction (menu: Down to 2-player game, Return, Y); the shots are the bot's
+# time 1278000000
+3000 tap down
+3500 tap return
+4000 tap y
+9000 end

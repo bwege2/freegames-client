@@ -1,0 +1,13 @@
+{
+ "name": "frontend-args-bad",
+ "args": [
+  "-z"
+ ],
+ "time": 1000000000,
+ "files": {},
+ "input": [],
+ "status": 1,
+ "stdout": "GNU Chess\n\nUsage: gnuchess [OPTION]...\n\nPlay the game of chess.\n\nOptions:\n -h, --help                        display this help and exit\n -v, --version                     display version information and exit\n -q, --quiet                       make the program silent on startup\n     --silent                      same as -q\n\n -x, --xboard                      start in engine mode\n -p, --post                        start up showing thinking\n -e, --easy                        disable thinking in opponents time\n -m, --manual                      enable manual mode\n -u, --uci                         enable UCI protocol (that is: behave like an\n                                   UCI engine); incompatible with other options\n -M SIZE, --memory=SIZE            specify memory usage in MB for hashtable\n -a FILENAME, --addbook=FILENAME   compile book.bin from pgn book FILENAME\n -g, --graphic                     enable graphic mode\n\nOptions xboard and post are accepted without leading dashes\nfor backward compatibility.\n\nMoves are accepted either in standard algebraic notation (SAN) or\nin coordinate algebraic notation.\n\nThe file 'gnuchess.ini' allows setting configuration options, but it is\nignored if the --uci option is used. See 'info gnuchess' for details\nabout the options. The program will look for 'gnuchess.ini' in\n$XDG_CONFIG_HOME/gnuchess/ and $HOME/.config/gnuchess/ in that order,\nand it will use the first one it finds, if any.\n\nReport bugs to: <bug-gnu-chess@gnu.org>.\nGNU Chess home page: <https://www.gnu.org/software/chess/>\nGeneral help using GNU software: <https://www.gnu.org/gethelp/>\n\n",
+ "stderr": "gnuchess: invalid option -- 'z'\n",
+ "written": {}
+}

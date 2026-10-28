@@ -1,0 +1,15 @@
+{
+ "name": "asm-offset",
+ "args": [
+  "-A",
+  "asm/offset.red"
+ ],
+ "time": 6012,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "       ORG          5\n       DAT.F  #     0, #     0     \n       END\n",
+ "stderr": "Warning:\n        Execution starts from outside of the program\n\nSource: filename 'asm/offset.red'\nNumber of warnings: 1\n\n",
+ "win": "",
+ "trace": []
+}

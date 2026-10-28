@@ -1,0 +1,19 @@
+# start a game from the menu, run right, shoot, jump, run left, fire with the key
+# home gamma 40
+50 key down SPACE
+51 key up SPACE
+134 mouse 300 15
+134 button 1 down
+135 button 1 up
+200 key down RIGHT
+260 key up RIGHT
+262 mouse 250 80
+265 button 1 down
+290 button 1 up
+300 key down UP
+302 key up UP
+310 key down LEFT
+340 key up LEFT
+350 key down SPACE
+380 key up SPACE
+500 end

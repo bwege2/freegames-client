@@ -1,0 +1,19 @@
+{
+ "name": "frontend-xboard-cmd",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "xboard",
+  "e4",
+  "xboard off",
+  "show board",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : 1. e4\n1. ... b8c6\nMy move is : b8c6\n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nWhite (2) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

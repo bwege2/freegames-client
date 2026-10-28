@@ -1,0 +1,10 @@
+sv_register 0
+sv_map lms1
+sv_gametype lts
+sv_warmup 0
+sv_scorelimit 3
+sv_timelimit 0
+sv_teamdamage 0
+sv_max_clients 8
+sv_name oracle-lts
+# duration 4000 iterations

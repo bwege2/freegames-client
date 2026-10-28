@@ -1,0 +1,233 @@
+# level 100, the last straight from the command line
+# time 1278000000
+# args --level 100
+2020 tap up
+2340 key down left
+2460 key up left
+2480 tap up
+2800 key down left
+2880 key up left
+2900 tap up
+3360 key down left
+3400 key up left
+3420 tap up
+3820 key down right
+3840 key up right
+3860 tap up
+4240 tap up
+4580 key down right
+4600 key up right
+4620 tap up
+4920 key down right
+5240 key up right
+5260 tap up
+5580 key down left
+5880 key up left
+5900 tap up
+6180 tap up
+6380 key down left
+6520 key up left
+6540 tap up
+6840 key down left
+6860 key up left
+6880 tap up
+7380 key down left
+7580 key up left
+7600 tap up
+8060 key down left
+8280 key up left
+8300 tap up
+8900 key down right
+9200 key up right
+9220 tap up
+9660 key down left
+9960 key up left
+9980 tap up
+10580 key down right
+10780 key up right
+10800 tap up
+11220 key down right
+11760 key up right
+11780 tap up
+12180 tap up
+12440 key down right
+12720 key up right
+12740 tap up
+13080 key down left
+13420 key up left
+13440 tap up
+13860 tap up
+14240 key down right
+14500 key up right
+14520 tap up
+14780 key down left
+14940 key up left
+14960 tap up
+15280 key down left
+15420 key up left
+15440 tap up
+15780 tap up
+16220 key down right
+16720 key up right
+16740 tap up
+17200 key down right
+17620 key up right
+17640 tap up
+18280 key down left
+19240 key up left
+19260 tap up
+19600 tap up
+19880 key down right
+20040 key up right
+20060 tap up
+20400 tap up
+20660 key down right
+20920 key up right
+20940 tap up
+21220 key down left
+21500 key up left
+21520 tap up
+21840 key down left
+22160 key up left
+22180 tap up
+22700 tap up
+23120 key down left
+23620 key up left
+23640 tap up
+24440 key down right
+25440 key up right
+25460 tap up
+25840 key down left
+26260 key up left
+26280 tap up
+26620 key down left
+26740 key up left
+26760 tap up
+27200 key down left
+27540 key up left
+27560 tap up
+28220 key down left
+28300 key up left
+28320 tap up
+29240 key down right
+30200 key up right
+30220 tap up
+30600 key down left
+31020 key up left
+31040 tap up
+31400 tap up
+31680 key down right
+31720 key up right
+31740 tap up
+32000 key down right
+32280 key up right
+32300 tap up
+32620 key down left
+33140 key up left
+33160 tap up
+33500 key down right
+34400 key up right
+34420 tap up
+34820 key down left
+34880 key up left
+34900 tap up
+35200 key down left
+35360 key up left
+35380 tap up
+35800 tap up
+36140 key down left
+36420 key up left
+36440 tap up
+36760 key down left
+36960 key up left
+36980 tap up
+37300 tap up
+37660 tap up
+37960 tap up
+38320 key down right
+38560 key up right
+38580 tap up
+38900 key down right
+39040 key up right
+39060 tap up
+39380 key down left
+39680 key up left
+39700 tap up
+39960 key down right
+40400 key up right
+40420 tap up
+40760 key down left
+40860 key up left
+40880 tap up
+41140 key down left
+41460 key up left
+41480 tap up
+41860 key down right
+42240 key up right
+42260 tap up
+42480 key down left
+43020 key up left
+43040 tap up
+43400 tap up
+43720 tap up
+44060 key down right
+44700 key up right
+44720 tap up
+45020 key down left
+45300 key up left
+45320 tap up
+45560 key down right
+45740 key up right
+45760 tap up
+45980 key down left
+46340 key up left
+46360 tap up
+46600 key down right
+47140 key up right
+47160 tap up
+47420 tap up
+47600 key down right
+48060 key up right
+48080 tap up
+48960 tap up
+49760 key down left
+49940 key up left
+49960 tap up
+50280 key down right
+50380 key up right
+50400 tap up
+50780 tap up
+51140 key down left
+51540 key up left
+51560 tap up
+51880 tap up
+52120 key down right
+52540 key up right
+52560 tap up
+53120 key down left
+53280 key up left
+53300 tap up
+53620 tap up
+53880 key down right
+53940 key up right
+53960 tap up
+54340 key down right
+54540 key up right
+54560 tap up
+55400 key down left
+55440 key up left
+55460 tap up
+55980 tap up
+# the high score of a won game: a name with a correction (Backspace, Left), then the table
+57500 key down lshift
+57600 tap b
+57700 key up lshift
+58000 tap o
+58300 tap x
+58600 tap backspace
+58900 tap b
+59200 tap left
+59500 tap y 40
+60000 tap return
+66000 tap return
+70000 end

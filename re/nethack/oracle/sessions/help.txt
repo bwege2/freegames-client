@@ -1,0 +1,13 @@
+# the help texts and the information commands: ? with its pages (the data library's help, hh, cmdhelp,
+# keyhelp, opthelp, history, license), / and ; (what is that), & (what does a key do), v and #version,
+# V (history), the options menu with a change of number_pad, ^O, #conduct, #attributes, #annotate
+seed 31
+login Scholar
+run
+keys nwemy\e\e\e\e
+keys ?a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\e
+keys ?b\x20\x20\x20\x20\e?c\x20\x20\e?d\x20\x20\x20\e?e\x20\x20\x20\x20\x20\x20\e?f\e?g\x20\x20\e?h\x20\x20\e?i\x20\x20\x20\e
+keys /a\e/y@\e/<\e;j.\e;k.\e&k\e&?\e&#\e
+keys v\e#version\n\x20\x20\x20\eV\x20\x20\x20\e
+keys O\x20\x20\x20\e^O\e#conduct\n\e^X\x20\x20\e#annotate\nmy first level\n\e
+keys Of>\x20\e

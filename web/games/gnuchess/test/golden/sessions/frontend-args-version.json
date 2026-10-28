@@ -1,0 +1,13 @@
+{
+ "name": "frontend-args-version",
+ "args": [
+  "--version"
+ ],
+ "time": 1000000000,
+ "files": {},
+ "input": [],
+ "status": 0,
+ "stdout": "GNU Chess 6.3.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nLicense GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n",
+ "stderr": "",
+ "written": {}
+}

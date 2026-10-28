@@ -1,0 +1,12 @@
+# smoke test: 1-player game, play all levels, fire a few bubbles
+# time 1278000000
+3000 tap return
+4000 tap return
+7000 tap up
+8000 tap left 300
+8500 tap up
+9500 tap right 500
+10000 tap up
+11000 tap up
+12000 tap up
+20000 end

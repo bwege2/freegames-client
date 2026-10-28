@@ -1,0 +1,36 @@
+4500 iterations; kills 16, flag grabs 6, captures 3, map changes 0
+client 0 connects and downloads ctf1
+client 1 connects and downloads ctf1
+client 2 connects and downloads ctf1
+client 3 connects and downloads ctf1
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 3 killed 2 (weapon 1)
+chat 0: going for the flag
+game message 8 (flag grab)
+kill: 0 killed 3 (weapon 1)
+kill: 2 killed 1 (weapon 0)
+game message 9 (capture)
+kill: 0 killed 3 (weapon 0)
+game message 8 (flag grab)
+kill: 1 killed 2 (weapon 1)
+game message 8 (flag grab)
+game message 4 (flag drop)
+kill: 3 killed 0 (weapon 1)
+game message 5 (flag return)
+game message 9 (capture)
+kill: 1 killed 2 (weapon 0)
+kill: 2 killed 1 (weapon 1)
+kill: 3 killed 2 (weapon 0)
+kill: 3 killed 0 (weapon 1)
+kill: 2 killed 3 (weapon 0)
+kill: 2 killed 1 (weapon 0)
+kill: 3 killed 2 (weapon 1)
+game message 8 (flag grab)
+game message 8 (flag grab)
+kill: 1 killed 2 (weapon 1)
+game message 4 (flag drop)
+kill: 3 killed 0 (weapon 0)
+game message 5 (flag return)
+kill: 0 killed 3 (weapon 1)
+game message 9 (capture)
+game message 8 (flag grab)

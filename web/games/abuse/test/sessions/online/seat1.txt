@@ -1,0 +1,12 @@
+# online, seat 1: run left, shoot with the key, change weapons
+# home gamma 40
+15 key down LEFT
+80 key up LEFT
+90 key down SPACE
+140 key up SPACE
+150 key down INSERT
+151 key up INSERT
+160 mouse 40 100
+161 button 1 down
+220 button 1 up
+300 end

@@ -1,0 +1,22 @@
+# development: a Valkyrie chosen by hand, the inventory, help, look, search, walking around
+seed 7
+run
+keys n
+keys v
+keys h
+keys f
+keys n
+keys y
+keys \e\e
+keys i\e
+keys ?\e
+keys :
+keys 5s
+keys hhhhhhhhhhllllllllllkkkkkkkkkjjjjjjjjjjjj
+keys yyyyyubbbbbbbnnnnnnn
+keys ^X\e
+keys \e
+keys O\e
+keys ^P
+keys #pray\ny\e\e\e
+keys HHHHLLLLJJJJKKKK

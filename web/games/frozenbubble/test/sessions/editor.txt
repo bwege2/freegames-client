@@ -1,0 +1,93 @@
+# The level editor from the menu: bubbles placed with the mouse (the preview follows the pointer), a
+# colour chosen, the right button erases, the eraser; levels appended, navigated, moved, deleted; the
+# help, the jump dialog; a new levelset "mine" with a level, saved; Escape back to the menu. Then a
+# 1-player game from a chosen level of "mine" (pick start level: the levelset list, its preview).
+# time 1278000000
+3000 tap down
+3300 tap down
+3600 tap down
+3900 tap down
+4600 tap return
+6000 mouse move 250 60
+6200 mouse move 260 70
+6400 mouse down 260 70 1
+6500 mouse up 260 70 1
+6800 mouse move 300 100
+6900 mouse down 300 100 1
+7000 mouse move 330 100
+7100 mouse move 362 100
+7200 mouse up 362 100 1
+7600 mouse move 110 85
+7700 mouse down 110 85 1
+7800 mouse up 110 85 1
+8200 mouse move 280 140
+8300 mouse down 280 140 1
+8400 mouse up 280 140 1
+8800 mouse move 300 100
+8900 mouse down 300 100 3
+9000 mouse up 300 100 3
+9400 mouse move 30 165
+9500 mouse down 30 165 1
+9600 mouse up 30 165 1
+9900 mouse move 262 72
+10000 mouse down 262 72 1
+10100 mouse up 262 72 1
+10500 mouse move 75 300
+10600 mouse down 75 300 1
+10700 mouse up 75 300 1
+11000 mouse move 75 260
+11100 mouse down 75 260 1
+11200 mouse up 75 260 1
+11600 tap a
+12000 tap right
+12400 tap left
+12800 tap i
+13200 tap rightbracket
+13600 tap leftbracket
+14000 tap d
+14400 mouse move 560 300
+14500 mouse down 560 300 1
+14600 mouse up 560 300 1
+15000 mouse move 560 390
+15100 mouse down 560 390 1
+15200 mouse up 560 390 1
+15600 tap f1
+17000 tap return
+17600 tap j
+18000 tap 2
+18400 tap return
+19000 tap s
+19500 mouse move 560 90
+19600 mouse down 560 90 1
+19700 mouse up 560 90 1
+20200 tap m
+20400 tap i
+20600 tap n
+20800 tap e
+21200 tap return
+22000 mouse move 110 85
+22100 mouse down 110 85 1
+22200 mouse up 110 85 1
+22500 mouse move 220 60
+22600 mouse down 220 60 1
+22700 mouse up 220 60 1
+22900 mouse move 252 60
+23000 mouse down 252 60 1
+23100 mouse up 252 60 1
+23300 mouse move 284 60
+23400 mouse down 284 60 1
+23500 mouse up 284 60 1
+24000 tap s
+24500 tap escape
+27000 tap up
+27300 tap up
+27600 tap up
+27900 tap up
+28300 tap return
+29500 tap down
+30000 tap return
+32000 tap down
+32600 tap right
+33200 tap return
+37000 tap up
+40000 end

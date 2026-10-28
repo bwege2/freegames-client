@@ -1,0 +1,19 @@
+{
+ "name": "frontend-solve",
+ "args": [],
+ "time": 1000000000,
+ "files": {
+  "mates.epd": "6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - bm Rd8#; id \"back rank\";\n# a comment\nr1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - bm Qxf7#; id \"scholar\";\n4k3/8/8/8/8/8/4P3/4K3 w - - bm Kf1; id \"pawn ending\";\n"
+ },
+ "input": [
+  "easy",
+  "depth 3",
+  "solve mates.epd",
+  "solveepd missing.epd",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 3.\nWhite (1) : \n : Best move = Rd8#\n\nwhite  \n\n. . . . . . k . \n. . . . . p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . P P P \n. . . R . . K . \n\u0000 \n\nSolve position:\n\t6k1/5ppp/8/8/8/8/5PPP/3R2K1 w - - bm Rd8#; id \"back rank\";\n\n\nblack  \n\n. . . R . . k . \n. . . . . p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . P P P \n. . . . . . K . \n\u0000 \n\nMy move is : Rd8#\nid:  : Correct:  <Rd8#> Rd8#\nCorrect=1 Total=1\n\n : Best move = Qxf7#\n\nwhite  KQkq\n\nr . b q k b . r \np p p p . p p p \n. . n . . n . . \n. . . . p . . Q \n. . B . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B . K . N R \n\u0000 \n\nSolve position:\n\tr1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - bm Qxf7#; id \"scholar\";\n\n1-0 {White mates}\n\nWhite (1) : \nblack  KQkq\n\nr . b q k b . r \np p p p . Q p p \n. . n . . n . . \n. . . . p . . . \n. . B . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B . K . N R \n\u0000 \n\nMy move is : Qxf7#\nid:  : Correct:  <Qxf7#> Qxf7#\nCorrect=2 Total=2\n\n : Best move = Kf1\n\nwhite  \n\n. . . . k . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . K . . . \n\u0000 \n\nSolve position:\n\t4k3/8/8/8/8/8/4P3/4K3 w - - bm Kf1; id \"pawn ending\";\n\n1-0 {White mates}\n\n\nblack  \n\n. . . . k . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . K P . . . \n. . . . . . . . \n\u0000 \n\nMy move is : Kd2\nid:  : Incorrect:  <Kd2> Kf1\nCorrect=2 Total=3\nError opening file missing.epd\nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

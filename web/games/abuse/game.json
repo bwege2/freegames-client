@@ -1,0 +1,76 @@
+{
+  "id": "abuse",
+  "title": "Abuse",
+  "tagline": "Run, jump and shoot through an underground prison overrun by mutants.",
+  "summary": [
+    "Abuse (1996) is a side-scrolling action game by Crack dot Com. You are Nick Vrenna, the one prisoner immune to the virus that turned the guards and inmates of a desert prison into ant-like monsters. You run and jump with the keys and aim and fire with the mouse, in any direction, while the levels light up, open and collapse around you.",
+    "Laser, grenade launcher, rocket launcher, firebomb, plasma rifle and death saber; power-ups for speed, flight and health; switches, doors, teleporters and secret rooms. You save at the consoles in the levels, and the game keeps its saves in your account.",
+    "This port follows Abuse 0.8, the SDL version by Sam Hocevar, with the original's levels, graphics and Lisp game logic running unchanged. Its sounds and music are not free and are not included: the game plays silently. Online, two to eight players fight a deathmatch on the original's network levels."
+  ],
+  "original": {
+    "author": "Crack dot Com (Jonathan Clark, Dave Taylor and others); SDL port by Anthony Kruize, Jeremy Scott and Sam Hocevar",
+    "year": 1996,
+    "platform": "C++/SDL (Linux, Windows, macOS); DOS originally",
+    "version": "Abuse 0.8 (SDL), 2011",
+    "license": "Public domain (game and data), GPL-2.0-or-later (SDL port), WTFPL (Lisp library); sounds and music not free",
+    "packageBytes": 6053500,
+    "url": "http://abuse.zoy.org/"
+  },
+  "players": "1, or 2–8 online",
+  "genres": [
+    "Side-scroller"
+  ],
+  "modes": [
+    "single",
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "Left / Right arrow",
+      "action": "Run"
+    },
+    {
+      "input": "Up arrow",
+      "action": "Jump; climb up ladders"
+    },
+    {
+      "input": "Down arrow",
+      "action": "Use: switches, doors, teleporters, the save consoles; climb down"
+    },
+    {
+      "input": "Mouse, left button (or Space)",
+      "action": "Aim and fire"
+    },
+    {
+      "input": "Right mouse button",
+      "action": "Special power (after a power-up: fly, run fast, sneak)"
+    },
+    {
+      "input": "Mouse wheel, Right Ctrl / Insert",
+      "action": "Previous / next weapon (or click a weapon on the status bar)"
+    },
+    {
+      "input": "p, Esc",
+      "action": "Pause; the main menu (load, volume, gamma, online game, quit)"
+    },
+    {
+      "input": "h or F1",
+      "action": "Help screens"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "level1-fight.png",
+      "caption": "The first level: Nick fires his laser at the mouse pointer while the level's hints scroll in"
+    },
+    {
+      "file": "level1.png",
+      "caption": "Running down a ramp in the dark corridors of the prison"
+    },
+    {
+      "file": "menu.png",
+      "caption": "The title screen with the main menu: start, difficulty, gamma, volume, online game, quit"
+    }
+  ],
+  "added": "2026-10-27"
+}

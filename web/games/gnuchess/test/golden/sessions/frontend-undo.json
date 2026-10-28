@@ -1,0 +1,30 @@
+{
+ "name": "frontend-undo",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "undo",
+  "remove",
+  "easy",
+  "depth 2",
+  "d4",
+  "e4",
+  "undo",
+  "undo",
+  "remove",
+  "remove",
+  "remove",
+  "c4",
+  "show game",
+  "remove",
+  "show game",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : No moves to undo!\n\nwhite  KQkq\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nP P P P P P P P \nR N B Q K B N R \n\u0000 \nWhite (1) : No moves to undo!\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : 1. d4\n\nblack  KQkq  d3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . P . . . . \n. . . . . . . . \nP P P . P P P P \nR N B Q K B N R \n\u0000 \nThinking...\nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P . . . . \n. . . . . . . . \nP P P . P P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : Nc6\nWhite (2) : 2. e4\n\nblack  KQkq  e3\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : d5\nWhite (3) : \nblack  KQkq  e3\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nBlack (2) : \nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P . . . . \n. . . . . . . . \nP P P . P P P P \nR N B Q K B N R \n\u0000 \nWhite (2) : \nwhite  KQkq\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nP P P P P P P P \nR N B Q K B N R \n\u0000 \nWhite (2) : No moves to undo!\nWhite (2) : No moves to undo!\nWhite (2) : 1. c4\n\nblack  KQkq  c3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . P . . . . . \n. . . . . . . . \nP P . P P P P P \nR N B Q K B N R \n\u0000 \nThinking...\nThinking...\n\nwhite  KQkq  d6\n\nr n b q k b n r \np p p . p p p p \n. . . . . . . . \n. . . p . . . . \n. . P . . . . . \n. . . . . . . . \nP P . P P P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : d5\nWhite (2) :       White   Black\n  1.  c4      d5     \n\nWhite (2) : \nwhite  KQkq\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nP P P P P P P P \nR N B Q K B N R \n\u0000 \nFile 'game.log' already exists. Please delete it first, or choose a different file name.\nWhite (2) : White (2) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {
+  "game.log": "[Event \"\"]\n[Site \"\"]\n[Date \"2001.09.09\"]\n[Round \"\"]\n[White \"\"]\n[Black \"GNU Chess 6.3.0\"]\n[WhiteELO \"0\"]\n[BlackELO \"0\"]\n[Result \"\"]\n\n\n\n"
+ }
+}

@@ -1,0 +1,24 @@
+# tdm: two against two on dm1 with team damage, warmup, a time limit that ends the match and a new one
+duration 4600
+server sv_register 0
+server sv_map dm1
+server sv_gametype tdm
+server sv_warmup 5
+server sv_scorelimit 0
+server sv_timelimit 1
+server sv_teamdamage 1
+server sv_max_clients 8
+server sv_name oracle-tdm
+client 0 name=ann seed=5 mode=hunt
+client 1 name=ben seed=6 mode=hunt
+client 2 name=cid seed=7 mode=random
+client 3 name=dot seed=8 mode=hunt
+at 5 0 connect
+at 6 1 connect
+at 7 2 connect
+at 8 3 connect
+at 400 2 mode hunt
+at 700 1 say team cover me
+at 900 3 team 0
+at 1300 0 emote 1
+at 2000 3 team 1

@@ -1,0 +1,42 @@
+{
+  "id": "corewar",
+  "title": "Core War",
+  "tagline": "Write programs that fight for a computer's memory.",
+  "summary": [
+    "In Core War, programs called warriors, written in an assembly language named Redcode, share the memory (the core) of a simulated computer. They take turns executing one instruction each; a warrior loses when all of its processes have died.",
+    "A. K. Dewdney introduced the game in Scientific American in 1984. Players still meet under the ICWS'94 rules, and pMARS is the simulator they use.",
+    "This is pMARS 0.9.5 in the browser: its assembler, its options on a command line, its X11 core display and its debugger cdb, with the example warriors of the package. Your warriors are kept on the server, and you can battle other players online."
+  ],
+  "original": {
+    "author": "A. K. Dewdney & D. G. Jones (game); Albert Ma, Na'ndor Sieben, Stefan Strack & Mintardjo Wangsaw (pMARS)",
+    "year": 1984,
+    "platform": "C (Unix, X11 display)",
+    "version": "pMARS 0.9.5",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 161096,
+    "url": "http://www.koth.org/pmars/"
+  },
+  "players": "2 to 36 warriors; 2 to 8 players online",
+  "genres": ["Programming"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-26",
+  "controls": [
+    { "input": "Command line, Run or Enter", "action": "Run pmars with these options and warrior files" },
+    { "input": "Options", "action": "A form that writes pMARS's options into the command line" },
+    { "input": "Files, editor, Save", "action": "Your warriors (.red) in your account; open an example to copy it" },
+    { "input": "0 to 4 (core window)", "action": "Display level: nothing, executions, writes, increments, reads" },
+    { "input": "< and >", "action": "Slower, faster" },
+    { "input": "d (or another key)", "action": "Enter the debugger, cdb" },
+    { "input": "c, r or Space", "action": "Clear the core display" },
+    { "input": "q or Esc", "action": "Quit pMARS" },
+    { "input": "cdb: a command and Enter", "action": "help, step, go, list, edit, fill, trace, registers, macro and the rest (help lists them)" },
+    { "input": "cdb: arrows, F1 to F12, Ctrl or Alt + letter, mouse buttons on the core", "action": "The macros of pmars.mac (up, f5, mousel and others)" },
+    { "input": "Ctrl+C in the terminal", "action": "Interrupt: enter the debugger" },
+    { "input": "Online battle", "action": "The lobby; every player enters a warrior, every client runs the battle" }
+  ],
+  "screenshots": [
+    { "file": "battle.png", "caption": "Sunset against Excalibur in pMARS's X11 core display" },
+    { "file": "cdb.png", "caption": "cdb, the debugger, in the window's text panel" },
+    { "file": "results.png", "caption": "The listing and the results pMARS prints" }
+  ]
+}

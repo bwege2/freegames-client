@@ -1,0 +1,30 @@
+{
+ "name": "out-return-winner",
+ "args": [
+  "-b",
+  "-r",
+  "4",
+  "-o",
+  "-Q",
+  "101",
+  "paper.red",
+  "stone.red"
+ ],
+ "time": 5008,
+ "cycles": 0,
+ "input": null,
+ "status": 1,
+ "stdout": "Paper by the port's tests scores 9\nStone by the port's tests scores 3\nResults: 3 1 0\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 4567 062594a6",
+  "H 1 116255 5bec3e42",
+  "R 2 0 5515 60b72466",
+  "H 2 29971 094a1fef",
+  "R 3 0 7567 5dec7f26",
+  "H 3 68966 b3819554",
+  "R 4 0 1030 4b758bfa",
+  "H 4 29301 40dd99aa"
+ ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nethack",
+  "title": "NetHack",
+  "tagline": "Descend into the Mazes of Menace and bring back the Amulet of Yendor.",
+  "summary": [
+    "NetHack is the roguelike from 1987 that never stopped growing: pick a role (archeologist, valkyrie, wizard, ...), a race and an alignment, then go down level after level of a dungeon made anew every game, through shops, temples, Sokoban and the Gnomish Mines, the quest of your role and Gehennom, to the Amulet of Yendor at the bottom and back up to the Astral Plane.",
+    "Nearly everything interacts with everything: you can pray, dip, engrave, polymorph, tame, wish and die in more ways than anywhere else. It grew out of Hack and is written by the NetHack DevTeam.",
+    "This port follows NetHack 3.6.7 with its tty interface, translated to TypeScript from the original C source and checked screen for screen against it. Your game is saved on the server (S), bones stay with your account, and the record of high scores is shared by everyone who plays here."
+  ],
+  "original": {
+    "author": "The NetHack DevTeam (after Hack by Jay Fenlason and Andries Brouwer)",
+    "year": 1987,
+    "platform": "C (Unix, DOS, Windows, macOS)",
+    "version": "NetHack 3.6.7",
+    "license": "NGPL",
+    "packageBytes": 5577415,
+    "url": "https://www.nethack.org/"
+  },
+  "players": "1",
+  "genres": ["Roguelike", "Role-playing"],
+  "modes": ["single"],
+  "added": "2026-10-27",
+  "controls": [
+    {
+      "input": "h j k l y u b n, arrow keys, Home/End/PageUp/PageDown",
+      "action": "Move or attack in that direction; with Shift (H J K L ..., Shift+arrow) run"
+    },
+    {
+      "input": "? and the letters",
+      "action": "The original's commands: ? lists them (i inventory, w wield, W wear, e eat, q quaff, r read, z zap, Z cast, s search, < > stairs, , pick up, d drop, #pray ...)"
+    },
+    {
+      "input": "#",
+      "action": "Extended commands (#pray, #enhance, #force, #loot, #teleport ...): type the name, Enter"
+    },
+    {
+      "input": "S",
+      "action": "Save the game and leave (the next Play restores it)"
+    },
+    {
+      "input": "Ctrl+P, Ctrl+R, Ctrl+X, Ctrl+D",
+      "action": "Earlier messages, redraw, your attributes, kick (Ctrl+T, which the browser keeps, is #teleport)"
+    },
+    {
+      "input": "Alt+key",
+      "action": "The original's meta commands (Alt+a #adjust, Alt+p #pray, ...)"
+    },
+    {
+      "input": "Esc, Space, Enter",
+      "action": "Leave a prompt or a menu, go on after --More--, end a line"
+    },
+    {
+      "input": "O",
+      "action": "Options, among them number_pad (the digits move; the arrow keys follow)"
+    }
+  ],
+  "screenshots": [
+    { "file": "start.png", "caption": "A Valkyrie on the first level, her kitten next to her" },
+    { "file": "character.png", "caption": "Choosing a role" },
+    { "file": "inventory.png", "caption": "Her inventory" },
+    { "file": "map.png", "caption": "Out of the first room" }
+  ]
+}

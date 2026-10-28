@@ -1,0 +1,12 @@
+# online, seat 0: run right, aim and shoot, jump
+# home gamma 40
+20 key down RIGHT
+60 key up RIGHT
+62 mouse 250 80
+65 button 1 down
+120 button 1 up
+130 key down UP
+132 key up UP
+150 key down LEFT
+200 key up LEFT
+300 end

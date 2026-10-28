@@ -1,0 +1,111 @@
+// Writes src/assets.ts from re/pinball/orig/atari (run `bash re/pinball/fetch.sh` first):
+//   node games/pinball/test/gen-assets.ts
+// The original's part bitmaps and title picture are not in the Apple II repository; Bill Budge's
+// Atari 800 repository (MIT) has both: BITMAPS.OBJ, the bitmap blocks of $7000-$76FF exactly as the
+// Apple's RUN.S lays them out (every part's row, column, height, width and frame size are the same
+// in both listings), stored in the Atari's order (8 pixels a byte, the leftmost in bit 7), and
+// PCSA2.PIC, the Apple II hi-res title picture. Here the bitmaps go into the Apple's order (7 pixels
+// a byte, the leftmost in bit 0; bit 7, the Apple's colour bit, clear): each row of a w-byte bitmap
+// is 7w pixels on the Apple, and the Atari's last w pixels of the row must be blank (checked).
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { IMAGE, SYM } from '../src/image.ts';
+
+const ATARI = join(import.meta.dirname, '../../../../re/pinball/orig/atari/Disk1');
+const R = SYM.RUN;
+
+function runByte(addr: number): number {
+  for (const seg of IMAGE.RUN) {
+    const i = addr - seg.org;
+    if (i >= 0 && i < seg.hex.length / 2) return parseInt(seg.hex.slice(i * 2, i * 2 + 2), 16);
+  }
+  throw new Error(`no RUN.S byte at $${addr.toString(16)}`);
+}
+
+/** the parts library (EDIT.S's box order): each part's bitmap address and width in bytes */
+const PARTS = [
+  'LAUNCHER', 'LEFTFLIPPER', 'RIGHTFLIPPER', 'BALL', 'BMP1', 'BMP2', 'BMP3', 'BMP4', 'BMP5', 'BMP6', 'LKICK', 'RKICK',
+  'KICK1', 'KICK2', 'ROLL1', 'ROLL2', 'ROLL3', 'TARG1', 'TARG2', 'TARG3', 'TARG4', 'TARG5', 'TARG6', 'LFLIPPER2',
+  'RFLIPPER2', 'LANE1', 'LANE2', 'LANE3', 'GATE1', 'GATE2', 'GATE3', 'GATE4', 'DROP1', 'DROP2', 'CATCH1', 'CATCH2',
+  'SPIN1', 'MAG1',
+] as const;
+
+export function convertBitmaps(atari: Uint8Array): { bytes: Uint8Array; lost: string[] } {
+  const base = 0x7000;
+  // the width of the bitmap each byte belongs to: from each part's address to the next one's
+  const starts = PARTS.map((p) => {
+    const at = R[p];
+    const n = runByte(at + 2);
+    const lb = at + 3 + 2 * n;
+    return { part: p, addr: runByte(lb) | (runByte(lb + 1) << 8), w: runByte(lb + 6) };
+  }).sort((a, b) => a.addr - b.addr);
+  const end = R.BALLB + 5;
+  const bytes = new Uint8Array(0x700);
+  const lost: string[] = [];
+  for (let k = 0; k < starts.length; k++) {
+    const { part, addr, w } = starts[k];
+    const stop = k + 1 < starts.length ? starts[k + 1].addr : end;
+    for (let row = addr; row < stop; row += w) {
+      // 8w Atari pixels, leftmost in bit 7 of the first byte
+      const px: number[] = [];
+      for (let b = 0; b < w; b++) {
+        const v = atari[row - base + b];
+        for (let i = 7; i >= 0; i--) px.push((v >> i) & 1);
+      }
+      for (let i = 7 * w; i < 8 * w; i++) if (px[i]) lost.push(`${part} row at $${row.toString(16)} pixel ${i}`);
+      for (let b = 0; b < w && row + b < stop; b++) {
+        let v = 0;
+        for (let i = 0; i < 7; i++) v |= px[7 * b + i] << i;
+        bytes[row - base + b] = v;
+      }
+    }
+  }
+  return { bytes, lost };
+}
+
+/**
+ * The starting table: the Atari disk's TST.O, which its build (Disk1/MAKE1) loads as the table in
+ * memory at the start, $4000 on: LOGIC, WSET, PBDATA (the parts' count, their sizes, the parts), in
+ * the same format and coordinates as the Apple's but for the fill colour, which the Atari gives as
+ * the pixel pattern and the Apple as an index into PPAK.S's CLRPATCH: the same pixels are the same
+ * colour (Atari $55, the odd columns: the Apple's green, 2; $AA, the even ones: violet, 4; $FF:
+ * white, 6). The bytes after the parts (the editor's working space in memory) are left out.
+ */
+export function convertStart(tst: Uint8Array): Uint8Array {
+  const PBDATA = 0x1c;
+  const n = tst[PBDATA];
+  const sizes = Array.from(tst.subarray(PBDATA + 1, PBDATA + 1 + n));
+  const end = PBDATA + 1 + n + sizes.reduce((a, b) => a + b, 0);
+  const t = tst.slice(0, end);
+  const colour: Record<number, number> = { 0x00: 0, 0x55: 2, 0xaa: 4, 0xff: 6 };
+  let at = PBDATA + 1 + n;
+  for (const size of sizes) {
+    const c = colour[t[at + 1]];
+    if (c === undefined) throw new Error(`a colour the Apple has not: $${t[at + 1].toString(16)}`);
+    t[at + 1] = c;
+    at += size;
+  }
+  return t;
+}
+
+export function render(): string {
+  const atari = new Uint8Array(readFileSync(join(ATARI, 'BITMAPS.OBJ')));
+  const title = new Uint8Array(readFileSync(join(ATARI, 'PCSA2.PIC')));
+  const start = convertStart(new Uint8Array(readFileSync(join(ATARI, 'TST.O'))));
+  const { bytes, lost } = convertBitmaps(atari);
+  if (lost.length) throw new Error(`pixels the Apple's rows cannot hold:\n${lost.join('\n')}`);
+  const b64 = (b: Uint8Array) => Buffer.from(b).toString('base64');
+  const lines = (s: string) => s.match(/.{1,96}/g)!.map((l) => `  '${l}'`).join(' +\n');
+  let s = '// Generated by test/gen-assets.ts from Bill Budge\'s Atari 800 repository (re/pinball/orig/atari, MIT\n';
+  s += '// license): do not edit. BITMAPS: the parts\' bitmaps for $7000-$76FF in the Apple\'s byte order;\n';
+  s += '// TITLE: the Apple II title picture (hi-res page 1, $2000-$3FFF); START: the starting table\n';
+  s += '// ($4000 on, TST.O with the Apple\'s colours). Base64.\n\n';
+  s += `export const BITMAPS =\n${lines(b64(bytes))};\n\n`;
+  s += `export const TITLE =\n${lines(b64(title))};\n\n`;
+  s += `export const START =\n${lines(b64(start))};\n`;
+  return s;
+}
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+  writeFileSync(join(import.meta.dirname, '../src/assets.ts'), render());
+}

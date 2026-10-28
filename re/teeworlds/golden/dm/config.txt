@@ -1,0 +1,9 @@
+sv_register 0
+sv_map dm1
+sv_gametype dm
+sv_warmup 0
+sv_scorelimit 20
+sv_timelimit 0
+sv_max_clients 8
+sv_name oracle-dm
+# duration 3000 iterations

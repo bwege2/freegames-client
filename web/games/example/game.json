@@ -1,0 +1,29 @@
+{
+  "id": "example",
+  "title": "Example: dice race",
+  "tagline": "The reference game for ports: rooms, relay, storage and scores.",
+  "summary": [
+    "Not a real game: it shows how a port uses the SDK and the server (docs/GAME-INTEGRATION.md).",
+    "Two to four players race to a target; the server rolls the dice from the round's seed and decides the winner, and the winner's roll count goes into a shared score table."
+  ],
+  "original": {
+    "author": "freegames",
+    "year": 2026,
+    "platform": "Browser",
+    "version": "1",
+    "license": "MIT",
+    "packageBytes": 0,
+    "url": "https://github.com/bwege2/freegames"
+  },
+  "players": "1–4 online",
+  "genres": [],
+  "modes": ["online"],
+  "controls": [
+    {
+      "input": "Mouse",
+      "action": "Buttons"
+    }
+  ],
+  "screenshots": [],
+  "listed": false
+}

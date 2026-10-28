@@ -1,0 +1,83 @@
+{
+  "id": "gnuchess",
+  "title": "GNU Chess",
+  "tagline": "The GNU Project's chess program, at its own prompt.",
+  "summary": [
+    "GNU Chess is one of the oldest free chess programs: Stuart Cracraft started it in 1984 as part of the GNU Project, and it was rewritten several times. Version 6 plays with an engine based on Fabien Letouzey's Fruit 2.1, with PolyGlot between it and the GNU Chess command interface.",
+    "You play by typing moves such as e4, Nf3 or e2e4 at its prompt, and it shows the board as text, or with chess pieces in graphic mode. Commands set the depth and the clock, take moves back, give hints from the opening book, save and load games and positions, and let two people play at one keyboard in manual mode.",
+    "This is GNU Chess 6.3.0. Saved games are kept on the server, and two people can play each other online."
+  ],
+  "original": {
+    "author": "the GNU Project",
+    "year": 1984,
+    "platform": "C++ (command line)",
+    "version": "6.3.0",
+    "license": "GPL-3.0-or-later",
+    "packageBytes": 835620,
+    "url": "https://www.gnu.org/software/chess/"
+  },
+  "players": "1 against the computer, 2 at one keyboard (manual mode) or online",
+  "genres": ["Turn-based strategy"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-26",
+  "controls": [
+    {
+      "input": "Keyboard",
+      "action": "Type a move (e4, Nf3, exd5, O-O, e8=Q, or e2e4 as from and to square) or a command, and press Enter"
+    },
+    {
+      "input": "Backspace",
+      "action": "Correct the line before Enter (Ctrl+U clears it)"
+    },
+    {
+      "input": "help, help COMMAND",
+      "action": "The list of commands, and what one of them does"
+    },
+    {
+      "input": "depth N, level M T I, easy",
+      "action": "How the computer thinks: to N half-moves, M moves in T minutes plus I seconds a move, not in your time"
+    },
+    {
+      "input": "undo, remove, hint, book on",
+      "action": "Take back one move or two, ask for a hint, play from the opening book"
+    },
+    {
+      "input": "graphic, coords",
+      "action": "The board with chess pieces on coloured squares, and with its ranks and files"
+    },
+    {
+      "input": "pgnsave FILE, pgnload FILE, save FILE, load FILE",
+      "action": "Save the game (PGN) or the position (EPD) in your account, and load them again; Files lists them"
+    },
+    {
+      "input": "manual",
+      "action": "Two people at one keyboard: GNU Chess only checks the moves"
+    },
+    {
+      "input": "Play online",
+      "action": "Play White or Black against someone else; resign, and draw to offer or accept a draw"
+    },
+    {
+      "input": "quit",
+      "action": "Back to the game page"
+    },
+    {
+      "input": "Mouse wheel",
+      "action": "Scroll back through what GNU Chess has printed"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "play.png",
+      "caption": "A game against GNU Chess, searching 5 half-moves deep"
+    },
+    {
+      "file": "graphic.png",
+      "caption": "The graphic board, with coordinates"
+    },
+    {
+      "file": "thinking.png",
+      "caption": "post shows the engine's thinking; show game the moves so far"
+    }
+  ]
+}

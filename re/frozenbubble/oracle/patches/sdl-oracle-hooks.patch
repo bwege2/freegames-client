@@ -1,0 +1,164 @@
+diff -ru a/src/timer/unix/SDL_systimer.c b/src/timer/unix/SDL_systimer.c
+--- a/src/timer/unix/SDL_systimer.c	2026-10-28 07:02:28.622811527 +0100
++++ b/src/timer/unix/SDL_systimer.c	2026-10-28 07:02:28.623562392 +0100
+@@ -68,8 +68,14 @@
+ #endif
+ }
+ 
++/* Frozen Bubble oracle: the clock is virtual when the oracle's shim (LD_PRELOAD) defines these */
++extern Uint32 fbshim_get_ticks(void) __attribute__((weak));
++extern int fbshim_delay(Uint32 ms) __attribute__((weak));
++
+ Uint32 SDL_GetTicks (void)
+ {
++	if ( fbshim_get_ticks ) return fbshim_get_ticks();
++	{
+ #if HAVE_CLOCK_GETTIME
+ 	Uint32 ticks;
+ 	struct timespec now;
+@@ -83,10 +89,12 @@
+ 	ticks=(now.tv_sec-start.tv_sec)*1000+(now.tv_usec-start.tv_usec)/1000;
+ 	return(ticks);
+ #endif
++	}
+ }
+ 
+ void SDL_Delay (Uint32 ms)
+ {
++	if ( fbshim_delay && fbshim_delay(ms) ) return;
+ #if SDL_THREAD_PTH
+ 	pth_time_t tv;
+ 	tv.tv_sec  =  ms/1000;
+@@ -208,6 +216,9 @@
+ /* This is only called if the event thread is not running */
+ int SDL_SYS_TimerInit(void)
+ {
++	/* Frozen Bubble oracle: no timer thread (its start and its SDL_Delay loop would run beside
++	   the game; the game adds no SDL timers) */
++	if ( fbshim_get_ticks ) return(SDL_SetTimerThreaded(1));
+ 	timer_alive = 1;
+ 	timer = SDL_CreateThread(RunTimer, NULL);
+ 	if ( timer == NULL )
+diff -ru a/src/video/dummy/SDL_nullevents.c b/src/video/dummy/SDL_nullevents.c
+--- a/src/video/dummy/SDL_nullevents.c	2026-10-28 07:02:28.622937650 +0100
++++ b/src/video/dummy/SDL_nullevents.c	2026-10-28 07:02:28.623597668 +0100
+@@ -31,9 +31,38 @@
+ #include "SDL_nullvideo.h"
+ #include "SDL_nullevents_c.h"
+ 
++/* Frozen Bubble oracle: the shim (LD_PRELOAD) hands over the scripted input that is due; it is
++   posted as a real driver posts what the window system reports (X11: unicode on key presses only,
++   when SDL_EnableUNICODE is on; the pointer moves before a button changes elsewhere). */
++typedef struct { int type, sym, unicode, x, y, button; } fbshim_event;
++extern int fbshim_next_event(fbshim_event *e) __attribute__((weak));
++
+ void DUMMY_PumpEvents(_THIS)
+ {
+-	/* do nothing. */
++	fbshim_event e;
++	if ( ! fbshim_next_event ) return;
++	while ( fbshim_next_event(&e) ) {
++		SDL_keysym k;
++		int mx, my;
++		switch ( e.type ) {
++		case 1: case 2:	/* key down / up */
++			k.scancode = 0;
++			k.sym = (SDLKey)e.sym;
++			k.mod = KMOD_NONE;
++			k.unicode = (e.type == 1 && SDL_TranslateUNICODE) ? (Uint16)e.unicode : 0;
++			SDL_PrivateKeyboard(e.type == 1 ? SDL_PRESSED : SDL_RELEASED, &k);
++			break;
++		case 3:		/* motion */
++			SDL_PrivateMouseMotion(0, 0, (Sint16)e.x, (Sint16)e.y);
++			break;
++		case 4: case 5:	/* button down / up */
++			SDL_GetMouseState(&mx, &my);
++			if ( mx != e.x || my != e.y )
++				SDL_PrivateMouseMotion(0, 0, (Sint16)e.x, (Sint16)e.y);
++			SDL_PrivateMouseButton(e.type == 4 ? SDL_PRESSED : SDL_RELEASED, (Uint8)e.button, (Sint16)e.x, (Sint16)e.y);
++			break;
++		}
++	}
+ }
+ 
+ void DUMMY_InitOSKeymap(_THIS)
+diff -ru a/src/video/dummy/SDL_nullvideo.c b/src/video/dummy/SDL_nullvideo.c
+--- a/src/video/dummy/SDL_nullvideo.c	2026-10-28 07:02:28.623034739 +0100
++++ b/src/video/dummy/SDL_nullvideo.c	2026-10-28 07:02:28.623862476 +0100
+@@ -66,6 +66,21 @@
+ 
+ /* DUMMY driver bootstrap functions */
+ 
++/* Frozen Bubble oracle: the pointer is the window system's (as on X11), not drawn into the
++   screen's pixels by SDL's software cursor */
++static WMcursor *DUMMY_CreateWMCursor(_THIS, Uint8 *data, Uint8 *mask, int w, int h, int hot_x, int hot_y)
++{
++	return (WMcursor *)SDL_malloc(1);
++}
++static void DUMMY_FreeWMCursor(_THIS, WMcursor *cursor)
++{
++	SDL_free(cursor);
++}
++static int DUMMY_ShowWMCursor(_THIS, WMcursor *cursor)
++{
++	return(1);
++}
++
+ static int DUMMY_Available(void)
+ {
+ 	const char *envr = SDL_getenv("SDL_VIDEODRIVER");
+@@ -126,6 +141,9 @@
+ 	device->GetWMInfo = NULL;
+ 	device->InitOSKeymap = DUMMY_InitOSKeymap;
+ 	device->PumpEvents = DUMMY_PumpEvents;
++	device->CreateWMCursor = DUMMY_CreateWMCursor;
++	device->FreeWMCursor = DUMMY_FreeWMCursor;
++	device->ShowWMCursor = DUMMY_ShowWMCursor;
+ 
+ 	device->free = DUMMY_DeleteDevice;
+ 
+@@ -146,8 +164,9 @@
+ 
+ 	/* Determine the screen depth (use default 8-bit depth) */
+ 	/* we change this during the SDL_SetVideoMode implementation... */
+-	vformat->BitsPerPixel = 8;
+-	vformat->BytesPerPixel = 1;
++	/* Frozen Bubble oracle: a 24/32-bit desktop (XRGB8888) */
++	vformat->BitsPerPixel = 32;
++	vformat->BytesPerPixel = 4;
+ 
+ 	/* We're done! */
+ 	return(0);
+@@ -161,6 +180,9 @@
+ SDL_Surface *DUMMY_SetVideoMode(_THIS, SDL_Surface *current,
+ 				int width, int height, int bpp, Uint32 flags)
+ {
++	/* Frozen Bubble oracle: always 32 bpp XRGB8888, whatever depth is asked (with SDL_ANYFORMAT
++	   the program gets this surface itself, as on a 24/32-bit X11 desktop) */
++	bpp = 32;
+ 	if ( this->hidden->buffer ) {
+ 		SDL_free( this->hidden->buffer );
+ 	}
+@@ -176,7 +198,7 @@
+ 	SDL_memset(this->hidden->buffer, 0, width * height * (bpp / 8));
+ 
+ 	/* Allocate the new pixel format for the screen */
+-	if ( ! SDL_ReallocFormat(current, bpp, 0, 0, 0, 0) ) {
++	if ( ! SDL_ReallocFormat(current, bpp, 0x00FF0000, 0x0000FF00, 0x000000FF, 0) ) {
+ 		SDL_free(this->hidden->buffer);
+ 		this->hidden->buffer = NULL;
+ 		SDL_SetError("Couldn't allocate new pixel format for requested mode");
+@@ -215,9 +237,12 @@
+ 	return;
+ }
+ 
++/* Frozen Bubble oracle: every screen update is a frame of the trace */
++extern void fbshim_update(SDL_Surface *screen, int numrects, SDL_Rect *rects) __attribute__((weak));
++
+ static void DUMMY_UpdateRects(_THIS, int numrects, SDL_Rect *rects)
+ {
+-	/* do nothing. */
++	if ( fbshim_update ) fbshim_update(this->screen, numrects, rects);
+ }
+ 
+ int DUMMY_SetColors(_THIS, int firstcolor, int ncolors, SDL_Color *colors)

@@ -1,0 +1,15 @@
+{
+ "name": "asm-crlf",
+ "args": [
+  "-A",
+  "asm/crlf.red"
+ ],
+ "time": 6018,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "       ORG          0\n       MOV.I  $     0, $     1     \n       DAT.F  #     0, #     0     \n       END\n",
+ "stderr": "",
+ "win": "",
+ "trace": []
+}

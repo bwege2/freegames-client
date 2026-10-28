@@ -1,0 +1,45 @@
+# joinleave: spectators, spectator modes, team changes, a disconnect and a timeout with reconnects,
+# votes (spectate, kick, an option that changes the map: every client gets MAP_CHANGE and downloads
+# dm2), a skin change and a ready change
+duration 4500
+server sv_register 0
+server sv_map dm1
+server sv_gametype dm
+server sv_warmup 0
+server sv_scorelimit 50
+server sv_timelimit 0
+server sv_max_clients 8
+server sv_vote_kick_bantime 0
+server sv_name oracle-joinleave
+server add_vote "Map dm2" "sv_map dm2"
+server add_vote "Restart" "restart"
+client 0 name=host seed=61 mode=hunt
+client 1 name=leaver seed=62 mode=random
+client 2 name=watcher seed=63 mode=random
+client 3 name=ghost seed=64 mode=hunt
+at 5 0 connect
+at 6 1 connect
+at 7 2 connect
+at 200 2 team -1
+at 260 2 spec 1 1
+at 400 1 disconnect Leaving
+at 450 1 connect
+at 600 3 connect
+at 800 3 silent
+at 1400 3 connect
+at 1500 2 team 0
+at 1700 0 callvote spectate 3 afk
+at 1710 1 vote 1
+at 1712 2 vote 1
+at 2100 0 skin kitty whisker
+at 2200 1 ready
+at 2400 2 callvote kick 3 bye
+at 2410 1 vote 1
+at 2412 0 vote 1
+at 2600 3 connect
+at 3000 1 callvote option Map_dm2
+at 3005 0 vote 1
+at 3008 2 vote 1
+at 3010 3 vote 1
+at 3600 0 say all on dm2 now
+at 4000 0 kill

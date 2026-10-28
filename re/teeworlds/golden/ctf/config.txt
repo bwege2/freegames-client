@@ -1,0 +1,10 @@
+sv_register 0
+sv_map ctf1
+sv_gametype ctf
+sv_warmup 0
+sv_scorelimit 400
+sv_timelimit 0
+sv_teamdamage 0
+sv_max_clients 8
+sv_name oracle-ctf
+# duration 4500 iterations

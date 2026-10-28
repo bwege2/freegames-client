@@ -1,0 +1,6 @@
+# smoke test: the level editor starts, the pointer moves over it, then the session ends
+# program frozen-bubble-editor
+# time 1278000000
+2000 mouse move 320 240
+2500 mouse move 100 100
+6000 end

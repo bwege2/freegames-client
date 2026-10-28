@@ -1,0 +1,10 @@
+# made by bot.py from {"seed": 33, "login": "Merlin", "create": "nwem", "keys": 4000, "seq": 2, "runs": [{"until": "death"}]}
+seed 33
+login Merlin
+time 1704067200
+run 
+keys nwemy\x20kjl\x20k\x20lkullhlujhujkbublbkubhhhhhbhlhhhslhlhlhlhlhlhlhlhllhhsslhlhlhssssslhlrmnnhslhsl
+keys hlhlhlhsslh\x20\x20llh\x20l\x20sssssssssssszcnjssssssssssssyssssssussssssbssssssnsssW\x1bssshslsshsl
+keys sslsssssskssssssjssssssyssssw\x1bssussssssbssssssnsssssshsssssslssssssksPd\x1bsssssjssssssyssssssuss
+keys ssssbssssssnssssa\x1bsshsssssslsshsssskssssssjssssssyssssssuE\x1bssssssbssssssnsssssshlsssssslhsssss
+keys skssA\x1bssssjssssssysss#pray\x0ay\x20\x20\x20sssuss\x20\x20y\x1by\x20\x20nnn\x20\x20

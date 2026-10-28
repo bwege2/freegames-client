@@ -1,0 +1,17 @@
+{
+ "name": "bm88-examples",
+ "args": [
+  "-8",
+  "-b",
+  "artofcorewar.red",
+  "sunset.red"
+ ],
+ "time": 3003,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "Error in line 8: '        ORG     qBob'\n        Bad '88 format at token 'ORG'\nError in line 46: 'qBob    sne.i   qFound + qOff01,                qFound + qOff01 + qHop'\n        Bad '88 format at token 'SNE'\nError in line 47: '        seq.i   < (qTab2 - 1),                  qFound + qOff02 + qHop'\n        Bad '88 format at token 'SEQ'\nError in line 48: '        jmp     qDec0,                          { qDec0'\n        Bad '88 format at token '[*{}]'\nError in line 58: '        sne.i   qFound + qOff03,                qFound + qOff03 + qHop'\n        Bad '88 format at token 'SNE'\nError in line 59: '        seq.i   < (qTab2 + 1),                  qFound + qOff04 + qHop'\n        Bad '88 format at token 'SEQ'\nError in line 60: '        jmp     qDec0,                          } qDec0'\n        Bad '88 format at token '[*{}]'\nError in line 70: '        sne.i   qFound + qOff05,                qFound + qOff05 + qHop'\n        Bad '88 format at token 'SNE'\nError in line 71: '        seq.i   < (qTab1 - 1),                  qFound + qOff06 + qHop'\n        Bad '88 format at token 'SEQ'\n\nToo many errors or warnings.\nProgram aborted.\n",
+ "win": "",
+ "trace": []
+}

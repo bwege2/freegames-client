@@ -1,0 +1,334 @@
+# 2-player game with chain-reaction (menu: Down to 2-player game, Return, Y); the shots are the bot's
+# time 1278000000
+3000 tap down
+3500 tap return
+4000 tap y
+9000 key down left
+9060 key up left
+9080 tap up
+9000 key down v
+9060 key up v
+9080 tap c
+9520 key down left
+9640 key up left
+9660 tap up
+9520 key down v
+9960 key up v
+9980 tap c
+10080 key down right
+10420 key up right
+10440 tap up
+10500 key down v
+11100 key up v
+11120 tap c
+10880 key down left
+11240 key up left
+11260 tap up
+11740 key down left
+11840 key up left
+11860 tap up
+12400 key down left
+12680 key up left
+12700 tap up
+13380 key down left
+13420 key up left
+13440 tap up
+14220 key down right
+14240 key up right
+14260 tap up
+14780 key down x
+15140 key up x
+15160 tap c
+14960 key down right
+15560 key up right
+15580 tap up
+15700 key down v
+15740 key up v
+15760 tap c
+16060 key down right
+16600 key up right
+16620 tap up
+16260 key down v
+16620 key up v
+16640 tap c
+17280 key down left
+17360 key up left
+17380 tap up
+17960 tap up
+18440 key down right
+18500 key up right
+18520 tap up
+18820 key down x
+19400 key up x
+19420 tap c
+19040 key down left
+19500 key up left
+19520 tap up
+19940 key down v
+20060 key up v
+20080 tap c
+20000 tap up
+20460 key down right
+20480 key up right
+20500 tap up
+20540 key down x
+20840 key up x
+20860 tap c
+20920 key down right
+21080 key up right
+21100 tap up
+21160 key down v
+21680 key up v
+21700 tap c
+21580 key down right
+21620 key up right
+21640 tap up
+22060 key down left
+22300 key up left
+22320 tap up
+22660 key down x
+22680 key up x
+22700 tap c
+22700 key down right
+22760 key up right
+22780 tap up
+23160 key down right
+23280 key up right
+23300 tap up
+23600 key down v
+23840 key up v
+23860 tap c
+23700 key down left
+23800 key up left
+23820 tap up
+24160 tap up
+24480 key down left
+24560 key up left
+24580 tap up
+24960 key down left
+25560 key up left
+25580 tap up
+25720 key down x
+25840 key up x
+25860 tap c
+26180 key down right
+26200 key up right
+26220 tap up
+26400 key down left
+26680 key up left
+26700 tap up
+26800 key down v
+27220 key up v
+27240 tap c
+27780 key down right
+27800 key up right
+27820 tap up
+28560 key down right
+28620 key up right
+28640 tap up
+29420 key down left
+29500 key up left
+29520 tap up
+29900 key down v
+30400 key up v
+30420 tap c
+30540 key down right
+31260 key up right
+31280 tap up
+31680 tap up
+32080 tap up
+32400 key down left
+32680 key up left
+32700 tap up
+32700 key down x
+33220 key up x
+33240 tap c
+33080 key down right
+33160 key up right
+33180 tap up
+33480 key down right
+33640 key up right
+33660 tap up
+33680 key down x
+34100 key up x
+34120 tap c
+34040 key down right
+34080 key up right
+34100 tap up
+34340 key down v
+34500 key up v
+34520 tap c
+34460 key down right
+34620 key up right
+34640 tap up
+34700 key down x
+34920 key up x
+34940 tap c
+35120 tap up
+35120 key down v
+35180 key up v
+35200 tap c
+35380 key down x
+35580 key up x
+35600 tap c
+35580 tap up
+35780 key down v
+36060 key up v
+36080 tap c
+35960 key down left
+36040 key up left
+36060 tap up
+38620 tap return
+39460 key down right
+39620 key up right
+39640 tap up
+39460 key down x
+39520 key up x
+39540 tap c
+39980 key down x
+40280 key up x
+40300 tap c
+40100 tap up
+40500 key down right
+40540 key up right
+40560 tap up
+40820 key down v
+41120 key up v
+41140 tap c
+41060 tap up
+41520 key down x
+41940 key up x
+41960 tap c
+41580 key down left
+41620 key up left
+41640 tap up
+42120 key down left
+42220 key up left
+42240 tap up
+42480 key down x
+42660 key up x
+42680 tap c
+42740 key down right
+42980 key up right
+43000 tap up
+43360 key down x
+43720 key up x
+43740 tap c
+43560 tap up
+44060 tap up
+44620 tap up
+45120 tap up
+45740 key down right
+45960 key up right
+45980 tap up
+46480 key down x
+46860 key up x
+46880 tap c
+46700 key down right
+46760 key up right
+46780 tap up
+47600 key down left
+47760 key up left
+47780 tap up
+48300 key down right
+48320 key up right
+48340 tap up
+48820 key down right
+48880 key up right
+48900 tap up
+49060 key down v
+49660 key up v
+49680 tap c
+49640 key down right
+49720 key up right
+49740 tap up
+49860 key down x
+50160 key up x
+50180 tap c
+52760 tap return
+53580 key down right
+53740 key up right
+53760 tap up
+53580 key down v
+54120 key up v
+54140 tap c
+54200 key down right
+54400 key up right
+54420 tap up
+54780 key down v
+55000 key up v
+55020 tap c
+55080 tap up
+55660 key down left
+55700 key up left
+55720 tap up
+55920 key down v
+56440 key up v
+56460 tap c
+56260 tap up
+56740 key down left
+56840 key up left
+56860 tap up
+57300 key down left
+57380 key up left
+57400 tap up
+57820 key down left
+57940 key up left
+57960 tap up
+58380 key down right
+58600 key up right
+58620 tap up
+59020 key down left
+59340 key up left
+59360 tap up
+59800 tap up
+60220 key down left
+60320 key up left
+60340 tap up
+60740 key down x
+61160 key up x
+61180 tap c
+60840 key down right
+60920 key up right
+60940 tap up
+61800 key down x
+62120 key up x
+62140 tap c
+62540 key down v
+62620 key up v
+62640 tap c
+62780 key down right
+63280 key up right
+63300 tap up
+62820 key down x
+63020 key up x
+63040 tap c
+63380 key down x
+63660 key up x
+63680 tap c
+63840 key down left
+64680 key up left
+64700 tap up
+64000 key down x
+64320 key up x
+64340 tap c
+64700 key down x
+64800 key up x
+64820 tap c
+65140 key down x
+65380 key up x
+65400 tap c
+65460 key down right
+65620 key up right
+65640 tap up
+66200 key down v
+66780 key up v
+66800 tap c
+66380 tap up
+67020 key down v
+67360 key up v
+67380 tap c
+67160 key down right
+67180 key up right
+67200 tap up
+70380 end

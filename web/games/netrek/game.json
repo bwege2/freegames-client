@@ -1,0 +1,75 @@
+{
+  "id": "netrek",
+  "title": "Netrek",
+  "tagline": "Four empires, sixteen ships, one galaxy: team space combat and planet conquest.",
+  "summary": [
+    "Netrek (1989) is a team game of space combat for up to sixteen players. Two of four empires, the Federation, Romulans, Klingons and Orions, fight over a galaxy of forty planets: dogfight with phasers and photon torpedoes, bomb the enemy's planets, ferry armies across and take them, until one side holds the other's home space.",
+    "Every ship class plays differently, from the fast scout to the slow battleship and the starbase, and ranks are earned over many games. A practice robot (*) fights you when you are alone.",
+    "This port follows the Vanilla server 2.19.0 and the COW client 3.3.3, the last releases. The server runs inside our server, one galaxy per room that players join and leave while it runs, and COW's X11 client runs in the browser."
+  ],
+  "original": {
+    "author": "Kevin P. Smith and Scott Silvey, from Xtrek by Chris Guthrie; COW: Kevin Powell, Nick Trown, Jeff Nelson, Kurt Siegl and others; the Netrek developers",
+    "year": 1989,
+    "platform": "C/X11 (Unix, Linux)",
+    "version": "Vanilla server 2.19.0, COW client 3.3.3",
+    "license": "Netrek license (MIT-like) and BSD",
+    "packageBytes": 2810704,
+    "url": "https://www.netrek.org/"
+  },
+  "players": "1–16 online, a practice robot when you are alone",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "Right mouse button",
+      "action": "Steer towards the pointer (k sets course too)"
+    },
+    {
+      "input": "Left / middle mouse button",
+      "action": "Fire a photon torpedo / a phaser at the pointer (t, p)"
+    },
+    {
+      "input": "0–9, !, @, %, #",
+      "action": "Speed 0–9, 11, 12, maximum, half maximum"
+    },
+    {
+      "input": "s or u, c, R",
+      "action": "Shields, cloak, repair"
+    },
+    {
+      "input": "o, b, z, x",
+      "action": "Orbit a planet, bomb it, beam armies up, beam armies down"
+    },
+    {
+      "input": "l, ;, T, y",
+      "action": "Lock on a player or planet, lock on a planet, tractor, pressor"
+    },
+    {
+      "input": "*",
+      "action": "Call the practice robot"
+    },
+    {
+      "input": "m, then A or T",
+      "action": "Send a message to all or to your team; h shows all keys"
+    },
+    {
+      "input": "Q, then Back",
+      "action": "Quit the ship; Back leaves the galaxy"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "battle.png",
+      "caption": "A Romulan cruiser fires torpedoes at the practice robot: tactical view, galactic map, dashboard, players and messages"
+    },
+    {
+      "file": "teams.png",
+      "caption": "After the login: COW's team selection and the server's options"
+    }
+  ],
+  "added": "2026-10-27"
+}

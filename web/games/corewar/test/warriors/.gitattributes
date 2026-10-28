@@ -1,0 +1,2 @@
+# warriors, cdb scripts and option files are test input: keep their bytes (one has CRLF lines)
+* -text

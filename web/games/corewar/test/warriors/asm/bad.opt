@@ -1,0 +1,4 @@
+; an option file with an error
+-r 3
+-s 8000 ; core
+-q

@@ -1,0 +1,15 @@
+{
+ "name": "adapter-badfen",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "setboard rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNX w KQkq - 0 1",
+  "show board"
+ ],
+ "status": 1,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Board is wrong!\nWhite (1) : \nwhite  KQkq\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nP P P P P P P P \nR N B Q K B N . \n\u0000 \nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\nboard_from_fen(): bad FEN (a piece was expected at pos=42)\nrnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNX w KQkq - 0 1\n                                          *\n",
+ "written": {}
+}

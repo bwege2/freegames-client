@@ -1,0 +1,16 @@
+{
+ "name": "frontend-setboard-ep",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "setboard 4k3/8/8/8/8/8/8/4K3 b - e3 0 1",
+  "show board",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Board is wrong!\nWhite (1) : 1/2-1/2 {Draw by insufficient material}\n\nblack    e3\n\n. . . . k . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . K . . . \n\u0000 \nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

@@ -1,0 +1,45 @@
+/* The legal pages (impressum.html, datenschutz.html, licenses.html): plain HTML that works without
+   JavaScript, in the site's colours. */
+:root {
+  --bg: #f6f7f9;
+  --card: #ffffff;
+  --text: #1d2125;
+  --muted: #5d6670;
+  --line: #e2e6ea;
+  --accent: #2f6fdf;
+  --accent-text: #ffffff;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15181c;
+    --card: #1f2328;
+    --text: #e8eaed;
+    --muted: #a0a8b2;
+    --line: #30363d;
+    --accent: #5b8ff0;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+a { color: var(--accent); }
+h1 { font-size: 1.9rem; letter-spacing: -.02em; margin: .5rem 0 1rem; }
+h2 { font-size: 1.25rem; margin: 2rem 0 .5rem; }
+h3 { font-size: 1.05rem; margin: 1.4rem 0 .4rem; }
+.back { display: inline-block; margin-bottom: .5rem; }
+.muted { color: var(--muted); }
+address { font-style: normal; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: .9rem 1.1rem; margin: 1rem 0; }
+.download { display: inline-block; padding: .6rem 1.2rem; border-radius: 999px; background: var(--accent); color: var(--accent-text);
+  text-decoration: none; font-weight: 600; }
+table { border-collapse: collapse; width: 100%; font-size: .93rem; }
+th, td { text-align: left; vertical-align: top; padding: .4rem .5rem; border-bottom: 1px solid var(--line); }
+pre { white-space: pre-wrap; word-break: break-word; background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: .8rem 1rem; font-size: .85rem; line-height: 1.45; }
+details { margin: .4rem 0; }
+summary { cursor: pointer; }
+nav.legal { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .9rem; display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; }
+img.contact { max-width: 100%; height: auto; }

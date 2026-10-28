@@ -1,0 +1,10 @@
+sv_register 0
+sv_map dm1
+sv_gametype tdm
+sv_warmup 5
+sv_scorelimit 0
+sv_timelimit 1
+sv_teamdamage 1
+sv_max_clients 8
+sv_name oracle-tdm
+# duration 4600 iterations

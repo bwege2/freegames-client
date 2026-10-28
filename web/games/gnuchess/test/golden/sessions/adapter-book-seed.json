@@ -1,0 +1,21 @@
+{
+ "name": "adapter-book-seed",
+ "args": [],
+ "time": 1234567890,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "book on",
+  "e4",
+  "Nf3",
+  "Bb5",
+  "d4",
+  "show game",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : Book is now on.\nWhite (1) : 1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq  e6\n\nr n b q k b n r \np p p p . p p p \n. . . . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : e5\nWhite (2) : 2. Nf3\n\nblack  KQkq\n\nr n b q k b n r \np p p p . p p p \n. . . . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \n\nMy move is : Nc6\nWhite (3) : 3. Bb5\n\nblack  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. B . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \n. p p p . p p p \np . n . . . . . \n. B . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : a6\nWhite (4) : 4. d4\n\nblack  KQkq  d3\n\nr . b q k b n r \n. p p p . p p p \np . n . . . . . \n. B . . p . . . \n. . . P P . . . \n. . . . . N . . \nP P P . . P P P \nR N B Q K . . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \n. p p p . p p p \n. . n . . . . . \n. p . . p . . . \n. . . P P . . . \n. . . . . N . . \nP P P . . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : axb5\nWhite (5) :       White   Black\n  1.  e4      e5     \n  2.  Nf3     Nc6    \n  3.  Bb5     a6     \n  4.  d4      axb5   \n\nWhite (5) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

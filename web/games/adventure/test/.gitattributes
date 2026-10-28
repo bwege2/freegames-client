@@ -1,0 +1,4 @@
+# compared byte for byte by the tests: keep them as committed on every checkout (Windows: core.autocrlf)
+regress/** text eol=lf
+fixtures/*.txt text eol=lf
+fixtures/*.adv binary

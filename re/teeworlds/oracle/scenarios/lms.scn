@@ -1,0 +1,16 @@
+# lms: last man standing on lms1: three hunters, rounds end when one survives
+duration 4000
+server sv_register 0
+server sv_map lms1
+server sv_gametype lms
+server sv_warmup 0
+server sv_scorelimit 3
+server sv_timelimit 0
+server sv_max_clients 8
+server sv_name oracle-lms
+client 0 name=uno seed=41 mode=hunt
+client 1 name=dos seed=42 mode=hunt
+client 2 name=tres seed=43 mode=hunt
+at 5 0 connect
+at 6 1 connect
+at 7 2 connect

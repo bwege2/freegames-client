@@ -1,0 +1,15 @@
+{
+ "name": "asm-assert",
+ "args": [
+  "-A",
+  "asm/assert.red"
+ ],
+ "time": 6005,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "Error in line 3: ';assert CORESIZE == 1234'\n        Assertion in this line fails\nWarning in line 4: ';assert 1 +'\n        Invalid ';assert' parameter\n\nSource: filename 'asm/assert.red'\nNumber of errors: 1\nNumber of warnings: 1\n\n",
+ "win": "",
+ "trace": []
+}

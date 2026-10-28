@@ -1,0 +1,25 @@
+{
+ "name": "cl-x-options",
+ "args": [
+  "-display",
+  ":0",
+  "-geometry",
+  "800x600",
+  "-fn",
+  "fixed",
+  "-b",
+  "imp.red",
+  "dwarf.red"
+ ],
+ "time": 7017,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "Imp by A. K. Dewdney (1984); written down for the port's tests scores 0\nDwarf by A. K. Dewdney (1984); written down for the port's tests scores 3\nResults: 0 1 0\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 7102 bff10902",
+  "H 1 5381 62456cfa"
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "name": "out-sorted-formula",
+ "args": [
+  "-b",
+  "-o",
+  "-r",
+  "6",
+  "-=",
+  "S*10+W",
+  "paper.red",
+  "stone.red",
+  "scanner.red"
+ ],
+ "time": 5003,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "Paper by the port's tests scores 128\n  Results: 2 3 1 0\nStone by the port's tests scores 79\n  Results: 0 2 1 3\nScanner by the port's tests scores 56\n  Results: 0 1 1 4\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 320 3884 3f75aace",
+  "H 1 240000 8610ee98",
+  "R 2 0 1361 3428 1fc4b242",
+  "H 2 162436 b66f4200",
+  "R 3 0 5801 1825 933d120e",
+  "H 3 29470 6ce0b3ed",
+  "R 4 0 571 6039 5f60f086",
+  "H 4 162089 9f21cd01",
+  "R 5 0 4726 6942 e97f19ce",
+  "H 5 15055 c315e87c",
+  "R 6 0 2678 6410 cf0389ee",
+  "H 6 161320 2dff822a"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "name": "adapter-book",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "bk",
+  "hint",
+  "book on",
+  "bk",
+  "hint",
+  "e4",
+  "bk",
+  "hint",
+  "Nf3",
+  "bk",
+  "Bb5",
+  "bk",
+  "hint",
+  "show board",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : White (1) : White (1) : Book is now on.\nWhite (1) : White (1) :  e4 (60%)\n d4 (27%)\n Nf3 (6%)\n c4 (6%)\n g3 (1%)\n b3 (0%)\n b4 (0%)\n\nWhite (1) : Hint: e4\n1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr n b q k b n r \np p p p . p p p \n. . . . p . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : e6\nWhite (2) : White (2) :  d4 (100%)\n\nWhite (2) : Hint: d4\n2. Nf3\n\nblack  KQkq\n\nr n b q k b n r \np p p p . p p p \n. . . . p . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . p . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \n\nMy move is : Nc6\nWhite (3) : White (3) : \n3. Bb5\n\nblack  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . p . . . \n. B . . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \n. p p p . p p p \np . n . p . . . \n. B . . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : a6\nWhite (4) : White (4) : \nWhite (4) : \nwhite  KQkq\n\nr . b q k b n r \n. p p p . p p p \np . n . p . . . \n. B . . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \nWhite (4) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

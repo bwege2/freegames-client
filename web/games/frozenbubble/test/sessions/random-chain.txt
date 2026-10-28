@@ -1,0 +1,132 @@
+# 1-player random level with chain-reaction (menu: Return, Down Down, Return, Y)
+# time 1278000000
+3000 tap return
+3600 tap down
+3800 tap down
+4200 tap return
+4800 tap y
+10000 key down left
+10160 key up left
+10180 tap up
+10620 key down left
+10760 key up left
+10780 tap up
+11280 tap up
+11880 key down left
+12160 key up left
+12180 tap up
+12840 key down right
+13540 key up right
+13560 tap up
+14100 key down right
+14240 key up right
+14260 tap up
+14740 tap up
+15160 key down left
+15280 key up left
+15300 tap up
+15820 key down left
+16020 key up left
+16040 tap up
+16480 tap up
+16860 key down left
+17040 key up left
+17060 tap up
+17520 key down left
+17620 key up left
+17640 tap up
+18140 key down left
+18440 key up left
+18460 tap up
+19180 tap up
+19880 key down right
+20000 key up right
+20020 tap up
+20500 key down left
+20620 key up left
+20640 tap up
+21480 key down left
+21560 key up left
+21580 tap up
+22500 tap up
+23360 key down left
+23400 key up left
+23420 tap up
+24440 tap up
+25380 key down right
+25620 key up right
+25640 tap up
+26040 key down right
+26680 key up right
+26700 tap up
+27220 tap up
+27660 key down left
+27680 key up left
+27700 tap up
+28080 key down left
+28520 key up left
+28540 tap up
+28840 key down left
+28880 key up left
+28900 tap up
+29340 key down left
+29600 key up left
+29620 tap up
+30260 key down left
+30340 key up left
+30360 tap up
+31040 tap up
+31820 key down right
+31940 key up right
+31960 tap up
+32320 key down right
+33160 key up right
+33180 tap up
+33660 tap up
+34060 key down left
+34360 key up left
+34380 tap up
+34700 key down left
+34780 key up left
+34800 tap up
+35120 key down right
+35220 key up right
+35240 tap up
+35580 key down right
+35680 key up right
+35700 tap up
+36180 key down left
+36200 key up left
+36220 tap up
+36620 key down right
+36680 key up right
+36700 tap up
+37040 key down left
+37180 key up left
+37200 tap up
+37480 key down right
+37500 key up right
+37520 tap up
+37860 tap up
+38280 key down right
+38300 key up right
+38320 tap up
+38700 tap up
+39060 key down left
+39080 key up left
+39100 tap up
+39460 tap up
+39800 tap up
+40000 key down left
+40300 key up left
+40320 tap up
+41700 key down left
+41860 key up left
+41880 tap up
+42320 key down right
+43300 key up right
+43320 tap up
+43820 key down left
+44360 key up left
+44380 tap up
+47380 end

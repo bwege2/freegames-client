@@ -1,0 +1,15 @@
+{
+ "name": "asm-operands",
+ "args": [
+  "-A",
+  "asm/operands.red"
+ ],
+ "time": 6014,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "Error in line 4: '        mov.i   1'\n        Incomplete operand at instruction 'MOV'\nError in line 5: '        add'\n        Syntax error\nError in line 6: '        jmp'\n        Syntax error\nError in line 7: '        spl'\n        Syntax error\nError in line 8: '        nop'\n        Syntax error\nError in line 9: '        dat'\n        Syntax error\nError in line 10: '        mov.     0, 1'\n        Missing 'modifier'\nError in line 10: '        mov.     0, 1'\n        Incomplete operand at instruction 'MOV'\nError in line 11: '        mov.ab.ba 0, 1'\n        Missing 'A-term'\n\nToo many errors or warnings.\nProgram aborted.\n",
+ "win": "",
+ "trace": []
+}

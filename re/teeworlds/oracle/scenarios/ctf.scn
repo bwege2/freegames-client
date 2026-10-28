@@ -1,0 +1,21 @@
+# ctf: two against two on ctf1: flag grabs, captures, team chat, team damage off
+duration 4500
+server sv_register 0
+server sv_map ctf1
+server sv_gametype ctf
+server sv_warmup 0
+server sv_scorelimit 400
+server sv_timelimit 0
+server sv_teamdamage 0
+server sv_max_clients 8
+server sv_name oracle-ctf
+client 0 name=red1 seed=1017 mode=flag
+client 1 name=blue1 seed=2027 mode=flag
+client 2 name=red2 seed=3037 mode=flag role=defend
+client 3 name=blue2 seed=4047 mode=flag role=defend
+at 5 0 connect
+at 6 1 connect
+at 7 2 connect
+at 8 3 connect
+at 600 0 say team going for the flag
+

@@ -1,0 +1,13 @@
+# first start: the gamma dialog (pick a grey, the right arrow, the check mark), then the title, skipped
+3 mouse 108 97
+3 button 1 down
+4 button 1 up
+5 mouse 274 114
+5 button 1 down
+6 button 1 up
+7 mouse 52 160
+7 button 1 down
+8 button 1 up
+60 key down ESCAPE
+61 key up ESCAPE
+200 end

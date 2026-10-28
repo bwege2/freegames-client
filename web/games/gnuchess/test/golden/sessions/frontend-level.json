@@ -1,0 +1,30 @@
+{
+ "name": "frontend-level",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "level 40 5 0",
+  "level 0 0 5",
+  "level 30 10 2",
+  "level 1 2",
+  "st 5",
+  "time 1000",
+  "otim 1000",
+  "depth 0",
+  "depth 3",
+  "memory",
+  "post",
+  "e4",
+  "nopost",
+  "d4",
+  "memory 32",
+  "memory",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Time control: 40 moves in 300.00 secs.\nFischer increment of 0 seconds.\nWhite (1) : TCMove = 35\nFischer increment of 5 seconds.\nWhite (1) : Time control: 30 moves in 600.00 secs.\nFischer increment of 2 seconds.\nWhite (1) : Time control: 1 moves in 120.00 secs.\nFischer increment of 2 seconds.\nWhite (1) : Error (unknown command): level 1 2\nWhite (1) : White (1) : White (1) : Search to a depth of 0.\nWhite (1) : Search to a depth of 3.\nWhite (1) : Current HashSize is 16 MB\nWhite (1) : White (1) : 1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n1 -50 0 2 a5\nWhite (1) : 1 -44 0 6 b6\n1 -2 0 41 d5\n1 +0 0 76 Nc6\n2 -34 0 119 Nc6 Nc3\n3 +0 0 251 Nc6 Nc3 Nf6\n3 +0 0 454 Nc6 Nc3 Nf6\n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : Nc6\nWhite (2) : 2. d4\n\nblack  KQkq  d3\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : d5\nWhite (3) : White (3) : Current HashSize is 32 MB\nCurrent HashSize is 32 MB\nWhite (3) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

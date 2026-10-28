@@ -1,0 +1,66 @@
+diff -ru a/c_stuff/lib/FBLE.pm b/c_stuff/lib/FBLE.pm
+--- a/c_stuff/lib/FBLE.pm	2026-10-28 07:06:07.016924389 +0100
++++ b/c_stuff/lib/FBLE.pm	2026-10-28 07:06:07.017848403 +0100
+@@ -139,8 +139,8 @@
+     $background->blit($bubble_rects{$x}{$y}, $app, $bubble_rects{$x}{$y});
+     #- redraw close bubbles because the rectangular blit of the previous statement erased a bit of them 
+     my $DISTANCE_CLOSE_SQRED = sqr($BUBBLE_SIZE*1.1);
+-    foreach my $x_ (keys %bubble_rects) {
+-	foreach my $y_ (%{$bubble_rects{$x_}}) {
++    foreach my $x_ (sort { $a <=> $b } keys %bubble_rects) {  #- oracle: a fixed order for the unspecified hash order
++	foreach my $y_ (sort { $a <=> $b } keys %{$bubble_rects{$x_}}) {
+ 	    $y != $y_ && sqr($x-$x_) + sqr($y-$y_) <= $DISTANCE_CLOSE_SQRED or next;
+ 	    if ($bubble_hash{$curr_level}{my $col = get_col($x_, $y_)}{my $row = get_row($y_)} =~ /^\d+$/) {
+ 		draw_bubble($bubble_hash{$curr_level}{$col}{$row} + 1, $x_, $y_, $ALPHA_BUBBLE_NO, undef, 1);
+diff -ru a/c_stuff/lib/fb_stuff.pm b/c_stuff/lib/fb_stuff.pm
+--- a/c_stuff/lib/fb_stuff.pm	2026-10-28 07:06:07.017056462 +0100
++++ b/c_stuff/lib/fb_stuff.pm	2026-10-28 07:06:07.017627225 +0100
+@@ -313,7 +313,8 @@
+ # -=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=---=-=--
+ 
+ #- it doesn't keep ordering (but I don't care)
+-sub fastuniq { my %l; @l{@_} = @_; values %l }
++#- oracle: Perl's hash order is unspecified (random per process); first occurrence order instead
++sub fastuniq { my %l; grep { !$l{$_}++ } @_ }
+ 
+ sub deep_copy {
+     my ($scalar) = @_;
+diff -ru a/frozen-bubble b/frozen-bubble
+--- a/frozen-bubble	2026-10-28 07:06:07.016646747 +0100
++++ b/frozen-bubble	2026-10-28 07:06:07.020565461 +0100
+@@ -5575,7 +5575,7 @@
+ 		       );
+     CORE::state $current_pos; $current_pos ||= 1;
+     my @menu_invalids;
+-    $invalidate_all = sub { push @menu_invalids, $menu_entries{$_}->{pos} foreach keys %menu_entries };
++    $invalidate_all = sub { push @menu_invalids, $menu_entries{$_}->{pos} foreach sort { $menu_entries{$a}{pos} <=> $menu_entries{$b}{pos} } keys %menu_entries };  #- oracle: menu order
+ 
+     my $display_cursor = sub {
+         my ($m, $alpha, $pixelize) = @_;
+@@ -5605,7 +5605,7 @@
+     };
+     my $menu_update = sub {
+ 	@update_rects = ();
+-	foreach my $m (keys %menu_entries) {
++	foreach my $m (sort { $menu_entries{$a}{pos} <=> $menu_entries{$b}{pos} } keys %menu_entries) {  #- oracle: menu order
+ 	    member($menu_entries{$m}->{pos}, @menu_invalids) or next;
+ 	    my $txt = "txt_$m";
+ 	    $txt .= $menu_entries{$m}->{pos} == $current_pos ? '_over' : '_off';
+@@ -5694,7 +5694,7 @@
+ 		if (member($keypressed, (SDLK_RETURN, SDLK_SPACE, SDLK_KP_ENTER))) {
+ 		    play_sound('menu_selected');
+ 		    push @menu_invalids, $current_pos;
+-		    foreach my $m (keys %menu_entries) {
++		    foreach my $m (sort { $menu_entries{$a}{pos} <=> $menu_entries{$b}{pos} } keys %menu_entries) {  #- oracle: menu order
+ 			if ($menu_entries{$m}->{pos} == $current_pos) {
+ 			    if ($menu_entries{$m}->{type} =~ /^run/) {
+ 				$menu_entries{$m}->{run}->();
+@@ -5743,7 +5743,7 @@
+             $app->update($banner_rect);
+ 
+             #- animate and break cursor
+-            foreach my $m (keys %menu_entries) {
++            foreach my $m (sort { $menu_entries{$a}{pos} <=> $menu_entries{$b}{pos} } keys %menu_entries) {  #- oracle: menu order
+                 if ($menu_entries{$m}->{pos} == $current_pos) {
+                     $pdata{cursor_img}{$m}++;
+                     $pdata{cursor_img}{$m} >= @{$imgbin{menu_cursor}{$m}} and $pdata{cursor_img}{$m} = 0;

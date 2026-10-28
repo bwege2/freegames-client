@@ -1,0 +1,30 @@
+4000 iterations; kills 11, flag grabs 0, captures 0, map changes 0
+client 0 connects and downloads lms1
+client 1 connects and downloads lms1
+client 2 connects and downloads lms1
+client 3 connects and downloads lms1
+game state flags 48 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 2 killed 1 (weapon 3)
+kill: 2 killed 2 (weapon 3)
+kill: 0 killed 3 (weapon 2)
+game state flags 4 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 48 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 2 killed 1 (weapon 2)
+kill: 2 killed 3 (weapon 2)
+game state flags 4 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 48 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 2 killed 1 (weapon 2)
+kill: 3 killed 2 (weapon 3)
+kill: 0 killed 3 (weapon 4)
+game state flags 8 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 0 killed 0 (weapon -3)
+game state flags 48 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 0 killed 1 (weapon 4)
+kill: 0 killed 3 (weapon 4)
+game state flags 4 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 48 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)

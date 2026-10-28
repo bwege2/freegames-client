@@ -1,0 +1,24 @@
+help
+q
+registers
+list
+list 0,10
+l .,+5
+s
+s
+step
+r
+calc 1+2, PC*2
+calc CYCLE
+ca ROUND+LINES
+echo hello world
+trace 0,3
+untrace 1
+l 0,4
+go
+skip 10
+r
+thread
+r
+progress
+continue

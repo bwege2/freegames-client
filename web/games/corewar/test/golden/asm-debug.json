@@ -1,0 +1,16 @@
+{
+ "name": "asm-debug",
+ "args": [
+  "-V",
+  "-A",
+  "asm/debug.red"
+ ],
+ "time": 6015,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "       ORG          0\n       MOV.I  $     0, $     1    T\n       DAT.F  #     0, #     0     \n       DAT.F  #     0, #     1     \n       END\n",
+ "stderr": "After pass 0\nInstruction (physical line, instr):\n\n(    3) ;assert 1\n(    4) ;debug static extra\n(    5) ;trace on extra\n(    6) ;break now\n(    7)         mov.i   0, 1\n(    8) ;trace off\n(    9)         dat     #0\n(   10) ;debug off\n(   11) ;trace\n(   12)         dat     #1\n\n***END*OF*PASS***\n\nParameter checking:\nCurrent parameter for ';assert': 1\nWarning in line 5: ';trace on extra'\n        Ignored, extra tokens in line ';trace on extra'\nWarning in line 6: ';break now'\n        Ignored, extra tokens in line ';break now'\n\nAfter pass 1\nInstruction (physical line, instr):\n\n(    7) MOV.i 0,1\n(    9) DAT #0\n(   12) DAT #1\n\n***END*OF*PASS***\n\nLabel references:\nGroup label(s):\nPSPACESIZE \nReference:\n(TEXT):\n500\n\nGroup label(s):\nWRITELIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nREADLIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nROUNDS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nWARRIORS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nVERSION \nReference:\n(TEXT):\n95\n\nGroup label(s):\nMINDISTANCE \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXLENGTH \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXCYCLES \nReference:\n(TEXT):\n80000\n\nGroup label(s):\nMAXPROCESSES \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nCORESIZE \nReference:\n(TEXT):\n8000\n\n***END*OF*CHART***\n\n\nSource: filename 'asm/debug.red'\nNumber of warnings: 2\n\n",
+ "win": "",
+ "trace": []
+}

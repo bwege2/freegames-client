@@ -1,0 +1,13 @@
+s~s~r
+!!~s~calc PC~!3
+@s~@s~r
+&r
+echo loop~!!~echo inner~!2~!2
+ s
+s
+
+if 0~!!~echo no~!2~echo after
+reset
+l .
+calc 5~~
+c

@@ -1,0 +1,25 @@
+{
+ "name": "frontend-xboard",
+ "args": [
+  "--xboard"
+ ],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "protover 2",
+  "new",
+  "depth 2",
+  "e2e4",
+  "usermove d2d4",
+  "show board",
+  "nopost",
+  "force",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "Chess\nSearch to a depth of 2.\nfeature done=0\nfeature analyze=1\nfeature colors=0\nfeature draw=1\nfeature ics=1\nfeature myname=\"GNU Chess\"\nfeature name=1\nfeature pause=0\nfeature ping=1\nfeature playother=1\nfeature reuse=1\nfeature san=0\nfeature setboard=1\nfeature sigint=0\nfeature sigterm=0\nfeature time=1\nfeature usermove=1\nfeature variants=\"normal\"\nfeature done=1\nSearch to a depth of 2.\n1. e2e4\n1. ... b8c6\nMy move is : b8c6\n2. d2d4\n2. ... d7d5\nMy move is : d7d5\n\nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \n",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

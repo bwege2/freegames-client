@@ -1,0 +1,18 @@
+{
+ "name": "first-moves",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 3",
+  "e4",
+  "d4",
+  "show board",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 3.\nWhite (1) : 1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : Nc6\nWhite (2) : 2. d4\n\nblack  KQkq  d3\n\nr . b q k b n r \np p p p p p p p \n. . n . . . . . \n. . . . . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : d5\nWhite (3) : \nwhite  KQkq  d6\n\nr . b q k b n r \np p p . p p p p \n. . n . . . . . \n. . . p . . . . \n. . . P P . . . \n. . . . . . . . \nP P P . . P P P \nR N B Q K B N R \n\u0000 \nWhite (3) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

@@ -1,0 +1,18 @@
+{
+ "name": "asm-stops-battle",
+ "args": [
+  "-r",
+  "2",
+  "imp.red",
+  "asm/syntax.red",
+  "dwarf.red"
+ ],
+ "time": 6023,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "Program \"Imp\" (length 1) by \"A. K. Dewdney (1984); written down for the port's tests\"\n\n       ORG      START\nSTART  MOV.I  $     0, $     1     \n\n",
+ "stderr": "Error in line 4: '        mov.q   0, 1'\n        Missing 'modifier'\nError in line 4: '        mov.q   0, 1'\n        Incomplete operand at instruction 'MOV'\nError in line 5: '        mov     0 1'\n        Incomplete operand at instruction 'MOV'\nError in line 6: '        mov'\n        Syntax error\nError in line 9: '        dat     #1, #2, #3'\n        Improper placement of ','\nError in line 10: '        mov     $$1, 2'\n        Improper placement of '$'\nError in line 10: '        mov     $$1, 2'\n        Incomplete operand at instruction 'MOV'\nError in line 12: '        spl     #0, ]1'\n        Missing 'B-term'\n\nSource: filename 'asm/syntax.red'\nNumber of errors: 8\n\n",
+ "win": "",
+ "trace": []
+}

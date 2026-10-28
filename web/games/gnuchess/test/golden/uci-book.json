@@ -1,0 +1,165 @@
+{
+ "time": 1000000000,
+ "searches": [
+  {
+   "position": "position startpos",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv e2e4",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove e2e4"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv e7e5",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove e7e5"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 e7e5",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g1f3",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g1f3"
+   ]
+  },
+  {
+   "position": "position startpos moves d2d4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g7g6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g7g6"
+   ]
+  },
+  {
+   "position": "position startpos moves d2d4 d7d5 c2c4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv d5c4",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove d5c4"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 c7c5 g1f3",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv b8c6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove b8c6"
+   ]
+  },
+  {
+   "position": "position startpos moves g1f3",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g8f6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g8f6"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 e7e5 g1f3 b8c6 f1b5",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv a7a6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove a7a6"
+   ]
+  },
+  {
+   "position": "position startpos",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv e2e4",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove e2e4"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv c7c5",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove c7c5"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 e7e5",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g1f3",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g1f3"
+   ]
+  },
+  {
+   "position": "position startpos moves d2d4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g8f6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g8f6"
+   ]
+  },
+  {
+   "position": "position startpos moves d2d4 d7d5 c2c4",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv d5c4",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove d5c4"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 c7c5 g1f3",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv b8c6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove b8c6"
+   ]
+  },
+  {
+   "position": "position startpos moves g1f3",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv g7g6",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove g7g6"
+   ]
+  },
+  {
+   "position": "position startpos moves e2e4 e7e5 g1f3 b8c6 f1b5",
+   "depth": 3,
+   "output": [
+    "info depth 1 seldepth 0 score cp 1 time 0 nodes 0 pv f8c5",
+    "info time 0 nodes 0 nps 0 cpuload 0",
+    "info hashfull 0",
+    "bestmove f8c5"
+   ]
+  }
+ ]
+}

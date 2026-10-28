@@ -1,0 +1,137 @@
+# 1-player game, all levels from level 1; the shots are the bot's (test/bot.ts)
+# time 1278000000
+3000 tap return
+4000 tap return
+6020 tap up
+6520 tap up
+7080 tap up
+7680 key down left
+7700 key up left
+7720 tap up
+8300 key down left
+8320 key up left
+8340 tap up
+9040 key down left
+9100 key up left
+9120 tap up
+9740 key down right
+9940 key up right
+9960 tap up
+10500 tap up
+11200 key down left
+11260 key up left
+11280 tap up
+11980 key down right
+12060 key up right
+12080 tap up
+12680 key down right
+12720 key up right
+12740 tap up
+13400 key down left
+13580 key up left
+13600 tap up
+14260 tap up
+14860 key down right
+15100 key up right
+15120 tap up
+15820 tap up
+16460 key down right
+16700 key up right
+16720 tap up
+17580 tap up
+18440 tap up
+19240 key down left
+19260 key up left
+19280 tap up
+20020 tap up
+20720 tap up
+21440 key down right
+21600 key up right
+21620 tap up
+22560 key down right
+22620 key up right
+22640 tap up
+23640 tap up
+24580 key down right
+24680 key up right
+24700 tap up
+26120 tap up
+27460 key down right
+27480 key up right
+27500 tap up
+28860 key down right
+28880 key up right
+28900 tap up
+30380 tap up
+31860 tap up
+33320 tap up
+34720 tap up
+36060 tap up
+37440 key down right
+37500 key up right
+37520 tap up
+39320 key down right
+39340 key up right
+39360 tap up
+41320 tap up
+43200 key down left
+43280 key up left
+43300 tap up
+44620 tap up
+45860 key down right
+45900 key up right
+45920 tap up
+47360 tap up
+48900 key down left
+48920 key up left
+48940 tap up
+50200 key down left
+50220 key up left
+50240 tap up
+51380 tap up
+52500 key down right
+52540 key up right
+52560 tap up
+54060 tap up
+57480 tap return
+58300 key down left
+58500 key up left
+58520 tap up
+61220 tap return
+62040 key down left
+62160 key up left
+62180 tap up
+62500 key down left
+62580 key up left
+62600 tap up
+63340 key down right
+63500 key up right
+63520 tap up
+63920 key down left
+64040 key up left
+64060 tap up
+64800 tap up
+65460 key down right
+65480 key up right
+65500 tap up
+66020 key down right
+66060 key up right
+66080 tap up
+66800 tap up
+67460 key down right
+67560 key up right
+67580 tap up
+68280 key down left
+68420 key up left
+68440 tap up
+69100 key down right
+69120 key up right
+69140 tap up
+69800 tap up
+70400 key down left
+70440 key up left
+70460 tap up
+71120 key down left
+71180 key up left
+71200 tap up
+74380 end

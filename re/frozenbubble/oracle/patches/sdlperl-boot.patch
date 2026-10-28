@@ -1,0 +1,18 @@
+--- a/src/SDL.xs	2026-10-28 06:34:36.844623301 +0100
++++ b/src/SDL.xs	2026-10-28 06:34:36.856623028 +0100
+@@ -189,13 +189,12 @@
+ #endif
+ }
+ 
+-void boot_SDL();
+-void boot_SDL__OpenGL();
++XS_EXTERNAL(boot_SDL);
+ 
+ XS(boot_SDL_perl)
+ {
+ 	GET_TLS_CONTEXT
+-	boot_SDL();
++	boot_SDL(aTHX_ cv);
+ }
+ 
+ MODULE = SDL_perl	PACKAGE = SDL

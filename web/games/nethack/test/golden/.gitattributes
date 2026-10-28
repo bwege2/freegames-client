@@ -1,0 +1,2 @@
+# the goldens are gzip files: their bytes stay as they are
+*.gz binary

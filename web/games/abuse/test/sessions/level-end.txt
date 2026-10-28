@@ -1,0 +1,15 @@
+# a saved game next to the exit of level 0 (files/level00-exit.spe, made by test/make-save.ts): load it
+# from the menu, step on the exit: the statistics screen, then level 1
+# home gamma 40
+# home file save0001.spe files/level00-exit.spe
+50 key down SPACE
+51 key up SPACE
+134 mouse 303 12
+134 button 1 down
+135 button 1 up
+147 mouse 18 52
+147 button 1 down
+148 button 1 up
+200 key down DOWN
+203 key up DOWN
+400 end

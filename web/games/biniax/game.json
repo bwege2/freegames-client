@@ -1,0 +1,47 @@
+{
+  "id": "biniax",
+  "title": "Biniax",
+  "tagline": "Take the right pair before the field scrolls over you.",
+  "summary": [
+    "Biniax is an original logic game by Jordan Tuzsuzov (2005). The field holds 5×7 pairs of elements in four colours, and you are a single element: move over empty fields, or take a pair that contains your element — your element then becomes the other one of the pair.",
+    "The field scrolls down, faster as you progress, and the game is over when you have no move left. You don't need deep thought, just the right simple move at the right time.",
+    "This is version 1.2, with its original graphics and sounds. Leaving a game for the menu saves it; Continue picks it up again."
+  ],
+  "original": {
+    "author": "Jordan Tuzsuzov",
+    "year": 2005,
+    "platform": "C/SDL (Windows, Linux)",
+    "version": "1.2",
+    "license": "zlib",
+    "packageBytes": 54082,
+    "url": "http://www.biniax.com/"
+  },
+  "players": "1",
+  "genres": ["Puzzle"],
+  "modes": ["single"],
+  "added": "2026-10-25",
+  "controls": [
+    {
+      "input": "Arrow keys",
+      "action": "Move; choose in the menu"
+    },
+    {
+      "input": "Space or Enter",
+      "action": "Select in the menu; back to the menu during a game (it is saved); continue after game over"
+    },
+    {
+      "input": "Esc",
+      "action": "Back to the menu during a game (it is saved)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "playing.png",
+      "caption": "Taking pairs: your element is in the box with the corners"
+    },
+    {
+      "file": "menu.png",
+      "caption": "The menu: Continue, New, Quit"
+    }
+  ]
+}

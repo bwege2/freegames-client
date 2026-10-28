@@ -1,0 +1,20 @@
+# in the game: pause and go on, the help screens, Esc to the menu
+# home gamma 40
+50 key down SPACE
+51 key up SPACE
+134 mouse 300 15
+134 button 1 down
+135 button 1 up
+170 key down p
+171 key up p
+200 key down SPACE
+201 key up SPACE
+220 key down h
+221 key up h
+240 key down SPACE
+241 key up SPACE
+260 key down SPACE
+261 key up SPACE
+280 key down ESCAPE
+281 key up ESCAPE
+320 end

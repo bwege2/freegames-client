@@ -1,0 +1,5 @@
+# 1-player game, all levels from level 1; the shots are the bot's (test/bot.ts)
+# time 1278000000
+3000 tap return
+4000 tap return
+6000 end

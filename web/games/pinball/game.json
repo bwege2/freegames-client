@@ -1,0 +1,39 @@
+{
+  "id": "pinball",
+  "title": "Pinball Construction Set",
+  "tagline": "Build your own pinball table, then play it.",
+  "summary": [
+    "Bill Budge's Pinball Construction Set (Electronic Arts, 1983) lets you build a pinball machine on screen: take flippers, bumpers, kickers, targets, rollovers, gates and walls out of the box, put them on the table, bend the walls, paint them, wire up scores, bonuses and sounds, set gravity, speed, kick and elasticity, and play your table at once.",
+    "It was one of the first construction kits in a video game. Budge later published its source code under the MIT license.",
+    "This port is the Apple II program itself, translated routine by routine from Budge's 6502 listings and checked against them: the same hi-res screen with its colours, the same physics, scoring and sounds, the construction set with its magnifier, wiring kit and disk menu. The disk is your storage on the server; one to four players take turns at one keyboard, or play online, each at their own computer."
+  ],
+  "original": {
+    "author": "Bill Budge",
+    "year": 1983,
+    "platform": "Apple II",
+    "version": "Apple II source code (billbudge/PCS_AppleII)",
+    "license": "MIT",
+    "packageBytes": 43165,
+    "url": "https://github.com/billbudge/PCS_AppleII"
+  },
+  "players": "1–4, taking turns (on one computer or online)",
+  "genres": ["Pinball", "Game creation"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-26",
+  "controls": [
+    { "input": "Mouse", "action": "The joystick: moves the hand (or the tool) on the screen" },
+    { "input": "Left mouse button", "action": "Button 0: pick up and drop parts, use a tool, choose in the menus" },
+    { "input": "Right mouse button", "action": "Button 1" },
+    { "input": "Left Shift / ←", "action": "Left flipper (button 0)" },
+    { "input": "Right Shift / →", "action": "Right flipper (button 1)" },
+    { "input": "↓ (hold, let go)", "action": "The plunger: pull it back, let go to shoot" },
+    { "input": "Space (before a game)", "action": "One more player (up to 4); a button starts the game" },
+    { "input": "Esc", "action": "Out of a test play or a game, back to the construction set" },
+    { "input": "Letters, Return, ←", "action": "Type file names in the disk menu" },
+    { "input": "Ctrl+S", "action": "Sound off and on in a game" }
+  ],
+  "screenshots": [
+    { "file": "editor.png", "caption": "The construction set: the starting table with two flippers, two bumpers, a kicker and the ball, the parts box and the tools" },
+    { "file": "play.png", "caption": "The test play: the ball on its way down, the bonus and the score" }
+  ]
+}

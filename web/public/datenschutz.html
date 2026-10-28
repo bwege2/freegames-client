@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz · freegames</title>
+<link rel="stylesheet" href="legal.css">
+</head>
+<body>
+<main>
+<a class="back" href="./">← freegames</a>
+<h1>Datenschutzerklärung</h1>
+<p class="muted">Stand: 28. Oktober 2026</p>
+
+<div class="box" lang="en">
+<strong>In short (English):</strong> no cookies, no ads, no analytics services, nothing loaded from other providers.
+Our own server counts how the site is used (page loads with the referring site's domain and the kind of
+device and browser, views, plays) as daily sums only: no IP address, no ID, nothing per visitor.
+Starting a game tells our server anonymously which game is being played, for the "playing now" figures;
+nothing is stored in your browser for that. Only when you first use something that needs the server
+(saving, score tables, online rooms), your browser keeps a random ID (<code>freegames-token</code>) and, if
+you type one, your player name (<code>freegames-name</code>) in its local storage, so that our server can find
+your saves, score table entries and rooms. Our server in Spain (EU) keeps a hash of that ID, your player name, your saves and
+your score table entries. IP addresses are used only while you are connected and are not stored, except
+in the server's error logs, which are deleted after 7 days. Questions, access, deletion: write to the
+e-mail address in the image under 1. The German text below is the binding one.
+</div>
+
+<h2>1. Verantwortlicher</h2>
+<!-- the contact data are an image on purpose (no harvesting of the address, e-mail and phone) -->
+<p><img class="contact" src="kontakt.png" width="431" height="228" alt="Verantwortlicher und Kontaktdaten: Name, Anschrift, E-Mail und Telefon (als Bild)"></p>
+<p>Einen Datenschutzbeauftragten haben wir nicht; dazu sind wir nicht verpflichtet.</p>
+
+<h2>2. Das Wichtigste in Kürze</h2>
+<ul>
+<li>Diese Website setzt keine Cookies, verwendet keine Analyse- oder Werbedienste anderer Anbieter und lädt
+nichts von anderen Anbietern (keine Schriften, keine CDNs, keine eingebetteten Inhalte). Unsere eigene
+Nutzungsstatistik speichert nur Tagessummen (Nr. 11).</li>
+<li>Sie spielen ohne Anmeldung, ohne E-Mail-Adresse und unter einem Namen, den Sie selbst wählen.
+Bitte verwenden Sie nicht Ihren echten Namen.</li>
+<li>Spielstände, Bestenlisten und Online-Räume laufen über unseren eigenen Server in Spanien (EU).
+Daten über Sie gehen nicht in Länder außerhalb der EU.</li>
+</ul>
+
+<h2>3. Aufruf der Website</h2>
+<p>
+Wenn Sie die Website aufrufen, sendet Ihr Browser technisch notwendig Ihre IP-Adresse, die angefragte
+Adresse, Datum und Uhrzeit sowie Browserangaben (User-Agent) an unseren Server. Unser Webserver führt
+kein Zugriffsprotokoll; die Nutzungsstatistik zählt nur Summen (Nr. 11). Nur bei technischen Fehlern (etwa wenn der Spielserver gerade neu startet)
+schreibt er eine Fehlermeldung, die diese Angaben enthalten kann, in das Systemprotokoll des Servers.
+Das Systemprotokoll wird nach 7 Tagen automatisch gelöscht.
+</p>
+<p>
+Zweck: Auslieferung der Website, Fehlersuche, Sicherheit. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO;
+unser berechtigtes Interesse ist ein sicherer und funktionierender Betrieb.
+</p>
+
+<h2>4. Verbindung zum Spielserver</h2>
+<p>
+Wenn Sie ein Spiel starten, verbindet sich Ihr Browser mit unserem Spielserver (WebTransport oder
+WebSocket, verschlüsselt) und teilt ihm <strong>anonym</strong> mit, welches Spiel gespielt wird. Dafür
+wird nichts in Ihrem Browser gespeichert oder ausgelesen, und es wird keine Kennung übermittelt. Der
+Server zählt diese Verbindungen je Spiel (siehe Nr. 10).
+</p>
+<p>
+Solange eine Verbindung besteht, verarbeitet der Server Ihre IP-Adresse; gespeichert wird sie nicht.
+Damit niemand die Zahlen künstlich in die Höhe treibt, zählt der Server dabei im Arbeitsspeicher, wie
+viele solcher anonymen Verbindungen von derselben IP-Adresse (bei IPv6: demselben /64-Netz) gerade offen
+sind (höchstens 32). Damit niemand massenhaft Konten anlegen kann, merkt sich der Server bei neuen Konten
+für höchstens eine Stunde im Arbeitsspeicher, von welcher IP-Adresse (bei IPv6: von welchem /64-Netz) und
+wann sie angelegt wurden.
+</p>
+<p>
+Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der Spiele und ihrer Funktionen), hilfsweise
+lit. f (berechtigtes Interesse an der Bereitstellung und am Schutz vor Missbrauch).
+</p>
+
+<h2>5. Ihr Spielerkonto und was Ihr Browser speichert</h2>
+<p>
+Damit der Server Ihnen Ihre Spielstände, Bestenlisten-Einträge und Ihren Platz in Online-Räumen zuordnen
+kann, legt Ihr Browser eine zufällige Kennung an und speichert sie im lokalen Speicher des Browsers
+(localStorage) unter dem Namen <code>freegames-token</code>. Das geschieht erst, wenn Sie zum ersten Mal eine
+Funktion nutzen, die den Server braucht: zum Beispiel einen Spielstand speichern, eine Bestenliste
+aufrufen oder einen Eintrag erreichen, oder online spielen. Danach wird die Kennung gelesen und an den
+Server übermittelt, wenn ein Spiel diese Funktionen nutzt, etwa um Ihre Spielstände zu laden. Für das
+bloße Spielen und für die Zählung der Spieler wird sie nicht angelegt und nicht gelesen. Die Kennung
+bleibt, bis Sie die Websitedaten in Ihrem Browser löschen.
+</p>
+<p>
+Unser Server kennt nur einen Hashwert (SHA-256) dieser Kennung, aus dem sie sich nicht zurückrechnen
+lässt, eine laufende Kontonummer und Ihren Anzeigenamen.
+</p>
+<p>
+Wenn Sie einen Namen eingeben, speichert Ihr Browser ihn unter <code>freegames-name</code>, damit Sie ihn
+nicht in jedem Spiel neu eingeben müssen.
+</p>
+<p>
+Andere Daten speichert die Website nicht in Ihrem Browser, abgesehen vom üblichen Zwischenspeicher
+(Cache) für Seiten und Spieldateien.
+</p>
+<p>
+Rechtsgrundlage für das Speichern und Auslesen im Browser: § 25 Abs. 2 Nr. 2 TDDDG (unbedingt erforderlich
+für die von Ihnen genutzte Funktion); für die Verarbeitung auf dem Server: Art. 6 Abs. 1 lit. b,
+hilfsweise lit. f DSGVO.
+</p>
+
+<h2>6. Ihr Anzeigename</h2>
+<p>
+Ihren Namen (höchstens 24 Zeichen) sehen die anderen Spieler in Online-Räumen und, wenn Sie einen
+Eintrag erreichen, in den Bestenlisten. Ohne eigene Eingabe heißen Sie „Player“ und eine Nummer. Ihre
+Kontonummer wird den anderen Spielern in Räumen und Bestenlisten ebenfalls übermittelt.
+</p>
+
+<h2>7. Spielstände und Dateien</h2>
+<p>
+Einige Spiele speichern auf unserem Server, was das Original auf Diskette oder Festplatte gespeichert hat,
+zum Beispiel Moria-Charaktere, Spielstände von Colossal Cave Adventure und Biniax, Partien von GNU Chess,
+Core-War-Programme, Pinball-Tische, Worms?-Würmer, Spielstände und Bones-Dateien von NetHack, die
+Einstellungsdatei von Netrek, Spielstände (mit einem kleinen Bild des Bildschirms) und Einstellungen von
+Abuse, die Einstellungsdatei von Teeworlds (mit Name, Clan, dem selbst gewählten Land, dem Aussehen Ihres
+Tees, der Tastenbelegung sowie Freundes- und Ignorierliste) und dort gespeicherte Skins, Einstellungen, eigene
+Bestenlisten, Editor-Level und gespeicherte Partien von Frozen Bubble (bei Online-Partien mit den Namen der
+Mitspieler) sowie Optionen und Rangdatei von XPilot. Je Spiel und
+Konto sind höchstens 64 Dateien und 4 MiB möglich.
+</p>
+<p>Rechtsgrundlage: Art. 6 Abs. 1 lit. b, hilfsweise lit. f DSGVO.</p>
+
+<h2>8. Bestenlisten</h2>
+<p>
+Moria, NetHack, Netrek und XPilot führen wie die Originale gemeinsame Bestenlisten, die alle Spieler des
+jeweiligen Spiels sehen. Ein Eintrag enthält den Namen, die Punkte, den Zeitpunkt, die Kontonummer und die
+Angaben des Originals (Moria: Name, Rasse, Klasse, Geschlecht, Stufe, Tiefe, Todesursache und das
+„Geburtsdatum“ des Charakters; NetHack: Name, Rolle, Rasse, Geschlecht, Gesinnung, Punkte, Tiefe,
+Trefferpunkte, Todesursache, Beginn und Ende der Partie; Netrek: Name, Rang und Statistik des Charakters,
+je Konto nur der zuletzt gespielte Charakter; XPilot: Nick, Punkte, Abschüsse, Tode und Runden).
+</p>
+<p>Rechtsgrundlage: Art. 6 Abs. 1 lit. b, hilfsweise lit. f DSGVO (die gemeinsame Bestenliste gehört zum Spiel).</p>
+
+<h2>9. Online-Räume, Chat und geteilte Inhalte</h2>
+<p>
+In Online-Räumen sehen alle Spieler des Spiels den Raumnamen, die Namen der Mitspieler und ob der Raum
+ein Passwort hat. Spielzüge und der Chat in XPilot und Abuse gehen nur an die Mitspieler im Raum und werden nicht
+gespeichert; in Abuse sind das in jedem Spieltakt Ihre Eingaben (Tasten, Mausposition, Waffenwahl) und was
+Sie in die Chat-Konsole tippen. In Core War geht der Quelltext Ihres Programms beim Start an alle Mitspieler, in Pinball
+Construction Set Ihr Tisch. In Netrek sehen alle Spieler der Galaxie Ihren Charakternamen, Ihr Schiff
+und Ihre Nachrichten; das Passwort Ihres Charakters bleibt nur im Arbeitsspeicher des Servers, solange die
+Galaxie besteht, und wird nicht gespeichert. In Teeworlds sehen alle Spieler im Raum Ihren Namen, Clan, das
+selbst gewählte Land und das Aussehen Ihres Tees, Ihr Team, Ihre Punkte und Ihre Verbindungszeit (Ping), wie
+Sie sich bewegen, zielen und schießen, Ihre Chat-Nachrichten und die Abstimmungen, die Sie starten (die Stimmen selbst sehen alle nur als Anzahl); wer per
+Abstimmung aus einem Raum geworfen wird, ist nur für dessen laufendes Spiel gesperrt, ebenfalls nur im
+Arbeitsspeicher. In Frozen Bubble gehen Ihr Name, Ihre Spielzüge (Zielwinkel, Schüsse, Strafkugeln und wen
+sie treffen) und Ihr Chat an die Mitspieler im Raum. Räume bestehen nur im Arbeitsspeicher, bis sie geschlossen werden.
+</p>
+<p>Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO.</p>
+
+<h2>10. Anzeige der aktiven Spieler</h2>
+<p>
+Die Website zeigt je Spiel, wie viele Spieler es gerade spielen und wie viele davon in Online-Räumen
+sind. Dafür zählt der Server die bestehenden Verbindungen je Spiel, auch die anonymen aus Nr. 4;
+veröffentlicht werden nur diese Summen, keine Namen. Die Website fragt die Summen alle 20 Sekunden beim
+Server ab, solange sie sichtbar ist.
+</p>
+<p>Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (Information der Besucher über die Aktivität in den Spielen).</p>
+
+<h2>11. Nutzungsstatistik</h2>
+<p>
+Damit wir sehen, wie die Website genutzt wird und welche Spiele gefragt sind, zählt unser Server, ohne Cookies
+und ohne etwas in Ihrem Browser zu speichern oder auszulesen:
+</p>
+<ul>
+<li>wenn eine Seite geladen wird: welche Seite; die Domain der Seite, von der Sie kamen (z. B. „reddit.com“, ohne
+den genauen Pfad); und aus den Angaben, die Ihr Browser bei jedem Aufruf ohnehin mitsendet, die Art des Geräts
+(Computer, Smartphone, Tablet), die Browserfamilie (z. B. Firefox) und das Betriebssystem (z. B. Android);</li>
+<li>wenn Sie innerhalb der Website die Ansicht wechseln (Spieleliste, Spielseite, Spiel): die Seite meldet dem
+Server nur die Art der Ansicht und das Spiel, sonst nichts;</li>
+<li>Spielstarts je Spiel, ob online gespielt wurde, und wie lange gespielt wurde;</li>
+<li>die höchste Zahl gleichzeitiger Spieler eines Tages.</li>
+</ul>
+<p>
+Gespeichert werden ausschließlich <strong>Tagessummen</strong> (etwa „heute 120 Aufrufe, davon 40 von
+Smartphones“). IP-Adressen, Kennungen oder Angaben zu einzelnen Besuchern werden dafür nicht gespeichert und nicht
+zusammengeführt; ob jemand wiederkommt, lässt sich nicht erkennen. Damit niemand die Zahlen verfälscht, nimmt der
+Server je IP-Adresse höchstens 60 Meldungen pro Minute an; dafür hält er die Adresse höchstens zwei Minuten im
+Arbeitsspeicher. Zugriffe von Suchmaschinen-Robotern und automatischen Programmen werden nur als Gesamtzahl
+gezählt.
+</p>
+<p>
+Aus den Spielstarts der letzten 30 Tage zeigt die Website, wie beliebt ein Spiel ist, und sortiert die Liste
+danach, wenn Sie das wählen.
+</p>
+<p>
+Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse ist, die Website und die Auswahl der
+Spiele zu verbessern. Weil dafür nichts in Ihrem Gerät gespeichert oder aus ihm ausgelesen wird, braucht es keine
+Einwilligung nach § 25 TDDDG. Die Tagessummen enthalten keine personenbezogenen Daten.
+</p>
+
+<h2>12. Hosting und Empfänger</h2>
+<p>
+Unser Server steht bei Cloudi NextGen S.L. (Clouding), Barcelona, Spanien, die ihn in unserem Auftrag
+betreibt (Art. 28 DSGVO). Die Domain und ihr DNS verwaltet Porkbun LLC (USA); dabei übermitteln wir keine
+Daten über Sie an Porkbun. Unsere TLS-Zertifikate stammen von Let's Encrypt (ISRG, USA); Ihr Browser
+übermittelt dafür keine Daten an Let's Encrypt. Andere Empfänger gibt es nicht, außer wir sind
+gesetzlich zur Herausgabe verpflichtet.
+</p>
+<p>
+Links zu den Originalspielen führen auf fremde Websites; für deren Datenverarbeitung sind ihre Betreiber
+verantwortlich.
+</p>
+
+<h2>13. Speicherdauer</h2>
+<ul>
+<li>IP-Adresse: während der Verbindung; für das Limit neuer Konten höchstens eine Stunde; im
+Systemprotokoll des Servers (nur bei Fehlern) 7 Tage.</li>
+<li>Konto, Name, Spielstände und Bestenlisten-Einträge: bis Sie uns um Löschung bitten.</li>
+<li>Räume, Chat und geteilte Inhalte: bis der Raum geschlossen wird.</li>
+<li>Nutzungsstatistik: nur Tagessummen ohne Personenbezug, unbefristet; die IP-Adresse für die Begrenzung der
+Meldungen höchstens zwei Minuten, bei fehlgeschlagenen Anmeldungen am Verwaltungsbereich höchstens zehn Minuten,
+jeweils nur im Arbeitsspeicher.</li>
+<li>Automatische Datensicherungen gibt es nicht.</li>
+</ul>
+
+<h2>14. Müssen Sie Daten angeben?</h2>
+<p>
+Nein. Sie müssen keinen Namen eingeben. Ohne die Kennung im Browser können Sie nicht speichern, keine
+Bestenlisten-Einträge erreichen und nicht online spielen; alle anderen Spiele funktionieren ohne sie.
+</p>
+
+<h2>15. Ihre Rechte</h2>
+<p>
+Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16), Löschung (Art. 17),
+Einschränkung der Verarbeitung (Art. 18) und Datenübertragbarkeit (Art. 20). Weil wir keine echten
+Namen oder E-Mail-Adressen kennen, können wir Ihnen Daten nur zuordnen, wenn Sie uns Ihren Spielernamen
+nennen und welche Spiele Sie wann gespielt haben. Schreiben Sie an die E-Mail-Adresse unter Nr. 1.
+</p>
+<p>
+<strong>Widerspruchsrecht (Art. 21 DSGVO):</strong> Soweit wir Daten auf Grundlage von Art. 6 Abs. 1
+lit. f DSGVO verarbeiten, können Sie aus Gründen, die sich aus Ihrer besonderen Situation ergeben,
+jederzeit widersprechen. Wir verarbeiten die Daten dann nicht mehr, es sei denn, wir können zwingende
+schutzwürdige Gründe nachweisen oder die Verarbeitung dient der Abwehr von Rechtsansprüchen.
+</p>
+<p>
+Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren (Art. 77 DSGVO), zum Beispiel bei der
+für uns zuständigen: Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit
+Baden-Württemberg, Lautenschlagerstraße 20, 70173 Stuttgart.
+</p>
+
+<h2>16. Kinder</h2>
+<p>
+Die Spiele sind für alle gedacht. Bitte erklären Sie Kindern, dass sie keinen echten Namen verwenden
+sollen. Inhalte, die Kinder gefährden, können Sie uns jederzeit melden (siehe
+<a href="impressum.html">Impressum</a>).
+</p>
+
+<h2>17. Sicherheit</h2>
+<p>
+Alle Verbindungen sind verschlüsselt (HTTPS, WebTransport und WebSocket über TLS). Der Server speichert
+Ihre Kennung nur als Hashwert. Eine automatisierte Entscheidungsfindung findet nicht statt.
+</p>
+
+<h2>18. Änderungen</h2>
+<p>Wir passen diese Erklärung an, wenn sich die Website ändert. Es gilt die hier veröffentlichte Fassung.</p>
+
+<nav class="legal">
+<a href="./">All games</a>
+<a href="impressum.html">Impressum / Legal notice</a>
+<a href="datenschutz.html">Datenschutz / Privacy</a>
+<a href="licenses.html">Lizenzen &amp; Quellcode / Licenses &amp; source</a>
+</nav>
+</main>
+</body>
+</html>

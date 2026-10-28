@@ -1,0 +1,59 @@
+{
+  "id": "adventure",
+  "title": "Colossal Cave Adventure",
+  "tagline": "The first text adventure: explore a cave by typing.",
+  "summary": [
+    "Will Crowther wrote Adventure in 1976, modelled on a real cave in Kentucky; in 1977 Don Woods expanded it into the 350-point game that spread to every computer. You type short commands like GO NORTH or GET LAMP to explore, collect treasures and solve puzzles. Watch out for the dwarves.",
+    "Crowther and Woods kept working on it until Adventure 2.5 in 1995, the 430-point version with more treasures and puzzles. Open Adventure continues that version, with their blessing.",
+    "This port is Open Adventure 1.22. Type SAVE to keep your game on the server and RESUME to go on with it later."
+  ],
+  "original": {
+    "author": "Will Crowther & Don Woods",
+    "year": 1977,
+    "platform": "FORTRAN on the PDP-10; Open Adventure in C",
+    "version": "Open Adventure 1.22 (Adventure 2.5, 430 points)",
+    "license": "BSD-2-Clause",
+    "packageBytes": 513902,
+    "url": "https://gitlab.com/esr/open-adventure"
+  },
+  "players": "1",
+  "genres": ["Text adventure"],
+  "modes": ["single"],
+  "added": "2026-10-25",
+  "controls": [
+    {
+      "input": "Keyboard",
+      "action": "Type a command of one or two words (GO NORTH, GET LAMP, INVENTORY) and press Enter"
+    },
+    {
+      "input": "Backspace",
+      "action": "Correct the line before Enter (Ctrl+U clears it)"
+    },
+    {
+      "input": "HELP, INFO",
+      "action": "The game's own help and information"
+    },
+    {
+      "input": "SAVE, RESUME",
+      "action": "Save the game to your account on the server under a file name; RESUME (best at the start of a new game) goes on with it"
+    },
+    {
+      "input": "Mouse wheel",
+      "action": "Scroll back through what the game has printed"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "welcome.png",
+      "caption": "The instructions and the end of the road"
+    },
+    {
+      "file": "cave.png",
+      "caption": "Down through the grate into the cave, with the lamp lit"
+    },
+    {
+      "file": "resume.png",
+      "caption": "A new game resumes the one saved on the server"
+    }
+  ]
+}

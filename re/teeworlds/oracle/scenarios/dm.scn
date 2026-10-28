@@ -1,0 +1,24 @@
+# dm: three players on dm1 fight for a minute: connect, map download, kills, chat, emoticons, weapons
+duration 3000
+server sv_register 0
+server sv_map dm1
+server sv_gametype dm
+server sv_warmup 0
+server sv_scorelimit 20
+server sv_timelimit 0
+server sv_max_clients 8
+server sv_name oracle-dm
+client 0 name=alice clan=red seed=11 mode=hunt country=276
+client 1 name=bob seed=22 mode=hunt body=kitty marking=whisker color=1b6f74,ff0000ff,1b6f74,1b759e,1c873e,0000ff
+client 2 name=carol seed=33 mode=random
+at 5 0 connect
+at 8 1 connect
+at 120 2 connect
+at 300 0 say all hello from alice
+at 310 1 say all hi alice
+at 400 1 emote 2
+at 900 2 mode hunt
+at 1200 0 weapon 3
+at 1500 2 kill
+at 2000 1 say team only my team hears this
+at 2500 0 emote 7

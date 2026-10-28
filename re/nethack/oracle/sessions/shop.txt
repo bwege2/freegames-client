@@ -1,0 +1,15 @@
+# Izchak's lighting store in Minetown (wizard mode): there by the level teleport menu (^V ? > w), 500
+# gold pieces wished for, into the shop by travel to its door, a lamp bought (picked up, priced, paid),
+# a candle picked up unpaid and shown in the inventory, the lamp sold back, the candle paid for, out of
+# the shop and a fight with a monkey; then the rest of the town on foot.
+seed 22
+login root
+run -D
+keys nvhny\e\e\e\e\e\e\e
+keys ^V?\n>w\e\e^F
+keys ^W500 gold pieces\n\e
+keys _d.jjjj,\npy\nl\n,\ni\edey\ehpy\ekkk\n\n
+keys pyy\n\e\e
+keys hhhh\e\ejjjjj\ekkkkkk\ellllllllll\ehhhhh\eiI$\e\e
+keys _<.\e\e\e\e
+keys ^X\e\e\e\e

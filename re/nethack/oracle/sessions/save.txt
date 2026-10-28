@@ -1,0 +1,32 @@
+# made by bot.py from {"seed": 77, "login": "Sigrid", "create": "nvd", "keys": 2500, "seq": 6, "runs": [{"until": "save", "after": 400}, {"until": "save", "after": 400}, {"until": "death"}]}
+seed 77
+login Sigrid
+time 1704067200
+run 
+keys nvdy\x20lhnjjsujsssskjyjslssssssskljssshsssPsubssslyhssssshshssssslhkjsuhl\x20hssskksssnkyssssnyjuks
+keys sssslbljhsssjlyhlhsssunhhssslhknhkssslsssjlj\x04jknlbubkjkuksjhunhksssssjksjssssshjlysjssssslhssssnk
+keys hsshh\x04hjllylbulsssssssnkhssssnksshnslssnynksssssssssssbnksjushssbulksssslbhsljyklnsshnlsssssbkujs
+keys sbljkhlsskssshssssbujsssnyssshlksssssbuassbkuhsssssbnjjshsuyjkssssssyssssshlusssE\x1bskssssssshyjkns
+keys sssshkjslssshsSy
+run 
+keys \x20hhhbjssssssskjsskjssskjkkujhslsssnysnhlPshlyljsssssujsujhsssssssssssslsslklnjsssasubsskjshslkklj
+keys kysbullsssssjkyjlhsssssylE\x1bsjyjssslhlssshljsjkkjkjkysjjshlssssshlyA\x1bjkjkjlkhjssyjkjkjsssskhjls
+keys hyjlkhujksslshlbklshsnkssssssl\x20jjjshkbkjssskhbsllhlsklblhssssslhlsshujslksskjbsssssssyjkklyssss:s
+keys sssshsjlyhssssssnhkssssslssjjkssjhknhksx\x20hssslssnyssssbkssssssssssslssjhknkbkshs\x18\x1bssssnssed
+keys juhsssssh\x04hjyhhjjklhSy
+run 
+keys \x20ljkjjbjhh\x20\x20blhukuhjkssssjkssjulnjkjjjssPsskjskjsskjksssssssssssnsssssshsssssslssasssskjsss
+keys sssjssssssyssssssussssssbssssssE\x1bnsssssshsssssslsssssskkjkkssssssslynhssA\x1bssuhlkbksnlhssssssjk
+keys ssssssljnhkljskljss:sssssssslshssssssssskljssllhskjsknysssssx\x20sksssssshssssssjssssssylssblsssusss
+keys ssssbklbyjlssssskssussksssshsssssssskjksssssshnksssjysjkssnssssjlkhlsjylsbjkshjssssshs\x18\x1bsssjks
+keys sssbkslshsssbkssnkjysjlybssssnslb\x20kln\x20j\x20njlsnhn\x20hbsshsslhsshssssksssyjussstblssssssssshh
+keys sjssssssssssssuysssssssssssZsuksssssssssslshsssssssssssshsssssssssss\x0f\x20slnlul\x20ssshnybubsssss
+keys snynkhssssssnhslssi\x1bshssussssssbssussssnjsksssylsbljshslnssqsssllshsshssbskssssssuhlknyjssssssyss
+keys lskr\x1bsskysusslssssblbssssssnssjksssshssjsssszlsssssskshslssjssyjujsylsssssjyysssssbsuWfsssssshb\x20
+keys l\x20h\x20y\x20\x20egssssssnsssshsshssssssw\x1blsssssskssssylssjjksssysssyssssessusssePsssbl\x20ss
+keys nsssesnssksejssshsessbussesnlssseskssksessssjsejkssssessysssesssussesssslaeblssssessnsssessshssessls
+keys slesssssseksssE\x1bessjsjsekssssseysssssesussssessbsslesssA\x1bsenssk\x20sessshs\x20bsks\x20yssslsss
+keys jusssksssss:sjssslsss\x20yssssssusssl\x20\x20\x20\x20sssblssssssnssx\x20sssshbssssuss\x20lssss\x20ss
+keys \x20\x20khs\x20sssls\x20sjs\x20\x20\x20s\x20\x20s\x20sssy\x20\x20sl\x20\x20hs\x20ss\x20s\x20\x20suss
+keys s\x20s\x20\x20\x20\x20\x20\x20s\x20\x20\x18\x1bs\x20\x20b\x20\x20ss\x20h\x20\x20\x20sl\x20y\x20\x20s
+keys \x20\x20\x20\x20\x20\x20\x20y\x1by\x20\x20nnn\x20\x20

@@ -1,0 +1,59 @@
+{
+  "id": "passage",
+  "title": "Passage",
+  "tagline": "A whole life in five minutes.",
+  "summary": [
+    "Jason Rohrer's Passage (2007) is a five-minute game about a lifetime. You walk through a long, narrow world: you can share the way with a spouse, open treasure chests, or explore the maze — and you grow older all the time.",
+    "Rohrer released the game's source code and art into the public domain.",
+    "This is version 4, with its original graphics and music."
+  ],
+  "original": {
+    "author": "Jason Rohrer",
+    "year": 2007,
+    "platform": "C++/SDL (Windows, macOS, Linux)",
+    "version": "v4 (Unix source)",
+    "license": "Public domain",
+    "packageBytes": 557720,
+    "url": "http://hcsoftware.sourceforge.net/passage/"
+  },
+  "players": "1",
+  "genres": ["Side-scroller"],
+  "modes": ["single"],
+  "added": "2026-10-25",
+  "controls": [
+    {
+      "input": "Arrow keys",
+      "action": "Walk (or a gamepad's stick or d-pad)"
+    },
+    {
+      "input": "Any key",
+      "action": "Start a life from the title"
+    },
+    {
+      "input": "B",
+      "action": "Zoom: smaller, then bigger again, while held"
+    },
+    {
+      "input": "F",
+      "action": "Full screen"
+    },
+    {
+      "input": "Q or Esc",
+      "action": "Leave"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "walking.png",
+      "caption": "Early in life: the spouse waits up ahead, the future squeezed at the right"
+    },
+    {
+      "file": "maze.png",
+      "caption": "Down in the maze, where the chests are"
+    },
+    {
+      "file": "title.png",
+      "caption": "The title"
+    }
+  ]
+}

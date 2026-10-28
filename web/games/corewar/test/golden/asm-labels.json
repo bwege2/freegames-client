@@ -1,0 +1,16 @@
+{
+ "name": "asm-labels",
+ "args": [
+  "-V",
+  "-A",
+  "asm/labels.red"
+ ],
+ "time": 6010,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "After pass 0\nInstruction (physical line, instr):\n\n(    3) ;assert 1\n(    4) one     dat     #1\n(    5) one     dat     #2\n(    6) two: three: four: five: six: seven: eight: nine: dat #3\n(    7)         org     one\n(    8)         end     two\n(    9) x y z\n\n***END*OF*PASS***\n\nParameter checking:\nCurrent parameter for ';assert': 1\nWarning in line 5: 'one     dat     #2'\n        Ignored, redefinition of label 'one'\nError in line 6: 'two: three: four: five: six: seven: eight: nine: dat #3'\n        Too many labels for a declaration (last: 'nine')\n\nAfter pass 1\nInstruction (physical line, instr):\n\n(    4) DAT #1\n(    6) DAT #3\n(    7) ORG 0\n(    8) END 1\n\n***END*OF*PASS***\n\nLabel references:\nGroup label(s):\neight seven six five four three two \nReference:\n(LABEL):    1\n\nGroup label(s):\none \nReference:\n(LABEL):    0\n\nGroup label(s):\nPSPACESIZE \nReference:\n(TEXT):\n500\n\nGroup label(s):\nWRITELIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nREADLIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nROUNDS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nWARRIORS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nVERSION \nReference:\n(TEXT):\n95\n\nGroup label(s):\nMINDISTANCE \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXLENGTH \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXCYCLES \nReference:\n(TEXT):\n80000\n\nGroup label(s):\nMAXPROCESSES \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nCORESIZE \nReference:\n(TEXT):\n8000\n\n***END*OF*CHART***\n\n\nSource: filename 'asm/labels.red'\nNumber of errors: 1\nNumber of warnings: 1\n\n",
+ "win": "",
+ "trace": []
+}

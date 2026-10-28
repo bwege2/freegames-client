@@ -1,0 +1,44 @@
+{
+  "id": "frozenbubble",
+  "title": "Frozen Bubble",
+  "tagline": "Penguins shoot coloured bubbles: three of a kind fall, and the ceiling comes down.",
+  "summary": [
+    "A penguin turns a launcher at the bottom of a frozen field and shoots coloured bubbles. A bubble sticks where it touches others; three or more of a colour together burst, and whatever hung from them falls. Every few shots the ceiling (alone) or a new row of bubbles (against someone) comes down, and a bubble that reaches the bottom ends the game. Take too long and the launcher fires by itself.",
+    "Alone you play the 100 levels in order or from any of them, random levels, or the multiplayer training, which sends you malus bubbles for two minutes and counts how many you send back. Two players share a keyboard: every group one of them bursts sends malus bubbles to the other's field. With chain-reaction on, falling bubbles that fit a group of their colour fly up into it and burst it too. The level editor makes levelsets of your own, which you can then play.",
+    "This is a port of Frozen Bubble 2.2.0 (2008) from its Perl and C source, frame by frame against the original. Online, two to five play one game over our server, as the original's network game: each player sends malus to the others, or to one of them."
+  ],
+  "original": {
+    "author": "Guillaume Cottenceau (design and programming), Alexis Younes and Amaury Amblard-Ladurantie (artwork), Matthias Le Bidan (soundtrack), Kim and David Joham (level editor)",
+    "year": 2002,
+    "platform": "Perl with SDL_perl and a C extension (Linux, Mac OS X, Windows)",
+    "version": "2.2.0 (2008), the last release of the Perl game",
+    "license": "GPL-2.0-only",
+    "packageBytes": 20585572,
+    "url": "http://www.frozen-bubble.org/"
+  },
+  "players": "1–2 (on one computer), 2–5 online",
+  "genres": ["Puzzle", "Arcade"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-28",
+  "controls": [
+    { "input": "Up and Down (or Left and Right), Return", "action": "Menus: choose, then take" },
+    { "input": "Left, Right", "action": "Player 1 (alone, and right in two-player games): turn the launcher" },
+    { "input": "Up", "action": "Player 1: shoot" },
+    { "input": "Down", "action": "Player 1: launcher straight up" },
+    { "input": "X, V, C, D", "action": "Player 2 (left): turn left, turn right, shoot, straight up" },
+    { "input": "Pause", "action": "Pause the game (again, Return, Space or Escape to go on)" },
+    { "input": "Escape", "action": "Leave the game for the menu; in the menu, leave Frozen Bubble" },
+    { "input": "Y or N", "action": "Chain-reaction on or off (random levels, training, two players)" },
+    { "input": "Return in an online game", "action": "Chat: type a line, Return sends it, Escape drops it" },
+    { "input": "F1–F4, F10 online", "action": "Send your malus to one opponent, or to all" },
+    { "input": "F", "action": "Full screen on or off" },
+    { "input": "F11, F12", "action": "Music on or off, sound on or off (where the browser leaves these keys to the page)" },
+    { "input": "Mouse in the level editor", "action": "Pick a bubble colour or the eraser, place bubbles (right button: erase), click the levelset and level commands" },
+    { "input": "Keys in the level editor", "action": "Left/Right previous and next level, Up/Down first and last, A append, I insert, D delete, [ and ] move the level, J jump, S save, O open, F1 help, Escape back" }
+  ],
+  "screenshots": [
+    { "file": "menu.png", "caption": "The main menu, with its animated buttons and the credits scrolling under the logo" },
+    { "file": "one-player.png", "caption": "Level 1 of 100, a few shots in" },
+    { "file": "two-players.png", "caption": "Two players on one keyboard: the same start, and every burst group sends malus bubbles across" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ballerburg",
+  "title": "Ballerburg",
+  "tagline": "Two castles, two kings, one mountain between them.",
+  "summary": [
+    "Eckhard Kruse wrote Ballerburg for the Atari ST in 1987 and gave it away with its source code. Two kings face each other across a mountain, each in a castle with cannons.",
+    "Aim by angle and amount of powder, mind the wind, and shoot down the other castle's walls, cannons, shaft towers and king. You also run a kingdom: set the taxes, mind your people, and buy powder, cannonballs, cannons, shaft towers and bricks at the market. Play against a friend on one computer, online, or against seven computer players, each with its own strategy.",
+    "This port follows the SDL version 1.2.3 by Thomas Huth, which runs Kruse's original code: the same game, the same dialogs, the same sound chip music."
+  ],
+  "original": {
+    "author": "Eckhard Kruse",
+    "year": 1987,
+    "platform": "Atari ST; SDL port (Linux and others)",
+    "version": "1.2.3 (SDL port by Thomas Huth)",
+    "license": "Public domain (original), GPL-3.0-or-later (SDL port)",
+    "packageBytes": 80208,
+    "url": "https://baller.frama.io/"
+  },
+  "players": "2 (on one computer, online, or against the computer)",
+  "genres": ["Artillery"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-26",
+  "controls": [
+    { "input": "Mouse: a cannon", "action": "Aim it (angle, powder) and fire, or cancel" },
+    { "input": "Mouse: treasury, powder or cannonball store", "action": "The market: taxes, powder, cannonballs, cannons, shaft towers, the weather vane, laying bricks" },
+    { "input": "Mouse: the king", "action": "An audience with the king" },
+    { "input": "Mouse: Done", "action": "End the turn without a shot" },
+    { "input": "Right mouse button", "action": "Stop laying bricks" },
+    { "input": "Esc", "action": "Settings: human or computer players, strategies, names, rounds, rules, new game (online: leave the game)" },
+    { "input": "T", "action": "The table of the computer players' games" },
+    { "input": "F", "action": "Full screen" },
+    { "input": "Q", "action": "Quit" },
+    { "input": "Play online (beside the picture)", "action": "The lobby: a room for two, one castle each" }
+  ],
+  "screenshots": [
+    { "file": "castles.png", "caption": "Two castles and the mountain between them: the start of a game" },
+    { "file": "cannon.png", "caption": "Aiming: the angle and the powder of a cannon" },
+    { "file": "market.png", "caption": "The market: what the kingdom has, the taxes, and the prices of the round" }
+  ]
+}

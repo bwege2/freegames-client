@@ -1,0 +1,8 @@
+# 1-player random level with chain-reaction (menu: Return, Down Down, Return, Y)
+# time 1278000000
+3000 tap return
+3600 tap down
+3800 tap down
+4200 tap return
+4800 tap y
+10000 end

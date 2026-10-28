@@ -1,0 +1,6 @@
+# 2-player game without chain-reaction
+# time 1278000000
+3000 tap down
+3500 tap return
+4000 tap n
+9000 end

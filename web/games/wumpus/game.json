@@ -1,0 +1,43 @@
+{
+  "id": "wumpus",
+  "title": "Hunt the Wumpus",
+  "tagline": "Hunt a monster through a cave of twenty rooms.",
+  "summary": [
+    "Gregory Yob wrote Hunt the Wumpus in BASIC in 1973, one of the first computer games built around exploring a hidden map.",
+    "The cave has 20 rooms, joined like the corners of a dodecahedron. Somewhere the Wumpus sleeps; there are two bottomless pits and two superbats that carry you off. From the next room you can smell the Wumpus, feel the draft of a pit and hear the bats.",
+    "You have five crooked arrows. Shoot one through up to five rooms to kill the Wumpus — but miss, and it may wake up and come for you."
+  ],
+  "original": {
+    "author": "Gregory Yob",
+    "year": 1973,
+    "platform": "BASIC (teletype)",
+    "version": "the Creative Computing listing (1975)",
+    "license": "Public domain",
+    "packageBytes": 6774,
+    "url": "https://github.com/kingsawyer/wumpus"
+  },
+  "players": "1",
+  "genres": ["Survival horror", "Adventure", "Puzzle"],
+  "modes": ["single"],
+  "added": "2026-10-25",
+  "controls": [
+    {
+      "input": "Keyboard",
+      "action": "Type your answer and press Enter: Y/N, S (shoot) or M (move), room numbers"
+    },
+    {
+      "input": "Backspace",
+      "action": "Correct the line before Enter"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "instructions.png",
+      "caption": "The instructions, then the first room"
+    },
+    {
+      "file": "hunting.png",
+      "caption": "Moving through the cave and shooting a crooked arrow"
+    }
+  ]
+}

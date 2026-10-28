@@ -1,0 +1,13 @@
+{
+ "name": "frontend-args-memory",
+ "args": [
+  "--memory=lots"
+ ],
+ "time": 1000000000,
+ "files": {},
+ "input": [],
+ "status": 1,
+ "stdout": "Memory out of range or invalid.\n",
+ "stderr": "",
+ "written": {}
+}

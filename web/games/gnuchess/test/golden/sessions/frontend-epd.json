@@ -1,0 +1,39 @@
+{
+ "name": "frontend-epd",
+ "args": [],
+ "time": 1000000000,
+ "files": {
+  "positions.epd": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - bm Bb5; id \"Ruy Lopez\";\n# two more test positions\n\n8/8/8/4k3/8/4K3/4P3/8 w - - bm Kd3; id \"KPK\";\nr3k2r/8/8/8/8/8/8/R3K2R b KQkq - bm O-O; id \"castles\";\n",
+  "broken.epd": "4k3/8/8/8/8/8/8/4K3 x - -\n8/8/8/8/8/8/8/8 w - -\n"
+ },
+ "input": [
+  "easy",
+  "depth 2",
+  "load positions.epd",
+  "show board",
+  "load next",
+  "load next",
+  "load next",
+  "load positions.epd 3",
+  "epdload positions.epd",
+  "load missing.epd",
+  "load broken.epd",
+  "save",
+  "save out.epd",
+  "epdsave out.epd",
+  "setboard 8/8/8/3k4/8/8/8/R3K3 w Q - 0 1",
+  "show board",
+  "save out.epd",
+  "setboard 4k3/8/8/8/4P3/8/8/4K3 b - e3 0 1",
+  "show board",
+  "load positions.epd",
+  "Bb5",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : \n : Best move = Bb5\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nWhite (1) : \nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nWhite (1) : \n : Best move = Kd3\n\nwhite  \n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . k . . . \n. . . . . . . . \n. . . . K . . . \n. . . . P . . . \n. . . . . . . . \n\u0000 \nError loading EPD file 'next'.\nWhite (1) : \n : Best move = O-O\n\nblack  KQkq\n\nr . . . k . . r \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nR . . . K . . R \n\u0000 \nError loading EPD file 'next'.\nWhite (1) : \nblack  KQkq\n\nr . . . k . . r \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nR . . . K . . R \n\u0000 \nError loading EPD file 'next'.\nWhite (1) : \n : Best move = O-O\n\nblack  KQkq\n\nr . . . k . . r \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nR . . . K . . R \n\u0000 \nError loading EPD file 'positions.epd 3'.\nWhite (1) : \n : Best move = Bb5\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nWhite (1) : Error opening file missing.epd\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nError loading EPD file 'missing.epd'.\nWhite (1) : \n : Best move = \n\nwhite  \n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n\u0000 \nBoard is wrong!\nBoard is wrong!\nWhite (1) : Invalid filename.\nWhite (1) : White (1) : White (1) : White (1) : \nwhite  Q\n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . k . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nR . . . K . . . \n\u0000 \nWhite (1) : White (1) : White (1) : \nblack    e3\n\n. . . . k . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \n. . . . . . . . \n. . . . K . . . \n\u0000 \nWhite (1) : \n : Best move = Bb5\n\nwhite  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. . . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nWhite (1) : 1. Bb5\n\nblack  KQkq\n\nr . b q k b n r \np p p p . p p p \n. . n . . . . . \n. B . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \nThinking...\nThinking...\n\nwhite  KQkq\n\nr . b q k b . r \np p p p . p p p \n. . n . . n . . \n. B . . p . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : Nf6\nWhite (2) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {
+  "out.epd": "8/8/8/8/8/8/8/8 w - - bm 1; id 1;\n8/8/8/8/8/8/8/8 w - - bm 1; id 1;\n8/8/8/3k4/8/8/8/R3K3 w Q - bm 1; id 1;\n"
+ }
+}

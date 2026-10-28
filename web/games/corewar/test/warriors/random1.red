@@ -1,0 +1,62 @@
+;redcode-94
+;name Random 1
+;author the port's tests (generated)
+;strategy random instructions: every opcode, modifier and mode
+;assert 1
+        spl     1, >-9
+        seq.a   $-1652, <-64
+        mul.i   {27, *-10
+        slt.f   *61, *-3144
+        seq.f   #66, *1732
+        sne.a   *42, <-68
+        jmn.b   *2725, $63
+        slt.ab  $-1294, *1612
+        nop.f   }19, #-2363
+        jmn.f   #983, <72
+        mov.ba  *30, >55
+        mov.x   >-40, *1809
+        mov.a   {3461, >-1163
+        cmp.b   >53, <-59
+        seq.a   >1255, #-33
+        mov.b   *-66, >55
+        nop.ab  #1922, {-1657
+        ldp.b   <-163, <23
+        djn.a   >15, <326
+        mul.f   *-73, {-12
+        mov.ba  >-57, >512
+        cmp.x   <62, *44
+        slt.ba  #3948, @759
+        mov.ba  $78, }1230
+        djn.i   <-42, <52
+        jmn.x   #-1590, {-2
+        add.x   #-1336, $-1078
+        sne.f   <-14, @-23
+        spl.x   $71, @-772
+        mul.ba  @1062, $-3119
+        stp.f   {2577, }3001
+        slt.i   *-58, *-3435
+        jmp.a   }71, $-45
+        cmp.x   *2547, >-12
+        jmp.ba  *3273, {-23
+        ldp.ba  #43, #-16
+        stp.a   {-73, #1275
+        jmn.f   }-2385, }424
+        stp.x   <-782, *2472
+        mul.a   @-65, @3548
+        add.ba  >56, }-78
+        djn.ab  $603, @-2533
+        stp.a   $-2934, >-8
+        mul.b   >-28, *-9
+        mov.ba  <72, {-647
+        add.i   >-2568, *79
+        mov.ba  #3666, <-1833
+        dat.f   #3022, $-2676
+        jmp.b   >-34, *-9
+        jmz.f   #3438, >2298
+        cmp.a   @-35, {2947
+        djn.f   <-3061, @2692
+        djn.f   <-9, @-1317
+        mov.x   *69, <2480
+        jmp.ab  <3782, #-59
+        mov.i   >-39, >-76
+        end

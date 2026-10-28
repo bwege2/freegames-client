@@ -1,0 +1,16 @@
+{
+ "name": "asm-forrof",
+ "args": [
+  "-V",
+  "-A",
+  "asm/forrof.red"
+ ],
+ "time": 6004,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "After pass 0\nInstruction (physical line, instr):\n\n(    3) ;assert 1\n(    4)         rof\n(    5) x       for     3\n(    6)         dat     #x, #0\n(    7)         rof\n(    8) y       for     -1\n(    9)         dat     #y\n(   10)         rof\n(   11) z       for     2\n(   12)         mov.i   z, 1\n\n***END*OF*PASS***\n\nParameter checking:\nCurrent parameter for ';assert': 1\nError in line 4: '        rof'\n        Unopened FOR\nCurrent parameter for FOR: 3\nCurrent parameter for FOR: -1\nCurrent parameter for FOR: 2\nWarning:\n        Unclosed ROF\n\nAfter pass 1\nInstruction (physical line, instr):\n\n(    6) DAT #01,#0\n(    6) DAT #02,#0\n(    6) DAT #03,#0\n(   12) MOV.i 01,1\n\n***END*OF*PASS***\n\nLabel references:\nGroup label(s):\nPSPACESIZE \nReference:\n(TEXT):\n500\n\nGroup label(s):\nWRITELIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nREADLIMIT \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nROUNDS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nWARRIORS \nReference:\n(TEXT):\n1\n\nGroup label(s):\nVERSION \nReference:\n(TEXT):\n95\n\nGroup label(s):\nMINDISTANCE \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXLENGTH \nReference:\n(TEXT):\n100\n\nGroup label(s):\nMAXCYCLES \nReference:\n(TEXT):\n80000\n\nGroup label(s):\nMAXPROCESSES \nReference:\n(TEXT):\n8000\n\nGroup label(s):\nCORESIZE \nReference:\n(TEXT):\n8000\n\n***END*OF*CHART***\n\n\nSource: filename 'asm/forrof.red'\nNumber of errors: 1\nNumber of warnings: 1\n\n",
+ "win": "",
+ "trace": []
+}

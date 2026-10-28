@@ -1,0 +1,5 @@
+; test macros
+stepper=s~s~r
+show = l .,+3
+long=echo a\
+~echo b

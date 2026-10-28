@@ -1,0 +1,12 @@
+sv_register 0
+sv_map dm1
+sv_gametype dm
+sv_warmup 0
+sv_scorelimit 50
+sv_timelimit 0
+sv_max_clients 8
+sv_vote_kick_bantime 0
+sv_name oracle-joinleave
+add_vote "Map dm2" "sv_map dm2"
+add_vote "Restart" "restart"
+# duration 4500 iterations

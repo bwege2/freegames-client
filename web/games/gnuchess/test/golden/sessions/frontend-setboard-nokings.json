@@ -1,0 +1,16 @@
+{
+ "name": "frontend-setboard-nokings",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "setboard 8/8/8/8/8/8/8/8 w - - 0 1",
+  "show board",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Board is wrong!\nWhite (1) : 1/2-1/2 {Stalemate}\n\nwhite  \n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n\u0000 \nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

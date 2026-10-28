@@ -1,0 +1,6 @@
+# The menu left alone for 20 seconds plays a recorded game (data/demo*), a key ends it and the screen
+# blackens back to the menu; twice
+# time 1278000000
+38000 tap space
+80000 tap space
+86000 end

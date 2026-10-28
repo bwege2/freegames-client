@@ -1,0 +1,15 @@
+{
+ "name": "asm-nothing",
+ "args": [
+  "-A",
+  "asm/nothing.red"
+ ],
+ "time": 6011,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "       ORG          0\n       END\n",
+ "stderr": "Warning:\n        Discarding these labels: 'lonely'\nWarning:\n        No instructions\n\nSource: filename 'asm/nothing.red'\nNumber of warnings: 2\n\n",
+ "win": "",
+ "trace": []
+}

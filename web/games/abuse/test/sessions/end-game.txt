@@ -1,0 +1,17 @@
+# a saved game on the last level whose end pipe is about to finish (files/level21-end.spe, made by
+# test/make-save.ts ... endgame): load it, the end sequence plays, Space and Esc through it
+# home gamma 40
+# home file save0001.spe files/level21-end.spe
+50 key down SPACE
+51 key up SPACE
+134 mouse 303 12
+134 button 1 down
+135 button 1 up
+147 mouse 18 52
+147 button 1 down
+148 button 1 up
+543 key down SPACE
+544 key up SPACE
+578 key down SPACE
+579 key up SPACE
+700 end

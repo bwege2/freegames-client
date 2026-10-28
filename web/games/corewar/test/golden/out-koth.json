@@ -1,0 +1,29 @@
+{
+ "name": "out-koth",
+ "args": [
+  "-k",
+  "-r",
+  "5",
+  "paper.red",
+  "stone.red"
+ ],
+ "time": 5001,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "Program \"Paper\" (length 8) by \"the port's tests\"\n\n       ORG      START\nSTART  SPL.B  $     1, $     0     \n       SPL.B  $     1, $     0     \n       SPL.B  @     0, }  3620     \n       MOV.I  }    -1, >    -1     \n       MOV.I  $     3, >  2005     \n       MOV.I  {    -3, <     1     \n       JMP.B  @     0, >    -4     \n       DAT.F  <  2667, < -2666     \n\nProgram \"Stone\" (length 10) by \"the port's tests\"\n\n       ORG      START\nSTART  SPL.B  #     0, <   -10     \n       MOV.I  $     7, @     5     \n       ADD.F  $     5, $     4     \n       DJN.B  $    -2, #  1000     \n       MOV.I  $     5, >     2     \n       JMP.B  $    -1, <    -5     \n       DAT.F  #  3045, # -1910     \n       DAT.F  #  3045, #  3045     \n       DAT.F  >    -1, }     1     \n       DAT.F  <     1, <     1     \n\n5 0\n0 0\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 3933 9cdf3216",
+  "H 1 45196 4d9a7243",
+  "R 2 0 7007 47550d26",
+  "H 2 90685 b5230776",
+  "R 3 0 7477 bb4a1496",
+  "H 3 21508 eb28203f",
+  "R 4 0 126 9a1015fa",
+  "H 4 64109 7763f191",
+  "R 5 0 7056 f043cfca",
+  "H 5 52324 098155f2"
+ ]
+}

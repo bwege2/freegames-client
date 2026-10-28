@@ -1,0 +1,2 @@
+# Open Adventure's test logs are committed (the root .gitignore ignores *.log)
+!*.log

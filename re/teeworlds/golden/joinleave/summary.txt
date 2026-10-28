@@ -1,0 +1,38 @@
+4500 iterations; kills 15, flag grabs 0, captures 0, map changes 1
+client 0 connects and downloads dm1
+client 1 connects and downloads dm1
+client 2 connects and downloads dm1
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 2 killed 2 (weapon -3)
+kill: 0 killed 1 (weapon 3)
+kill: 1 killed 1 (weapon -3)
+client 1 connects and downloads dm1
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+client 3 connects and downloads dm1
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 0 killed 0 (weapon 3)
+kill: 3 killed 3 (weapon -3)
+client 3 connects and downloads dm1
+kill: 0 killed 1 (weapon 0)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+vote set type 3 '3: ghost'
+kill: 3 killed 3 (weapon -3)
+vote set type 5 ''
+kill: 0 killed 1 (weapon 1)
+vote set type 2 '3: ghost'
+vote set type 5 ''
+client 3 connects and downloads dm1
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 0 killed 1 (weapon 1)
+kill: 2 killed 0 (weapon 0)
+vote set type 1 'Map dm2'
+vote set type 5 ''
+map change to dm2
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+game state flags 0 (warmup 1, suddendeath 2, roundover 4, gameover 8, paused 16, countdown 32)
+kill: 0 killed 3 (weapon 1)
+chat 0: on dm2 now
+kill: 1 killed 1 (weapon 3)
+kill: 3 killed 0 (weapon 0)
+kill: 0 killed 0 (weapon -2)
+kill: 0 killed 3 (weapon 0)

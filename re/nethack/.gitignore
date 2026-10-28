@@ -1,0 +1,2 @@
+# the debug build of the oracle (DEBUG=1 oracle/build.sh)
+oracle/nethack-oracle-debug

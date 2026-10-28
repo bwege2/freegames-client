@@ -1,0 +1,64 @@
+# The main menu's options: the graphics level (Return on "graphics" cycles 3 -> 1), a 2-player game in
+# the lowest graphics level (no question, no effects, the simple shooter), back to the menu; the keys
+# dialog (player 1 gets A D W S); the high scores (none yet); Ctrl+N changes the logo's effect; F11 and
+# F12 switch music and sound off and on; F toggles full screen.
+# time 1278000000
+3000 tap down
+3300 tap down
+3600 tap down
+3900 tap down
+4200 tap down
+4600 tap return
+5400 tap up
+5700 tap up
+6000 tap up
+6300 tap up
+6600 tap return
+8000 tap c
+8100 tap up
+8800 key down v
+9100 key up v
+9200 tap c
+10000 key down left
+10300 key up left
+10400 tap up
+11500 key down right
+11900 key up right
+12000 tap up
+13000 tap escape
+15000 tap f11
+16000 tap f11
+16500 tap f12
+17500 tap f12
+18000 tap f
+18500 tap f
+19000 key down lctrl
+19100 tap n
+19300 key up lctrl
+21000 tap down
+21300 tap down
+21600 tap down
+21900 tap down
+22200 tap down
+22800 tap return
+23600 tap a
+24000 tap d
+24400 tap w
+24800 tap s
+25200 tap left
+25600 tap right
+26000 tap up
+26400 tap down
+26800 tap f
+27200 tap return
+30000 tap down
+30400 tap return
+33000 tap return
+35000 tap down
+35300 tap down
+35600 tap return
+39000 key down a
+39400 key up a
+39500 tap w
+40500 tap escape
+43000 end

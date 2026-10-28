@@ -1,0 +1,46 @@
+
+Welcome to Adventure!!  Would you like instructions?
+
+> no
+
+You are standing at the end of a road before a small brick building.
+Around you is a forest.  A small stream flows out of the building and
+down a gully.
+
+> resume
+
+File name: nothere.adv
+Can't open file nothere.adv, try again.
+
+File name: lamp.adv
+
+You're inside building.
+
+There are some keys on the ground here.
+
+There is food here.
+
+There is a bottle of water here.
+
+> inventory
+
+You are currently holding the following:
+Brass lantern
+
+> score
+
+You have garnered 27 out of a possible 430 points, using 5 turns.
+
+> quit
+
+Do you really want to quit now?
+
+> y
+
+OK
+
+You scored 27 out of a possible 430, using 6 turns.
+
+You are obviously a rank amateur.  Better luck next time.
+
+To achieve the next higher rating, you need 19 more points.

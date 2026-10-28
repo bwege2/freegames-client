@@ -1,0 +1,16 @@
+{
+ "name": "frontend-setboard-short",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "setboard rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq",
+  "show board",
+  "quit"
+ ],
+ "status": 1,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : White (1) : \nwhite  KQkq  a1\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \nP P P P P P P P \nR N B Q K B N R \n\u0000 \nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\nboard_from_fen(): bad FEN (invalid castling availability at pos=50)\nrnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq\n                                                  *\n",
+ "written": {}
+}

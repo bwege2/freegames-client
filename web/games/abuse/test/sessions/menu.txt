@@ -1,0 +1,5 @@
+# skip the intro text, wait in the main menu (it tries a demo every 10 seconds: demo1 needs a level the data lacks)
+# home gamma 40
+50 key down SPACE
+51 key up SPACE
+200 end

@@ -1,0 +1,32 @@
+{
+ "name": "adapter-commands",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "protover 2",
+  "memory",
+  "memory 32",
+  "memory",
+  "memory abc",
+  "ping 7",
+  "ping",
+  "accepted",
+  "time",
+  "otim",
+  "level",
+  "ics",
+  "result",
+  "hash off",
+  "hash on",
+  "null off",
+  "null on",
+  "book add nosuchfile.pgn",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : White (1) : feature done=0\nfeature analyze=1\nfeature colors=0\nfeature draw=1\nfeature ics=1\nfeature myname=\"GNU Chess\"\nfeature name=1\nfeature pause=0\nfeature ping=1\nfeature playother=1\nfeature reuse=1\nfeature san=0\nfeature setboard=1\nfeature sigint=0\nfeature sigterm=0\nfeature time=1\nfeature usermove=1\nfeature variants=\"normal\"\nfeature done=1\nCurrent HashSize is 16 MB\nWhite (1) : White (1) : Current HashSize is 32 MB\nCurrent HashSize is 32 MB\nWhite (1) : White (1) : pong 7\nWhite (1) : pong 7\npong \nWhite (1) : Error (unknown command): ping\nWhite (1) : Error (unknown command): accepted\nWhite (1) : Error (unknown command): time\nWhite (1) : Error (unknown command): otim\nTCMove = 35\nFischer increment of 0 seconds.\nWhite (1) : Error (unknown command): level\nWhite (1) : Error (unknown command): ics\nWhite (1) : Error (unknown command): result\nHashing is off.\nWhite (1) : Hashing is on.\nWhite (1) : Null-move heuristic is off.\nWhite (1) : Null-move heuristic is on.\nWhite (1) : The syntax to add a new book is:\n\n\tbook add file.pgn\nWhite (1) : Error (unknown command): book \n",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

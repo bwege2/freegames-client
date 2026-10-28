@@ -1,0 +1,21 @@
+# made by bot.py from {"seed": 44, "login": "Galen", "create": "nhgm", "keys": 4000, "seq": 3, "runs": [{"until": "death"}]}
+seed 44
+login Galen
+time 1704067200
+run 
+keys nhgmy\x20yhyh\x20yjyhhhhhhjhhh\x04hlhlhlhlhlhslu\x20blhhlhslujkjhhlubjhhlujuhjkhlhlhhllhlhlhhzgnllhl
+keys hlhlhlhhlhllhujlhlhlhlhlhllhlhhbhlWhlhslhlhslhlhlhlhsslhlhlhlhlhullhllhlhlhw\x1blhlhlhlhhllhlhslhlhl
+keys hllhhslhllhhlhllhhlhlhlhlhlhllhlhhlhllhhlhlhukssssssssljksssPsslsn\x20huj\x20k\x20usj\x20njyhubkhyss
+keys lshsssnyshsljhkblkssjukssshlbhslhjknyhlbkslsssnkssnkhnkynsssllhlsssjssssssnlhjhllusssjssssshsssa\x1b
+keys ssssksshlssssshjjhlunynskssshlynsylnkjkE\x1bujssksssjssssssssshssssshsssssslhbnnssyuhjuhyssnjnshknsk
+keys jsshynkunsskjyjknksshknyA\x1bnssjssshblussssbkknsssssskjsssynkjyujjkbjkjhlhkhbyjssujslhuhukjbjbslkbs
+keys hujyssssskknhbsssljshsuyllbsssssussssjslsskjksssss:sshsslhsssubunhhssusssllhulslkbskjsslubux\x20ujjk
+keys sssyyssljshksssusshssssnbssusnslssn\x18\x1bsssyssshnsshsusskslsjysbsujsssksnsysjsst$nsjslsssbslsysnj
+keys \x20\x20h\x20nynynyjnh\x20nslkljhkbknssshslsynsekubssyskbssusssslkbsekssssssZ\x1bslsssssussyjssssbss
+keys sslshslhknsssklysssh\x0f\x20sssy\x20ekssnslssjsssshkssbssssjssssekshskhysssnssshusnhsslshsskjbssssss
+keys nlbssusssbsi\x1bhsslsssekslsssssskssssssljssssksyksyyssqesssnkhsussssssbessssjuessnsssessshssessrh\x20
+keys seuslsssenshlylessnhkleksssssesjsbnseszgnhsessybusenssssseuskssbeskbnssebnsss\x20eWs\x20ssbeubnsks
+keys esssshsesslssselssssselsksssebslssjesssssseysssssesussssessbssssssnssw\x1bsssshsssssslsssssskssssssj
+keys ssss\x20ssysssssPsussssssbssssssnsssssshsssssslssssssksssa\x1bsssjssssss\x20y\x20s\x20s\x20ssssussss
+keys ssbssssssnsssE\x1bs\x20ss\x20hssss\x20s\x20slss\x20s\x20sssk\x20\x20ssssssjs\x20\x20y\x1by\x20\x20nn
+keys n\x20\x20

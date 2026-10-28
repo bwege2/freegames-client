@@ -1,0 +1,30 @@
+{
+ "name": "adapter-book-modes",
+ "args": [],
+ "time": 1000000000,
+ "files": {},
+ "input": [
+  "easy",
+  "depth 2",
+  "book on",
+  "book best",
+  "e4",
+  "book worst",
+  "Nf3",
+  "book random",
+  "Bb5",
+  "book prefer",
+  "bk",
+  "book off",
+  "bk",
+  "hint",
+  "book foo",
+  "d3",
+  "show game",
+  "quit"
+ ],
+ "status": 0,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : Search to a depth of 2.\nWhite (1) : Book is now on.\nWhite (1) : Book is now best.\nWhite (1) : 1. e4\n\nblack  KQkq  e3\n\nr n b q k b n r \np p p p p p p p \n. . . . . . . . \n. . . . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \nThinking...\n\nwhite  KQkq  c6\n\nr n b q k b n r \np p . p p p p p \n. . . . . . . . \n. . p . . . . . \n. . . . P . . . \n. . . . . . . . \nP P P P . P P P \nR N B Q K B N R \n\u0000 \n\nMy move is : c5\nWhite (2) : Book is now worst.\nWhite (2) : 2. Nf3\n\nblack  KQkq\n\nr n b q k b n r \np p . p p p p p \n. . . . . . . . \n. . p . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr n b q k b n r \np p . p p p . p \n. . . . . . p . \n. . p . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K B . R \n\u0000 \n\nMy move is : g6\nWhite (3) : Book is now random.\nWhite (3) : 3. Bb5\n\nblack  KQkq\n\nr n b q k b n r \np p . p p p . p \n. . . . . . p . \n. B p . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b q k b n r \np p . p p p . p \n. . n . . . p . \n. B p . . . . . \n. . . . P . . . \n. . . . . N . . \nP P P P . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : Nc6\nWhite (4) : Book is now on.\nWhite (4) : White (4) :  O-O (100%)\n\nBook is now off.\nWhite (4) : White (4) : White (4) : Incorrect book option: 'foo'.\nWhite (4) : 4. d3\n\nblack  KQkq\n\nr . b q k b n r \np p . p p p . p \n. . n . . . p . \n. B p . . . . . \n. . . . P . . . \n. . . P . N . . \nP P P . . P P P \nR N B Q K . . R \n\u0000 \nThinking...\n\nwhite  KQkq\n\nr . b . k b n r \np p . p p p . p \n. . n . . . p . \nq B p . . . . . \n. . . . P . . . \n. . . P . N . . \nP P P . . P P P \nR N B Q K . . R \n\u0000 \n\nMy move is : Qa5+\nWhite (5) :       White   Black\n  1.  e4      c5     \n  2.  Nf3     g6     \n  3.  Bb5     Nc6    \n  4.  d3      Qa5+   \n\nWhite (5) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\n",
+ "written": {}
+}

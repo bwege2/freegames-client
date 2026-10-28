@@ -1,0 +1,16 @@
+{
+ "name": "asm-icws88",
+ "args": [
+  "-8",
+  "-A",
+  "asm/icws88.red"
+ ],
+ "time": 6003,
+ "cycles": 0,
+ "input": null,
+ "status": 3,
+ "stdout": "",
+ "stderr": "Error in line 4: '        mov.i   0, 1'\n        Bad '88 format at token '.'\nError in line 5: '        mul     #2, 3'\n        Bad '88 format at token 'MUL'\nError in line 6: '        dat     $0, $1'\n        Invalid '88 format. Proper format: 'DAT [#<] [#<]'\nError in line 7: '        mov     #1, #2'\n        Invalid '88 format. Proper format: 'MOV [#$@<] [$@<]'\nError in line 8: '        jmp     #1, 0'\n        Invalid '88 format. Proper format: 'JMP [$@<] [#$@<]'\nError in line 9: '        spl     >1, }2'\n        Bad '88 format at token '[*{}]'\nError in line 10: '        seq     0, 1'\n        Bad '88 format at token 'SEQ'\nError in line 11: '        mov     *1, {2'\n        Bad '88 format at token '[*{}]'\n\nSource: filename 'asm/icws88.red'\nNumber of errors: 10\nDuplicate errors/warnings found in line 11 (2)\nDuplicate errors/warnings found in line 9 (2)\n\n",
+ "win": "",
+ "trace": []
+}

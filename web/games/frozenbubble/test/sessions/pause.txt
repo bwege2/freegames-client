@@ -1,0 +1,14 @@
+# Pause (the Pause key) in a 1-player game, the pause animation, Pause again; then Escape: to the menu,
+# whose high score dialog is cancelled with Escape
+# time 1278000000
+3000 tap return
+4000 tap return
+7000 tap up
+8000 tap pause
+11500 tap pause
+12000 key down right
+12300 key up right
+12400 tap up
+14000 tap escape
+17000 tap escape
+20000 end

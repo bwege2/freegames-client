@@ -1,0 +1,40 @@
+{
+  "id": "worms",
+  "title": "Worms?",
+  "tagline": "Teach your worm, then watch what it makes of it.",
+  "summary": [
+    "David S. Maynard's Worms? (Electronic Arts, 1983) is built on Paterson's worms, a mathematical game: worms crawl over a grid of points, eating the paths between them. Whenever a worm meets a situation it has never seen, it has to be told which way to go, and from then on it always does the same there. A worm that eats the last path of a point scores it; a worm that reaches a point with no path left dies.",
+    "Up to four worms share the grid: taught by players, played by the computer (AUTO), wild (random from the start), or worms taught in earlier games and saved under a name. While no one plays, the computer's worms give a demonstration.",
+    "This port follows the Commodore 64 version, translated word by word from its Forth source, which Maynard released under the MIT license. Online, each worm can be a player of its own."
+  ],
+  "original": {
+    "author": "David S. Maynard (C64 version with Steven Hayes)",
+    "year": 1983,
+    "platform": "Commodore 64",
+    "version": "Commodore 64 version (\"MASTER OCT. 9, 1983. COMMODORE 64 FINAL\", savetz/worms)",
+    "license": "MIT",
+    "packageBytes": 174848,
+    "url": "https://github.com/savetz/worms"
+  },
+  "players": "1–4 (on one computer or online)",
+  "genres": ["Software toy"],
+  "modes": ["single", "multi", "online"],
+  "added": "2026-10-26",
+  "controls": [
+    { "input": "F7", "action": "Start a game (and end the demonstration)" },
+    { "input": "F5", "action": "Select the next worm" },
+    { "input": "F3", "action": "Change the selected worm: none, NEW (taught by a player), AUTO (the computer), WILD, or as it is (its name)" },
+    { "input": "Space", "action": "When a worm asks: show the next free path" },
+    { "input": "Return (or any other key)", "action": "Take that path; the worm remembers it" },
+    { "input": "0–9", "action": "Speed (9 fastest, 0 slowest)" },
+    { "input": "Esc (RUN/STOP)", "action": "Pause; again to go on" },
+    { "input": "F1, F3, F5, F7 in a game", "action": "End the game (F1 starts the program over)" },
+    { "input": "L, S, U in the menu", "action": "Load a worm into the selected one, save it under a name, update its file" },
+    { "input": "Online game (beside the picture)", "action": "The lobby: up to four players, one worm each" }
+  ],
+  "screenshots": [
+    { "file": "demonstration.png", "caption": "The demonstration: four of the computer's worms on the grid, with the title and the scores" },
+    { "file": "teaching.png", "caption": "A new game: the green worm meets its first situation and asks where to go" },
+    { "file": "game.png", "caption": "Further on: green taught by a player, red the computer's, blue wild" }
+  ]
+}

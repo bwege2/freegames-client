@@ -1,0 +1,55 @@
+{
+  "id": "moria",
+  "title": "Moria",
+  "tagline": "Go down into the mines of Moria and face the Balrog.",
+  "summary": [
+    "Moria is a roguelike from 1983 inspired by The Lord of the Rings. Create a character, buy equipment in the town, then descend level after level of a dungeon full of monsters and treasure, down to the Balrog at the bottom.",
+    "Robert Alan Koeneke wrote it in VMS Pascal at the University of Oklahoma. Its C version, Umoria, is still maintained.",
+    "This port follows Umoria 5.7.15. Your character is saved on the server, and the score list is shared by everyone who plays here."
+  ],
+  "original": {
+    "author": "Robert Alan Koeneke",
+    "year": 1983,
+    "platform": "VMS Pascal; Umoria in C/C++",
+    "version": "Umoria 5.7.15",
+    "license": "GPL-3.0",
+    "packageBytes": 400540,
+    "url": "https://github.com/dungeons-of-moria/umoria"
+  },
+  "players": "1",
+  "genres": ["Role-playing", "Roguelike"],
+  "modes": ["single"],
+  "added": "2026-10-26",
+  "controls": [
+    {
+      "input": "1-9 (numeric keypad), arrow keys",
+      "action": "Move or attack in that direction (5 stays); with Shift the arrows run (the original's . and a direction)"
+    },
+    {
+      "input": "? and the letters",
+      "action": "The original's commands: ? lists them (i inventory, w wear, q quaff, r read, m cast, p pray, < > stairs, ...)"
+    },
+    {
+      "input": "Ctrl+X",
+      "action": "Save the character and leave (the next Play restores it)"
+    },
+    {
+      "input": "Ctrl+P, Ctrl+R, Ctrl+K",
+      "action": "Earlier messages, redraw the screen, quit the character (Ctrl+W and other keys the browser keeps: type ^ and the letter)"
+    },
+    {
+      "input": "Esc, Space, Enter",
+      "action": "Leave a prompt or a list, go on after -more-, end a line"
+    },
+    {
+      "input": "=",
+      "action": "Options, among them the roguelike keys (h j k l y u b n to move, the arrows follow)"
+    }
+  ],
+  "screenshots": [
+    { "file": "character.png", "caption": "A new character: race, class and stats rolled, the background written" },
+    { "file": "town.png", "caption": "The town with its six stores, at the start" },
+    { "file": "store.png", "caption": "Haggling in the General Store" },
+    { "file": "dungeon.png", "caption": "50 feet down" }
+  ]
+}

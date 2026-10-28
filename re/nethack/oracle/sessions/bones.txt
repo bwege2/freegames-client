@@ -1,0 +1,9 @@
+# made by bot.py from {"seed": 15, "login": "root", "create": "nkm", "keys": 1500, "wizard": true, "lives": 0, "level_keys": 100, "seq": 9, "wizard_keys": ["\u0016"], "tour": ["14", "16", "18", "20"], "runs": [{"args": ["-D"], "until": "death", "bones": true}, {"args": ["-D"], "until": "death", "bones": true, "create": "nsm", "goto_bones": true, "wizard_keys": ["\u0016"], "tour": ["5"]}]}
+seed 15
+login root
+time 1704067200
+run -D
+keys nkmy\x20\x06\x05y\x1614\x0a\x06\x05lFhlFh\x20lllllljjhhhhhhj:jjhhhhhhhhhhhkbhjhnhlyhyyh>\x20\x06\x05
+keys hhh\x20\x20\x20yy\x1by\x20\x20nnny\x20\x20
+run -D
+keys nsmy\x20\x06\x05yFn\x20\x1615\x0ayn\x06\x05hkll\x20ll\x20\x20\x20yy\x1by\x20\x20nnnyn\x20\x20

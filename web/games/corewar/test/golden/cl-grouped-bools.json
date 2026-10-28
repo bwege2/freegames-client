@@ -1,0 +1,23 @@
+{
+ "name": "cl-grouped-bools",
+ "args": [
+  "-bk",
+  "-r",
+  "2",
+  "imp.red",
+  "dwarf.red"
+ ],
+ "time": 7016,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "0 2\n0 2\n",
+ "stderr": "",
+ "win": "Press any key ..",
+ "trace": [
+  "R 1 0 5897 a74f0d62",
+  "H 1 160000 bc600b91",
+  "R 2 0 4096 c86e9d32",
+  "H 2 160000 2b34feb4"
+ ]
+}

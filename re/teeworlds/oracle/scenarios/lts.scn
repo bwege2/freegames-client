@@ -1,0 +1,19 @@
+# lts: last team standing on lms1: two against two, rounds end when one team is out
+duration 4000
+server sv_register 0
+server sv_map lms1
+server sv_gametype lts
+server sv_warmup 0
+server sv_scorelimit 3
+server sv_timelimit 0
+server sv_teamdamage 0
+server sv_max_clients 8
+server sv_name oracle-lts
+client 0 name=r1 seed=51 mode=hunt
+client 1 name=b1 seed=52 mode=hunt
+client 2 name=r2 seed=53 mode=hunt
+client 3 name=b2 seed=54 mode=hunt
+at 5 0 connect
+at 6 1 connect
+at 7 2 connect
+at 8 3 connect

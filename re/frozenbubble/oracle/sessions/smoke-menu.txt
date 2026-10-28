@@ -1,0 +1,7 @@
+# smoke test: the menu, Down Down Up, then Escape quits
+# time 1278000000
+3000 tap down
+3500 tap down
+4000 tap up
+6000 tap escape
+20000 end

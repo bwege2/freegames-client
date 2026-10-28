@@ -1,0 +1,17 @@
+{
+ "name": "out-assemble-only",
+ "args": [
+  "-A",
+  "pinned.red",
+  "macros.red",
+  "switcher.red"
+ ],
+ "time": 5010,
+ "cycles": 0,
+ "input": null,
+ "status": 0,
+ "stdout": "       ORG          0\n       LDP.AB #     5, $     6     \n       ADD.AB #     1, $     5     \n       STP.B  $     4, #     5     \n       STP.AB #     3, #     6     \n       SPL.B  #     0, $     0     \n       MOV.I  {    -1, >    -1     \n       DAT.F  #     0, #     0     \n       PIN         42\n       END\n       ORG         11\n       SPL.B  $     1, $     0     \n       SPL.B  $     1, $     0     \n       DAT.F  #     1, #     2     \n       DAT.F  #     2, #     3     \n       DAT.F  #     3, #     4     \n       DAT.F  #     4, #     5     \n       DAT.F  #    11, #     1     \n       DAT.F  #    12, #     0     \n       DAT.F  #    21, #     1     \n       DAT.F  #    22, #     1     \n       DAT.F  #    23, #     0     \n       MOV.I  $    -9, $  2001     \n       MOV.I  $    -9, $  2010     \n       ADD.F  #    -7, @    -2     \n       SUB.X  #     2, $    -3     \n       MUL.AB #     3, $    -4     \n       DIV.BA #     2, $    -5     \n       MOD.F  >    -6, <    -6     \n       SEQ.I  *    -7, {    -7     \n       SNE.I  }    -8, *    -8     \n       NOP.F  $    -9, $    -9     \n       JMN.F  $   -10, >   -16     \n       JMZ.X  $   -11, $   -11     \n       DJN.I  $   -12, }   -12     \n       SLT.BA #   100, $   -13     \n       CMP.X  $   -14, $   -14     \n       JMP.B  $   -15, $     0     \n       END\n       ORG          0\n       LDP.AB #     0, $     8     \n       LDP.AB #     1, $     8     \n       SNE.AB #     0, $     6     \n       ADD.AB #     1, $     6     \n       MOD.AB #     2, $     5     \n       STP.B  $     4, #     1     \n       JMZ.B  $     4, $     3     \n       JMP.B  $     7, $     0     \n       DAT.F  #     0, #     0     \n       DAT.F  #     0, #     0     \n       ADD.AB #     4, $     3     \n       MOV.I  $     2, @     2     \n       JMP.B  $    -2, $     0     \n       DAT.F  #     0, #     0     \n       SPL.B  #     0, $     0     \n       MOV.I  $     0, $  2667     \n       END\n",
+ "stderr": "",
+ "win": "",
+ "trace": []
+}

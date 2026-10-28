@@ -1,0 +1,20 @@
+{
+  "about": "Screenshots of the original Teeworlds 0.7.5 client (re/teeworlds/oracle/render/run.sh): Xvfb 1280x720x24, Mesa llvmpipe, the client's own screenshot command (F10), connected to the original teeworlds_srv on 127.0.0.1. Compare a port screenshot with: node re/teeworlds/oracle/render/compare.mjs <scene>.png <port>.png [side.png] [--tolerance 24]",
+  "window": [1280, 720],
+  "client": {
+    "settings07.cfg": ["gfx_screen_width 1280", "gfx_screen_height 720", "gfx_fullscreen 0", "gfx_borderless 0", "gfx_vsync 0", "gfx_fsaa_samples 0", "snd_enable 0", "cl_show_welcome 0", "player_name \"tee\""],
+    "player": {"name": "tee", "skin": "default (the release's defaults, no custom colours)"},
+    "camera": "zoom 1.0; cl_dynamic_camera 0 (default): playing, the camera is centred on the local tee; spectating in free view, the camera is the controls' mouse position clamped to [200, mapwidth*32-200] x [200, mapheight*32-200] (no mouse movement: the map's top left, 200,200)"
+  },
+  "server": ["sv_register 0", "sv_warmup 0", "sv_name render", "everything else the release's defaults"],
+  "timing": "the screenshot is taken <wait> seconds after the server logs 'player has entered the game' (plus key delivery, < 0.2 s); the round timer shows 0:03 or 0:04",
+  "reproducibility": "two runs: mean absolute difference <= 0.01 per channel, 100% of pixels within tolerance 24",
+  "scenes": {
+    "dm1-spawn": {"map": "dm1", "gametype": "dm", "sv_tournament_mode": 0, "wait": 2,
+      "shows": "the local tee 'tee' at dm1's first spawn point (one player: the first spawn), HUD with 10 hearts, 10 empty armour, 10 pistol ammo, timer, 'Warmup / wait for more players' broadcast, the score at the right"},
+    "dm1-spectator": {"map": "dm1", "gametype": "dm", "sv_tournament_mode": 1, "wait": 3,
+      "shows": "tournament mode: the joining player is a spectator; free view at the map's top left (camera 200,200), 'Spectate: Free-View', timer"},
+    "ctf1-spawn": {"map": "ctf1", "gametype": "ctf", "sv_tournament_mode": 0, "wait": 2,
+      "shows": "the tee in the red team at the red spawn, the red flag on its stand, team scores 0 / 0, timer, warmup broadcast"}
+  }
+}

@@ -1,0 +1,32 @@
+# made by bot.py from {"seed": 101, "login": "Hero", "runs": [{"create": "nahml", "until": "quit", "after": 3}, {"create": "nbof", "until": "quit", "after": 3}, {"create": "ncdm", "until": "quit", "after": 3}, {"create": "nhgf", "until": "quit", "after": 3}, {"create": "nkm", "until": "quit", "after": 3}, {"create": "nmfc", "until": "quit", "after": 3}, {"create": "npem", "until": "quit", "after": 3}, {"create": "nrhf", "until": "quit", "after": 3}, {"create": "nRgm", "until": "quit", "after": 3}, {"create": "nsf", "until": "quit", "after": 3}, {"create": "ntm", "until": "quit", "after": 3}, {"create": "nvhl", "until": "quit", "after": 3}, {"create": "nwom", "until": "quit", "after": 3}, {"create": "y", "until": "quit", "after": 3}]}
+seed 101
+login Hero
+time 1704067200
+run 
+keys nahmly\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nbofy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys ncdmy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nhgfy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nkmy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nmfcy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys npemy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nrhfy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nRgmy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nsfy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys ntmy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nvhly\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys nwomy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20
+run 
+keys yy\x20\x20#quit\x0ayy\x1by\x20\x20nn\x20

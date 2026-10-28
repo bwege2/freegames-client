@@ -1,0 +1,353 @@
+{
+  "create": {
+    "seed": 101,
+    "login": "Hero",
+    "runs": [
+      {
+        "create": "nahml",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nbof",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "ncdm",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nhgf",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nkm",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nmfc",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "npem",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nrhf",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nRgm",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nsf",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "ntm",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nvhl",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "nwom",
+        "until": "quit",
+        "after": 3
+      },
+      {
+        "create": "y",
+        "until": "quit",
+        "after": 3
+      }
+    ]
+  },
+  "valkyrie": {
+    "seed": 6,
+    "login": "Brunhild",
+    "create": "nvhn",
+    "keys": 4000,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "samurai": {
+    "seed": 21,
+    "login": "Tomoe",
+    "create": "nsf",
+    "keys": 4000,
+    "seq": 1,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "wizard": {
+    "seed": 33,
+    "login": "Merlin",
+    "create": "nwem",
+    "keys": 4000,
+    "seq": 2,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "healer": {
+    "seed": 44,
+    "login": "Galen",
+    "create": "nhgm",
+    "keys": 4000,
+    "seq": 3,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "barbarian": {
+    "seed": 55,
+    "login": "Conan",
+    "create": "nbhmn",
+    "keys": 4000,
+    "seq": 4,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "tourist": {
+    "seed": 66,
+    "login": "Twoflower",
+    "create": "ntm",
+    "keys": 4000,
+    "seq": 5,
+    "runs": [
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "save": {
+    "seed": 77,
+    "login": "Sigrid",
+    "create": "nvd",
+    "keys": 2500,
+    "seq": 6,
+    "runs": [
+      {
+        "until": "save",
+        "after": 400
+      },
+      {
+        "until": "save",
+        "after": 400
+      },
+      {
+        "until": "death"
+      }
+    ]
+  },
+  "tour": {
+    "seed": 9,
+    "login": "root",
+    "create": "nvhn",
+    "keys": 3000,
+    "wizard": true,
+    "lives": 50,
+    "eat_corpses": true,
+    "level_keys": 150,
+    "wizard_keys": [
+      "#levelchange\n20\n",
+      "\u0017",
+      "W",
+      "\u0017",
+      "P",
+      "\u0017"
+    ],
+    "wishes": [
+      "blessed +3 gray dragon scale mail",
+      "blessed ring of conflict",
+      "blessed +3 long sword"
+    ],
+    "tour": [
+      "oracle",
+      "@minetn",
+      "bigrm",
+      "@soko4",
+      "@minend",
+      "medusa",
+      "castle",
+      "valley",
+      "orcus",
+      "wizard1"
+    ],
+    "runs": [
+      {
+        "args": [
+          "-D"
+        ],
+        "until": "death"
+      }
+    ]
+  },
+  "tour2": {
+    "seed": 12,
+    "login": "root",
+    "create": "nweym",
+    "keys": 3000,
+    "wizard": true,
+    "lives": 50,
+    "eat_corpses": true,
+    "level_keys": 150,
+    "seq": 7,
+    "wizard_keys": [
+      "#levelchange\n25\n",
+      "\u0017",
+      "W",
+      "\u0017",
+      "\u0017"
+    ],
+    "wishes": [
+      "blessed +3 silver dragon scale mail",
+      "blessed wand of digging",
+      "blessed spellbook of force bolt"
+    ],
+    "tour": [
+      "rogue",
+      "@knox",
+      "@Wiz-strt",
+      "@Wiz-loca",
+      "@Wiz-goal",
+      "@soko1",
+      "juiblex",
+      "asmodeus",
+      "baalz",
+      "fakewiz1",
+      "wizard3"
+    ],
+    "runs": [
+      {
+        "args": [
+          "-D"
+        ],
+        "until": "death"
+      }
+    ]
+  },
+  "tour3": {
+    "seed": 13,
+    "login": "root",
+    "create": "npef",
+    "keys": 3000,
+    "wizard": true,
+    "lives": 50,
+    "eat_corpses": true,
+    "level_keys": 200,
+    "seq": 8,
+    "wizard_keys": [
+      "#levelchange\n18\n",
+      "\u0017",
+      "\u0017"
+    ],
+    "wishes": [
+      "2000 gold pieces",
+      "blessed bag of holding"
+    ],
+    "tour": [
+      "@minetn",
+      "@minetn",
+      "@Pri-strt",
+      "oracle",
+      "bigrm",
+      "medusa"
+    ],
+    "runs": [
+      {
+        "args": [
+          "-D"
+        ],
+        "until": "death"
+      }
+    ]
+  },
+  "bones": {
+    "seed": 15,
+    "login": "root",
+    "create": "nkm",
+    "keys": 1500,
+    "wizard": true,
+    "lives": 0,
+    "level_keys": 100,
+    "seq": 9,
+    "wizard_keys": [
+      "\u0016"
+    ],
+    "tour": [
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "runs": [
+      {
+        "args": [
+          "-D"
+        ],
+        "until": "death",
+        "bones": true
+      },
+      {
+        "args": [
+          "-D"
+        ],
+        "until": "death",
+        "bones": true,
+        "create": "nsm",
+        "goto_bones": true,
+        "wizard_keys": [
+          "\u0016"
+        ],
+        "tour": [
+          "5"
+        ]
+      }
+    ]
+  },
+  "explore": {
+    "seed": 41,
+    "login": "Rover",
+    "create": "nchmn",
+    "keys": 4000,
+    "lives": 30,
+    "eat_corpses": true,
+    "seq": 11,
+    "descend_after": 120,
+    "runs": [
+      {
+        "args": [
+          "-X"
+        ],
+        "until": "death"
+      }
+    ]
+  }
+}

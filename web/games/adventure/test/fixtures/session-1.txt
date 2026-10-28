@@ -1,0 +1,45 @@
+
+Welcome to Adventure!!  Would you like instructions?
+
+> n
+
+You are standing at the end of a road before a small brick building.
+Around you is a forest.  A small stream flows out of the building and
+down a gully.
+
+> seed 1
+
+Seed set to 1
+
+You're in front of building.
+
+> in
+
+You are inside a building, a well house for a large spring.
+
+There are some keys on the ground here.
+
+There is a shiny brass lamp nearby.
+
+There is food here.
+
+There is a bottle of water here.
+
+> take lamp
+
+OK
+
+> save
+
+I can suspend your Adventure for you so that you can resume later, but
+it will cost you 5 points.
+
+Is this acceptable?
+
+> y
+
+OK
+
+File name: lamp.adv
+
+To resume your Adventure, start a new game and then say "RESUME".

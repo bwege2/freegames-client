@@ -1,0 +1,17 @@
+{
+ "name": "frontend-epd-comment",
+ "args": [],
+ "time": 1000000000,
+ "files": {
+  "commented.epd": "# a comment first\n8/8/8/4k3/8/4K3/4P3/8 w - - bm Kd3; id \"KPK\";\n"
+ },
+ "input": [
+  "easy",
+  "load commented.epd",
+  "show board"
+ ],
+ "status": 1,
+ "stdout": "GNU Chess\nWhite (1) : White (1) : \n : Best move = Kd3\n\nwhite  \n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . k . . . \n. . . . . . . . \n. . . . K . . . \n. . . . P . . . \n. . . . . . . . \n\u0000 \nWhite (1) : \nwhite  \n\n. . . . . . . . \n. . . . . . . . \n. . . . . . . . \n. . . . k . . . \n. . . . . . . . \n. . . . K . . . \n. . . . P . . . \n. . . . . . . . \n\u0000 \nWhite (1) : ",
+ "stderr": "Can't open file \"(null)\": Bad address - using defaults\nboard_from_fen(): bad FEN (a piece was expected at pos=0)\n# a comment first\n*\n",
+ "written": {}
+}

@@ -1,0 +1,23 @@
+# armor: four players on dm1 fetch shields and fight through them: armor absorbing hammer, gun, shotgun,
+# grenade and laser hits (health and armor both change while armor is up), kills through armor
+duration 9000
+server sv_register 0
+server sv_map dm1
+server sv_gametype dm
+server sv_warmup 0
+server sv_scorelimit 0
+server sv_timelimit 0
+server sv_max_clients 8
+server sv_name oracle-armor
+client 0 name=dave seed=41 mode=armor
+client 1 name=erin seed=52 mode=armor
+client 2 name=frank seed=63 mode=armor
+client 3 name=gina seed=74 mode=armor
+at 5 0 connect
+at 7 1 connect
+at 9 2 connect
+at 11 3 connect
+at 1000 0 weapon 4
+at 1000 1 weapon 3
+at 2000 2 weapon 1
+at 2000 3 weapon 4

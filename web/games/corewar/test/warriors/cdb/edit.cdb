@@ -1,0 +1,47 @@
+edit 100
+mov.i #1, 2
+jmp -1
+l 100,101
+fill 200,205
+dat #7, <3
+l 199,206
+e 300,302
+
+spl 0, }1
+l 300,302
+search mov*
+search dat ?7*
+pqueue
+l 0,3
+pqueue off
+wqueue
+l 0,1
+wqueue off
+pspace
+l 0,4
+edit 1
+42
+l 1
+pspace off
+x 100
+r
+s
+r
+moveable off
+moveable on
+moveable bad
+display 3
+display on
+display off
+display
+switch
+echo panel two
+switch 1
+close
+if 0
+echo skipped
+if 1
+echo not skipped
+unknowncmd
+calc (
+c
