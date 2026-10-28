@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The terminals' buffer logic without a DOM: printing, wrapping, scrolling, cursor addressing,
 // attributes, line editing, key sequences; and the pixel screen's scaling.
 import { test } from 'node:test';

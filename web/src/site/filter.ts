@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The game list's search, filters and sort, and how they sit in the URL (#/?q=…&genre=…&sort=…).
 // Plain functions over the catalog's games and the players now (live.ts), so node tests check them
 // without a browser.

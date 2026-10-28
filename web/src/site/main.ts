@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The website: #/ (all games; #/?q=… searched, filtered, sorted) → #/<id> (a game's page) →
 // #/<id>/play (the game, same window).
 import './style.css';
@@ -46,7 +47,7 @@ async function route(): Promise<void> {
       location.hash = `#/${g.manifest.id}/play`;
     }, view.signal));
   } else {
-    document.title = 'freegames';
+    document.title = 'freegames: free classic games in your browser';
     app.replaceChildren(listView(q < 0 ? '' : hash.slice(q + 1), view.signal));
   }
   window.scrollTo(0, 0);

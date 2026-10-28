@@ -22,6 +22,21 @@ code of the website and the game SDK it contains is made available under those t
 covers only such combinations: on their own, and in every other combination, the website and the game SDK
 remain under the GNU General Public License version 3 or later.
 
+## Additional terms under GNU GPL version 3, section 7
+
+For the website and the game SDK, the copyright holder adds these terms under section 7 of the GNU General
+Public License version 3:
+
+* (b) If you convey them or a modified version of them, you must keep the notice "Based on freegames.stream
+  (https://freegames.stream/)" in the Appropriate Legal Notices that the work displays (on this website: the
+  page "Licenses & source").
+* (c) Modified versions must be marked in reasonable ways as different from the original version, and must not
+  be presented as freegames.stream or as provided by its operator.
+* (e) No rights are granted under trademark law to the name "freegames.stream".
+
+These terms do not apply to a combined work conveyed under the additional permission above under the NetHack
+General Public License or the GNU General Public License version 2.
+
 ## The games
 
 Each game in `games/<id>/` is a port of a free original and carries its own license and credits in

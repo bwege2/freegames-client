@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Every game folder is complete enough for the website: a valid game.json, its screenshots exist,
 // and a game with code exports `start`.
 import { test } from 'node:test';

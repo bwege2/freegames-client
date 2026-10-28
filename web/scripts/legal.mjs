@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // After `vite build`: the page "Licenses & source" (dist/licenses.html), every license as plain text
 // (dist/licenses/), and the source code of what the site sends to browsers as one archive
 // (dist/source/freegames-client-source.tar.gz): the website, the SDK, every game port, the build files,
@@ -105,6 +106,9 @@ generated from, and XPilot's maps, which the game server sends to the browser. H
 later version, with an additional permission under its section 7 to combine them with game ports under the NetHack
 General Public License or GPL-2.0-only (NetHack, Frozen Bubble): <a href="licenses/freegames.txt">notice</a>,
 <a href="licenses/GPL-3.0.txt">GPL-3.0</a>. It comes with ABSOLUTELY NO WARRANTY.</p>
+<p>Based on freegames.stream (<a href="https://freegames.stream/">https://freegames.stream/</a>). Additional terms under section 7
+of the GPL-3.0 (in the notice): copies keep this line, modified versions are marked as such and are not presented as
+freegames.stream, and no rights to the name are granted.</p>
 
 <h2>The games</h2>
 <p>Each port keeps its original's license; its file names the authors, the original's license and what the port changed.</p>
@@ -134,6 +138,7 @@ Electronic Arts. Worms? is David S. Maynard's game of 1983 and not affiliated wi
 <a href="./">All games</a>
 <a href="impressum.html">Impressum / Legal notice</a>
 <a href="datenschutz.html">Datenschutz / Privacy</a>
+<a href="nutzungsbedingungen.html">Nutzungsbedingungen / Terms of use</a>
 <a href="licenses.html">Lizenzen &amp; Quellcode / Licenses &amp; source</a>
 </nav>
 </main>

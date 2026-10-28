@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Score tables shared by every player of a game (the original's machine-wide score file), declared and
 // checked by the game's server module (docs/SERVER.md).
 import { bytes, setData, type P } from './net/codec.ts';

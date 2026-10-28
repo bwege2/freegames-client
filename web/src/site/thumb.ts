@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // A game's picture for the list: its first screenshot, or its initials until the port has screenshots.
 import type { Game } from './catalog.ts';
 import { el } from './dom.ts';

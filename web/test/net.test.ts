@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The SDK's choice of server: a `?server=` link may not send the account token to a foreign server.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';

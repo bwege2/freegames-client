@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The game contract (docs/GAME-INTEGRATION.md): what a game folder web/games/<id>/ provides and what
 // the website hands a game when the player clicks Play.
 import type { GameClient } from './net/client.ts';

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build && node scripts/legal.mjs",
+    "build": "tsc --noEmit && vite build && node scripts/legal.mjs && node scripts/seo.mjs",
     "preview": "vite preview",
     "test": "node --test --test-concurrency=1 \"test/*.test.ts\" \"games/*/test/*.test.ts\"",
     "test:e2e": "node scripts/e2e.mjs"

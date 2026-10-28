@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The connection to the server, over WebTransport (HTTP/3 over QUIC: one reliable stream +
 // unreliable datagrams) or WebSocket (everything reliable). Every message is one packed Cap'n Proto
 // Envelope (protocol/freegames.capnp). Taken over unchanged from Valkyrie Sky (Need for Slop II SE).

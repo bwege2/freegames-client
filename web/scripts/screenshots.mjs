@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Screenshots of a port for its game page: the built site on the real server, headless Chromium.
 //   npm run build && node scripts/screenshots.mjs <id>
 // web/games/<id>/screenshots.mjs exports `default async (page, shot) => { ... }`: drive the game with

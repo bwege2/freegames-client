@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Online rooms of one game: list, create, join, ready, start, relay, finish (protocol/freegames.capnp
 // "rooms", docs/SERVER.md "Message flow of a round"). Reconnects transparently: after a dropped
 // connection the room is joined again and the seat comes back (RoomStarted is delivered again).

@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The SDK against the real server (WebSocket from node): connect, rooms + relay + the example module,
 // storage, score tables, errors. Needs the server jar (mvn -B -f ../pom.xml package); skipped without it.
 import { test, before, after } from 'node:test';

@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Plays a game in the same window: a slim bar (back, title, players now, full screen) above the game's
 // host element. Every play connects to the server anonymously (GameClient.count), so that it counts among
 // the game's players now, even when the game itself never needs the server. Stopping ends the game, its connection, its audio and

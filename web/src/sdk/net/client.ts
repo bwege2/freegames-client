@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // One game's connection to the server: transport (WebTransport with WebSocket fallback, link.ts),
 // Hello for the game, clock sync, requests with answers, events, reconnect. Games do not use this
 // directly but through ctx.net / ctx.rooms / ctx.storage / ctx.scores (docs/GAME-INTEGRATION.md).

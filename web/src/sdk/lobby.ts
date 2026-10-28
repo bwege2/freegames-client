@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The shared lobby screen for online multiplayer, so every game's online mode works the same way:
 // your name, the open rooms (join), a new room (create), then the room itself (seats, ready, start).
 // Resolves with the round once the host starts it. Plain DOM; it styles itself (fg-lobby-*).
@@ -56,9 +57,16 @@ export function joinableRooms(all: RoomState[], dropIn: boolean, mine: (r: RoomS
 }
 
 /** Shows the lobby in `host` (replacing its content) until a round starts or the player cancels. */
+/** the input events that stay inside the lobby */
+export const LOBBY_EVENTS = ['pointerdown', 'pointerup', 'pointermove', 'mousedown', 'mouseup', 'click', 'dblclick', 'wheel',
+  'contextmenu', 'touchstart', 'touchmove', 'touchend', 'keydown', 'keyup', 'keypress'] as const;
+
 export function openLobby(host: HTMLElement, rooms: Rooms, o: LobbyOptions = {}, signal?: AbortSignal): Promise<RoundStart> {
   if (!document.getElementById('fg-lobby-css')) document.head.append(el('style', { id: 'fg-lobby-css', textContent: CSS }));
   const box = el('div', { className: 'fg-lobby' });
+  // clicks, wheel and keys in the lobby are its own: a game's handlers around it (focus, preventDefault)
+  // would keep its fields from taking the pointer and the selects from opening
+  for (const t of LOBBY_EVENTS) box.addEventListener(t, (e) => e.stopPropagation());
   host.replaceChildren(box);
   const off: (() => void)[] = [];
   let timer: ReturnType<typeof setInterval> | undefined;

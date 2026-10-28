@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The game list's search, filters, sort and URL state (web/src/site/filter.ts), on the real game.json files.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';

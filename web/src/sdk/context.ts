@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Builds the GameContext for one play of one game, and tears everything down when it ends: the
 // signal aborts, the connection closes, the audio context closes, frame loops stop.
 import { GameClient, type ClientOptions } from './net/client.ts';

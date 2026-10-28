@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The player's files on the server, per game (what the original kept on disk: saves, own levels,
 // warriors). Names [A-Za-z0-9._-]{1,64}; limits in docs/SERVER.md. Keep the original's file format
 // where it had one.

@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // The start page: every listed game as a card, with one row to search, filter and sort them. The
 // choices live in the URL (#/?q=…), so Back, reload and shared links keep them. The cards show each
 // game's players now, which the list also filters and sorts by (live.ts).

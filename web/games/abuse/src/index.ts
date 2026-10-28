@@ -192,7 +192,9 @@ class AbusePage {
     host.addEventListener('keydown', key(true), { signal });
     host.addEventListener('keyup', key(false), { signal });
     let last = { x: -1, y: -1 };
+    // while the online page is open, the pointer is its own (its fields, selects and buttons), as the keys are
     const move = (e: PointerEvent | MouseEvent): void => {
+      if (this.online.typing()) return;
       const r = canvas.getBoundingClientRect();
       const x = Math.max(0, Math.min(319, Math.floor((e.clientX - r.left) / r.width * 320)));
       const y = Math.max(0, Math.min(199, Math.floor((e.clientY - r.top) / r.height * 200)));
@@ -203,6 +205,7 @@ class AbusePage {
     const sdlButton = (b: number): number => (b === 0 ? 1 : b === 1 ? 2 : b === 2 ? 3 : 0);
     host.addEventListener('pointermove', move, { signal });
     host.addEventListener('pointerdown', (e) => {
+      if (this.online.typing()) return;
       host.focus();
       move(e);
       const b = sdlButton(e.button);
@@ -212,11 +215,13 @@ class AbusePage {
       }
     }, { signal });
     window.addEventListener('pointerup', (e) => {
+      if (this.online.typing()) return;
       const b = sdlButton(e.button);
       if (b) this.event({ type: SDL_MOUSEBUTTONUP, button: b });
     }, { signal });
-    host.addEventListener('contextmenu', (e) => e.preventDefault(), { signal });
+    host.addEventListener('contextmenu', (e) => { if (!this.online.typing()) e.preventDefault(); }, { signal });
     host.addEventListener('wheel', (e) => {
+      if (this.online.typing()) return;
       e.preventDefault();
       const b = e.deltaY < 0 ? 4 : 5;
       this.event({ type: SDL_MOUSEBUTTONDOWN, button: b });

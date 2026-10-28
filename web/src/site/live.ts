@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Each game's players now, from the server's /stats (Hub.publishStats): `playing` counts the players
 // connected to the game (every play connects, player.ts), `online` the ones of them seated in one of its
 // rooms. Polled every 20 seconds while a view listens and the tab is visible; the list, the game page

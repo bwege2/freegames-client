@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Cap'n Proto framing: one packed message (root = Envelope) per transport message, see
 // protocol/freegames.capnp (generated bindings in ../proto/freegames.ts, tools/gen-protocol.sh).
 // A game's own messages are one packed message of its own schema (protocol/games/<id>.capnp), carried

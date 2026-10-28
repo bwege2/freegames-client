@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Every game folder web/games/<id>/: its game.json, its screenshots and (once it is ported) its code,
 // which is a lazily loaded chunk.
 import type { GameManifest, StartGame } from '../sdk/game.ts';

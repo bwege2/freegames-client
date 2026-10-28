@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // End-to-end: the built site served by the real server, two headless Chromium players.
 //   npm run build && node scripts/e2e.mjs          (needs ../server/target/freegames-server.jar and Chromium)
 // Checks: the list shows every listed game; a game page has one Play button; Play starts the game in the
@@ -153,8 +154,21 @@ try {
   await a.click('.ex button');
   await a.waitForSelector('.fg-lobby');
   await a.screenshot({ path: join(shots, 'lobby.png') });
-  await a.$eval('.fg-lobby input[placeholder="Your name"]', (e) => { e.value = 'Anna'; e.dispatchEvent(new Event('change')); });
-  await a.$eval('.fg-lobby input[placeholder="Room name"]', (e) => { e.value = 'e2e race'; });
+  // by mouse and keyboard, as a player: a click puts the caret into the lobby's fields, whatever the game
+  // around them does with the pointer
+  const typeInto = async (p, sel, text) => {
+    await p.click(sel);
+    const focused = await p.$eval(sel, (e) => document.activeElement === e);
+    await p.keyboard.down('Control');
+    await p.keyboard.press('KeyA');
+    await p.keyboard.up('Control');
+    await p.keyboard.type(text);
+    await p.keyboard.press('Tab');
+    return focused && (await p.$eval(sel, (e) => e.value)) === text;
+  };
+  const typed = [await typeInto(a, '.fg-lobby input[placeholder="Your name"]', 'Anna'),
+    await typeInto(a, '.fg-lobby input[placeholder="Room name"]', 'e2e race')];
+  check(typed.every(Boolean), `the lobby's fields take a click and typing (${typed.join(', ')})`);
   const button = (p, text) => p.evaluateHandle((t) => [...document.querySelectorAll('button')].find((x) => x.textContent === t), text);
   await (await button(a, 'Create room')).click();
   await a.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e race');
@@ -391,15 +405,15 @@ try {
     const l = await lctx.newPage();
     await l.goto(base, { waitUntil: 'networkidle0' });
     const foot = await l.$$eval('.site-foot a', (as) => as.map((a) => a.getAttribute('href')));
-    check(foot.join() === 'impressum.html,datenschutz.html,licenses.html', `legal: the list's foot links the legal pages (${foot.join(', ')})`);
+    check(foot.join() === 'impressum.html,datenschutz.html,nutzungsbedingungen.html,licenses.html', `legal: the list's foot links the legal pages (${foot.join(', ')})`);
     await l.goto(`${base}#/wumpus`, { waitUntil: 'networkidle0' });
-    check((await l.$$('.page .site-foot a')).length === 3, 'legal: a game page has the same foot');
+    check((await l.$$('.page .site-foot a')).length === 4, 'legal: a game page has the same foot');
     await l.click('.site-foot a[href="impressum.html"]');
     await l.waitForSelector('h1');
     const imp = await l.evaluate(() => ({ h1: document.querySelector('h1').textContent, img: document.querySelector('img.contact')?.naturalWidth ?? 0, text: document.body.innerText }));
     check(imp.h1 === 'Impressum' && imp.img > 0, 'legal: the Impressum opens and shows the contact image');
     check(!/@|\+49|\d{4,} ?\d{4,}|Uhlman/.test(imp.text), 'legal: no e-mail address, phone number or street as text');
-    for (const [path, h1] of [['datenschutz.html', 'Datenschutzerklärung'], ['licenses.html', 'Licenses & source code']]) {
+    for (const [path, h1] of [['datenschutz.html', 'Datenschutzerklärung'], ['nutzungsbedingungen.html', 'Nutzungsbedingungen'], ['licenses.html', 'Licenses & source code']]) {
       await l.goto(`${base}${path}`, { waitUntil: 'networkidle0' });
       check(await l.$eval('h1', (e) => e.textContent) === h1, `legal: ${path} has its heading`);
     }
@@ -422,6 +436,63 @@ try {
       check(r.ok && (await r.text()).length > 200, `legal: licenses/${t}.txt`);
     }
     await lctx.close();
+  }
+
+  // ---- another site's page gets no connection and no JSON: a page of http://127.0.0.2 (another origin, on
+  // this machine) against the server at 127.0.0.1; the same from a page of 127.0.0.1 as the control
+  {
+    const wt = await (await fetch(`${base}wt-info`)).json().catch(() => null);
+    const octx = await browser.createBrowserContext();
+    const tryAll = async (pageHost) => {
+      const p = await octx.newPage();
+      await p.goto(`http://${pageHost}:${port}/impressum.html`, { waitUntil: 'networkidle0' });
+      return p.evaluate(async (port, wt) => {
+        const ws = await new Promise((r) => {
+          const w = new WebSocket(`ws://127.0.0.1:${port}/ws`);
+          w.onopen = () => { w.close(); r('open'); };
+          w.onerror = () => r('refused');
+        });
+        let t = 'no WebTransport';
+        if (wt && typeof WebTransport === 'function') {
+          const hash = Uint8Array.from(atob(wt.certHash), (c) => c.charCodeAt(0));
+          const s = new WebTransport(`https://127.0.0.1:${wt.port}${wt.path}`, { serverCertificateHashes: [{ algorithm: 'sha-256', value: hash }] });
+          t = await Promise.race([s.ready.then(() => 'open', () => 'refused'), new Promise((r) => setTimeout(() => r('timeout'), 5000))]);
+          try { s.close(); } catch { /* not open */ }
+        }
+        const json = await fetch(`http://127.0.0.1:${port}/stats`).then(() => 'read', () => 'blocked');
+        return [ws, t, json].join(' ');
+      }, port, wt);
+    };
+    const own = await tryAll('127.0.0.1'), other = await tryAll('127.0.0.2');
+    check(own === `open ${wt ? 'open' : 'no WebTransport'} read`, `origins: the site's own page connects and reads the JSON (${own})`);
+    check(other === `refused ${wt ? 'refused' : 'no WebTransport'} blocked`, `origins: another site's page gets no WebSocket, no WebTransport session and no JSON (${other})`);
+    await octx.close();
+  }
+
+  // ---- what search engines read: robots.txt, the sitemap, a plain page per game, the list as links
+  {
+    const robots = await (await fetch(`${base}robots.txt`)).text();
+    check(/Sitemap: https:\/\/freegames\.stream\/sitemap\.xml/.test(robots) && /Disallow: \/admin\//.test(robots), 'seo: robots.txt names the sitemap and keeps out /admin/');
+    const sitemap = await (await fetch(`${base}sitemap.xml`)).text();
+    const missing = listed.filter((id) => !sitemap.includes(`<loc>https://freegames.stream/${id}/</loc>`));
+    check(missing.length === 0, `seo: the sitemap lists every game's page${missing.length ? ` (missing ${missing.join(', ')})` : ''}`);
+    const raw = await (await fetch(base)).text();
+    check(listed.every((id) => raw.includes(`<a href="${id}/">`)) && /<meta name="description"/.test(raw),
+      'seo: the start page holds a description and every game as a plain link');
+    for (const path of ['wumpus/', 'wumpus']) {
+      const r = await fetch(`${base}${path}`);
+      const html = await r.text();
+      const img = /<img src="([^"]+)"/.exec(html)?.[1];
+      const imgOk = img ? (await fetch(new URL(img, `${base}${path}`))).headers.get('content-type') === 'image/png' : false;
+      check(r.ok && /<h1>Hunt the Wumpus<\/h1>/.test(html) && html.includes('href="/#/wumpus/play"') && /"@type":"VideoGame"/.test(html) && imgOk,
+        `seo: /${path} is a plain page with the game's text, its screenshots and a Play link`);
+    }
+    const sp = await browser.newPage();
+    await sp.goto(`${base}wumpus/`, { waitUntil: 'networkidle0' });
+    await sp.click('a.play');
+    const started = await sp.waitForFunction(() => location.hash === '#/wumpus/play' && document.querySelector('.player-host canvas, .player-host .fg-term-page'), { timeout: 10000 }).then(() => true, () => false);
+    check(started, "seo: the game page's Play link starts the game in the site");
+    await sp.close();
   }
 
   // ---- every playable game: Play from its page, it draws, takes keys, Back stops it

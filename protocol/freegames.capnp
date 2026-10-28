@@ -1,3 +1,4 @@
+# freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 @0xa1c6c2060beaa2a4;
 # freegames: the core protocol between a game in the browser and the one server for all games.
 # Transport (slipstream): WebTransport (one reliable stream, 4-byte length framing, + datagrams) or

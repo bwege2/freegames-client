@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Anonymous plays (GameClient.count, the Presence message) against the real server: a play is counted
 // without an account token; reading files without a token neither connects nor makes one; connect()
 // makes the same connection an account one, still counted once. Needs the server jar; skipped without it.

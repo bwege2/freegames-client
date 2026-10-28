@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // A game's page: what it is, screenshots, the facts about the original, controls, one Play button, and
 // how many play it right now.
 import { size, type Game } from './catalog.ts';

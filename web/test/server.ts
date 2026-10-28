@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Starts the real server (server/target/freegames-server.jar) on a free port for SDK tests.
 import { spawn, type ChildProcess } from 'node:child_process';
 import { existsSync, mkdtempSync } from 'node:fs';

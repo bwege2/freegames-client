@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Text terminals for the ports of terminal programs (docs/GAME-INTEGRATION.md "Text games"):
 //  * Teletype: a scrolling log with line input, as a printing terminal or a line-oriented console
 //    (Hunt the Wumpus, Colossal Cave Adventure, GNU Chess, pMARS's cdb).

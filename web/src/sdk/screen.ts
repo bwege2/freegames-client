@@ -1,3 +1,4 @@
+// freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // A pixel screen for ports that draw at the original's resolution: a canvas of exactly that size,
 // scaled to the host by whole numbers when it fits (crisp pixels, no blur), letterboxed, with the
 // original display's pixel aspect ratio (Apple II and C64 pixels were not square). Phaser can draw

@@ -136,16 +136,30 @@ try {
   await play(b);
   await toMenu(a, false);
   await toMenu(b, true);
+  // the online page by mouse and keyboard, as a player uses it: a click puts the caret into a field and
+  // gives a select the focus (the game's own pointer handlers must leave them alone)
+  const typeInto = async (p, sel, text) => {
+    await p.click(sel);
+    const focused = await p.$eval(sel, (e) => document.activeElement === e);
+    await p.keyboard.down('Control');
+    await p.keyboard.press('KeyA');
+    await p.keyboard.up('Control');
+    await p.keyboard.type(text);
+    await p.keyboard.press('Tab');
+    return focused && (await p.$eval(sel, (e) => e.value)) === text;
+  };
   const lobby = async (p, name) => {
     await click(p, 303, 112); // the networking icon
     await p.waitForSelector('.fg-lobby input[placeholder="Your name"]', { timeout: 10000 });
-    await p.$eval('.fg-lobby input[placeholder="Your name"]', (e, n) => { e.value = n; e.dispatchEvent(new Event('change')); }, name);
+    return typeInto(p, '.fg-lobby input[placeholder="Your name"]', name);
   };
-  await lobby(a, 'Anna');
-  await lobby(b, 'Bert');
+  const typed = [await lobby(a, 'Anna'), await lobby(b, 'Bert')];
+  await a.click('.abuse-size');
+  typed.push(await a.$eval('.abuse-size', (e) => document.activeElement === e));
   await a.select('.abuse-size', '2');
-  await a.$eval('.abuse-kills', (e) => { e.value = '5'; });
-  await a.$eval('.fg-lobby input[placeholder="Room name"]', (e) => { e.value = 'cistern'; });
+  typed.push(await typeInto(a, '.abuse-kills', '5'));
+  typed.push(await typeInto(a, '.fg-lobby input[placeholder="Room name"]', 'cistern'));
+  check(typed.every(Boolean), `the online page takes the mouse: fields and the select focused by a click, typed into (${typed.join(', ')})`);
   await (await button(a, 'Create room')).click();
   await a.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'cistern');
   await b.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('cistern')), { timeout: 8000 });
