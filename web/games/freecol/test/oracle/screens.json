@@ -1,0 +1,13 @@
+{
+  "size": "1280x800",
+  "screens": {
+    "main": { "steps": [] },
+    "new": { "steps": ["click=New", "wait=net.sf.freecol.client.gui.panel.NewPanel"] },
+    "start": { "steps": ["click=New", "wait=net.sf.freecol.client.gui.panel.NewPanel", "click=OK", "wait=net.sf.freecol.client.gui.panel.StartGamePanel"] },
+    "game": {
+      "steps": ["click=New", "wait=net.sf.freecol.client.gui.panel.NewPanel", "click=OK", "wait=net.sf.freecol.client.gui.panel.StartGamePanel", "click=Start Game", "wait=net.sf.freecol.client.gui.panel.InformationPanel"],
+      "ignore": ["net.sf.freecol.client.gui.panel.InfoPanel"],
+      "why": "a new game's map is random (the original's server random is unseeded): the info panel shows a ship whose name is drawn at random"
+    }
+  }
+}

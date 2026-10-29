@@ -1,0 +1,22 @@
+net.sf.freecol.client.gui.FreeColFrame 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+  javax.swing.JRootPane 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+    javax.swing.JPanel 0,0 1280x800 hidden pref 10x10 font Serif/0/12.0
+    javax.swing.JLayeredPane 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+      javax.swing.JPanel 0,0 1280x800 pref 1x1 font Serif/0/12.0
+        net.sf.freecol.client.gui.Canvas 0,0 1280x800 pref 1x1 font Serif/0/12.0
+          net.sf.freecol.client.gui.Canvas$2 431,167 417x466 pref 417x466 font Serif/0/12.0
+            javax.swing.JRootPane 32,32 353x402 pref 353x402 font Serif/0/12.0
+              javax.swing.JPanel 0,0 353x402 hidden pref 10x10 font Serif/0/12.0
+              javax.swing.JLayeredPane 0,0 353x402 pref 1x1 font Serif/0/12.0
+                javax.swing.JPanel 0,0 353x402 pref 353x402 font Serif/0/12.0
+                  net.sf.freecol.client.gui.panel.MainPanel 0,0 353x402 pref 353x402 font Serif/0/12.0
+                    javax.swing.JLabel 37,37 279x108 pref 279x108 font Serif/0/12.0
+                    javax.swing.JLabel 161,145 32x15 pref 32x15 font Serif/0/12.0 "1.2.0"
+                    net.sf.freecol.client.gui.panel.MigPanel 46,176 261x189 pref 261x189 font Serif/0/12.0
+                      net.sf.freecol.client.gui.panel.FreeColButton 6,6 129x55 pref 67x55 font Serif/0/12.0 "New"
+                      net.sf.freecol.client.gui.panel.FreeColButton 141,6 114x55 pref 73x55 font Serif/0/12.0 "Open"
+                      net.sf.freecol.client.gui.panel.FreeColButton 6,67 129x55 pref 109x55 font Serif/0/12.0 "Map Editor"
+                      net.sf.freecol.client.gui.panel.FreeColButton 141,67 114x55 pref 114x55 font Serif/0/12.0 "Preferences"
+                      net.sf.freecol.client.gui.panel.FreeColButton 6,128 129x55 pref 129x55 font Serif/0/12.0 "About FreeCol"
+                      net.sf.freecol.client.gui.panel.FreeColButton 141,128 114x55 pref 67x55 font Serif/0/12.0 "Quit"
+          net.sf.freecol.client.gui.mapviewer.CanvasMapViewer 0,0 1280x800 pref 1x1 font Serif/0/12.0

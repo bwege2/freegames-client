@@ -1,0 +1,92 @@
+# Members of the translated JDK classes that the hand-written runtime (web/games/freecol/src/jre, src/port)
+# calls, so that j2ts keeps them (tools/j2ts/Reach.java): Class (everything reflective) or Class#method.
+# the client's event loop (src/port/client/awtloop.ts) and toolkit (src/jre/toolkit.ts)
+java.awt.EventQueue#<init>
+java.awt.EventQueue#postEvent
+java.awt.EventQueue#peekEvent
+java.awt.EventQueue#getNextEvent
+java.awt.EventQueue#dispatchEvent
+java.awt.EventQueue#initDispatchThread
+java.awt.EventQueue#isDispatchThreadImpl
+java.awt.EventQueue#wakeup
+java.awt.EventQueue#createSecondaryLoop
+java.awt.event.InvocationEvent#<init>
+java.awt.event.InvocationEvent#isDispatched
+java.awt.event.InvocationEvent#getThrowable
+sun.awt.PeerEvent#<init>
+javax.swing.Timer#post
+javax.swing.Timer#cancelEvent
+javax.swing.Timer#getInitialDelay
+javax.swing.Timer#getDelay
+javax.swing.Timer#isRepeats
+java.awt.Dimension#<init>
+java.awt.Insets#<init>
+java.awt.Cursor#<init>
+java.awt.image.ColorModel#getRGBdefault
+# fonts (src/jre/fonts.ts): FontDesignMetrics extends FontMetrics
+java.awt.FontMetrics#*
+java.awt.font.FontRenderContext#*
+java.awt.geom.Rectangle2D$Float#<init>
+javax.swing.plaf.FontUIResource#<init>
+# the screen (src/jre/screen.ts) extends these
+java.awt.GraphicsEnvironment#*
+java.awt.GraphicsDevice#*
+java.awt.GraphicsConfiguration#*
+java.awt.DisplayMode#<init>
+java.awt.image.DirectColorModel#<init>
+java.awt.geom.AffineTransform#*
+java.awt.Rectangle#<init>
+# graphics (src/port/client/graphics.ts) and images (src/jre/image.ts)
+java.awt.Graphics#*
+java.awt.Graphics2D#*
+java.awt.Image#*
+java.awt.image.VolatileImage#*
+java.awt.BasicStroke#*
+java.awt.AlphaComposite#*
+java.awt.Color#*
+java.awt.GradientPaint#*
+java.awt.TexturePaint#*
+java.awt.RenderingHints#*
+java.awt.Shape#getPathIterator
+java.awt.geom.PathIterator#currentSegment
+java.awt.geom.PathIterator#next
+java.awt.geom.PathIterator#isDone
+java.awt.geom.PathIterator#getWindingRule
+java.awt.image.RescaleOp#*
+java.awt.image.MemoryImageSource#<init>
+java.awt.ImageCapabilities#<init>
+java.awt.Font#*
+java.awt.Cursor#*
+java.awt.Component#getFont
+java.awt.Component#getForeground
+java.awt.Component#getBackground
+java.awt.Component#getCursor
+java.awt.Component#dispatchEvent
+java.awt.Component#getBounds
+java.awt.Component#isVisible
+java.awt.Component#getPreferredSize
+java.awt.Container#getComponents
+java.awt.Frame#getFrames
+java.awt.geom.Rectangle2D$Float#*
+# found by name through reflection: LazyActionMap's loaders (*#name: every method of the name)
+*#loadActionMap
+# text layout (src/jre/textlayout.ts)
+java.awt.geom.GeneralPath#<init>
+java.awt.geom.Path2D$Float#*
+java.awt.geom.Path2D#*
+java.awt.font.TextAttribute#*
+java.awt.Point#<init>
+# peers and input (src/port/client/peers.ts)
+sun.awt.KeyboardFocusManagerPeerImpl#*
+sun.awt.PaintEventDispatcher#getPaintEventDispatcher
+sun.awt.PaintEventDispatcher#createPaintEvent
+sun.awt.NullComponentPeer#<init>
+sun.awt.AWTAccessor#getAWTEventAccessor
+java.awt.event.WindowEvent#<init>
+java.awt.event.MouseEvent#<init>
+java.awt.event.MouseWheelEvent#<init>
+java.awt.event.KeyEvent#<init>
+java.awt.Window#isFocusableWindow
+java.awt.Window#getFocusableWindowState
+*#eventDispatched
+*#setPosted

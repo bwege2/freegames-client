@@ -1,0 +1,63 @@
+// @ts-nocheck
+// FreeCol 1.2.0 src/net/sf/freecol/client/gui/menu/MenuMouseMotionListener.java, translated to TypeScript by re/freecol/tools/j2ts (do not edit).
+/**
+ *  Copyright (C) 2002-2022   The FreeCol Team
+ *
+ *  This file is part of FreeCol.
+ *
+ *  FreeCol is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  FreeCol is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with FreeCol.  If not, see <http://www.gnu.org/licenses/>.
+ */
+import { $J, JObject } from '../../../../../../../jre/index.ts';
+
+/**
+ * This class is meant to make the autoscrolling work better, so that
+ * you don't have to hover the mouse exactly one pixel below the menu
+ * bar to make it scroll up.  This is the MouseMotionListener added to
+ * the menu bar, allowing you to scroll by just moving the mouse all
+ * the way to the top of the screen.
+ *
+ * Note: This doesn't cause it to scroll down when you reach the
+ * bottom of the menu bar, because the performAutoScrollIfActive will
+ * compare the Y coordinate to the size of the entire canvas (which
+ * should always be bigger).
+ */
+export class MenuMouseMotionListener extends JObject {
+  scrolling: Scrolling = null;
+  /**
+   * Trivial constructor.
+   *
+   * @param freeColClient The enclosing {@code FreeColClient}.
+   */
+  _MenuMouseMotionListener(scrolling: Scrolling): this {
+    this.scrolling = scrolling;
+    return this;
+  }
+  /**
+   * {@inheritDoc}
+   */
+  mouseDragged(e: MouseEvent): void {
+  }
+  /**
+   * {@inheritDoc}
+   */
+  mouseMoved(e: MouseEvent): void {
+    if (e.getY() <= 2) {
+      this.scrolling.performAutoScrollIfActive(e);
+    } else {
+      this.scrolling.stopScrollIfScrollIsActive();
+    }
+  }
+}
+
+$J.define(MenuMouseMotionListener, 'net.sf.freecol.client.gui.menu.MenuMouseMotionListener', { kind: 'class', ifaces: ['java.awt.event.MouseMotionListener'], sup: 'java.lang.Object', ctors: { 'net.sf.freecol.client.gui.Scrolling': '_MenuMouseMotionListener' } });

@@ -11,7 +11,9 @@
     "test:e2e": "node scripts/e2e.mjs"
   },
   "dependencies": {
-    "capnp-es": "0.0.16"
+    "capnp-es": "0.0.16",
+    "fflate": "0.8.2",
+    "jpeg-js": "0.4.4"
   },
   "devDependencies": {
     "@types/node": "22.20.5",

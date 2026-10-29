@@ -1,0 +1,46 @@
+net.sf.freecol.client.gui.FreeColFrame 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+  javax.swing.JRootPane 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+    javax.swing.JPanel 0,0 1280x800 hidden pref 10x10 font Serif/0/12.0
+    javax.swing.JLayeredPane 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+      javax.swing.JPanel 0,0 1280x800 pref 1x1 font Serif/0/12.0
+        net.sf.freecol.client.gui.Canvas 0,0 1280x800 pref 1x1 font Serif/0/12.0
+          net.sf.freecol.client.gui.Canvas$2 320,140 639x520 pref 639x520 font Serif/0/12.0
+            javax.swing.JRootPane 32,32 575x456 pref 575x456 font Serif/0/12.0
+              javax.swing.JPanel 0,0 575x456 hidden pref 10x10 font Serif/0/12.0
+              javax.swing.JLayeredPane 0,0 575x456 pref 1x1 font Serif/0/12.0
+                javax.swing.JPanel 0,0 575x456 pref 575x456 font Serif/0/12.0
+                  net.sf.freecol.client.gui.panel.NewPanel 0,0 575x456 pref 575x456 font Serif/0/12.0
+                    javax.swing.JLabel 156,11 263x99 pref 263x99 font ShadowedBlack/0/40.0 "Setup new game"
+                    javax.swing.JRadioButton 11,116 149x26 pref 149x26 font Serif/0/12.0 "Single player game"
+                    javax.swing.JSeparator 257,116 15x243 pref 2x0 font Serif/0/12.0
+                    javax.swing.JLabel 278,122 36x15 pref 36x15 font Serif/0/12.0 "Name"
+                    javax.swing.JTextField 320,120 244x19 pref 244x19 font Serif/0/12.0 "player"
+                    javax.swing.JRadioButton 11,150 174x26 pref 174x26 font Serif/0/12.0 "Start multiplayer game"
+                    javax.swing.JLabel 278,156 127x15 pref 127x15 font Serif/0/12.0 "National Advantages"
+                    javax.swing.JComboBox 411,148 153x31 pref 97x31 font Serif/0/12.0
+                      javax.swing.plaf.metal.MetalComboBoxButton 0,0 153x31 pref 16x16 font Serif/0/12.0
+                      javax.swing.CellRendererPane 0,0 0x0 hidden pref 1x1 font Serif/0/12.0
+                    javax.swing.JComboBox 32,185 94x31 pref 94x31 font Serif/0/12.0
+                      javax.swing.plaf.metal.MetalComboBoxButton 0,0 94x31 pref 16x16 font Serif/0/12.0
+                      javax.swing.CellRendererPane 0,0 0x0 hidden pref 1x1 font Serif/0/12.0
+                    javax.swing.JLabel 32,230 121x15 pref 121x15 font Serif/0/12.0 "Start server on port"
+                    javax.swing.JTextField 159,228 60x19 pref 37x19 font Serif/0/12.0 "3541"
+                    javax.swing.JLabel 278,230 34x15 pref 34x15 font Serif/0/12.0 "Rules"
+                    javax.swing.JComboBox 411,222 153x31 pref 82x31 font Serif/0/12.0
+                      javax.swing.plaf.metal.MetalComboBoxButton 0,0 153x31 pref 16x16 font Serif/0/12.0
+                      javax.swing.CellRendererPane 0,0 0x0 hidden pref 1x1 font Serif/0/12.0
+                    javax.swing.JCheckBox 32,261 111x26 pref 111x26 font Serif/0/12.0 "Public server"
+                    javax.swing.JLabel 278,267 58x15 pref 58x15 font Serif/0/12.0 "Difficulty"
+                    javax.swing.JComboBox 411,259 153x31 pref 98x31 font Serif/0/12.0
+                      javax.swing.plaf.metal.MetalComboBoxButton 0,0 153x31 pref 16x16 font Serif/0/12.0
+                      javax.swing.CellRendererPane 0,0 0x0 hidden pref 1x1 font Serif/0/12.0
+                    javax.swing.JRadioButton 11,298 233x26 pref 233x26 font Serif/0/12.0 "Get server list (meta.freecol.org)"
+                    net.sf.freecol.client.gui.panel.FreeColButton 411,296 153x31 pref 109x31 font Serif/0/12.0 "Show difficulty"
+                    javax.swing.JRadioButton 11,333 167x26 pref 167x26 font Serif/0/12.0 "Join multiplayer game"
+                    javax.swing.JLabel 32,367 28x15 pref 28x15 font Serif/0/12.0 "Host"
+                    javax.swing.JTextField 66,365 80x19 pref 65x19 font Serif/0/12.0 "127.0.0.1"
+                    javax.swing.JLabel 159,367 26x15 pref 26x15 font Serif/0/12.0 "Port"
+                    javax.swing.JTextField 191,365 60x19 pref 37x19 font Serif/0/12.0 "3541"
+                    net.sf.freecol.client.gui.panel.FreeColButton 505,390 59x55 pref 59x55 font Serif/0/12.0 "OK"
+                    net.sf.freecol.client.gui.panel.FreeColButton 441,402 58x31 pref 58x31 font Serif/0/12.0 "Cancel"
+          net.sf.freecol.client.gui.mapviewer.CanvasMapViewer 0,0 1280x800 pref 1x1 font Serif/0/12.0

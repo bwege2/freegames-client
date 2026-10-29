@@ -1,0 +1,56 @@
+net.sf.freecol.client.gui.FreeColFrame 0,0 1280x800 pref 303x34 font Dialog/0/12.0
+  javax.swing.JRootPane 0,0 1280x800 pref 303x34 font Dialog/0/12.0
+    javax.swing.JPanel 0,0 1280x800 hidden pref 10x10 font Serif/0/12.0
+    javax.swing.JLayeredPane 0,0 1280x800 pref 1x1 font Dialog/0/12.0
+      javax.swing.JPanel 0,33 1280x767 pref 1x1 font Serif/0/12.0
+        net.sf.freecol.client.gui.Canvas 0,0 1280x767 pref 1x1 font Serif/0/12.0
+          net.sf.freecol.client.gui.Canvas$2 374,131 531x504 pref 531x504 font Serif/0/12.0
+            javax.swing.JRootPane 0,0 531x504 pref 531x504 font Serif/0/12.0
+              javax.swing.JPanel 0,0 531x504 hidden pref 10x10 font Serif/0/12.0
+              javax.swing.JLayeredPane 0,0 531x504 pref 1x1 font Serif/0/12.0
+                javax.swing.JPanel 0,0 531x504 pref 531x504 font Serif/0/12.0
+                  net.sf.freecol.client.gui.panel.InformationPanel 0,0 531x504 pref 531x504 font Serif/0/12.0
+                    javax.swing.JScrollPane 10,205 511x224 pref 510x76 font Serif/0/12.0
+                      javax.swing.JViewport 0,0 511x224 pref 510x76 font Serif/0/12.0
+                        net.sf.freecol.client.gui.panel.MigPanel 0,0 511x224 pref 510x76 font Serif/0/12.0
+                          javax.swing.JLabel 6,80 58x64 pref 58x64 font Serif/0/12.0
+                          javax.swing.JTextArea 81,90 424x45 pref 424x45 font Serif/0/12.0 "After months at sea, you have finally arrived off the coast of an unknown continent. Sail westward in order to discover the New World and to claim it for the Crown."
+                      javax.swing.JScrollPane$ScrollBar 0,0 0x0 hidden pref 17x61 font Serif/0/12.0
+                        javax.swing.plaf.metal.MetalScrollButton 0,0 0x0 pref 17x16 font Serif/0/12.0
+                        javax.swing.plaf.metal.MetalScrollButton 0,0 0x0 pref 17x15 font Serif/0/12.0
+                      javax.swing.JScrollPane$ScrollBar 0,0 0x0 hidden pref 61x17 font Serif/0/12.0
+                        javax.swing.plaf.metal.MetalScrollButton 0,0 0x0 pref 16x17 font Serif/0/12.0
+                        javax.swing.plaf.metal.MetalScrollButton 0,0 0x0 pref 15x17 font Serif/0/12.0
+                    net.sf.freecol.client.gui.panel.FreeColButton 462,439 59x55 pref 59x55 font Serif/0/12.0 "OK"
+          net.sf.freecol.client.gui.panel.InfoPanel 970,469 310x298 pref 1x1 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.MigPanel 52,146 250x138 pref 194x102 font Serif/0/12.0
+              javax.swing.JLabel 20,24 90x90 pref 90x90 font Serif/0/12.0
+              javax.swing.JLabel 124,10 120x15 pref 74x15 font Serif/0/12.0 "Ram (Dutch"
+              javax.swing.JLabel 124,32 120x15 pref 92x15 font Serif/0/12.0 "Merchantman)"
+              javax.swing.JLabel 124,54 120x15 pref 66x15 font Serif/0/12.0 "Moves: 5/5"
+              javax.swing.JLabel 124,77 62x32 pref 26x32 font Serif/0/12.0
+              javax.swing.JLabel 192,77 52x32 pref 17x32 font Serif/0/12.0
+              javax.swing.JLabel 124,112 120x20 pref 0x0 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.MiniMapFreeColPanel 0,408 310x359 pref 1x1 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.UnitButton 6,218 32x32 pref 32x32 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.UnitButton 6,254 32x32 pref 32x32 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.UnitButton 6,290 32x32 pref 32x32 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.UnitButton 6,321 32x32 pref 32x32 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.CornerMapControls$MiniMapPanelSkin 0,0 310x359 pref 10x10 font Serif/0/12.0
+            net.sf.freecol.client.gui.panel.MiniMap 41,203 224x160 pref 1x1 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 445,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 489,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 533,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 577,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 621,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 665,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 709,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 753,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.panel.UnitButton 797,723 39x39 pref 39x39 font Serif/0/12.0
+          net.sf.freecol.client.gui.mapviewer.CanvasMapViewer 0,0 1280x767 pref 1x1 font Serif/0/12.0
+      net.sf.freecol.client.gui.menu.InGameMenuBar 0,0 1280x33 pref 303x33 font Serif/0/12.0
+        javax.swing.JMenu 0,0 53x25 pref 53x25 font Serif/0/12.0 "Game"
+        javax.swing.JMenu 53,0 49x25 pref 49x25 font Serif/0/12.0 "View"
+        javax.swing.JMenu 102,0 61x25 pref 61x25 font Serif/0/12.0 "Orders"
+        javax.swing.JMenu 163,0 61x25 pref 61x25 font Serif/0/12.0 "Report"
+        javax.swing.JMenu 224,0 79x25 pref 79x25 font Serif/0/12.0 "Colopedia"
