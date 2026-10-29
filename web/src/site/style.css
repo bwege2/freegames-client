@@ -91,6 +91,18 @@ button { font: inherit; }
 .play:hover { filter: brightness(1.08); }
 .play-box { display: flex; flex-direction: column; align-items: center; gap: .35rem; }
 .play-size { font-size: .82rem; color: var(--muted); }
+.badge-broken { background: #b3261e; color: #fff; }
+.broken-note { margin: .5rem 0 0; padding: .45rem .7rem; border-radius: 8px; background: #fdecea; color: #7a1d16; font-size: .95rem; }
+.try-anyway { margin-left: .4rem; font: inherit; font-size: .85rem; padding: .1rem .55rem; border: 1px solid #b3261e; border-radius: 6px; background: transparent; color: #7a1d16; cursor: pointer; }
+.feedback { max-width: 46rem; margin: 2rem 0 1rem; }
+.feedback summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.feedback-form { display: grid; gap: .6rem; margin-top: .8rem; }
+.feedback-form label { display: flex; gap: .5rem; align-items: center; }
+.feedback-form textarea, .feedback-form input, .feedback-form select { font: inherit; padding: .4rem .55rem; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: inherit; }
+.feedback-send { justify-self: start; font: inherit; padding: .4rem 1.2rem; border: 0; border-radius: 999px; background: var(--accent); color: #fff; cursor: pointer; }
+.feedback-send:disabled { opacity: .5; cursor: default; }
+.feedback-note, .feedback-status { margin: 0; font-size: .85rem; color: var(--muted); }
+@media (prefers-color-scheme: dark) { .broken-note { background: #3b1513; color: #f6c9c4; } .try-anyway { color: #f6c9c4; } }
 .play:disabled { background: var(--line); color: var(--muted); cursor: default; box-shadow: none; }
 .shots { display: flex; gap: .75rem; overflow-x: auto; margin: 1.5rem 0; padding-bottom: .5rem; scroll-snap-type: x mandatory; }
 .shot { flex: 0 0 auto; padding: 0; border: 0; background: #000; border-radius: 8px; overflow: hidden; cursor: zoom-in; scroll-snap-align: start; }

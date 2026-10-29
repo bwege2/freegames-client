@@ -36,7 +36,8 @@ function card(g: Game): Card {
         el('span', { className: 'card-tagline', textContent: m.tagline }),
         el('span', { className: 'card-meta', textContent: `${m.original.year} · ${m.genres.join(', ')}` }),
         live,
-        !g.load && el('span', { className: 'badge', textContent: 'Coming soon' }))),
+        !g.load && el('span', { className: 'badge', textContent: 'Coming soon' }),
+        g.load && m.broken && el('span', { className: 'badge badge-broken', textContent: 'Broken right now' }))),
     live,
   };
 }

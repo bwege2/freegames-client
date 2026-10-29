@@ -504,6 +504,35 @@ try {
     await sp.close();
   }
 
+  // ---- a broken game says so; every game's page takes a report, which only the operator reads
+  {
+    const fctx = await browser.createBrowserContext();
+    const f = await fctx.newPage();
+    const brokenIds = listed.filter((id) => JSON.parse(readFileSync(join(web, 'games', id, 'game.json'), 'utf8')).broken);
+    if (brokenIds.length) {
+      const id = brokenIds[0];
+      await f.goto(base, { waitUntil: 'networkidle0' });
+      const badge = await f.$eval(`a.card[href="#/${id}"]`, (a) => !!a.querySelector('.badge-broken')).catch(() => false);
+      await f.goto(`${base}#/${id}`, { waitUntil: 'networkidle0' });
+      const page = await f.evaluate(() => ({ note: !!document.querySelector('.broken-note'), off: document.querySelector('.page .play')?.disabled, again: !!document.querySelector('.try-anyway') }));
+      check(badge && page.note && page.off && page.again, `broken: ${id} is marked on its card and its page, Play only on "Try anyway"`);
+    }
+    await f.goto(`${base}#/wumpus`, { waitUntil: 'networkidle0' });
+    await f.click('.feedback summary');
+    const text = `e2e report ${Date.now()}`;
+    await f.select('.feedback select', 'idea');
+    await f.type('.feedback textarea', text);
+    await f.type('.feedback input[name="contact"]', 'e2e@example.org');
+    await f.click('.feedback-send');
+    const thanked = await f.waitForFunction(() => /Thank you/.test(document.querySelector('.feedback-status')?.textContent ?? ''), { timeout: 10000 }).then(() => true, () => false);
+    const list = await (await fetch(`${base}admin/feedback.json`, { headers: { Authorization: `Basic ${Buffer.from(`admin:${ADMIN}`).toString('base64')}` } })).json().catch(() => []);
+    const mine = list.find((r) => r.text === text);
+    check(thanked && mine?.game === 'wumpus' && mine.kind === 'idea' && mine.contact === 'e2e@example.org' && /^dev|^release-/.test(mine.release),
+      `feedback: a game page sends a report, and the operator reads it (${mine ? `${mine.kind}, ${mine.browser}` : 'not found'})`);
+    check((await fetch(`${base}admin/feedback.json`)).status === 401, 'feedback: the reports only behind the password');
+    await fctx.close();
+  }
+
   // ---- the download before a game starts: its size on the page, then progress (amount, percent, time left)
   {
     const dl = await (await fetch(`${base}downloads.json`)).json();
@@ -539,7 +568,8 @@ try {
     const errors = [];
     g.on('pageerror', (e) => errors.push(e.message));
     await g.goto(`${base}#/${id}`, { waitUntil: 'networkidle0' });
-    await g.click('.page .play');
+    // a game marked broken plays on its deliberate second button
+    await g.click((await g.$('.page .try-anyway')) ? '.page .try-anyway' : '.page .play');
     const drew = await g.waitForFunction(() => {
       const host = document.querySelector('.player-host');
       // a game that opens in the lobby (Netrek: its client connects only once a round starts) shows .fg-lobby

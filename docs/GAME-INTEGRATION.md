@@ -193,6 +193,12 @@ server authority and state relay: `docs/SERVER.md`.
 Local multiplayer the original had (hot-seat, two players on one keyboard) stays as it was; online is
 an extra mode of the game's own menu.
 
+## When a port is broken
+
+`"broken": "what the page says"` in `game.json` marks a port that does not work right: its card says "Broken right
+now", its page shows the text, and Play needs a second, deliberate click ("Try anyway"). Players can report what they
+see with the form at the foot of every game's page (POST /feedback, read by the operator only).
+
 ## Downloads: what Play fetches first
 
 Play downloads the game's files before it starts the game and shows how much, how far and how long still; the game

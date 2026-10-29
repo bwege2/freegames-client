@@ -13,6 +13,8 @@ const server = {
 const headers = { 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Embedder-Policy': 'require-corp' };
 
 export default defineConfig({
+  // the release being built (tools/deploy.sh sets RELEASE_TAG): a player's feedback names it
+  define: { __RELEASE__: JSON.stringify(process.env.RELEASE_TAG || 'dev') },
   base: './',
   build: {
     target: 'es2022',

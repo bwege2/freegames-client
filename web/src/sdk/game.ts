@@ -56,6 +56,8 @@ export interface GameManifest {
   screenshots: { file: string; caption: string }[];
   /** false: reachable by its link only (the example game) */
   listed?: boolean;
+  /** set while the port is known to be broken: what the page says (it shows "Broken right now", Play asks twice) */
+  broken?: string;
   /**
    * files of the game's folder it loads only later, while playing (globs: "assets/music/**"): Play does not
    * download them before the start (scripts/downloads.mjs)

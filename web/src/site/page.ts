@@ -4,6 +4,7 @@
 import { size, type Game } from './catalog.ts';
 import { el, legalFooter } from './dom.ts';
 import { downloadOf, megabytes } from './downloads.ts';
+import { feedbackForm } from './feedback.ts';
 import { listHref } from './list.ts';
 import { liveText, onLive, playersOf, popularText } from './live.ts';
 import { thumb } from './thumb.ts';
@@ -11,8 +12,13 @@ import { thumb } from './thumb.ts';
 /** The page; it listens for the players now until `signal` aborts (the route moved on). */
 export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new AbortController().signal): HTMLElement {
   const m = g.manifest;
-  const play = el('button', { className: 'play', type: 'button', textContent: g.load ? '▶  Play' : 'Coming soon', disabled: !g.load });
+  // a game marked broken (game.json "broken") says so, and plays only on a second, deliberate click
+  const broken = g.load ? m.broken : undefined;
+  const play = el('button', { className: 'play', type: 'button', textContent: g.load ? (broken ? 'Broken right now' : '▶  Play') : 'Coming soon', disabled: !g.load || !!broken });
   if (g.load) play.addEventListener('click', onPlay);
+  const brokenNote = broken
+    ? el('p', { className: 'broken-note' }, `⚠ ${broken} `, el('button', { className: 'try-anyway', type: 'button', textContent: 'Try anyway', onclick: onPlay }))
+    : null;
   // the players now, once the server has told (nothing without a server)
   const live = el('p', { className: 'live-line', hidden: true });
   const popular = el('p', { className: 'popular-line', hidden: true });
@@ -58,7 +64,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
   return el('main', { className: 'page' },
     el('a', { className: 'back-link', href: listHref(), textContent: '← All games' }),
     el('header', { className: 'page-head' },
-      el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), live, popular),
+      el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), brokenNote, live, popular),
       el('div', { className: 'play-box' }, play, playSize)),
     shots,
     el('section', { className: 'about' },
@@ -67,6 +73,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     m.controls.length > 0 && el('section', { className: 'controls' },
       el('h2', { textContent: 'Controls' }),
       el('table', {}, el('tbody', {}, ...m.controls.map((c) => el('tr', {}, el('th', { textContent: c.input }), el('td', { textContent: c.action })))))),
+    g.load ? feedbackForm(m.id, m.title) : null,
     legalFooter());
 }
 

@@ -2,6 +2,7 @@
   "id": "freecol",
   "title": "FreeCol",
   "tagline": "Found colonies in the New World, trade with Europe and the natives, and win independence.",
+  "broken": "FreeCol does not work properly yet: we are on it. Reports below help.",
   "summary": [
     "It is 1492. You lead one of Europe's colonial powers to the New World: explore the coast and the land, found colonies, put colonists to work in the fields and the workshops, and ship what they make back to the market in Europe. Meet the native nations, trade with them, learn from them or fight them, and race the other powers for land and the founding fathers of your congress.",
     "The crown taxes your trade and sends its Royal Expeditionary Force when you declare independence: win the war of independence to win the game. FreeCol plays by the rules of Sid Meier's Colonization (the classic rule set) or by FreeCol's own, with eight European nations.",
