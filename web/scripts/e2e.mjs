@@ -572,8 +572,9 @@ try {
     await g.click((await g.$('.page .try-anyway')) ? '.page .try-anyway' : '.page .play');
     const drew = await g.waitForFunction(() => {
       const host = document.querySelector('.player-host');
-      // a game that opens in the lobby (Netrek: its client connects only once a round starts) shows .fg-lobby
-      const el = host?.querySelector('canvas, .fg-term-page, .fg-lobby');
+      // a game that opens in the lobby (Netrek: its client connects only once a round starts) shows .fg-lobby;
+      // a DOM game (2048) shows .game-root
+      const el = host?.querySelector('canvas, .fg-term-page, .fg-lobby, .game-root');
       return !!el && el.getBoundingClientRect().width > 100;
     }, { timeout: 5000 }).then(() => true, () => false);
     for (const k of ['Space', 'ArrowRight', 'ArrowUp', 'Enter', 'y', 'Enter']) {

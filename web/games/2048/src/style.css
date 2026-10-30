@@ -1,0 +1,527 @@
+/* The look of 2048, from the original's style/main.css (and its mobile rules below 520 px): the
+   same colours, tile sizes, positions, transitions and animations. Only the outer page is adapted
+   to the player window: the 500 px column (280 px on a narrow window) is scaled to fit it. */
+
+@font-face {
+  font-family: "Clear Sans";
+  src: url("../assets/ClearSans-Light-webfont.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clear Sans";
+  src: url("../assets/ClearSans-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clear Sans";
+  src: url("../assets/ClearSans-Bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* the site's * { box-sizing: border-box } must not reach the original's page, which uses content-box
+   except for the game container (style/main.scss sets it there) */
+.game-root,
+.game-root *,
+.game-root *:before,
+.game-root *:after {
+  box-sizing: content-box;
+}
+
+.game-root {
+  --field-width: 500px;  --grid-spacing: 15px;
+  --tile-size: 106.25px;
+  --tile-outer: 107px;
+  --tile-radius: 3px;
+  --container-padding: 15px;
+  --container-top: 40px;
+  --pos-1: 0px;
+  --pos-2: 121px;
+  --pos-3: 242px;
+  --pos-4: 363px;
+  --tile-font: 55px;
+  --tile-font-mid: 45px;
+  --tile-font-big: 35px;
+  --tile-font-super: 30px;
+  --message-font: 60px;
+  --message-top: 222px;
+  --lower-top: 59px;
+  --heading-bottom: 0px;
+  --text-color: #776e65;
+  --bright-text-color: #f9f6f2;
+  --tile-color: #eee4da;
+  --game-container-background: #bbada0;
+  --tile-gold-color: #edc22e;
+  --tile-gold-glow-color: #f3d774;
+  --transition-speed: 100ms;
+
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #faf8ef;
+  color: var(--text-color);
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.game-root.narrow {
+  --field-width: 280px;
+  --grid-spacing: 10px;
+  --tile-size: 57.5px;
+  --tile-outer: 58px;
+  --container-padding: 10px;
+  --container-top: 17px;
+  --pos-2: 67px;
+  --pos-3: 135px;
+  --pos-4: 202px;
+  --tile-font: 35px;
+  --tile-font-mid: 25px;
+  --tile-font-big: 15px;
+  --tile-font-super: 10px;
+  --message-font: 30px;
+  --message-top: 90px;
+  --lower-top: 30px;
+  --heading-bottom: 10px;
+
+  font-size: 15px;
+}
+
+.game-root .viewport {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.game-root .stage {
+  padding-top: 20px;
+  transform-origin: top center;
+}
+
+.game-root .container {
+  width: var(--field-width);
+  margin: 0 auto;
+}
+
+.game-root .heading:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.game-root .heading {
+  margin-bottom: var(--heading-bottom);
+}
+
+.game-root h1.title {
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0;
+  display: block;
+  float: left;
+}
+
+.game-root.narrow h1.title {
+  font-size: 27px;
+  margin-top: 15px;
+}
+
+@keyframes move-up {
+  0% {
+    top: 25px;
+    opacity: 1;
+  }
+  100% {
+    top: -50px;
+    opacity: 0;
+  }
+}
+
+.game-root .scores-container {
+  float: right;
+  text-align: right;
+}
+
+.game-root .score-container,
+.game-root .best-container {
+  position: relative;
+  display: inline-block;
+  background: var(--game-container-background);
+  padding: 15px 25px;
+  font-size: 25px;
+  height: 25px;
+  line-height: 47px;
+  font-weight: bold;
+  border-radius: 3px;
+  color: white;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.game-root.narrow .score-container,
+.game-root.narrow .best-container {
+  margin-top: 0;
+  padding: 15px 10px;
+  min-width: 40px;
+}
+
+.game-root .score-container:after,
+.game-root .best-container:after {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  color: var(--tile-color);
+}
+
+.game-root .score-container:after {
+  content: "Score";
+}
+
+.game-root .best-container:after {
+  content: "Best";
+}
+
+.game-root .score-container .score-addition,
+.game-root .best-container .score-addition {
+  position: absolute;
+  right: 30px;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  color: rgba(119, 110, 101, 0.9);
+  z-index: 100;
+  animation: move-up 600ms ease-in;
+  animation-fill-mode: both;
+}
+
+.game-root p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+.game-root a {
+  color: var(--text-color);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.game-root strong.important {
+  text-transform: uppercase;
+}
+
+.game-root hr {
+  border: none;
+  border-bottom: 1px solid #d8d4d0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.game-root .game-container {
+  margin-top: var(--container-top);
+  position: relative;
+  padding: var(--container-padding);
+  cursor: default;
+  -webkit-touch-callout: none;
+  user-select: none;
+  touch-action: none;
+  background: var(--game-container-background);
+  border-radius: calc(var(--tile-radius) * 2);
+  width: var(--field-width);
+  height: var(--field-width);
+  box-sizing: border-box;
+}
+
+.game-root .game-container .game-message {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(238, 228, 218, 0.5);
+  z-index: 100;
+  text-align: center;
+  animation: fade-in 800ms ease 1200ms;
+  animation-fill-mode: both;
+}
+
+.game-root .game-container .game-message p {
+  font-size: var(--message-font);
+  font-weight: bold;
+  height: var(--message-font);
+  line-height: var(--message-font);
+  margin-top: var(--message-top);
+}
+
+.game-root .game-container .game-message .lower {
+  display: block;
+  margin-top: var(--lower-top);
+}
+
+.game-root .game-container .game-message a {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: var(--bright-text-color);
+  height: 40px;
+  line-height: 42px;
+  margin-left: 9px;
+}
+
+.game-root .game-container .game-message a.keep-playing-button {
+  display: none;
+}
+
+.game-root .game-container .game-message.game-won {
+  background: rgba(237, 194, 46, 0.5);
+  color: var(--bright-text-color);
+}
+
+.game-root .game-container .game-message.game-won a.keep-playing-button {
+  display: inline-block;
+}
+
+.game-root .game-container .game-message.game-won,
+.game-root .game-container .game-message.game-over {
+  display: block;
+}
+
+.game-root .grid-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.game-root .grid-row {
+  margin-bottom: var(--grid-spacing);
+}
+
+.game-root .grid-row:last-child {
+  margin-bottom: 0;
+}
+
+.game-root .grid-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.game-root .grid-cell {
+  width: var(--tile-size);
+  height: var(--tile-size);
+  margin-right: var(--grid-spacing);
+  float: left;
+  border-radius: var(--tile-radius);
+  background: rgba(238, 228, 218, 0.35);
+}
+
+.game-root .grid-cell:last-child {
+  margin-right: 0;
+}
+
+.game-root .tile-container {
+  position: absolute;
+  z-index: 2;
+}
+
+.game-root .tile,
+.game-root .tile .tile-inner {
+  width: var(--tile-outer);
+  height: var(--tile-outer);
+  line-height: var(--tile-outer);
+}
+
+.game-root .tile.tile-position-1-1 { transform: translate(var(--pos-1), var(--pos-1)); }
+.game-root .tile.tile-position-1-2 { transform: translate(var(--pos-1), var(--pos-2)); }
+.game-root .tile.tile-position-1-3 { transform: translate(var(--pos-1), var(--pos-3)); }
+.game-root .tile.tile-position-1-4 { transform: translate(var(--pos-1), var(--pos-4)); }
+.game-root .tile.tile-position-2-1 { transform: translate(var(--pos-2), var(--pos-1)); }
+.game-root .tile.tile-position-2-2 { transform: translate(var(--pos-2), var(--pos-2)); }
+.game-root .tile.tile-position-2-3 { transform: translate(var(--pos-2), var(--pos-3)); }
+.game-root .tile.tile-position-2-4 { transform: translate(var(--pos-2), var(--pos-4)); }
+.game-root .tile.tile-position-3-1 { transform: translate(var(--pos-3), var(--pos-1)); }
+.game-root .tile.tile-position-3-2 { transform: translate(var(--pos-3), var(--pos-2)); }
+.game-root .tile.tile-position-3-3 { transform: translate(var(--pos-3), var(--pos-3)); }
+.game-root .tile.tile-position-3-4 { transform: translate(var(--pos-3), var(--pos-4)); }
+.game-root .tile.tile-position-4-1 { transform: translate(var(--pos-4), var(--pos-1)); }
+.game-root .tile.tile-position-4-2 { transform: translate(var(--pos-4), var(--pos-2)); }
+.game-root .tile.tile-position-4-3 { transform: translate(var(--pos-4), var(--pos-3)); }
+.game-root .tile.tile-position-4-4 { transform: translate(var(--pos-4), var(--pos-4)); }
+
+.game-root .tile {
+  position: absolute;
+  transition: var(--transition-speed) ease-in-out;
+  transition-property: transform;
+}
+
+.game-root .tile .tile-inner {
+  border-radius: var(--tile-radius);
+  background: var(--tile-color);
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  font-size: var(--tile-font);
+}
+
+.game-root .tile.tile-2 .tile-inner {
+  background: #eee4da;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+
+.game-root .tile.tile-4 .tile-inner {
+  background: #ede0c8;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+
+.game-root .tile.tile-8 .tile-inner {
+  color: var(--bright-text-color);
+  background: #f2b179;
+}
+
+.game-root .tile.tile-16 .tile-inner {
+  color: var(--bright-text-color);
+  background: #f59563;
+}
+
+.game-root .tile.tile-32 .tile-inner {
+  color: var(--bright-text-color);
+  background: #f67c5f;
+}
+
+.game-root .tile.tile-64 .tile-inner {
+  color: var(--bright-text-color);
+  background: #f65e3b;
+}
+
+.game-root .tile.tile-128 .tile-inner {
+  color: var(--bright-text-color);
+  background: #edcf72;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+  font-size: var(--tile-font-mid);
+}
+
+.game-root .tile.tile-256 .tile-inner {
+  color: var(--bright-text-color);
+  background: #edcc61;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+  font-size: var(--tile-font-mid);
+}
+
+.game-root .tile.tile-512 .tile-inner {
+  color: var(--bright-text-color);
+  background: #edc850;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+  font-size: var(--tile-font-mid);
+}
+
+.game-root .tile.tile-1024 .tile-inner {
+  color: var(--bright-text-color);
+  background: #edc53f;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+  font-size: var(--tile-font-big);
+}
+
+.game-root .tile.tile-2048 .tile-inner {
+  color: var(--bright-text-color);
+  background: #edc22e;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+  font-size: var(--tile-font-big);
+}
+
+.game-root .tile.tile-super .tile-inner {
+  color: var(--bright-text-color);
+  background: #3c3a32;
+  font-size: var(--tile-font-super);
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.game-root .tile-new .tile-inner {
+  animation: appear 200ms ease var(--transition-speed);
+  animation-fill-mode: backwards;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.game-root .tile-merged .tile-inner {
+  z-index: 20;
+  animation: pop 200ms ease var(--transition-speed);
+  animation-fill-mode: backwards;
+}
+
+.game-root .above-game:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.game-root .game-intro {
+  float: left;
+  line-height: 42px;
+  margin-bottom: 0;
+}
+
+.game-root.narrow .game-intro {
+  width: 55%;
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.65;
+}
+
+.game-root .restart-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: var(--bright-text-color);
+  height: 40px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right;
+}
+
+.game-root.narrow .restart-button {
+  width: 42%;
+  padding: 0;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 2px;
+}
+
+.game-root .game-explanation {
+  margin-top: 50px;
+}

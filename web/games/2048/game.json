@@ -1,0 +1,51 @@
+{
+  "id": "2048",
+  "title": "2048",
+  "tagline": "Slide the tiles together until one of them is 2048.",
+  "summary": [
+    "2048 is Gabriele Cirulli's sliding-tile puzzle from 2014. Every move pushes all tiles as far as they go; two tiles with the same number that touch merge into one, doubling it, and a new 2 or 4 appears after every move.",
+    "Reach the 2048 tile to win — then keep going for a higher score. The game is over when the board is full and no two neighbours can merge.",
+    "This is the original game, ported to TypeScript with its rules, its 4×4 board, its colours and its animations. The best score and a running game are kept in the player's account on the server; the original kept them in the browser."
+  ],
+  "original": {
+    "author": "Gabriele Cirulli",
+    "year": 2014,
+    "platform": "Browser (HTML, CSS, JavaScript)",
+    "version": "master at 478b6ec, 24 October 2024",
+    "license": "MIT (Clear Sans font: Apache-2.0)",
+    "packageBytes": 332985,
+    "url": "https://github.com/gabrielecirulli/2048"
+  },
+  "players": "1",
+  "genres": ["Puzzle"],
+  "modes": ["single"],
+  "added": "2026-10-30",
+  "controls": [
+    {
+      "input": "Arrow keys, W A S D or H J K L",
+      "action": "Move the tiles up, right, down or left (a move that changes nothing spawns no tile)"
+    },
+    {
+      "input": "Swipe",
+      "action": "Move the tiles on a touch screen"
+    },
+    {
+      "input": "R or New Game",
+      "action": "Start a new game"
+    },
+    {
+      "input": "Click or tap",
+      "action": "Keep going after the 2048 tile; try again after game over"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "start.png",
+      "caption": "A new game: two tiles on the 4×4 board"
+    },
+    {
+      "file": "playing.png",
+      "caption": "After a few moves: merged tiles, score and best score"
+    }
+  ]
+}
