@@ -55,13 +55,16 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
   const facts: [string, Node | string][] = [
     ['Original', `${o.author}, ${o.year}`],
     ['Platform', o.platform],
-    ['This port follows', o.version],
+    [m.remake ? 'Based on' : 'This port follows', o.version],
     ['License', o.license],
     ['Original package', size(o.packageBytes)],
     ['Genre', m.genres.join(', ')],
     ['Players', m.players],
     ...(g.load ? [['Download', download] as [string, Node]] : []),
     ['Source', el('a', { href: o.url, textContent: o.url.replace(/^https?:\/\//, ''), target: '_blank', rel: 'noopener' })],
+    ...(m.links?.length
+      ? [['Links', el('ul', { className: 'links' }, ...m.links.map((l) => el('li', {}, el('a', { href: l.url, textContent: l.label, target: '_blank', rel: 'noopener' }))))] as [string, Node]]
+      : []),
   ];
   return el('main', { className: 'page' },
     el('a', { className: 'back-link', href: siteHref(listHref()), textContent: '← All games' }),

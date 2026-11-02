@@ -220,6 +220,18 @@ def i_maelstrom(S):
     return clip(pixel_place(base, ship, scale), S)
 
 
+def i_bomberslop(S):
+    # Gloop, the green blob of slop (assets/sprites.png, drawn by an AI with pxl; ours, GPL-3.0-or-later), on the
+    # canteen's cream floor
+    import json as _json
+    sheet = Image.open(G('bomberslop', 'assets', 'sprites.png')).convert('RGBA')
+    x, y, w, h = _json.load(open(G('bomberslop', 'assets', 'sprites.json')))['p0_down_0']
+    blob = sheet.crop((x, y, x + w, y + h))
+    base = tile(S, '#c4b9a3', top='#e8e1d2')
+    scale = 2 if S < 96 else 9
+    return clip(pixel_place(base, blob, scale, dy=-1 if S < 96 else -4), S)
+
+
 def i_sopwith(S):
     # SDL Sopwith's window icon (assets/sopwith.png, 128x128), already a black rounded tile with the plane
     art = Image.open(G('sopwith', 'assets', 'sopwith.png')).convert('RGBA')

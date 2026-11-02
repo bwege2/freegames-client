@@ -1,0 +1,87 @@
+{
+  "id": "bomberslop",
+  "title": "Bomberslop",
+  "tagline": "Jelly bombs, soup splashes and four blobs of slop in a canteen.",
+  "summary": [
+    "Bomberslop is a bomber game: lay jelly bombs that splash scalding soup along their row and column, burst crates to find extras, and be the last blob of slop standing when the soup settles. Surviving a round is a point; five points win the match.",
+    "Its rules are ClanBomber 2's (version 2.2.0), ported line by line and checked frame by frame against the original's own code: kicking and throwing bombs, chain reactions, eight extras (three of them diseases that spread when blobs touch), ice that slides you on, conveyor arrows that carry bombs, grease traps that shoot them elsewhere, drains to fall into, and, when the time is up, the Ladle that scoops the arena away tile by tile.",
+    "Play alone against up to three computer blobs, two to four players at one keyboard, or two to four online in a room of this website. Six arenas of our own: Canteen, Conveyor, Drain, Fridge, Grease Trap and Pantry."
+  ],
+  "original": {
+    "author": "Andreas Hundt, Denis Oliver Kropp, Rene Lopez and others",
+    "year": 2004,
+    "platform": "C++ with SDL (Linux, Windows)",
+    "version": "ClanBomber 2.2.0",
+    "license": "GPL-3.0-or-later (code, sounds)",
+    "packageBytes": 2118672,
+    "url": "https://www.nongnu.org/clanbomber/"
+  },
+  "players": "1-4 (against the computer, at one keyboard, or 2-4 online)",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-02",
+  "remake": true,
+  "caveat": "Bomberslop is 100% made by AI (Claude): all of its code and every picture. Its base, the rules, and its sounds come from ClanBomber 2 (2.2.0, GPL-3.0-or-later): the rules are a port of the original's code, checked frame by frame against it; the sound effects are ClanBomber 2's own, unchanged. The blobs, bombs, arenas, extras and the Ladle are new.",
+  "links": [
+    { "label": "ClanBomber in the Open Source Game Index", "url": "https://foss-gameindex.github.io/opensourcegameindex/games/clanbomber/index.html" },
+    { "label": "ClanBomber 2 project page (Savannah)", "url": "https://savannah.nongnu.org/projects/clanbomber/" },
+    { "label": "claude-pxl, the pixel-art tool the pictures were drawn with", "url": "https://github.com/augusto-scarvalho/claude-pxl" }
+  ],
+  "controls": [
+    {
+      "input": "Player 1",
+      "action": "Arrow keys to walk, Enter to lay a bomb"
+    },
+    {
+      "input": "Player 2",
+      "action": "W A S D, Tab"
+    },
+    {
+      "input": "Player 3",
+      "action": "I J K L, Space"
+    },
+    {
+      "input": "Player 4",
+      "action": "Number pad 8 4 5 6, 0"
+    },
+    {
+      "input": "Alone or online",
+      "action": "Any of these keys"
+    },
+    {
+      "input": "Bomb again on your bomb",
+      "action": "Throw it (with the oven mitt)"
+    },
+    {
+      "input": "P / Esc",
+      "action": "Pause / quit the match (online: leave the room)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "four-blobs.png",
+      "caption": "Four blobs in the Canteen: jelly bombs, a soup splash, crates and extras on plates"
+    },
+    {
+      "file": "title.png",
+      "caption": "The title and its menu"
+    },
+    {
+      "file": "conveyor.png",
+      "caption": "The Conveyor: its arrows carry the bombs round, splashes in the corners"
+    },
+    {
+      "file": "board.png",
+      "caption": "The score board between rounds"
+    }
+  ],
+  "lazyAssets": [
+    "assets/sounds/**"
+  ]
+}

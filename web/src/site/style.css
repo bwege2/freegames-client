@@ -117,6 +117,7 @@ button { font: inherit; }
   border-radius: 10px; box-shadow: var(--shadow); font-size: .93rem; align-self: start; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; overflow-wrap: anywhere; }
+.facts .links { margin: 0; padding-left: 1.1rem; }
 .controls h2 { font-size: 1.1rem; margin: 1.5rem 0 .5rem; }
 .controls table { border-collapse: collapse; }
 .controls th, .controls td { text-align: left; padding: .3rem 1rem .3rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }

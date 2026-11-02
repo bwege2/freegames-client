@@ -112,10 +112,16 @@ ${(m.summary ?? []).map((p) => `<p>${esc(p)}</p>`).join('\n')}
 ${shots.length ? `<h2>Screenshots</h2>\n<div class="seo-shots">\n${shots.map((s) => `<figure><img src="/${id}/${esc(s.file)}" alt="${esc(s.caption)}" loading="lazy"><figcaption>${esc(s.caption)}</figcaption></figure>`).join('\n')}\n</div>` : ''}
 ${m.controls?.length ? `<h2>Controls</h2>\n<table class="seo-controls">\n${m.controls.map((c) => `<tr><td><b>${esc(c.input)}</b></td><td>${esc(c.action)}</td></tr>`).join('\n')}\n</table>` : ''}
 <h2>The original</h2>
-<p>${esc(m.title)}${o.year ? ` (${esc(o.year)})` : ''}${o.author ? ` by ${esc(o.author)}` : ''}${o.platform ? `; ${esc(o.platform)}` : ''}.
+${m.remake
+    // a new game on the original's base: what it is based on, and what comes from where (the caveat)
+    ? `<p>Based on ${esc(o.version)}${o.year ? ` (first released ${esc(o.year)})` : ''}${o.author ? ` by ${esc(o.author)}` : ''}${o.platform ? `; ${esc(o.platform)}` : ''}.</p>
+${m.caveat ? `<p>${esc(m.caveat)}</p>` : ''}
+<p>${o.license ? `License: ${esc(o.license)} (${siteLink('/licenses.html', 'Licenses &amp; source')}). ` : ''}Players: ${esc(m.players ?? '1')}.</p>`
+    : `<p>${esc(m.title)}${o.year ? ` (${esc(o.year)})` : ''}${o.author ? ` by ${esc(o.author)}` : ''}${o.platform ? `; ${esc(o.platform)}` : ''}.
 ${o.version ? `This port follows ${esc(o.version)}, the same rules, levels, graphics and sounds, running natively in the browser.` : ''}
 ${o.license ? `License: ${esc(o.license)} (${siteLink('/licenses.html', 'Licenses &amp; source')}).` : ''}
-Players: ${esc(m.players ?? '1')}.</p>
+Players: ${esc(m.players ?? '1')}.</p>`}
+${m.links?.length ? `<h2>Links</h2>\n<ul>\n${m.links.map((l) => `<li><a href="${esc(l.url)}" rel="noopener">${esc(l.label)}</a></li>`).join('\n')}\n</ul>` : ''}
 <h2>More free games</h2>
 <ul>
 ${others.map((x) => `<li><a href="${gameUrl(x.id)}">${esc(x.m.title)}</a>: ${esc(x.m.tagline)}</li>`).join('\n')}

@@ -1,0 +1,44 @@
+# Two players on the first map (Canteen): they fly in, walk out of their corners, lay bombs, hide behind
+# a corner and walk on through what the blasts opened.
+seed 42
+players 2
+frames 1400
+dump 256
+at 0 0 -
+at 0 1 -
+at 120 0 R
+at 150 0 RB
+at 152 0 -
+at 153 0 L
+at 175 0 D
+at 210 0 -
+at 120 1 L
+at 140 1 LB
+at 142 1 L
+at 160 1 R
+at 190 1 D
+at 230 1 -
+at 400 0 U
+at 440 0 R
+at 520 0 RB
+at 522 0 L
+at 560 0 D
+at 600 0 -
+at 400 1 U
+at 450 1 L
+at 470 1 B
+at 472 1 R
+at 500 1 D
+at 540 1 -
+at 700 0 R
+at 760 0 D
+at 800 0 DB
+at 802 0 U
+at 840 0 L
+at 880 0 -
+at 700 1 L
+at 760 1 D
+at 820 1 B
+at 822 1 U
+at 860 1 R
+at 900 1 -

@@ -39,6 +39,17 @@ for (const dir of dirs) {
     assert.ok(Array.isArray(m.modes) && m.modes.length > 0 && m.modes.every((x: string) => (PLAY_MODES as readonly string[]).includes(x)), `modes are ${PLAY_MODES.join('/')}`);
     if (m.listed !== false) assert.ok(m.genres.length > 0, 'a listed game has a genre');
     if (m.added !== undefined) assert.match(m.added, /^\d{4}-\d{2}-\d{2}$/, 'added is YYYY-MM-DD');
+    if (m.remake !== undefined) {
+      assert.equal(typeof m.remake, 'boolean', 'remake is true or false');
+      if (m.remake) assert.ok(typeof m.caveat === 'string' && m.caveat.trim(), 'a remake says in its caveat what comes from the original');
+    }
+    if (m.links !== undefined) {
+      assert.ok(Array.isArray(m.links) && m.links.length > 0, 'links: a list');
+      for (const l of m.links) {
+        assert.ok(typeof l.label === 'string' && l.label.trim(), 'a link has a label');
+        assert.match(l.url, /^https:\/\/[^\s"<>]+$/, `a link is an https address (${l.url})`);
+      }
+    }
     const code = join(GAMES, dir, 'src', 'index.ts');
     if (existsSync(code)) {
       assert.match(readFileSync(code, 'utf8'), /export\s+(const|async function|function)\s+start\b/, 'src/index.ts exports start');

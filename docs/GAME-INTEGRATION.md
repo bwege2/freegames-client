@@ -194,6 +194,15 @@ server authority and state relay: `docs/SERVER.md`.
 Local multiplayer the original had (hot-seat, two players on one keyboard) stays as it was; online is
 an extra mode of the game's own menu.
 
+## A new game on an original's base, and links
+
+A game that is not a 1:1 port but a new game on an original's base (its own pictures or levels; Bomberslop on
+ClanBomber 2's rules and sounds) sets `"remake": true` in `game.json` and says in its `caveat` what comes from the
+original and what is new: its page then says "Based on" instead of "This port follows", and its page at its own host
+does not claim the original's graphics and levels. `"links": [{ "label": "...", "url": "https://..." }]` puts more
+addresses on a game's page (an index's entry, the original's project page, a tool it was made with). The catalog test
+checks both.
+
 ## When a port is broken
 
 `"broken": "what the page says"` in `game.json` marks a port that does not work right: its card says "Broken right
