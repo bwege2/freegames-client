@@ -4,6 +4,7 @@
 // game's players now, which the list also filters and sorts by (live.ts).
 import { games, type Game } from './catalog.ts';
 import { el, legalFooter } from './dom.ts';
+import { gameHref } from './hosts.ts';
 import { thumb } from './thumb.ts';
 import {
   apply, counts, decadeLabel, formatState, isFiltered, parseState, MODE_LABELS, NO_FILTERS, PLAYING_STEPS, SORT_LABELS, SORTS,
@@ -29,7 +30,7 @@ function card(g: Game): Card {
   const m = g.manifest;
   const live = el('span', { className: 'card-live' });
   return {
-    el: el('a', { className: 'card', href: `#/${m.id}` },
+    el: el('a', { className: 'card', href: gameHref(m) },
       thumb(g),
       el('span', { className: 'card-text' },
         el('strong', { textContent: m.title }),

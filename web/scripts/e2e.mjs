@@ -11,6 +11,7 @@ import puppeteer from 'puppeteer-core';
 import { spawn } from 'node:child_process';
 import { pbkdf2Sync, randomBytes } from 'node:crypto';
 import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync } from 'node:fs';
+import { request as httpRequest } from 'node:http';
 import { createServer } from 'node:net';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
@@ -35,7 +36,7 @@ const ADMIN = `e2e-${randomBytes(8).toString('hex')}`;
 const salt = randomBytes(16);
 const adminHash = `pbkdf2-sha256:200000:${salt.toString('base64url')}:${pbkdf2Sync(ADMIN, salt, 200000, 32, 'sha256').toString('base64url')}`;
 const server = spawn(java, ['-jar', jar], {
-  env: { ...process.env, PORT: String(port), WEB_ROOT: join(web, 'dist'), DATA_DIR: mkdtempSync(join(tmpdir(), 'fg-e2e-')), ADMIN_PASSWORD_HASH: adminHash },
+  env: { ...process.env, PORT: String(port), SITE_HOST: 'freegames.stream', WEB_ROOT: join(web, 'dist'), DATA_DIR: mkdtempSync(join(tmpdir(), 'fg-e2e-')), ADMIN_PASSWORD_HASH: adminHash },
   stdio: ['ignore', 'ignore', 'inherit'],
 });
 const base = `http://localhost:${port}/`;
@@ -483,25 +484,146 @@ try {
     const sm = await fetch(`${base}sitemap.xml`);
     check(sm.headers.get('content-type')?.startsWith('application/xml'), `seo: the sitemap is served as XML (${sm.headers.get('content-type')})`);
     const sitemap = await sm.text();
-    const missing = listed.filter((id) => !sitemap.includes(`<loc>https://freegames.stream/${id}/</loc>`));
+    const missing = listed.filter((id) => !sitemap.includes(`<loc>https://${id}.freegames.stream/</loc>`));
+    check(!/<loc>https:\/\/freegames\.stream\/[a-z0-9-]+\/<\/loc>/.test(sitemap), 'seo: the sitemap names no game page at the old address (freegames.stream/<id>/)');
     check(missing.length === 0, `seo: the sitemap lists every game's page${missing.length ? ` (missing ${missing.join(', ')})` : ''}`);
     const raw = await (await fetch(base)).text();
-    check(listed.every((id) => raw.includes(`<a href="${id}/">`)) && /<meta name="description"/.test(raw),
+    check(listed.every((id) => raw.includes(`<a href="https://${id}.freegames.stream/">`)) && /<meta name="description"/.test(raw),
       'seo: the start page holds a description and every game as a plain link');
     for (const path of ['wumpus/', 'wumpus']) {
       const r = await fetch(`${base}${path}`);
       const html = await r.text();
       const img = /<img src="([^"]+)"/.exec(html)?.[1];
       const imgOk = img ? (await fetch(new URL(img, `${base}${path}`))).headers.get('content-type') === 'image/png' : false;
-      check(r.ok && /<h1>Hunt the Wumpus<\/h1>/.test(html) && html.includes('href="/#/wumpus/play"') && /"@type":"VideoGame"/.test(html) && imgOk,
-        `seo: /${path} is a plain page with the game's text, its screenshots and a Play link`);
+      check(r.ok && /<h1>Hunt the Wumpus<\/h1>/.test(html) && html.includes('href="https://freegames.stream/#/wumpus/play"')
+        && html.includes('<link rel="canonical" href="https://wumpus.freegames.stream/">') && /"@type":"VideoGame"/.test(html) && imgOk,
+        `seo: /${path} holds the game's text, its screenshots and a Play link for search engines`);
     }
     const sp = await browser.newPage();
     await sp.goto(`${base}wumpus/`, { waitUntil: 'networkidle0' });
-    await sp.click('a.play');
+    await sp.waitForSelector('.page .play');
+    check(sp.url() === `${base}#/wumpus`, `seo: without game hosts (localhost) /wumpus/ is the site's #/wumpus (${sp.url()})`);
+    await sp.click('.page .play');
     const started = await sp.waitForFunction(() => location.hash === '#/wumpus/play' && document.querySelector('.player-host canvas, .player-host .fg-term-page'), { timeout: 10000 }).then(() => true, () => false);
     check(started, "seo: the game page's Play link starts the game in the site");
     await sp.close();
+  }
+
+  // ---- every game's page at its own host (<id>.freegames.stream): a browser that takes these names (and a foreign
+  // one) for this machine, so that the site runs at its real names over plain HTTP on the test's port
+  {
+    const site = `freegames.stream:${port}`, at = (id) => `http://${id}.${site}/`;
+    const secure = ['', 'wumpus.', 'netrek.'].map((p) => `http://${p}${site}`).join(',');
+    const hb = await puppeteer.launch({
+      executablePath: chrome, headless: true,
+      args: ['--no-sandbox', '--autoplay-policy=no-user-gesture-required',
+        '--host-resolver-rules=MAP freegames.stream 127.0.0.1, MAP *.freegames.stream 127.0.0.1, MAP evil.example 127.0.0.1',
+        `--unsafely-treat-insecure-origin-as-secure=${secure}`],
+    });
+    try {
+      const h = await hb.newPage();
+      await h.setViewport({ width: 1100, height: 760 });
+      h.on('pageerror', (e) => { console.log(`page error: ${e.message}`); failed = true; });
+      await h.goto(`http://${site}/`, { waitUntil: 'networkidle0' });
+      const hrefs = await h.$$eval('.card', (els) => els.map((e) => e.getAttribute('href')));
+      check(hrefs.length === listed.length && listed.every((id) => hrefs.includes(at(id))), "hosts: at freegames.stream every card leads to the game's own host");
+
+      // the page at its host: its text, its icon, its canonical address, its Play link into the site
+      await Promise.all([h.waitForNavigation({ waitUntil: 'networkidle0' }), h.click(`a.card[href="${at('wumpus')}"]`)]);
+      check(h.url() === at('wumpus') && await h.$eval('h1', (e) => e.textContent) === 'Hunt the Wumpus', `hosts: the card opens ${h.url()}`);
+      await h.waitForSelector('.page .play');
+      const head = await h.evaluate(() => ({
+        canonical: document.querySelector('link[rel=canonical]')?.href, icon: document.querySelector('link[rel=icon]')?.href,
+        back: document.querySelector('.page .back-link')?.href, legal: document.querySelector('.site-foot a[href*="impressum"]')?.href,
+        isolated: crossOriginIsolated,
+      }));
+      check(head.canonical === 'https://wumpus.freegames.stream/', `hosts: the page's canonical address is its host (${head.canonical})`);
+      const icon = head.icon ? await fetch(head.icon.replace(at('wumpus'), base)) : null;
+      check(head.icon === `${at('wumpus')}wumpus/icon.svg` && icon?.headers.get('content-type') === 'image/svg+xml' && (await icon.text()).includes('>H</text>'),
+        `hosts: a game without an icon of its own gets a letter icon (${head.icon})`);
+      check(head.back === `http://${site}/#/` && head.legal === `http://${site}/impressum.html`,
+        `hosts: the game's page (the website) leads back to the site's list and legal pages (${head.back}, ${head.legal})`);
+      const plain = await h.evaluate(() => fetch('/').then((r) => r.text()));
+      check(plain.includes('<a class="play" href="https://freegames.stream/#/wumpus/play">') && plain.includes('<a href="https://ballerburg.freegames.stream/">Ballerburg</a>')
+        && plain.includes('<script type="module" crossorigin src="/assets/'), "hosts: the page's plain content (for search engines) links Play into the site and the other games to their hosts");
+      check(head.isolated, 'hosts: the page at its own host is cross-origin isolated too');
+      const netrek = await hb.newPage();
+      await netrek.goto(at('netrek'), { waitUntil: 'networkidle0' });
+      const nIcon = await netrek.evaluate(async () => {
+        const l = document.querySelector('link[rel=icon]');
+        const r = await fetch(l.href);
+        const b = await createImageBitmap(await r.blob());
+        return { href: l.getAttribute('href'), sizes: l.getAttribute('sizes'), type: r.headers.get('content-type'), w: b.width, h: b.height };
+      });
+      check(nIcon.href === '/netrek/icon.png' && nIcon.type === 'image/png' && nIcon.w === 48 && nIcon.h === 48 && nIcon.sizes === '48x48',
+        `hosts: a game with an icon in its data shows it (${JSON.stringify(nIcon)})`);
+      await netrek.close();
+
+      // Play: in the site at freegames.stream (the account stays there); Back returns to the game's page
+      await Promise.all([h.waitForNavigation({ waitUntil: 'networkidle0' }), h.click('.page .play')]);
+      const played = await h.waitForFunction(() => location.hash === '#/wumpus/play' && document.querySelector('.player-host canvas, .player-host .fg-term-page'), { timeout: 10000 }).then(() => true, () => false);
+      check(played && h.url() === `http://${site}/#/wumpus/play`, `hosts: Play starts the game at the site (${h.url()})`);
+      check(await h.evaluate(() => crossOriginIsolated), 'hosts: the site where it plays is cross-origin isolated');
+      await Promise.all([h.waitForNavigation({ waitUntil: 'networkidle0' }), h.click('.player-bar .bar-button')]);
+      check(h.url() === at('wumpus'), `hosts: Back leads to the game's page at its host (${h.url()})`);
+
+      // a report from the game's page at its own host reaches the operator
+      await h.waitForSelector('.feedback summary');
+      await h.click('.feedback summary');
+      const report = `e2e from the game's host ${Date.now()}`;
+      await h.type('.feedback textarea', report);
+      await h.click('.feedback-send');
+      const sent = await h.waitForFunction(() => /Thank you/.test(document.querySelector('.feedback-status')?.textContent ?? ''), { timeout: 10000 }).then(() => true, () => false);
+      check(sent, "hosts: the game's page at its own host takes a report");
+
+      // the old addresses
+      await h.goto(`http://${site}/#/wumpus`, { waitUntil: 'networkidle0' });
+      await h.waitForFunction((u) => location.href === u, { timeout: 5000 }, at('wumpus')).catch(() => {});
+      check(h.url() === at('wumpus'), `hosts: the old freegames.stream/#/wumpus leads to the game's host (${h.url()})`);
+      await h.goto(`http://${site}/wumpus/`, { waitUntil: 'networkidle0' });
+      check(h.url() === at('wumpus'), `hosts: the old freegames.stream/wumpus/ is redirected there (${h.url()})`);
+      const local = await fetch(`${base}wumpus/`, { redirect: 'manual' }).catch(() => null);
+      check(local?.status === 200, 'hosts: at another name (localhost) /wumpus/ stays a page of its own');
+      await h.goto(`http://${site}/#/example`, { waitUntil: 'networkidle0' });
+      check(h.url() === `http://${site}/#/example` && !!(await h.$('.page .play')), 'hosts: an unlisted game keeps its page inside the site');
+      await h.goto(`${at('wumpus')}impressum.html`, { waitUntil: 'networkidle0' });
+      check(h.url() === `http://${site}/impressum.html`, `hosts: the legal pages have one address, at the site (${h.url()})`);
+      const robots = await h.goto(`${at('wumpus')}robots.txt`).then((r) => r.text());
+      check(robots.includes('Sitemap: https://freegames.stream/sitemap.xml'), "hosts: a game's host names the site's sitemap in its robots.txt");
+
+      // which pages may use the server: the site's, its games' hosts (at the site's host or their own), no others
+      await h.goto(at('wumpus'), { waitUntil: 'networkidle0' });
+      const probe = (p, urls) => p.evaluate((list) => Promise.all(list.map((u) => new Promise((res) => {
+        const ws = new WebSocket(u);
+        const t = setTimeout(() => res('timeout'), 5000);
+        ws.onopen = () => { clearTimeout(t); ws.close(); res('open'); };
+        ws.onerror = () => { clearTimeout(t); res('refused'); };
+      }))), urls);
+      const fromGame = await probe(h, [`ws://${site}/ws`, `ws://wumpus.${site}/ws`, `ws://ballerburg.${site}/ws`]);
+      check(JSON.stringify(fromGame) === '["open","open","refused"]', `hosts: a game's page connects to the site's server and to its own host, not to another game's (${fromGame})`);
+      const stats = await h.evaluate((u) => fetch(u).then((r) => r.ok, () => 'refused'), `http://${site}/stats`);
+      check(stats === true, "hosts: a game's page may read the site's /stats");
+      const evil = await hb.newPage();
+      await evil.goto(`http://evil.example:${port}/robots.txt`);
+      const fromEvil = await probe(evil, [`ws://${site}/ws`, `ws://wumpus.${site}/ws`]);
+      const evilStats = await evil.evaluate((u) => fetch(u).then((r) => r.ok, () => 'refused'), `http://${site}/stats`);
+      check(JSON.stringify(fromEvil) === '["refused","refused"]' && evilStats === 'refused', `hosts: another site's page gets no connection and no /stats (${fromEvil}, ${evilStats})`);
+      await evil.close();
+      const upgrade = (origin) => new Promise((res) => {
+        const req = httpRequest({ host: '127.0.0.1', port, path: '/ws', agent: false, headers: { Host: site, Origin: origin, Upgrade: 'websocket', Connection: 'Upgrade', 'Sec-WebSocket-Key': 'dGhlIHNhbXBsZSBub25jZQ==', 'Sec-WebSocket-Version': '13' } });
+        req.on('response', (r) => { res(r.statusCode); r.resume(); });
+        req.on('upgrade', (r, sock) => { res(r.statusCode); sock.destroy(); });
+        req.on('error', () => res('error'));
+        req.end();
+      });
+      const codes = [await upgrade(`http://wumpus.${site}`), await upgrade('https://evil.example'), await upgrade(`http://wumpus.freegames.stream.evil.example:${port}`)];
+      check(JSON.stringify(codes) === '[101,403,403]', `hosts: the WebSocket handshake: 101 for a game's host, 403 for foreign origins (${codes})`);
+      const ask = async (d) => (await fetch(`${base}tls-ask?domain=${d}`)).status;
+      check(await ask('wumpus.freegames.stream') === 200 && await ask('nosuch.freegames.stream') === 404 && await ask('freegames.stream.evil.example') === 404,
+        "hosts: certificates on demand only for the games' hosts (/tls-ask)");
+    } finally {
+      await hb.close();
+    }
   }
 
   // ---- a broken game says so; every game's page takes a report, which only the operator reads

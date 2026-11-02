@@ -66,8 +66,16 @@
       "caption": "The original menu: Game, Video, Audio, Quit"
     },
     {
-      "file": "playing.png",
-      "caption": "A round with the circling camera, trails and the 2D map"
+      "file": "paused.png",
+      "caption": "Start of a round on the pause screen: the original arena, three rivals with their glow, the recognizer and the 2D map"
+    },
+    {
+      "file": "behind.png",
+      "caption": "The behind camera: the cycle lit from the eye, its trail with the white tip and the shadow on the floor"
+    },
+    {
+      "file": "circling.png",
+      "caption": "The circling camera in a round: the textured walls, the cycle and its trail"
     }
   ],
   "lazyAssets": [

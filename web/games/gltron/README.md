@@ -40,10 +40,13 @@ The original's default bindings:
   boosters, wall acceleration, the 3 s crash explosion, survivor scoring and the original round end.
 * **AI**: all four parameter rows, the simple distance brain and the sector/intersection aggressive
   and evasive brains with the original action tables.
-* **Rendering**: the 720-unit arena (scaled to the selected size), the original floor/wall/skybox
-  textures, the original high-detail lightcycle and recognizer OBJ models with the art-pack colours,
-  trails with the original pinstripe decal and white top line, cycle shadows, the bitmap-font HUD,
-  score and 2D map.
+* **Rendering**: drawn the way `drawCam()` draws it, in the original's world units: skybox, textured
+  floor (the texture repeated grid/12 times) and shadows without depth, then the four upright
+  144-high textured walls, the high/medium/low lightcycle models by distance (lit by a light at the
+  eye, Hull in the seat's colour), the trail ribbon with the GL_DECAL pinstripe, bow and white tip,
+  the white top lines, the red-outlined recognizer on its path, the glow around the other cycles,
+  the flying-fragment explosion, the projected black shadows of cycles, trails and recognizer, the
+  bitmap-font HUD (score and pause text at the bottom of the viewport) and the 2D map.
 * **Audio**: the original engine loop (pitch follows speed), crash sound, music and volume settings.
 * **Settings** are kept in the player's account on the server (`gltron-settings.json`), so seats,
   keys and video/audio choices survive a reload.
@@ -55,10 +58,11 @@ AI, the round/score rules, the menu tree and defaults, the arena/model/texture/s
 fonts and the HUD, the camera formulas for circling/behind/cockpit, and the original's
 Start-Game-on-the-pause-screen behaviour.
 
-* **Renderer**: three.js rather than immediate-mode OpenGL. The trail ribbon is the original's decal
-  pinstripe plus a white top line, but the rounded bow cap, glow/halos, stencil shadow mode and the
-  shockwave/spire impact effects are simplified (cycle shadows are dark circles; a crash scales the
-  model up). The high-detail lightcycle mesh is used everywhere instead of the three LOD meshes.
+* **Renderer**: three.js rather than immediate-mode OpenGL. Not reproduced: the lighting of the trail
+  ribbon (it is drawn in its plain colour, the original multiplies it by two directional lights), the
+  shockwave/spire impact effect (`drawImpact`), the recognizer's faint specular highlight (it is a
+  near-black body), the angular visibility test of `playerVisible`, and the stencil shadow mode
+  (off by default in the original too). The explosion uses the high-detail model for every distance.
 * **The menu** is drawn with the original FTX bitmap fonts and logo on the HUD canvas; the Lua menu's
   active-item colour animation, artpack scanner, screen-resolution list and joystick threshold are
   simplified or absent. **Joystick** is not supported (Configure Joystick says so). **Screen

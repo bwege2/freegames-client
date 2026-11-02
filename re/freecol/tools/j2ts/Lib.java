@@ -441,9 +441,11 @@ public class Lib {
         switch (n) {
         case "max": case "min": case "abs": case "floor": case "ceil": case "sqrt": case "sin": case "cos": case "tan":
         case "atan": case "atan2": case "exp": case "log": case "log10": case "signum": case "hypot": case "asin": case "acos":
-            if (p0 != null && p0.hasTag(TypeTag.FLOAT) && (n.equals("abs") || n.equals("signum"))) return "Math.fround(Math." + n + "(" + a + "))";
+            if (p0 != null && p0.hasTag(TypeTag.FLOAT) && (n.equals("abs") || n.equals("signum"))) return "Math.fround(Math." + (n.equals("signum") ? "sign" : n) + "(" + a + "))";
             if (n.equals("abs") && p0 != null && p0.hasTag(TypeTag.INT)) return "Math.abs(" + a + ")";
             if (n.equals("pow")) break;
+            // Java's signum is JavaScript's sign (NaN, -0.0 and 0.0 alike)
+            if (n.equals("signum")) return "Math.sign(" + a + ")";
             return "Math." + n + "(" + a + ")";
         case "pow": return e.jre("$J") + ".pow(" + a + ")";
         case "round":

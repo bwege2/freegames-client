@@ -51,6 +51,7 @@
       "action": "Menus"
     }
   ],
+  "icon": "assets/images/icons/icon.png",
   "screenshots": [
     {
       "file": "menu.png",

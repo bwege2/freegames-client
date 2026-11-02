@@ -61,6 +61,7 @@
       "action": "Quit the ship; Back leaves the galaxy"
     }
   ],
+  "icon": "assets/pixmaps/icon.png",
   "screenshots": [
     {
       "file": "battle.png",

@@ -65,6 +65,12 @@ export interface GameManifest {
    * download them before the start (scripts/downloads.mjs)
    */
   lazyAssets?: string[];
+  /**
+   * the game's icon, a file of its folder (a square PNG of 48 px or a multiple, from the original's own data, under
+   * its license): the favicon of the game's page at <id>.freegames.stream (scripts/seo.mjs). Without one the page
+   * gets a letter icon.
+   */
+  icon?: string;
 }
 
 /** What a game gets from the website (web/src/site/player.ts creates it). */

@@ -98,13 +98,14 @@ try {
   const play = async (p = page) => {
     await p.goto(`${base}#/freecol`, { waitUntil: 'networkidle0' });
     const t0 = Date.now();
-    await p.click('.page .play');
+    // while game.json marks the port broken, Play is "Try anyway"
+    await p.click((await p.$('.page .try-anyway')) ? '.page .try-anyway' : '.page .play');
     await p.waitForSelector('.player-host canvas', { timeout: 300000 });
     return t0;
   };
   const back = async () => {
     await page.click('.player-bar .bar-button');
-    await page.waitForSelector('.page .play');
+    await page.waitForSelector('.page .play, .page .try-anyway');
   };
 
   // the game area exactly 1280x800: the viewport is the area plus the site's bar
@@ -178,6 +179,25 @@ try {
   // ---- the end of the turn: the end turn dialog, the computer's turns, the autosave in the site's storage
   await click((await waitTree((n) => n.text === 'OK' && n.cls.endsWith('FreeColButton'))).node); // the welcome
   await wait(1000);
+  // ---- the ship takes the player's orders: dragged one tile west with the mouse, then one more with the
+  // left arrow key; each move costs a move point (the unit panel's "Moves: n/m")
+  const moves = async () => parseTree(await tree()).find((n) => !n.hidden && /^Moves: /.test(n.text ?? ''))?.text;
+  const m0 = await moves();
+  const mapView = parseTree(await tree()).find((n) => n.cls.endsWith('.CanvasMapViewer'));
+  const org = await page.evaluate(() => { const b = document.querySelector('.player-host canvas').getBoundingClientRect(); return { x: b.left, y: b.top }; });
+  const sx = org.x + mapView.x + (mapView.w >> 1), sy = org.y + mapView.y + (mapView.h >> 1) + 16; // the active unit's tile, centred
+  await page.mouse.move(sx, sy);
+  await page.mouse.down();
+  for (let i = 1; i <= 8; i++) { await page.mouse.move(sx - i * 16, sy); await wait(50); }
+  await page.mouse.up();
+  let m1 = m0;
+  for (let i = 0; i < 20 && m1 === m0; i++) { await wait(500); m1 = await moves(); }
+  check(!!m0 && m1 !== m0, `the ship moves when dragged with the mouse (${m0} -> ${m1})`);
+  await page.keyboard.press('ArrowLeft');
+  let m2 = m1;
+  for (let i = 0; i < 20 && m2 === m1; i++) { await wait(500); m2 = await moves(); }
+  check(!!m1 && m2 !== m1, `the ship moves with the arrow keys (${m1} -> ${m2})`);
+  await page.screenshot({ path: join(shots, 'moved.png') });
   await page.keyboard.press('Enter');
   await click((await waitTree((n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 30000)).node);
   await wait(15000); // the computer's turns and the autosave

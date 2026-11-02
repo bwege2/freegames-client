@@ -3,6 +3,7 @@
 // server keeps it in its data directory and publishes nothing). It sends the game, the kind, the text, a contact if
 // the player gives one, and the site's release; the server adds the browser's family and system, no address.
 import { el } from './dom.ts';
+import { siteHref } from './hosts.ts';
 
 declare const __RELEASE__: string;
 
@@ -20,7 +21,7 @@ export function feedbackForm(game: string, title: string): HTMLElement {
     text,
     contact,
     el('p', { className: 'feedback-note' }, 'Only we read it; nothing is published. ',
-      el('a', { href: 'datenschutz.html', textContent: 'Privacy' }), '.'),
+      el('a', { href: siteHref('datenschutz.html'), textContent: 'Privacy' }), '.'),
     send, status);
   form.addEventListener('submit', (e) => {
     e.preventDefault();

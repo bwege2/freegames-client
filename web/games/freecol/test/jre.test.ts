@@ -26,3 +26,16 @@ test('the Java library as the port runs it is the JVM\'s', { skip: missing ? `th
     }
   }
 });
+
+// j2ts writes some of java.lang.Math as JavaScript's Math (Lib.java, math()): every such call in the translated
+// code must exist there (Math.signum, which JavaScript calls Math.sign, stopped every unit's move animation)
+test('the translated code calls only functions JavaScript\'s Math has', () => {
+  const src = path.join(import.meta.dirname, '..', 'src');
+  const used = new Set<string>();
+  for (const f of fs.readdirSync(src, { recursive: true, encoding: 'utf8' })) {
+    if (!f.endsWith('.ts')) continue;
+    for (const m of fs.readFileSync(path.join(src, f), 'utf8').matchAll(/(?<![\w$.])Math\.(\w+)/g)) used.add(m[1]);
+  }
+  assert.ok(used.size > 10);
+  assert.deepEqual([...used].filter((n) => !(n in Math)), []);
+});

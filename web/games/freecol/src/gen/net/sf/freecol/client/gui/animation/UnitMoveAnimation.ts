@@ -64,8 +64,8 @@ export class UnitMoveAnimation extends Animation {
     let xratio = ImageLibrary.TILE_SIZE.width_ / ImageLibrary.TILE_SIZE.height_;
     let srcPoint = this.points.get(0);
     let dstPoint = this.points.get(1);
-    let stepX = $J.d2i(((Math.signum(dstPoint.getX() - srcPoint.getX())) * xratio * movementRatio));
-    let stepY = $J.d2i(((Math.signum(dstPoint.getY() - srcPoint.getY())) * movementRatio));
+    let stepX = $J.d2i(((Math.sign(dstPoint.getX() - srcPoint.getX())) * xratio * movementRatio));
+    let stepY = $J.d2i(((Math.sign(dstPoint.getY() - srcPoint.getY())) * movementRatio));
     let point = srcPoint;
     let time = Utils.now();
     let dropFrames = 0;

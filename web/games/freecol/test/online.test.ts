@@ -76,11 +76,33 @@ test('two browsers join a game, start it and end their turns in lockstep', { tim
     for (const w of [a, b]) {
       await waitFor(w, (n) => n.cls === 'net.sf.freecol.client.gui.panel.InfoPanel', 180000);
     }
-    for (const w of [a, b, a]) {
-      await press(w, (n) => n.text === 'OK' && n.cls.endsWith('FreeColButton'), 120000).catch(() => {});
-      w.key(10, '\n');
-      await press(w, (n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 240000);
-      await sleep(3000);
+    // who is on turn first follows the nations, which follow the order of the logins (both browsers start at
+    // once): the module's reports (Ann's browser's) say whose turn it is, so the player on turn ends it
+    const reports = () => module.reports.get(0) ?? [];
+    let seen = 0;
+    for (let turns = 0; turns < 3; turns++) {
+      let r: { current: number } | undefined;
+      for (let i = 0; i < 600 && !r; i++) {
+        const k = reports().findIndex((x, j) => j >= seen && (x.current === 0 || x.current === 1));
+        if (k >= 0) {
+          r = reports()[k];
+          seen = k + 1;
+        } else await sleep(500);
+      }
+      assert.ok(r, 'a player is on turn: ' + JSON.stringify(reports(), (_k, v) => (typeof v === 'bigint' ? String(v) : v)));
+      const w = browsers[r.current];
+      await press(w, (n) => n.text === 'OK' && n.cls.endsWith('FreeColButton'), 30000).catch(() => {});
+      // Enter ends the turn (the end turn dialog); the client may learn of its turn a little after its server
+      // worker: until the dialog shows (or the turn moved on), Enter again
+      const isDialog = (n: TreeNode) => n.text === 'OK' && n.cls === 'javax.swing.JButton';
+      let dialog: TreeNode | null = null;
+      for (let i = 0; i < 12 && !dialog && reports().length <= seen; i++) {
+        w.key(10, '\n');
+        dialog = await waitFor(w, isDialog, 20000).then((x) => x.node, () => null);
+      }
+      if (dialog) click(w, dialog);
+      else assert.ok(reports().length > seen, 'the end turn dialog showed');
+      await sleep(1000);
     }
     for (let i = 0; i < 120 && (module.reports.get(1)?.length ?? 0) < (module.reports.get(0)?.length ?? 0); i++) await sleep(500);
     const ra = module.reports.get(0) ?? [], rb = module.reports.get(1) ?? [];

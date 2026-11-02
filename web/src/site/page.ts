@@ -5,6 +5,7 @@ import { size, type Game } from './catalog.ts';
 import { el, legalFooter } from './dom.ts';
 import { downloadOf, megabytes } from './downloads.ts';
 import { feedbackForm } from './feedback.ts';
+import { siteHref } from './hosts.ts';
 import { listHref } from './list.ts';
 import { liveText, onLive, playersOf, popularText } from './live.ts';
 import { thumb } from './thumb.ts';
@@ -63,7 +64,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     ['Source', el('a', { href: o.url, textContent: o.url.replace(/^https?:\/\//, ''), target: '_blank', rel: 'noopener' })],
   ];
   return el('main', { className: 'page' },
-    el('a', { className: 'back-link', href: listHref(), textContent: '← All games' }),
+    el('a', { className: 'back-link', href: siteHref(listHref()), textContent: '← All games' }),
     el('header', { className: 'page-head' },
       el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), brokenNote, live, popular),
       el('div', { className: 'play-box' }, play, playSize)),
