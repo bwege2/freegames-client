@@ -1,0 +1,89 @@
+{
+  "id": "tuxracer",
+  "title": "Tux Racer",
+  "tagline": "Race Tux down the mountain, collect herring and beat the clock.",
+  "summary": [
+    "Tux Racer is Jasmin F. Patry's 3D downhill racing game (version 0.61): Tux slides down snow, rock and ice, turns with the keys, jumps and does tricks in the air, and grabs herring on the way to the finish.",
+    "The courses are the original ones with their elevation, terrain, trees, herring, flags and start and finish banners; the physics is the original's own simulation of gravity, friction, Tux's springy tush and the air.",
+    "This port uses three.js to draw the original's scene and data. Practice lets you ski any course; Racing runs the Herring Run cup, where each race has a time and herring requirement."
+  ],
+  "caveat": "Honest note: the physics is a direct translation of the original's C code, but it has not yet been compared with the running original (its development packages were not available to us). Its tests check the game data and deterministic runs only. Please tell us if a course or the steering feels wrong.",
+  "original": {
+    "author": "Jasmin F. Patry",
+    "year": 2001,
+    "platform": "Linux/Windows (C, OpenGL, Tcl)",
+    "version": "0.61",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 8038945,
+    "url": "https://sourceforge.net/projects/tuxracer/"
+  },
+  "players": "1",
+  "genres": [
+    "Racing"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-10-31",
+  "controls": [
+    {
+      "input": "Left / J, Right / L",
+      "action": "Turn Tux"
+    },
+    {
+      "input": "Space or K, Down",
+      "action": "Brake"
+    },
+    {
+      "input": "Up or I",
+      "action": "Paddle (and front flip in the air)"
+    },
+    {
+      "input": "E",
+      "action": "Jump (charge while held)"
+    },
+    {
+      "input": "D",
+      "action": "Trick modifier: with a direction, barrel roll; with paddle or brake, flip"
+    },
+    {
+      "input": "1, 2, 3",
+      "action": "Behind, follow or above view"
+    },
+    {
+      "input": "P",
+      "action": "Pause"
+    },
+    {
+      "input": "R",
+      "action": "Restart the race"
+    },
+    {
+      "input": "Esc",
+      "action": "Leave the race"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "splash.png",
+      "caption": "The original splash screen"
+    },
+    {
+      "file": "menu.png",
+      "caption": "The main menu: Enter an event, Practice, Credits, Quit"
+    },
+    {
+      "file": "select.png",
+      "caption": "Practice: choose a course and its conditions"
+    },
+    {
+      "file": "playing.png",
+      "caption": "Racing down Bunny Hill: herring, flags, time and speed"
+    }
+  ],
+  "lazyAssets": [
+    "assets/courses/**",
+    "assets/music/**",
+    "assets/sounds/**"
+  ]
+}

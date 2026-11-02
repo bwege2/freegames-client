@@ -12,7 +12,7 @@ import type { LobbyOptions } from './lobby.ts';
  * (docs/RESEARCH.md), spelled out. A game names one or more.
  */
 export const GENRES = [
-  'Adventure', 'Arcade', 'Artillery', 'Game creation', 'Pinball', 'Programming', 'Puzzle', 'Roguelike',
+  'Adventure', 'Arcade', 'Artillery', 'Educational', 'Game creation', 'Pinball', 'Programming', 'Puzzle', 'Racing', 'Roguelike',
   'Role-playing', 'Side-scroller', 'Software toy', 'Survival horror', 'Text adventure', 'Turn-based strategy',
 ] as const;
 export type Genre = typeof GENRES[number];
@@ -58,6 +58,8 @@ export interface GameManifest {
   listed?: boolean;
   /** set while the port is known to be broken: what the page says (it shows "Broken right now", Play asks twice) */
   broken?: string;
+  /** an honest note about the port that the page shows under the summary (what is not checked yet) */
+  caveat?: string;
   /**
    * files of the game's folder it loads only later, while playing (globs: "assets/music/**"): Play does not
    * download them before the start (scripts/downloads.mjs)

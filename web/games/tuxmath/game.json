@@ -1,0 +1,67 @@
+{
+  "id": "tuxmath",
+  "title": "Tux, of Math Command",
+  "tagline": "Zap the falling comets by solving their math problems.",
+  "summary": [
+    "Tux, of Math Command (Tux4Kids, version 2.0.3) is a math arcade game: comets carrying arithmetic problems fall toward four igloos, and Tux zaps them with his laser when you type the right answer.",
+    "Each wave adds comets and speeds them up; every correct answer scores, and a comet that reaches an igloo melts one of its two layers. Lose all four igloos and the game is over.",
+    "This port uses the original sprites, backgrounds, sounds, lesson files and math-card generator; the five arcade levels are the originals from Space Cadet to Commando, with their own number ranges and operations."
+  ],
+  "original": {
+    "author": "Tux4Kids (Bill Kendrick and others)",
+    "year": 2011,
+    "platform": "Linux/Windows (C, SDL)",
+    "version": "2.0.3",
+    "license": "GPL-3.0-or-later",
+    "packageBytes": 10396696,
+    "url": "https://sourceforge.net/projects/tuxmath/"
+  },
+  "players": "1",
+  "genres": [
+    "Educational",
+    "Arcade"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-10-31",
+  "controls": [
+    {
+      "input": "Digits 0–9",
+      "action": "Type the answer"
+    },
+    {
+      "input": "Minus",
+      "action": "Negative answer (when the lesson allows it)"
+    },
+    {
+      "input": "Enter",
+      "action": "Fire at the comets whose answer matches"
+    },
+    {
+      "input": "Backspace",
+      "action": "Delete the last digit"
+    },
+    {
+      "input": "P or Esc",
+      "action": "Pause"
+    },
+    {
+      "input": "Arrow keys, Enter, Esc",
+      "action": "Menus"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The main menu with the original Tux art and menu icons"
+    },
+    {
+      "file": "playing.png",
+      "caption": "Space Cadet: comets with math problems falling toward the igloos"
+    }
+  ],
+  "lazyAssets": [
+    "assets/sounds/**"
+  ]
+}

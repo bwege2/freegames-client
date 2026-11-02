@@ -1,0 +1,55 @@
+{
+  "id": "darkroom",
+  "title": "A Dark Room",
+  "tagline": "Wake up in the dark, build a fire, and walk out into a world that wants you dead.",
+  "summary": [
+    "A Dark Room (Michael Townsend / Doublespeak Games, version 1.4) is a minimalist text adventure: you light a fire, gather wood, build a village, and eventually leave it to cross a hostile world and escape it.",
+    "The original browser game's room, outside, map, path, ship, space and fabricator stages are all here, with their original texts, numbers, events and sounds. The interface is the original's CSS and layout.",
+    "The port runs the original's own logic, translated to TypeScript, and keeps the save in your account so the village is still there when you come back."
+  ],
+  "original": {
+    "author": "Michael Townsend (Doublespeak Games)",
+    "year": 2013,
+    "platform": "Browser (HTML/CSS/JavaScript)",
+    "version": "1.4",
+    "license": "MPL-2.0",
+    "packageBytes": 6805923,
+    "url": "https://github.com/doublespeakgames/adarkroom"
+  },
+  "players": "1",
+  "genres": [
+    "Text adventure",
+    "Role-playing"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-10-31",
+  "controls": [
+    {
+      "input": "Mouse / touch",
+      "action": "Choose buttons and resources"
+    },
+    {
+      "input": "Arrow keys",
+      "action": "Move on the world map, or switch between the location tabs"
+    },
+    {
+      "input": "Click the map",
+      "action": "Move to a neighbouring tile"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "room.png",
+      "caption": "The firelit room: the stranger has arrived, the fire is burning"
+    },
+    {
+      "file": "outside.png",
+      "caption": "A Silent Forest: the first Outside screen, with wood to gather"
+    }
+  ],
+  "lazyAssets": [
+    "assets/audio/**"
+  ]
+}

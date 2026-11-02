@@ -49,6 +49,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
       if (d) playSize.textContent = `${megabytes(d.bytes)}, only the first time`;
     });
   }
+  const caveat = m.caveat ? el('p', { className: 'caveat-note', textContent: m.caveat }) : null;
   const o = m.original;
   const facts: [string, Node | string][] = [
     ['Original', `${o.author}, ${o.year}`],
@@ -68,7 +69,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
       el('div', { className: 'play-box' }, play, playSize)),
     shots,
     el('section', { className: 'about' },
-      el('div', { className: 'summary' }, ...m.summary.map((p) => el('p', { textContent: p }))),
+      el('div', { className: 'summary' }, ...m.summary.map((p) => el('p', { textContent: p })), caveat),
       el('dl', { className: 'facts' }, ...facts.flatMap(([k, v]) => [el('dt', { textContent: k }), el('dd', {}, v)]))),
     m.controls.length > 0 && el('section', { className: 'controls' },
       el('h2', { textContent: 'Controls' }),

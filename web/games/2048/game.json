@@ -5,7 +5,8 @@
   "summary": [
     "2048 is Gabriele Cirulli's sliding-tile puzzle from 2014. Every move pushes all tiles as far as they go; two tiles with the same number that touch merge into one, doubling it, and a new 2 or 4 appears after every move.",
     "Reach the 2048 tile to win — then keep going for a higher score. The game is over when the board is full and no two neighbours can merge.",
-    "This is the original game, ported to TypeScript with its rules, its 4×4 board, its colours and its animations. The best score and a running game are kept in the player's account on the server; the original kept them in the browser."
+    "This is the original game, ported to TypeScript with its rules, its 4×4 board, its colours and its animations. The best score and a running game are kept in the player's account on the server; the original kept them in the browser.",
+    "We highly recommend playing the original @ https://play2048.co/"
   ],
   "original": {
     "author": "Gabriele Cirulli",
@@ -17,8 +18,12 @@
     "url": "https://github.com/gabrielecirulli/2048"
   },
   "players": "1",
-  "genres": ["Puzzle"],
-  "modes": ["single"],
+  "genres": [
+    "Puzzle"
+  ],
+  "modes": [
+    "single"
+  ],
   "added": "2026-10-30",
   "controls": [
     {

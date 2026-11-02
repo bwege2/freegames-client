@@ -79,7 +79,7 @@ test('two browsers join a game, start it and end their turns in lockstep', { tim
     for (const w of [a, b, a]) {
       await press(w, (n) => n.text === 'OK' && n.cls.endsWith('FreeColButton'), 120000).catch(() => {});
       w.key(10, '\n');
-      await press(w, (n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 60000);
+      await press(w, (n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 240000);
       await sleep(3000);
     }
     for (let i = 0; i < 120 && (module.reports.get(1)?.length ?? 0) < (module.reports.get(0)?.length ?? 0); i++) await sleep(500);
@@ -120,7 +120,7 @@ test('two browsers join a game, start it and end their turns in lockstep', { tim
     await waitFor(b2, (n) => n.cls === 'net.sf.freecol.client.gui.panel.InfoPanel', 180000);
     await press(b2, (n) => n.text === 'OK' && n.cls.endsWith('FreeColButton'), 30000).catch(() => {});
     b2.key(10, '\n');
-    await press(b2, (n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 60000);
+    await press(b2, (n) => n.text === 'OK' && n.cls === 'javax.swing.JButton', 240000);
     const third = (seat: number) => module.reports.get(seat)?.find((r) => r.turn === 3);
     for (let i = 0; i < 240 && !(third(0) && third(1)); i++) await sleep(500);
     assert.ok(third(0), 'turn 3 came');

@@ -1,0 +1,76 @@
+{
+  "id": "gltron",
+  "title": "GLtron",
+  "tagline": "Four lightcycles, one grid, and a trail that kills you as surely as the wall.",
+  "summary": [
+    "GLtron (Andreas Umbach, version 0.70final) is a 3D lightcycle game: you race across a square grid, turn at right angles and try to cut off the other cycles while their trails fill the arena.",
+    "The original's single-player game against three computer opponents and its local split-screen games for two or four players are here, with the classic arena, the Dumb/Normal/Strong/MCP bot levels, boosters, wall acceleration and the original score/round rules.",
+    "The models, textures, sounds and menus are the original's; the renderer is three.js, the soundtrack is the original Impulse Tracker module rendered to OGG, and the four seats can be human or computer as in the original's Play Settings."
+  ],
+  "original": {
+    "author": "Andreas Umbach",
+    "year": 2003,
+    "platform": "Linux/Windows (C, OpenGL, SDL)",
+    "version": "0.70final",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 2182440,
+    "url": "https://gltron.org/"
+  },
+  "players": "1-4",
+  "genres": [
+    "Arcade",
+    "Racing"
+  ],
+  "modes": [
+    "single",
+    "multi"
+  ],
+  "added": "2026-10-31",
+  "controls": [
+    {
+      "input": "A / S",
+      "action": "Player 1 turn left / right (D boosts, Q/W glance)"
+    },
+    {
+      "input": "J / K",
+      "action": "Player 2 turn left / right (L boosts, U/I glance)"
+    },
+    {
+      "input": "Left / Right arrows",
+      "action": "Player 3 turn left / right (Down boosts, Delete/End glance)"
+    },
+    {
+      "input": "Keypad 4 / 6",
+      "action": "Player 4 turn left / right (5 boosts, 7/9 glance)"
+    },
+    {
+      "input": "Space",
+      "action": "Pause; any key resumes"
+    },
+    {
+      "input": "Esc",
+      "action": "Back to the menu (or the website from the menu)"
+    },
+    {
+      "input": "F1–F4 / F10",
+      "action": "Viewports / camera"
+    },
+    {
+      "input": "Arrow keys, Enter",
+      "action": "Menus"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The original menu: Game, Video, Audio, Quit"
+    },
+    {
+      "file": "playing.png",
+      "caption": "A round with the circling camera, trails and the 2D map"
+    }
+  ],
+  "lazyAssets": [
+    "assets/music/**"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sopwith",
+  "title": "Sopwith",
+  "tagline": "A biplane, a row of targets, and a sky full of trouble.",
+  "summary": [
+    "Sopwith (David L. Clark / BMB Compuscience, 1984; SDL port 2.9.0) is the classic side-scrolling biplane game: fly over the trenches, strafe and bomb the enemy bases, dodge the ground fire and fly home to refuel and rearm.",
+    "This port keeps the original 320x200 four-colour screen, 10 Hz flight model, ASCII sprites and bitmap font, all seven original .sop missions, the computer pilot, the medals and ribbons, and the status bar and minimap.",
+    "Single player novice/expert, single player versus the computer, local two-player on one keyboard (a browser extra) and two-player online through this website's rooms; the host chooses the mission, both clients run the same lockstep simulation."
+  ],
+  "original": {
+    "author": "David L. Clark (BMB Compuscience); SDL port by Simon Howard",
+    "year": 1984,
+    "platform": "DOS; SDL port (C)",
+    "version": "2.9.0",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 1092379,
+    "url": "https://fragglet.github.io/sdl-sopwith/"
+  },
+  "players": "1-2",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-10-31",
+  "controls": [
+    {
+      "input": "X / Z",
+      "action": "Player 1 accelerate / decelerate"
+    },
+    {
+      "input": ", / / / .",
+      "action": "Player 1 pull up / pull down / flip"
+    },
+    {
+      "input": "Space / B / H",
+      "action": "Player 1 fire / drop bomb / fly home"
+    },
+    {
+      "input": "V / C",
+      "action": "Player 1 missile / starburst (when enabled)"
+    },
+    {
+      "input": "W / S, Arrow Up/Down, Q",
+      "action": "Local player 2 accelerate, decelerate, pitch and flip"
+    },
+    {
+      "input": "Enter / A / G",
+      "action": "Local player 2 fire / bomb / fly home"
+    },
+    {
+      "input": "T / R",
+      "action": "Local player 2 missile / starburst"
+    },
+    {
+      "input": "S / Esc",
+      "action": "Sound on or off / pause"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "title.png",
+      "caption": "The original title and menu: single player, versus computer, local, network, missions and options"
+    },
+    {
+      "file": "playing.png",
+      "caption": "A biplane over the original level, with the status bar, gauges and minimap"
+    }
+  ],
+  "lazyAssets": []
+}

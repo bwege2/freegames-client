@@ -1,0 +1,87 @@
+/* The menus and HUD of Tux Racer: the original's 640x480 layout, scaled to the window. The corner
+   and title art are the original's textures; text uses a Trebuchet-like font (the original renders
+   its bitmap font atlas; see README). */
+.tr-ui {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  font-family: "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  color: #fff;
+  user-select: none;
+}
+.tr-screen {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 640px;
+  height: 480px;
+  transform-origin: center center;
+  background: #14263c;
+  overflow: hidden;
+}
+.tr-screen.clear { background: transparent; }
+.tr-deco { position: absolute; pointer-events: none; }
+.tr-deco.title { left: 192px; top: 0; width: 256px; height: 128px; }
+.tr-deco.tl { left: 0; top: 0; width: 256px; height: 256px; }
+.tr-deco.tr { left: 384px; top: 0; width: 256px; height: 256px; }
+.tr-deco.bl { left: 0; top: 224px; width: 256px; height: 256px; }
+.tr-deco.br { left: 384px; top: 224px; width: 256px; height: 256px; }
+.tr-btn {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  font: 700 24px/40px "Trebuchet MS", sans-serif;
+  text-shadow: 0 1px 2px #000;
+  cursor: pointer;
+}
+.tr-btn:hover:not(:disabled) { color: #ffe680; }
+.tr-btn:disabled { color: #ffffff66; cursor: default; }
+.tr-btn.small { width: 150px; height: 40px; font-size: 20px; line-height: 40px;
+  background: #ffffff18; border: 1px solid #ffffff44; }
+.tr-btn.small:hover:not(:disabled) { background: #ffffff28; color: #ffe680; }
+.tr-btn.plain { background: #ffffff18; border: 1px solid #ffffff44; border-radius: 4px; }
+.tr-title { position: absolute; left: 0; top: 16px; width: 640px; text-align: center;
+  font-size: 28px; font-weight: 700; color: #ffe680; text-shadow: 0 1px 3px #000; }
+.tr-sub { position: absolute; left: 0; width: 640px; text-align: center; font-size: 18px; }
+.tr-status { color: #ffe680; font-size: 14px; }
+.tr-muted { color: #ffffffaa; }
+.tr-panel { position: absolute; background: #0d1b2bcc; border: 1px solid #ffffff33; border-radius: 6px; }
+.tr-list { position: absolute; overflow: hidden; }
+.tr-list-item { height: 44px; line-height: 44px; padding: 0 12px; font-size: 18px; color: #ffffffcc; }
+.tr-list-item.sel { color: #ffe680; background: #ffffff1c; }
+.tr-desc { position: absolute; font-size: 13px; line-height: 1.35; color: #fff; }
+.tr-preview { position: absolute; border: 4px solid #fff; background: #000; object-fit: cover; }
+.tr-icon { position: absolute; image-rendering: auto; }
+.tr-splash { position: absolute; left: 64px; top: -16px; width: 512px; height: 512px; }
+.tr-splash img { position: absolute; width: 256px; height: 256px; }
+.tr-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  background: #0008; }
+.tr-box { min-width: 260px; padding: 20px 28px; background: #0d1b2bf2; border: 1px solid #ffffff44;
+  border-radius: 8px; text-align: center; }
+.tr-box h2 { margin: 0 0 12px; font-size: 34px; color: #ffe680; }
+.tr-box .row { font-size: 20px; margin: 4px 0; }
+.tr-box .msg { margin-top: 12px; font-size: 18px; color: #ffe680; }
+.tr-credits { position: absolute; left: 0; width: 640px; text-align: center; color: #fff; }
+.tr-credits h1 { font-size: 30px; color: #ffe680; margin: 0 0 6px; }
+.tr-credits h2 { font-size: 20px; color: #ffe680; margin: 18px 0 4px; }
+.tr-credits p { margin: 2px 0; font-size: 18px; }
+.tr-credits p.small { font-size: 14px; color: #ffffffcc; }
+.tr-hud { position: absolute; inset: 0; pointer-events: none; color: #ffe680;
+  font: 700 20px/1.2 "Trebuchet MS", sans-serif; text-shadow: 0 1px 2px #000; }
+.tr-hud .time-label { position: absolute; left: 12px; top: 8px; font-size: 18px; }
+.tr-hud .time { position: absolute; left: 30px; top: 30px; font-size: 30px; }
+.tr-hud .herring { position: absolute; right: 12px; top: 8px; display: flex; align-items: center; gap: 6px; }
+.tr-hud .herring img { width: 48px; height: 30px; }
+.tr-hud .speed { position: absolute; right: 8px; bottom: 8px; }
+.tr-hud .gauge { position: absolute; right: 0; bottom: 0; width: 128px; height: 128px; }
+.tr-hud .energy { position: absolute; left: 7px; bottom: 8px; width: 16px; height: 103px;
+  background: #00000066; border-radius: 3px; overflow: hidden; }
+.tr-hud .energy i { position: absolute; left: 0; bottom: 0; width: 100%; background: #8a96ff99; }
+.tr-hud .speednum { position: absolute; right: 44px; bottom: 56px; font-size: 35px; color: #fff; }
+.tr-hud .speedunit { position: absolute; right: 34px; bottom: 34px; font-size: 17px; color: #fff; }
+.tr-hud .helpline { position: absolute; left: 0; right: 0; bottom: 140px; text-align: center;
+  font-size: 13px; color: #ffffffcc; }
