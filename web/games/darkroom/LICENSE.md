@@ -400,3 +400,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/darkroom.png`, 48x48, and `web/icons/darkroom-180.png`, 180x180; drawn by `web/scripts/icons.py`) is made from the original's `img/adr.png` ("ADR"; A Dark Room 1.4, MPL-2.0 above): the letters cut out, placed on a black rounded square and scaled. The icons are under MPL-2.0 like their source; their source form is that file in the reference archive and `web/scripts/icons.py`.

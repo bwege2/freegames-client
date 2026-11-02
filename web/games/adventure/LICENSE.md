@@ -45,3 +45,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
+
+## Favicon
+
+The favicon of the game's page (`web/icons/adventure.png`, 48x48, and `web/icons/adventure-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the green letter "C" in DejaVu Sans Mono Bold on a terminal-black rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

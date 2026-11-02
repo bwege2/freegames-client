@@ -538,9 +538,7 @@ try {
         isolated: crossOriginIsolated,
       }));
       check(head.canonical === 'https://wumpus.freegames.stream/', `hosts: the page's canonical address is its host (${head.canonical})`);
-      const icon = head.icon ? await fetch(head.icon.replace(at('wumpus'), base)) : null;
-      check(head.icon === `${at('wumpus')}wumpus/icon.svg` && icon?.headers.get('content-type') === 'image/svg+xml' && (await icon.text()).includes('>H</text>'),
-        `hosts: a game without an icon of its own gets a letter icon (${head.icon})`);
+      check(head.icon === `${at('wumpus')}wumpus/icon.png`, `hosts: the page's icon is the game's own PNG (${head.icon})`);
       check(head.back === `http://${site}/#/` && head.legal === `http://${site}/impressum.html`,
         `hosts: the game's page (the website) leads back to the site's list and legal pages (${head.back}, ${head.legal})`);
       const plain = await h.evaluate(() => fetch('/').then((r) => r.text()));
@@ -549,14 +547,16 @@ try {
       check(head.isolated, 'hosts: the page at its own host is cross-origin isolated too');
       const netrek = await hb.newPage();
       await netrek.goto(at('netrek'), { waitUntil: 'networkidle0' });
-      const nIcon = await netrek.evaluate(async () => {
-        const l = document.querySelector('link[rel=icon]');
+      // the favicon Google Search shows (a PNG; it shows no SVG) and the touch icon, both served by the game's host
+      const nIcon = await netrek.evaluate(async () => Promise.all(['link[rel=icon]', 'link[rel=apple-touch-icon]'].map(async (sel) => {
+        const l = document.querySelector(sel);
         const r = await fetch(l.href);
         const b = await createImageBitmap(await r.blob());
         return { href: l.getAttribute('href'), sizes: l.getAttribute('sizes'), type: r.headers.get('content-type'), w: b.width, h: b.height };
-      });
-      check(nIcon.href === '/netrek/icon.png' && nIcon.type === 'image/png' && nIcon.w === 48 && nIcon.h === 48 && nIcon.sizes === '48x48',
-        `hosts: a game with an icon in its data shows it (${JSON.stringify(nIcon)})`);
+      })));
+      check(nIcon[0].href === '/netrek/icon.png' && nIcon[0].type === 'image/png' && nIcon[0].w === 48 && nIcon[0].h === 48 && nIcon[0].sizes === '48x48'
+        && nIcon[1].href === '/netrek/apple-touch-icon.png' && nIcon[1].type === 'image/png' && nIcon[1].w === 180 && nIcon[1].h === 180 && nIcon[1].sizes === '180x180',
+        `hosts: a game's page has its PNG icons, 48x48 and 180x180 (${JSON.stringify(nIcon)})`);
       await netrek.close();
 
       // Play: in the site at freegames.stream (the account stays there); Back returns to the game's page

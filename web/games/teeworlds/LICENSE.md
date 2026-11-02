@@ -213,3 +213,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+## Favicon
+
+The favicon of the game's page (`web/icons/teeworlds.png`, 48x48, and `web/icons/teeworlds-180.png`, 180x180; drawn by `web/scripts/icons.py`) is Teeworlds' default tee, drawn from the skin parts `skins/body/standard.png`, `skins/feet/standard.png` and `skins/eyes/standard.png` in the colours of `skins/default.json`, the way the game draws an idle tee, on a sky-blue rounded square. It is an adaptation of that data and licensed **CC BY-SA 3.0** like it (authors above).

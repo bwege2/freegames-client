@@ -48,3 +48,7 @@ were under GPL v2 (see the package's `AUTHORS`).
 
 Copyright the freegames contributors, under the same license (GPL-3.0-or-later). The terminal it runs
 in is the website's `TextScreen` (`web/src/sdk/terminal.ts`).
+
+## Favicon
+
+The favicon of the game's page (`web/icons/moria.png`, 48x48, and `web/icons/moria-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the letter "M" in DejaVu Sans Mono Bold on a terminal-black rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

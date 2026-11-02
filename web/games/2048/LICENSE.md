@@ -243,3 +243,7 @@ unchanged.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
+
+## Favicon
+
+The favicon of the game's page (`web/icons/2048.png`, 48x48, and `web/icons/2048-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the original's own `meta/apple-touch-icon.png` (Gabriele Cirulli, MIT license above), scaled and given rounded corners.

@@ -41,3 +41,7 @@ The data in `assets/` is the original's, with the music converted:
 
 The GNU GPL version 2 is served as `public/licenses/GPL-2.0.txt` on this site and comes with the
 reference archive's `COPYING`.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/gltron.png`, 48x48, and `web/icons/gltron-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: two glowing light-cycle trails on a grid. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`).

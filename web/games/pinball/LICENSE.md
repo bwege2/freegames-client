@@ -34,3 +34,7 @@ title picture and the starting table converted from the Atari repository's files
 
 DOS 3.3 (Apple Computer) is not part of the port: `src/fm.ts` reproduces the behaviour of its file
 manager that `DISK.S` relies on, and `src/disk.ts` shows DOS's error messages.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/pinball.png`, 48x48, and `web/icons/pinball-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the letter "P" in DejaVu Sans Bold on a magenta rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

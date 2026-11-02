@@ -14,7 +14,7 @@ not listed; open `#/example` on the site), `protocol/games/example.capnp` and
 | --- | --- |
 | `game.json` | the game page: title, tagline, summary, facts about the original, players, controls, screenshots (schema: `GameManifest` in `web/src/sdk/game.ts`; checked by `web/test/catalog.test.ts`) |
 | `screenshots/` | PNG/JPG/WebP/GIF screenshots **of the port**, listed in `game.json`; the first is the thumbnail on the start page. A playable game shows at least two. |
-| icon (optional) | `game.json` `"icon": "assets/…/icon.png"`: the original's own icon from its data (under its license), a square PNG of 48 px or a multiple. It is the favicon of the game's page at its own host, `https://<id>.freegames.stream/` (`web/scripts/seo.mjs`). Without one the page gets a letter icon. |
+| favicon | not in the folder: `web/icons/<id>.png` (48x48) and `web/icons/<id>-180.png` (180x180, the apple-touch-icon), drawn by `web/scripts/icons.py` from the game's own logo or artwork where its license allows, else a letter. They are the icons of the game's page at its own host, `https://<id>.freegames.stream/` (`web/scripts/seo.mjs`, which fails without them): PNG, because Google Search shows no SVG favicon. The game's `LICENSE.md` says where its icon comes from (section "Favicon"). |
 | `src/index.ts` | exports `start` (below). Once it exists, the game's Play button works. It is loaded as its own chunk only when someone plays. |
 | `src/…` | the port. Import assets with Vite (`import url from '../assets/x.png?url'`, `import.meta.glob`), so they get hashed file names and are served by the server. |
 | `src/proto/<id>.ts` | generated from `protocol/games/<id>.capnp` by `tools/gen-protocol.sh` (commit it) |

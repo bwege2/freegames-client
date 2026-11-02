@@ -107,3 +107,7 @@ DejaVu authors in the public domain; Arev fonts Copyright (c) 2006 by Tavmjong B
 
 The intro video of the original (`default/resources/video/freecol-opening.video.ogg`) is not part of this port
 (`README.md`).
+
+## Favicon
+
+The favicon of the game's page (`web/icons/freecol.png`, 48x48, and `web/icons/freecol-180.png`, 180x180; drawn by `web/scripts/icons.py`) is FreeCol's own icon, the ship `data/freecol.png` (GPL-2.0-or-later, above), scaled onto a sea-blue rounded square.

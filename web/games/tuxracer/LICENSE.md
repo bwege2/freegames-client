@@ -45,3 +45,7 @@ The data in `assets/` is the original's, converted for the browser:
 
 The GNU GPL version 2 is served as `licenses/GPL-2.0.txt` on this site and comes with the original's
 `COPYING` in the reference download.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/tuxracer.png`, 48x48, and `web/icons/tuxracer-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the gold "T" of the Tux Racer logo on its snow, cropped from the splash screen `textures/splash_*.png` (GPL-2.0-or-later, above), on the splash screen's navy rounded square.

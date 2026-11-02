@@ -79,3 +79,7 @@ port plays without them, exactly as the original does when its `sfx/` directory 
 
 Abuse is a trademark of its owner; this port is not affiliated with or endorsed by Crack dot Com or its
 successors.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/abuse.png`, 48x48, and `web/icons/abuse-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the letter "A" in DejaVu Sans Bold on a rust-red rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely. Abuse's own logos and its data are not used: their license does not cover this use.

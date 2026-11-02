@@ -232,3 +232,7 @@ given a different name.
 
 $Id$
 ```
+
+## Favicon
+
+The favicon of the game's page (`web/icons/frozenbubble.png`, 48x48, and `web/icons/frozenbubble-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the penguin of the original's pause screen, `gfx/pause_0001.png` (artwork by Alexis Younes and Amaury Amblard-Ladurantie, GPL-2.0-only, above), cropped to head and shoulders and placed on an ice-blue rounded square.

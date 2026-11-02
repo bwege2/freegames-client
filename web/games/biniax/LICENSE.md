@@ -18,3 +18,7 @@ http://www.tuzsuzov.com), under the zlib license (modified):
 
 **This is an altered version**: a TypeScript port by the freegames project (`src/`), following the
 original's biniax.c and desktop/*.c; the original's data (`assets/`) converted losslessly.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/biniax.png`, 48x48, and `web/icons/biniax-180.png`, 180x180; drawn by `web/scripts/icons.py`) is made from the original's window icon `src/icon.ico` (Jordan Tuzsuzov, zlib license above), placed on a dark rounded square and scaled; it is an altered version of that image.

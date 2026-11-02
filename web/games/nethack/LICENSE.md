@@ -138,3 +138,7 @@ of NetHack 3.6 as released.
 The translation to TypeScript, the runtime that stands in for the C library and the terminal, and the
 browser integration were written for this website (see `README.md`); they are under the NGPL like the
 rest of the port.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/nethack.png`, 48x48, and `web/icons/nethack-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: NetHack's player glyph "@" in DejaVu Sans Mono Bold on a terminal-black rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

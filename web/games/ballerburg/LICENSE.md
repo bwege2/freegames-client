@@ -34,3 +34,7 @@ module) is new in this port, under the same license.
 Thomas Huth adapted it to recent systems and maintains Ballerburg SDL; Jens Ropers wrote most of the
 English texts; Stefan Berndtsson wrote the PSG emulation; Kolja Koischwitz designed additional castles;
 Andreas Schiffler wrote SDL_gfxPrimitives. The SDL version is dedicated to Martina Huth.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/ballerburg.png`, 48x48, and `web/icons/ballerburg-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the letter "B" in DejaVu Sans Bold on a brown rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

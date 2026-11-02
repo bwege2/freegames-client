@@ -99,3 +99,7 @@ cow@netrek.org.
 
 This browser port (the client in `src/`, the server in `server/.../games/netrek/`) was made for this site in
 2026 and is distributed under the license above.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/netrek.png`, 48x48, and `web/icons/netrek-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the Netrek client's own icon `assets/pixmaps/icon.png` (Netrek license, above), on a deep-blue rounded square (scaled 3x at 180 px).

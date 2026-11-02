@@ -34,3 +34,7 @@ sprites and font are generated from the original C arrays by `re/sopwith/tools/b
 there are no image or audio assets in the original game.
 
 The GNU GPL version 2 is served as `public/licenses/GPL-2.0.txt` on this site.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/sopwith.png`, 48x48, and `web/icons/sopwith-180.png`, 180x180; drawn by `web/scripts/icons.py`) is SDL Sopwith's window icon `assets/sopwith.png` (GPL-2.0-or-later, above), its plane cropped and scaled onto a black rounded square.

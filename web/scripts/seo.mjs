@@ -8,7 +8,9 @@
 //                          address, its own icon, structured data) and its page as plain content inside #app (title,
 //                          summary, screenshots copied next to it, controls, original, a Play link into the site);
 //                          the website shows the game's page there when it starts (src/site/hosts.ts)
-//   dist/<id>/icon.*       the game's icon (game.json "icon": a PNG from the original's data) or a letter icon (SVG)
+//   dist/<id>/icon.png     the game's favicon, 48x48 (web/icons/<id>.png, drawn by scripts/icons.py), and
+//   dist/<id>/apple-touch-icon.png  the same at 180x180 (web/icons/<id>-180.png): PNGs, which Google Search shows
+//                          (it shows no SVG), one per host
 //   dist/game-hosts.txt    the games with a host of their own, one id per line (for the server)
 //   dist/index.html        the game list as plain links inside #app (the site replaces it when it starts), and
 //                          the preview image for links shared elsewhere
@@ -42,29 +44,19 @@ ${siteLink('/datenschutz.html', 'Datenschutz / Privacy')}
 ${siteLink('/nutzungsbedingungen.html', 'Nutzungsbedingungen / Terms of use')}
 ${siteLink('/licenses.html', 'Lizenzen &amp; Quellcode / Licenses &amp; source')}
 </nav>`;
-// a letter icon for a game without an icon of its own: its title's first letter on a colour of its own (our work,
-// under the website's license)
-const COLOURS = ['#2f6fdf', '#c0392b', '#16a085', '#8e44ad', '#d35400', '#2c3e50', '#27ae60', '#b03a7a'];
-function letterIcon(id, title) {
-  const letter = esc((title.match(/[A-Za-z0-9]/)?.[0] ?? '?').toUpperCase());
-  let h = 0;
-  for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="10" fill="${COLOURS[h % COLOURS.length]}"/>`
-    + `<text x="24" y="34" text-anchor="middle" font-family="DejaVu Sans,Verdana,Arial,Helvetica,sans-serif" font-size="29" font-weight="700" fill="#fff">${letter}</text></svg>\n`;
-}
-/** writes the game's icon next to its page; returns its file name and type */
-function writeIcon(g, dir) {
-  if (g.m.icon) {
-    const src = join(web, 'games', g.id, g.m.icon);
-    if (!/\.png$/i.test(src) || !existsSync(src)) throw new Error(`${g.id}: game.json "icon" must be a PNG file of its folder (${g.m.icon})`);
-    copyFileSync(src, join(dir, 'icon.png'));
-    const b = readFileSync(src);
-    const w = b.readUInt32BE(16), hgt = b.readUInt32BE(20);
-    if (w !== hgt || w % 48 !== 0) throw new Error(`${g.id}: its icon is ${w}x${hgt}; it must be square, 48 px or a multiple (what search engines show)`);
-    return { file: 'icon.png', type: 'image/png', sizes: `${w}x${hgt}` };
+/** copies the game's icons (web/icons/, scripts/icons.py) next to its page and checks them; returns their links */
+function writeIcons(g, dir) {
+  const links = [];
+  for (const [src, file, size, rel] of [[`${g.id}.png`, 'icon.png', 48, 'icon'], [`${g.id}-180.png`, 'apple-touch-icon.png', 180, 'apple-touch-icon']]) {
+    const from = join(web, 'icons', src);
+    if (!existsSync(from)) throw new Error(`${g.id}: no web/icons/${src} (draw it with scripts/icons.py)`);
+    const b = readFileSync(from);
+    const w = b.readUInt32BE(16), h = b.readUInt32BE(20);
+    if (b.toString('latin1', 1, 4) !== 'PNG' || w !== size || h !== size) throw new Error(`${g.id}: web/icons/${src} must be a ${size}x${size} PNG`);
+    copyFileSync(from, join(dir, file));
+    links.push(`<link rel="${rel}" href="/${g.id}/${file}"${rel === 'icon' ? ' type="image/png"' : ''} sizes="${size}x${size}">`);
   }
-  writeFileSync(join(dir, 'icon.svg'), letterIcon(g.id, g.m.title));
-  return { file: 'icon.svg', type: 'image/svg+xml', sizes: 'any' };
+  return links;
 }
 // for the plain content, which shows until the website's script replaces it (and to whoever has no script)
 const STYLE = `<style>
@@ -88,7 +80,7 @@ function description(m) {
  * game's title, description, canonical address, icon and structured data in its head, and the game's page as plain
  * content in #app for search engines. When the website starts there, it shows the game's page (hosts.ts, main.ts).
  */
-function gamePage(shell, g, others, icon) {
+function gamePage(shell, g, others, icons) {
   const { id, m } = g;
   const url = gameUrl(id);
   const shots = m.screenshots ?? [];
@@ -141,8 +133,7 @@ ${LEGAL}
   html = swap(html, /<meta property="og:title" content="[^"]*">/, `<meta property="og:title" content="${esc(title)}">`);
   html = swap(html, /<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${esc(desc)}">`);
   html = swap(html, /<meta property="og:url" content="[^"]*">/, `<meta property="og:url" content="${url}">`);
-  html = swap(html, /<link rel="icon" href="[^"]*">/, `<link rel="icon" href="/${id}/${icon.file}" type="${icon.type}" sizes="${icon.sizes}">`
-    + (icon.type === 'image/png' ? `\n  <link rel="apple-touch-icon" href="/${id}/${icon.file}">` : ''));
+  html = swap(html, /<link rel="icon"[^>]*>\s*<link rel="apple-touch-icon"[^>]*>/, icons.join('\n  '));
   // the page is at "/" of its host and at /<id>/ elsewhere: the website's files from the root
   html = html.replace(/(src|href)="\.\/(assets\/[^"]+)"/g, '$1="/$2"');
   html = swap(html, /<\/head>/, `${shots[0] ? `  <meta property="og:image" content="${url}${id}/${esc(shots[0].file)}">\n  <meta name="twitter:card" content="summary_large_image">\n` : ''}`
@@ -159,7 +150,7 @@ for (const g of games) {
   const dir = join(dist, g.id);
   mkdirSync(dir, { recursive: true });
   for (const s of g.m.screenshots ?? []) copyFileSync(join(web, 'games', g.id, 'screenshots', s.file), join(dir, s.file));
-  writeFileSync(join(dir, 'index.html'), gamePage(shell, g, games.filter((x) => x !== g), writeIcon(g, dir)));
+  writeFileSync(join(dir, 'index.html'), gamePage(shell, g, games.filter((x) => x !== g), writeIcons(g, dir)));
 }
 writeFileSync(join(dist, 'game-hosts.txt'), games.map((g) => `${g.id}\n`).join(''));
 

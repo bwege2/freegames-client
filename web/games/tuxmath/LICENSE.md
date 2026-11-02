@@ -45,3 +45,7 @@ The data in `assets/` is the original's, copied unchanged:
 
 The GNU GPL version 3 is served as `public/licenses/GPL-3.0.txt` on this site and comes with the
 reference archive's `COPYING`/`doc/COPYING_GPL3`.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/tuxmath.png`, 48x48, and `web/icons/tuxmath-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the game's own icon, Tux with a sum: `data/images/icons/icon.png` at 48 px and `data/images/icons/tuxmath.svg` at 180 px (GPL-3.0-or-later, above), on a blue rounded square.

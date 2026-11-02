@@ -71,3 +71,7 @@ sha-256 `0b37bec2098c2ad695b7443e5d7944dc6dc8284f8d01fcc30bdb94dd033ca23a`), dow
 positions of Fred Reinfeld's *Win at Chess* (1958) as the widely shared WAC EPD file has them,
 perft positions from the Chess Programming Wiki, and endgame and mate positions; positions are
 facts of the game and are used to compare the port with the original only.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/gnuchess.png`, 48x48, and `web/icons/gnuchess-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: a black knight (the chess glyph of DejaVu Sans) on a board square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

@@ -36,3 +36,7 @@ freegames project (`src/`, the server module `server/.../games/corewar/`, the sc
 written down anew), `paper.red`, `scanner.red`, `stone.red` and `switcher.red`, and everything in
 `test/warriors/` that does not come from the package. They were written for this port and are under the
 same license.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/corewar.png`, 48x48, and `web/icons/corewar-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the freegames project's own drawing and uses no art of the game: the cyan letter "C" in DejaVu Sans Mono Bold on a terminal-black rounded square. It is under the website's license (GPL-3.0-or-later, `web/LICENSE.md`). The DejaVu fonts' license lets images made with them be used freely.

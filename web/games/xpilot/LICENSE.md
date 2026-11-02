@@ -27,3 +27,7 @@ contributors; the "Official XPilot Contributors" are, in its own words, "too man
 
 This browser port (the client in `src/`, the server module in `server/.../games/xpilot/`) was made for
 this site in 2026 and is distributed under the same GPL-2.0-or-later.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/xpilot.png`, 48x48, and `web/icons/xpilot-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the orange "X" of XPilot's logo, cropped from `textures/logo.ppm` (GPL-2.0-or-later, above) onto a black rounded square.

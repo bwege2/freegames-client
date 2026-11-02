@@ -42,3 +42,7 @@ The files under `assets/` are copied unchanged from the Maelstrom 4.0.2 `Data/` 
 `src/assets/tables.ts` are generated from `game/init.cpp` by
 `re/maelstrom/tools/build-assets.py`. The original archive is not committed; fetch it with
 `re/maelstrom/fetch.sh`.
+
+## Favicon
+
+The favicon of the game's page (`web/icons/maelstrom.png`, 48x48, and `web/icons/maelstrom-180.png`, 180x180; drawn by `web/scripts/icons.py`) is the player's ship from the original's sprites (`sprites/icl8_200.png`, Maelstrom artwork by Ambrosia Software, CC BY 3.0, above), unscaled at 48 px and scaled 4x at 180 px, on a starfield we drew. It is an adaptation of that artwork under CC BY 3.0. No Ambrosia logo is used.
