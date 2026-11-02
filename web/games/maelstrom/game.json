@@ -1,0 +1,70 @@
+{
+  "id": "maelstrom",
+  "title": "Maelstrom",
+  "tagline": "Asteroids, alien fighters, and one very small ship.",
+  "summary": [
+    "Maelstrom (Ambrosia Software, 1993; open-source SDL port 4.0.2) is the classic fast asteroid shooter: rotate, thrust, fire and raise your shields while the belt breaks into smaller and smaller rocks.",
+    "This port keeps the original 640x480 arena, sprites, sounds, ship physics, asteroid splitting, Shenobi fighters, prizes, multipliers, bonuses, gravity wells, homing mines, novas, waves and high-score screens.",
+    "Single player or 2–3 pilots on one machine, online co-op or deathmatch through this website, keyboard, gamepad and touch controls, account high scores, replays and mod packs. Steam integration is not part of this port."
+  ],
+  "original": {
+    "author": "Ambrosia Software; open-source port by Sam Lantinga and contributors",
+    "year": 1993,
+    "platform": "Macintosh; SDL port (C++)",
+    "version": "4.0.2",
+    "license": "Zlib (code) / CC BY 3.0 (artwork)",
+    "packageBytes": 1106952,
+    "url": "https://www.libsdl.org/projects/Maelstrom/"
+  },
+  "players": "1-3",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-01",
+  "controls": [
+    {
+      "input": "Pilot 1",
+      "action": "Arrows, Space fire, Shift air brakes"
+    },
+    {
+      "input": "Pilot 2",
+      "action": "W A S D, F fire, Q air brakes"
+    },
+    {
+      "input": "Pilot 3",
+      "action": "I J K L, H fire, U air brakes"
+    },
+    {
+      "input": "Gamepad",
+      "action": "Left stick / d-pad, A fire, B air brakes"
+    },
+    {
+      "input": "Touch",
+      "action": "On-screen thrust, shield, rotate, fire and brake buttons"
+    },
+    {
+      "input": "Caps Lock / Esc",
+      "action": "Pause (local games); Esc leaves an online room"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "title.png",
+      "caption": "The original title and menu, with the top pilots table"
+    },
+    {
+      "file": "playing.png",
+      "caption": "The first wave: the ship, its shield, asteroids and stars"
+    },
+    {
+      "file": "multiplayer.png",
+      "caption": "Two local pilots in co-op"
+    }
+  ],
+  "lazyAssets": []
+}
