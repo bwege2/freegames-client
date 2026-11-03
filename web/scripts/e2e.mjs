@@ -668,7 +668,7 @@ try {
     const cdp = await dp.createCDPSession();
     await cdp.send('Network.emulateNetworkConditions', { offline: false, latency: 20, downloadThroughput: 2.5e6, uploadThroughput: 1e6 });
     await dp.goto(`${base}#/frozenbubble`, { waitUntil: 'networkidle0' });
-    const fact = await dp.waitForFunction(() => [...document.querySelectorAll('.facts dd')].map((d) => d.textContent).find((t) => /MB the first time/.test(t ?? '')), { timeout: 5000 }).then((h) => h.jsonValue(), () => null);
+    const fact = await dp.waitForFunction(() => [...document.querySelectorAll('.facts dd')].map((d) => d.textContent).find((t) => /MB for the first start/.test(t ?? '')), { timeout: 5000 }).then((h) => h.jsonValue(), () => null);
     check(!!fact, `downloads: the game page says how much Play downloads (${fact})`);
     await dp.click('.page .play');
     const seen = await dp.waitForFunction(() => document.querySelector('.player-loading-text')?.textContent, { timeout: 10000 }).then(() => true, () => false);

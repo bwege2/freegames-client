@@ -1,0 +1,19 @@
+# burning wood, oil, coal and plant; fire, smoke, embers
+seed 1234
+line 50 300 120 300 WOOD
+line 50 301 120 301 WOOD
+box 150 290 160 300 OIL
+box 200 295 205 300 COAL
+part 60 299 FIRE
+part 155 289 FIRE
+part 202 294 FIRE
+box 250 295 255 300 PLNT
+part 252 294 FIRE
+run 20
+dump
+run 30
+dump
+run 50
+dump
+run 60
+dump

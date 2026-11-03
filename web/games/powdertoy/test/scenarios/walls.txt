@@ -1,0 +1,26 @@
+# wall types under falling particles: liquid wall, powder wall, gas wall, absorb wall, detector, e-wall
+seed 2718
+wall 20 50 6
+wall 21 50 6
+wall 30 50 10
+wall 31 50 10
+wall 40 50 13
+wall 41 50 13
+wall 50 50 7
+wall 51 50 7
+wall 60 50 3
+wall 61 50 3
+wall 70 50 2
+wall 71 50 2
+box 80 180 86 186 WATR
+box 120 180 126 186 SAND
+box 160 190 166 196 GAS
+box 200 180 206 186 DUST
+box 240 180 246 186 SAND
+box 280 180 286 186 SAND
+run 20
+dump
+run 40
+dump
+run 60
+dump

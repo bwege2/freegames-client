@@ -1,0 +1,21 @@
+# legacy (no heat) mode: Element::legacyUpdate state changes with water, steam, ice, snow, oil, gas under pressure
+seed 3141
+legacy 1
+box 100 300 110 305 WATR
+box 104 296 106 299 FIRE
+box 150 300 156 304 ICE
+box 150 296 156 299 WATR
+box 200 300 205 305 SNOW
+box 200 296 205 299 DSTW
+box 250 100 255 104 WTRV
+box 250 106 255 110 SLTW
+box 300 200 304 204 OIL
+box 350 200 354 204 GAS
+pv 75 50 -10
+pv 88 50 10
+run 30
+dump
+run 70
+dump
+run 100
+dump

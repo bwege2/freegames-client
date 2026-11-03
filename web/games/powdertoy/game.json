@@ -1,0 +1,52 @@
+{
+  "id": "powdertoy",
+  "title": "The Powder Toy",
+  "tagline": "A physics sandbox: draw powders, liquids, gases and electronics, then watch what happens.",
+  "summary": [
+    "The Powder Toy is a falling-sand physics sandbox: you draw with almost 200 elements and the simulation works out air pressure and velocity, heat, gravity, electricity and the reactions between substances. Build bombs, reactors, wires and logic circuits, or just watch water put out a fire.",
+    "This port is a line-by-line translation of the simulation of version 100.1 build 400: every element, the air and heat maps, walls, tools, Game of Life types, stickmen and Newtonian gravity, with the original's menus, keys, render modes and bitmap font.",
+    "Your saves and stamps are kept in your account in the original's save format. The online save browser, voting and the Lua console of the original are not part of this port."
+  ],
+  "original": {
+    "author": "Stanislaw K Skowronek, Simon Robertshaw and the Powder Toy contributors",
+    "year": 2010,
+    "platform": "Windows/Linux/macOS (C++, SDL)",
+    "version": "100.1.400",
+    "license": "GPL-3.0-only",
+    "packageBytes": 920272,
+    "url": "https://powdertoy.co.uk/"
+  },
+  "players": "1",
+  "genres": [
+    "Software toy"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-03",
+  "controls": [
+    { "input": "Left / right mouse button", "action": "Draw with the left / right selected element (Shift: line, Ctrl: box, Ctrl+Shift: fill)" },
+    { "input": "Mouse wheel, [ and ]", "action": "Brush size (Ctrl / Shift: height / width only)" },
+    { "input": "Tab", "action": "Circle, square or triangle brush" },
+    { "input": "Middle click or Alt+click", "action": "Pick the element under the cursor" },
+    { "input": "Space, F", "action": "Pause, step one frame" },
+    { "input": "0-9", "action": "Render modes" },
+    { "input": "E", "action": "Search an element" },
+    { "input": "S, L, K", "action": "Save a stamp, load the last stamp, stamp library" },
+    { "input": "Ctrl+Z, Ctrl+Y", "action": "Undo, redo" },
+    { "input": "Ctrl+C / V / X", "action": "Copy, paste, cut" },
+    { "input": "Z", "action": "Zoom" },
+    { "input": "W, Y, Ctrl+E", "action": "Gravity, air and edge modes" },
+    { "input": "U, N", "action": "Ambient heat, Newtonian gravity" },
+    { "input": "B, Ctrl+B", "action": "Decoration editor, decorations on/off" },
+    { "input": "H, D, G", "action": "HUD, debug view, grid" },
+    { "input": "I, =", "action": "Invert pressure, reset pressure and velocity" },
+    { "input": "F1 or Ctrl+H", "action": "Intro text" },
+    { "input": "Q or Esc", "action": "Quit" }
+  ],
+  "screenshots": [
+    { "file": "intro.png", "caption": "The intro text over an empty simulation" },
+    { "file": "playing.png", "caption": "Water, sand, fire and wood at work" },
+    { "file": "heat.png", "caption": "The heat display render mode" }
+  ]
+}

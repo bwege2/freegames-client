@@ -1,0 +1,27 @@
+# heat conduction along metal, through insulator, state changes (wax, ice, metal, glass) with ambient heat
+seed 31337
+aheat 1
+part 50 200 METL
+set 0 temp 3000
+part 200 200 WAX
+set 1 temp 400
+part 300 200 BMTL
+set 2 temp 2000
+part 350 200 GLAS
+set 3 temp 2500
+line 51 200 150 200 METL
+line 50 220 150 220 INSL
+box 201 200 210 205 WAX
+box 250 200 255 205 ICE
+box 301 200 305 205 BMTL
+box 351 200 355 204 GLAS
+hv 63 50 500
+hv 64 50 500
+run 20
+dump
+run 40
+dump
+run 60
+dump
+run 80
+dump

@@ -1,0 +1,17 @@
+# gravity modes: radial gravity pulls powders and liquids to the centre, then no gravity, then vertical
+seed 1618
+gravmode 2
+box 100 100 106 106 SAND
+box 500 300 506 306 WATR
+box 300 50 304 54 DUST
+box 150 300 154 306 OIL
+run 20
+dump
+run 40
+dump
+gravmode 1
+run 30
+dump
+gravmode 0
+run 30
+dump

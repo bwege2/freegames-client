@@ -1,0 +1,22 @@
+# powders falling onto walls and a stone line, piling up
+seed 42
+wall 25 75 8
+wall 26 75 8
+wall 27 75 8
+wall 28 75 8
+box 60 40 80 50 SAND
+box 150 40 165 50 DUST
+line 20 200 300 210 STNE
+box 220 80 230 85 SALT
+box 100 100 108 104 GUN
+box 300 30 306 40 COAL
+run 10
+dump
+run 30
+dump
+run 40
+dump
+run 60
+dump
+run 80
+dump

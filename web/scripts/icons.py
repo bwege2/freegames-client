@@ -12,7 +12,7 @@
 #
 # Needs Python 3 with Pillow, and ImageMagick (`magick`) for the one SVG source (TuxMath). A few sources are not
 # committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax,
-# A Dark Room, Passage, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
+# A Dark Room, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
 #   python3 -I web/scripts/icons.py [path/to/repo]
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -267,6 +267,19 @@ def i_tuxmath(S):
             art = Image.open(p).convert('RGBA')
             art.load()
     return clip(place(base, trim(art), (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
+
+
+def i_powdertoy(S):
+    # the game's own icon (resources/icon_exe.svg of the source, GPL-3.0), on the game's black
+    base = tile(S, '#000000', top='#202020')
+    with tempfile.TemporaryDirectory() as t:
+        p = os.path.join(t, 'tpt.png')
+        subprocess.run(['magick', '-background', 'none', '-density', '600',
+                        orig('powdertoy', 'orig', 'The-Powder-Toy-100.1.400', 'resources', 'icon_exe.svg'),
+                        '-resize', f'{S}x{S}', p], check=True)
+        art = Image.open(p).convert('RGBA')
+        art.load()
+    return clip(place(base, trim(art), (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
 
 
 def i_netrek(S):

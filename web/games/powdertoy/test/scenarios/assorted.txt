@@ -1,0 +1,28 @@
+# assorted elements over a longer run: thermite, plasma, sponge, gel, anti-air, filters and rays, pipe,
+# deuterium, emp, singularity, acid on metal; a few dumps only
+seed 27182
+box 50 300 55 305 THRM
+part 52 299 FIRE
+box 100 300 104 304 SPNG
+box 100 290 104 296 WATR
+box 150 300 154 304 GEL
+box 150 290 154 296 WATR
+box 200 300 203 303 ANAR
+box 250 150 254 154 DEUT
+part 252 149 NEUT
+line 300 100 300 140 ARAY
+part 300 99 SPRK
+line 310 100 310 140 FILT
+box 400 300 402 302 SING
+box 380 280 386 286 DUST
+box 450 300 456 304 METL
+box 450 295 456 299 ACID
+line 500 200 540 200 PIPE
+box 500 190 504 194 WATR
+box 560 300 562 302 PLSM
+run 50
+dump
+run 100
+dump
+run 150
+dump

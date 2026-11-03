@@ -1,0 +1,40 @@
+# saves (client/GameSave.cpp, Simulation::Save/Load): a state with walls, fans, air, signs and particles whose
+# fields need every width of the OPS particle encoding; written by the oracle to test/fixtures/oracle-save.ops
+seed 42
+aheat 1
+box 100 100 104 104 DUST
+box 200 200 203 210 WATR
+box 50 300 55 303 METL
+part 300 50 QRTZ
+part 301 50 GLAS
+part 302 50 PIPE
+part 303 50 CLNE
+part 304 50 LIFE
+set 0 temp 1000
+set 0 tmp 70000
+set 0 life 300
+set 1 ctype 1000000
+set 1 dcolour 4278255360
+set 1 vx 1.5
+set 1 vy -2.25
+set 25 tmp2 600
+set 25 tmp3 -5
+set 25 tmp4 100000
+set 93 tmp3 -5
+set 94 tmp3 40000
+set 96 ctype 2
+set 97 temp 9000
+part 310 50 PHOT
+part 310 50 NEUT
+wall 10 10 8
+wall 11 10 5
+wall 12 10 1
+pv 30 30 12.5
+pv 31 30 -40.25
+hv 30 30 400
+hv 31 30 1500
+sign 100 50 0 Hello {t}
+sign 200 60 1 Plain sign
+sign 300 70 2 {b|button}
+dump
+signs

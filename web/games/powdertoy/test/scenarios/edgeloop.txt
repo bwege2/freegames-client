@@ -1,0 +1,17 @@
+# edge modes: looping edges send falling particles round; then solid edges
+seed 161
+edge 2
+part 300 300 PHOT
+set 0 vx 4
+set 0 vy 1
+box 100 360 110 370 SAND
+box 200 360 206 370 WATR
+run 20
+dump
+run 40
+dump
+edge 1
+run 40
+dump
+run 40
+dump

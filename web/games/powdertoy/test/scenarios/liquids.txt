@@ -1,0 +1,28 @@
+# water and oil in a walled basin, flowing and layering; water equalization on later
+seed 7
+wall 20 60 8
+wall 21 60 8
+wall 22 60 8
+wall 23 60 8
+wall 24 60 8
+wall 25 60 8
+wall 26 60 8
+wall 27 60 8
+wall 20 59 8
+wall 27 59 8
+wall 20 58 8
+wall 27 58 8
+box 90 150 100 160 WATR
+box 95 120 102 126 OIL
+box 300 100 305 110 DSTW
+box 330 100 334 108 SLTW
+box 200 200 203 206 MERC
+run 20
+dump
+run 40
+dump
+water 1
+run 60
+dump
+run 80
+dump

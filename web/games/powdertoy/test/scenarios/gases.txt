@@ -1,0 +1,16 @@
+# gases spreading and rising in a closed box (solid edges); diffusion draws random numbers every frame
+seed 99
+edge 1
+box 100 300 110 305 GAS
+box 200 300 206 304 CO2
+box 300 300 304 306 WTRV
+box 400 300 405 303 OXYG
+box 500 300 503 306 HYGN
+run 15
+dump
+run 30
+dump
+run 45
+dump
+run 60
+dump

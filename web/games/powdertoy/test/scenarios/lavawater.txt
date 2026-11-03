@@ -1,0 +1,21 @@
+# lava poured onto water with ambient heat: steam, stone, ice and snow melting, heat exchange with the air
+seed 555
+aheat 1
+wall 30 80 8
+wall 31 80 8
+wall 32 80 8
+wall 33 80 8
+box 120 300 130 318 WATR
+box 122 280 128 285 LAVA
+box 200 300 205 310 ICE
+box 200 290 205 294 LAVA
+box 260 300 264 306 SNOW
+part 262 296 FIRE
+run 20
+dump
+run 30
+dump
+run 50
+dump
+run 60
+dump

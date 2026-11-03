@@ -46,8 +46,8 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
   const playSize = el('span', { className: 'play-size' });
   if (g.load) {
     void downloadOf(m.id).then((d) => {
-      download.textContent = d ? `${megabytes(d.bytes)} the first time, then from your browser's cache` : '–';
-      if (d) playSize.textContent = `${megabytes(d.bytes)}, only the first time`;
+      download.textContent = d ? `${megabytes(d.bytes)} for the first start (afterwards starts immediately from your browser's cache)` : '–';
+      if (d) playSize.textContent = `${megabytes(d.bytes)} to start`;
     });
   }
   const caveat = m.caveat ? el('p', { className: 'caveat-note', textContent: m.caveat }) : null;

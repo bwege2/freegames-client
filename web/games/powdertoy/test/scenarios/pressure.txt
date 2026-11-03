@@ -1,0 +1,22 @@
+# pressure: high pressure breaks metal and stone, explosives go off, air flows
+seed 2024
+box 100 200 108 206 BMTL
+box 200 200 206 206 GUN
+box 260 200 264 204 C4
+box 320 200 324 204 NITR
+box 380 200 385 205 STNE
+box 420 200 424 204 WATR
+pv 26 50 30
+pv 51 50 10
+pv 66 50 10
+pv 81 50 10
+pv 96 50 50
+pv 106 50 -20
+run 10
+dump
+run 20
+dump
+run 30
+dump
+run 40
+dump

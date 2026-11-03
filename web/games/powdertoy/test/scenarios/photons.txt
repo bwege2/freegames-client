@@ -1,0 +1,25 @@
+# photons refracted by glass and reflected by metal, neutrons in plutonium and uranium
+seed 4711
+part 100 120 PHOT
+set 0 vx 3
+set 0 vy 0
+part 100 130 PHOT
+set 1 vx 3
+set 1 vy 0.5
+part 100 140 PHOT
+set 2 vx 2.5
+set 2 vy -1
+box 200 100 206 150 GLAS
+box 300 100 304 160 METL
+box 400 200 406 206 PLUT
+box 420 200 425 205 URAN
+part 390 205 NEUT
+part 395 205 NEUT
+run 10
+dump
+run 20
+dump
+run 30
+dump
+run 40
+dump

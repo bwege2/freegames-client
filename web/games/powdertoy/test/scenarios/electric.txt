@@ -1,0 +1,25 @@
+# sparks along metal wires, PSCN/NSCN, a battery driven wire, INST, a switch, WWLD
+seed 808
+line 50 100 150 100 METL
+part 50 100 SPRK
+line 50 120 100 120 PSCN
+line 101 120 150 120 NSCN
+part 50 120 SPRK
+box 200 100 202 140 BTRY
+line 203 120 260 120 METL
+line 300 100 360 100 INST
+part 300 100 SPRK
+line 400 100 420 100 METL
+line 421 100 440 100 SWCH
+line 441 100 460 100 METL
+part 400 100 SPRK
+line 50 160 150 160 WWLD
+part 50 160 SPRK
+run 5
+dump
+run 15
+dump
+run 30
+dump
+run 50
+dump

@@ -1,0 +1,22 @@
+# air modes: pressure off, velocity off, no update; ambient heat with hot cells; explosions under each mode
+seed 1729
+aheat 1
+box 100 200 104 204 GUN
+box 200 200 204 204 SAND
+pv 25 50 20
+pv 50 50 -20
+hv 75 50 3000
+hv 76 50 3000
+box 300 196 304 204 WATR
+airmode 1
+run 30
+dump
+airmode 2
+run 30
+dump
+airmode 4
+run 30
+dump
+airmode 0
+run 30
+dump

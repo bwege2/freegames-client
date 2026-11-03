@@ -1,0 +1,26 @@
+# game of life, acid, clone, void, black hole, plant and water
+seed 9001
+part 100 100 LIFE
+part 101 100 LIFE
+part 102 100 LIFE
+part 102 99 LIFE
+part 101 98 LIFE
+box 150 100 152 102 LIFE
+box 200 300 205 305 ACID
+box 200 310 205 315 STNE
+box 300 300 302 302 CLNE
+box 300 290 302 295 WATR
+box 400 300 402 302 VOID
+box 398 280 404 284 SAND
+box 480 200 482 202 BHOL
+box 470 180 476 186 DUST
+box 520 300 525 305 PLNT
+box 520 290 525 295 WATR
+run 10
+dump
+run 20
+dump
+run 30
+dump
+run 40
+dump

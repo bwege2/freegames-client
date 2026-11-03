@@ -1,0 +1,25 @@
+# cloners (BCLN, PCLN), yeast, fuse, fuse powder and burning coal: elements that create particles at random
+# neighbour offsets (the order in which the original draws the two offsets matters)
+seed 6174
+box 100 100 102 102 BCLN
+box 100 96 102 98 WATR
+line 150 100 160 100 PSCN
+part 150 99 SPRK
+box 161 98 163 102 PCLN
+box 161 94 163 96 DUST
+box 200 300 205 305 YEST
+box 200 295 205 299 DYST
+line 300 200 340 200 FUSE
+part 300 199 FIRE
+box 350 300 354 304 FSEP
+part 352 299 FIRE
+box 400 300 404 306 COAL
+box 400 290 404 299 FIRE
+run 10
+dump
+run 20
+dump
+run 30
+dump
+run 40
+dump
