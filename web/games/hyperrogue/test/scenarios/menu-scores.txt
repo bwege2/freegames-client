@@ -1,0 +1,25 @@
+# U2 (scores.cpp, menus.cpp showMessageLog, debug.cpp showCheatMenu): the local high scores read from the score
+# file (one game recorded by saveload, and the current one), sorted by another column; the message log in two
+# time formats; the cheat menu. Each is opened from the main menu ('v'), and Escape returns to it. A 640x480
+# window without the map (nomap=1).
+start 3 nomap=1
+cheat T
+cheat K
+saveload
+ticks 1000
+svg 640 480 screen
+key v
+key t
+svg 640 480 screen
+key Right
+key s
+svg 640 480 screen
+key Escape
+key l
+svg 640 480 screen
+key t
+key t
+svg 640 480 screen
+key Escape
+key C
+svg 640 480 screen

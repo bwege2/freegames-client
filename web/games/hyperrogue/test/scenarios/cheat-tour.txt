@@ -1,0 +1,61 @@
+# Cheats of the original (debug.cpp): orb powers, teleports into several lands (cheatMoveTo), summoned orbs,
+# kills and treasure; a few moves in each land.
+start 3
+cheat F
+goto laDesert
+move 2
+move 1
+move 0
+move 3
+move 6
+move 2
+move 3
+move 3
+cheat O
+goto laCaves
+move 0
+wait
+wait
+move 5
+move 4
+wait
+move 1
+move 0
+goto laAlchemist
+move 4
+move 3
+move 1
+move 1
+move 3
+wait
+move 1
+move 3
+cheat K
+goto laMirror
+move 3
+move 0
+move 1
+move 6
+move 6
+move 2
+wait
+move 4
+cheat T
+goto laGraveyard
+move 4
+move 5
+move 6
+move 0
+move 0
+move 6
+move 1
+move 5
+goto laHell
+move 5
+move 3
+move 5
+move 6
+move 3
+move 0
+move 2
+move 5

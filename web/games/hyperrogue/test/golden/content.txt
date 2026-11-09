@@ -1,0 +1,647 @@
+== content
+m 0 moNone 0 000000 0000000040000001 0 no monster 499f0f9c
+m 1 moYeti 89 4040ff 0002000000000000 1 Yeti 563db437
+m 2 moWolf 87 d08040 0004000000000000 1 Icewolf dd400267
+m 3 moWolfMoved 87 d08040 0004800000000000 0 Icewolf 811c9dc5
+m 4 moRanger 82 ff8000 0002000000000000 1 Ranger 2e3dc80b
+m 5 moTroll 84 d0d0d0 000a020000000000 1 Rock Troll 70aef1ac
+m 6 moGoblin 71 20d020 0002000000000000 1 Goblin d4c4cac5
+m 7 moWorm 83 e0e040 00080000c0080201 0 Sand Worm f29de532
+m 8 moWormtail 115 808000 00100020c0080201 0 Sand Worm Tail f29de532
+m 9 moWormwait 83 808000 00100020c0080201 0 Sand Worm W f29de532
+m 10 moHedge 72 80ff00 0002000000000000 1 Hedgehog Warrior eb841287
+m 11 moDesertman 77 806050 0002000000000000 1 Desert Man 4da2468f
+m 12 moIvyRoot 67 00ffff 00100420c0012001 0 Ivy Root db04b644
+m 13 moIvyHead 67 ffff00 00100400c0016001 0 Active Ivy db04b644
+m 14 moIvyBranch 67 40ff00 00100400c0016001 0 Ivy Branch db04b644
+m 15 moIvyWait 67 006030 00100430c0016001 0 Dormant Ivy db04b644
+m 16 moIvyNext 67 804000 00100430c0016001 0 Dead Ivy db04b644
+m 17 moIvyDead 67 800000 00100430c0016001 0 Dead Ivy db04b644
+m 18 moMonkey 77 804000 0002000000000000 1 Giant Ape 54f882f0
+m 19 moSlime 66 909000 0002040048000000 19 Slime Beast c0ccf6fe
+m 20 moMimic 64 ff80ff 0003000040000429 0 Mimic 3538306d
+m 21 moREMOVED 64 ff8080 0000000000000000 0 Mirage (REMOVED) 34381fd4
+m 22 moGolem 64 509050 0003000000000431 0 Golem 2ff83393
+m 23 moGolemMoved 64 509050 0003800000000431 0 Golem 2ff83393
+m 24 moEagle 69 d09050 000c008200200000 24 Eagle 0b39efd9
+m 25 moSeep 83 ff8080 0004040048000000 19 Seep 89f24892
+m 26 moZombie 90 804000 0002000000000020 1 Zombie 2ced958f
+m 27 moGhost 71 ffffff 0004248e42000020 27 Ghost 4313e528
+m 28 moNecromancer 78 404040 000a000000000000 1 Necromancer 5e02fd21
+m 29 moShadow 83 404040 0012000040000020 0 Shadow 3d5a29ba
+m 30 moTentacle 84 40e040 00000000c0080201 0 Tentacle 69296b43
+m 31 moTentacletail 116 008000 00100020c0080201 0 Tentacle Tail 69296b43
+m 32 moTentaclewait 84 008000 00100020c0080201 0 Tentacle W 69296b43
+m 33 moTentacleEscaping 122 c00000 00100000c0080201 0 Tentacle (withdrawing) 69296b43
+m 34 moCultist 80 ff8000 0002000000000000 1 Cultist a14115bf
+m 35 moPyroCultist 80 ffff00 000a000000000000 1 Fire Cultist 10ec7117
+m 36 moGreater 68 ff0000 0012000000440000 1 Greater Demon 1494633a
+m 37 moGreaterM 68 800000 0012002000040000 38 Greater Demon 1494633a
+m 38 moLesser 100 ff2020 0012000000440000 1 Lesser Demon 51545aa7
+m 39 moLesserM 100 802020 0012002000040000 38 Lesser Demon 51545aa7
+m 40 moShark 83 2070c0 0004000044000000 40 Ice Shark 07d3c13b
+m 41 moRunDog 87 ffffff 0004000000000000 1 Running Dog a267b453
+m 42 moGreaterShark 83 c00040 0004240044000000 42 Demon Shark 0e8ef751
+m 43 moFireFairy 83 c00040 000a000000000000 1 Fire Fairy 13fc03c0
+m 44 moCrystalSage 67 4000c0 000a004000000000 1 Crystal Sage 7a4f9a75
+m 45 moLancer 80 4040c0 000a000000000000 1 Pikeman c71b9399
+m 46 moFlailer 70 c04040 0002000000000000 1 Flail Guard 4cfcc3f6
+m 47 moMiner 77 404040 0002000000000000 1 Miner c83bc7e0
+m 48 moVineBeast 86 421c52 0004000000000000 1 Vine Beast f5f5b74f
+m 49 moVineSpirit 86 ffc0c0 0004040448000000 19 Vine Spirit 844edb12
+m 50 moDarkTroll 84 803030 0002020000000000 1 Dark Troll a0d7f90e
+m 51 moEarthElemental 69 ffff40 000a000000000020 51 Earth Elemental 91d55e98
+m 52 moBug0 66 c04040 0015000000001000 52 Red Hyperbug a9439e8a
+m 53 moBug1 66 40c040 0015000000001000 53 Green Hyperbug a9439e8a
+m 54 moBug2 66 4040c0 0015000000001000 54 Blue Hyperbug a9439e8a
+m 55 moWitch 87 404040 0002100000100000 1 Witch Apprentice e835fc94
+m 56 moWitchSpeed 87 ff4040 0002100000100000 1 Speed Witch f2c93d1c
+m 57 moWitchFlash 87 ffffff 0002100000100000 1 Flash Witch 2f867c3f
+m 58 moWitchFire 87 ff8000 0002100000100000 1 Fire Witch 464a1b04
+m 59 moWitchWinter 87 8080ff 0002340000100000 59 Winter Witch b9eb8036
+m 60 moWitchGhost 87 808080 0002340040100000 60 Aether Witch 8d197424
+m 61 moEvilGolem 64 905050 0002100000000020 1 Evil Golem 742f0c34
+m 62 moKnight 64 8080ff 0003000000000411 0 Knight 6bd55c2a
+m 63 moCultistLeader 80 d10000 000a000100000000 67 Cult Leader 918d7e1f
+m 64 moSlimeNextTurn 66 909000 0002000000000000 0 Slime Beast c0ccf6fe
+m 65 moKnightMoved 64 8080ff 0005800000000411 0 Knight 6bd55c2a
+m 66 moIllusion 64 8b4513 0005008000000421 0 Illusion 7c0614ff
+m 67 moPirate 80 d00000 0002000100000000 67 Pirate 8757f2be
+m 68 moCShark 83 8080c0 0004000044000000 40 Shark 7b607a6a
+m 69 moParrot 80 0000ff 0004040048000000 19 Parrot 8febe1cd
+m 70 moHexSnake 83 e09000 00080400c0080201 0 Rock Snake ee75268c
+m 71 moHexSnakeTail 115 e09000 00100020c0080201 0 Rock Snake Tail ee75268c
+m 72 moRedTroll 84 c02020 0002020000000000 1 Red Troll 40ddb176
+m 73 moBomberbird 66 a00000 0004008200200000 24 Bomberbird 94f5cc73
+m 74 moAlbatross 65 ffffff 0004008200200000 24 Albatross f10bac84
+m 75 moTameBomberbird 66 40c000 0005008200200411 75 Tame Bomberbird 06d7595d
+m 76 moTameBomberbirdMoved 66 40c000 0005808200200411 75 Tame Bomberbird 06d7595d
+m 77 moPalace 71 ff0000 0002000000000180 1 Palace Guard 83b49a26
+m 78 moFatGuard 71 c06000 0002000000000180 1 Fat Guard 6c46dec2
+m 79 moSkeleton 71 ffffff 000a0000000000a0 1 Skeleton c2da62c4
+m 80 moVizier 71 c000c0 000a000000000180 1 Vizier 8bc38c31
+m 81 moViking 86 c0c0c0 0002000100000000 67 Viking 7fd42372
+m 82 moFjordTroll 84 00ffff 0002020000000000 1 Fjord Troll e5b70d8e
+m 83 moWaterElemental 69 0000ff 000a000040000020 83 Water Elemental 6d7092ab
+m 84 moMouse 77 d0d0d0 000500c000000411 0 Mouse b58c6e5a
+m 85 moMouseMoved 77 d0d0d0 0005804000000411 0 Mouse b58c6e5a
+m 86 moPrincess 80 ff80ff 0003004000000595 0 Prince b58c6e5a
+m 87 moPrincessMoved 80 ff80ff 0003804000000595 0 Princess b58c6e5a
+m 88 moPrincessArmed 80 ff80ff 0003000000000595 0 Prince b58c6e5a
+m 89 moPrincessArmedMoved 80 ff80ff 0003800000000595 0 Princess b58c6e5a
+m 90 moFamiliar 70 d03000 0004000000000000 1 Familiar 395b98cb
+m 91 moGargoyle 66 707070 0004008200200000 24 Gargoyle ed38f31f
+m 92 moFireElemental 69 ff0000 0002000000000000 1 Fire Elemental fa6bc763
+m 93 moAirElemental 69 c0c0ff 000a008200000000 93 Air Elemental 36a15d63
+m 94 moOrangeDog 68 c06000 0004000000000000 1 Striped Dog 661e0ca6
+m 95 moTentacleGhost 71 ffffff 0004248ec2080001 0 Tentacle+Ghost 69296b43
+m 96 moMetalBeast 66 8080c0 00040000004000c0 1 Metal Beast 0d718208
+m 97 moMetalBeast2 66 c060c0 00040000004000c0 1 Rich Metal Beast 0d718208
+m 98 moOutlaw 79 a06020 000a000000000000 1 Outlaw f243a386
+m 99 moMutant 67 c0c060 00100400c001c001 0 Mutant Ivy e554b00c
+m 100 moStormTroll 84 0080ff 0002020000000000 1 Storm Troll 0d718208
+m 101 moForestTroll 84 00c080 0002020000000000 1 Forest Troll 86727d3c
+m 102 moRedFox 70 c35817 000c000000000000 1 Giant Fox 24fbd866
+m 103 moWindCrow 67 8080ff 000c008200200000 24 Wind Crow 46dfef31
+m 104 moFriendlyGhost 71 c0ffc0 0005008e02000431 104 Friendly Ghost 0d758bea
+m 105 moRatling 82 906030 0002080100000000 67 Ratling a36b5b01
+m 106 moFalsePrincess 70 c00000 0002000000000000 1 False Princess 499f0f9c
+m 107 moRoseLady 82 500050 0002040000000000 1 Rose Lady 499f0f9c
+m 108 moRoseBeauty 82 f0a0d0 000a000000000000 1 Rose Beauty 499f0f9c
+m 109 moRatlingAvenger 82 806040 0002080100000000 67 Ratling Avenger 74e0059f
+m 110 moTortoise 84 487830 0014000000400080 1 Tortoise 92909a55
+m 111 moDragonHead 68 c03000 00000082d0080281 111 Dragon fa6b9e45
+m 112 moDragonTail 100 c03000 00100082d0084281 111 Dragon fa6b9e45
+m 113 moGadfly 70 909090 0004008200200000 24 Gadfly fb0fcff1
+m 114 moResearcher 89 ff8000 0000000000000000 1 Yendorian Researcher 95361265
+m 115 moSparrowhawk 75 a8a8a8 0004008200200000 24 Sparrowhawk ef73c517
+m 116 moKrakenH 75 d0a0a0 00090000e0000001 0 Kraken b44ebdd2
+m 117 moKrakenT 75 c07070 00100000e0004001 0 Kraken Tentacle b44ebdd2
+m 118 moDraugr 68 f09090 0002000000400020 1 Draugr 78332f17
+m 119 moFriendlyIvy 67 c08000 00010000c0010401 0 Friendly Ivy 8b915f1a
+m 120 moVampire 86 c000c0 000400c200200000 24 Vampire Bat 2bb4ef21
+m 121 moBat 66 404040 001400c200200000 24 Bat db0648eb
+m 122 moReptile 82 8080c0 0004000000000080 122 Reptile 51ae8512
+m 123 moHerdBull 66 606020 0015010000000000 124 Herd Bull 9a75fff2
+m 124 moRagingBull 66 a03000 0005010000000000 1 Raging Bull a13dbd62
+m 125 moSleepBull 66 b07000 0015010000000000 124 Sleeping Bull 6a56c521
+m 126 moButterfly 83 ffd500 0015008200200000 126 Butterfly ae20d95e
+m 127 moNarciss 78 ffff80 0002000000000000 1 Narcissist 761d259f
+m 128 moMirrorSpirit 77 ffc0ff 000a000000000000 1 Mirror Spirit 00467f67
+m 129 moHunterDog 87 202020 0004000000000000 1 Hunting Dog 7c5df0f4
+m 130 moTerraWarrior 84 e2725b 00020000000001a0 1 Terracotta Warrior 5221fcb1
+m 131 moJiangshi 74 50a030 0002000000000020 1 Jiangshi 2fcccce6
+m 132 moVoidBeast 66 a00000 0002000000000020 132 Void Beast c3c20173
+m 133 moLavaWolf 87 a00000 0004000000000000 1 Lava Wolf c6a03c32
+m 134 moHunterGuard 87 202020 0014000000000000 1 Hunting Dog (guarding) 7c5df0f4
+m 135 moIceGolem 71 c0c0ff 0002000000000020 1 Ice Golem a3218627
+m 136 moSandBird 66 c0c0ff 0004000000000000 0 Sand Bird 499f0f9c
+m 137 moSalamander 83 a00000 0004000000000080 1 Salamander 473284b9
+m 138 moHunterChanging 87 202020 0010000000000000 1 Hunting Dog (regrouping) 766c99a2
+m 139 moNorthPole 66 c00000 0001000000800000 1 North Pole 499f0f9c
+m 140 moSouthPole 66 0000c0 0001000000800000 1 South Pole 499f0f9c
+m 141 moPair 80 c03000 0003000000000002 1 Red Raider 8bfdba1b
+m 142 moHexDemon 72 c0c0c0 0002000000000002 142 Gray Raider 97cdf97b
+m 143 moAltDemon 65 80b080 0002000000000002 143 Green Raider dc470089
+m 144 moMonk 77 904000 0002000000000002 144 Brown Raider a177cae3
+m 145 moCrusher 67 0060e0 0002000000000002 1 Blue Raider b4859994
+m 146 moSwitch1 64 c00000 0005000001000000 1 Red Jelly c8b44759
+m 147 moSwitch2 64 0000c0 0005000001000000 1 Blue Jelly c8b44759
+m 148 moBrownBug 66 e07000 0004000000000080 1 Bronze Beast eaf9cc7b
+m 149 moAcidBird 66 e07060 000c008200200000 24 Acid Gull a458b42f
+m 150 moVariantWarrior 87 a04060 0002000000000000 1 Mutant 625f9a77
+m 151 moFallingDog 87 707080 0004000000000000 1 Falling Dog f50acaef
+m 152 moWestHawk 66 c0c040 0004008200200000 24 Western Hawk 60d6743f
+m 153 moAsteroid 65 606040 0000000000000000 1 Space Rock 61bebba7
+m 154 moPike 80 c08080 0004000044000000 40 Pike da98873c
+m 155 moWorldTurtle 84 ff00ff 0014000000400080 1 World Turtle ea63a77e
+m 156 moRusalka 82 4040c0 000c000004000000 40 Rusałka 499f0f9c
+m 157 moFrog 70 60a060 0028000000000000 157 Giant Frog ea411978
+m 158 moPhaser 70 ffff80 0028000000000000 158 Yellow Frog 334e7323
+m 159 moVaulter 70 8080ff 0028000000000000 159 Blue Frog cf53acbf
+m 160 moVariantWarrior2 87 a04060 0002000000000000 1 Mutant2 625f9a77
+m 161 moHexer 72 181818 0002000000000000 1 Canyon Hag bfc38445
+m 162 moAnimatedDie 100 603010 0000000000000000 162 Animated Die 3a74f8da
+m 163 moAngryDie 100 901020 0000000000000000 162 Angry Die 9c4c4300
+m 164 moDonkey 68 a0a0a0 0005000000000000 1 Donkey 0fcb0ee9
+m 165 moPlayer 64 c0c0c0 0002000000000800 0 Rogue bd2183b7
+m 166 moBullet 42 c0c0c0 0000000000020000 0 Knife b9afd7a9
+m 167 moFlailBullet 42 ff0000 0000000000020000 0 Flail b4c08f65
+m 168 moFireball 42 ffff00 0000000000020000 0 Fireball 88cf64ba
+m 169 moTongue 42 ffff00 0000000000020000 0 Tongue f09dc553
+m 170 moAirball 42 ffffff 0000000000020000 0 Airball 6f3a3b67
+m 171 moCrushball 42 0060e0 0000000000020000 0 Blueball 5cee0f72
+m 172 moDeadBug 63 00c000 0000400000000000 0 dead bug 499f0f9c
+m 173 moLightningBolt 63 ffff00 0000400000000000 0 electric discharge 0d718208
+m 174 moDeadBird 63 e06000 0000400000000000 0 dead bird 499f0f9c
+m 175 moEnergySword 63 e06000 0000400000000000 0 Energy Sword 499f0f9c
+m 176 moWarning 33 ff0000 0000400000000000 0 Warning a903c246
+m 177 moArrowTrap 33 ff0000 0000400000020000 0 arrow trap b538a091
+m 178 moRogueviz 42 000000 0000400000000000 0 vertex 80a04065
+m 179 moRoguevizExtender 42 000000 0000400000000000 0 edge 8ab69b71
+i 0 itNone 0 000000 -1 0000000000000002 0 no item 499f0f9c
+i 1 itDiamond 42 ffffff 0 0000000000000000 0 Ice Diamond 8b729428
+i 2 itGold 36 ffd700 0 0000000000000000 0 Gold 20829254
+i 3 itSpice 59 ff4000 0 0000000000000000 0 Spice 2a11a526
+i 4 itRuby 42 c00000 0 0000000000000000 0 Ruby a23b68fe
+i 5 itElixir 33 ffff00 0 0000000000000000 0 Elixir of Life 9a25351b
+i 6 itShard 37 ff00ff 0 0000000000000000 0 Shard 4739c316
+i 7 itBone 47 ff8000 0 0000000000000000 0 Necromancer's Totem 6441566b
+i 8 itHell 37 00d000 0 0000000000000000 0 Demon Daisy 4cd31238
+i 9 itStatue 47 00ff00 0 0000000000000000 0 Statue of Cthulhu 32241fe0
+i 10 itFeather 42 ff8000 0 0000000000000000 0 Phoenix Feather d2130edf
+i 11 itSapphire 42 8080ff 0 0000000000000000 0 Ice Sapphire 805dc851
+i 12 itHyperstone 42 eeff20 0 0000000000000000 0 Hyperstone 17acc510
+i 13 itKey 91 8080ff 1 0000000000000002 0 Key b6beba1e
+i 14 itGreenStone 111 306030 1 0000000000000000 0 Dead Orb 381456a5
+i 15 itOrbYendor 111 ff20ff 1 0000000000000000 0 Orb of Yendor 01039639
+i 16 itOrbLightning 111 ffff00 2 0000000000000000 3 Orb of Storms 8f40018c
+i 17 itOrbFlash 111 ffffff 2 0000000000000000 3 Orb of Flash 7aa7c237
+i 18 itOrbWinter 111 8080ff 2 000000000000000e 10 Orb of Winter ffbc8d2e
+i 19 itOrbSpeed 111 ff6060 2 0000000000000008 11 Orb of Speed 0155bc05
+i 20 itOrbLife 111 90b090 2 0000000000000060 4 Orb of Life d12f214c
+i 21 itOrbShield 111 60d760 2 000000000000000c 10 Orb of Shielding a0e7684b
+i 22 itOrbDigging 111 606060 2 0000000000000008 12 Orb of Earth 7124739d
+i 23 itOrbTeleport 111 20ffff 2 0000000000000010 2 Orb of Teleport 6a8673ee
+i 24 itOrbSafety 111 a0ff40 2 0000000000000000 5 Orb of Safety 519dce43
+i 25 itOrbThorns 111 40c000 2 0000000000000008 3 Orb of Thorns b6704347
+i 26 itFernFlower 37 0000ff 0 0000000000000000 0 Fern Flower ea9652ac
+i 27 itWine 33 900000 0 0000000000000000 0 Wine a684badd
+i 28 itOrbAether 111 706070 2 0000000000000008 11 Orb of Aether f626de6d
+i 29 itSilver 36 ffffc0 0 0000000000000000 0 Silver 97f6b8be
+i 30 itOrbPsi 111 005050 2 0000000000000010 2 Orb of the Mind 8c18c036
+i 31 itRoyalJelly 33 e2b227 0 0000000000000000 0 Royal Jelly 1da00c17
+i 32 itEmerald 42 60c060 0 0000000000000000 0 Emerald 4be5d38d
+i 33 itOrbInvis 111 421c52 2 000000000000000c 10 Orb of Invisibility f221344c
+i 34 itPower 42 ffff00 0 0000000000000000 0 Powerstone d0ea8b66
+i 35 itOrbFire 111 ff4000 2 000000000000000a 12 Orb of Fire eaa5608c
+i 36 itHolyGrail 33 ffff00 1 0000000000000000 0 Holy Grail 6bd55c2a
+i 37 itGrimoire 63 00ff00 0 0000000000000000 0 Grimoire cac62e83
+i 38 itOrbDragon 111 ff8000 2 0000000000000012 2 Orb of the Dragon 035cc87b
+i 39 itOrbIllusion 111 8b4513 2 0000000000000010 2 Orb of Trickery c8cf4121
+i 40 itPirate 120 ff0000 0 0000000000000000 0 Pirate Treasure 27ef0f12
+i 41 itCompass 63 ffffff 1 0000000000000000 0 Compass ed64efc6
+i 42 itRedGem 42 ff8080 0 0000000000000000 0 Red Gem 571441ad
+i 43 itOrbTime 111 6060ff 2 0000000000000000 9 Orb of Time f28fd024
+i 44 itOrbSpace 111 40c0c0 2 0000000000000010 2 Orb of Space e73c5326
+i 45 itBombEgg 33 ff8080 0 0000000000000000 0 Bomberbird Egg a2e7a569
+i 46 itCoast 42 ffbf00 0 0000000000000000 0 Amber 51c30c4d
+i 47 itWhirlpool 36 ffffff 0 0000000000000000 0 Pearl 37081000
+i 48 itOrbFriend 111 306000 2 0000000000000060 4 Orb of Friendship 277ce79c
+i 49 itOrbWater 111 000060 2 0000000000000008 12 Orb of Water 2349b5bb
+i 50 itOrbAir 111 c0c0ff 2 0000000000000010 2 Orb of Air 6a1de001
+i 51 itPalace 63 802000 0 0000000000000000 0 Hypersian Rug a4e001b5
+i 52 itOrbFrog 111 60a060 2 0000000000000010 8 Orb of the Frog 7dee0a86
+i 53 itFjord 42 800000 0 0000000000000000 0 Garnet e7fb6672
+i 54 itOrbFish 111 0070c0 2 0000000000000008 0 Orb of the Fish 997e5785
+i 55 itOrbDiscord 111 c00000 2 0000000000000000 4 Orb of Discord 196ee57e
+i 56 itSavedPrincess 80 00ff00 3 0000000000000000 0 SAVE b58c6e5a
+i 57 itOrbLove 111 ff208f 2 0000000000000020 1 Orb of Love 2a88aba7
+i 58 itIvory 47 ffffe0 0 0000000000000000 0 Ivory Figurine 77d30edc
+i 59 itZebra 42 606060 0 0000000000000000 0 Onyx d54b3e9f
+i 60 itFireShard 37 ff8000 1 0000000000000001 0 Fire Shard cf106648
+i 61 itAirShard 37 8080c0 1 0000000000000001 0 Air Shard cf106648
+i 62 itEarthShard 37 80c080 1 0000000000000001 0 Earth Shard cf106648
+i 63 itWaterShard 37 0000c0 1 0000000000000001 0 Water Shard cf106648
+i 64 itElemental 42 f0f0f0 0 0000000000000000 0 Elemental Gem cf106648
+i 65 itOrbSummon 111 309060 2 0000000000000010 2 Orb of Summoning 8fe4528a
+i 66 itOrbMatter 111 306090 2 0000000000000010 2 Orb of Matter 9761a2ab
+i 67 itBounty 42 f0f000 0 0000000000000000 0 Bounty f243a386
+i 68 itRevolver 91 c0c0c0 1 0000000000000010 2 Revolver f243a386
+i 69 itFulgurite 42 f0f080 0 0000000000000000 0 Fulgurite 0d718208
+i 70 itMutant 37 ffffff 0 0000000000000000 0 Mutant Sapling e554b00c
+i 71 itOrbStunning 111 a08000 2 0000000000000010 2 Orb of Stunning 5ac4ce7a
+i 72 itOrbLuck 111 c00000 2 0000000000000000 5 Orb of Luck 7b628fe7
+i 73 itMutant2 37 d03030 0 0000000000000000 0 Mutant Fruit bec03953
+i 74 itOrbFreedom 111 c00000 2 0000000000000000 3 Orb of Freedom 5957d23b
+i 75 itLotus 37 606060 0 0000000000000000 0 Black Lotus 00c0fbd5
+i 76 itOrbUndeath 111 505050 2 0000000000000068 4 Orb of Undeath 585271b8
+i 77 itWindstone 42 8080ff 0 0000000000000000 0 White Dove Feather 8cd7ba11
+i 78 itOrbEmpathy 111 c00060 2 0000000000000020 4 Orb of Empathy 3043294a
+i 79 itStrongWind 62 0000ff 3 0000000000000000 0 strong wind 08e6e3a5
+i 80 itBuggy 120 ff00ff 3 0000000000000000 0 buggy item 54984040
+i 81 itBuggy2 120 ffff00 3 0000000000000000 0 buggy item 54984040
+i 82 itRose 37 9d131f 0 0000000000000000 0 Thornless Rose d1a7fc62
+i 83 itCoral 42 ff40a0 0 0000000000000000 0 Coral c6c4bec0
+i 84 itOrbBeauty 111 ec9cf8 2 0000000000000000 10 Orb of Beauty 2b43e5a6
+i 85 itOrb37 111 ffff80 2 0000000000000000 7 Orb of the Warp dbf873b7
+i 86 itOrbEnergy 111 ffff80 2 0000000000000000 9 Orb of Energy 307b8c0b
+i 87 itBabyTortoise 116 487830 0 0000000000000000 0 Baby Tortoise 92909a55
+i 88 itOrbShell 111 487830 2 0000000000000004 10 Orb of the Shell f41d88b9
+i 89 itApple 33 c00000 0 0000000000000000 0 Apple 960781d3
+i 90 itDragon 33 ff6000 0 0000000000000002 0 Dragon Scale 484c5df2
+i 91 itOrbDomination 111 900000 2 0000000000000030 2 Orb of Domination ab122f49
+i 92 itOrbSword 111 ffff80 2 0000000000000000 6 Orb of the Sword 473cf94f
+i 93 itKraken 120 4040ff 0 0000000000000000 0 Sunken Treasure 87f83b1b
+i 94 itOrbSword2 111 ff8040 2 0000000000000000 6 Orb of the Sword II 7d64af49
+i 95 itBarrow 42 ffff80 0 0000000000000000 0 Ancient Jewelry 90d40a1f
+i 96 itTrollEgg 33 ffd700 0 0000000000000000 0 Golden Egg 26985c69
+i 97 itWarning 33 ff0000 3 0000000000000000 0 Warning a903c246
+i 98 itOrbStone 111 808080 2 0000000000000008 12 Orb of the Stone 20c8eb03
+i 99 itOrbNature 111 c08000 2 0000000000000030 2 Orb of Nature 8b915f1a
+i 100 itTreat 37 800080 0 0000000000000002 0 Treat 64369122
+i 101 itSlime 37 30a030 0 0000000000000000 0 Slime Mold 8e364e53
+i 102 itAmethyst 42 ff00ff 0 0000000000000000 0 Amethyst e46a1283
+i 103 itOrbRecall 111 c00040 2 0000000000000000 5 Orb of Recall 5133a7bf
+i 104 itDodeca 93 8080ff 0 0000000000000000 0 Dodecahedron fcb33302
+i 105 itOrbDash 111 8080ff 2 0000000000000010 8 Orb of Vaulting d2be3468
+i 106 itGreenGrass 36 80ff80 0 0000000000000000 0 Green Grass f4abbf5a
+i 107 itOrbHorns 111 c09090 2 0000000000000000 6 Orb of Horns 47abf005
+i 108 itOrbBull 111 a05020 2 0000000000000000 6 Orb of the Bull 4a37fcab
+i 109 itBull 36 c060c0 0 0000000000000000 0 Spinel ae20d95e
+i 110 itOrbMirror 111 c0c0ff 2 0000000000000000 0 Orb of the Mirror e68f2220
+i 111 itInventory 79 f0f0f0 1 0000000000000000 0 your orbs 6a55f298
+i 112 itLavaLily 37 e0e000 0 0000000000000002 0 Lava Lily cf608c22
+i 113 itHunting 42 40e0d0 0 0000000000000000 0 Turquoise 155cbbfe
+i 114 itBlizzard 42 009090 0 0000000000000000 0 Forgotten Relic bed066c1
+i 115 itTerra 40 ffe080 0 0000000000000000 0 Ancient Weapon 4369d9c2
+i 116 itOrbSide1 111 307080 2 0000000000000008 3 Orb of Slashing 99c0650d
+i 117 itOrbSide2 111 30a080 2 0000000000000008 3 Orb of the Triangle d301aff4
+i 118 itOrbSide3 111 30d080 2 0000000000000008 3 Orb of Ferocity 808417e8
+i 119 itOrbLava 111 d08030 2 0000000000000002 12 Orb of Lava a881ff2b
+i 120 itOrbMorph 111 3080d0 2 0000000000000010 2 Orb of Change a523bd91
+i 121 itGlowCrystal 33 80ff00 0 0000000000000000 0 Glowing Crystal 7096cdb3
+i 122 itSnake 33 80ff80 0 0000000000000000 0 Snake Oil 8256fc6d
+i 123 itDock 33 80ff80 0 0000000000000000 0 Sea Glass 499f0f9c
+i 124 itRuins 42 bbcc99 0 0000000000000000 0 Chrysoberyl d8b20ba4
+i 125 itMagnet 42 80ff80 0 0000000000000000 0 Monopole 499f0f9c
+i 126 itSwitch 33 ff00ff 0 0000000000000000 0 Tasty Jelly 2067034c
+i 127 itOrbPhasing 111 ffff80 2 0000000000000000 8 Orb of Phasing cb82f1ba
+i 128 itOrbMagnetism 111 ffff80 2 0000000000000000 5 Orb of Magnetism f1571e10
+i 129 itOrbSlaying 111 202020 2 0000000000000008 3 Orb of Slaying 02250b6d
+i 130 itBrownian 42 ffa860 0 0000000000000000 0 Tiger's Eye 41a5e00b
+i 131 itWest 36 f0c0c0 0 0000000000000000 0 Meteorite f58b2f6a
+i 132 itVarTreasure 42 30ff30 0 0000000000000000 0 Torbernite 0e27d22a
+i 133 itOrbIntensity 111 703800 2 0000000000000000 9 Orb of Intensity e27041fd
+i 134 itOrbGravity 111 80d080 2 0000000000000020 7 Orb of Gravity c0dcf98e
+i 135 itOrbChoice 111 d08080 2 0000000000000000 0 Orb of Choice 1dee06c8
+i 136 itAsteroid 33 ffd0d0 0 0000000000000000 0 Fuel 61bebba7
+i 137 itWet 37 ff6ec7 0 0000000000000000 0 Water Lily 440493aa
+i 138 itOrbPlague 111 808080 2 0000000000000008 3 Orb of Plague 2964f151
+i 139 itFrog 36 ffd520 0 0000000000000000 0 Gold Ball 9cb60e26
+i 140 itOrbImpact 111 808080 2 0000000000000000 5 Orb of Impact 8ae02bc5
+i 141 itEclectic 47 26619c 0 0000000000000000 0 Lazurite Figurine 09f6b7ad
+i 142 itOrbChaos 111 808080 2 0000000000000000 12 Orb of Chaos bb5b113b
+i 143 itOrbPurity 111 f0f0ff 2 0000000000000000 10 Orb of Purity 466e6258
+i 144 itCurseWeakness 99 202020 2 0000000000000080 3 Curse of Weakness f2227e4f
+i 145 itCurseDraining 99 6060ff 2 0000000000000080 9 Curse of Draining dd317a8d
+i 146 itCurseWater 99 000060 2 0000000000000080 12 Curse of Water abe3a196
+i 147 itCurseFatigue 99 ff6060 2 0000000000000080 11 Curse of Fatigue e47a5aba
+i 148 itCurseRepulsion 99 ffff80 2 0000000000000080 5 Curse of Repulsion 2fab594b
+i 149 itCurseGluttony 99 d08080 2 0000000000000080 0 Curse of Gluttony 4080eea1
+i 150 itFatigue 62 ff6060 3 0000000000000000 0 fatigue 353a169b
+i 151 itCursed 36 da5e29 0 0000000000000000 0 Capon Stone cf389fd0
+i 152 itOrbWoods 111 208020 2 0000000000000000 12 Orb of the Woods bc46d9d3
+i 153 itDice 47 d0d0d8 0 0000000000000000 0 Crystal Die f0edd70b
+i 154 itCrossbow 125 ffff80 3 0000000000000000 0 Crossbow 454fd937
+w 0 waNone 46 ff00ff 0000000000008000 0 0 no wall 499f0f9c
+w 1 waIcewall 35 8080ff 0000000000018200 0 0 ice wall e8e4f198
+w 2 waBarrier 35 c06000 0000000000010200 0 0 great wall 2611438d
+w 3 waFloorA 43 900030 0000000000800080 0 3 red slime c0ccf6fe
+w 4 waFloorB 43 300090 0000000000800080 0 4 blue slime c0ccf6fe
+w 5 waCavewall 35 a0d0a0 0000000000010200 0 1 living wall 5159cb36
+w 6 waCavefloor 46 306060 0000000000000000 0 0 living floor 5159cb36
+w 7 waDeadTroll 35 d03030 0000000000010200 0 0 dead rock troll 70aef1ac
+w 8 waDune 35 cda98f 0000000000010a00 0 0 sand dune d82b6765
+w 9 waMirror 37 c0c0ff 0000000000000200 0 0 Magic Mirror 0c5bf75e
+w 10 waCloud 37 ffc0c0 0000000000000200 0 0 Cloud of Mirage d5a0365e
+w 11 waThumperOff 94 8d694f 0000000000000260 0 0 Thumper 22f3a6ae
+w 12 waFire 94 804000 0000000000840010 0 0 Fire c658185d
+w 13 waAncientGrave 43 c0c0c0 0000000000412200 0 0 ancient grave 4ea7e16f
+w 14 waFreshGrave 43 d0d080 0000000000412200 0 0 fresh grave 45ddfa07
+w 15 waColumn 35 00ffff 0000000000010200 0 0 column 7d000406
+w 16 waSulphurC 61 ffff00 0000000000100004 0 0 lake of sulphur 85389d81
+w 17 waSulphur 61 ffff00 0000000000100004 0 0 lake of sulphur 85389d81
+w 18 waLake 61 000080 0000000000008001 0 2 lake 5576f795
+w 19 waFrozenLake 95 000080 0000000000008000 0 0 frozen lake aff6f222
+w 20 waChasm 62 101010 0000000000000004 0 0 chasm a1c79b8a
+w 21 waChasmD 62 101010 0000000000000200 0 0 chasmD a1c79b8a
+w 22 waBigTree 35 60c000 0000000000011a00 0 0 big tree 41a1666b
+w 23 waSmallTree 35 006000 0000000000011a00 0 0 tree 41a1666b
+w 24 waVinePlant 35 8438a4 0000000000010200 0 5 vine 3c0ed1cb
+w 25 waVineHalfA 58 006000 0000000000200008 0 5 vine c1397212
+w 26 waVineHalfB 59 006000 0000000000200008 0 5 vine c1397212
+w 27 waPartialFire 94 804000 0000000000840010 0 0 partial fire d724ea02
+w 28 waDeadwall 35 a07070 0000000000810200 0 1 dead wall f84abaa3
+w 29 waDeadfloor 46 401010 0000000000800000 0 0 dead floor f84abaa3
+w 30 waDeadfloor2 46 905050 0000000000800000 1 0 rubble e9688107
+w 31 waWaxWall 35 d0d010 0000000000010200 0 0 weird rock 523c2b4d
+w 32 waGlass 35 8080c0 0000000000000200 0 0 crystal cabinet 433f37a2
+w 33 waCamelot 35 c0c0c0 0000000000010200 0 0 wall of Camelot 6bd55c2a
+w 34 waRoundTable 43 a06000 0000000000c00200 1 0 Round Table 6bd55c2a
+w 35 waCamelotMoat 61 0000a0 0000000000000001 0 2 moat of Camelot 6bd55c2a
+w 36 waBigStatue 43 606060 0000000000000200 0 0 big statue of Cthulhu ec2ebdbf
+w 37 waSea 61 0000a0 0000000000000001 0 2 sea fb63eb59
+w 38 waBoat 43 0000a0 000000000080000a 0 0 boat 99eb234a
+w 39 waCIsland 46 00ff00 0000000000880000 0 0 island e6e999a8
+w 40 waCIsland2 46 80c060 0000000000880000 0 0 island e6e999a8
+w 41 waCTree 35 006000 0000000000090a00 0 6 tree 170508a5
+w 42 waRed1 44 800000 0000000000800100 1 0 rock I a2def125
+w 43 waRed2 58 c00000 0000000000800100 2 0 rock II a2def125
+w 44 waRed3 59 ff0000 0000000000800100 3 0 rock III a2def125
+w 45 waMineUnknown 46 d0d0d0 0000000000000000 0 0 minefield 8651338b
+w 46 waMineMine 46 d0d0d0 0000000000000000 0 0 minefield 8651338b
+w 47 waMineOpen 46 909090 0000000000800000 0 0 cell without mine 8651338b
+w 48 waStrandedBoat 43 808000 000000000000000a 0 0 stranded boat 11725323
+w 49 waPalace 35 ffd500 0000000000010200 0 0 palace wall 35751a26
+w 50 waClosedGate 43 ffffff 0000000000010200 0 0 closed gate acd5ecf5
+w 51 waOpenGate 45 404040 0000000000000000 0 0 open gate acd5ecf5
+w 52 waClosePlate 95 c00000 0000000000800000 0 0 closing plate acd5ecf5
+w 53 waOpenPlate 95 00c050 0000000000800000 0 0 opening plate acd5ecf5
+w 54 waTrapdoor 95 202020 0000000000800000 0 0 trapdoor cd4194d7
+w 55 waGiantRug 43 ff0000 0000000000800000 0 0 giant rug 25dc2731
+w 56 waPlatform 35 fffff0 0000000000010200 0 0 platform f5bbf17e
+w 57 waGargoyle 35 909090 0000000000410200 0 0 stone gargoyle ed38f31f
+w 58 waGargoyleFloor 46 b0b0b0 0000000000800000 1 0 stone gargoyle floor ed38f31f
+w 59 waRubble 46 909090 0000000000800000 1 0 rubble 9a1fbffd
+w 60 waLadder 43 804000 0000000000800000 0 0 ladder cb1f59e9
+w 61 waStone 35 c0c0c0 0000000000010200 0 0 limestone wall 487a0c44
+w 62 waBonfireOff 94 804000 0000000000000240 0 0 Bonfire 1a09616e
+w 63 waThumperOn 94 8d694f 0000000000040620 0 0 Thumper 22f3a6ae
+w 64 waEternalFire 94 804000 0000000000800010 0 0 Eternal Fire 16c0798f
+w 65 waGargoyleBridge 46 909090 0000000000800000 1 0 stone gargoyle bridge ed38f31f
+w 66 waTempWall 35 309060 0000000000050200 0 0 temporary wall f4fa6278
+w 67 waTempFloor 46 309060 0000000000840000 1 0 temporary floor f4fa6278
+w 68 waTempBridge 46 309060 0000000000840000 1 0 temporary bridge f4fa6278
+w 69 waCharged 35 3030ff 0000000000010200 0 0 charged wall 0d718208
+w 70 waGrounded 35 ff3030 0000000000010200 0 0 grounded wall 0d718208
+w 71 waSandstone 35 a0a060 0000000000010200 0 0 sandstone wall 0d718208
+w 72 waSaloon 35 704000 0000000000010200 0 0 saloon wall f243a386
+w 73 waMetal 35 90c0c0 0000000000010200 0 0 metal wall 0d718208
+w 74 waDeadTroll2 35 607030 0000000000010200 0 0 dead troll 5534f0e4
+w 75 waFan 43 c0c0ff 0000000000000200 0 0 fan 6ce1a92a
+w 76 waTemporary 63 ff00ff 0000000000000200 0 0 <temporary> 499f0f9c
+w 77 waEarthD 63 ff00ff 0000000000000200 0 0 <earth d 499f0f9c
+w 78 waElementalTmp 63 ff00ff 0000000000000200 0 0 <elemental tmp> 499f0f9c
+w 79 waElementalD 63 ff00ff 0000000000000200 0 0 <elemental d> 499f0f9c
+w 80 waSlime1 43 00f000 0000000000000000 0 0 green slime 499f0f9c
+w 81 waSlime2 43 f0f000 0000000000000000 0 0 yellow slime 499f0f9c
+w 82 waRose 35 764e7c 0000000000030200 0 0 rosebush b0a72f6f
+w 83 waWarpGate 35 c0c000 0000000000010200 0 0 warp gate 3debd122
+w 84 waTrunk 43 804000 0000000000000008 0 0 trunk 36938801
+w 85 waSolidBranch 45 402000 0000000000800000 0 0 solid branch 021984be
+w 86 waWeakBranch 58 804000 0000000000800000 0 0 weak branch 6ccc9323
+w 87 waCanopy 43 60c060 0000000000000000 0 0 canopy 53ea6c8f
+w 88 waBarrowWall 35 d0c060 0000000000010200 0 0 barrow wall b0eed9f0
+w 89 waBarrowDig 35 90a060 0000000000010200 0 0 barrow f6d1a137
+w 90 waPetrified 35 e0e0e0 0000000000410200 0 0 stone statue 9f0c3425
+w 91 waTower 46 e8e8e8 0000000000000000 3 0 tower of Camelot 6bd55c2a
+w 92 waBigBush 45 402000 0000000000800008 0 0 big bush d5ba4a49
+w 93 waSmallBush 58 804000 0000000000800008 0 0 small bush 86c1f34d
+w 94 waReptile 46 ffff00 0000000000804000 0 0 Reptile floor 51ae8512
+w 95 waReptileBridge 46 ffff00 0000000000804000 0 0 Reptile bridge 51ae8512
+w 96 waInvisibleFloor 46 ffff00 0000000000800000 0 0 invisible floor 499f0f9c
+w 97 waMirrorWall 35 c0c0ff 0000000000000200 0 0 mirror wall c2955b52
+w 98 waPetrifiedBridge 46 e0e0e0 0000000000800000 1 0 stepping stones 9f0c3425
+w 99 waTempBridgeBlocked 35 309060 0000000000050200 0 0 temporary wall f4fa6278
+w 100 waTerraWarrior 83 b0b0b0 0000000000000200 0 0 warrior statue 5221fcb1
+w 101 waBubble 61 b0b0b0 0000000000000004 0 0 bubbling slime 499f0f9c
+w 102 waArrowTrap 94 d00000 0000000000800000 0 0 arrow trap b538a091
+w 103 waMercury 61 e2e2e2 0000000000000004 0 0 mercury river 4be11f34
+w 104 waMagma 38 d00000 0000000000000000 1 0 lava 5d6ba83f
+w 105 waDock 61 804000 0000000000800000 0 0 dock da61feb7
+w 106 waBurningDock 94 ff8000 0000000000840010 0 0 burning dock e40faba4
+w 107 waRuinWall 35 e04030 0000000000010200 0 0 ruin wall b1d30ef9
+w 108 waBrownian 35 a04060 0000000000010200 0 0 Brownian generator 499f0f9c
+w 109 waFireTrap 94 c05000 0000000000800000 0 0 fire trap 8a98bb90
+w 110 waExplosiveBarrel 94 fd692f 0000000000000600 0 0 Explosive Barrel 1e4589a9
+w 111 waEditStatue 35 c0c0c0 0000000000000200 0 0 editable statue d54bb79e
+w 112 waTrunk3 43 804000 0000000000000200 0 0 trunk 36938801
+w 113 waShallow 61 00c0c0 0000000000000000 0 2 shallow water 0fbb1905
+w 114 waDeepWater 61 0000a0 0000000000000001 0 2 deep water 8f33b5ad
+w 115 waShrub 35 00c000 0000000000411a00 0 0 shrub 52291c71
+w 116 waCrateCrate 36 fd692f 0000000000000600 0 0 Crate 3a50d7f2
+w 117 waCrateTarget 46 40fd40 0000000000800000 0 0 Target 2ca5f844
+w 118 waCrateOnTarget 36 40fd40 0000000000000600 0 0 Crate on Target 95518976
+w 119 waRichDie 100 7f6a30 0000000000000600 0 0 Unhappy Die d9f6c5e9
+w 120 waHappyDie 100 106040 0000000000000600 0 0 Happy Die 1e20cf0e
+l 0 laNone ff00ff 0000000000000040 0 ??? 811c9dc5
+l 1 laBarrier c06000 0000000000000040 0 Great Wall 811c9dc5
+l 2 laCrossroads ff0000 0000000000000000 12 Crossroads 1a0b09bf
+l 3 laDesert cda98f 0000000000000000 3 Desert 027c16fe
+l 4 laIce 8080ff 0000000000000002 1 Icy Land 52afae92
+l 5 laCaves 306060 0000000000002000 2 Living Cave 5159cb36
+l 6 laJungle 00c000 0000000000000000 4 Jungle ff365856
+l 7 laAlchemist 900090 0000000000000000 5 Alchemist Lab c0ccf6fe
+l 8 laMirror 704070 0000000000000080 6 Hall of Mirrors fff54caa
+l 9 laGraveyard 404070 0000000000000000 7 Graveyard 407dad53
+l 10 laRlyeh 00ff00 0000000000000000 9 R'Lyeh 1f6d2c0a
+l 11 laHell c00000 0000000000000000 8 Hell 9aa92315
+l 12 laCocytus 00ff00 0000000000000002 11 Cocytus aff6f222
+l 13 laMotion ffff00 0000000000000000 10 Land of Eternal Motion cc092786
+l 14 laDryForest 008000 0000000000000000 26 Dry Forest 41a1666b
+l 15 laEmerald 60c060 0000000000000000 32 Emerald Mine c6023aea
+l 16 laWineyard 421c52 0000000000000000 27 Vineyard 3c0ed1cb
+l 17 laDeadCaves 104040 0000000000002000 29 Dead Cave f84abaa3
+l 18 laHive 705020 0000000000000000 31 Hive a9439e8a
+l 19 laPower ffff00 0000000000000000 34 Land of Power 7444fa41
+l 20 laCamelot d0d0d0 0000000000000020 36 Camelot 6bd55c2a
+l 21 laTemple d000d0 0000000000000020 37 Temple of Cthulhu 9a2fedd0
+l 22 laCrossroads2 ff8000 0000000000000000 12 Crossroads II a07fb9ee
+l 23 laCaribbean 0000ff 0000000000000500 40 Caribbean fb63eb59
+l 24 laRedRock 400000 0000000000002000 42 Red Rock Valley a2def125
+l 25 laMinefield d0d0d0 0000000000000000 45 Minefield 8651338b
+l 26 laOcean 2020ff 0000000000000308 46 Ocean 73b7c447
+l 27 laWhirlpool 0000c0 0000000000000120 47 Whirlpool 520fbf96
+l 28 laPalace ffd500 0000000000000000 51 Palace 35751a26
+l 29 laLivefjord c0c000 0000000000002300 53 Living Fjord 66bc25a4
+l 30 laIvoryTower ffffe0 000000000000000c 58 Ivory Tower 035e5ba9
+l 31 laZebra 606060 0000000000000000 59 Zebra 3aa0544f
+l 32 laEFire ffa080 0000000000000800 64 Plane of Fire cf106648
+l 33 laEAir 808080 0000000000000800 64 Plane of Air cf106648
+l 34 laEEarth 80c080 0000000000000800 64 Plane of Earth cf106648
+l 35 laEWater 8080c0 0000000000000800 64 Plane of Water cf106648
+l 36 laCrossroads3 4040ff 0000000000000000 12 Crossroads III 50f46740
+l 37 laOceanWall 4040c0 0000000000000140 0 Sea Border 985c1621
+l 38 laElementalWall 4040c0 0000000000000800 64 Elemental Planes cf106648
+l 39 laCanvas e08020 0000000000000040 0 Canvas 895fb89b
+l 40 laPrincessQuest 00c000 0000000000000000 56 Palace Quest b58c6e5a
+l 41 laWildWest d0d060 0000000000000000 67 Wild West f243a386
+l 42 laStorms 80a080 0000000000022000 69 Land of Storms 0d718208
+l 43 laOvergrown 20a050 0000000000002000 70 Overgrown Woods e554b00c
+l 44 laClearing 20d050 0000000000000020 73 Clearing bec03953
+l 45 laHaunted 303030 0000000000001008 75 Haunted Woods 8d9e36ca
+l 46 laHauntedWall 303030 0000000000001048 75 Haunted Woods 8d9e36ca
+l 47 laHauntedBorder 303030 0000000000001048 75 Haunted Woods 8d9e36ca
+l 48 laWhirlwind c0c0ff 0000000000000000 77 Windy Plains 6ce1a92a
+l 49 laRose ec9cf8 0000000000000000 82 Rose Garden b0a72f6f
+l 50 laWarpCoast ffd580 0000000000000210 83 Warped Coast 6b6da128
+l 51 laWarpSea ffd580 0000000000000310 83 Warped Sea 6b6da128
+l 52 laCrossroads4 c08080 0000000000000000 12 Crossroads IV 4aed912e
+l 53 laEndorian ffd580 000000000000000c 89 Yendorian Forest c668d162
+l 54 laTortoise 487830 0000000000000000 87 Galápagos 92909a55
+l 55 laDragon d04000 0000000000000000 90 Dragon Chasms fa6b9e45
+l 56 laKraken d04000 0000000000000500 93 Kraken Depths 02460f5d
+l 57 laBurial 804020 0000000000000000 95 Burial Grounds 5faf1b53
+l 58 laTrollheim 90a548 0000000000000000 96 Trollheim c4b11dc8
+l 59 laHalloween ff7518 0000000000000000 100 Halloween 64369122
+l 60 laDungeon 605040 000000000000000c 101 Dungeon 49ad1bdb
+l 61 laMountain 603000 0000000000000024 102 Lost Mountain 14cf0609
+l 62 laReptile ffff00 0000000000000000 104 Reptiles 51ae8512
+l 63 laPrairie 0000d0 0000000000000000 106 Prairie f4abbf5a
+l 64 laBull 800080 0000000000000000 109 Bull Dash ae20d95e
+l 65 laCrossroads5 c000c0 0000000000000000 12 Crossroads V 54c0c124
+l 66 laCA c0c0c0 0000000000000040 0 Cellular Automaton 70c570d1
+l 67 laMirrorWall c0c0ff 0000000000008040 6 Mirror Wall c2955b52
+l 68 laMirrored c8c8ff 000000000000c040 6 Reflection c2955b52
+l 69 laMirrorWall2 c0c0ff 000000000000c040 6 Reflection c2955b52
+l 70 laMirrored2 c8c8ff 000000000000c040 6 Reflection c2955b52
+l 71 laMirrorOld c8c8ff 0000000000000080 6 Mirror Land 1858605e
+l 72 laVolcano a06000 0000000000000000 112 Volcanic Wasteland 5d6ba83f
+l 73 laBlizzard 8080ff 0000000000000002 114 Blizzard bed066c1
+l 74 laHunting 207068 0000000000000000 113 Hunting Ground 7c5df0f4
+l 75 laTerracotta e2725b 0000000000000000 115 Terracotta Army b8a25b12
+l 76 laMercuryRiver e2725b 0000000000000040 115 Terracotta Army b8a25b12
+l 77 laDual 80ff00 0000000000000000 121 Crystal World 7096cdb3
+l 78 laSnakeNest 306030 0000000000000000 122 Snake Nest 499f0f9c
+l 79 laDocks 80ff00 0000000000000300 123 Docks 499f0f9c
+l 80 laRuins 306030 0000000000000000 124 Ruined City b1d30ef9
+l 81 laMagnetic 306030 0000000000000000 125 Magnetosphere 499f0f9c
+l 82 laSwitch 306030 0000000000000000 126 Jelly Kingdom c8b44759
+l 83 laMemory ff00ff 0000000000000040 0 Lost Memory f71aadd5
+l 84 laBrownian 804000 0000000000000400 130 Brown Island 2f0f9350
+l 85 laWestWall 211f6f 000000000000000c 131 Free Fall b0ff2710
+l 86 laVariant 30ff30 0000000000000000 132 Irradiated Field 86637e39
+l 87 laAsteroids 202020 0000000000000000 136 Space Rocks 61bebba7
+l 88 laWet 00c0c0 0000000000000000 137 Wetland 2355aec7
+l 89 laFrog 6fa136 0000000000000000 139 Frog Park f888d1f0
+l 90 laEclectic c0c0ff 0000000000020002 141 Eclectic City 26fd982a
+l 91 laCursed 500050 0000000000000000 151 Cursed Canyon a6655bbb
+l 92 laDice c0ffc0 0000000000000000 153 Dice Reserve 88f24115
+l 93 laCrossroads6 7030a0 0000000000000000 12 Crossroads VI 43f83165
+l 94 laMasterCrossroads c0b090 0000000000000000 12 Master Crossroads f846b89d
+native laNone
+native laBarrier
+native laCrossroads
+native laDesert 7:2 11:2
+native laIce 1:2 2:2 3:2
+native laCaves 5:2 6:2 25:1
+native laJungle 12:2 13:1 14:1 15:1 16:1 17:1 18:2 24:1
+native laAlchemist 19:2
+native laMirror 20:1 127:1 128:1
+native laGraveyard 26:2 27:1 28:2
+native laRlyeh 12:1 13:1 14:1 15:1 16:1 17:1 30:2 34:2 35:2 63:1
+native laHell 36:2 38:2
+native laCocytus 1:1 40:2 42:2 44:2
+native laMotion 41:2
+native laDryForest 10:2 43:2
+native laEmerald 10:1 25:1 45:2 46:2 47:2
+native laWineyard 48:2 49:2
+native laDeadCaves 6:1 25:1 50:2 51:2
+native laHive 52:1 53:1 54:1
+native laPower 55:1 56:1 57:1 58:1 59:1 60:1 61:1
+native laCamelot 10:1 45:1 46:1 62:1
+native laTemple 30:1 34:1 35:1 63:1
+native laCrossroads2
+native laCaribbean 67:1 68:1 69:1
+native laRedRock 70:2 72:2
+native laMinefield 73:1 75:1
+native laOcean 67:1 74:2
+native laWhirlpool 67:1 68:1
+native laPalace 77:2 78:2 79:2 80:2
+native laLivefjord 81:2 82:1 83:1
+native laIvoryTower 90:2 91:2
+native laZebra 94:2
+native laEFire 51:1 83:1 92:2 93:1
+native laEAir 51:1 83:1 92:1 93:2
+native laEEarth 51:2 83:1 92:1 93:1
+native laEWater 51:1 83:2 92:1 93:1
+native laCrossroads3
+native laOceanWall
+native laElementalWall 51:1 83:1 92:1 93:1
+native laCanvas
+native laPrincessQuest 77:2 78:2 79:2 80:2
+native laWildWest 98:2
+native laStorms 96:1 97:1 100:1
+native laOvergrown 99:1 101:1
+native laClearing 99:1 102:1
+native laHaunted 27:1 104:1
+native laHauntedWall 27:1 104:1
+native laHauntedBorder 27:1 104:1
+native laWhirlwind 93:2 103:2
+native laRose 106:2 107:2 108:2
+native laWarpCoast 105:2 109:1
+native laWarpSea 105:2 109:1
+native laCrossroads4
+native laEndorian 114:2 115:2
+native laTortoise 110:1
+native laDragon 92:1 111:1 112:1
+native laKraken 81:1 116:2 117:1
+native laBurial 118:1
+native laTrollheim 5:1 50:1 72:1 82:1 100:1 101:1
+native laHalloween 10:1 26:1 27:1 35:1 36:1 38:1 43:1 45:1 46:1 48:1 55:1 58:1 73:1 78:1 79:1 109:1 111:1 112:1 118:1 120:1
+native laDungeon 27:1 79:1 121:2
+native laMountain 12:1 13:1 14:1 15:1 16:1 17:1 18:1 24:1 119:1
+native laReptile 122:1
+native laPrairie 113:1 123:1 124:1
+native laBull 113:1 124:1 125:1 126:1
+native laCrossroads5
+native laCA
+native laMirrorWall 20:1 127:1 128:1
+native laMirrored 20:1 127:1 128:1
+native laMirrorWall2 20:1 127:1 128:1
+native laMirrored2 20:1 127:1 128:1
+native laMirrorOld 4:1 20:1 24:1
+native laVolcano 133:2 137:2
+native laBlizzard 132:2 135:2
+native laHunting 129:1
+native laTerracotta 130:1 131:2
+native laMercuryRiver 130:1 131:2
+native laDual 105:2
+native laSnakeNest 47:1 70:2 72:1 73:1 79:1
+native laDocks 43:2 67:2 68:2 74:2 105:2
+native laRuins 79:1 141:2 142:2 143:2 144:2 145:2
+native laMagnetic 139:2 140:2
+native laSwitch 146:2 147:2
+native laMemory
+native laBrownian 148:2 149:2
+native laWestWall 151:2 152:2
+native laVariant 10:1 12:1 13:1 14:1 15:1 16:1 17:1 26:1 27:1 28:1 34:1 35:1 45:1 46:1 79:1 105:1 144:1 145:1 150:2
+native laAsteroids 153:2
+native laWet 154:2 156:2
+native laFrog 157:2 158:2 159:2
+native laEclectic 2:1 5:1 43:1 47:1 72:1 77:1 96:1 135:1 141:1
+native laCursed 161:2
+native laDice 162:1 163:1
+native laCrossroads6
+native laMasterCrossroads

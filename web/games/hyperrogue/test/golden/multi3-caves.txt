@@ -1,0 +1,1780 @@
+== start 21 -P 3 -W laCaves
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 862 hash 9a5bb6af
+== round
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 1 spin 1
+player 0 d0 / 1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 944 hash bd18e60b
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 1 canmove 1 cheater 1
+pos d0 / 1 spin 1
+player 0 d0 / 1 spin 1 t0 k0 d0 pk0 s0 w0
+player 1 d2 0 / -1 spin 4 t0 k0 d0 pk0 s0 w4
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-1
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 944 hash bd18e60b
+== round
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 2 spin 1
+player 0 d0 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 3 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1146 hash a110423b
+== round
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / 3 spin 1
+player 0 d0 / 3 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 0 4 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d2 2 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1174 hash a7c62c08
+== round
+ret 1
+turn 4 canmove 1 cheater 1
+pos d2 0 / -1 spin 4
+player 0 d2 0 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d4 0 4 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d2 3 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1135 hash 2003bee9
+== round
+ret 1
+turn 5 canmove 1 cheater 1
+pos d2 6 / 2 spin 4
+player 0 d2 6 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 0 spin 2 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1161 hash e2e322ac
+== round
+ret 1
+turn 6 canmove 1 cheater 1
+pos d2 6 / 1 spin 5
+player 0 d2 6 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 3 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1368 hash 28c919f9
+== round
+ret 1
+turn 7 canmove 1 cheater 1
+pos d2 6 / -1 spin 1
+player 0 d2 6 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d2 3 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1298 hash 11bcaeca
+== round
+ret 1
+turn 8 canmove 1 cheater 1
+pos d2 6 / 1 spin 0
+player 0 d2 6 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1423 hash 80ad621e
+== round
+ret 1
+msg 1 You collect your first Gold!
+turn 9 canmove 1 cheater 1
+pos d2 6 / -1 spin 1
+player 0 d2 6 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / 1 spin 1 t1 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items itGold=1
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1403 hash fc6d8a45
+== round
+ret 1
+msg 1 You collect the Gold. (2)
+turn 10 canmove 1 cheater 1
+pos d0 / 2 spin 4
+player 0 d0 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d4 1 4 / 2 spin 5 t2 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 0 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items itGold=2
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1414 hash edc7482d
+== round
+ret 1
+msg 1 You collect the Gold. (3)
+turn 11 canmove 1 cheater 1
+pos d0 / 3 spin 1
+player 0 d0 / 3 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / 1 spin 3 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 2 spin 5 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1356 hash 58840935
+== round
+ret 1
+turn 12 canmove 1 cheater 1
+pos d2 6 / 2 spin 5
+player 0 d2 6 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / 2 spin 1 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / -1 spin 5 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1381 hash 8e89dcf4
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 12 canmove 1 cheater 1
+pos d2 6 / 2 spin 5
+player 0 d2 6 / 2 spin 5 t0 k0 d0 pk0 s0 w5
+player 1 d2 1 / 2 spin 1 t2 k0 d0 pk0 s0 w3
+player 2 d6 3 4 4 / -1 spin 5 t1 k0 d0 pk0 s0 w1
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1381 hash 8e89dcf4
+== round
+ret 1
+turn 13 canmove 1 cheater 1
+pos d0 / 3 spin 3
+player 0 d0 / 3 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 3 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 2 spin 4 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1213 hash f95c979a
+== round
+ret 1
+turn 14 canmove 1 cheater 1
+pos d2 6 / 2 spin 5
+player 0 d2 6 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 6 spin 1 t2 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 0 spin 3 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1234 hash 481abb54
+== round
+ret 1
+turn 15 canmove 1 cheater 1
+pos d2 0 / -1 spin 5
+player 0 d2 0 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d2 2 / 2 spin 5 t2 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 1 spin 1 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1260 hash 55f6cdf5
+== round
+ret 1
+turn 16 canmove 1 cheater 1
+pos d2 0 / 2 spin 0
+player 0 d2 0 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d2 2 / -1 spin 2 t2 k0 d0 pk0 s0 w-3
+player 2 d5 3 4 5 / -1 spin 4 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1270 hash ab4d2590
+== round
+ret 1
+turn 17 canmove 1 cheater 1
+pos d2 0 / -1 spin 2
+player 0 d2 0 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d2 2 / 2 spin 0 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / 2 spin 4 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1326 hash 50188c48
+== round
+ret 1
+turn 18 canmove 1 cheater 1
+pos d2 6 / 2 spin 4
+player 0 d2 6 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d2 2 / 2 spin 0 t2 k0 d0 pk0 s0 w-3
+player 2 d5 3 4 5 / -1 spin 5 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1326 hash ad20b191
+== round
+ret 1
+turn 19 canmove 1 cheater 1
+pos d0 / 3 spin 3
+player 0 d0 / 3 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d2 3 / -1 spin 5 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / 2 spin 4 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1215 hash f4a3e796
+== round
+ret 1
+turn 20 canmove 1 cheater 1
+pos d0 / 4 spin 1
+player 0 d0 / 4 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 3 / 6 spin 0 t2 k0 d0 pk0 s0 w-3
+player 2 d5 3 4 5 / 6 spin 1 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1297 hash fe36344d
+== round
+ret 0
+msg 1 The Rock Troll would kill you there!
+turn 20 canmove 1 cheater 1
+pos d0 / 4 spin 1
+player 0 d0 / 4 spin 1 t0 k0 d0 pk0 s0 w2
+player 1 d2 3 / 6 spin 0 t2 k0 d0 pk0 s0 w5
+player 2 d5 3 4 5 / 6 spin 1 t1 k0 d0 pk0 s0 w5
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1297 hash fe36344d
+== round
+ret 1
+turn 21 canmove 1 cheater 1
+pos d0 / 5 spin 1
+player 0 d0 / 5 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / -1 spin 4 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / 2 spin 3 t1 k0 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moTroll itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1283 hash 47f33af5
+== round
+ret 1
+msg 1 You kill the Rock Troll.
+turn 22 canmove 1 cheater 1
+pos d0 / -1 spin 5
+player 0 d0 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d5 2 5 4 / 2 spin 4 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / 2 spin 4 t1 k1 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.5 laCaves waDeadTroll moNone itNone d1 h0 s0 p00000000 f0 w5 m0 b126 laNone laNone
+dcal 1367 hash 7422c404
+== round
+ret 1
+turn 23 canmove 1 cheater 1
+pos d0 / 6 spin 0
+player 0 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d3 2 5 / 1 spin 3 t2 k0 d0 pk0 s0 w-3
+player 2 d5 3 4 5 / 6 spin 1 t1 k1 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.6 laCaves waDeadTroll moNone itNone d1 h0 s0 p00000000 f0 w5 m0 b126 laNone laNone
+c18 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1255 hash 61811a49
+== round
+ret 1
+turn 24 canmove 1 cheater 1
+pos d2 2 / 2 spin 5
+player 0 d2 2 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d5 2 5 4 / 2 spin 5 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / 2 spin 3 t1 k1 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laCaves waDeadTroll moNone itNone d1 h0 s0 p00000000 f0 w5 m0 b126 laNone laNone
+c17 1 2.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1228 hash 5f84b639
+== round
+ret 1
+turn 25 canmove 1 cheater 1
+pos d2 3 / 6 spin 1
+player 0 d2 3 / 6 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / 0 spin 1 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / -1 spin 2 t1 k1 d0 pk0 s0 w-3
+revive
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1146 hash 8b5670e0
+== leave 0
+msg 1 Left the game.
+turn 25 canmove 1 cheater 1
+pos d4 3 3 / 0 spin 1
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d4 3 3 / 0 spin 1 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / -1 spin 2 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1146 hash 8b5670e0
+== cheat O
+ret 1
+msg 1 Orbs summoned!
+turn 25 canmove 1 cheater 2
+pos d4 3 3 / 0 spin 1
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d4 3 3 / 0 spin 1 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / -1 spin 2 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 1.0 laCaves waCavefloor moNone itOrbLightning d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laCaves waCavefloor moNone itOrbWinter d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1146 hash 1a136520
+== round
+ret 1
+msg 1 You have found the Orb of Winter!
+turn 26 canmove 1 cheater 2
+pos d6 3 3 3 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d6 3 3 3 / -1 spin 3 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 2 spin 4 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=29
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laCaves waCavefloor moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1017 hash 38bdec6d
+== round
+ret 1
+msg 1 You have found the Orb of Speed!
+turn 26 canmove 1 cheater 2
+pos d6 3 3 3 / 2 spin 0
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d6 3 3 3 / 2 spin 0 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 1 spin 5 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=27 itOrbSpeed=28
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1012 hash 1c8741c6
+== round
+ret 1
+turn 27 canmove 1 cheater 2
+pos d7 3 3 3 5 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d7 3 3 3 5 / -1 spin 3 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 2 spin 1 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=25 itOrbSpeed=27
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1050 hash 284907dc
+== round
+ret 1
+turn 27 canmove 1 cheater 2
+pos d8 3 3 3 4 / 2 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d8 3 3 3 4 / 2 spin 4 t2 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 4 / -1 spin 5 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=23 itOrbSpeed=24
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1078 hash 5ed87844
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 27 canmove 1 cheater 2
+pos d8 3 3 3 4 / 2 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d8 3 3 3 4 / 2 spin 4 t3 k0 d0 pk0 s0 w4
+player 2 d6 3 4 4 / -1 spin 5 t1 k1 d0 pk0 s0 w2
+revive 0
+items itGold=3 itOrbWinter=23 itOrbSpeed=24
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1078 hash 5ed87844
+== round
+ret 0
+msg+ 2 Players cannot get that far away!
+turn 27 canmove 1 cheater 2
+pos d8 3 3 3 4 / 2 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d8 3 3 3 4 / 2 spin 4 t4 k0 d0 pk0 s0 w4
+player 2 d6 3 4 4 / -1 spin 5 t1 k1 d0 pk0 s0 w2
+revive 0
+items itGold=3 itOrbWinter=23 itOrbSpeed=24
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1078 hash 5ed87844
+== round
+ret 1
+turn 28 canmove 1 cheater 2
+pos d7 3 3 3 5 / -1 spin 5
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d7 3 3 3 5 / -1 spin 5 t4 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 2 spin 4 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=21 itOrbSpeed=23
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1050 hash 0afc295d
+== round
+ret 1
+turn 28 canmove 1 cheater 2
+pos d7 3 3 3 5 / 0 spin 0
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d7 3 3 3 5 / 0 spin 0 t4 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 1 spin 5 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=3 itOrbWinter=19 itOrbSpeed=20
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laCaves waCavefloor moNone itGold d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1075 hash dafb6e47
+== round
+ret 1
+msg 1 You collect the Gold. (4)
+turn 29 canmove 1 cheater 2
+pos d7 3 3 3 5 / 1 spin 1
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d7 3 3 3 5 / 1 spin 1 t5 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / -1 spin 1 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=17 itOrbSpeed=19
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1033 hash 150f90e0
+== round
+ret 1
+turn 29 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 0 spin 0 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=15 itOrbSpeed=16
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1092 hash abe67743
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 29 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w3
+player 2 d6 3 4 3 / 0 spin 0 t1 k1 d0 pk0 s0 w-1
+revive 0
+items itGold=4 itOrbWinter=15 itOrbSpeed=16
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1092 hash abe67743
+== round
+ret 0
+msg+ 2 Players cannot get that far away!
+turn 29 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w1
+player 2 d6 3 4 3 / 0 spin 0 t1 k1 d0 pk0 s0 w3
+revive 0
+items itGold=4 itOrbWinter=15 itOrbSpeed=16
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1092 hash abe67743
+== round
+ret 0
+msg+ 3 Players cannot get that far away!
+turn 29 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w5
+player 2 d6 3 4 3 / 0 spin 0 t1 k1 d0 pk0 s0 w2
+revive 0
+items itGold=4 itOrbWinter=15 itOrbSpeed=16
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1092 hash abe67743
+== round
+ret 1
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w-3
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 4 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w6
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w4
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 5 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w5
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w5
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 6 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w4
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w6
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 7 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w3
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w0
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 8 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w4
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w6
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 9 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w5
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w5
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 10 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w4
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w6
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 11 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w3
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w6
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 0
+msg+ 12 Players cannot get that far away!
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w6
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w4
+revive 0
+items itGold=4 itOrbWinter=13 itOrbSpeed=15
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1104 hash bd8657df
+== round
+ret 1
+turn 30 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / -1 spin 3
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / -1 spin 3 t5 k0 d0 pk0 s0 w-3
+player 2 d8 3 4 3 3 / -1 spin 3 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=11 itOrbSpeed=12
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.2 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.4 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1104 hash 775d9b9c
+== round
+ret 1
+turn 31 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / 2 spin 0
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / 2 spin 0 t5 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / 0 spin 2 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=9 itOrbSpeed=11
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1080 hash 123a5700
+== round
+ret 1
+turn 31 canmove 1 cheater 2
+pos d10 3 3 4 3 3 / -1 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d10 3 3 4 3 3 / -1 spin 4 t5 k0 d0 pk0 s0 w-3
+player 2 d6 3 4 3 / -1 spin 0 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=7 itOrbSpeed=8
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1097 hash d461ec13
+== round
+ret 1
+turn 32 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / 1 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / 1 spin 4 t5 k0 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / 1 spin 4 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=5 itOrbSpeed=7
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1052 hash 1f5eb430
+== round
+ret 1
+turn 32 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / 1 spin 4
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / 1 spin 4 t5 k0 d0 pk0 s0 w-3
+player 2 d7 3 3 5 4 / 2 spin 5 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=3 itOrbSpeed=4
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1081 hash 21cd3a87
+== round
+ret 1
+turn 33 canmove 1 cheater 2
+pos d9 3 3 3 5 4 / 2 spin 1
+player 0 none t0 k0 d1 pk0 s0 w-3
+player 1 d9 3 3 3 5 4 / 2 spin 1 t5 k0 d0 pk0 s0 w-3
+player 2 d7 3 3 5 4 / 2 spin 5 t1 k1 d0 pk0 s0 w-3
+revive 0
+items itGold=4 itOrbWinter=1 itOrbSpeed=3
+kills moTroll=1
+c0 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.3 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.2 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laCaves waCavewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.1 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.6 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1056 hash 967bd143

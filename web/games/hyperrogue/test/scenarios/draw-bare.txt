@@ -1,0 +1,6 @@
+# Drawing oracle (PORTING-STAGE2.md), the first comparison: the bare map of the default game (seed 1, Icy Land)
+# without the player and the HUD (-viz: nohud, mapeditor::drawplayer = false, no messages) as the original's SVG
+# screenshot draws it (svg ... map), at a fixed animation time.
+start 1 -viz
+ticks 0
+svg 640 480 map

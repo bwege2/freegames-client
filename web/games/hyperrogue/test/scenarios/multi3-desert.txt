@@ -1,0 +1,159 @@
+# multi3-desert: local multiplayer (turn-based, multi.cpp), written by re/hyperrogue/tools/gen-multi-scenarios.py
+radius 1
+start 13 -P 3 -W laDesert
+pmove 0 1
+pmove 1 0
+pmove 2 5
+round
+pmove 0 0
+pmove 1 5
+pmove 2 0
+round
+pmove 0 0
+pmove 1 5
+pmove 2 wait
+round
+pmove 0 wait
+pmove 1 1
+pmove 2 0
+round
+pmove 0 4
+pmove 1 0
+pmove 2 0
+round
+pmove 0 2
+pmove 1 wait
+pmove 2 5
+round
+pmove 0 2
+pmove 1 6
+pmove 2 0
+round
+pmove 0 4
+pmove 1 2
+pmove 2 2
+round
+pmove 0 3
+pmove 1 0
+pmove 2 0
+round
+pmove 0 5
+pmove 1 0
+pmove 2 3
+round
+pmove 0 5
+pmove 1 wait
+pmove 2 5
+round
+pmove 0 5
+pmove 1 3
+pmove 2 4
+round
+pmove 0 5
+pmove 1 4
+pmove 2 1
+round
+pmove 0 wait
+pmove 1 1
+pmove 2 1
+round
+pmove 0 6
+pmove 1 5
+pmove 2 0
+round
+pmove 0 0
+pmove 1 2
+pmove 2 3
+round
+pmove 0 5
+pmove 1 1
+pmove 2 4
+round
+pmove 0 2
+pmove 1 4
+pmove 2 0
+round
+pmove 0 wait
+pmove 1 1
+pmove 2 1
+round
+pmove 0 1
+pmove 1 0
+pmove 2 1
+round
+pmove 0 1
+pmove 1 5
+pmove 2 3
+round
+pmove 0 4
+pmove 1 1
+pmove 2 1
+round
+pmove 0 4
+pmove 1 2
+pmove 2 1
+round
+pmove 0 0
+pmove 1 1
+pmove 2 1
+round
+pmove 0 wait
+pmove 1 wait
+pmove 2 2
+round
+pmove 0 wait
+pmove 1 5
+pmove 2 3
+round
+pmove 0 4
+pmove 1 1
+pmove 2 5
+round
+pmove 0 5
+pmove 1 wait
+pmove 2 1
+round
+pmove 0 3
+pmove 1 0
+pmove 2 0
+round
+pmove 0 0
+pmove 1 6
+pmove 2 2
+round
+pmove 0 0
+pmove 1 2
+pmove 2 2
+round
+pmove 0 wait
+pmove 1 5
+pmove 2 wait
+round
+pmove 0 4
+pmove 1 4
+pmove 2 wait
+round
+pmove 0 4
+pmove 1 3
+pmove 2 5
+round
+pmove 0 wait
+pmove 1 2
+pmove 2 1
+round
+pmove 0 0
+pmove 1 2
+pmove 2 1
+round
+pmove 0 0
+pmove 1 5
+pmove 2 1
+round
+pmove 0 4
+pmove 1 6
+pmove 2 5
+round
+pmove 0 4
+pmove 1 1
+pmove 2 4
+round

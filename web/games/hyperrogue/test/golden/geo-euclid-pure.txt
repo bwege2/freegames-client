@@ -1,0 +1,1081 @@
+== start 202 -geo euclid -7 -W laIce
+msg 1 Welcome to the Euclidean mode!
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 494d1f22
+== move 3
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0b4396 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m0 b126 laNone laNone
+dcal 169 hash a27b6e91
+== move 2
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2e147b f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eded28a f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e8b4396 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e271de7 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e1930be f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e271de7 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e8b4396 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 6574e641
+== move 4
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f38865a f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1d5e4a f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e402f30 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ec7d806 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f0db37d f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e97cc3a f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e2b4b73 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 1a5fcf00
+== move 2
+ret 1
+turn 4 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f3ac0c6 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f196639 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ed794a7 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e44156e f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e1dece5 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e2c215b f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e9c4114 f0 w0 m1 b126 laNone laNone
+dcal 169 hash c474a674
+== move 5
+ret 1
+turn 5 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f577100 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f1c9a35 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ea5b962 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itDiamond d126 h0 s0 p3e45af6c f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e527f5f f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waIcewall moNone itNone d126 h0 s0 p3eb8cda7 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f1f1bf0 f0 w0 m0 b126 laNone laNone
+dcal 169 hash eb9ca72f
+== move 2
+ret 1
+msg 1 You collect your first Ice Diamond!
+turn 6 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f42c49c f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e4d09d3 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e229073 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e37905a f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eba1ebd f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f344b6f f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ee78c1b f0 w0 m1 b126 laNone laNone
+dcal 169 hash 51d810d0
+== move 3
+ret 1
+turn 7 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f96ad22 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laBarrier waBarrier moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laCaves waCavefloor moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laBarrier waBarrier moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb6bf2a f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f256a4a f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ec2c0a3 f0 w0 m1 b126 laNone laNone
+dcal 169 hash d2418460
+== move 5
+ret 1
+turn 8 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f8b0cb4 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3efcd738 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f38d107 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f8c96f3 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laBarrier waBarrier moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e47a5a4 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e82b454 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 3a497e69
+== move 3
+ret 1
+turn 9 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f57ff21 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e448a1c f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itDiamond d126 h0 s0 p3e4bb95b f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eaa53cb f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f23d640 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f74a236 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ed0ec1b f0 w0 m1 b126 laNone laNone
+dcal 169 hash 4ac9f914
+== move 3
+ret 1
+msg 1 You collect the Ice Diamond. (2)
+turn 10 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f450b2d f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e31b43e f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e7c41a8 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3efdef59 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f3f07e0 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec18f31 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e38b3df f0 w0 m1 b126 laNone laNone
+dcal 169 hash c8cc8234
+== wait
+ret 1
+turn 11 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=2
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f897682 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f210184 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f4afcd0 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0b98a4 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3eafa214 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ea8a679 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ed1bd98 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 0eb71763
+== move 4
+ret 1
+turn 12 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f73e3a2 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3edac12c f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f3d210f f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f5ed8b5 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eed6027 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waIcewall moNone itNone d126 h0 s0 p3e82ea49 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e8e5fab f0 w0 m1 b126 laNone laNone
+dcal 169 hash b49e9783
+== move 5
+ret 1
+turn 13 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f9eb484 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f520a4a f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f165a55 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f155c2c f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f3f4710 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f563ba7 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f5ce5b9 f0 w0 m0 b126 laNone laNone
+dcal 169 hash af5f6a67
+== move 4
+ret 1
+turn 14 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fac93a2 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f89b2b7 f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f5fa7ab f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f54bc2b f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f4528fd f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f31b3e7 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f67b2e6 f0 w0 m0 b126 laNone laNone
+dcal 169 hash a8ba96e7
+== move 0
+ret 1
+turn 15 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=5
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fbcbcf2 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f47116b f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f31907d f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f3dee63 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f79e308 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f985b27 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f75bdf3 f0 w0 m0 b126 laNone laNone
+dcal 169 hash a662e229
+== move 3
+ret 1
+turn 16 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f9b913d f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3fa13f9b f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f5db0f8 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f00457d f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ed9c05b f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f05f1d7 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f5e0980 f0 w0 m1 b126 laNone laNone
+dcal 169 hash cda6a6b0
+== move 0
+ret 1
+turn 17 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fd0819b f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f71ad9e f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f888034 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f777eb5 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f831587 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f8d9f03 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f777879 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 4c884eb9
+== move 2
+ret 1
+turn 18 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fc34d7a f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f972dde f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3fb29034 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f861699 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f3c892b f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f462818 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f7a48fd f0 w0 m0 b126 laNone laNone
+dcal 169 hash 6a9dba2b
+== move 1
+ret 1
+turn 19 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fc301c8 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3fabc0dd f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f7e4a18 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f340d40 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f23dc0d f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f626eda f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3fadc2d1 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 482de13e
+== move 5
+ret 1
+turn 20 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fb432db f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f1c154c f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f6d3240 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3fabcc02 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3fab31a4 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f4b8ad1 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f0bd5fa f0 w0 m0 b126 laNone laNone
+dcal 169 hash a2175599
+== goto laAlchemist
+msg 1 You fall into a wormhole!
+turn 20 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 64886c20
+== move 4
+ret 0
+msg 1 Wrong color!
+turn 20 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 64886c20
+== move 3
+ret 0
+msg+ 2 Wrong color!
+turn 20 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 64886c20
+== move 1
+ret 1
+turn 21 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash ed73ee07
+== move 0
+ret 1
+turn 22 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash bc0c1187
+== move 5
+ret 0
+msg+ 3 Wrong color!
+turn 22 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash bc0c1187
+== move 3
+ret 0
+msg+ 4 Wrong color!
+turn 22 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash bc0c1187
+== move 4
+ret 1
+turn 23 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash bb1e7bc7
+== move 0
+ret 1
+turn 24 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash f9aac567
+== move 0
+ret 1
+turn 25 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash ed73ee07
+== wait
+ret 1
+turn 26 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 4b3454c7
+== move 1
+ret 0
+msg+ 5 Wrong color!
+turn 26 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 4b3454c7
+== move 5
+ret 1
+turn 27 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 3ff75487
+== wait
+ret 1
+turn 28 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 3ff75487
+== move 4
+ret 1
+turn 29 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash ff971786
+== wait
+ret 1
+turn 30 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 857f6486
+== move 4
+ret 1
+turn 31 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 7e044a46
+== move 1
+ret 1
+turn 32 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash b64a4505
+== move 4
+ret 0
+msg+ 6 Wrong color!
+turn 32 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash b64a4505
+== move 3
+ret 1
+turn 33 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 09db7a40
+== move 0
+ret 1
+turn 34 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 54b83b45
+== move 3
+ret 0
+msg+ 7 Wrong color!
+turn 34 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 54b83b45
+== move 4
+ret 0
+msg+ 8 Wrong color!
+turn 34 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 54b83b45
+== move 5
+ret 1
+turn 35 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 9fd3ea40
+== move 0
+ret 1
+turn 36 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 8eaf0d25
+== move 3
+ret 0
+msg+ 9 Wrong color!
+turn 36 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 8eaf0d25
+== move 1
+ret 1
+turn 37 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash f71b3b83
+== move 2
+ret 0
+msg+ 10 Wrong color!
+turn 37 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash f71b3b83
+== move 1
+ret 0
+msg+ 11 Wrong color!
+turn 37 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash f71b3b83
+== move 1
+ret 0
+msg+ 12 Wrong color!
+msg 1 Click the Rogue to skip your turn.
+turn 37 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash f71b3b83
+== wait
+ret 1
+turn 38 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 3a570903
+== move 4
+ret 0
+msg 1 Wrong color!
+turn 38 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 3a570903
+== move 4
+ret 1
+turn 39 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 87194c45
+== wait
+ret 1
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laAlchemist waFloorA moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 67a2c805
+== goto laHive
+msg 1 You fall into a wormhole!
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 1fac7aac
+== wait
+ret 1
+turn 41 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 31f4bc38
+== move 3
+ret 1
+turn 42 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 3166ea02
+== move 2
+ret 1
+turn 43 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 98a8a0b2
+== move 0
+ret 1
+turn 44 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 4e510f41
+== move 0
+ret 1
+turn 45 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 6670d8ea
+== move 2
+ret 1
+turn 46 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash cf4dbab2
+== move 5
+ret 1
+turn 47 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash cac3fbb0
+== move 0
+ret 1
+turn 48 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 28e9e9b6
+== move 1
+ret 1
+turn 49 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 0bc930cc
+== move 0
+ret 1
+turn 50 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash ed543436
+== move 0
+ret 1
+turn 51 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 76436314
+== move 4
+ret 1
+turn 52 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 6914ada3
+== move 1
+ret 1
+turn 53 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laHive waWaxWall moNone itNone d126 h0 s0 p0025c660 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash c7720dd7
+== move 0
+ret 1
+turn 54 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash c0b413ab
+== move 4
+ret 1
+turn 55 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 23e4759a
+== move 3
+ret 1
+turn 56 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waWaxWall moNone itNone d126 h0 s0 p00b784e4 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 5da8d384
+== move 0
+ret 1
+turn 57 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 44dc991a
+== move 4
+ret 1
+turn 58 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 169 hash 9fc1ae66
+== move 4
+ret 1
+turn 59 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash 523f80e0
+== move 3
+ret 1
+turn 60 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=2
+kills moNone=8
+c0 0 -1.-1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHive waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 169 hash e9fcaba6

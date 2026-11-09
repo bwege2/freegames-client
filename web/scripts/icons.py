@@ -12,7 +12,7 @@
 #
 # Needs Python 3 with Pillow, and ImageMagick (`magick`) for the one SVG source (TuxMath). A few sources are not
 # committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax,
-# A Dark Room, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
+# A Dark Room, HyperRogue, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
 #   python3 -I web/scripts/icons.py [path/to/repo]
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -279,6 +279,14 @@ def i_powdertoy(S):
                         '-resize', f'{S}x{S}', p], check=True)
         art = Image.open(p).convert('RGBA')
         art.load()
+    return clip(place(base, trim(art), (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
+
+
+def i_hyperrogue(S):
+    # the game's own icon (hr-icon.ico of the source, GPL-2.0-or-later, 96x96), on black
+    art = Image.open(orig('hyperrogue', 'orig', 'hyperrogue-13.1o', 'hr-icon.ico')).convert('RGBA')
+    art.load()
+    base = tile(S, '#000000', top='#1a1a2a')
     return clip(place(base, trim(art), (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
 
 

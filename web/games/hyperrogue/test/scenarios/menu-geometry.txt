@@ -1,0 +1,32 @@
+# G1 (geom-exp.cpp, euclid.cpp, goldberg.cpp): the geometry experiments menu (-d:geom), its filter and tiling
+# lists, choosing the Euclidean hex grid with keys, the Euclidean quotient menu (a Klein bottle), the variations menu
+# (pure), the filter "interesting quotient spaces" and its first entry, in a 640x480 window without the map
+# (nomap=1). Each choice starts a new game, so the dumps check the game in the chosen geometry too.
+start 1 nomap=1 -d:geom
+ticks 1000
+svg 640 480 screen
+key d
+svg 640 480 screen
+key e
+svg 640 480 screen
+key a
+svg 640 480 screen
+key Escape
+svg 640 480 screen
+key q
+svg 640 480 screen
+key C
+key Escape
+svg 640 480 screen
+key v
+svg 640 480 screen
+key a
+svg 640 480 screen
+key Escape
+svg 640 480 screen
+key d
+key q
+svg 640 480 screen
+key a
+key Escape
+svg 640 480 screen

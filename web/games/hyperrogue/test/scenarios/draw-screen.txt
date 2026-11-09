@@ -1,0 +1,10 @@
+# Drawing oracle (PORTING-STAGE2.md): what an 800x600 window shows (svg ... screen: drawscreen, i.e. the map,
+# the HUD and the messages, in whole pixels; the interface text as `text` lines), at the start and after the
+# treasure and kill cheats (the HUD's item and kill glyphs, new messages).
+start 1
+ticks 1000
+svg 800 600 screen
+cheat T
+cheat K
+ticks 2000
+svg 800 600 screen

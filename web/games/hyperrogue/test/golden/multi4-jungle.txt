@@ -1,0 +1,2759 @@
+== start 5 -P 4 -W laJungle
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 You need to move to give space to the no monster!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w5
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w5
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 You need to move to give space to the no monster!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w4
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w5
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w2
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w5
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg+ 2 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w1
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w-1
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 You need to move to give space to the no monster!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w0
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w5
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w4
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w2
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w0
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w3
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w2
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg+ 2 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w-1
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w2
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w5
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w4
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg+ 3 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w0
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w0
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 You need to move to give space to the no monster!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w5
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w4
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w2
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w4
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w4
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-1
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-1
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w-1
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w3
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 0
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w4
+player 3 d0 / 2 spin 0 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moIvyDead itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moIvyDead itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyRoot itRuby d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.5 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 924 hash 5f92c953
+== round
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 0 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 4 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 3.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1041 hash 6f0c25f4
+== round
+ret 1
+turn 2 canmove 1 cheater 1
+pos d2 3 / 2 spin 5
+player 0 d2 3 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyWait=2
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 3.1 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 3.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1153 hash 09f85afc
+== round
+ret 1
+msg 1 You kill the Dormant Ivy.
+turn 3 canmove 1 cheater 1
+pos d2 3 / 1 spin 5
+player 0 d2 3 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyWait=3
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 3.1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c24 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.5 laJungle waNone moIvyHead itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1311 hash 529982cc
+== round
+ret 1
+msg 1 You kill the Active Ivy.
+turn 4 canmove 1 cheater 1
+pos d4 3 4 / -1 spin 3
+player 0 d4 3 4 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=1 moIvyWait=3
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.3 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.1 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1532 hash 62e9a960
+== round
+ret 1
+msg 2 You kill the Dormant Ivy.
+turn 5 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 4
+player 0 d4 3 3 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 0 spin 2 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 4 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=1 moIvyWait=5
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.4 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.3 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.1 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1460 hash ae93975e
+== round
+ret 1
+msg+ 4 You kill the Dormant Ivy.
+turn 6 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 4 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 0 spin 4 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 2 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=1 moIvyWait=7
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moIvyHead itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.1 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c26 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1644 hash b44a2eb0
+== round
+ret 1
+msg 1 You kill the Active Ivy.
+msg 1 You kill the Dormant Ivy.
+turn 7 canmove 1 cheater 1
+pos d5 3 3 5 / 2 spin 0
+player 0 d5 3 3 5 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 4 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=2 moIvyWait=8
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.5 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 3.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.1 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c27 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1579 hash b962cd2d
+== round
+ret 1
+msg+ 4 You kill the Dormant Ivy.
+turn 8 canmove 1 cheater 1
+pos d5 3 3 5 / 2 spin 2
+player 0 d5 3 3 5 / 2 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 4 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 3 d2 5 / 1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=2 moIvyWait=11
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c23 1 3.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.1 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1682 hash 8f2371c5
+== round
+ret 1
+msg+ 5 You kill the Dormant Ivy.
+turn 9 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 2
+player 0 d5 3 3 5 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=2 moIvyWait=12
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1873 hash 6ed2fa5a
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 9 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 2
+player 0 d5 3 3 5 / -1 spin 2 t0 k0 d0 pk0 s0 w3
+player 1 d2 0 / 2 spin 5 t0 k0 d0 pk0 s0 w1
+player 2 d4 4 4 / -1 spin 1 t0 k0 d0 pk0 s0 w6
+player 3 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills moIvyHead=2 moIvyWait=12
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1873 hash 6ed2fa5a
+== round
+ret 0
+msg 1 The Active Ivy would kill you there!
+turn 9 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 2
+player 0 d5 3 3 5 / -1 spin 2 t0 k0 d0 pk0 s0 w2
+player 1 d2 0 / 2 spin 5 t0 k0 d0 pk0 s0 w1
+player 2 d4 4 4 / -1 spin 1 t0 k0 d0 pk0 s0 w6
+player 3 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w6
+revive
+items
+kills moIvyHead=2 moIvyWait=12
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1873 hash 6ed2fa5a
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 9 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 2
+player 0 d5 3 3 5 / -1 spin 2 t0 k0 d0 pk0 s0 w5
+player 1 d2 0 / 2 spin 5 t0 k0 d0 pk0 s0 w2
+player 2 d4 4 4 / -1 spin 1 t0 k0 d0 pk0 s0 w0
+player 3 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w6
+revive
+items
+kills moIvyHead=2 moIvyWait=12
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1873 hash 6ed2fa5a
+== round
+ret 1
+msg 2 You kill the Dormant Ivy.
+turn 10 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 2
+player 0 d4 3 3 / 2 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=2 moIvyWait=14 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moIvyHead itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c23 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c24 1 3.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c26 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1797 hash 2f91894c
+== round
+ret 1
+msg 1 You kill the Active Ivy.
+msg 2 You kill the Dormant Ivy.
+turn 11 canmove 1 cheater 1
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / -1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 6 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=3 moIvyWait=16 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c22 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c31 1 3.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1860 hash bb1fcdfa
+== round
+ret 1
+msg+ 5 You kill the Dormant Ivy.
+turn 12 canmove 1 cheater 1
+pos d4 3 3 / 1 spin 4
+player 0 d4 3 3 / 1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d2 1 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=3 moIvyWait=19 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1833 hash 95dea64b
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 12 canmove 1 cheater 1
+pos d4 3 3 / 1 spin 4
+player 0 d4 3 3 / 1 spin 4 t0 k0 d0 pk0 s0 w4
+player 1 d2 1 / -1 spin 1 t0 k0 d0 pk0 s0 w6
+player 2 d4 4 4 / -1 spin 2 t0 k0 d0 pk0 s0 w5
+player 3 d4 5 4 / -1 spin 2 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills moIvyHead=3 moIvyWait=19 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1833 hash 95dea64b
+== round
+ret 1
+msg 2 You kill the Dormant Ivy.
+turn 13 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 1
+player 0 d4 3 3 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=3 moIvyWait=21 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.2 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1706 hash c61045e3
+== round
+ret 1
+msg+ 3 You kill the Dormant Ivy.
+turn 14 canmove 1 cheater 1
+pos d5 3 3 5 / 2 spin 5
+player 0 d5 3 3 5 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 4 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=3 moIvyWait=22 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.4 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.3 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c22 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.2 laJungle waNone moIvyWait itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c26 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1661 hash 219b9763
+== round
+ret 1
+msg+ 5 You kill the Dormant Ivy.
+turn 15 canmove 1 cheater 1
+pos d5 3 3 5 / 2 spin 1
+player 0 d5 3 3 5 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d2 4 / 0 spin 5 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=3 moIvyWait=24 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.2 laJungle waNone moIvyHead itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1765 hash 67d19699
+== round
+ret 1
+msg+ 6 You kill the Dormant Ivy.
+msg 1 You kill the Active Ivy.
+msg 1 You kill the Dormant Ivy.
+turn 16 canmove 1 cheater 1
+pos d5 3 3 5 / 2 spin 2
+player 0 d5 3 3 5 / 2 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=4 moIvyWait=26 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c27 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1844 hash dff77051
+== round
+ret 1
+msg+ 3 You kill the Dormant Ivy.
+turn 17 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 3
+player 0 d4 3 3 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d4 4 4 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills moIvyHead=4 moIvyWait=28 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1880 hash 939fe8db
+== leave 2
+msg 1 Left the game.
+turn 17 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 3
+player 0 d4 3 3 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 none t0 k0 d1 pk0 s0 w-3
+player 3 d4 5 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+revive 2
+items
+kills moIvyHead=4 moIvyWait=28 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1880 hash 939fe8db
+== leave 3
+msg+ 2 Left the game.
+turn 17 canmove 1 cheater 1
+pos d4 3 3 / 2 spin 3
+player 0 d4 3 3 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 none t0 k0 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 2 3
+items
+kills moIvyHead=4 moIvyWait=28 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1880 hash 939fe8db
+== cheat O
+ret 1
+msg 1 Orbs summoned!
+turn 17 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 3
+player 0 d4 3 3 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d3 0 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 none t0 k0 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 2 3
+items
+kills moIvyHead=4 moIvyWait=28 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itOrbWinter d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itOrbLife d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itOrbLightning d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c23 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c24 1 3.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c25 1 3.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c26 1 3.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c27 1 3.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c28 1 3.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c29 1 3.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c30 1 3.2 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1880 hash 24b3a55a
+== round
+ret 1
+msg 1 You have found the Orb of Life!
+turn 18 canmove 1 cheater 2
+pos d4 3 4 / -1 spin 5
+player 0 d4 3 4 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d4 0 4 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 3 / 2 spin 5 t0 k0 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items
+kills moIvyHead=4 moIvyWait=28 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 2.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.2 laJungle waNone moIvyWait itOrbLightning d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.3 laJungle waNone moNone itOrbWinter d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1194 hash 1cec4062
+== round
+ret 1
+msg 3 You kill the Dormant Ivy.
+turn 19 canmove 1 cheater 2
+pos d4 3 4 / -1 spin 1
+player 0 d4 3 4 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 0 4 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 3 / 2 spin 0 t0 k0 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items
+kills moIvyHead=4 moIvyWait=31 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 2.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.2 laJungle waNone moNone itOrbLightning d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.3 laJungle waNone moNone itOrbWinter d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1194 hash 2170ff54
+== round
+ret 1
+msg 1 You have found the Orb of Storms!
+turn 20 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 4
+player 0 d4 3 3 / 2 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d4 0 4 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 3 / -1 spin 2 t0 k0 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbLightning=75
+kills moIvyHead=4 moIvyWait=31 moIvyDead=1
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 2.2 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 2.0 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laJungle waNone moIvyWait itOrbWinter d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1187 hash 7a0c0240
+== round
+ret 1
+msg 1 You activate the Lightning spell!
+msg 1 The Dormant Ivy is confused!
+turn 21 canmove 1 cheater 2
+pos d4 3 3 / 1 spin 5
+player 0 d4 3 3 / 1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 3 / 2 spin 1 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=79 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c3 1 0.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 2.3 laJungle waNone moNone itOrbWinter d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1154 hash 95e6bd6f
+== round
+ret 0
+turn 21 canmove 1 cheater 2
+pos d4 3 3 / 1 spin 5
+player 0 d4 3 3 / 1 spin 5 t0 k0 d0 pk0 s0 w4
+player 1 d2 0 / 1 spin 3 t0 k0 d0 pk0 s0 w1
+player 2 d4 3 3 / 2 spin 1 t0 k4 d1 pk0 s0 w0
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=79 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c3 1 0.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 2.3 laJungle waNone moNone itOrbWinter d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1154 hash 95e6bd6f
+== round
+ret 0
+turn 21 canmove 1 cheater 2
+pos d4 3 3 / 1 spin 5
+player 0 d4 3 3 / 1 spin 5 t0 k0 d0 pk0 s0 w4
+player 1 d2 0 / 1 spin 3 t0 k0 d0 pk0 s0 w3
+player 2 d4 3 3 / 2 spin 1 t0 k4 d1 pk0 s0 w5
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=79 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c3 1 0.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 2.3 laJungle waNone moNone itOrbWinter d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laJungle waNone moNone itOrbShield d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1154 hash 95e6bd6f
+== round
+ret 1
+msg 1 You kill the Dormant Ivy.
+msg 1 You have found the Orb of Shielding!
+turn 22 canmove 1 cheater 2
+pos d4 3 3 / 1 spin 3
+player 0 d4 3 3 / 1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d2 3 / 0 spin 3 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbShield=18
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=80 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone ligon
+c1 0 -1.-1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itOrbWinter d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1165 hash 1c13dbca
+== round
+ret 1
+msg 1 You have found the Orb of Winter!
+msg 1 You kill the Dormant Ivy.
+turn 23 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 4
+player 0 d5 3 3 5 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / -1 spin 6 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / -1 spin 4 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=28 itOrbShield=15
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=81 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itOrbSpeed d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 1.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1234 hash 7ec6e960
+== round
+ret 1
+msg+ 2 You kill the Dormant Ivy.
+msg 1 You have found the Orb of Speed!
+turn 23 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 2
+player 0 d4 3 3 / 2 spin 2 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / -1 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / 2 spin 4 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=25 itOrbSpeed=28 itOrbShield=12
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=82 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 2.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moIvyDead itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1131 hash 69d5b6bb
+== round
+ret 0
+turn 23 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 2
+player 0 d4 3 3 / 2 spin 2 t0 k0 d0 pk0 s0 w5
+player 1 d2 0 / -1 spin 5 t0 k0 d0 pk0 s0 w0
+player 2 d5 3 3 5 / 2 spin 4 t0 k4 d1 pk0 s0 w3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=25 itOrbSpeed=28 itOrbShield=12
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=82 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 2.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moIvyDead itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1131 hash 69d5b6bb
+== round
+ret 0
+turn 23 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 2
+player 0 d4 3 3 / 2 spin 2 t0 k0 d0 pk0 s0 w5
+player 1 d2 0 / -1 spin 5 t0 k0 d0 pk0 s0 w0
+player 2 d5 3 3 5 / 2 spin 4 t0 k4 d1 pk0 s0 w3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=25 itOrbSpeed=28 itOrbShield=12
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=82 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 2.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laJungle waNone moIvyDead itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1131 hash 69d5b6bb
+== round
+ret 1
+msg 1 You kill the Dormant Ivy.
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 0
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-1
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 0
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w1
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w3
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 0
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w1
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 0
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w1
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 0
+turn 24 canmove 1 cheater 2
+pos d5 3 3 5 / -1 spin 3
+player 0 d5 3 3 5 / -1 spin 3 t0 k0 d0 pk0 s0 w0
+player 1 d2 0 / 0 spin 0 t0 k0 d0 pk0 s0 w4
+player 2 d5 3 3 5 / 2 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=22 itOrbSpeed=25 itOrbShield=9
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laJungle waNone moNone itOrbFlash d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.4 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1197 hash aaae3c03
+== round
+ret 1
+msg 1 You have found the Orb of Flash!
+turn 24 canmove 1 cheater 2
+pos d4 3 3 / 1 spin 4
+player 0 d4 3 3 / 1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d3 6 5 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d4 3 4 / 0 spin 1 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbFlash=75 itOrbWinter=19 itOrbSpeed=22 itOrbShield=6
+kills moIvyRoot=4 moIvyHead=5 moIvyWait=83 moIvyDead=82
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laJungle waNone moNone itNone d4 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.2 laJungle waNone moIvyHead itNone d4 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laJungle waNone moIvyWait itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1335 hash 67b6da3a
+== round
+ret 1
+msg 1 You activate the Flash spell!
+turn 25 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 1
+player 0 d4 3 3 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / 1 spin 5 t0 k1 d0 pk0 s0 w-3
+player 2 d4 3 4 / 0 spin 1 t0 k4 d1 pk0 s0 w1
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=16 itOrbSpeed=19 itOrbShield=3
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=91 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 1.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.1 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 853 hash db06d1ad
+== round
+ret 1
+turn 25 canmove 1 cheater 2
+pos d4 3 3 / 2 spin 1
+player 0 d4 3 3 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / -1 spin 1 t0 k1 d0 pk0 s0 w-3
+player 2 d4 3 4 / 0 spin 1 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=13 itOrbSpeed=16
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=91 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 2.3 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laJungle waNone moIvyWait itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.1 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 872 hash e35e4469
+== round
+ret 1
+msg 1 You kill the Dormant Ivy.
+turn 26 canmove 1 cheater 2
+pos d2 3 / 0 spin 3
+player 0 d2 3 / 0 spin 3 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / -1 spin 6 t0 k1 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / 2 spin 3 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=10 itOrbSpeed=13
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=92 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 2.2 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.5 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 851 hash 9532ac13
+== round
+ret 1
+turn 26 canmove 1 cheater 2
+pos d2 3 / 6 spin 5
+player 0 d2 3 / 6 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / 0 spin 0 t0 k1 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / -1 spin 2 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=7 itOrbSpeed=10
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=92 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laJungle waNone moIvyWait itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laJungle waNone moIvyWait itNone d5 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.0 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.6 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 979 hash 992de11f
+== round
+ret 1
+msg+ 2 You kill the Dormant Ivy.
+turn 27 canmove 1 cheater 2
+pos d2 3 / 0 spin 1
+player 0 d2 3 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d4 3 3 / 1 spin 1 t0 k1 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / -1 spin 1 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=4 itOrbSpeed=7
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=93 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 1.1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 1.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.4 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.0 laJungle waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 851 hash 24ca1b08
+== round
+ret 1
+msg+ 3 You kill the Dormant Ivy.
+turn 27 canmove 1 cheater 2
+pos d4 3 4 / -1 spin 4
+player 0 d4 3 4 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d6 3 3 4 / -1 spin 3 t0 k1 d0 pk0 s0 w-3
+player 2 d5 3 3 5 / -1 spin 0 t0 k4 d1 pk0 s0 w-3
+player 3 none t0 k0 d1 pk0 s0 w-3
+revive 3
+items itOrbWinter=1 itOrbSpeed=4
+kills moIvyRoot=5 moIvyHead=6 moIvyWait=94 moIvyDead=97
+c0 0 -1.-1 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laJungle waNone moNone itNone d6 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 2.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 2.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.0 laJungle waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laJungle waNone moNone itNone d1 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.2 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.4 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laJungle waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laJungle waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 1.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laJungle waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laJungle waNone moIvyDead itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 982 hash 14367b8f

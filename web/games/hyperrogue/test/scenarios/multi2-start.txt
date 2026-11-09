@@ -1,0 +1,143 @@
+# multi2-start: local multiplayer (turn-based, multi.cpp), written by re/hyperrogue/tools/gen-multi-scenarios.py
+radius 1
+start 7 -P 2
+pmove 0 2
+pmove 1 4
+round
+pmove 0 1
+pmove 1 4
+round
+pmove 0 1
+pmove 1 2
+round
+pmove 0 0
+pmove 1 4
+round
+pmove 0 1
+pmove 1 2
+round
+pmove 0 5
+pmove 1 5
+round
+pmove 0 2
+pmove 1 2
+round
+pmove 0 4
+pmove 1 5
+round
+pmove 0 wait
+pmove 1 5
+round
+pmove 0 5
+pmove 1 4
+round
+pmove 0 5
+pmove 1 4
+round
+pmove 0 1
+pmove 1 0
+round
+pmove 0 5
+pmove 1 wait
+round
+pmove 0 4
+pmove 1 5
+round
+pmove 0 0
+pmove 1 0
+round
+pmove 0 1
+pmove 1 3
+round
+pmove 0 wait
+pmove 1 5
+round
+pmove 0 6
+pmove 1 2
+round
+pmove 0 wait
+pmove 1 1
+round
+pmove 0 3
+pmove 1 5
+round
+leave 1
+cheat O
+pmove 0 1
+round
+pmove 0 1
+round
+pmove 0 2
+round
+pmove 0 6
+round
+pmove 0 2
+round
+pmove 0 3
+round
+pmove 0 1
+round
+pmove 0 2
+round
+pmove 0 4
+round
+pmove 0 3
+round
+pmove 0 2
+round
+pmove 0 5
+round
+cheat O
+pmove 0 2
+round
+pmove 0 3
+pmove 1 0
+round
+pmove 0 3
+pmove 1 3
+round
+pmove 0 0
+pmove 1 1
+round
+pmove 0 5
+pmove 1 5
+round
+pmove 0 1
+pmove 1 0
+round
+pmove 0 6
+pmove 1 2
+round
+pmove 0 2
+pmove 1 4
+round
+pmove 0 3
+pmove 1 5
+round
+pmove 0 4
+pmove 1 0
+round
+pmove 0 5
+pmove 1 0
+round
+pmove 0 3
+pmove 1 4
+round
+pmove 0 1
+pmove 1 3
+round
+pmove 0 4
+pmove 1 5
+round
+pmove 0 4
+pmove 1 wait
+round
+pmove 0 2
+pmove 1 4
+round
+pmove 0 2
+pmove 1 5
+round
+pmove 0 0
+pmove 1 3
+round

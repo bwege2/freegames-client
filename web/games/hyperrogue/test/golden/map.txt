@@ -1,0 +1,184 @@
+== map 5
+c0 t7 d0 1.0 2.0 3.0 4.0 5.0 6.0 7.0 | c7 h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd0 ctof1 ishept1 ph1 em12 pa0 pb0 f49_0 f200_0 z40_4 z3_1 fu0
+c1 t6 d1 0.0 7.5 8.3 9.5 10.4 2.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em44 pa0 pb0 f49_18 f200_72 z40_42 z3_0 fu-40
+c2 t6 d1 0.1 1.5 10.3 11.5 12.4 3.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em4 pa0 pb0 f49_17 f200_68 z40_22 z3_2 fu-47
+c3 t6 d1 0.2 2.5 12.3 13.5 14.4 4.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em16 pa0 pb0 f49_16 f200_64 z40_16 z3_1 fu-54
+c4 t6 d1 0.3 3.5 14.3 15.5 16.4 5.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em36 pa0 pb0 f49_15 f200_60 z40_30 z3_1 fu-53
+c5 t6 d1 0.4 4.5 16.3 17.5 18.4 6.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em38 pa0 pb0 f49_21 f200_84 z40_31 z3_1 fu-19
+c6 t6 d1 0.5 5.5 18.3 19.5 20.4 7.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em48 pa0 pb0 f49_20 f200_80 z40_28 z3_1 fu-26
+c7 t6 d1 0.6 6.5 20.3 21.5 8.4 1.1 | hex h0 s0 dm0 e98 f0 z40 fv0 r0,0 | cd1 ctof0 ishept0 ph0 em4 pa0 pb0 f49_19 f200_76 z40_18 z3_1 fu-33
+c8 t7 d2 22.0 23.0 9.0 1.2 7.4 21.4 24.0 | c7 h2 s1 dm1 e101 f160 z120 fv28 r0,0 | cd2 ctof1 ishept1 ph1 em12 pa0 pb0 f49_5 f200_20 z40_12 z3_3 fu4
+c9 t6 d2 8.2 23.5 25.3 26.5 10.5 1.3 | hex h2 s1 dm1 e101 f160 z120 fv28 r0,0 | cd2 ctof0 ishept0 ph0 em4 pa0 pb0 f49_26 f200_104 z40_26 z3_3 fu-144
+c10 t7 d2 27.0 28.0 11.0 2.2 1.4 9.4 26.4 | c7 h2 s1 dm1 e102 f128 z80 fv35 r0,0 | cd2 ctof1 ishept1 ph1 em12 pa0 pb0 f49_4 f200_16 z40_8 z3_2 fu5
+c11 t6 d2 10.2 28.5 29.3 30.5 12.5 2.3 | hex h2 s1 dm1 e102 f128 z80 fv35 r0,0 | cd2 ctof0 ishept0 ph0 em48 pa0 pb0 f49_25 f200_100 z40_32 z3_2 fu-165
+c12 t7 d2 31.0 32.0 13.0 3.2 2.4 11.4 30.4 | c7 h2 s1 dm1 e68 f96 z100 fv42 r0,0 | cd2 ctof1 ishept1 ph1 em8 pa0 pb0 f49_3 f200_12 z40_10 z3_2 fu6
+c13 t6 d2 12.2 32.5 33.3 34.5 14.5 3.3 | hex h2 s1 dm1 e68 f96 z100 fv42 r0,0 | cd2 ctof0 ishept0 ph0 em20 pa0 pb0 f49_24 f200_96 z40_40 z3_0 fu-186
+c14 t7 d2 35.0 36.0 15.0 4.2 3.4 13.4 34.4 | c7 h2 s1 dm1 e321 f64 z64 fv49 r0,0 | cd2 ctof1 ishept1 ph1 em40 pa0 pb0 f49_2 f200_8 z40_6 z3_1 fu7
+c15 t6 d2 14.2 36.5 37.3 38.5 16.5 4.3 | hex h2 s1 dm1 e321 f64 z64 fv49 r0,0 | cd2 ctof0 ishept0 ph0 em50 pa0 pb0 f49_23 f200_92 z40_29 z3_1 fu-61
+c16 t7 d2 39.0 40.0 17.0 5.2 4.4 15.4 38.4 | c7 h2 s1 dm1 e114 f32 z50 fv7 r0,0 | cd2 ctof1 ishept1 ph1 em14 pa0 pb0 f49_1 f200_4 z40_5 z3_1 fu1
+c17 t6 d2 16.2 40.5 41.3 42.5 18.5 5.3 | hex h2 s1 dm1 e114 f32 z50 fv7 r0,0 | cd2 ctof0 ishept0 ph0 em18 pa0 pb0 f49_22 f200_88 z40_17 z3_1 fu-81
+c18 t7 d2 43.0 44.0 19.0 6.2 5.4 17.4 42.4 | c7 h2 s1 dm1 e342 f224 z70 fv14 r0,0 | cd2 ctof1 ishept1 ph1 em42 pa0 pb0 f49_7 f200_28 z40_7 z3_1 fu2
+c19 t6 d2 18.2 44.5 45.3 46.5 20.5 6.3 | hex h2 s1 dm1 e342 f224 z70 fv14 r0,0 | cd2 ctof0 ishept0 ph0 em52 pa0 pb0 f49_28 f200_112 z40_29 z3_1 fu-102
+c20 t7 d2 47.0 48.0 21.0 7.2 6.4 19.4 46.4 | c7 h2 s1 dm1 e67 f192 z60 fv21 r0,0 | cd2 ctof1 ishept1 ph1 em8 pa0 pb0 f49_6 f200_24 z40_6 z3_1 fu3
+c21 t6 d2 20.2 48.5 49.3 24.1 8.5 7.3 | hex h2 s1 dm1 e67 f192 z60 fv21 r0,0 | cd2 ctof0 ishept0 ph0 em16 pa0 pb0 f49_27 f200_108 z40_24 z3_3 fu-123
+c22 t6 d3 8.0 24.5 50.3 51.5 52.4 23.1 | hex h2 s1 dm1 e101 f160 z120 fv28 r0,0 | cd3 ctof0 ishept0 ph0 em38 pa0 pb0 f49_47 f200_188 z40_39 z3_3 fu-138
+c23 t6 d3 8.1 22.5 52.3 53.5 25.4 9.1 | hex h2 s1 dm1 e101 f160 z120 fv28 r0,0 | cd3 ctof0 ishept0 ph0 em48 pa0 pb0 f49_33 f200_132 z40_36 z3_3 fu-145
+c24 t6 d3 8.6 21.3 49.2 54.5 50.4 22.1 | hex h2 s1 dm1 e101 f160 z120 fv28 r0,0 | cd3 ctof0 ishept0 ph0 em36 pa0 pb0 f49_40 f200_160 z40_38 z3_3 fu-131
+c25 t7 d3 55.0 56.0 26.0 9.2 23.4 53.4 57.0 | c7 h3 s2 dm2 e67 f384 z144 fv140 r0,0 | cd3 ctof1 ishept1 ph1 em8 pa0 pb0 f49_11 f200_44 z40_14 z3_3 fu20
+c26 t6 d3 25.2 56.5 58.4 27.1 10.6 9.3 | hex h3 s2 dm2 e67 f384 z144 fv140 r0,0 | cd3 ctof0 ishept0 ph0 em16 pa0 pb0 f49_39 f200_156 z40_20 z3_2 fu-152
+c27 t6 d3 10.0 26.3 58.3 59.5 60.4 28.1 | hex h2 s1 dm1 e102 f128 z80 fv35 r0,0 | cd3 ctof0 ishept0 ph0 em36 pa0 pb0 f49_46 f200_184 z40_34 z3_2 fu-159
+c28 t6 d3 10.1 27.5 60.3 61.5 29.4 11.1 | hex h2 s1 dm1 e102 f128 z80 fv35 r0,0 | cd3 ctof0 ishept0 ph0 em38 pa0 pb0 f49_32 f200_128 z40_35 z3_2 fu-166
+c29 t7 d3 62.0 63.0 30.0 11.2 28.4 61.4 64.0 | c7 h3 s2 dm2 e342 f352 z114 fv161 r0,0 | cd3 ctof1 ishept1 ph1 em42 pa0 pb0 f49_10 f200_40 z40_11 z3_2 fu23
+c30 t6 d3 29.2 63.5 65.4 31.1 12.6 11.3 | hex h3 s2 dm2 e342 f352 z114 fv161 r0,0 | cd3 ctof0 ishept0 ph0 em52 pa0 pb0 f49_38 f200_152 z40_33 z3_2 fu-173
+c31 t6 d3 12.0 30.3 65.3 66.5 67.4 32.1 | hex h2 s1 dm1 e68 f96 z100 fv42 r0,0 | cd3 ctof0 ishept0 ph0 em28 pa0 pb0 f49_45 f200_180 z40_34 z3_2 fu-180
+c32 t6 d3 12.1 31.5 67.3 68.5 33.4 13.1 | hex h2 s1 dm1 e68 f96 z100 fv42 r0,0 | cd3 ctof0 ishept0 ph0 em30 pa0 pb0 f49_31 f200_124 z40_20 z3_2 fu-187
+c33 t7 d3 69.0 70.0 34.0 13.2 32.4 68.4 71.0 | c7 h3 s2 dm2 e272 f320 z146 fv182 r0,0 | cd3 ctof1 ishept1 ph1 em34 pa0 pb0 f49_9 f200_36 z40_14 z3_3 fu26
+c34 t6 d3 33.2 70.5 72.4 35.1 14.6 13.3 | hex h3 s2 dm2 e272 f320 z146 fv182 r0,0 | cd3 ctof0 ishept0 ph0 em24 pa0 pb0 f49_37 f200_148 z40_24 z3_3 fu-194
+c35 t6 d3 14.0 34.3 72.3 73.5 74.4 36.1 | hex h2 s1 dm1 e321 f64 z64 fv49 r0,0 | cd3 ctof0 ishept0 ph0 em58 pa0 pb0 f49_44 f200_176 z40_18 z3_1 fu-201
+c36 t6 d3 14.1 35.5 74.3 75.5 37.4 15.1 | hex h2 s1 dm1 e321 f64 z64 fv49 r0,0 | cd3 ctof0 ishept0 ph0 em54 pa0 pb0 f49_30 f200_120 z40_28 z3_1 fu-200
+c37 t7 d3 76.0 77.0 38.0 15.2 36.4 75.4 78.0 | c7 h3 s2 dm2 e82 f288 z71 fv57 r0,0 | cd3 ctof1 ishept1 ph1 em10 pa0 pb0 f49_8 f200_32 z40_7 z3_1 fu8
+c38 t6 d3 37.2 77.5 79.4 39.1 16.6 15.3 | hex h3 s2 dm2 e82 f288 z71 fv57 r0,0 | cd3 ctof0 ishept0 ph0 em6 pa0 pb0 f49_36 f200_144 z40_19 z3_1 fu-68
+c39 t6 d3 16.0 38.3 79.3 80.5 81.4 40.1 | hex h2 s1 dm1 e114 f32 z50 fv7 r0,0 | cd3 ctof0 ishept0 ph0 em46 pa0 pb0 f49_43 f200_172 z40_43 z3_0 fu-75
+c40 t6 d3 16.1 39.5 81.3 82.5 41.4 17.1 | hex h2 s1 dm1 e114 f32 z50 fv7 r0,0 | cd3 ctof0 ishept0 ph0 em6 pa0 pb0 f49_29 f200_116 z40_23 z3_2 fu-82
+c41 t7 d3 83.0 84.0 42.0 17.2 40.4 82.4 85.0 | c7 h3 s2 dm2 e84 f256 z110 fv77 r0,0 | cd3 ctof1 ishept1 ph1 em10 pa0 pb0 f49_14 f200_56 z40_11 z3_2 fu11
+c42 t6 d3 41.2 84.5 86.4 43.1 18.6 17.3 | hex h3 s2 dm2 e84 f256 z110 fv77 r0,0 | cd3 ctof0 ishept0 ph0 em22 pa0 pb0 f49_42 f200_168 z40_41 z3_0 fu-89
+c43 t6 d3 18.0 42.3 86.3 87.5 88.4 44.1 | hex h2 s1 dm1 e342 f224 z70 fv14 r0,0 | cd3 ctof0 ishept0 ph0 em26 pa0 pb0 f49_49 f200_196 z40_25 z3_3 fu-96
+c44 t6 d3 18.1 43.5 88.3 89.5 45.4 19.1 | hex h2 s1 dm1 e342 f224 z70 fv14 r0,0 | cd3 ctof0 ishept0 ph0 em56 pa0 pb0 f49_35 f200_140 z40_19 z3_1 fu-103
+c45 t7 d3 90.0 91.0 46.0 19.2 44.4 89.4 92.0 | c7 h3 s2 dm2 e262 f448 z55 fv98 r0,0 | cd3 ctof1 ishept1 ph1 em32 pa0 pb0 f49_13 f200_52 z40_5 z3_1 fu14
+c46 t6 d3 45.2 91.5 93.4 47.1 20.6 19.3 | hex h3 s2 dm2 e262 f448 z55 fv98 r0,0 | cd3 ctof0 ishept0 ph0 em28 pa0 pb0 f49_41 f200_164 z40_30 z3_1 fu-110
+c47 t6 d3 20.0 46.3 93.3 94.5 95.4 48.1 | hex h2 s1 dm1 e67 f192 z60 fv21 r0,0 | cd3 ctof0 ishept0 ph0 em30 pa0 pb0 f49_48 f200_192 z40_16 z3_1 fu-117
+c48 t6 d3 20.1 47.5 95.3 96.5 49.4 21.1 | hex h2 s1 dm1 e67 f192 z60 fv21 r0,0 | cd3 ctof0 ishept0 ph0 em20 pa0 pb0 f49_34 f200_136 z40_40 z3_0 fu-124
+c49 t7 d3 97.0 54.0 24.2 21.2 48.4 96.4 98.0 | c7 h3 s2 dm2 e320 f416 z140 fv119 r0,0 | cd3 ctof1 ishept1 ph1 em40 pa0 pb0 f49_12 f200_48 z40_14 z3_3 fu17
+c50 t7 d4 99.0 100.0 51.0 22.2 24.4 54.4 101.4 | c7 h4 s1 dm2 e114 f392 z134 fv126 r0,0 | cd4 ctof1 ishept1 ph1 em14 pa1 pb0 f49_12 f200_49 z40_13 z3_3 fu18
+c51 t6 d4 50.2 100.5 102.3 103.5 52.5 22.3 | hex h4 s1 dm2 e114 f392 z134 fv126 r0,0 | cd4 ctof0 ishept0 ph0 em18 pa1 pb1 f49_33 f200_135 z40_25 z3_3 fu-410
+c52 t7 d4 104.0 105.0 53.0 23.2 22.4 51.4 103.4 | c7 h4 s1 dm2 e342 f412 z152 fv133 r0,0 | cd4 ctof1 ishept1 ph1 em42 pa1 pb1 f49_11 f200_47 z40_15 z3_3 fu19
+c53 t6 d4 52.2 105.5 106.3 57.1 25.5 23.3 | hex h4 s1 dm2 e342 f412 z152 fv133 r0,0 | cd4 ctof0 ishept0 ph0 em52 pa0 pb1 f49_47 f200_190 z40_37 z3_3 fu-431
+c54 t6 d4 49.1 97.5 107.3 101.5 50.5 24.3 | hex h3 s2 dm2 e320 f416 z140 fv119 r0,0 | cd4 ctof0 ishept0 ph0 em50 pa1 pb0 f49_34 f200_137 z40_37 z3_3 fu-389
+c55 t6 d4 25.0 57.5 108.3 109.5 110.4 56.1 | hex h3 s2 dm2 e67 f384 z144 fv140 r0,0 | cd4 ctof0 ishept0 ph0 em30 pa1 pb0 f49_47 f200_189 z40_24 z3_3 fu-446
+c56 t6 d4 25.1 55.5 110.3 111.5 58.5 26.1 | hex h3 s2 dm2 e67 f384 z144 fv140 r0,0 | cd4 ctof0 ishept0 ph0 em20 pa1 pb0 f49_33 f200_133 z40_40 z3_0 fu-445
+c57 t6 d4 25.6 53.3 106.2 112.5 108.4 55.1 | hex h3 s2 dm2 e67 f384 z144 fv140 r0,0 | cd4 ctof0 ishept0 ph0 em28 pa0 pb1 f49_40 f200_162 z40_38 z3_3 fu-439
+c58 t7 d4 113.0 114.0 59.0 27.2 26.2 56.4 111.4 | c7 h4 s1 dm2 e321 f360 z103 fv147 r0,0 | cd4 ctof1 ishept1 ph1 em40 pa1 pb0 f49_11 f200_45 z40_10 z3_2 fu21
+c59 t6 d4 58.2 114.5 115.3 116.5 60.5 27.3 | hex h4 s1 dm2 e321 f360 z103 fv147 r0,0 | cd4 ctof0 ishept0 ph0 em50 pa1 pb1 f49_33 f200_135 z40_33 z3_2 fu-466
+c60 t7 d4 117.0 118.0 61.0 28.2 27.4 59.4 116.4 | c7 h4 s1 dm2 e114 f411 z93 fv154 r0,0 | cd4 ctof1 ishept1 ph1 em14 pa1 pb1 f49_11 f200_47 z40_9 z3_2 fu22
+c61 t6 d4 60.2 118.5 119.3 64.1 29.5 28.3 | hex h4 s1 dm2 e114 f411 z93 fv154 r0,0 | cd4 ctof0 ishept0 ph0 em18 pa0 pb1 f49_47 f200_190 z40_21 z3_2 fu-487
+c62 t6 d4 29.0 64.5 120.3 121.5 122.4 63.1 | hex h3 s2 dm2 e342 f352 z114 fv161 r0,0 | cd4 ctof0 ishept0 ph0 em26 pa1 pb0 f49_46 f200_185 z40_17 z3_1 fu-502
+c63 t6 d4 29.1 62.5 122.3 123.5 65.5 30.1 | hex h3 s2 dm2 e342 f352 z114 fv161 r0,0 | cd4 ctof0 ishept0 ph0 em56 pa1 pb0 f49_32 f200_129 z40_23 z3_2 fu-501
+c64 t6 d4 29.6 61.3 119.2 124.5 120.4 62.1 | hex h3 s2 dm2 e342 f352 z114 fv161 r0,0 | cd4 ctof0 ishept0 ph0 em22 pa0 pb1 f49_40 f200_162 z40_41 z3_0 fu-495
+c65 t7 d4 125.0 126.0 66.0 31.2 30.2 63.4 123.4 | c7 h4 s1 dm2 e256 f328 z92 fv168 r0,0 | cd4 ctof1 ishept1 ph1 em32 pa1 pb0 f49_10 f200_41 z40_9 z3_2 fu24
+c66 t6 d4 65.2 126.5 127.3 128.5 67.5 31.3 | hex h4 s1 dm2 e256 f328 z92 fv168 r0,0 | cd4 ctof0 ishept0 ph0 em22 pa1 pb1 f49_32 f200_131 z40_35 z3_2 fu-522
+c67 t7 d4 129.0 130.0 68.0 32.2 31.4 66.4 128.4 | c7 h4 s1 dm2 e80 f378 z84 fv175 r0,0 | cd4 ctof1 ishept1 ph1 em10 pa1 pb1 f49_10 f200_43 z40_8 z3_2 fu25
+c68 t6 d4 67.2 130.5 131.3 71.1 33.5 32.3 | hex h4 s1 dm2 e80 f378 z84 fv175 r0,0 | cd4 ctof0 ishept0 ph0 em54 pa0 pb1 f49_46 f200_186 z40_26 z3_3 fu-543
+c69 t6 d4 33.0 71.5 132.3 133.5 134.4 70.1 | hex h3 s2 dm2 e272 f320 z146 fv182 r0,0 | cd4 ctof0 ishept0 ph0 em59 pa1 pb0 f49_45 f200_181 z40_37 z3_3 fu-558
+c70 t6 d4 33.1 69.5 134.3 135.5 72.5 34.1 | hex h3 s2 dm2 e272 f320 z146 fv182 r0,0 | cd4 ctof0 ishept0 ph0 em25 pa1 pb0 f49_31 f200_125 z40_38 z3_3 fu-557
+c71 t6 d4 33.6 68.3 131.2 136.5 132.4 69.1 | hex h3 s2 dm2 e272 f320 z146 fv182 r0,0 | cd4 ctof0 ishept0 ph0 em58 pa0 pb1 f49_39 f200_158 z40_36 z3_3 fu-551
+c72 t7 d4 137.0 138.0 73.0 35.2 34.2 70.4 135.4 | c7 h4 s1 dm2 e283 f296 z126 fv189 r0,0 | cd4 ctof1 ishept1 ph1 em35 pa1 pb0 f49_9 f200_37 z40_12 z3_3 fu27
+c73 t6 d4 72.2 138.5 139.3 140.5 74.5 35.3 | hex h4 s1 dm2 e283 f296 z126 fv189 r0,0 | cd4 ctof0 ishept0 ph0 em59 pa1 pb1 f49_31 f200_127 z40_42 z3_0 fu-578
+c74 t7 d4 141.0 142.0 75.0 36.2 35.4 73.4 140.4 | c7 h4 s1 dm2 e277 f345 z45 fv196 r0,0 | cd4 ctof1 ishept1 ph1 em34 pa1 pb1 f49_9 f200_39 z40_4 z3_1 fu28
+c75 t6 d4 74.2 142.5 143.3 78.1 37.5 36.3 | hex h4 s1 dm2 e277 f345 z45 fv196 r0,0 | cd4 ctof0 ishept0 ph0 em30 pa0 pb1 f49_45 f200_182 z40_31 z3_1 fu-208
+c76 t6 d4 37.0 78.5 144.3 145.5 146.4 77.1 | hex h3 s2 dm2 e82 f288 z71 fv57 r0,0 | cd4 ctof0 ishept0 ph0 em22 pa1 pb0 f49_44 f200_177 z40_41 z3_0 fu-222
+c77 t6 d4 37.1 76.5 146.3 147.5 79.5 38.1 | hex h3 s2 dm2 e82 f288 z71 fv57 r0,0 | cd4 ctof0 ishept0 ph0 em18 pa1 pb0 f49_30 f200_121 z40_25 z3_3 fu-221
+c78 t6 d4 37.6 75.3 143.2 148.5 144.4 76.1 | hex h3 s2 dm2 e82 f288 z71 fv57 r0,0 | cd4 ctof0 ishept0 ph0 em28 pa0 pb1 f49_38 f200_154 z40_17 z3_1 fu-215
+c79 t7 d4 149.0 150.0 80.0 39.2 38.2 77.4 147.4 | c7 h4 s1 dm2 e117 f264 z130 fv63 r0,0 | cd4 ctof1 ishept1 ph1 em14 pa1 pb0 f49_8 f200_33 z40_13 z3_3 fu9
+c80 t6 d4 79.2 150.5 151.3 152.5 81.5 39.3 | hex h4 s1 dm2 e117 f264 z130 fv63 r0,0 | cd4 ctof0 ishept0 ph0 em6 pa1 pb1 f49_29 f200_119 z40_27 z3_3 fu-242
+c81 t7 d4 153.0 154.0 82.0 40.2 39.4 80.4 152.4 | c7 h4 s1 dm2 e118 f287 z90 fv70 r0,0 | cd4 ctof1 ishept1 ph1 em14 pa1 pb1 f49_14 f200_59 z40_9 z3_2 fu10
+c82 t6 d4 81.2 154.5 155.3 85.1 41.5 40.3 | hex h4 s1 dm2 e118 f287 z90 fv70 r0,0 | cd4 ctof0 ishept0 ph0 em50 pa0 pb1 f49_43 f200_174 z40_33 z3_2 fu-263
+c83 t6 d4 41.0 85.5 156.3 157.5 158.4 84.1 | hex h3 s2 dm2 e84 f256 z110 fv77 r0,0 | cd4 ctof0 ishept0 ph0 em30 pa1 pb0 f49_43 f200_173 z40_35 z3_2 fu-278
+c84 t6 d4 41.1 83.5 158.3 159.5 86.5 42.1 | hex h3 s2 dm2 e84 f256 z110 fv77 r0,0 | cd4 ctof0 ishept0 ph0 em28 pa1 pb0 f49_29 f200_117 z40_21 z3_2 fu-277
+c85 t6 d4 41.6 82.3 155.2 160.5 156.4 83.1 | hex h3 s2 dm2 e84 f256 z110 fv77 r0,0 | cd4 ctof0 ishept0 ph0 em54 pa0 pb1 f49_36 f200_146 z40_32 z3_2 fu-271
+c86 t7 d4 161.0 162.0 87.0 43.2 42.2 84.4 159.4 | c7 h4 s1 dm2 e258 f456 z150 fv84 r0,0 | cd4 ctof1 ishept1 ph1 em32 pa1 pb0 f49_14 f200_57 z40_15 z3_3 fu12
+c87 t6 d4 86.2 162.5 163.3 164.5 88.5 43.3 | hex h4 s1 dm2 e258 f456 z150 fv84 r0,0 | cd4 ctof0 ishept0 ph0 em27 pa1 pb1 f49_35 f200_143 z40_39 z3_3 fu-298
+c88 t7 d4 165.0 166.0 89.0 44.2 43.4 87.4 164.4 | c7 h4 s1 dm2 e268 f478 z136 fv91 r0,0 | cd4 ctof1 ishept1 ph1 em33 pa1 pb1 f49_13 f200_55 z40_13 z3_3 fu13
+c89 t6 d4 88.2 166.5 167.3 92.1 45.5 44.3 | hex h4 s1 dm2 e268 f478 z136 fv91 r0,0 | cd4 ctof0 ishept0 ph0 em57 pa0 pb1 f49_49 f200_198 z40_43 z3_0 fu-319
+c90 t6 d4 45.0 92.5 168.3 169.5 170.4 91.1 | hex h3 s2 dm2 e262 f448 z55 fv98 r0,0 | cd4 ctof0 ishept0 ph0 em26 pa1 pb0 f49_49 f200_197 z40_17 z3_1 fu-334
+c91 t6 d4 45.1 90.5 170.3 171.5 93.5 46.1 | hex h3 s2 dm2 e262 f448 z55 fv98 r0,0 | cd4 ctof0 ishept0 ph0 em22 pa1 pb0 f49_35 f200_141 z40_31 z3_1 fu-333
+c92 t6 d4 45.6 89.3 167.2 172.5 168.4 90.1 | hex h3 s2 dm2 e262 f448 z55 fv98 r0,0 | cd4 ctof0 ishept0 ph0 em27 pa0 pb1 f49_42 f200_170 z40_23 z3_2 fu-327
+c93 t7 d4 173.0 174.0 94.0 47.2 46.2 91.4 171.4 | c7 h4 s1 dm2 e80 f424 z41 fv105 r0,0 | cd4 ctof1 ishept1 ph1 em10 pa1 pb0 f49_13 f200_53 z40_4 z3_1 fu15
+c94 t6 d4 93.2 174.5 175.3 176.5 95.5 47.3 | hex h4 s1 dm2 e80 f424 z41 fv105 r0,0 | cd4 ctof0 ishept0 ph0 em54 pa1 pb1 f49_34 f200_139 z40_22 z3_2 fu-354
+c95 t7 d4 177.0 178.0 96.0 48.2 47.4 94.4 176.4 | c7 h4 s1 dm2 e272 f445 z101 fv112 r0,0 | cd4 ctof1 ishept1 ph1 em34 pa1 pb1 f49_12 f200_51 z40_10 z3_2 fu16
+c96 t6 d4 95.2 178.5 179.3 98.1 49.5 48.3 | hex h4 s1 dm2 e272 f445 z101 fv112 r0,0 | cd4 ctof0 ishept0 ph0 em24 pa0 pb1 f49_48 f200_194 z40_20 z3_2 fu-375
+c97 t6 d4 49.0 98.5 180.3 181.5 107.4 54.1 | hex h3 s2 dm2 e320 f416 z140 fv119 r0,0 | cd4 ctof0 ishept0 ph0 em54 pa1 pb0 f49_48 f200_193 z40_36 z3_3 fu-390
+c98 t6 d4 49.6 96.3 179.2 182.5 180.4 97.1 | hex h3 s2 dm2 e320 f416 z140 fv119 r0,0 | cd4 ctof0 ishept0 ph0 em58 pa0 pb1 f49_41 f200_166 z40_26 z3_3 fu-383
+c99 t6 d5 50.0 101.3 ? ? ? 100.1 | hex h4 s1 dm2 e114 f392 z134 fv126 r0,0 | cd5 ctof0 ishept0 ph0 em46 pa1 pb0 f49_40 f200_161 z40_43 z3_0 fu-404
+c100 t6 d5 50.1 99.5 ? ? 102.4 51.1 | hex h4 s1 dm2 e114 f392 z134 fv126 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa1 pb1 f49_47 f200_191 z40_19 z3_1 fu-411
+c101 t6 d5 107.2 ? ? 99.1 50.6 54.3 | hex h5 s2 dm3 e82 f200 z153 fv385 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa1 pb0 f49_27 f200_109 z40_27 z3_3 fu-397
+c102 t7 d5 ? ? 103.0 51.2 100.4 ? ? | c7 h5 s2 dm3 e84 f188 z73 fv406 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa1 pb1 f49_5 f200_23 z40_7 z3_1 fu58
+c103 t6 d5 102.2 ? ? 104.1 52.6 51.3 | hex h5 s2 dm3 e84 f188 z73 fv406 r0,0 | cd5 ctof0 ishept0 ph0 em22 pa1 pb1 f49_26 f200_107 z40_41 z3_0 fu-418
+c104 t6 d5 52.0 103.3 ? ? ? 105.1 | hex h4 s1 dm2 e342 f412 z152 fv133 r0,0 | cd5 ctof0 ishept0 ph0 em26 pa1 pb1 f49_39 f200_159 z40_21 z3_2 fu-425
+c105 t6 d5 52.1 104.5 ? ? 106.4 53.1 | hex h4 s1 dm2 e342 f412 z152 fv133 r0,0 | cd5 ctof0 ishept0 ph0 em56 pa0 pb1 f49_33 f200_134 z40_27 z3_3 fu-432
+c106 t7 d5 ? 112.0 57.2 53.2 105.4 ? ? | c7 h5 s2 dm3 e262 f180 z132 fv427 r0,0 | cd5 ctof1 ishept1 ph1 em32 pa0 pb1 f49_5 f200_22 z40_13 z3_3 fu61
+c107 t7 d5 ? ? 101.0 54.2 97.4 181.4 ? | c7 h5 s2 dm3 e82 f200 z153 fv385 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa1 pb0 f49_6 f200_25 z40_15 z3_3 fu55
+c108 t7 d5 ? ? 109.0 55.2 57.4 112.4 ? | c7 h5 s1 dm3 e80 f404 z125 fv434 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa0 pb1 f49_12 f200_50 z40_12 z3_3 fu62
+c109 t6 d5 108.2 ? ? ? 110.5 55.3 | hex h5 s1 dm3 e80 f404 z125 fv434 r0,0 | cd5 ctof0 ishept0 ph0 em54 pa1 pb0 f49_40 f200_161 z40_18 z3_1 fu-1222
+c110 t7 d5 ? ? 111.0 56.2 55.4 109.4 ? | c7 h5 s2 dm3 e272 f168 z62 fv441 r0,0 | cd5 ctof1 ishept1 ph1 em34 pa1 pb0 f49_5 f200_21 z40_6 z3_1 fu63
+c111 t6 d5 110.2 ? ? 113.1 58.6 56.3 | hex h5 s2 dm3 e272 f168 z62 fv441 r0,0 | cd5 ctof0 ishept0 ph0 em24 pa1 pb0 f49_26 f200_105 z40_16 z3_1 fu-453
+c112 t6 d5 106.1 ? ? ? 108.5 57.3 | hex h5 s2 dm3 e262 f180 z132 fv427 r0,0 | cd5 ctof0 ishept0 ph0 em22 pa0 pb1 f49_27 f200_110 z40_39 z3_3 fu-1201
+c113 t6 d5 58.0 111.3 ? ? ? 114.1 | hex h4 s1 dm2 e321 f360 z103 fv147 r0,0 | cd5 ctof0 ishept0 ph0 em58 pa1 pb0 f49_39 f200_157 z40_22 z3_2 fu-460
+c114 t6 d5 58.1 113.5 ? ? 115.4 59.1 | hex h4 s1 dm2 e321 f360 z103 fv147 r0,0 | cd5 ctof0 ishept0 ph0 em54 pa1 pb1 f49_47 f200_191 z40_32 z3_2 fu-467
+c115 t7 d5 ? ? 116.0 59.2 114.4 ? ? | c7 h5 s2 dm3 e82 f187 z115 fv462 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa1 pb1 f49_5 f200_23 z40_11 z3_2 fu66
+c116 t6 d5 115.2 ? ? 117.1 60.6 59.3 | hex h5 s2 dm3 e82 f187 z115 fv462 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa1 pb1 f49_26 f200_107 z40_23 z3_2 fu-474
+c117 t6 d5 60.0 116.3 ? ? ? 118.1 | hex h4 s1 dm2 e114 f411 z93 fv154 r0,0 | cd5 ctof0 ishept0 ph0 em46 pa1 pb1 f49_39 f200_159 z40_43 z3_0 fu-481
+c118 t6 d5 60.1 117.5 ? ? 119.4 61.1 | hex h4 s1 dm2 e114 f411 z93 fv154 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa0 pb1 f49_33 f200_134 z40_27 z3_3 fu-488
+c119 t7 d5 ? 124.0 64.2 61.2 118.4 ? ? | c7 h5 s2 dm3 e84 f179 z155 fv483 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa0 pb1 f49_5 f200_22 z40_15 z3_3 fu69
+c120 t7 d5 ? ? 121.0 62.2 64.4 124.4 ? | c7 h5 s1 dm3 e258 f403 z75 fv490 r0,0 | cd5 ctof1 ishept1 ph1 em32 pa0 pb1 f49_12 f200_50 z40_7 z3_1 fu70
+c121 t6 d5 120.2 ? ? ? 122.5 62.3 | hex h5 s1 dm3 e258 f403 z75 fv490 r0,0 | cd5 ctof0 ishept0 ph0 em27 pa1 pb0 f49_39 f200_157 z40_31 z3_1 fu-1369
+c122 t7 d5 ? ? 123.0 63.2 62.4 121.4 ? | c7 h5 s2 dm3 e268 f136 z52 fv497 r0,0 | cd5 ctof1 ishept1 ph1 em33 pa1 pb0 f49_4 f200_17 z40_5 z3_1 fu71
+c123 t6 d5 122.2 ? ? 125.1 65.6 63.3 | hex h5 s2 dm3 e268 f136 z52 fv497 r0,0 | cd5 ctof0 ishept0 ph0 em57 pa1 pb0 f49_25 f200_101 z40_43 z3_0 fu-509
+c124 t6 d5 119.1 ? ? ? 120.5 64.3 | hex h5 s2 dm3 e84 f179 z155 fv483 r0,0 | cd5 ctof0 ishept0 ph0 em28 pa0 pb1 f49_27 f200_110 z40_25 z3_3 fu-1348
+c125 t6 d5 65.0 123.3 ? ? ? 126.1 | hex h4 s1 dm2 e256 f328 z92 fv168 r0,0 | cd5 ctof0 ishept0 ph0 em27 pa1 pb0 f49_38 f200_153 z40_27 z3_3 fu-516
+c126 t6 d5 65.1 125.5 ? ? 127.4 66.1 | hex h4 s1 dm2 e256 f328 z92 fv168 r0,0 | cd5 ctof0 ishept0 ph0 em26 pa1 pb1 f49_46 f200_187 z40_21 z3_2 fu-523
+c127 t7 d5 ? ? 128.0 66.2 126.4 ? ? | c7 h5 s2 dm3 e339 f154 z113 fv518 r0,0 | cd5 ctof1 ishept1 ph1 em42 pa1 pb1 f49_4 f200_19 z40_11 z3_2 fu74
+c128 t6 d5 127.2 ? ? 129.1 67.6 66.3 | hex h5 s2 dm3 e339 f154 z113 fv518 r0,0 | cd5 ctof0 ishept0 ph0 em18 pa1 pb1 f49_25 f200_103 z40_32 z3_2 fu-530
+c129 t6 d5 67.0 128.3 ? ? ? 130.1 | hex h4 s1 dm2 e80 f378 z84 fv175 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa1 pb1 f49_38 f200_155 z40_22 z3_2 fu-537
+c130 t6 d5 67.1 129.5 ? ? 131.4 68.1 | hex h4 s1 dm2 e80 f378 z84 fv175 r0,0 | cd5 ctof0 ishept0 ph0 em50 pa0 pb1 f49_32 f200_130 z40_42 z3_0 fu-544
+c131 t7 d5 ? 136.0 71.2 68.2 130.4 ? ? | c7 h5 s2 dm3 e323 f146 z121 fv539 r0,0 | cd5 ctof1 ishept1 ph1 em40 pa0 pb1 f49_4 f200_18 z40_12 z3_3 fu77
+c132 t7 d5 ? ? 133.0 69.2 71.4 136.4 ? | c7 h5 s1 dm3 e284 f370 z153 fv546 r0,0 | cd5 ctof1 ishept1 ph1 em35 pa0 pb1 f49_11 f200_46 z40_15 z3_3 fu78
+c133 t6 d5 132.2 ? ? ? 134.5 69.3 | hex h5 s1 dm3 e284 f370 z153 fv546 r0,0 | cd5 ctof0 ishept0 ph0 em55 pa1 pb0 f49_38 f200_153 z40_27 z3_3 fu-1516
+c134 t7 d5 ? ? 135.0 70.2 69.4 133.4 ? | c7 h5 s2 dm3 e333 f104 z133 fv553 r0,0 | cd5 ctof1 ishept1 ph1 em41 pa1 pb0 f49_3 f200_13 z40_13 z3_3 fu79
+c135 t6 d5 134.2 ? ? 137.1 72.6 70.3 | hex h5 s2 dm3 e333 f104 z133 fv553 r0,0 | cd5 ctof0 ishept0 ph0 em21 pa1 pb0 f49_24 f200_97 z40_39 z3_3 fu-565
+c136 t6 d5 131.1 ? ? ? 132.5 71.3 | hex h5 s2 dm3 e323 f146 z121 fv539 r0,0 | cd5 ctof0 ishept0 ph0 em24 pa0 pb1 f49_26 f200_106 z40_39 z3_3 fu-1495
+c137 t6 d5 72.0 135.3 ? ? ? 138.1 | hex h4 s1 dm2 e283 f296 z126 fv189 r0,0 | cd5 ctof0 ishept0 ph0 em31 pa1 pb0 f49_37 f200_149 z40_36 z3_3 fu-572
+c138 t6 d5 72.1 137.5 ? ? 139.4 73.1 | hex h4 s1 dm2 e283 f296 z126 fv189 r0,0 | cd5 ctof0 ishept0 ph0 em55 pa1 pb1 f49_45 f200_183 z40_26 z3_3 fu-579
+c139 t7 d5 ? ? 140.0 73.2 138.4 ? ? | c7 h5 s2 dm3 e332 f121 z86 fv574 r0,0 | cd5 ctof1 ishept1 ph1 em41 pa1 pb1 f49_3 f200_15 z40_8 z3_2 fu82
+c140 t6 d5 139.2 ? ? 141.1 74.6 73.3 | hex h5 s2 dm3 e332 f121 z86 fv574 r0,0 | cd5 ctof0 ishept0 ph0 em25 pa1 pb1 f49_24 f200_99 z40_22 z3_2 fu-586
+c141 t6 d5 74.0 140.3 ? ? ? 142.1 | hex h4 s1 dm2 e277 f345 z45 fv196 r0,0 | cd5 ctof0 ishept0 ph0 em24 pa1 pb1 f49_37 f200_151 z40_16 z3_1 fu-593
+c142 t6 d5 74.1 141.5 ? ? 143.4 75.1 | hex h4 s1 dm2 e277 f345 z45 fv196 r0,0 | cd5 ctof0 ishept0 ph0 em20 pa0 pb1 f49_31 f200_126 z40_30 z3_1 fu-592
+c143 t7 d5 ? 148.0 78.2 75.2 142.4 ? ? | c7 h5 s2 dm3 e70 f113 z50 fv204 r0,0 | cd5 ctof1 ishept1 ph1 em8 pa0 pb1 f49_3 f200_14 z40_5 z3_1 fu29
+c144 t7 d5 ? ? 145.0 76.2 78.4 148.4 ? | c7 h5 s1 dm3 e257 f337 z111 fv210 r0,0 | cd5 ctof1 ishept1 ph1 em32 pa0 pb1 f49_10 f200_42 z40_11 z3_2 fu30
+c145 t6 d5 144.2 ? ? ? 146.5 76.3 | hex h5 s1 dm3 e257 f337 z111 fv210 r0,0 | cd5 ctof0 ishept0 ph0 em26 pa1 pb0 f49_37 f200_149 z40_21 z3_2 fu-634
+c146 t7 d5 ? ? 147.0 77.2 76.4 145.4 ? | c7 h5 s2 dm3 e340 f72 z150 fv217 r0,0 | cd5 ctof1 ishept1 ph1 em42 pa1 pb0 f49_2 f200_9 z40_15 z3_3 fu31
+c147 t6 d5 146.2 ? ? 149.1 79.6 77.3 | hex h5 s2 dm3 e340 f72 z150 fv217 r0,0 | cd5 ctof0 ishept0 ph0 em38 pa1 pb0 f49_23 f200_93 z40_39 z3_3 fu-229
+c148 t6 d5 143.1 ? ? ? 144.5 78.3 | hex h5 s2 dm3 e70 f113 z50 fv204 r0,0 | cd5 ctof0 ishept0 ph0 em52 pa0 pb1 f49_25 f200_102 z40_23 z3_2 fu-613
+c149 t6 d5 79.0 147.3 ? ? ? 150.1 | hex h4 s1 dm2 e117 f264 z130 fv63 r0,0 | cd5 ctof0 ishept0 ph0 em36 pa1 pb0 f49_36 f200_145 z40_38 z3_3 fu-236
+c150 t6 d5 79.1 149.5 ? ? 151.4 80.1 | hex h4 s1 dm2 e117 f264 z130 fv63 r0,0 | cd5 ctof0 ishept0 ph0 em50 pa1 pb1 f49_43 f200_175 z40_37 z3_3 fu-243
+c151 t7 d5 ? ? 152.0 80.2 150.4 ? ? | c7 h5 s2 dm3 e83 f63 z154 fv238 r0,0 | cd5 ctof1 ishept1 ph1 em10 pa1 pb1 f49_1 f200_7 z40_15 z3_3 fu34
+c152 t6 d5 151.2 ? ? 153.1 81.6 80.3 | hex h5 s2 dm3 e83 f63 z154 fv238 r0,0 | cd5 ctof0 ishept0 ph0 em18 pa1 pb1 f49_22 f200_91 z40_21 z3_2 fu-250
+c153 t6 d5 81.0 152.3 ? ? ? 154.1 | hex h4 s1 dm2 e118 f287 z90 fv70 r0,0 | cd5 ctof0 ishept0 ph0 em38 pa1 pb1 f49_42 f200_171 z40_35 z3_2 fu-257
+c154 t6 d5 81.1 153.5 ? ? 155.4 82.1 | hex h4 s1 dm2 e118 f287 z90 fv70 r0,0 | cd5 ctof0 ishept0 ph0 em36 pa0 pb1 f49_29 f200_118 z40_34 z3_2 fu-264
+c155 t7 d5 ? 160.0 85.2 82.2 154.4 ? ? | c7 h5 s2 dm3 e322 f55 z104 fv259 r0,0 | cd5 ctof1 ishept1 ph1 em40 pa0 pb1 f49_1 f200_6 z40_10 z3_2 fu37
+c156 t7 d5 ? ? 157.0 83.2 85.4 160.4 ? | c7 h5 s1 dm3 e278 f279 z82 fv266 r0,0 | cd5 ctof1 ishept1 ph1 em34 pa0 pb1 f49_8 f200_34 z40_8 z3_2 fu38
+c157 t6 d5 156.2 ? ? ? 158.5 83.3 | hex h5 s1 dm3 e278 f279 z82 fv266 r0,0 | cd5 ctof0 ishept0 ph0 em20 pa1 pb0 f49_36 f200_145 z40_34 z3_2 fu-781
+c158 t7 d5 ? ? 159.0 84.2 83.4 157.4 ? | c7 h5 s2 dm3 e64 f40 z94 fv273 r0,0 | cd5 ctof1 ishept1 ph1 em8 pa1 pb0 f49_1 f200_5 z40_9 z3_2 fu39
+c159 t6 d5 158.2 ? ? 161.1 86.6 84.3 | hex h5 s2 dm3 e64 f40 z94 fv273 r0,0 | cd5 ctof0 ishept0 ph0 em52 pa1 pb0 f49_22 f200_89 z40_27 z3_3 fu-285
+c160 t6 d5 155.1 ? ? ? 156.5 85.3 | hex h5 s2 dm3 e322 f55 z104 fv259 r0,0 | cd5 ctof0 ishept0 ph0 em58 pa0 pb1 f49_23 f200_94 z40_22 z3_2 fu-760
+c161 t6 d5 86.0 159.3 ? ? ? 162.1 | hex h4 s1 dm2 e258 f456 z150 fv84 r0,0 | cd5 ctof0 ishept0 ph0 em56 pa1 pb0 f49_42 f200_169 z40_37 z3_3 fu-292
+c162 t6 d5 86.1 161.5 ? ? 163.4 87.1 | hex h4 s1 dm2 e258 f456 z150 fv84 r0,0 | cd5 ctof0 ishept0 ph0 em57 pa1 pb1 f49_49 f200_199 z40_36 z3_3 fu-299
+c163 t7 d5 ? ? 164.0 87.2 162.4 ? ? | c7 h5 s2 dm3 e346 f254 z123 fv294 r0,0 | cd5 ctof1 ishept1 ph1 em43 pa1 pb1 f49_7 f200_31 z40_12 z3_3 fu42
+c164 t6 d5 163.2 ? ? 165.1 88.6 87.3 | hex h5 s2 dm3 e346 f254 z123 fv294 r0,0 | cd5 ctof0 ishept0 ph0 em23 pa1 pb1 f49_28 f200_115 z40_38 z3_3 fu-306
+c165 t6 d5 88.0 164.3 ? ? ? 166.1 | hex h4 s1 dm2 e268 f478 z136 fv91 r0,0 | cd5 ctof0 ishept0 ph0 em29 pa1 pb1 f49_41 f200_167 z40_37 z3_3 fu-313
+c166 t6 d5 88.1 165.5 ? ? 167.4 89.1 | hex h4 s1 dm2 e268 f478 z136 fv91 r0,0 | cd5 ctof0 ishept0 ph0 em53 pa0 pb1 f49_35 f200_142 z40_27 z3_3 fu-320
+c167 t7 d5 ? 172.0 92.2 89.2 166.4 ? ? | c7 h5 s2 dm3 e345 f246 z96 fv315 r0,0 | cd5 ctof1 ishept1 ph1 em43 pa0 pb1 f49_7 f200_30 z40_9 z3_2 fu45
+c168 t7 d5 ? ? 169.0 90.2 92.4 172.4 ? | c7 h5 s1 dm3 e267 f470 z110 fv322 r0,0 | cd5 ctof1 ishept1 ph1 em33 pa0 pb1 f49_14 f200_58 z40_11 z3_2 fu46
+c169 t6 d5 168.2 ? ? ? 170.5 90.3 | hex h5 s1 dm3 e267 f470 z110 fv322 r0,0 | cd5 ctof0 ishept0 ph0 em56 pa1 pb0 f49_42 f200_169 z40_41 z3_0 fu-928
+c170 t7 d5 ? ? 171.0 91.2 90.4 169.4 ? | c7 h5 s2 dm3 e339 f232 z76 fv329 r0,0 | cd5 ctof1 ishept1 ph1 em42 pa1 pb0 f49_7 f200_29 z40_7 z3_1 fu47
+c171 t6 d5 170.2 ? ? 173.1 93.6 91.3 | hex h5 s2 dm3 e339 f232 z76 fv329 r0,0 | cd5 ctof0 ishept0 ph0 em18 pa1 pb0 f49_28 f200_113 z40_28 z3_1 fu-341
+c172 t6 d5 167.1 ? ? ? 168.5 92.3 | hex h5 s2 dm3 e345 f246 z96 fv315 r0,0 | cd5 ctof0 ishept0 ph0 em23 pa0 pb1 f49_22 f200_90 z40_33 z3_2 fu-907
+c173 t6 d5 93.0 171.3 ? ? ? 174.1 | hex h4 s1 dm2 e80 f424 z41 fv105 r0,0 | cd5 ctof0 ishept0 ph0 em6 pa1 pb0 f49_41 f200_165 z40_18 z3_1 fu-348
+c174 t6 d5 93.1 173.5 ? ? 175.4 94.1 | hex h4 s1 dm2 e80 f424 z41 fv105 r0,0 | cd5 ctof0 ishept0 ph0 em50 pa1 pb1 f49_48 f200_195 z40_42 z3_0 fu-355
+c175 t7 d5 ? ? 176.0 94.2 174.4 ? ? | c7 h5 s2 dm3 e323 f221 z80 fv350 r0,0 | cd5 ctof1 ishept1 ph1 em40 pa1 pb1 f49_6 f200_27 z40_8 z3_2 fu50
+c176 t6 d5 175.2 ? ? 177.1 95.6 94.3 | hex h5 s2 dm3 e323 f221 z80 fv350 r0,0 | cd5 ctof0 ishept0 ph0 em58 pa1 pb1 f49_27 f200_111 z40_32 z3_2 fu-362
+c177 t6 d5 95.0 176.3 ? ? ? 178.1 | hex h4 s1 dm2 e272 f445 z101 fv112 r0,0 | cd5 ctof0 ishept0 ph0 em59 pa1 pb1 f49_40 f200_163 z40_33 z3_2 fu-369
+c178 t6 d5 95.1 177.5 ? ? 179.4 96.1 | hex h4 s1 dm2 e272 f445 z101 fv112 r0,0 | cd5 ctof0 ishept0 ph0 em25 pa0 pb1 f49_34 f200_138 z40_34 z3_2 fu-376
+c179 t7 d5 ? 182.0 98.2 96.2 178.4 ? ? | c7 h5 s2 dm3 e282 f213 z84 fv371 r0,0 | cd5 ctof1 ishept1 ph1 em35 pa0 pb1 f49_6 f200_26 z40_8 z3_2 fu53
+c180 t7 d5 ? ? 181.0 97.2 98.4 182.4 ? | c7 h5 s1 dm3 e277 f437 z122 fv378 r0,0 | cd5 ctof1 ishept1 ph1 em34 pa0 pb1 f49_13 f200_54 z40_12 z3_3 fu54
+c181 t6 d5 180.2 ? ? ? 107.5 97.3 | hex h5 s1 dm3 e277 f437 z122 fv378 r0,0 | cd5 ctof0 ishept0 ph0 em30 pa1 pb0 f49_41 f200_165 z40_39 z3_3 fu-1075
+c182 t6 d5 179.1 ? ? ? 180.5 98.3 | hex h5 s2 dm3 e282 f213 z84 fv371 r0,0 | cd5 ctof0 ishept0 ph0 em59 pa0 pb1 f49_28 f200_114 z40_42 z3_0 fu-1054

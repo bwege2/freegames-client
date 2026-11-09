@@ -1,0 +1,1712 @@
+== start 209 -geo 4x5 -7 -W laIce
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash d0bf99c0
+== move 0
+ret 1
+turn 1 canmove 1 cheater 1
+pos d1 0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2e147b f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 4b5dc438
+== move 3
+ret 0
+msg 1 You cannot move through the ice wall!
+turn 1 canmove 1 cheater 1
+pos d1 0 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2e147b f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e0b4396 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 4b5dc438
+== move 4
+ret 1
+turn 2 canmove 1 cheater 1
+pos d2 0 2 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f50e561 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e271de7 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1930be f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1930be f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e271de7 f0 w0 m4 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f0b4396 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 35dad175
+== move 4
+ret 1
+turn 3 canmove 1 cheater 1
+pos d3 0 2 4 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f5b573f f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e2b4b73 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1bf9c6 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1d5e4a f0 w0 m4 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e8f7122 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f2934ad f0 w0 m3 b126 laNone laNone
+dcal 166 hash 5879d317
+== move 4
+ret 0
+msg+ 2 You cannot move through the ice wall!
+turn 3 canmove 1 cheater 1
+pos d3 0 2 4 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f5b573f f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e2b4b73 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1bf9c6 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1d5e4a f0 w0 m4 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e8f7122 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f2934ad f0 w0 m3 b126 laNone laNone
+dcal 166 hash 5879d317
+== move 3
+ret 1
+turn 4 canmove 1 cheater 1
+pos d4 0 2 4 2 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f5782d4 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1adc90 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e2a9931 f0 w0 m4 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f34b1ee f0 w0 m3 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e2bfdb5 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1adc90 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0007444c
+== move 0
+ret 1
+turn 5 canmove 1 cheater 1
+pos d3 0 2 4 / -1 spin 2
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f9d7493 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eac0f88 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f30f2e7 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ea0c7c1 f0 w0 m4 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ec96ae3 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f0b01a1 f0 w0 m3 b126 laNone laNone
+dcal 166 hash bc734f58
+== move 2
+ret 0
+msg+ 3 You cannot move through the ice wall!
+turn 5 canmove 1 cheater 1
+pos d3 0 2 4 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f9d7493 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eac0f88 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f30f2e7 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ea0c7c1 f0 w0 m4 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ec96ae3 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f0b01a1 f0 w0 m3 b126 laNone laNone
+dcal 166 hash bc734f58
+== move 2
+ret 1
+turn 6 canmove 1 cheater 1
+pos d4 0 2 3 4 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f817b10 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3e0529 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ead73df f0 w0 m4 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f7a946f f0 w0 m3 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ea1e1c2 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e40ce8d f0 w0 m4 b126 laNone laNone
+dcal 166 hash 5c557364
+== move 4
+ret 1
+turn 7 canmove 1 cheater 1
+pos d5 0 2 3 4 3 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f81efe3 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e515f8e f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e3d03e6 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e5960c6 f0 w0 m4 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f1690a4 f0 w0 m3 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f57b12d f0 w0 m3 b126 laNone laNone
+dcal 166 hash f4199652
+== move 0
+ret 1
+turn 8 canmove 1 cheater 1
+pos d4 0 2 3 4 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3facdc0a f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ee22a30 f0 w0 m4 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eabe88b f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eb240c1 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f58c5df f0 w0 m3 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f437b3e f0 w0 m3 b126 laNone laNone
+dcal 166 hash a986a3b4
+== move 3
+ret 1
+turn 9 canmove 1 cheater 1
+pos d5 0 2 3 3 4 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f808834 f0 w0 m3 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f8adbcf f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e864905 f0 w0 m4 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e400a60 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e3f18c9 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e72568b f0 w0 m4 b126 laNone laNone
+dcal 166 hash 5d7975e5
+== move 1
+ret 0
+msg+ 4 You cannot move through the ice wall!
+turn 9 canmove 1 cheater 1
+pos d5 0 2 3 3 4 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f808834 f0 w0 m3 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f8adbcf f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e864905 f0 w0 m4 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e400a60 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e3f18c9 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e72568b f0 w0 m4 b126 laNone laNone
+dcal 166 hash 5d7975e5
+== move 1
+ret 1
+turn 10 canmove 1 cheater 1
+pos d6 0 2 3 3 3 4 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f60b693 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e363709 f0 w0 m4 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f55788e f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e437758 f0 w0 m4 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e210ea2 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e20e75f f0 w0 m4 b126 laNone laNone
+dcal 166 hash 4342cf16
+== move 0
+ret 1
+turn 11 canmove 1 cheater 1
+pos d5 0 2 3 3 4 / -1 spin 1
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fabedf0 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eda0cc4 f0 w0 m4 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f3a02c0 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eb073fe f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec9194d f0 w0 m4 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f553452 f0 w0 m3 b126 laNone laNone
+dcal 166 hash d04b1eb6
+== move 4
+ret 1
+turn 12 canmove 1 cheater 1
+pos d4 0 2 3 3 / -1 spin 4
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f8c426f f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e62c5c1 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itDiamond d126 h0 s0 p3e53601c f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ebb31e0 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f8a3939 f0 w0 m3 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3efd45e9 f0 w0 m4 b126 laNone laNone
+dcal 166 hash e71d5917
+== move 3
+ret 1
+msg 1 You collect your first Ice Diamond!
+turn 13 canmove 1 cheater 1
+pos d5 0 2 3 3 2 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f66569f f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e5ad807 f0 w0 m4 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f6bb282 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e403c69 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e248161 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e24a8dd f0 w0 m4 b126 laNone laNone
+dcal 166 hash 8109e566
+== move 4
+ret 1
+turn 14 canmove 1 cheater 1
+pos d6 0 2 3 3 2 4 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f6a512c f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e2db83f f0 w0 m4 b3 laWhirlpool laAlchemist
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3efc9386 f0 w0 m4 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f400fa0 f0 w0 m3 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e3508c9 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e241f35 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 45cc0938
+== move 0
+ret 1
+turn 15 canmove 1 cheater 1
+pos d5 0 2 3 3 2 / -1 spin 4
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fa3531a f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f44c807 f0 w0 m3 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f4537df f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3eb20e5c f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e9d1d6f f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ea462ea f0 w0 m4 b126 laNone laNone
+dcal 166 hash 127d4c64
+== move 0
+ret 1
+turn 16 canmove 1 cheater 1
+pos d6 0 2 3 3 2 4 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fa5e6a1 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f83425c f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eb3acac f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e9e40ea f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eb33ab3 f0 w0 m4 b3 laWhirlpool laAlchemist
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f15fb4a f0 w0 m4 b126 laNone laNone
+dcal 166 hash 2c8a960d
+== move 3
+ret 1
+turn 17 canmove 1 cheater 1
+pos d7 0 2 3 3 2 4 3 / -1 spin 0
+items itDiamond=1
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f96cca9 f0 w0 m3 b3 laWhirlpool laAlchemist
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e4307b2 f0 w0 m4 b4 laWhirlpool laAlchemist
+c2 1 0.0 laAlchemist waFloorB moSlime itNone d1 h0 s0 p00000000 f0 w0 m4 b126 laWhirlpool laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ea34803 f0 w0 m4 b2 laWhirlpool laAlchemist
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f85e992 f0 w0 m3 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e6c178b f0 w0 m4 b126 laNone laNone
+dcal 166 hash d896c295
+== move 3
+ret 1
+msg 1 You kill the Slime Beast.
+turn 18 canmove 1 cheater 1
+pos d7 0 2 3 3 2 4 3 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laIce waFloorB moNone itNone d126 h0 s0 p3fd9ca3b f0 w0 m3 b3 laWhirlpool laAlchemist
+c1 1 0.4 laIce waFloorB moNone itNone d126 h0 s0 p3ecdd4e0 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waFloorB moNone itNone d126 h0 s0 p3ebd75f3 f0 w0 m4 b4 laWhirlpool laAlchemist
+c3 1 0.0 laAlchemist waFloorB moNone itNone d1 h0 s0 p00000000 f0 w0 m4 b126 laWhirlpool laNone
+c4 1 0.1 laIce waFloorB moNone itNone d126 h0 s0 p3f01ecb8 f0 w0 m4 b2 laWhirlpool laAlchemist
+c5 1 0.3 laIce waFloorB moNone itNone d126 h0 s0 p3f7a386e f0 w0 m3 b126 laNone laNone
+dcal 166 hash 8fee197f
+== move 4
+ret 1
+turn 19 canmove 1 cheater 1
+pos d8 0 2 3 3 2 4 3 2 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laIce waFloorB moNone itNone d126 h0 s0 p3f9bcf13 f0 w0 m3 b4 laWhirlpool laAlchemist
+c1 1 0.0 laAlchemist waFloorB moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laWhirlpool laNone
+c2 1 0.2 laIce waFloorB moNone itNone d126 h0 s0 p3fb0f8b7 f0 w0 m3 b3 laWhirlpool laAlchemist
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e7373f9 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3c6cd5 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3eae9f f0 w0 m4 b4 laWhirlpool laAlchemist
+dcal 166 hash dd6f90b3
+== move 2
+ret 1
+turn 20 canmove 1 cheater 1
+pos d9 0 2 3 3 2 4 3 2 2 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f653e37 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1f62cf f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e1f5f7b f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e33b13c f0 w0 m4 b126 laNone laNone
+c4 1 0.2 laIce waFloorB moNone itNone d126 h0 s0 p3f885f5b f0 w0 m3 b4 laWhirlpool laAlchemist
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e3a9805 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 4c5b24e1
+== goto laDesert
+msg 1 You fall into a wormhole!
+turn 20 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 9c81f7c0
+== move 0
+ret 1
+turn 21 canmove 1 cheater 1
+pos d1 0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 2086fa29
+== move 3
+ret 1
+turn 22 canmove 1 cheater 1
+pos d2 0 3 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash b44311f4
+== move 4
+ret 1
+turn 23 canmove 1 cheater 1
+pos d3 0 3 4 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 8eafce70
+== move 4
+ret 1
+turn 24 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m4 b3 laWhirlpool laJungle
+c5 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash aa5231be
+== move 2
+ret 1
+msg 1 You kill the Dormant Ivy.
+turn 25 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m4 b3 laWhirlpool laJungle
+c4 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash e2e435e1
+== move 4
+ret 1
+turn 26 canmove 1 cheater 1
+pos d3 0 4 2 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 7f283b0a
+== move 4
+ret 1
+turn 27 canmove 1 cheater 1
+pos d4 0 4 2 4 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=1 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.1 laDesert waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m4 b3 laWhirlpool laJungle
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash b784d833
+== move 4
+ret 1
+msg+ 2 You kill the Dormant Ivy.
+turn 28 canmove 1 cheater 1
+pos d4 0 4 2 4 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=2 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.1 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m4 b3 laWhirlpool laJungle
+dcal 166 hash 5bdf517c
+== move 0
+ret 1
+turn 29 canmove 1 cheater 1
+pos d3 0 4 3 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=2 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+c1 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b4 laWhirlpool laJungle
+c4 1 0.0 laJungle waNone moIvyWait itNone d2 h0 s0 p00000000 f0 w0 m4 b126 laWhirlpool laNone
+c5 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+dcal 166 hash 57ce7adf
+== wait
+ret 1
+turn 30 canmove 1 cheater 1
+pos d3 0 4 3 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=2 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+c1 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+c2 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b4 laWhirlpool laJungle
+c5 1 0.0 laJungle waNone moIvyHead itNone d2 h0 s0 p00000000 f0 w0 m4 b126 laWhirlpool laNone
+dcal 166 hash 39e914ce
+== move 4
+ret 1
+turn 31 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=2 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.0 laDesert waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+c4 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash dc08c8ab
+== wait
+ret 1
+turn 32 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=2 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.0 laDesert waNone moIvyWait itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+c3 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 5a2e355f
+== move 0
+ret 1
+msg+ 3 You kill the Dormant Ivy.
+turn 33 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+dcal 166 hash 15541850
+== wait
+ret 1
+turn 34 canmove 1 cheater 1
+pos d2 0 4 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m3 b3 laWhirlpool laJungle
+dcal 166 hash 791a2130
+== move 1
+ret 1
+turn 35 canmove 1 cheater 1
+pos d1 1 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 78f8e2d9
+== move 2
+ret 1
+turn 36 canmove 1 cheater 1
+pos d2 1 3 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 9b971bc3
+== move 0
+ret 1
+turn 37 canmove 1 cheater 1
+pos d1 1 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+dcal 166 hash bb59e144
+== move 0
+ret 1
+turn 38 canmove 1 cheater 1
+pos d2 1 3 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash d0b262e1
+== move 0
+ret 1
+turn 39 canmove 1 cheater 1
+pos d1 1 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash e3d7e946
+== move 4
+ret 0
+msg 1 The Active Ivy would kill you there!
+turn 39 canmove 1 cheater 1
+pos d1 1 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b2 laWhirlpool laJungle
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash e3d7e946
+== move 3
+ret 1
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 166 hash 365f3941
+== goto laGraveyard
+msg 1 You fall into a wormhole!
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 2
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 40 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== wait
+ret 1
+turn 41 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 4
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 41 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 2
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 41 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 4
+ret 0
+msg+ 3 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 41 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 42 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 2
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 42 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 42 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 2
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 42 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== wait
+ret 1
+turn 43 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 43 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 3
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 43 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 4
+ret 0
+msg 1 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 43 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== wait
+ret 1
+turn 44 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 4
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 44 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 4
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 44 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 4
+ret 0
+msg 1 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 44 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== wait
+ret 1
+turn 45 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 0
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 45 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 45 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 4
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 45 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== wait
+ret 1
+turn 46 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 4
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 46 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 4
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 46 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 4
+ret 0
+msg+ 2 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 46 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== wait
+ret 1
+turn 47 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 47 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 1
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 47 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 1
+ret 0
+msg 1 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 47 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== wait
+ret 1
+turn 48 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 0
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 48 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 48 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 1
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 48 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 49 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 1
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 49 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 2
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 49 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 49 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 71439ad1
+== wait
+ret 1
+turn 50 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 3
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 50 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 50 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 4
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 50 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 51 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 4
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 51 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 51 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== move 3
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 51 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0afb1421
+== wait
+ret 1
+turn 52 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 52 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 3
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 52 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 3
+ret 0
+msg 1 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 52 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== wait
+ret 1
+turn 53 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 1
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 53 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 1
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 53 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 1
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 53 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== wait
+ret 1
+turn 54 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 0
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 54 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 3
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 54 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 4
+ret 0
+msg+ 2 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 54 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== wait
+ret 1
+turn 55 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 0
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 55 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 1
+ret 0
+msg+ 2 You cannot move through the fresh grave!
+turn 55 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== move 2
+ret 0
+msg 1 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 55 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash 0b135181
+== wait
+ret 1
+turn 56 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 2
+ret 0
+msg 1 You cannot move through the fresh grave!
+turn 56 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 56 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 1
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 56 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 57 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 58 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 4
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 58 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 4
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 58 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== move 2
+ret 0
+msg+ 3 You cannot move through the ancient grave!
+msg 1 Click the Rogue to skip your turn.
+turn 58 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash a02c9471
+== wait
+ret 1
+turn 59 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 3
+ret 0
+msg 1 You cannot move through the ancient grave!
+turn 59 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 2
+ret 0
+msg+ 2 You cannot move through the ancient grave!
+turn 59 canmove 1 cheater 1
+pos d0 / -1 spin 2
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== move 1
+ret 0
+msg 1 You cannot move through the fresh grave!
+msg 1 Click the Rogue to skip your turn.
+turn 59 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1
+== wait
+ret 1
+turn 60 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items itDiamond=1
+kills moNone=1 moIvyWait=3 moSlime=1
+c0 0 -1.-1 laGraveyard waNone moNone itNone d126 h0 s0 p00010000 f0 w0 m3 b126 laNone laNone
+c1 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c2 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c3 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c4 1 0.0 laGraveyard waAncientGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+c5 1 0.0 laGraveyard waFreshGrave moNone itNone d126 h0 s0 p00010000 f0 w0 m4 b126 laNone laNone
+dcal 166 hash ecd5f7b1

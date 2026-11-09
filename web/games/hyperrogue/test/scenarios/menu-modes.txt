@@ -1,0 +1,17 @@
+# U2 (menus.cpp, yendor.cpp): the main menu, the special modes, the land structure, the pure tactics mode and the
+# Yendor Challenge menus, opened with keys (`key`), in a 640x480 window drawn without the map (nomap=1: the
+# goldens stay small). The first `svg ... screen` sets the window size the keys are handled at.
+start 1 nomap=1
+ticks 1000
+svg 640 480 screen
+key v
+key m
+svg 640 480 screen
+key l
+svg 640 480 screen
+key Escape
+key y
+svg 640 480 screen
+key Escape
+key t
+svg 640 480 screen

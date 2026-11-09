@@ -1,0 +1,13 @@
+# U2 (help.cpp): the help screen from the game (F1), the credits, the controls and the keyboard shortcuts, in a
+# 640x480 window without the map (nomap=1).
+start 1 nomap=1
+ticks 1000
+svg 640 480 screen
+key F1
+svg 640 480 screen
+key c
+svg 640 480 screen
+key k
+svg 640 480 screen
+key k
+svg 640 480 screen

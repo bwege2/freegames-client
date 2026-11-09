@@ -1,0 +1,2 @@
+# The tables of classes.cpp/content.cpp (src/content.ts, generated) and isNative (src/content-req.ts).
+content

@@ -1,0 +1,408 @@
+textwidth 8 170 add credits for your translation here
+textwidth 20 418 add credits for your translation here
+textwidth 11 255 press Space or Home to center on the PC
+textwidth 24 548 press Space or Home to center on the PC
+textwidth 12 86 quick mouse
+textwidth 33 235 quick mouse
+textwidth 16 361 You activate your terraforming powers!
+textwidth 16 361 You activate your terraforming powers!
+textwidth 18 815 In the FPP mode, the camera will be set at this altitude (before applying shifts).
+textwidth 23 1047 In the FPP mode, the camera will be set at this altitude (before applying shifts).
+textwidth 20 85  for iOS
+textwidth 24 99  for iOS
+textwidth 24 658 this starting land is not eligible for achievements
+textwidth 41 1142 this starting land is not eligible for achievements
+textwidth 33 917 You can scroll with arrow keys -- Ctrl to fine-tune
+textwidth 49 1361 You can scroll with arrow keys -- Ctrl to fine-tune
+textwidth 16 161 see the true form
+textwidth 8 79 see the true form
+textwidth 23 198 framerate limit
+textwidth 11 91 framerate limit
+textwidth 24 243 Look from behind.
+textwidth 12 125 Look from behind.
+textwidth 41 1737 This will exit HyperRogue without saving your current game. Are you sure?
+textwidth 16 677 This will exit HyperRogue without saving your current game. Are you sure?
+textwidth 49 614 memory configuration
+textwidth 18 226 memory configuration
+textwidth 8 19 kills
+textwidth 20 46 kills
+textwidth 11 211 use your Orbs in tough situations
+textwidth 24 446 use your Orbs in tough situations
+textwidth 12 48 Extras:
+textwidth 33 131 Extras:
+textwidth 16 128 highlight stuff
+textwidth 16 128 highlight stuff
+textwidth 18 238 show the status screen
+textwidth 23 303 show the status screen
+textwidth 20 113 smoothen
+textwidth 24 132 smoothen
+textwidth 24 609 ice wolves, ghosts, demon sharks, hyperbugs
+textwidth 41 1050 ice wolves, ghosts, demon sharks, hyperbugs
+textwidth 33 821 Press 'o' to see all the lands in HyperRogue.
+textwidth 49 1221 Press 'o' to see all the lands in HyperRogue.
+textwidth 16 82 language
+textwidth 8 43 language
+textwidth 23 88 enable
+textwidth 11 41 enable
+textwidth 24 193 General Euclid
+textwidth 12 98 General Euclid
+textwidth 41 403 Your total wealth
+textwidth 16 159 Your total wealth
+textwidth 49 464 3D configuration
+textwidth 18 171 3D configuration
+textwidth 8 168  (fire mode on / turns to reload: %1)
+textwidth 20 411  (fire mode on / turns to reload: %1)
+textwidth 11 109 friends killed: %1
+textwidth 24 234 friends killed: %1
+textwidth 12 84  kills: %1/%2
+textwidth 33 234  kills: %1/%2
+textwidth 16 73 teleport
+textwidth 16 73 teleport
+textwidth 18 378 Collect 5 Emeralds to access Camelot
+textwidth 23 490 Collect 5 Emeralds to access Camelot
+textwidth 20 63 menu
+textwidth 24 75 menu
+textwidth 24 133 next page
+textwidth 41 231 next page
+textwidth 33 92 plain
+textwidth 49 137 plain
+textwidth 16 186 Hypersian Rug menu
+textwidth 8 95 Hypersian Rug menu
+textwidth 23 405 limit generated cells per frame
+textwidth 11 190 limit generated cells per frame
+textwidth 24 308 Dropped floors: %1/%2
+textwidth 12 154 Dropped floors: %1/%2
+textwidth 41 1406 Collect at least %1 Demon Daisies to find the Orbs of Yendor
+textwidth 16 554 Collect at least %1 Demon Daisies to find the Orbs of Yendor
+textwidth 49 90 ver
+textwidth 18 33 ver
+textwidth 8 95 Cells to uncover: %1
+textwidth 20 233 Cells to uncover: %1
+textwidth 11 82 HUD settings
+textwidth 24 175 HUD settings
+textwidth 12 145 use the default value
+textwidth 33 395 use the default value
+textwidth 16 341 One wrong move and it is game over!
+textwidth 16 341 One wrong move and it is game over!
+textwidth 18 230 camera rotation speed
+textwidth 23 296 camera rotation speed
+textwidth 20 202 desaturate colors
+textwidth 24 234 desaturate colors
+textwidth 24 280 keyboard & joysticks
+textwidth 41 482 keyboard & joysticks
+textwidth 33 298 select this color
+textwidth 49 441 select this color
+textwidth 16 511 You can touch the Dead Orb in your inventory to drop it.
+textwidth 8 266 You can touch the Dead Orb in your inventory to drop it.
+textwidth 23 347 highlights & achievements
+textwidth 11 167 highlights & achievements
+textwidth 24 52 size
+textwidth 12 26 size
+textwidth 41 159 female
+textwidth 16 62 female
+textwidth 49 557  Hyperstone: %1/%2
+textwidth 18 206  Hyperstone: %1/%2
+textwidth 8 102 extra graphical effects
+textwidth 20 261 extra graphical effects
+textwidth 11 195 classic game except hyperbolic
+textwidth 24 416 classic game except hyperbolic
+textwidth 12 39 turtle
+textwidth 33 105 turtle
+textwidth 16 178 no fill in neon mode
+textwidth 16 178 no fill in neon mode
+textwidth 18 73 testing
+textwidth 23 92 testing
+textwidth 20 152 weapon color
+textwidth 24 178 weapon color
+textwidth 24 242 sight range bonus
+textwidth 41 417 sight range bonus
+textwidth 33 183 Show me!
+textwidth 49 272 Show me!
+textwidth 16 130 cool fog effect
+textwidth 8 66 cool fog effect
+textwidth 23 835 Save the config to always play without recording your progress.
+textwidth 11 401 Save the config to always play without recording your progress.
+textwidth 24 901 This will end your current game and start a new one. Are you sure?
+textwidth 12 459 This will end your current game and start a new one. Are you sure?
+textwidth 41 100 land
+textwidth 16 38 land
+textwidth 49 2107 Killed %1 can be revived with an Orb of Love, after you collect 20 more $$$.
+textwidth 18 774 Killed %1 can be revived with an Orb of Love, after you collect 20 more $$$.
+textwidth 8 80 Not so hardcore?
+textwidth 20 195 Not so hardcore?
+textwidth 11 308 +5 = center instantly, -5 = do not center the map
+textwidth 24 662 +5 = center instantly, -5 = do not center the map
+textwidth 12 236 first joystick: movement threshold
+textwidth 33 645 first joystick: movement threshold
+textwidth 16 352 Not available in the pure tactics mode!
+textwidth 16 352 Not available in the pure tactics mode!
+textwidth 18 102 level lines
+textwidth 23 133 level lines
+textwidth 20 142 anti-aliasing
+textwidth 24 166 anti-aliasing
+textwidth 24 61 float
+textwidth 41 108 float
+textwidth 33 501 Scale the displayed model.
+textwidth 49 744 Scale the displayed model.
+textwidth 16 90 radar size
+textwidth 8 46 radar size
+textwidth 23 234 unreversed colors
+textwidth 11 112 unreversed colors
+textwidth 24 281 colorblind simulation
+textwidth 12 144 colorblind simulation
+textwidth 41 270 guided tour
+textwidth 16 104 guided tour
+textwidth 49 314 cells drawn
+textwidth 18 116 cells drawn
+textwidth 8 43 character
+textwidth 20 110 character
+textwidth 11 127 Customize character
+textwidth 24 275 Customize character
+textwidth 12 172 Welcome to HyperRogue!
+textwidth 33 474 Welcome to HyperRogue!
+textwidth 16 107 file to save:
+textwidth 16 107 file to save:
+textwidth 18 145 other settings
+textwidth 23 184 other settings
+textwidth 20 164 orb power: %1
+textwidth 24 195 orb power: %1
+textwidth 24 153 VR settings
+textwidth 41 266 VR settings
+textwidth 33 1181 HyperRogue uses the Minkowski hyperboloid model internally. 
+textwidth 49 1754 HyperRogue uses the Minkowski hyperboloid model internally. 
+textwidth 16 554 Save the config and restart to select another score/save file.
+textwidth 8 278 Save the config and restart to select another score/save file.
+textwidth 23 264 leave the tour mode
+textwidth 11 124 leave the tour mode
+textwidth 24 132 WARNING
+textwidth 12 65 WARNING
+textwidth 41 348 distance colors
+textwidth 16 136 distance colors
+textwidth 49 423 %1 knives (%2)
+textwidth 18 156 %1 knives (%2)
+textwidth 8 116 mouse aiming sensitivity
+textwidth 20 285 mouse aiming sensitivity
+textwidth 11 23  %1
+textwidth 24 49  %1
+textwidth 12 145  (turns to reload: %1)
+textwidth 33 400  (turns to reload: %1)
+textwidth 16 81 interface
+textwidth 16 81 interface
+textwidth 18 132 dress color II
+textwidth 23 170 dress color II
+textwidth 20 521 no achievements/leaderboards in this version
+textwidth 24 611 no achievements/leaderboards in this version
+textwidth 24 268 cannot adjust depth
+textwidth 41 465 cannot adjust depth
+textwidth 33 175 whatever
+textwidth 49 259 whatever
+textwidth 16 24 EN
+textwidth 8 12 EN
+textwidth 23 182 joystick mode
+textwidth 11 88 joystick mode
+textwidth 24 293 special display modes
+textwidth 12 149 special display modes
+textwidth 41 363 set 20x20 torus
+textwidth 16 143 set 20x20 torus
+textwidth 49 1042 You can enter formulas in this dialog.
+textwidth 18 383 You can enter formulas in this dialog.
+textwidth 8 90 standard grid color
+textwidth 20 218 standard grid color
+textwidth 11 33 zoom
+textwidth 24 71 zoom
+textwidth 12 160 eligible for Chaos mode
+textwidth 33 438 eligible for Chaos mode
+textwidth 16 100 main menu
+textwidth 16 100 main menu
+textwidth 18 117 minimal ON
+textwidth 23 151 minimal ON
+textwidth 20 177 bowstring color
+textwidth 24 208 bowstring color
+textwidth 24 217 show turn count
+textwidth 41 375 show turn count
+textwidth 33 1051 The 'world overview' shows all the lands in HyperRogue.
+textwidth 49 1562 The 'world overview' shows all the lands in HyperRogue.
+textwidth 16 305 3D monsters/walls on the surface
+textwidth 8 155 3D monsters/walls on the surface
+textwidth 23 238 Lovász Conjecture
+textwidth 11 113 Lovász Conjecture
+textwidth 24 246 You mirror %the1.
+textwidth 12 126 You mirror %the1.
+textwidth 41 224 score: %1
+textwidth 16 88 score: %1
+textwidth 49 967 hint: press Alt while testing modes
+textwidth 18 357 hint: press Alt while testing modes
+textwidth 8 227 Forbidden cells are marked with a different color.
+textwidth 20 569 Forbidden cells are marked with a different color.
+textwidth 11 190 eligible for Princess Challenge
+textwidth 24 406 eligible for Princess Challenge
+textwidth 12 220 These can be combined, e.g. %1
+textwidth 33 601 These can be combined, e.g. %1
+textwidth 16 248 background particle effects
+textwidth 16 248 background particle effects
+textwidth 18 73 disable
+textwidth 23 94 disable
+textwidth 20 395 a..b -- animate linearly from a to b
+textwidth 24 460 a..b -- animate linearly from a to b
+textwidth 24 277 dual geometry mode
+textwidth 41 479 dual geometry mode
+textwidth 33 635 Save the config to always use %1.
+textwidth 49 942 Save the config to always use %1.
+textwidth 16 318 achievement/leaderboard eligiblity:
+textwidth 8 162 achievement/leaderboard eligiblity:
+textwidth 23 255 limit on cells drawn
+textwidth 11 123 limit on cells drawn
+textwidth 24 358 Knight of the 16-Cell Table
+textwidth 12 181 Knight of the 16-Cell Table
+textwidth 41 910 targetting ranged Orbs Shift+click only
+textwidth 16 355 targetting ranged Orbs Shift+click only
+textwidth 49 416 vector settings
+textwidth 18 155 vector settings
+textwidth 8 245 a../x..b../y -- change smoothly, x and y are derivatives
+textwidth 20 617 a../x..b../y -- change smoothly, x and y are derivatives
+textwidth 11 41 restart
+textwidth 24 92 restart
+textwidth 12 85 casual mode
+textwidth 33 233 casual mode
+textwidth 16 229 camera movement speed
+textwidth 16 229 camera movement speed
+textwidth 18 806 Switching casual allowed only before saving the game. Do you want to restart?
+textwidth 23 1033 Switching casual allowed only before saving the game. Do you want to restart?
+textwidth 20 478 eligible for most -- leaderboards separate
+textwidth 24 557 eligible for most -- leaderboards separate
+textwidth 24 65 male
+textwidth 41 113 male
+textwidth 33 1355 This orb lets you attack adjacent cells %1 steps from the primary target.
+textwidth 49 2010 This orb lets you attack adjacent cells %1 steps from the primary target.
+textwidth 16 380 Collect %1 $$$ to access even more lands
+textwidth 8 194 Collect %1 $$$ to access even more lands
+textwidth 23 606 Hint: these keys usually work during the game
+textwidth 11 289 Hint: these keys usually work during the game
+textwidth 24 105 go back
+textwidth 12 54 go back
+textwidth 41 130 width
+textwidth 16 50 width
+textwidth 49 234 default: 
+textwidth 18 86 default: 
+textwidth 8 52 dress color
+textwidth 20 126 dress color
+textwidth 11 157 distance between images
+textwidth 24 340 distance between images
+textwidth 12 61 eye color
+textwidth 33 171 eye color
+textwidth 16 88 next slide
+textwidth 16 88 next slide
+textwidth 18 244 generation range bonus
+textwidth 23 311 generation range bonus
+textwidth 20 618 Hyperstone Quest: collect at least %3 points in %the2
+textwidth 24 720 Hyperstone Quest: collect at least %3 points in %the2
+textwidth 24 252 Worm of the World
+textwidth 41 437 Worm of the World
+textwidth 33 204 map editor
+textwidth 49 303 map editor
+textwidth 16 295 3D sight range for the fog effect
+textwidth 8 149 3D sight range for the fog effect
+textwidth 23 739 error: this method does not work in hyperbolic geometry
+textwidth 11 354 error: this method does not work in hyperbolic geometry
+textwidth 24 99 manual
+textwidth 12 51 manual
+textwidth 41 389  (used %1 times)
+textwidth 16 153  (used %1 times)
+textwidth 49 470 touch to activate
+textwidth 18 174 touch to activate
+textwidth 8 184 auto-adjust to eyes on the player model
+textwidth 20 458 auto-adjust to eyes on the player model
+textwidth 11 143 reverse pointer control
+textwidth 24 309 reverse pointer control
+textwidth 12 169 aura smoothening factor
+textwidth 33 463 aura smoothening factor
+textwidth 16 98  to surface
+textwidth 16 98  to surface
+textwidth 18 226 reset all configuration
+textwidth 23 290 reset all configuration
+textwidth 20 1022 In the 3D mode, lowering this value may help if the game lags while exploring new areas.
+textwidth 24 1198 In the 3D mode, lowering this value may help if the game lags while exploring new areas.
+textwidth 24 183 crosshair size
+textwidth 41 315 crosshair size
+textwidth 33 486 Unlock the Orb of Yendor!
+textwidth 49 721 Unlock the Orb of Yendor!
+textwidth 16 372 not eligible due to current mode settings
+textwidth 8 192 not eligible due to current mode settings
+textwidth 23 228 weapon selection
+textwidth 11 109 weapon selection
+textwidth 24 271 return to your game
+textwidth 12 139 return to your game
+textwidth 41 201 continue
+textwidth 16 77 continue
+textwidth 49 265 hair color
+textwidth 18 96 hair color
+textwidth 8 58 shape editor
+textwidth 20 144 shape editor
+textwidth 11 104 set ternary tiling
+textwidth 24 226 set ternary tiling
+textwidth 12 129 Angle to rotate by.
+textwidth 33 353 Angle to rotate by.
+textwidth 16 311 can you find the Heptagonal Grail?
+textwidth 16 311 can you find the Heptagonal Grail?
+textwidth 18 207 enable/disable texts
+textwidth 23 265 enable/disable texts
+textwidth 20 215 grid & game colors
+textwidth 24 253 grid & game colors
+textwidth 24 150 save whom
+textwidth 41 259 save whom
+textwidth 33 80 , %1
+textwidth 49 119 , %1
+textwidth 16 507 joystick mode: automatic (release the joystick to move)
+textwidth 8 257 joystick mode: automatic (release the joystick to move)
+textwidth 23 298 back to the start menu
+textwidth 11 141 back to the start menu
+textwidth 24 76 saves
+textwidth 12 38 saves
+textwidth 41 270 score: 1234
+textwidth 16 105 score: 1234
+textwidth 49 218 kills: 56
+textwidth 18 80 kills: 56
+textwidth 8 158 13.1o god cheat fps: 30 0/128 MB
+textwidth 20 381 13.1o god cheat fps: 30 0/128 MB
+textwidth 11 55 (v) menu
+textwidth 24 121 (v) menu
+textwidth 12 204 Press F1 or right click for help
+textwidth 33 562 Press F1 or right click for help
+textwidth 16 383 Welcome to HyperRogue! (cheat mode on)
+textwidth 16 383 Welcome to HyperRogue! (cheat mode on)
+textwidth 18 173 Treasure gained!
+textwidth 23 222 Treasure gained!
+textwidth 20 142 Kills gained!
+textwidth 24 167 Kills gained!
+textwidth 24 460 ... F1 or right-click things for help.
+textwidth 41 796 ... F1 or right-click things for help.
+textwidth 33 264 MMMMMMMM
+textwidth 49 392 MMMMMMMM
+textwidth 16 80 MMMMM
+textwidth 8 40 MMMMM
+textwidth 23 44 Esc
+textwidth 11 22 Esc
+textwidth 24 33 F1
+textwidth 12 16 F1
+textwidth 41 126 Enter
+textwidth 16 49 Enter
+textwidth 49 179 Ctrl+A
+textwidth 18 66 Ctrl+A
+textwidth 8 27 space
+textwidth 20 66 space
+textwidth 11 7 Ⓐ
+textwidth 24 14 Ⓐ
+textwidth 12 6 °
+textwidth 33 17 °
+textwidth 16 27 ON
+textwidth 16 27 ON
+textwidth 18 39 OFF
+textwidth 23 52 OFF
+textwidth 20 35 1/3
+textwidth 24 43 1/3
+textwidth 24 35 ... 
+textwidth 41 62 ... 
+textwidth 33 90  a  b 
+textwidth 49 136  a  b 
+textwidth 16 12   
+textwidth 8 6   

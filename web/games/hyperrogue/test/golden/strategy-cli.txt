@@ -1,0 +1,495 @@
+== start 43 -i
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash e047db86
+== move 5
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ea3d70a f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+dcal 574 hash 038805ac
+== move 1
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 4 spin 5
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ecccccd f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3db43958 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e83126e f0 w0 m0 b126 laNone laNone
+dcal 574 hash 48310720
+== move 4
+ret 1
+turn 3 canmove 1 cheater 1
+pos d2 0 / 2 spin 5
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ed8adac f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e29930c f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dc985f1 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3db923a3 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dded289 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e591687 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ea5e354 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 244931b9
+== move 3
+ret 1
+turn 4 canmove 1 cheater 1
+pos d3 0 5 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ea91538 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3db6848c f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dcd9e84 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e4b295f f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb2ca58 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e40ad04 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3dca8199 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3db65a9a f0 w0 m1 b126 laNone laNone
+dcal 582 hash 6d010285
+== move 4
+ret 1
+turn 5 canmove 1 cheater 1
+pos d3 0 5 / 0 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ed0b418 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itDiamond d126 h0 s0 p3db61bb0 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3dcac083 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e3bba56 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e94ae43 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e2b7564 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itDiamond d126 h0 s0 p3dc853c1 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 31976213
+== move 3
+ret 1
+msg 1 You collect your first Ice Diamond!
+turn 6 canmove 1 cheater 1
+pos d5 0 5 3 / 2 spin 5
+items itDiamond=1
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ed4ffa1 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e3722e2 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eabe602 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itDiamond d126 h0 s0 p3e34df70 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dca1562 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3db60d6e f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dca558f f0 w0 m1 b126 laNone laNone
+dcal 574 hash 027eec63
+== move 1
+ret 1
+msg 1 You collect the Ice Diamond. (2)
+turn 7 canmove 1 cheater 1
+pos d5 0 5 3 / -1 spin 2
+items itDiamond=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ecc66b9 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e066e4e f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3dd97d4a f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3de66bf0 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e4120c2 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eb03623 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb2753b f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e71e1da f0 w0 m1 b126 laNone laNone
+dcal 582 hash 315fdf82
+== move 6
+ret 1
+turn 8 canmove 1 cheater 1
+pos d5 0 5 3 / 1 spin 0
+items itDiamond=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3efc4f39 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3defe5ff f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e34539c f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eb1c4b0 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eb16aca f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e487df6 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3dec3682 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 5cbad30b
+== move 4
+ret 1
+turn 9 canmove 1 cheater 1
+pos d6 0 5 3 5 / -1 spin 4
+items itDiamond=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ecf91af f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e4deb63 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ec0a3ae f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed05897 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e5456ef f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3df07e1d f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dde7a8a f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dfe6bb2 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 924ad98f
+== move 5
+ret 1
+turn 10 canmove 1 cheater 1
+pos d6 0 5 3 5 / 2 spin 0
+items itDiamond=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0398ee f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e51d7a7 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e026591 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e146fbf f0 w0 m1 b126 laNone laNone
+c4 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3e78b732 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ecd8f91 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb62d51 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 2e2e5180
+== cheat T
+ret 1
+msg 1 Treasure gained!
+turn 10 canmove 1 cheater 2
+pos d6 0 5 3 5 / 2 spin 0
+items itDiamond=12
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0398ee f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e51d7a7 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e026591 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e146fbf f0 w0 m1 b126 laNone laNone
+c4 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3e78b732 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ecd8f91 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb62d51 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 2e2e5180
+== move 5
+ret 1
+turn 11 canmove 1 cheater 2
+pos d5 0 5 3 / 2 spin 3
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2c5665 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3edde19a f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e9f1d77 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ea216f9 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e9ff8b8 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3eb77403 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ebefeb4 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 2e3e0236
+== move 3
+ret 1
+turn 12 canmove 1 cheater 2
+pos d5 0 5 3 / -1 spin 2
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f068968 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e4b6676 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e7c6d36 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ecf66f7 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0f4a50 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ec511e7 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e847c46 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e5259c6 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 2da6d04f
+== move 5
+ret 1
+turn 13 canmove 1 cheater 2
+pos d5 0 5 3 / 0 spin 0
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0e49a6 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e1e6288 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e608c5e f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3edff1eb f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eed5841 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e8b03c2 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e20204e f0 w0 m1 b126 laNone laNone
+dcal 574 hash e54a624d
+== move 5
+ret 1
+turn 14 canmove 1 cheater 2
+pos d5 0 5 3 / 1 spin 1
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f3609e6 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eb245e2 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ef1b5f3 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ef0d047 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ef1f93b f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e960366 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e8b6772 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 331e27b2
+== move 2
+ret 1
+turn 15 canmove 1 cheater 2
+pos d7 0 5 3 4 / 2 spin 5
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f1749e5 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f18e7a6 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb2aaed f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e3ce896 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e207840 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e60e059 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ecc39be f0 w0 m0 b126 laNone laNone
+dcal 574 hash a74425b3
+== move 1
+ret 1
+turn 16 canmove 1 cheater 2
+pos d7 0 5 3 4 / -1 spin 2
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0da23a f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f1356c7 f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3edc5896 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e82c63d f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e36391e f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e323db0 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e8d0ee5 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f01c977 f0 w0 m0 b126 laNone laNone
+dcal 582 hash e24ef54f
+== move 4
+ret 1
+turn 17 canmove 1 cheater 2
+pos d8 0 5 3 3 5 / 2 spin 4
+items itDiamond=12 itInventory=2
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3eff461f f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ea60c38 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moWolf itNone d0 h0 s0 p3e189eab f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3deba06d f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e02da38 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e843d16 f0 w0 m1 b126 laNone laNone
+c6 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3ef89b42 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 0c066b5b
+== move 2
+ret 1
+msg 1 You kill the Icewolf.
+turn 18 canmove 1 cheater 2
+pos d8 0 5 3 3 5 / 2 spin 0
+items itDiamond=12 itInventory=2
+kills moWolf=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2a5a00 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e57d31b f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ea902c0 f0 w0 m1 b126 laNone laNone
+c3 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3efa524e f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ec55d63 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d0 h0 s0 p3e6c2b19 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e52f4a4 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 4fa094c2
+== move 3
+ret 0
+msg 1 You cannot move through the ice wall!
+turn 18 canmove 1 cheater 2
+pos d8 0 5 3 3 5 / 2 spin 3
+items itDiamond=12 itInventory=2
+kills moWolf=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2a5a00 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e57d31b f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ea902c0 f0 w0 m1 b126 laNone laNone
+c3 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3efa524e f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ec55d63 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d0 h0 s0 p3e6c2b19 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e52f4a4 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 4fa094c2
+== move 4
+ret 1
+turn 19 canmove 1 cheater 2
+pos d8 0 5 3 3 5 / 1 spin 5
+items itDiamond=12 itInventory=2
+kills moWolf=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0554c2 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e8d49b0 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f080779 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d0 h0 s0 p3e96b0df f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d3 h0 s0 p3e10dd58 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3de5b5a9 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e0c185c f0 w0 m1 b126 laNone laNone
+dcal 574 hash 0ba468ea
+== move 0
+ret 1
+turn 20 canmove 1 cheater 2
+pos d8 0 5 3 3 5 / 2 spin 1
+items itDiamond=12 itInventory=2
+kills moWolf=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f401f50 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d0 h0 s0 p3eb0f486 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ee004f2 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3ea84812 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ebde6a7 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3eea895b f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ed32a39 f0 w0 m1 b126 laNone laNone
+dcal 574 hash b79d4c89
+== cheat C
+ret 1
+msg 1 You fall into a wormhole!
+msg 1 Activated the Hyperstone Quest!
+turn 20 canmove 1 cheater 3
+pos d0 / -1 spin 0
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=2 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 945886c2
+== move 6
+ret 1
+turn 21 canmove 1 cheater 3
+pos d0 / 6 spin 0
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.6 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 30d13a4c
+== move 3
+ret 1
+turn 22 canmove 1 cheater 3
+pos d2 2 / 2 spin 5
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laBarrier waBarrier moNone itNone d126 h0 s0 p00000028 f0 w0 m1 b5 laCrossroads laCaves
+c6 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash ecc62233
+== move 2
+ret 1
+turn 23 canmove 1 cheater 3
+pos d2 2 / 1 spin 5
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laBarrier waBarrier moNone itNone d126 h0 s0 p00000024 f0 w0 m1 b126 laCrossroads laCaves
+c2 1 0.4 laBarrier waBarrier moNone itNone d126 h0 s0 p00000028 f0 w0 m1 b5 laCrossroads laCaves
+c3 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash bca3f6fd
+== move 3
+ret 1
+turn 24 canmove 1 cheater 3
+pos d4 2 4 / -1 spin 3
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laBarrier waBarrier moNone itNone d126 h0 s0 p00000026 f0 w0 m1 b126 laCaves laCrossroads
+c3 1 0.0 laBarrier waBarrier moNone itNone d126 h0 s0 p00000024 f0 w0 m1 b126 laCrossroads laCaves
+c4 1 0.2 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 392f1c01
+== move 4
+ret 1
+turn 25 canmove 1 cheater 3
+pos d4 2 4 / 0 spin 0
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laBarrier waBarrier moNone itNone d126 h0 s0 p0000002a f0 w0 m1 b3 laCaves laCrossroads
+c4 1 0.1 laBarrier waBarrier moNone itNone d126 h0 s0 p00000026 f0 w0 m1 b126 laCaves laCrossroads
+c5 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 7168b104
+== move 3
+ret 1
+turn 26 canmove 1 cheater 3
+pos d6 2 4 3 / 2 spin 5
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laBarrier waBarrier moNone itNone d126 h0 s0 p0000002a f0 w0 m1 b3 laCaves laCrossroads
+c4 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 359ed3e9
+== move 3
+ret 1
+turn 27 canmove 1 cheater 3
+pos d7 2 4 3 5 / -1 spin 3
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCrossroads waNone moNone itHyperstone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 693e1e60
+== move 5
+ret 1
+turn 28 canmove 1 cheater 3
+pos d7 2 4 3 5 / 1 spin 0
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laBarrier waBarrier moNone itNone d126 h0 s0 p00000021 f0 w0 m1 b0 laCrossroads laCaves
+c4 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laCrossroads waNone moNone itHyperstone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 52869555
+== move 1
+ret 1
+msg 1 You collect your first Hyperstone!
+turn 29 canmove 1 cheater 3
+pos d7 2 4 3 5 / 0 spin 5
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itHyperstone=1 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laBarrier waBarrier moNone itNone d126 h0 s0 p00000023 f0 w0 m1 b1 laJungle laCrossroads
+dcal 574 hash 916203ed
+== move 5
+ret 1
+turn 30 canmove 1 cheater 3
+pos d9 2 4 3 5 4 / -1 spin 4
+items itDiamond=50 itGold=50 itSpice=50 itRuby=50 itElixir=50 itShard=50 itBone=50 itHell=50 itStatue=50 itFeather=50 itSapphire=50 itHyperstone=1 itGreenStone=5 itFernFlower=50 itWine=50 itSilver=50 itRoyalJelly=50 itEmerald=50 itPower=50 itGrimoire=50 itPirate=50 itRedGem=50 itBombEgg=50 itCoast=50 itWhirlpool=50 itPalace=50 itFjord=50 itIvory=50 itZebra=50 itElemental=50 itFulgurite=50 itMutant=50 itMutant2=50 itLotus=50 itWindstone=50 itRose=50 itCoral=50 itBabyTortoise=50 itApple=50 itDragon=50 itKraken=50 itBarrow=50 itTrollEgg=50 itSlime=50 itAmethyst=50 itDodeca=50 itGreenGrass=50 itBull=50 itInventory=286 itLavaLily=50 itHunting=50 itBlizzard=50 itTerra=50 itRuins=50 itSwitch=50 itBrownian=50 itWest=50 itVarTreasure=50 itWet=50 itFrog=50 itEclectic=50 itCursed=50 itDice=50
+kills moYeti=1000 moWolf=1 moTroll=1000 moDesertman=1000 moMonkey=1000 moZombie=1000 moCultist=1000 moRunDog=1000
+c0 0 -1.-1 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laCrossroads waNone moNone itHyperstone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laCrossroads waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 9536a34a

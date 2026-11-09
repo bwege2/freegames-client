@@ -1,0 +1,3 @@
+# The map structure of the standard geometry (bitruncated {7,3}) without a game: connections, heptagon data
+# (automaton state, distance, emerald/fifty/zebra/field values) and the pattern functions, radius 5.
+map 5

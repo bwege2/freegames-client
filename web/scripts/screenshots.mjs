@@ -42,7 +42,9 @@ const browser = await puppeteer.launch({ executablePath: chrome, headless: true,
 try {
   const page = await browser.newPage();
   await page.setViewport({ width: 1024, height: 804 });
-  await page.goto(`${base}#/${id}/play`, { waitUntil: 'networkidle0' });
+  // a game that draws every frame on a software canvas (HyperRogue) can keep the page from ever being reported as
+  // network-idle: its files are loaded by then, so go on after the timeout
+  await page.goto(`${base}#/${id}/play`, { waitUntil: 'networkidle0', timeout: 20000 }).catch(() => {});
   await page.waitForSelector('.player-host');
   const shot = async (file) => {
     const host = await page.$('.player-host');

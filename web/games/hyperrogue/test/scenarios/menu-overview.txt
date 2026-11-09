@@ -1,0 +1,24 @@
+# U2 (menus.cpp showOverview, help.cpp): the world overview ('o') after the treasure cheat, the help of a land
+# (Jungle: 1000 + laJungle, with its bestiary and a monster), of an item (2000 + itOrbFlash) and of a treasure
+# (2000 + itDiamond), and the requirements of the Elemental Planes (1000 + laElementalWall), in a 640x480 window
+# without the map (nomap=1).
+start 1 nomap=1
+cheat T
+ticks 1000
+svg 640 480 screen
+key o
+svg 640 480 screen
+key 1006
+svg 640 480 screen
+key b
+key a
+svg 640 480 screen
+key Escape
+key 2017
+svg 640 480 screen
+key Escape
+key 2001
+svg 640 480 screen
+key Escape
+key 1038
+svg 640 480 screen

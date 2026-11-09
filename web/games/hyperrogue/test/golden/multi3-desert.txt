@@ -1,0 +1,1205 @@
+== start 13 -P 3 -W laDesert
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+player 0 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 3 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 862 hash 3e9a1c5e
+== round
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 6 spin 5
+player 0 d0 / 6 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 753 hash e337b7cc
+== round
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 0 spin 1
+player 0 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 770 hash abb86182
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 2 canmove 1 cheater 1
+pos d0 / 0 spin 1
+player 0 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w0
+player 1 d0 / 1 spin 0 t0 k0 d0 pk0 s0 w5
+player 2 d0 / 6 spin 5 t0 k0 d0 pk0 s0 w-1
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 770 hash abb86182
+== round
+ret 0
+msg+ 2 Two players cannot move/attack the same location!
+turn 2 canmove 1 cheater 1
+pos d0 / 0 spin 1
+player 0 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-1
+player 1 d0 / 1 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d0 / 6 spin 5 t0 k0 d0 pk0 s0 w0
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 770 hash abb86182
+== round
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / 1 spin 1
+player 0 d0 / 1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 753 hash 5901a92b
+== round
+ret 0
+msg+ 3 Two players cannot move/attack the same location!
+turn 3 canmove 1 cheater 1
+pos d0 / 1 spin 1
+player 0 d0 / 1 spin 1 t0 k0 d0 pk0 s0 w2
+player 1 d0 / -1 spin 1 t0 k0 d0 pk0 s0 w-1
+player 2 d0 / 0 spin 1 t0 k0 d0 pk0 s0 w5
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 753 hash 5901a92b
+== round
+ret 1
+turn 4 canmove 1 cheater 1
+pos d2 4 / 2 spin 5
+player 0 d2 4 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 0 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 853 hash ec34bfa6
+== round
+ret 1
+turn 5 canmove 1 cheater 1
+pos d3 4 5 / 2 spin 5
+player 0 d3 4 5 / 2 spin 5 t0 k0 d0 pk0 s0 w-3
+player 1 d2 3 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 5 spin 5 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1110 hash ff948f21
+== round
+ret 1
+turn 6 canmove 1 cheater 1
+pos d4 5 3 / -1 spin 4
+player 0 d4 5 3 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 1 d0 / 0 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 6 spin 1 t0 k0 d0 pk0 s0 w-3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itSpice d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1022 hash 0451f804
+== round
+ret 0
+msg+ 4 Two players cannot move/attack the same location!
+turn 6 canmove 1 cheater 1
+pos d4 5 3 / -1 spin 4
+player 0 d4 5 3 / -1 spin 4 t0 k0 d0 pk0 s0 w5
+player 1 d0 / 0 spin 2 t0 k0 d0 pk0 s0 w0
+player 2 d0 / 6 spin 1 t0 k0 d0 pk0 s0 w3
+revive
+items
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itSpice d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1022 hash 0451f804
+== round
+ret 1
+msg 1 You collect your first Spice!
+turn 7 canmove 1 cheater 1
+pos d4 5 3 / 2 spin 0
+player 0 d4 5 3 / 2 spin 0 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 0 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / -1 spin 6 t0 k0 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laDesert waNone moDesertman itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1050 hash 77d6d61a
+== round
+ret 1
+msg 1 You kill the Desert Man.
+turn 8 canmove 1 cheater 1
+pos d2 5 / 0 spin 3
+player 0 d2 5 / 0 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / -1 spin 3 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 908 hash 11579875
+== round
+ret 1
+turn 9 canmove 1 cheater 1
+pos d4 5 3 / -1 spin 3
+player 0 d4 5 3 / -1 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 4 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.4 laDesert waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.1 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1054 hash 5037d86e
+== round
+ret 1
+turn 10 canmove 1 cheater 1
+pos d4 5 3 / -1 spin 3
+player 0 d4 5 3 / -1 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d2 5 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 3 spin 5 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laDesert waNone moNone itNone d0 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 989 hash 32064e5c
+== round
+ret 1
+turn 11 canmove 1 cheater 1
+pos d4 5 3 / 2 spin 0
+player 0 d4 5 3 / 2 spin 0 t1 k0 d0 pk0 s0 w-3
+player 1 d2 5 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d0 / 4 spin 1 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.5 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1076 hash 38d0eb22
+== round
+ret 1
+turn 12 canmove 1 cheater 1
+pos d4 5 3 / -1 spin 2
+player 0 d4 5 3 / -1 spin 2 t1 k0 d0 pk0 s0 w-3
+player 1 d4 5 4 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / -1 spin 4 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1218 hash 572b2259
+== round
+ret 1
+turn 13 canmove 1 cheater 1
+pos d4 5 3 / 0 spin 0
+player 0 d4 5 3 / 0 spin 0 t1 k0 d0 pk0 s0 w-3
+player 1 d2 5 / 0 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 1 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1236 hash 7efc0d37
+== round
+ret 1
+turn 14 canmove 1 cheater 1
+pos d6 5 3 3 / -1 spin 3
+player 0 d6 5 3 3 / -1 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d4 5 3 / -1 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / -1 spin 1 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1234 hash 3d9f9db9
+== round
+ret 1
+turn 15 canmove 1 cheater 1
+pos d6 5 3 3 / -1 spin 3
+player 0 d6 5 3 3 / -1 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 2 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 2 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1257 hash 6ff5dd0d
+== round
+ret 1
+turn 16 canmove 1 cheater 1
+pos d5 4 5 4 / 2 spin 2
+player 0 d5 4 5 4 / 2 spin 2 t1 k0 d0 pk0 s0 w-3
+player 1 d4 5 3 / -1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 1 spin 5 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1169 hash 8b7e6289
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 16 canmove 1 cheater 1
+pos d5 4 5 4 / 2 spin 2
+player 0 d5 4 5 4 / 2 spin 2 t1 k0 d0 pk0 s0 w1
+player 1 d4 5 3 / -1 spin 4 t0 k0 d0 pk0 s0 w5
+player 2 d2 1 / 1 spin 5 t0 k1 d0 pk0 s0 w3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1169 hash 8b7e6289
+== round
+ret 1
+turn 17 canmove 1 cheater 1
+pos d5 4 5 4 / -1 spin 2
+player 0 d5 4 5 4 / -1 spin 2 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 1 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / -1 spin 1 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1143 hash fcba700b
+== round
+ret 1
+turn 18 canmove 1 cheater 1
+pos d6 4 5 3 5 / 2 spin 4
+player 0 d6 4 5 3 5 / 2 spin 4 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / -1 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 2 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c21 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1269 hash 3eb76e58
+== round
+ret 1
+turn 19 canmove 1 cheater 1
+pos d5 4 5 4 / -1 spin 6
+player 0 d5 4 5 4 / -1 spin 6 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 1 spin 5 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1234 hash 1a1fbf8c
+== round
+ret 1
+turn 20 canmove 1 cheater 1
+pos d5 4 5 4 / -1 spin 6
+player 0 d5 4 5 4 / -1 spin 6 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 0 spin 5 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1234 hash d647b1de
+== round
+ret 0
+msg+ 2 Players cannot get that far away!
+turn 20 canmove 1 cheater 1
+pos d5 4 5 4 / -1 spin 6
+player 0 d5 4 5 4 / -1 spin 6 t1 k0 d0 pk0 s0 w-1
+player 1 d3 4 5 / 2 spin 0 t0 k0 d0 pk0 s0 w5
+player 2 d2 1 / 0 spin 5 t0 k1 d0 pk0 s0 w3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1234 hash d647b1de
+== round
+ret 0
+msg 1 Two players cannot move/attack the same location!
+turn 20 canmove 1 cheater 1
+pos d5 4 5 4 / -1 spin 6
+player 0 d5 4 5 4 / -1 spin 6 t1 k0 d0 pk0 s0 w4
+player 1 d3 4 5 / 2 spin 0 t0 k0 d0 pk0 s0 w1
+player 2 d2 1 / 0 spin 5 t0 k1 d0 pk0 s0 w5
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1234 hash d647b1de
+== round
+ret 1
+turn 21 canmove 1 cheater 1
+pos d3 4 5 / 0 spin 4
+player 0 d3 4 5 / 0 spin 4 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 2 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / -1 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1158 hash d1e1034e
+== round
+ret 1
+turn 22 canmove 1 cheater 1
+pos d3 4 5 / 6 spin 5
+player 0 d3 4 5 / 6 spin 5 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d2 1 / 0 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1148 hash a2d661ea
+== round
+ret 1
+turn 23 canmove 1 cheater 1
+pos d3 4 5 / 0 spin 1
+player 0 d3 4 5 / 0 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / -1 spin 3 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1183 hash 4b7fb60f
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 23 canmove 1 cheater 1
+pos d3 4 5 / 0 spin 1
+player 0 d3 4 5 / 0 spin 1 t1 k0 d0 pk0 s0 w0
+player 1 d3 4 5 / 1 spin 0 t0 k0 d0 pk0 s0 w2
+player 2 d4 1 3 / -1 spin 3 t0 k1 d0 pk0 s0 w2
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1183 hash 4b7fb60f
+== round
+ret 1
+turn 24 canmove 1 cheater 1
+pos d3 4 5 / 0 spin 1
+player 0 d3 4 5 / 0 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d3 4 5 / 2 spin 1 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / -1 spin 3 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1238 hash c4f2bfd5
+== round
+ret 1
+turn 25 canmove 1 cheater 1
+pos d3 4 5 / 1 spin 1
+player 0 d3 4 5 / 1 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d2 4 / 2 spin 3 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / -1 spin 3 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1214 hash d6dadd6a
+== round
+ret 1
+turn 26 canmove 1 cheater 1
+pos d3 4 5 / 2 spin 1
+player 0 d3 4 5 / 2 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d2 4 / -1 spin 2 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / 1 spin 0 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 1 1.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c14 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1267 hash c2ddc922
+== round
+ret 1
+turn 27 canmove 1 cheater 1
+pos d3 4 5 / 2 spin 1
+player 0 d3 4 5 / 2 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 0 spin 4 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / 0 spin 5 t0 k1 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=1
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laDesert waNone moDesertman itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c20 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1283 hash a55a1666
+== round
+ret 1
+msg 1 You kill the Desert Man.
+turn 28 canmove 1 cheater 1
+pos d3 4 5 / 2 spin 1
+player 0 d3 4 5 / 2 spin 1 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / -1 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d4 1 3 / -1 spin 0 t0 k2 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=2
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.0 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1192 hash 4602fe55
+== round
+ret 0
+msg 1 Players cannot get that far away!
+turn 28 canmove 1 cheater 1
+pos d3 4 5 / 2 spin 1
+player 0 d3 4 5 / 2 spin 1 t1 k0 d0 pk0 s0 w0
+player 1 d0 / -1 spin 0 t0 k0 d0 pk0 s0 w5
+player 2 d4 1 3 / -1 spin 0 t0 k2 d0 pk0 s0 w1
+revive
+items itSpice=1
+kills moDesertman=2
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c10 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.0 laDesert waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 1.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c17 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c19 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c22 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1192 hash 4602fe55
+== round
+ret 1
+turn 29 canmove 1 cheater 1
+pos d2 4 / 2 spin 3
+player 0 d2 4 / 2 spin 3 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 6 spin 0 t0 k0 d0 pk0 s0 w-3
+player 2 d3 0 5 / 1 spin 4 t0 k2 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=2
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c9 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.6 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.3 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c15 1 2.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.1 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c18 1 2.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 1213 hash e0c9ac89
+== round
+ret 1
+turn 30 canmove 1 cheater 1
+pos d2 4 / 1 spin 5
+player 0 d2 4 / 1 spin 5 t1 k0 d0 pk0 s0 w-3
+player 1 d0 / 5 spin 5 t0 k0 d0 pk0 s0 w-3
+player 2 d5 0 5 4 / -1 spin 3 t0 k2 d0 pk0 s0 w-3
+revive
+items itSpice=1
+kills moDesertman=2
+c0 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 0 -1.-1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c8 1 0.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 1 1.4 laDesert waDune moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c10 1 1.1 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c11 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c12 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c13 1 1.3 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c14 1 1.5 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c15 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c16 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c17 1 2.2 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c18 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c19 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c20 1 2.4 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c21 1 2.0 laDesert waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 1287 hash 9742c6f9

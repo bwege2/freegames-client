@@ -1,0 +1,58 @@
+# U4 (config.cpp): the settings from the game menu (Esc, s) in a 640x480 window without the map (nomap=1): the
+# settings screen, interface, graphics with the vector settings (switches), HUD settings with a list parameter
+# (message style), colours, mouse, other settings, the sight range, the models menu; then the configuration as
+# saveConfig writes it. (The search screen is typed into but not drawn: the port does not register the parameters
+# of the stage-3 features, so its list of matches is shorter.)
+start 1 nomap=1
+ticks 1000
+svg 640 480 screen
+key Escape
+key s
+svg 640 480 screen
+key i
+svg 640 480 screen
+key h
+svg 640 480 screen
+key a
+svg 640 480 screen
+key b
+key Escape
+key Escape
+key g
+svg 640 480 screen
+key w
+svg 640 480 screen
+key g
+key f
+key Escape
+key u
+key p
+svg 640 480 screen
+key Escape
+key Escape
+key c
+svg 640 480 screen
+key Escape
+key m
+key r
+svg 640 480 screen
+key Escape
+key o
+svg 640 480 screen
+key r
+svg 640 480 screen
+key Escape
+key Escape
+key p
+svg 640 480 screen
+key a
+svg 640 480 screen
+key Escape
+key Escape
+key /
+key /
+key g
+key r
+key i
+key d
+saveconfig

@@ -1,0 +1,520 @@
+== start 110 -W laEclectic
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w70 m1 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash af022a19
+== move 2
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 2 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ea3d70a f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laEclectic waSmallTree moNone itNone d126 h0 s0 p3da3d70a f0 w23 m1 b126 laNone laNone
+c4 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+dcal 574 hash f4b6e8bb
+== move 4
+ret 1
+turn 2 canmove 1 cheater 1
+pos d2 6 / -1 spin 4
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3e9fbe77 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waRed1 moNone itNone d126 h0 s0 p3db43958 f0 w42 m1 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3db43958 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3e23d70a f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e83126e f0 w0 m0 b126 laNone laNone
+c6 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e23d70a f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+dcal 582 hash a9ecd9f4
+== move 3
+ret 1
+turn 3 canmove 1 cheater 1
+pos d2 6 / 0 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waRed1 moNone itNone d126 h0 s0 p3ecf41f2 f0 w42 m0 b126 laNone laNone
+c1 1 0.5 laEclectic waRed2 moNone itNone d126 h0 s0 p3db5dcc6 f0 w43 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3dc478b2 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3e255785 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e89374c f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3e3367a1 f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3dc985f1 f0 w0 m1 b126 laNone laNone
+dcal 574 hash a7b8bd2e
+== move 2
+ret 1
+turn 4 canmove 1 cheater 1
+pos d4 6 3 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3eacc4f0 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3dea9e6f f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3dba1f4b f0 w22 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3db7fe09 f0 w22 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waRed3 moNone itNone d126 h0 s0 p3dc97ef3 f0 w44 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waRed2 moNone itNone d126 h0 s0 p3e3321b9 f0 w43 m1 b126 laNone laNone
+c6 1 0.2 laEclectic waRed1 moNone itNone d126 h0 s0 p3ea95183 f0 w42 m0 b126 laNone laNone
+c7 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3e7b15b6 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 718f1af1
+== move 4
+ret 1
+msg 1 You start chopping down the tree.
+turn 5 canmove 1 cheater 1
+pos d4 6 3 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ee94f26 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waRed2 moNone itNone d126 h0 s0 p3e72f901 f0 w43 m1 b126 laNone laNone
+c2 1 0.2 laEclectic waRed1 moNone itNone d126 h0 s0 p3eaa77a3 f0 w42 m0 b126 laNone laNone
+c3 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3e971f90 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e4aee20 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e2ebe59 f0 w22 m1 b126 laNone laNone
+c6 1 0.0 laEclectic waSmallTree moNone itNone d126 h0 s0 p3e2ca73a f0 w22 m1 b126 laNone laNone
+c7 1 0.0 laEclectic waRed3 moNone itNone d126 h0 s0 p3e37f578 f0 w44 m1 b126 laNone laNone
+dcal 582 hash ac8f3ad8
+== move 0
+ret 1
+msg 1 You chop down the tree.
+turn 6 canmove 1 cheater 1
+pos d4 6 3 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f08f287 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waRed3 moNone itNone d126 h0 s0 p3e78a017 f0 w44 m1 b126 laNone laNone
+c2 1 0.0 laEclectic waRed2 moNone itNone d126 h0 s0 p3e925e81 f0 w43 m1 b126 laNone laNone
+c3 1 0.2 laEclectic waRed1 moNone itNone d126 h0 s0 p3eb4acf3 f0 w42 m0 b126 laNone laNone
+c4 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3eab8887 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e8626a1 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e710106 f0 w22 m1 b126 laNone laNone
+c7 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e6e34cb f0 w22 m1 b126 laNone laNone
+dcal 582 hash 1e15b747
+== move 0
+ret 1
+turn 7 canmove 1 cheater 1
+pos d4 6 3 / 0 spin 0
+items
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f066e22 f0 w22 m0 b126 laNone laNone
+c1 1 0.5 laEclectic waBigTree moNone itNone d126 h0 s0 p3df9a6cb f0 w22 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e155aef f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laEclectic waRed3 moNone itNone d126 h0 s0 p3e961c0b f0 w44 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3edecb08 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3e9396f3 f0 w22 m1 b126 laNone laNone
+c6 1 0.3 laEclectic waNone moNone itEclectic d126 h0 s0 p3e143eac f0 w0 m1 b126 laNone laNone
+dcal 574 hash 16da8705
+== move 2
+ret 1
+msg 1 You collect your first Lazurite Figurine!
+turn 8 canmove 1 cheater 1
+pos d6 6 3 3 / -1 spin 3
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ec45088 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laEclectic waBigTree moNone itNone d126 h0 s0 p3eae3e4b f0 w22 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e19307a f0 w22 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3dd54058 f0 w22 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3dc9bc3d f0 w22 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3de2da4c f0 w22 m1 b126 laNone laNone
+c6 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e5957bb f0 w22 m1 b126 laNone laNone
+c7 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3eddacb8 f0 w22 m0 b126 laNone laNone
+dcal 582 hash 096eeff9
+== move 3
+ret 1
+msg 1 You start chopping down the tree.
+turn 9 canmove 1 cheater 1
+pos d6 6 3 3 / -1 spin 6
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3efff052 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e6f36d8 f0 w22 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waSmallTree moNone itNone d126 h0 s0 p3e3fdaf5 f0 w22 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e38211e f0 w22 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e482f39 f0 w22 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e8d9f79 f0 w22 m1 b126 laNone laNone
+c6 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3ed82bd2 f0 w22 m0 b126 laNone laNone
+c7 1 0.2 laEclectic waBigTree moNone itNone d126 h0 s0 p3ec15d7e f0 w22 m1 b126 laNone laNone
+dcal 582 hash 7523e92f
+== move 0
+ret 1
+msg 1 You chop down the tree.
+turn 10 canmove 1 cheater 1
+pos d6 6 3 3 / -1 spin 6
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f13c5fb f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e981914 f0 w22 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e82626b f0 w22 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e7bb789 f0 w22 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3e85ce00 f0 w22 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waBigTree moNone itNone d126 h0 s0 p3ea71bb4 f0 w22 m1 b126 laNone laNone
+c6 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3edd8f65 f0 w22 m0 b126 laNone laNone
+c7 1 0.2 laEclectic waBigTree moNone itNone d126 h0 s0 p3ed101a2 f0 w22 m1 b126 laNone laNone
+dcal 582 hash 645cb821
+== move 4
+ret 1
+turn 11 canmove 1 cheater 1
+pos d4 6 3 / 0 spin 2
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f307e74 f0 w22 m0 b126 laNone laNone
+c1 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3ef39b26 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laEclectic waBigTree moNone itNone d126 h0 s0 p3ebbf5b5 f0 w22 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e7d3725 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waRed3 moNone itNone d126 h0 s0 p3e925055 f0 w44 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3eb1c3ae f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ede9752 f0 w22 m1 b126 laNone laNone
+dcal 574 hash 6e7aba4b
+== move 4
+ret 0
+msg 1 The Icewolf would kill you there!
+turn 11 canmove 1 cheater 1
+pos d4 6 3 / 0 spin 0
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f307e74 f0 w22 m0 b126 laNone laNone
+c1 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3ef39b26 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laEclectic waBigTree moNone itNone d126 h0 s0 p3ebbf5b5 f0 w22 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e7d3725 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waRed3 moNone itNone d126 h0 s0 p3e925055 f0 w44 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3eb1c3ae f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ede9752 f0 w22 m1 b126 laNone laNone
+dcal 574 hash 6e7aba4b
+== move 4
+ret 1
+turn 12 canmove 1 cheater 1
+pos d6 6 3 4 / -1 spin 4
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ef30902 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e39ab68 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laEclectic waRed3 moNone itNone d126 h0 s0 p3eb5016a f0 w44 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3f1251d9 f0 w22 m0 b126 laNone laNone
+c4 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3ed1af82 f0 w22 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e46dd65 f0 w22 m1 b126 laNone laNone
+c6 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e0e775c f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e0f7852 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 0739cf7d
+== move 0
+ret 0
+msg+ 2 The Icewolf would kill you there!
+turn 12 canmove 1 cheater 1
+pos d6 6 3 4 / -1 spin 4
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ef30902 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e39ab68 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laEclectic waRed3 moNone itNone d126 h0 s0 p3eb5016a f0 w44 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3f1251d9 f0 w22 m0 b126 laNone laNone
+c4 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3ed1af82 f0 w22 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3e46dd65 f0 w22 m1 b126 laNone laNone
+c6 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e0e775c f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3e0f7852 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 0739cf7d
+== move 3
+ret 1
+turn 13 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 0
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3eec228a f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3debfbb4 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3e61cf5b f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3ed7ba26 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3e8d286f f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3dffc89c f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3dd1e53b f0 w0 m1 b126 laNone laNone
+dcal 574 hash a2e67862
+== move 0
+ret 0
+msg+ 3 The Icewolf would kill you there!
+turn 13 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 0
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3eec228a f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3debfbb4 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3e61cf5b f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3ed7ba26 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3e8d286f f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3dffc89c f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3dd1e53b f0 w0 m1 b126 laNone laNone
+dcal 574 hash a2e67862
+== move 4
+ret 1
+turn 14 canmove 1 cheater 1
+pos d8 6 3 4 4 / -1 spin 4
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3eb66ac3 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e44dea5 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3dd4fbdf f0 w49 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waPalace moNone itNone d126 h0 s0 p3dbf01ae f0 w49 m1 b126 laNone laNone
+c4 1 0.0 laEclectic waIcewall moNone itNone d126 h0 s0 p3dc158d4 f0 w1 m1 b126 laNone laNone
+c5 1 0.0 laEclectic waIcewall moNone itNone d126 h0 s0 p3e03488d f0 w1 m1 b126 laNone laNone
+c6 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3e95e4b9 f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3ec7ef3d f0 w0 m0 b126 laNone laNone
+dcal 582 hash b9bab7ae
+== move 0
+ret 1
+turn 15 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 4
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f228ca3 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3eb06c1d f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3ecd0005 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ea7929f f0 w22 m1 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3e5e12eb f0 w22 m1 b126 laNone laNone
+c5 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3e845be5 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3ea2024e f0 w0 m0 b126 laNone laNone
+dcal 574 hash 577ebe06
+== wait
+ret 1
+turn 16 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 4
+items itEclectic=1
+kills
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f42a8e5 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3eaed375 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3ec98438 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moWolf itNone d4 h0 s0 p3ee0fa50 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ec73a1c f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3e928e8d f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3ea35e45 f0 w0 m1 b126 laNone laNone
+dcal 574 hash c02a90f7
+== move 2
+ret 1
+msg 1 You kill the Icewolf.
+turn 17 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 0
+items itEclectic=1
+kills moWolf=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f574eb9 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3ebfb898 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3edf208c f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d4 h0 s0 p3ef0cbab f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ee0e44e f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3eae30b3 f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3ebdd0c3 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 3cb6addd
+== move 4
+ret 0
+msg 1 The Fire Fairy would kill you there!
+turn 17 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 4
+items itEclectic=1
+kills moWolf=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f574eb9 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3ebfb898 f0 w0 m0 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3edf208c f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d4 h0 s0 p3ef0cbab f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3ee0e44e f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3eae30b3 f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3ebdd0c3 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 3cb6addd
+== move 1
+ret 1
+turn 18 canmove 1 cheater 1
+pos d6 6 3 4 / 1 spin 1
+items itEclectic=1
+kills moWolf=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f362357 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laEclectic waNone moFireFairy itNone d6 h0 s0 p409caf47 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laEclectic waIcewall moNone itNone d126 h0 s0 p3e81c68b f0 w1 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e59f158 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3e9c17bf f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laEclectic waNone moNone itNone d4 h0 s0 p3efdcc74 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f28d47f f0 w0 m0 b126 laNone laNone
+dcal 574 hash 2a266add
+== move 1
+ret 1
+msg 1 You kill the Fire Fairy.
+turn 19 canmove 1 cheater 1
+pos d6 6 3 4 / 1 spin 2
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3fa4b80d f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f8d1bdb f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laEclectic waFire moNone itNone d6 h0 s0 p4099305f f0 w49 m0 b126 laNone laNone
+c3 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f49cdbc f0 w1 m1 b126 laNone laNone
+c4 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3e94c527 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3ec3c142 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laEclectic waNone moNone itNone d4 h0 s0 p3f046a0c f0 w0 m0 b126 laNone laNone
+dcal 574 hash efee8d65
+== move 4
+ret 1
+turn 20 canmove 1 cheater 1
+pos d6 6 3 4 / -1 spin 1
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d4 h0 s0 p3f4a49a5 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3ef8698e f0 w22 m1 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3faf14ed f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3fb0d68b f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3ef8224d f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laEclectic waRed3 moNone itNone d126 h0 s0 p3eab40a0 f0 w44 m1 b126 laNone laNone
+c6 1 0.4 laEclectic waNone moNone itNone d0 h0 s0 p3eb56dbc f0 w22 m0 b126 laNone laNone
+c7 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3ebbb8d0 f0 w22 m1 b126 laNone laNone
+dcal 582 hash 84deaadf
+== move 4
+ret 1
+msg 1 You start chopping down the tree.
+turn 21 canmove 1 cheater 1
+pos d6 6 3 4 / -1 spin 5
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d4 h0 s0 p3f745b94 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3fc82dab f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3fc3b71c f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3f151797 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laEclectic waRed3 moNone itNone d126 h0 s0 p3ed5234c f0 w44 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waNone moNone itNone d0 h0 s0 p3eda78db f0 w22 m0 b126 laNone laNone
+c6 1 0.4 laEclectic waSmallTree moNone itNone d126 h0 s0 p3ee2f6e3 f0 w22 m1 b126 laNone laNone
+c7 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3f1a9bad f0 w22 m1 b126 laNone laNone
+dcal 582 hash 3146b901
+== move 3
+ret 1
+turn 22 canmove 1 cheater 1
+pos d6 6 3 4 / 1 spin 0
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3ff52194 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laEclectic waFire moNone itNone d6 h0 s0 p40a9ad94 f0 w46 m0 b126 laNone laNone
+c2 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3fb88c09 f0 w1 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waNone moNone itNone d126 h0 s0 p3f19baca f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3f2caf28 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laEclectic waNone moNone itNone d4 h0 s0 p3f6c43ca f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3fdc8d1c f0 w0 m0 b126 laNone laNone
+dcal 574 hash ec5c7621
+== move 0
+ret 1
+turn 23 canmove 1 cheater 1
+pos d6 6 3 4 / -1 spin 1
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d4 h0 s0 p3f916c15 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3feedf4a f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3ff4ceb4 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d126 h0 s0 p3f44cb3a f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laEclectic waRed3 moNone itNone d126 h0 s0 p3efc9c18 f0 w44 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waNone moNone itNone d0 h0 s0 p3ef6f426 f0 w22 m0 b126 laNone laNone
+c6 1 0.4 laEclectic waSmallTree moNone itNone d126 h0 s0 p3f0356da f0 w22 m1 b126 laNone laNone
+c7 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3f3f548a f0 w22 m1 b126 laNone laNone
+dcal 582 hash c5165bf4
+== move 6
+ret 1
+turn 24 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 0
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p400e5253 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3fee456e f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laEclectic waFire moNone itNone d6 h0 s0 p40b2772d f0 w44 m0 b126 laNone laNone
+c3 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p3ffdfb6d f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laEclectic waNone moNone itNone d4 h0 s0 p3f8cb267 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3f59b206 f0 w22 m1 b126 laNone laNone
+c6 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3f555ee4 f0 w22 m1 b126 laNone laNone
+dcal 574 hash 320cecef
+== move 1
+ret 1
+msg+ 2 You start chopping down the tree.
+turn 25 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 1
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p401b86a1 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laEclectic waFire moNone itNone d6 h0 s0 p40b71621 f0 w43 m0 b126 laNone laNone
+c2 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p4004f950 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laEclectic waNone moNone itNone d4 h0 s0 p3f91d4e2 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laEclectic waSmallTree moNone itNone d126 h0 s0 p3f7217ff f0 w22 m1 b126 laNone laNone
+c5 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3f7548fa f0 w22 m1 b126 laNone laNone
+c6 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p4000c09f f0 w0 m1 b126 laNone laNone
+dcal 574 hash 9eca1fda
+== move 0
+ret 1
+msg 1 You chop down the tree.
+turn 26 canmove 1 cheater 1
+pos d6 6 3 4 / 0 spin 1
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p4024f4d2 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3f83ccfd f0 w22 m1 b126 laNone laNone
+c2 1 0.3 laEclectic waBigTree moNone itNone d126 h0 s0 p3f87bdfe f0 w22 m1 b126 laNone laNone
+c3 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p4008cdcf f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laEclectic waFire moNone itNone d6 h0 s0 p40baf718 f0 w42 m0 b126 laNone laNone
+c5 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p400ae91f f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laEclectic waNone moNone itNone d4 h0 s0 p3f98b609 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 25154864
+== move 0
+ret 1
+turn 27 canmove 1 cheater 1
+pos d7 6 3 3 5 / 2 spin 3
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3fac0214 f0 w22 m0 b126 laNone laNone
+c1 1 0.6 laEclectic waNone moNone itNone d4 h0 s0 p3f9fc3d7 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laEclectic waSmallTree moNone itNone d126 h0 s0 p3f25c98e f0 w22 m1 b126 laNone laNone
+c3 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3ee28514 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f0b66be f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3f92e155 f0 w22 m1 b126 laNone laNone
+c6 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p401d1469 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 1c13ad62
+== move 2
+ret 1
+msg+ 2 You chop down the tree.
+turn 28 canmove 1 cheater 1
+pos d7 6 3 3 5 / 2 spin 5
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3fc0c422 f0 w22 m0 b126 laNone laNone
+c1 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3f091973 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f27bf28 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3f9c9902 f0 w22 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p401d3744 f0 w0 m0 b126 laNone laNone
+c5 1 0.6 laEclectic waNone moNone itNone d4 h0 s0 p3fa699d1 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3f3dce5f f0 w22 m1 b126 laNone laNone
+dcal 574 hash 3f482995
+== wait
+ret 1
+turn 29 canmove 1 cheater 1
+pos d7 6 3 3 5 / 2 spin 5
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3fce8fe6 f0 w22 m0 b126 laNone laNone
+c1 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3f1c4d4a f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3f3e69f9 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laEclectic waBigTree moNone itNone d126 h0 s0 p3fa53b04 f0 w22 m1 b126 laNone laNone
+c4 1 0.1 laEclectic waNone moNone itNone d126 h0 s0 p401f96ee f0 w0 m0 b126 laNone laNone
+c5 1 0.6 laEclectic waNone moNone itNone d4 h0 s0 p3fad1b5b f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3f5115d9 f0 w22 m1 b126 laNone laNone
+dcal 574 hash 9cee3c6b
+== move 0
+ret 1
+turn 30 canmove 1 cheater 1
+pos d6 6 3 3 / 2 spin 3
+items itEclectic=1
+kills moNone=2 moWolf=1 moFireFairy=1
+c0 0 -1.-1 laEclectic waNone moNone itNone d126 h0 s0 p3f8f303d f0 w22 m0 b126 laNone laNone
+c1 1 0.5 laEclectic waBigTree moNone itNone d126 h0 s0 p3ed7ad9d f0 w22 m1 b126 laNone laNone
+c2 1 0.3 laEclectic waNone moNone itNone d126 h0 s0 p3f2c320e f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laEclectic waNone moNone itNone d126 h0 s0 p3fba6814 f0 w22 m0 b126 laNone laNone
+c4 1 0.5 laEclectic waNone moNone itNone d4 h0 s0 p3fb3419c f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laEclectic waNone moNone itNone d0 h0 s0 p3f24fbcf f0 w22 m0 b126 laNone laNone
+c6 1 0.2 laEclectic waNone moNone itNone d126 h0 s0 p3ecedc6d f0 w0 m0 b126 laNone laNone
+dcal 574 hash 084eff84

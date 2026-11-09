@@ -1,0 +1,107 @@
+{
+  "id": "hyperrogue",
+  "title": "HyperRogue",
+  "tagline": "A roguelike on the hyperbolic plane: collect treasure in a world that never comes back around.",
+  "summary": [
+    "HyperRogue is Zeno Rogue's roguelike played on the hyperbolic plane, a world of heptagons and hexagons where space grows exponentially: walk away and you will hardly ever find your way back. Collect treasure in dozens of lands, each with its own monsters, terrain and orbs, and look for the Orbs of Yendor.",
+    "Every move is a turn. You kill a monster by moving into it, and the game will not let you step where a monster would kill you; treasure attracts more monsters of its land, magical orbs give you powers.",
+    "This is a port of HyperRogue 13.1o, translated line by line from its C++ source and checked against the original: the rules, lands, monsters and orbs, and the drawing of the map, creatures, menus and settings in the standard hyperbolic geometry. The original's eight translations (Polish, Turkish, Czech, Russian, German, Brazilian Portuguese, French, Chinese) are there with their grammar and fonts, and its music and sound effects play. Two to seven players can explore together, at one keyboard as in the original, or online, each in their own browser: everyone chooses a move, then all move at once."
+  ],
+  "caveat": "Honest note: this port covers the standard game of HyperRogue 13.1o in the hyperbolic plane. Its rules and its pictures are checked against the original (the same states and the same drawing for the same moves), but the original's other geometries, 3D, the real-time shoot'em up mode, split screen and the map editor are still missing, and the browser draws without OpenGL, as the original does when OpenGL is off. Online play is an addition of this port: the original has only local multiplayer, at one computer. Online, 2-7 players play the original's turn-based multiplayer rules, each in their own browser (start menu or multiplayer menu: \"online multiplayer\"), with an optional time limit per turn that the original does not have.",
+  "original": {
+    "author": "Zeno Rogue",
+    "year": 2011,
+    "platform": "Windows/Linux/macOS (C++, SDL, OpenGL)",
+    "version": "13.1o",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 102714391,
+    "url": "https://roguetemple.com/z/hyper/"
+  },
+  "players": "1–7 (on one computer, taking turns together), 2–7 online",
+  "genres": [
+    "Roguelike"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-03",
+  "controls": [
+    {
+      "input": "Left click on a neighbouring cell",
+      "action": "Move there or attack (click your own cell to wait)"
+    },
+    {
+      "input": "Numpad 1–9, vi keys (H J K L Y U B N) or Q W E A D Z X C",
+      "action": "Move or attack in the eight screen directions"
+    },
+    {
+      "input": "S, . or numpad 5",
+      "action": "Wait a turn"
+    },
+    {
+      "input": "G, Delete or numpad .",
+      "action": "Pick up or drop an item"
+    },
+    {
+      "input": "Click a distant cell, or T",
+      "action": "Use a ranged Orb (T: on the cell in the middle of the screen)"
+    },
+    {
+      "input": "Right click or F1",
+      "action": "Help on the thing under the mouse"
+    },
+    {
+      "input": "Arrow keys, Page Up / Page Down, mouse wheel",
+      "action": "Scroll and rotate the view"
+    },
+    {
+      "input": "Space or F3",
+      "action": "Center the view on the player"
+    },
+    {
+      "input": "Esc",
+      "action": "Quest status and menu"
+    },
+    {
+      "input": "V",
+      "action": "Menu"
+    },
+    {
+      "input": "O",
+      "action": "World overview"
+    },
+    {
+      "input": "N in the start menu",
+      "action": "Online multiplayer (2-7 players): the starting land and modes, then the lobby"
+    },
+    {
+      "input": "F5",
+      "action": "Restart"
+    },
+    {
+      "input": "F10",
+      "action": "Quit (saves the game if you carry an Orb of Safety)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "start.png",
+      "caption": "The start menu over the hyperbolic plane"
+    },
+    {
+      "file": "playing.png",
+      "caption": "In the Icy Land: the Poincaré disk, the player and the movement arrows"
+    },
+    {
+      "file": "quest.png",
+      "caption": "The Esc screen: the quest status and how to unlock more lands"
+    }
+  ],
+  "lazyAssets": [
+    "assets/music/**",
+    "assets/sounds/**",
+    "assets/fonts/NotoSans-Regular.ttf"
+  ]
+}

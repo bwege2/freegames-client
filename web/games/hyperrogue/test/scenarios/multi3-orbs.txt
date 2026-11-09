@@ -1,0 +1,431 @@
+# multi3-orbs: local multiplayer (turn-based, multi.cpp), written by re/hyperrogue/tools/gen-multi-scenarios.py
+radius 1
+start 9 -P 3
+cheat F
+item itOrbFrog 20
+item itOrbStunning 20
+item itOrbDash 20
+pmove 0 orb 12
+pmove 1 4
+pmove 2 5
+round
+pmove 0 orb 35
+pmove 1 orb 14
+pmove 2 2
+round
+pmove 0 1
+pmove 1 4
+pmove 2 5
+round
+pmove 0 orb 34
+pmove 1 1
+pmove 2 0
+round
+pmove 0 orb 35
+pmove 1 0
+pmove 2 0
+round
+pmove 0 orb 18
+pmove 1 0
+pmove 2 0
+round
+pmove 0 3
+pmove 1 3
+pmove 2 0
+round
+pmove 0 wait
+pmove 1 orb 26
+pmove 2 3
+round
+pmove 0 1
+pmove 1 orb 16
+pmove 2 3
+round
+pmove 0 2
+pmove 1 orb 14
+pmove 2 0
+round
+pmove 0 orb 29
+pmove 1 4
+pmove 2 2
+round
+pmove 0 1
+pmove 1 0
+pmove 2 3
+round
+pmove 0 2
+pmove 1 1
+pmove 2 0
+round
+pmove 0 1
+pmove 1 3
+pmove 2 orb 32
+round
+pmove 0 orb 32
+pmove 1 3
+pmove 2 4
+round
+pmove 0 orb 28
+pmove 1 1
+pmove 2 4
+round
+pmove 0 orb 19
+pmove 1 2
+pmove 2 orb 17
+round
+pmove 0 orb 3
+pmove 1 0
+pmove 2 5
+round
+pmove 0 orb 17
+pmove 1 3
+pmove 2 orb 10
+round
+pmove 0 orb 17
+pmove 1 orb 24
+pmove 2 5
+round
+pmove 0 orb 2
+pmove 1 2
+pmove 2 4
+round
+pmove 0 1
+pmove 1 orb 24
+pmove 2 3
+round
+pmove 0 wait
+pmove 1 wait
+pmove 2 wait
+round
+pmove 0 2
+pmove 1 0
+pmove 2 3
+round
+pmove 0 3
+pmove 1 6
+pmove 2 0
+round
+pmove 0 1
+pmove 1 orb 35
+pmove 2 orb 17
+round
+pmove 0 orb 36
+pmove 1 2
+pmove 2 5
+round
+pmove 0 1
+pmove 1 5
+pmove 2 1
+round
+pmove 0 orb 30
+pmove 1 4
+pmove 2 4
+round
+pmove 0 4
+pmove 1 orb 10
+pmove 2 orb 7
+round
+pmove 0 2
+pmove 1 4
+pmove 2 5
+round
+pmove 0 3
+pmove 1 5
+pmove 2 orb 15
+round
+pmove 0 orb 3
+pmove 1 1
+pmove 2 0
+round
+pmove 0 3
+pmove 1 orb 9
+pmove 2 orb 25
+round
+pmove 0 orb 12
+pmove 1 wait
+pmove 2 orb 33
+round
+pmove 0 orb 35
+pmove 1 5
+pmove 2 2
+round
+pmove 0 2
+pmove 1 orb 17
+pmove 2 5
+round
+pmove 0 orb 26
+pmove 1 orb 25
+pmove 2 3
+round
+pmove 0 3
+pmove 1 wait
+pmove 2 1
+round
+pmove 0 0
+pmove 1 orb 21
+pmove 2 2
+round
+pmove 0 wait
+pmove 1 wait
+pmove 2 wait
+round
+pmove 0 orb 2
+pmove 1 0
+pmove 2 orb 17
+round
+pmove 0 orb 39
+pmove 1 2
+pmove 2 orb 7
+round
+pmove 0 orb 18
+pmove 1 5
+pmove 2 1
+round
+pmove 0 2
+pmove 1 0
+pmove 2 wait
+round
+pmove 0 orb 6
+pmove 1 wait
+pmove 2 0
+round
+pmove 0 0
+pmove 1 2
+pmove 2 2
+round
+pmove 0 orb 35
+pmove 1 orb 19
+pmove 2 orb 23
+round
+pmove 0 orb 2
+pmove 1 orb 8
+pmove 2 3
+round
+pmove 0 0
+pmove 1 4
+pmove 2 orb 9
+round
+pmove 0 orb 13
+pmove 1 orb 14
+pmove 2 orb 29
+round
+pmove 0 3
+pmove 1 orb 10
+pmove 2 orb 32
+round
+pmove 0 0
+pmove 1 orb 32
+pmove 2 orb 12
+round
+pmove 0 orb 39
+pmove 1 orb 10
+pmove 2 1
+round
+pmove 0 3
+pmove 1 4
+pmove 2 orb 1
+round
+pmove 0 5
+pmove 1 0
+pmove 2 4
+round
+pmove 0 orb 38
+pmove 1 5
+pmove 2 2
+round
+pmove 0 3
+pmove 1 1
+pmove 2 0
+round
+pmove 0 4
+pmove 1 orb 39
+pmove 2 3
+round
+pmove 0 orb 10
+pmove 1 orb 31
+pmove 2 5
+round
+pmove 0 orb 37
+pmove 1 0
+pmove 2 wait
+round
+pmove 0 3
+pmove 1 orb 14
+pmove 2 4
+round
+pmove 0 4
+pmove 1 4
+pmove 2 1
+round
+pmove 0 1
+pmove 1 4
+pmove 2 2
+round
+pmove 0 0
+pmove 1 0
+pmove 2 orb 16
+round
+pmove 0 0
+pmove 1 5
+pmove 2 0
+round
+pmove 0 2
+pmove 1 5
+pmove 2 orb 5
+round
+pmove 0 2
+pmove 1 0
+pmove 2 0
+round
+pmove 0 wait
+pmove 1 2
+pmove 2 orb 12
+round
+pmove 0 orb 20
+pmove 1 wait
+pmove 2 2
+round
+pmove 0 orb 12
+pmove 1 0
+pmove 2 orb 33
+round
+pmove 0 4
+pmove 1 orb 27
+pmove 2 orb 39
+round
+pmove 0 orb 12
+pmove 1 orb 7
+pmove 2 orb 20
+round
+pmove 0 orb 28
+pmove 1 5
+pmove 2 orb 3
+round
+pmove 0 2
+pmove 1 1
+pmove 2 4
+round
+pmove 0 orb 25
+pmove 1 orb 39
+pmove 2 5
+round
+pmove 0 orb 7
+pmove 1 orb 32
+pmove 2 5
+round
+pmove 0 2
+pmove 1 5
+pmove 2 orb 27
+round
+pmove 0 3
+pmove 1 orb 8
+pmove 2 orb 18
+round
+pmove 0 orb 31
+pmove 1 orb 26
+pmove 2 orb 35
+round
+pmove 0 0
+pmove 1 orb 39
+pmove 2 1
+round
+pmove 0 orb 11
+pmove 1 orb 39
+pmove 2 1
+round
+pmove 0 orb 23
+pmove 1 0
+pmove 2 4
+round
+pmove 0 3
+pmove 1 orb 5
+pmove 2 5
+round
+pmove 0 wait
+pmove 1 wait
+pmove 2 wait
+round
+pmove 0 2
+pmove 1 5
+pmove 2 5
+round
+pmove 0 orb 36
+pmove 1 3
+pmove 2 4
+round
+pmove 0 orb 6
+pmove 1 orb 9
+pmove 2 3
+round
+pmove 0 orb 14
+pmove 1 orb 28
+pmove 2 wait
+round
+pmove 0 orb 35
+pmove 1 6
+pmove 2 3
+round
+pmove 0 orb 10
+pmove 1 2
+pmove 2 wait
+round
+pmove 0 2
+pmove 1 orb 20
+pmove 2 wait
+round
+pmove 0 5
+pmove 1 orb 34
+pmove 2 4
+round
+pmove 0 1
+pmove 1 orb 19
+pmove 2 1
+round
+pmove 0 orb 22
+pmove 1 0
+pmove 2 orb 10
+round
+pmove 0 wait
+pmove 1 wait
+pmove 2 wait
+round
+pmove 0 3
+pmove 1 2
+pmove 2 orb 25
+round
+pmove 0 1
+pmove 1 orb 18
+pmove 2 orb 16
+round
+pmove 0 orb 38
+pmove 1 2
+pmove 2 4
+round
+pmove 0 0
+pmove 1 orb 8
+pmove 2 orb 14
+round
+pmove 0 orb 19
+pmove 1 5
+pmove 2 0
+round
+pmove 0 wait
+pmove 1 4
+pmove 2 3
+round
+pmove 0 orb 4
+pmove 1 5
+pmove 2 wait
+round
+pmove 0 5
+pmove 1 0
+pmove 2 2
+round
+pmove 0 6
+pmove 1 6
+pmove 2 orb 13
+round
+pmove 0 6
+pmove 1 wait
+pmove 2 0
+round

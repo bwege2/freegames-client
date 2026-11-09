@@ -1,0 +1,19 @@
+# U2 (menus.cpp showStartMenu, config.cpp resetModes): back to the start menu from the main menu ('R'; the start
+# menu draws the random option with hrand), then the Orb Strategy mode from it ('i': resetModes restarts the game),
+# and its inventory screen (inventory.cpp inv::show: the orbs as glyphs, then as a list, '1'). 640x480 without the
+# map (nomap=1).
+start 2 nomap=1
+ticks 1000
+svg 640 480 screen
+key v
+key R
+svg 640 480 screen
+key i
+cheat T
+cheat F
+svg 640 480 screen
+key v
+key i
+svg 640 480 screen
+key 1
+svg 640 480 screen

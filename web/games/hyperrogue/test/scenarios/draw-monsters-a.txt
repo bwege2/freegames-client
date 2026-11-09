@@ -1,0 +1,146 @@
+# Drawing oracle (PORTING-STAGE2.md, package D4): monsters on the map (svg ... map): the walk of lands-c up to
+# Camelot's knights and a sandworm (worm head and tail segments).
+radius 1
+start 103 -W laHive
+move 5
+move 4
+move 0
+move 5
+move 4
+move 2
+move 5
+move 1
+move 4
+move 1
+move 1
+move 2
+move 3
+move 5
+move 4
+move 2
+move 1
+wait
+move 1
+move 4
+move 5
+move 5
+move 0
+move 3
+goto laPower
+move 3
+move 3
+move 3
+wait
+move 1
+move 6
+move 4
+wait
+move 0
+move 3
+move 1
+wait
+move 0
+move 3
+move 3
+wait
+move 0
+move 1
+move 3
+wait
+move 0
+move 4
+move 6
+wait
+move 1
+move 3
+move 3
+wait
+wait
+move 0
+move 1
+move 3
+wait
+move 4
+move 6
+move 4
+wait
+move 0
+move 3
+move 1
+wait
+move 0
+move 3
+move 3
+wait
+move 1
+move 6
+move 4
+wait
+move 2
+move 5
+move 4
+move 1
+move 6
+move 2
+move 4
+wait
+move 5
+move 1
+move 3
+move 5
+move 5
+move 0
+move 6
+move 5
+move 5
+move 4
+move 1
+move 3
+goto laCamelot
+move 4
+move 4
+move 5
+move 0
+move 2
+move 4
+move 0
+move 1
+move 2
+move 1
+move 2
+move 2
+move 6
+move 2
+item itOrbTeleport 1
+orb 380
+item itOrbTeleport 0
+move 1
+move 5
+move 4
+move 5
+move 0
+move 5
+move 4
+move 3
+move 3
+wait
+move 1
+move 0
+move 6
+move 4
+move 1
+move 5
+move 3
+move 3
+move 0
+move 3
+move 4
+move 6
+move 4
+move 3
+move 0
+move 3
+move 3
+move 0
+ticks 139000
+svg 480 360 map

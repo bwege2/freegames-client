@@ -1,0 +1,124 @@
+# Drawing oracle (PORTING-STAGE2.md, package D4): monsters on the map (svg ... map): the walk of lands-i to
+# hexers and a slime.
+radius 1
+start 109 -W laCursed
+move 5
+move 4
+move 1
+move 3
+move 1
+move 3
+move 4
+move 3
+move 5
+move 1
+move 1
+move 5
+move 4
+move 4
+move 0
+move 4
+move 2
+move 2
+wait
+move 0
+move 2
+move 4
+move 1
+wait
+move 3
+move 3
+move 4
+move 4
+move 4
+move 2
+move 4
+move 3
+goto laDice
+move 6
+move 0
+move 4
+move 3
+wait
+move 4
+wait
+move 2
+move 1
+move 6
+move 2
+move 6
+wait
+move 1
+move 5
+move 6
+move 4
+move 3
+move 2
+wait
+move 3
+move 2
+move 1
+move 5
+move 5
+move 0
+move 1
+move 4
+move 5
+move 4
+move 0
+move 3
+move 3
+move 2
+move 5
+wait
+move 5
+move 5
+move 4
+wait
+move 3
+move 5
+move 5
+goto laCrossroads6
+move 2
+move 5
+move 5
+move 5
+move 4
+move 5
+wait
+move 3
+move 3
+move 1
+move 6
+move 1
+move 0
+move 1
+move 4
+wait
+move 5
+move 3
+move 3
+move 2
+move 2
+move 4
+move 2
+move 3
+move 2
+wait
+move 1
+move 3
+move 5
+move 5
+move 1
+move 1
+move 4
+move 0
+move 2
+move 4
+move 1
+wait
+move 1
+move 4
+move 3
+ticks 119000
+svg 480 360 map

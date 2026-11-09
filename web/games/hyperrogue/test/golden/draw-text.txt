@@ -1,0 +1,20 @@
+textwidth 16 229 Welcome to HyperRogue!
+textwidth 16 343 Press F1 or right-click things for help.
+textwidth 16 13 A
+textwidth 16 13 V
+textwidth 16 25 AV
+textwidth 16 49 AVAV
+textwidth 16 22 To
+textwidth 16 11 T
+textwidth 16 11 o
+textwidth 16 15 ff
+textwidth 16 12 fi
+textwidth 16 8 f
+textwidth 16 5 i
+textwidth 12 229 AVAWAY Te To LT ff fi 1234567890
+textwidth 24 608 The quick brown fox jumps over the lazy dog.
+textwidth 33 148 score: 0
+textwidth 7 35 kills: 123
+textwidth 100 1021 Hyperstone Quest
+textwidth 13 103 Orb of Yendor
+textwidth 200 221 W

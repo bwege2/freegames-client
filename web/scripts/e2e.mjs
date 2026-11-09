@@ -681,6 +681,122 @@ try {
     await dctx.close();
   }
 
+  // ---- HyperRogue online (web/games/hyperrogue/ONLINE.md): two browsers play the turn-based multiplayer mode in
+  // lockstep through the lobby, with the game's own keys; their games stay equal round by round (the hash of each
+  // round's state); a reloaded page rejoins and replays the game; a player who leaves is out for the other
+  if (listed.includes('hyperrogue')) {
+    const hctx = [await browser.createBrowserContext(), await browser.createBrowserContext()];
+    const [ha, hb] = await Promise.all(hctx.map((c) => c.newPage()));
+    const herr = [];
+    for (const p of [ha, hb]) {
+      await p.setViewport({ width: 1000, height: 720 });
+      p.on('pageerror', (e) => herr.push(e.message));
+    }
+    const info = (p) => p.evaluate(() => window.__hyperrogue_online?.info() ?? null);
+    const hbutton = (p, text) => p.evaluateHandle((t) => [...document.querySelectorAll('button')].find((x) => x.textContent === t), text);
+    /** Play, then the start menu's "online multiplayer" (n) and the online menu's "find or create a room" (n) */
+    const toLobby = async (p, play = true) => {
+      if (play) {
+        await p.goto(`${base}#/hyperrogue`, { waitUntil: 'networkidle0' });
+        await p.click('.page .play');
+      }
+      await p.waitForFunction(() => !!window.__hyperrogue_online && !!document.querySelector('.player-host canvas'), { timeout: 30000 });
+      await wait(1500);
+      for (let i = 0; i < 2 && !(await p.$('.fg-lobby')); i++) {
+        await p.keyboard.press('n');
+        await wait(400);
+      }
+      await p.waitForSelector('.fg-lobby', { timeout: 8000 });
+    };
+    /** both press `key` (a move with the game's controls) and wait until round `r` is applied in both */
+    const hround = async (keys, r) => {
+      for (const [p, k] of keys) await p.keyboard.press(k);
+      for (const [p] of keys) await p.waitForFunction((r) => (window.__hyperrogue_online?.info()?.round ?? -1) >= r, { timeout: 8000 }, r);
+    };
+    try {
+      await toLobby(ha);
+      await ha.$eval('.fg-lobby input[placeholder="Your name"]', (e) => { e.value = 'Hypatia'; e.dispatchEvent(new Event('change')); });
+      await ha.$eval('.fg-lobby input[placeholder="Room name"]', (e) => { e.value = 'e2e hyperbolic'; e.dispatchEvent(new Event('input')); e.dispatchEvent(new Event('change')); });
+      await (await hbutton(ha, 'Create room')).click();
+      await ha.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e hyperbolic', { timeout: 8000 });
+      await toLobby(hb);
+      await hb.$eval('.fg-lobby input[placeholder="Your name"]', (e) => { e.value = 'Euclid'; e.dispatchEvent(new Event('change')); });
+      await hb.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('e2e hyperbolic')), { timeout: 8000 });
+      await (await hbutton(hb, 'Join')).click();
+      await hb.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e hyperbolic', { timeout: 8000 });
+      await (await hbutton(hb, 'Ready')).click();
+      await ha.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('ready ✓')), { timeout: 8000 });
+      await (await hbutton(ha, 'Start')).click();
+      for (const p of [ha, hb]) await p.waitForFunction(() => window.__hyperrogue_online?.info()?.players === 2 && !document.querySelector('.fg-lobby'), { timeout: 15000 });
+      const i0 = await info(ha);
+      check(i0.round === 0 && i0.you === 0 && (await info(hb)).you === 1, 'hyperrogue online: the lobby started a game of two players');
+      // five rounds with the game's keys: wait (s), moves (vi keys l, h, numpad), wait
+      const plan = [['s', 's'], ['l', 'h'], ['k', 'j'], ['s', 'l'], ['h', 's']];
+      for (let r = 0; r < plan.length; r++) await hround([[ha, plan[r][0]], [hb, plan[r][1]]], r + 1);
+      const [a5, b5] = [await info(ha), await info(hb)];
+      check(a5.round === 5 && JSON.stringify(a5.log) === JSON.stringify(b5.log) && a5.turn === b5.turn && a5.turn > 0,
+        `hyperrogue online: five rounds played by keys, both games equal round by round (turn ${a5.turn}, ${a5.played} played)${a5.round === 5 && JSON.stringify(a5.log) === JSON.stringify(b5.log) ? '' : `: ${JSON.stringify([a5, b5])}`}`);
+      await ha.screenshot({ path: join(shots, 'hyperrogue-online.png') });
+      // a reload: the lobby offers the running game back; the page replays it
+      // (a page that draws every frame is never network-idle)
+      await hb.reload({ waitUntil: 'load' });
+      await hb.waitForSelector('.page .play, .player-host', { timeout: 10000 });
+      if (await hb.$('.page .play')) await hb.click('.page .play');
+      await toLobby(hb, false);
+      await hb.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('(your game)')), { timeout: 8000 });
+      await (await hbutton(hb, 'Rejoin')).click();
+      await hb.waitForFunction(() => (window.__hyperrogue_online?.info()?.round ?? -1) >= 5, { timeout: 15000 });
+      {
+        const [ra, rb] = [await info(ha), await info(hb)];
+        check(JSON.stringify(rb.log) === JSON.stringify(ra.log), `hyperrogue online: a reloaded page rejoins and replays the game, equal${JSON.stringify(rb.log) === JSON.stringify(ra.log) ? '' : `: ${JSON.stringify([ra, rb])}`}`);
+      }
+      await hround([[ha, 's'], [hb, 's']], 6);
+      check(JSON.stringify((await info(hb)).log) === JSON.stringify((await info(ha)).log), 'hyperrogue online: and plays on, equal');
+      // the first player leaves: the other plays on alone
+      await (await hbutton(ha, 'Leave')).click();
+      await hb.waitForFunction(() => (window.__hyperrogue_online?.info()?.left ?? []).length === 1, { timeout: 8000 });
+      await hround([[hb, 's']], 7);
+      check((await info(hb)).round === 7 && (await info(ha)) === null, 'hyperrogue online: a player who leaves is out, the other plays on');
+      check(herr.length === 0, `hyperrogue online: no page errors${herr.length ? ` (${herr.join('; ')})` : ''}`);
+    } catch (e) {
+      check(false, `hyperrogue online: ${e.message}`);
+    } finally {
+      for (const c of hctx) await c.close();
+    }
+    // three players: a room of three seats, three rounds by keys
+    const tctx = [await browser.createBrowserContext(), await browser.createBrowserContext(), await browser.createBrowserContext()];
+    try {
+      const ps = await Promise.all(tctx.map((c) => c.newPage()));
+      for (const p of ps) { await p.setViewport({ width: 900, height: 640 }); p.on('pageerror', (e) => herr.push(e.message)); }
+      const [p0, ...rest] = ps;
+      await toLobby(p0);
+      await p0.$eval('.fg-lobby input[placeholder="Room name"]', (e) => { e.value = 'e2e three'; e.dispatchEvent(new Event('input')); e.dispatchEvent(new Event('change')); });
+      await p0.select('.fg-lobby select', '3');
+      await (await hbutton(p0, 'Create room')).click();
+      await p0.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e three', { timeout: 8000 });
+      for (const [i, p] of rest.entries()) {
+        await toLobby(p);
+        await p.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('e2e three')), { timeout: 8000 });
+        await (await hbutton(p, 'Join')).click();
+        await p.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e three', { timeout: 8000 });
+        await (await hbutton(p, 'Ready')).click();
+        await p0.waitForFunction((n) => [...document.querySelectorAll('.fg-lobby li')].filter((li) => li.textContent.includes('ready ✓')).length >= n, { timeout: 8000 }, i + 1);
+      }
+      await (await hbutton(p0, 'Start')).click();
+      for (const p of ps) await p.waitForFunction(() => window.__hyperrogue_online?.info()?.players === 3 && !document.querySelector('.fg-lobby'), { timeout: 15000 });
+      const plan = [['s', 's', 's'], ['l', 'h', 's'], ['s', 's', 's']];
+      for (let r = 0; r < plan.length; r++) await hround(ps.map((p, i) => [p, plan[r][i]]), r + 1);
+      const is = await Promise.all(ps.map(info));
+      check(is[0].turn > 0 && is.every((x) => x.round === 3 && x.players === 3 && JSON.stringify(x.log) === JSON.stringify(is[0].log)),
+        `hyperrogue online: three players, three rounds by keys, all games equal (turn ${is[0].turn})${is.every((x) => JSON.stringify(x.log) === JSON.stringify(is[0].log)) ? '' : `: ${JSON.stringify(is)}`}`);
+      check(herr.length === 0, `hyperrogue online (three): no page errors${herr.length ? ` (${herr.join('; ')})` : ''}`);
+    } catch (e) {
+      check(false, `hyperrogue online (three): ${e.message}`);
+    } finally {
+      for (const c of tctx) await c.close();
+    }
+  }
+
   // ---- every playable game: Play from its page, it draws, takes keys, Back stops it
   const playable = listed.filter((d) => existsSync(join(web, 'games', d, 'src', 'index.ts')));
   for (const id of playable) {

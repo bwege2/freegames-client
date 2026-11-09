@@ -1,0 +1,4 @@
+# Drawing oracle (PORTING-STAGE2.md): the shapes of the standard geometry (polygons.cpp prepare_shapes,
+# floorshapes.cpp) as the float vertices every shape is drawn from: sizes and hash of all, and the first ones.
+start 1
+shapes 0 40

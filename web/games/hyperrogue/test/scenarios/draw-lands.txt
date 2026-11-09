@@ -1,0 +1,12 @@
+# Drawing oracle (PORTING-STAGE2.md): lands with their floors, walls, monsters and items (cheat teleport), the
+# map as the original's SVG screenshot draws it (svg ... map).
+start 3
+ticks 1000
+goto laJungle
+svg 640 480 map
+goto laCaves
+svg 640 480 map
+goto laDesert
+svg 640 480 map
+goto laHive
+svg 640 480 map

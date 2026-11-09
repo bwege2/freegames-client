@@ -1,0 +1,568 @@
+== start 1
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c8 2 1.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c9 2 2.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c10 2 1.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c11 2 2.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c12 2 3.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c13 2 3.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c14 2 4.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c15 2 4.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c16 2 5.3 laIce waNone moNone itDiamond d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c17 2 5.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c18 2 6.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c19 2 6.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c20 2 7.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c21 2 7.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c22 3 8.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c23 3 9.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c24 3 10.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c25 3 9.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c26 3 9.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c27 3 10.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c28 3 10.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c30 3 12.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c31 3 12.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c32 3 12.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c33 3 13.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c34 3 14.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c35 3 14.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c36 3 14.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c37 3 15.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 16.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c41 3 17.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c42 3 18.4 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c45 3 19.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c46 3 20.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c47 3 20.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c48 3 20.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c49 3 21.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 582 hash da5def65
+== move 0
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 0 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ea3d70a f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itDiamond d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c7 2 1.4 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c8 2 2.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c9 2 6.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c10 2 2.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c11 2 2.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c12 2 2.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c13 2 3.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c14 2 4.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c15 2 4.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c16 2 4.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c17 2 4.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c18 2 5.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c19 2 6.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c20 2 6.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c21 2 6.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c22 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c23 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c24 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c25 3 7.4 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c26 3 10.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c27 3 9.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c28 3 10.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c30 3 11.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c31 3 12.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c32 3 13.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c33 3 13.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c34 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c35 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c36 3 15.2 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c37 3 15.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 17.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c41 3 18.4 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c45 3 20.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c46 3 20.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c47 3 21.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c48 3 21.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 574 hash 5a81fa48
+== move 0
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3e9fbe77 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e83126e f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e23d70a f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3db43958 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3db43958 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e23d70a f0 w0 m1 b126 laNone laNone
+c8 2 1.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c9 2 2.3 laIce waNone moNone itDiamond d126 h0 s0 p3d9374bc f0 w0 m1 b126 laNone laNone
+c10 2 1.3 laIce waNone moNone itNone d126 h0 s0 p3d9374bc f0 w0 m1 b126 laNone laNone
+c11 2 2.5 laIce waNone moNone itNone d126 h0 s0 p3c83126e f0 w0 m2 b126 laNone laNone
+c12 2 3.3 laIce waIcewall moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c13 2 3.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c14 2 4.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c15 2 4.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c16 2 5.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c17 2 5.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c18 2 6.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c19 2 6.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m2 b126 laNone laNone
+c20 2 7.3 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c21 2 7.5 laIce waNone moNone itNone d126 h0 s0 p3c83126e f0 w0 m2 b126 laNone laNone
+c22 3 8.3 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c23 3 9.4 laIce waNone moNone itNone d126 h0 s0 p3c83126e f0 w0 m2 b126 laNone laNone
+c24 3 10.0 laIce waNone moNone itNone d126 h0 s0 p3c83126e f0 w0 m2 b126 laNone laNone
+c25 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c26 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c27 3 10.0 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c28 3 10.0 laIce waNone moNone itNone d126 h0 s0 p3c03126e f0 w0 m2 b126 laNone laNone
+c29 3 11.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c30 3 12.4 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c31 3 12.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c32 3 12.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c33 3 13.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c34 3 14.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c35 3 14.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c36 3 14.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c37 3 15.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 16.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c41 3 17.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c42 3 18.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c45 3 19.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c46 3 20.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c47 3 20.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c48 3 20.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c49 3 21.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 582 hash 4d099250
+== wait
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3edb22d1 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e6147ae f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e89374b f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e6147ae f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e3367a1 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e28c155 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e28c155 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3367a1 f0 w0 m1 b126 laNone laNone
+c8 2 1.5 laIce waNone moNone itNone d126 h0 s0 p3cff9724 f0 w0 m2 b126 laNone laNone
+c9 2 2.3 laIce waNone moNone itNone d126 h0 s0 p3d9ba5e3 f0 w0 m1 b126 laNone laNone
+c10 2 1.3 laIce waNone moNone itNone d126 h0 s0 p3cf27bb3 f0 w0 m2 b126 laNone laNone
+c11 2 2.5 laIce waNone moNone itNone d126 h0 s0 p3d9ba5e3 f0 w0 m1 b126 laNone laNone
+c12 2 3.3 laIce waNone moNone itDiamond d126 h0 s0 p3d9ba5e3 f0 w0 m1 b126 laNone laNone
+c13 2 3.5 laIce waNone moNone itNone d126 h0 s0 p3cff9724 f0 w0 m2 b126 laNone laNone
+c14 2 4.3 laIce waIcewall moNone itNone d126 h0 s0 p3cf27bb3 f0 w0 m2 b126 laNone laNone
+c15 2 4.5 laIce waIcewall moNone itNone d126 h0 s0 p3c2a64c3 f0 w0 m2 b126 laNone laNone
+c16 2 5.3 laIce waIcewall moNone itNone d126 h0 s0 p3c96bb99 f0 w0 m2 b126 laNone laNone
+c17 2 5.5 laIce waNone moNone itNone d126 h0 s0 p3c102de0 f0 w0 m2 b126 laNone laNone
+c18 2 6.3 laIce waNone moNone itNone d126 h0 s0 p3c902de0 f0 w0 m2 b126 laNone laNone
+c19 2 6.5 laIce waNone moNone itNone d126 h0 s0 p3c102de0 f0 w0 m2 b126 laNone laNone
+c20 2 7.3 laIce waNone moNone itNone d126 h0 s0 p3c96bb99 f0 w0 m2 b126 laNone laNone
+c21 2 7.5 laIce waNone moNone itNone d126 h0 s0 p3c2a64c3 f0 w0 m2 b126 laNone laNone
+c22 3 8.3 laIce waNone moNone itNone d126 h0 s0 p3b1d4951 f0 w0 m3 b126 laNone laNone
+c23 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c51b717 f0 w0 m2 b126 laNone laNone
+c24 3 10.0 laIce waNone moNone itNone d126 h0 s0 p3b1d4951 f0 w0 m3 b126 laNone laNone
+c25 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c51b717 f0 w0 m2 b126 laNone laNone
+c26 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3cbe0ded f0 w0 m2 b126 laNone laNone
+c27 3 10.4 laIce waNone moNone itNone d126 h0 s0 p3a51b716 f0 w0 m3 b126 laNone laNone
+c28 3 10.0 laIce waNone moNone itNone d126 h0 s0 p3a51b716 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p3c5ed288 f0 w0 m2 b126 laNone laNone
+c30 3 12.4 laIce waNone moNone itNone d126 h0 s0 p3cbe0ded f0 w0 m2 b126 laNone laNone
+c31 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3c51b717 f0 w0 m2 b126 laNone laNone
+c32 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3c51b717 f0 w0 m2 b126 laNone laNone
+c33 3 13.3 laIce waIcewall moNone itNone d126 h0 s0 p3b1d4951 f0 w0 m3 b126 laNone laNone
+c34 3 14.4 laIce waIcewall moNone itNone d126 h0 s0 p3b1d4951 f0 w0 m3 b126 laNone laNone
+c35 3 14.0 laIce waIcewall moNone itNone d126 h0 s0 p3a51b716 f0 w0 m3 b126 laNone laNone
+c36 3 14.0 laIce waIcewall moNone itNone d126 h0 s0 p3a51b716 f0 w0 m3 b126 laNone laNone
+c37 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 16.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c41 3 17.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c42 3 18.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c45 3 19.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c46 3 20.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c47 3 20.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c48 3 20.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c49 3 21.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+dcal 582 hash 823bb589
+== move 3
+ret 1
+turn 4 canmove 1 cheater 1
+pos d0 / 3 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3eef34d7 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e72e48f f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3df8b589 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dd42c3d f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3df5c28f f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e68a71e f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eb1c433 f0 w0 m0 b126 laNone laNone
+c7 2 1.3 laIce waIcewall moNone itNone d126 h0 s0 p3d58ec96 f0 w0 m2 b126 laNone laNone
+c8 2 2.4 laIce waIcewall moNone itNone d126 h0 s0 p3cd9945b f0 w0 m2 b126 laNone laNone
+c9 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e4154c9 f0 w0 m1 b126 laNone laNone
+c10 2 2.4 laIce waNone moNone itNone d126 h0 s0 p3b3cbe62 f0 w0 m2 b126 laNone laNone
+c11 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3af12c28 f0 w0 m2 b126 laNone laNone
+c12 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3b324207 f0 w0 m2 b126 laNone laNone
+c13 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3a66afcd f0 w0 m2 b126 laNone laNone
+c14 2 4.4 laIce waNone moNone itNone d126 h0 s0 p3b2d03da f0 w0 m2 b126 laNone laNone
+c15 2 4.0 laIce waIcewall moNone itNone d126 h0 s0 p3ae6afcd f0 w0 m2 b126 laNone laNone
+c16 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3b2d03da f0 w0 m2 b126 laNone laNone
+c17 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3cc154ca f0 w0 m2 b126 laNone laNone
+c18 2 5.4 laIce waNone moNone itNone d126 h0 s0 p3d29bcfd f0 w0 m2 b126 laNone laNone
+c19 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e20f909 f0 w0 m1 b126 laNone laNone
+c20 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e4154c9 f0 w0 m1 b126 laNone laNone
+c21 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e5e00d1 f0 w0 m0 b126 laNone laNone
+c22 3 7.4 laIce waIcewall moNone itNone d126 h0 s0 p3bf12c27 f0 w0 m3 b126 laNone laNone
+c23 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3b6bedfa f0 w0 m3 b126 laNone laNone
+c24 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3b902de0 f0 w0 m3 b126 laNone laNone
+c25 3 7.4 laIce waNone moNone itNone d126 h0 s0 p3d3fb15b f0 w0 m2 b126 laNone laNone
+c26 3 10.2 laIce waIcewall moNone itNone d126 h0 s0 p3a92ccf7 f0 w0 m3 b126 laNone laNone
+c27 3 9.3 laIce waNone moNone itDiamond d126 h0 s0 p3db295e9 f0 w0 m1 b126 laNone laNone
+c28 3 10.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c30 3 11.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c31 3 12.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c32 3 13.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c33 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c34 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c35 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c36 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c37 3 15.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 17.3 laIce waNone moNone itNone d126 h0 s0 p3a66afcd f0 w0 m3 b126 laNone laNone
+c41 3 18.4 laIce waNone moNone itNone d126 h0 s0 p3b324207 f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3af12c28 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3b3cbe62 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3cd9945b f0 w0 m2 b126 laNone laNone
+c45 3 20.3 laIce waNone moNone itNone d126 h0 s0 p3d58ec96 f0 w0 m2 b126 laNone laNone
+c46 3 20.5 laIce waNone moNone itNone d126 h0 s0 p3d3fb15b f0 w0 m2 b126 laNone laNone
+c47 3 21.3 laIce waNone moNone itNone d126 h0 s0 p3db295e9 f0 w0 m1 b126 laNone laNone
+c48 3 21.5 laIce waNone moNone itNone d126 h0 s0 p3da0902d f0 w0 m1 b126 laNone laNone
+dcal 574 hash 4887ccf2
+== move 1
+ret 0
+msg 1 You cannot move through the ice wall!
+turn 4 canmove 1 cheater 1
+pos d0 / 3 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3eef34d7 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e72e48f f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3df8b589 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dd42c3d f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3df5c28f f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e68a71e f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eb1c433 f0 w0 m0 b126 laNone laNone
+c7 2 1.3 laIce waIcewall moNone itNone d126 h0 s0 p3d58ec96 f0 w0 m2 b126 laNone laNone
+c8 2 2.4 laIce waIcewall moNone itNone d126 h0 s0 p3cd9945b f0 w0 m2 b126 laNone laNone
+c9 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e4154c9 f0 w0 m1 b126 laNone laNone
+c10 2 2.4 laIce waNone moNone itNone d126 h0 s0 p3b3cbe62 f0 w0 m2 b126 laNone laNone
+c11 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3af12c28 f0 w0 m2 b126 laNone laNone
+c12 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3b324207 f0 w0 m2 b126 laNone laNone
+c13 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3a66afcd f0 w0 m2 b126 laNone laNone
+c14 2 4.4 laIce waNone moNone itNone d126 h0 s0 p3b2d03da f0 w0 m2 b126 laNone laNone
+c15 2 4.0 laIce waIcewall moNone itNone d126 h0 s0 p3ae6afcd f0 w0 m2 b126 laNone laNone
+c16 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3b2d03da f0 w0 m2 b126 laNone laNone
+c17 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3cc154ca f0 w0 m2 b126 laNone laNone
+c18 2 5.4 laIce waNone moNone itNone d126 h0 s0 p3d29bcfd f0 w0 m2 b126 laNone laNone
+c19 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e20f909 f0 w0 m1 b126 laNone laNone
+c20 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e4154c9 f0 w0 m1 b126 laNone laNone
+c21 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e5e00d1 f0 w0 m0 b126 laNone laNone
+c22 3 7.4 laIce waIcewall moNone itNone d126 h0 s0 p3bf12c27 f0 w0 m3 b126 laNone laNone
+c23 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3b6bedfa f0 w0 m3 b126 laNone laNone
+c24 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3b902de0 f0 w0 m3 b126 laNone laNone
+c25 3 7.4 laIce waNone moNone itNone d126 h0 s0 p3d3fb15b f0 w0 m2 b126 laNone laNone
+c26 3 10.2 laIce waIcewall moNone itNone d126 h0 s0 p3a92ccf7 f0 w0 m3 b126 laNone laNone
+c27 3 9.3 laIce waNone moNone itDiamond d126 h0 s0 p3db295e9 f0 w0 m1 b126 laNone laNone
+c28 3 10.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c30 3 11.5 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c31 3 12.3 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c32 3 13.4 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c33 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c34 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c35 3 13.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c36 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c37 3 15.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c38 3 16.3 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c39 3 16.5 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m3 b126 laNone laNone
+c40 3 17.3 laIce waNone moNone itNone d126 h0 s0 p3a66afcd f0 w0 m3 b126 laNone laNone
+c41 3 18.4 laIce waNone moNone itNone d126 h0 s0 p3b324207 f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3af12c28 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3b3cbe62 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3cd9945b f0 w0 m2 b126 laNone laNone
+c45 3 20.3 laIce waNone moNone itNone d126 h0 s0 p3d58ec96 f0 w0 m2 b126 laNone laNone
+c46 3 20.5 laIce waNone moNone itNone d126 h0 s0 p3d3fb15b f0 w0 m2 b126 laNone laNone
+c47 3 21.3 laIce waNone moNone itNone d126 h0 s0 p3db295e9 f0 w0 m1 b126 laNone laNone
+c48 3 21.5 laIce waNone moNone itNone d126 h0 s0 p3da0902d f0 w0 m1 b126 laNone laNone
+dcal 574 hash 4887ccf2
+== move 5
+ret 1
+turn 5 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0331e4 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e97310a f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec3dccf f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e92b5e5 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e6cd8dc f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e7c3f81 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e8769ec f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e823854 f0 w0 m1 b126 laNone laNone
+c8 2 1.5 laIce waIcewall moNone itNone d126 h0 s0 p3d578c44 f0 w0 m2 b126 laNone laNone
+c9 2 2.3 laIce waIcewall moNone itNone d126 h0 s0 p3df70de9 f0 w0 m1 b126 laNone laNone
+c10 2 1.3 laIce waIcewall moNone itNone d126 h0 s0 p3d89f40a f0 w0 m2 b126 laNone laNone
+c11 2 2.5 laIce waNone moNone itNone d126 h0 s0 p3de746cc f0 w0 m1 b126 laNone laNone
+c12 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3df36ef8 f0 w0 m1 b126 laNone laNone
+c13 2 3.5 laIce waNone moNone itNone d126 h0 s0 p3d4868ba f0 w0 m2 b126 laNone laNone
+c14 2 4.3 laIce waNone moNone itNone d126 h0 s0 p3d67f6f5 f0 w0 m2 b126 laNone laNone
+c15 2 4.5 laIce waNone moNone itNone d126 h0 s0 p3d16030c f0 w0 m2 b126 laNone laNone
+c16 2 5.3 laIce waNone moNone itNone d126 h0 s0 p3d732378 f0 w0 m2 b126 laNone laNone
+c17 2 5.5 laIce waNone moNone itNone d126 h0 s0 p3d5fdef8 f0 w0 m2 b126 laNone laNone
+c18 2 6.3 laIce waNone moNone itNone d126 h0 s0 p3daefb2a f0 w0 m1 b126 laNone laNone
+c19 2 6.5 laIce waNone moNone itNone d126 h0 s0 p3d9f1f14 f0 w0 m1 b126 laNone laNone
+c20 2 7.3 laIce waNone moNone itDiamond d126 h0 s0 p3daefb2a f0 w0 m1 b126 laNone laNone
+c21 2 7.5 laIce waNone moNone itNone d126 h0 s0 p3d5fdef8 f0 w0 m2 b126 laNone laNone
+c22 3 8.3 laIce waIcewall moNone itNone d126 h0 s0 p3b745176 f0 w0 m3 b126 laNone laNone
+c23 3 9.4 laIce waNone moNone itNone d126 h0 s0 p3c851a87 f0 w0 m2 b126 laNone laNone
+c24 3 10.0 laIce waIcewall moNone itNone d126 h0 s0 p3c273f75 f0 w0 m3 b126 laNone laNone
+c25 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c5c3372 f0 w0 m2 b126 laNone laNone
+c26 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3cc37e70 f0 w0 m2 b126 laNone laNone
+c27 3 10.4 laIce waIcewall moNone itNone d126 h0 s0 p3c63cd9a f0 w0 m3 b126 laNone laNone
+c28 3 10.0 laIce waIcewall moNone itNone d126 h0 s0 p3c028c37 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p3c36d86f f0 w0 m2 b126 laNone laNone
+c30 3 12.4 laIce waNone moNone itNone d126 h0 s0 p3cc1fc8f f0 w0 m2 b126 laNone laNone
+c31 3 12.0 laIce waIcewall moNone itNone d126 h0 s0 p3c58cb08 f0 w0 m2 b126 laNone laNone
+c32 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3c807358 f0 w0 m2 b126 laNone laNone
+c33 3 13.3 laIce waNone moNone itNone d126 h0 s0 p3b4f1801 f0 w0 m3 b126 laNone laNone
+c34 3 14.4 laIce waNone moNone itNone d126 h0 s0 p3c00d802 f0 w0 m3 b126 laNone laNone
+c35 3 14.0 laIce waIcewall moNone itNone d126 h0 s0 p3bb24207 f0 w0 m3 b126 laNone laNone
+c36 3 14.0 laIce waIcewall moNone itNone d126 h0 s0 p3c07229e f0 w0 m3 b126 laNone laNone
+c37 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p3b745176 f0 w0 m3 b126 laNone laNone
+c38 3 16.4 laIce waNone moNone itNone d126 h0 s0 p3c273f75 f0 w0 m3 b126 laNone laNone
+c39 3 16.0 laIce waNone moNone itNone d126 h0 s0 p3c028c37 f0 w0 m3 b126 laNone laNone
+c40 3 16.0 laIce waNone moNone itNone d126 h0 s0 p3c63cd9a f0 w0 m3 b126 laNone laNone
+c41 3 17.3 laIce waNone moNone itNone d126 h0 s0 p3c154a7f f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3cbdec5f f0 w0 m2 b126 laNone laNone
+c43 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3cab92c0 f0 w0 m2 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3d02cf52 f0 w0 m2 b126 laNone laNone
+c45 3 19.3 laIce waNone moNone itNone d126 h0 s0 p3ca2877e f0 w0 m2 b126 laNone laNone
+c46 3 20.4 laIce waNone moNone itNone d126 h0 s0 p3d02cf52 f0 w0 m2 b126 laNone laNone
+c47 3 20.0 laIce waNone moNone itNone d126 h0 s0 p3cab92c0 f0 w0 m2 b126 laNone laNone
+c48 3 20.0 laIce waNone moNone itNone d126 h0 s0 p3cbdec5f f0 w0 m2 b126 laNone laNone
+c49 3 21.3 laIce waIcewall moNone itNone d126 h0 s0 p3c154a7f f0 w0 m3 b126 laNone laNone
+dcal 582 hash 4558444d
+== wait
+ret 1
+turn 6 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f16feea f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e95aa71 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e993e95 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e9fb9d9 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e9e91bb f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eac9a78 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec160d9 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3ea8cd64 f0 w0 m1 b126 laNone laNone
+c8 2 1.5 laIce waNone moNone itNone d126 h0 s0 p3d53572b f0 w0 m2 b126 laNone laNone
+c9 2 2.3 laIce waNone moNone itNone d126 h0 s0 p3d9f8dcf f0 w0 m2 b126 laNone laNone
+c10 2 1.3 laIce waNone moNone itNone d126 h0 s0 p3da2c882 f0 w0 m2 b126 laNone laNone
+c11 2 2.5 laIce waNone moNone itNone d126 h0 s0 p3d865732 f0 w0 m2 b126 laNone laNone
+c12 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3dc7cb05 f0 w0 m1 b126 laNone laNone
+c13 2 3.5 laIce waNone moNone itNone d126 h0 s0 p3da9f45a f0 w0 m1 b126 laNone laNone
+c14 2 4.3 laIce waNone moNone itDiamond d126 h0 s0 p3dc96e73 f0 w0 m1 b126 laNone laNone
+c15 2 4.5 laIce waNone moNone itNone d126 h0 s0 p3d899e0e f0 w0 m2 b126 laNone laNone
+c16 2 5.3 laIce waIcewall moNone itNone d126 h0 s0 p3db67dd6 f0 w0 m2 b126 laNone laNone
+c17 2 5.5 laIce waIcewall moNone itNone d126 h0 s0 p3d9444c6 f0 w0 m2 b126 laNone laNone
+c18 2 6.3 laIce waIcewall moNone itNone d126 h0 s0 p3e00e7bc f0 w0 m1 b126 laNone laNone
+c19 2 6.5 laIce waNone moNone itNone d126 h0 s0 p3de7ed4f f0 w0 m1 b126 laNone laNone
+c20 2 7.3 laIce waNone moNone itNone d126 h0 s0 p3dfdfa6c f0 w0 m1 b126 laNone laNone
+c21 2 7.5 laIce waNone moNone itNone d126 h0 s0 p3d8c2d35 f0 w0 m2 b126 laNone laNone
+c22 3 8.3 laIce waIcewall moNone itNone d126 h0 s0 p3bdd2bbf f0 w0 m3 b126 laNone laNone
+c23 3 9.4 laIce waNone moNone itNone d126 h0 s0 p3c75b87e f0 w0 m3 b126 laNone laNone
+c24 3 10.0 laIce waIcewall moNone itNone d126 h0 s0 p3c5f4b54 f0 w0 m3 b126 laNone laNone
+c25 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c41292a f0 w0 m3 b126 laNone laNone
+c26 3 9.0 laIce waNone moNone itNone d126 h0 s0 p3c9b3a83 f0 w0 m3 b126 laNone laNone
+c27 3 10.4 laIce waNone moNone itNone d126 h0 s0 p3c6fea09 f0 w0 m3 b126 laNone laNone
+c28 3 10.0 laIce waIcewall moNone itNone d126 h0 s0 p3c1ca842 f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p3c4dfaca f0 w0 m3 b126 laNone laNone
+c30 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3cde3326 f0 w0 m2 b126 laNone laNone
+c31 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3cc3eb7c f0 w0 m2 b126 laNone laNone
+c32 3 12.0 laIce waNone moNone itNone d126 h0 s0 p3d0d8234 f0 w0 m2 b126 laNone laNone
+c33 3 13.3 laIce waNone moNone itNone d126 h0 s0 p3cb5d2b4 f0 w0 m2 b126 laNone laNone
+c34 3 14.4 laIce waNone moNone itNone d126 h0 s0 p3d0d8234 f0 w0 m2 b126 laNone laNone
+c35 3 14.0 laIce waNone moNone itNone d126 h0 s0 p3cc3eb7c f0 w0 m2 b126 laNone laNone
+c36 3 14.0 laIce waNone moNone itNone d126 h0 s0 p3cde3326 f0 w0 m2 b126 laNone laNone
+c37 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p3c4dfaca f0 w0 m3 b126 laNone laNone
+c38 3 16.4 laIce waIcewall moNone itNone d126 h0 s0 p3ca1c83c f0 w0 m3 b126 laNone laNone
+c39 3 16.0 laIce waIcewall moNone itNone d126 h0 s0 p3c4e449c f0 w0 m3 b126 laNone laNone
+c40 3 16.0 laIce waIcewall moNone itNone d126 h0 s0 p3c8e856a f0 w0 m3 b126 laNone laNone
+c41 3 17.3 laIce waIcewall moNone itNone d126 h0 s0 p3c15e835 f0 w0 m3 b126 laNone laNone
+c42 3 18.4 laIce waNone moNone itNone d126 h0 s0 p3cd1f37e f0 w0 m2 b126 laNone laNone
+c43 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3cb0a1f4 f0 w0 m2 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3d112ce4 f0 w0 m2 b126 laNone laNone
+c45 3 19.3 laIce waNone moNone itNone d126 h0 s0 p3c9f9ce9 f0 w0 m2 b126 laNone laNone
+c46 3 20.4 laIce waNone moNone itNone d126 h0 s0 p3d100e00 f0 w0 m2 b126 laNone laNone
+c47 3 20.0 laIce waIcewall moNone itNone d126 h0 s0 p3cadd73e f0 w0 m2 b126 laNone laNone
+c48 3 20.0 laIce waNone moNone itNone d126 h0 s0 p3ccae99e f0 w0 m2 b126 laNone laNone
+c49 3 21.3 laIce waNone moNone itNone d126 h0 s0 p3c07b99d f0 w0 m3 b126 laNone laNone
+dcal 582 hash fc6ff67a
+== move 0
+ret 1
+turn 7 canmove 1 cheater 1
+pos d0 / 3 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f220fdd f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3ebe1c0a f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e5d4266 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e49cbe1 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e5b5e6b f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ebae86f f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ef7280a f0 w0 m0 b126 laNone laNone
+c7 2 1.3 laIce waIcewall moNone itNone d126 h0 s0 p3de1fdb6 f0 w0 m2 b126 laNone laNone
+c8 2 2.4 laIce waIcewall moNone itNone d126 h0 s0 p3db7108d f0 w0 m2 b126 laNone laNone
+c9 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e8be5f7 f0 w0 m1 b126 laNone laNone
+c10 2 2.4 laIce waNone moNone itNone d126 h0 s0 p3d09fdb0 f0 w0 m2 b126 laNone laNone
+c11 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3ce6da6a f0 w0 m2 b126 laNone laNone
+c12 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3d2ff3b9 f0 w0 m2 b126 laNone laNone
+c13 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3cce8102 f0 w0 m2 b126 laNone laNone
+c14 2 4.4 laIce waNone moNone itNone d126 h0 s0 p3d2e91ce f0 w0 m2 b126 laNone laNone
+c15 2 4.0 laIce waIcewall moNone itNone d126 h0 s0 p3ce3237b f0 w0 m2 b126 laNone laNone
+c16 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3d059c0c f0 w0 m2 b126 laNone laNone
+c17 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3daf0938 f0 w0 m2 b126 laNone laNone
+c18 2 5.4 laIce waNone moNone itNone d126 h0 s0 p3dd08e22 f0 w0 m2 b126 laNone laNone
+c19 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e84f867 f0 w0 m1 b126 laNone laNone
+c20 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e86c73f f0 w0 m1 b126 laNone laNone
+c21 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e8b8ce6 f0 w0 m0 b126 laNone laNone
+c22 3 7.4 laIce waIcewall moNone itNone d126 h0 s0 p3cda3367 f0 w0 m3 b126 laNone laNone
+c23 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3c95b864 f0 w0 m3 b126 laNone laNone
+c24 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3cd255a3 f0 w0 m3 b126 laNone laNone
+c25 3 7.4 laIce waNone moNone itNone d126 h0 s0 p3da90a90 f0 w0 m2 b126 laNone laNone
+c26 3 10.2 laIce waIcewall moNone itNone d126 h0 s0 p3c7221c6 f0 w0 m3 b126 laNone laNone
+c27 3 9.3 laIce waNone moNone itDiamond d126 h0 s0 p3dec087c f0 w0 m1 b126 laNone laNone
+c28 3 10.5 laIce waNone moNone itNone d126 h0 s0 p3b9b621c f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p3bc6a66e f0 w0 m3 b126 laNone laNone
+c30 3 11.5 laIce waNone moNone itNone d126 h0 s0 p3b645681 f0 w0 m3 b126 laNone laNone
+c31 3 12.3 laIce waNone moNone itNone d126 h0 s0 p3bf30bfc f0 w0 m3 b126 laNone laNone
+c32 3 13.4 laIce waNone moNone itNone d126 h0 s0 p3bf5ad16 f0 w0 m3 b126 laNone laNone
+c33 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3b3f9887 f0 w0 m3 b126 laNone laNone
+c34 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3b3f6c3c f0 w0 m3 b126 laNone laNone
+c35 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3bf4501f f0 w0 m3 b126 laNone laNone
+c36 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p3bf064d8 f0 w0 m3 b126 laNone laNone
+c37 3 15.5 laIce waIcewall moNone itNone d126 h0 s0 p3b606530 f0 w0 m3 b126 laNone laNone
+c38 3 16.3 laIce waIcewall moNone itNone d126 h0 s0 p3bc1353f f0 w0 m3 b126 laNone laNone
+c39 3 16.5 laIce waIcewall moNone itNone d126 h0 s0 p3b9351d7 f0 w0 m3 b126 laNone laNone
+c40 3 17.3 laIce waNone moNone itNone d126 h0 s0 p3c6043a2 f0 w0 m3 b126 laNone laNone
+c41 3 18.4 laIce waNone moNone itNone d126 h0 s0 p3cba1916 f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3c757004 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3ca7d8f8 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3d8d9cf7 f0 w0 m2 b126 laNone laNone
+c45 3 20.3 laIce waNone moNone itNone d126 h0 s0 p3dca65ea f0 w0 m2 b126 laNone laNone
+c46 3 20.5 laIce waNone moNone itNone d126 h0 s0 p3da2faac f0 w0 m2 b126 laNone laNone
+c47 3 21.3 laIce waNone moNone itNone d126 h0 s0 p3de91582 f0 w0 m1 b126 laNone laNone
+c48 3 21.5 laIce waNone moNone itNone d126 h0 s0 p3dbeb0ea f0 w0 m1 b126 laNone laNone
+dcal 574 hash 7ba4f59a
+== move 2
+ret 0
+msg+ 2 You cannot move through the ice wall!
+turn 7 canmove 1 cheater 1
+pos d0 / 3 spin 2
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f220fdd f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3ebe1c0a f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e5d4266 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e49cbe1 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e5b5e6b f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3ebae86f f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ef7280a f0 w0 m0 b126 laNone laNone
+c7 2 1.3 laIce waIcewall moNone itNone d126 h0 s0 p3de1fdb6 f0 w0 m2 b126 laNone laNone
+c8 2 2.4 laIce waIcewall moNone itNone d126 h0 s0 p3db7108d f0 w0 m2 b126 laNone laNone
+c9 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e8be5f7 f0 w0 m1 b126 laNone laNone
+c10 2 2.4 laIce waNone moNone itNone d126 h0 s0 p3d09fdb0 f0 w0 m2 b126 laNone laNone
+c11 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3ce6da6a f0 w0 m2 b126 laNone laNone
+c12 2 2.0 laIce waNone moNone itNone d126 h0 s0 p3d2ff3b9 f0 w0 m2 b126 laNone laNone
+c13 2 3.3 laIce waNone moNone itNone d126 h0 s0 p3cce8102 f0 w0 m2 b126 laNone laNone
+c14 2 4.4 laIce waNone moNone itNone d126 h0 s0 p3d2e91ce f0 w0 m2 b126 laNone laNone
+c15 2 4.0 laIce waIcewall moNone itNone d126 h0 s0 p3ce3237b f0 w0 m2 b126 laNone laNone
+c16 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3d059c0c f0 w0 m2 b126 laNone laNone
+c17 2 4.0 laIce waNone moNone itNone d126 h0 s0 p3daf0938 f0 w0 m2 b126 laNone laNone
+c18 2 5.4 laIce waNone moNone itNone d126 h0 s0 p3dd08e22 f0 w0 m2 b126 laNone laNone
+c19 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e84f867 f0 w0 m1 b126 laNone laNone
+c20 2 6.0 laIce waIcewall moNone itNone d126 h0 s0 p3e86c73f f0 w0 m1 b126 laNone laNone
+c21 2 6.0 laIce waNone moNone itNone d126 h0 s0 p3e8b8ce6 f0 w0 m0 b126 laNone laNone
+c22 3 7.4 laIce waIcewall moNone itNone d126 h0 s0 p3cda3367 f0 w0 m3 b126 laNone laNone
+c23 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3c95b864 f0 w0 m3 b126 laNone laNone
+c24 3 7.0 laIce waIcewall moNone itNone d126 h0 s0 p3cd255a3 f0 w0 m3 b126 laNone laNone
+c25 3 7.4 laIce waNone moNone itNone d126 h0 s0 p3da90a90 f0 w0 m2 b126 laNone laNone
+c26 3 10.2 laIce waIcewall moNone itNone d126 h0 s0 p3c7221c6 f0 w0 m3 b126 laNone laNone
+c27 3 9.3 laIce waNone moNone itDiamond d126 h0 s0 p3dec087c f0 w0 m1 b126 laNone laNone
+c28 3 10.5 laIce waNone moNone itNone d126 h0 s0 p3b9b621c f0 w0 m3 b126 laNone laNone
+c29 3 11.3 laIce waNone moNone itNone d126 h0 s0 p3bc6a66e f0 w0 m3 b126 laNone laNone
+c30 3 11.5 laIce waNone moNone itNone d126 h0 s0 p3b645681 f0 w0 m3 b126 laNone laNone
+c31 3 12.3 laIce waNone moNone itNone d126 h0 s0 p3bf30bfc f0 w0 m3 b126 laNone laNone
+c32 3 13.4 laIce waNone moNone itNone d126 h0 s0 p3bf5ad16 f0 w0 m3 b126 laNone laNone
+c33 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3b3f9887 f0 w0 m3 b126 laNone laNone
+c34 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3b3f6c3c f0 w0 m3 b126 laNone laNone
+c35 3 13.0 laIce waNone moNone itNone d126 h0 s0 p3bf4501f f0 w0 m3 b126 laNone laNone
+c36 3 15.3 laIce waIcewall moNone itNone d126 h0 s0 p3bf064d8 f0 w0 m3 b126 laNone laNone
+c37 3 15.5 laIce waIcewall moNone itNone d126 h0 s0 p3b606530 f0 w0 m3 b126 laNone laNone
+c38 3 16.3 laIce waIcewall moNone itNone d126 h0 s0 p3bc1353f f0 w0 m3 b126 laNone laNone
+c39 3 16.5 laIce waIcewall moNone itNone d126 h0 s0 p3b9351d7 f0 w0 m3 b126 laNone laNone
+c40 3 17.3 laIce waNone moNone itNone d126 h0 s0 p3c6043a2 f0 w0 m3 b126 laNone laNone
+c41 3 18.4 laIce waNone moNone itNone d126 h0 s0 p3cba1916 f0 w0 m3 b126 laNone laNone
+c42 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3c757004 f0 w0 m3 b126 laNone laNone
+c43 3 18.0 laIce waIcewall moNone itNone d126 h0 s0 p3ca7d8f8 f0 w0 m3 b126 laNone laNone
+c44 3 18.0 laIce waNone moNone itNone d126 h0 s0 p3d8d9cf7 f0 w0 m2 b126 laNone laNone
+c45 3 20.3 laIce waNone moNone itNone d126 h0 s0 p3dca65ea f0 w0 m2 b126 laNone laNone
+c46 3 20.5 laIce waNone moNone itNone d126 h0 s0 p3da2faac f0 w0 m2 b126 laNone laNone
+c47 3 21.3 laIce waNone moNone itNone d126 h0 s0 p3de91582 f0 w0 m1 b126 laNone laNone
+c48 3 21.5 laIce waNone moNone itNone d126 h0 s0 p3dbeb0ea f0 w0 m1 b126 laNone laNone
+dcal 574 hash 7ba4f59a

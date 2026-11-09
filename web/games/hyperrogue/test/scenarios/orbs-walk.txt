@@ -1,0 +1,210 @@
+# Orb powers of the player (orbs.cpp, pcmove.cpp, package P7): side attacks, plague, slaying, chaos, fire,
+# digging, nature, undeath, swords, thorns, winter, lightning, flash, given with 'item'; walks in several lands.
+start 5 -W laJungle
+item itOrbSide1 30
+item itOrbSide2 30
+item itOrbSide3 30
+item itOrbPlague 30
+item itOrbSlaying 30
+item itOrbChaos 30
+item itOrbUndeath 30
+item itOrbSword 60
+item itOrbSword2 40
+item itOrbThorns 30
+item itOrbNature 30
+move 4
+move 6
+move 4
+move 1
+move 4
+move 4
+move 0
+move 1
+wait
+move 5
+move 4
+move 3
+move 4
+move 4
+wait
+move 0
+wait
+move 4
+wait
+move 3
+move 1
+move 5
+move 0
+move 3
+move 3
+move 6
+wait
+move 6
+move 2
+wait
+move 0
+move 6
+move 0
+move 6
+move 1
+move 0
+move 5
+move 0
+move 1
+move 2
+goto laDesert
+item itOrbDigging 30
+item itOrbFire 20
+move 2
+move 3
+move 0
+move 5
+wait
+wait
+move 1
+move 1
+move 1
+move 6
+move 5
+move 3
+move 1
+wait
+move 6
+move 0
+move 3
+move 4
+move 0
+wait
+move 3
+move 6
+move 6
+move 0
+wait
+move 5
+move 4
+move 4
+move 4
+move 4
+goto laIce
+item itOrbWinter 30
+item itOrbFire 0
+move 3
+move 1
+move 1
+move 1
+move 1
+move 4
+move 3
+move 4
+wait
+wait
+wait
+move 2
+move 5
+move 3
+move 4
+move 4
+move 5
+move 1
+move 4
+move 4
+move 2
+move 1
+move 0
+move 3
+move 0
+move 2
+move 1
+wait
+move 3
+move 5
+goto laGraveyard
+item itOrbLightning 40
+item itOrbFlash 0
+move 4
+move 1
+move 0
+move 2
+move 0
+wait
+move 3
+wait
+move 1
+move 0
+move 2
+move 5
+move 1
+move 2
+move 5
+move 0
+move 3
+move 0
+move 4
+wait
+move 3
+move 4
+wait
+wait
+wait
+move 3
+move 3
+move 5
+move 3
+move 4
+goto laAlchemist
+item itOrbLightning 0
+item itOrbFlash 40
+wait
+move 0
+move 0
+move 1
+move 0
+move 4
+move 3
+move 0
+move 1
+move 1
+move 6
+move 5
+move 3
+move 2
+move 2
+move 3
+move 6
+move 1
+move 4
+move 1
+goto laCaves
+item itOrbAether 20
+item itOrbSpeed 20
+item itOrbShield 10
+move 3
+move 6
+wait
+wait
+move 6
+move 3
+move 1
+move 3
+move 3
+move 5
+move 4
+move 0
+move 2
+move 0
+move 2
+move 2
+move 4
+wait
+move 3
+move 6
+move 1
+move 6
+wait
+move 3
+wait
+move 5
+move 0
+move 1
+move 2
+move 0

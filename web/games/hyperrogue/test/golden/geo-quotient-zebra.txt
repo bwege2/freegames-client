@@ -1,0 +1,801 @@
+== start 210 -geo Zebra -W laIce
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 40 hash d49ac0e4
+== wait
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3e75c290 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+dcal 40 hash 4055fbaa
+== move 3
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 3 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ec8b439 f0 w0 m0 b126 laNone laNone
+c1 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3de56041 f0 w0 m1 b127 laNone laNone
+c2 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e54fdf4 f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m1 b126 laNone laNone
+dcal 40 hash cbb22492
+== move 5
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / 4 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3eeb851f f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3df0d845 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3e3295ea f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e769446 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ea30553 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e31c433 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3de075f7 f0 w0 m1 b126 laNone laNone
+dcal 40 hash ece3c615
+== move 0
+ret 1
+turn 4 canmove 1 cheater 1
+pos d0 / 3 spin 5
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f122fad f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e715619 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ec13fd1 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e91537a f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e5ed288 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3e4e703b f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3e5bdf8f f0 w0 m1 b126 laNone laNone
+dcal 40 hash e898d5a5
+== move 1
+ret 1
+turn 5 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ef839cd f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e2584f5 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e363d3e f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e93ea2d f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eec4a40 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec3d790 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e90752e f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e4ab3ee f0 w0 m1 b126 laNone laNone
+dcal 40 hash d9bac5d3
+== move 5
+ret 1
+turn 6 canmove 1 cheater 1
+pos d0 / 1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3efd6ec0 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3df611d5 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e1f0513 f0 w0 m1 b127 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eadcde9 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ed766b9 f0 w0 m0 b127 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e7496ab f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e0635da f0 w0 m1 b127 laNone laNone
+dcal 40 hash 956c377d
+== move 0
+ret 1
+turn 7 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f16f29b f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eba9512 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eb02f0a f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3e9359af f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e9e4f6c f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ed64bd9 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec78e9f f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ecba5d0 f0 w0 m0 b126 laNone laNone
+dcal 40 hash f0ffc003
+== move 3
+ret 1
+turn 8 canmove 1 cheater 1
+pos d0 / 4 spin 0
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f25bab5 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e835eb1 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ecdea7e f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f020f89 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3edf6990 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3e8b6155 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e65978d f0 w0 m1 b126 laNone laNone
+dcal 40 hash 491edfa1
+== move 0
+ret 1
+turn 9 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f2a549e f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eb6bc01 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ead4413 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ebfa5f0 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ece59be f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ef5cebf f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0c8582 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eea81dc f0 w0 m1 b126 laNone laNone
+dcal 40 hash b1ab2994
+== move 0
+ret 1
+turn 10 canmove 1 cheater 1
+pos d0 / 4 spin 0
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f462a96 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3eac253e f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eff7e92 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f1358d5 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f03745c f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3eafee68 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e9cb24d f0 w0 m1 b126 laNone laNone
+dcal 40 hash 5b092aeb
+== move 2
+ret 0
+msg 1 You cannot move through the ice wall!
+turn 10 canmove 1 cheater 1
+pos d0 / 4 spin 2
+items
+kills moNone=1
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f462a96 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3eac253e f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3eff7e92 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f1358d5 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f03745c f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waIcewall moNone itNone d126 h0 s0 p3eafee68 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e9cb24d f0 w0 m1 b126 laNone laNone
+dcal 40 hash 5b092aeb
+== move 4
+ret 1
+turn 11 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items
+kills moNone=2
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f3a39ee f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec7c237 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ee05be9 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0d4444 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f25a3dc f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0ac5f2 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ed47863 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ebed7bd f0 w0 m1 b126 laNone laNone
+dcal 40 hash 43ac106e
+== move 6
+ret 1
+turn 12 canmove 1 cheater 1
+pos d0 / 3 spin 0
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f521ceb f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ee079e8 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed04952 f0 w0 m1 b127 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f1dc30e f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f224994 f0 w0 m0 b127 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3efc584d f0 w0 m1 b126 laNone laNone
+c6 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3ee26bb4 f0 w0 m1 b127 laNone laNone
+dcal 40 hash 996c844f
+== move 1
+ret 1
+turn 13 canmove 1 cheater 1
+pos d0 / 2 spin 5
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f48f268 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f361b46 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f1f7fb3 f0 w0 m0 b127 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3edb8ebd f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e9bdeec f0 w0 m1 b127 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ea58dc4 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f047394 f0 w0 m1 b127 laNone laNone
+dcal 40 hash da195047
+== move 5
+ret 1
+turn 14 canmove 1 cheater 1
+pos d2 2 / -1 spin 0
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f3b092f f0 w0 m0 b127 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f31d7ff f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f2f5045 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed72be9 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eaa9da4 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ef1205d f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f0eaff8 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f06156b f0 w0 m1 b126 laNone laNone
+dcal 40 hash 0d5fd365
+== move 2
+ret 0
+msg+ 2 You cannot move through the ice wall!
+turn 14 canmove 1 cheater 1
+pos d2 2 / -1 spin 2
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f3b092f f0 w0 m0 b127 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f31d7ff f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f2f5045 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed72be9 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p3eaa9da4 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ef1205d f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f0eaff8 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f06156b f0 w0 m1 b126 laNone laNone
+dcal 40 hash 0d5fd365
+== move 5
+ret 1
+turn 15 canmove 1 cheater 1
+pos d0 / 2 spin 4
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f67e311 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eca2470 f0 w0 m1 b127 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ef9a089 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2aede5 f0 w0 m0 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f31ce23 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f1c84f1 f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ef30b9c f0 w0 m0 b126 laNone laNone
+dcal 40 hash 43bd09ae
+== wait
+ret 1
+turn 16 canmove 1 cheater 1
+pos d0 / 2 spin 4
+items
+kills moNone=4
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f81f870 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2c44de f0 w0 m0 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f3650a6 f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f26d49e f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f0a0156 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eeddfdb f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f0bff2c f0 w0 m1 b126 laNone laNone
+dcal 40 hash 3987a9c3
+== move 5
+ret 1
+turn 17 canmove 1 cheater 1
+pos d2 5 / 2 spin 5
+items
+kills moNone=5
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f56356c f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3ea72623 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ee7caf7 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f30f80c f0 w0 m0 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f584ab0 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f052446 f0 w0 m1 b127 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ebd20b4 f0 w0 m1 b126 laNone laNone
+dcal 40 hash f10b9397
+== wait
+ret 1
+turn 18 canmove 1 cheater 1
+pos d2 5 / 2 spin 5
+items
+kills moNone=6
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f79a5ae f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed5738e f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f09960e f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f366ec5 f0 w0 m0 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f4cb6c8 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f10f4ee f0 w0 m1 b127 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ef005b0 f0 w0 m1 b126 laNone laNone
+dcal 40 hash 87f8a7a0
+== wait
+ret 1
+turn 19 canmove 1 cheater 1
+pos d2 5 / 2 spin 5
+items
+kills moNone=6
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f87b5f4 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f1b2bc4 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f0beb22 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3efa67cc f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f1a868e f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f3ba54b f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f4acf9c f0 w0 m0 b126 laNone laNone
+dcal 40 hash e1241033
+== move 2
+ret 1
+turn 20 canmove 1 cheater 1
+pos d3 2 5 / 5 spin 1
+items
+kills moNone=6
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f5939b6 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f244509 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ed79f9b f0 w0 m1 b126 laNone laNone
+c3 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3ee02e18 f0 w0 m1 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eddd604 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f0c5894 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f619378 f0 w0 m0 b126 laNone laNone
+dcal 40 hash b67bac35
+== move 1
+ret 1
+turn 21 canmove 1 cheater 1
+pos d2 5 / -1 spin 1
+items
+kills moNone=6
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f5585a1 f0 w0 m0 b127 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f160fad f0 w0 m0 b126 laNone laNone
+c2 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ee9aca2 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3ed5963a f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f04ee12 f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f4178a9 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f553f3b f0 w0 m0 b126 laNone laNone
+c7 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f3f46b0 f0 w0 m0 b126 laNone laNone
+dcal 40 hash 6e2282df
+== move 2
+ret 1
+turn 22 canmove 1 cheater 1
+pos d0 / 2 spin 2
+items
+kills moNone=6
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f81de5e f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f42ff8b f0 w0 m0 b127 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f512018 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2f407e f0 w0 m0 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f1ebd16 f0 w0 m0 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f1da4be f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f28d9c1 f0 w0 m0 b126 laNone laNone
+dcal 40 hash 75abaa87
+== move 3
+ret 1
+turn 23 canmove 1 cheater 1
+pos d0 / 3 spin 1
+items
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f6d7508 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eeefa9d f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f096c89 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f2f52e5 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f66d5f2 f0 w0 m0 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f3b1573 f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f0cef1b f0 w0 m1 b126 laNone laNone
+dcal 40 hash cb94f256
+== move 5
+ret 1
+turn 24 canmove 1 cheater 1
+pos d0 / -1 spin 3
+items
+kills moNone=7
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f662852 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f36985c f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f61dd4a f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f56926b f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f1f8f46 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f1f06d5 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f203bff f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f1a4f0d f0 w0 m1 b126 laNone laNone
+dcal 40 hash d1dd364c
+== move 4
+ret 1
+turn 25 canmove 1 cheater 1
+pos d0 / 0 spin 0
+items
+kills moNone=8
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f6d1124 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f1b524f f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f446604 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f5724b3 f0 w0 m0 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f356b9f f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f09c4e7 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f116835 f0 w0 m1 b126 laNone laNone
+dcal 40 hash 591beb4a
+== move 0
+ret 1
+turn 26 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills moNone=10
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f8153e5 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f5a73e9 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f50ea31 f0 w0 m0 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f54f99f f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f467950 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2c8be7 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f367dab f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f479790 f0 w0 m1 b126 laNone laNone
+dcal 40 hash 0ee35d84
+== move 1
+ret 1
+turn 27 canmove 1 cheater 1
+pos d0 / 1 spin 0
+items
+kills moNone=11
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f8b6189 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f5abdd4 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f2f777f f0 w0 m1 b127 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f1d4bb8 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f31643e f0 w0 m0 b127 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f5d37c0 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f6d6bd5 f0 w0 m0 b127 laNone laNone
+dcal 40 hash fbac5678
+== move 1
+ret 1
+turn 28 canmove 1 cheater 1
+pos d0 / 0 spin 5
+items
+kills moNone=11
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f8f63e3 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f2556c8 f0 w0 m1 b127 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f2b6dd7 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f3fd38c f0 w0 m1 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f7abcff f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f6c12cc f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f4f39af f0 w0 m1 b126 laNone laNone
+dcal 40 hash bb2ffe05
+== move 3
+ret 1
+turn 29 canmove 1 cheater 1
+pos d2 3 / -1 spin 3
+items
+kills moNone=12
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f614836 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eff7a70 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0d1dd9 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f40a761 f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f80ba47 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f5e5893 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f30093e f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f0b8ade f0 w0 m1 b126 laNone laNone
+dcal 40 hash 7c07d635
+== move 2
+ret 1
+turn 30 canmove 1 cheater 1
+pos d2 2 / 2 spin 4
+items
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f814ff4 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f281a88 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f22ab53 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f55c0e9 f0 w0 m0 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f685d0b f0 w0 m1 b126 laNone laNone
+c5 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f48546a f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f3bf789 f0 w0 m0 b126 laNone laNone
+dcal 40 hash a8dc8f20
+== move 3
+ret 1
+turn 31 canmove 1 cheater 1
+pos d2 5 / 2 spin 3
+items
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f882324 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f3dc2d8 f0 w0 m0 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f3c8e20 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f402a19 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f7072d2 f0 w0 m0 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f5a07cc f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f555b2b f0 w0 m0 b126 laNone laNone
+dcal 40 hash 89d24ad3
+== move 3
+ret 1
+turn 32 canmove 1 cheater 1
+pos d2 5 / -1 spin 2
+items
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f7943ec f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f7d9f14 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f671fd9 f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f56f434 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f32d0da f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f1eb3da f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f2c7510 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f53fa41 f0 w0 m0 b126 laNone laNone
+dcal 40 hash ae073198
+== move 3
+ret 1
+turn 33 canmove 1 cheater 1
+pos d2 4 / 2 spin 4
+items
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f81ad65 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f6d6cc5 f0 w0 m0 b127 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f65e8bc f0 w0 m0 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f4b7407 f0 w0 m1 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itDiamond d126 h0 s0 p3f233af4 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f18e81d f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f3494e3 f0 w0 m1 b126 laNone laNone
+dcal 40 hash e7083a56
+== move 3
+ret 1
+msg 1 You collect your first Ice Diamond!
+turn 34 canmove 1 cheater 1
+pos d2 4 / 1 spin 5
+items itDiamond=1
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f7ac0af f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f4a2712 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waNone moNone itDiamond d126 h0 s0 p3f1e914b f0 w0 m1 b127 laNone laNone
+c3 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f13a85c f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2ff9a5 f0 w0 m1 b127 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f70f8f2 f0 w0 m0 b126 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f5f8930 f0 w0 m1 b127 laNone laNone
+dcal 40 hash 29baaddf
+== move 3
+ret 1
+msg 1 You collect the Ice Diamond. (2)
+turn 35 canmove 1 cheater 1
+pos d4 0 4 / -1 spin 0
+items itDiamond=2
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f61259a f0 w0 m0 b127 laNone laNone
+c1 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f615efd f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f4e05a9 f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f263077 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f17e803 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itDiamond d126 h0 s0 p3f18551a f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f2fa853 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f6baace f0 w0 m0 b126 laNone laNone
+dcal 40 hash 5d18c6f5
+== move 5
+ret 1
+msg 1 You collect the Ice Diamond. (3)
+turn 36 canmove 1 cheater 1
+pos d4 0 3 / 2 spin 4
+items itDiamond=3
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f6fd675 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f23f533 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f2c9c11 f0 w0 m1 b126 laNone laNone
+c3 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f262243 f0 w0 m1 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f44a2fb f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f5b56b2 f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f311b12 f0 w0 m1 b126 laNone laNone
+dcal 40 hash 26d220c3
+== move 0
+ret 1
+turn 37 canmove 1 cheater 1
+pos d4 0 4 / -1 spin 5
+items itDiamond=3
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f871802 f0 w0 m0 b127 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f610e87 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f4568c8 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f4821de f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f61fe4a f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3f581241 f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f68ef07 f0 w0 m0 b126 laNone laNone
+c7 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f6d0854 f0 w0 m1 b126 laNone laNone
+dcal 40 hash e4a07246
+== move 1
+ret 1
+turn 38 canmove 1 cheater 1
+pos d4 0 4 / 6 spin 0
+items itDiamond=3
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f922200 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f44437d f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f3902b6 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f574519 f0 w0 m1 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f76c9b9 f0 w0 m0 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f7effcb f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f66fbdd f0 w0 m0 b126 laNone laNone
+dcal 40 hash 600584a2
+== move 3
+ret 1
+turn 39 canmove 1 cheater 1
+pos d3 0 5 / 2 spin 1
+items itDiamond=3
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f88d66d f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f43254e f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3f6d10e1 f0 w0 m1 b127 laNone laNone
+c3 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f8728ac f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3f593db6 f0 w0 m1 b127 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f3926ad f0 w0 m1 b126 laNone laNone
+c6 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f3870d7 f0 w0 m1 b127 laNone laNone
+dcal 40 hash e27513e7
+== move 0
+ret 1
+turn 40 canmove 1 cheater 1
+pos d4 0 4 / 6 spin 3
+items itDiamond=3
+kills moNone=13
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3fa67328 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f7d7d10 f0 w0 m1 b127 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f8080a1 f0 w0 m0 b126 laNone laNone
+c3 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3f7a0276 f0 w0 m0 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f6dcba0 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3f6a43f1 f0 w0 m1 b127 laNone laNone
+c6 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3f817173 f0 w0 m0 b126 laNone laNone
+dcal 40 hash 6cba57bd
+== saveload
+msg 1 Game statistics saved to harness.log
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b127 laNone laNone
+c1 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waIcewall moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 40 hash f7946ec5
+file HyperRogue: game statistics (version 13.1o)
+file CHEATER! (cheated 1 times)
+file 13.1o 1767225600 1767225600 3 0 40 160 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 6 1 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 150 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100000 0 60000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+file Played on: Thu Jan  1 00:00:00 2026 - Thu Jan  1 00:00:00 2026 (40 turns)
+file Total wealth: 3
+file Total enemies killed: 0
+file cells generated: 160
+file Geometry: bitruncated/{7,3}/Zebra
+file land structure: single land: Icy Land
+file Number of cells explored, by distance from the player:
+file  18 39 40 40 40 40 40 40 40 40
+file walls melted: 13
+file cells travelled: 4
+file 
+file    3x Ice Diamond
+file 
+file 
+file 
+file 
+== move 3
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 3 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ea3d70a f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m0 b127 laNone laNone
+c3 1 0.5 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c4 1 0.6 laIce waIcewall moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b127 laNone laNone
+c5 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3da3d70a f0 w0 m1 b127 laNone laNone
+dcal 40 hash 40ed82bf
+== move 5
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 4 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ecccccd f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m1 b127 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3dc49ba6 f0 w0 m1 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3de56041 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e1ba5e3 f0 w0 m0 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e83126e f0 w0 m0 b126 laNone laNone
+dcal 40 hash ca20b22b
+== move 4
+ret 1
+turn 3 canmove 1 cheater 1
+pos d0 / 5 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ee48e8a f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3ea71de7 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e378034 f0 w0 m1 b127 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e3ac711 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laIce waIcewall moNone itNone d126 h0 s0 p3e22339c f0 w0 m1 b127 laNone laNone
+c5 1 0.1 laIce waIcewall moNone itNone d126 h0 s0 p3df9096c f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e5b8bac f0 w0 m0 b127 laNone laNone
+dcal 40 hash b48abb10
+== move 1
+ret 1
+turn 4 canmove 1 cheater 1
+pos d2 1 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3ed03d9b f0 w0 m0 b127 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e894c44 f0 w0 m1 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ec0ebee f0 w0 m0 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3eaceee1 f0 w0 m0 b126 laNone laNone
+c4 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e43c9ef f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3df1fddf f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dde54b5 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e185f07 f0 w0 m1 b126 laNone laNone
+dcal 40 hash 054e97cf
+== move 4
+ret 1
+turn 5 canmove 1 cheater 1
+pos d2 1 / 0 spin 0
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3edd3aa3 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3dc1e364 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3de4ffc9 f0 w0 m1 b127 laNone laNone
+c3 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e7021d1 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3eb6c376 f0 w0 m0 b127 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e4d39da f0 w0 m1 b126 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3dd60a63 f0 w0 m1 b127 laNone laNone
+dcal 40 hash 11ed3805
+== move 2
+ret 1
+turn 6 canmove 1 cheater 1
+pos d4 1 3 / -1 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3eb19b4e f0 w0 m0 b127 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3eb9eb48 f0 w0 m0 b126 laNone laNone
+c2 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3e8c0a9a f0 w0 m1 b126 laNone laNone
+c3 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3dfca99f f0 w0 m1 b126 laNone laNone
+c4 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3de43e6e f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3dd7bb3d f0 w0 m1 b126 laNone laNone
+c6 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3dd97a5a f0 w0 m1 b126 laNone laNone
+c7 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e3f0f75 f0 w0 m1 b126 laNone laNone
+dcal 40 hash edabc4c4
+== move 1
+ret 1
+turn 7 canmove 1 cheater 1
+pos d3 0 5 / 2 spin 2
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f1107cd f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waIcewall moNone itNone d126 h0 s0 p3e2bfbec f0 w0 m1 b127 laNone laNone
+c2 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e589f69 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laIce waNone moNone itNone d126 h0 s0 p3e9f3e74 f0 w0 m0 b127 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ebd6739 f0 w0 m0 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3eb21386 f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e877173 f0 w0 m1 b126 laNone laNone
+dcal 40 hash a048c711
+== move 1
+ret 1
+turn 8 canmove 1 cheater 1
+pos d2 1 / 0 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f24f2fa f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e761d77 f0 w0 m1 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e9b61d6 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3ec9b6b9 f0 w0 m0 b127 laNone laNone
+c4 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3ef2a1a2 f0 w0 m0 b126 laNone laNone
+c5 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3eae8478 f0 w0 m0 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3e84211c f0 w0 m1 b126 laNone laNone
+dcal 40 hash 9f551abe
+== move 2
+ret 1
+turn 9 canmove 1 cheater 1
+pos d2 3 / 0 spin 3
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f134b3e f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laIce waNone moNone itNone d126 h0 s0 p3ec26acb f0 w0 m0 b127 laNone laNone
+c2 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e619bd2 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3dff84 f0 w0 m1 b127 laNone laNone
+c4 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e4d2ab8 f0 w0 m1 b126 laNone laNone
+c5 1 0.6 laIce waNone moNone itNone d126 h0 s0 p3ea3fbfb f0 w0 m1 b127 laNone laNone
+c6 1 0.3 laIce waNone moNone itNone d126 h0 s0 p3f09ee65 f0 w0 m0 b126 laNone laNone
+dcal 40 hash d8f3665d
+== move 2
+ret 1
+turn 10 canmove 1 cheater 1
+pos d2 3 / 1 spin 1
+items
+kills
+c0 0 -1.-1 laIce waNone moNone itNone d126 h0 s0 p3f0cf17f f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3ed6ad1c f0 w0 m0 b127 laNone laNone
+c2 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3e8d64cb f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laIce waNone moNone itNone d126 h0 s0 p3e3ddf65 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e2cb1dc f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laIce waNone moNone itNone d126 h0 s0 p3e8a9fe4 f0 w0 m1 b127 laNone laNone
+c6 1 0.5 laIce waNone moNone itNone d126 h0 s0 p3efd429d f0 w0 m0 b126 laNone laNone
+dcal 40 hash 605768eb

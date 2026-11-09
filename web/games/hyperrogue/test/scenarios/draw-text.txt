@@ -1,0 +1,23 @@
+# Drawing oracle (PORTING-STAGE2.md): the text metrics of the interface font (basegraph.cpp textwidth, i.e.
+# SDL_ttf's TTF_SizeUTF8 with DejaVuSans-Bold.ttf at the given pixel size), which every layout of the HUD, the
+# messages and the dialogs depends on.
+textwidth 16 Welcome to HyperRogue!
+textwidth 16 Press F1 or right-click things for help.
+textwidth 16 A
+textwidth 16 V
+textwidth 16 AV
+textwidth 16 AVAV
+textwidth 16 To
+textwidth 16 T
+textwidth 16 o
+textwidth 16 ff
+textwidth 16 fi
+textwidth 16 f
+textwidth 16 i
+textwidth 12 AVAWAY Te To LT ff fi 1234567890
+textwidth 24 The quick brown fox jumps over the lazy dog.
+textwidth 33 score: 0
+textwidth 7 kills: 123
+textwidth 100 Hyperstone Quest
+textwidth 13 Orb of Yendor
+textwidth 200 W

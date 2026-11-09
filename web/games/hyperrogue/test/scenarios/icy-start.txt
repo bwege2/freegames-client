@@ -1,0 +1,11 @@
+# The default start (Icy Land, bitruncated {7,3}) with seed 1: a few steps, waits and a blocked move.
+start 1
+move 0
+move 0
+wait
+move 3
+move 1
+move 5
+wait
+move 0
+move 2

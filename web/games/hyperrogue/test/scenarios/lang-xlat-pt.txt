@@ -1,0 +1,1563 @@
+# Translations (pt): XLAT of every sentence with a %-code, twice, with nouns of every gender as the
+# parameters and other strings
+# and XLAT1/XLATN of every noun; written by re/hyperrogue/tools/gen-lang-scenarios.py
+lang 6
+xlat Saved the raw texture to %1	Goblin
+xlat Saved the raw texture to %1	Mirage
+xlat Are there any magical orbs in %the1?...	Hell
+xlat Are there any magical orbs in %the1?...	Witch Apprentice
+xlat Killed %1 can be revived with an Orb of Love, after you collect 20 more $$$.	Jungle
+xlat Killed %1 can be revived with an Orb of Love, after you collect 20 more $$$.	Crossroads
+xlat load (%1 turns passed)	xyz
+xlat load (%1 turns passed)	Mirror Image
+xlat You crush %the1!	Elemental Planes
+xlat You crush %the1!	Camelot
+xlat %The1 tricks %the2.	Spice	Dragon Scale
+xlat %The1 tricks %the2.	Orb of Yendor	Princess
+xlat currently no more than %1 edges	7
+xlat currently no more than %1 edges	Kraken Depths
+xlat \nSpawn rate (in Hubs): %1%/%2\n	Princess	Fire Fairy
+xlat \nSpawn rate (in Hubs): %1%/%2\n	Dragon Scale	Wine
+xlat %The1 can only be used on items!	Yeti
+xlat %The1 can only be used on items!	Ice Diamond
+xlat λ: %1°	Wine
+xlat λ: %1°	Fire Fairy
+xlat %The1 sinks!	R'Lyeh
+xlat %The1 sinks!	Rose Lady
+xlat distance: %1\n	Mirage
+xlat distance: %1\n	Goblin
+xlat %The1 cannot be used on %the2.	Witch Apprentice	xyz
+xlat %The1 cannot be used on %the2.	Hell	Mirror Image
+xlat %The1 is enraged!	Crossroads
+xlat %The1 is enraged!	Jungle
+xlat \n\nThis Frog uses the power of %the1. You get 5 charges yourself for killing it.	Mirror Image
+xlat \n\nThis Frog uses the power of %the1. You get 5 charges yourself for killing it.	xyz
+xlat Finished the race in time %1!	Camelot
+xlat Finished the race in time %1!	Elemental Planes
+xlat You have made a die unhappy. Taste the revenge! This one won't forgive you, no matter what you do.	Orb of Yendor
+xlat Orb power gained!	Kraken Depths
+xlat You chop down the tree.	Dragon Scale
+xlat  [%1 turns]	Ice Diamond
+xlat  [%1 turns]	Yeti
+xlat %The1 kisses you, and thanks you for saving %him1.	Fire Fairy
+xlat %The1 kisses you, and thanks you for saving %him1.	Wine
+xlat %The1 alarms other dogs as it dies!	Rose Lady
+xlat %The1 alarms other dogs as it dies!	R'Lyeh
+xlat %The1 attacks %the2!	Goblin	Crossroads
+xlat %The1 attacks %the2!	Mirage	Jungle
+xlat  (won at level %1!)	Hell
+xlat  (won at level %1!)	Witch Apprentice
+xlat \n\nOrb charges gained on pickup: %1	Jungle
+xlat \n\nOrb charges gained on pickup: %1	Crossroads
+xlat You feel even more attuned to the magic of this land!	xyz
+xlat %The1 is immune to wind!	Elemental Planes
+xlat %The1 is immune to wind!	Camelot
+xlat %The1 shows you two fingers.	Spice
+xlat %The1 shows you two fingers.	Orb of Yendor
+xlat #%1, cells: %2	7	Ice Diamond
+xlat #%1, cells: %2	Kraken Depths	Yeti
+xlat %The1 breathes fire!	Princess
+xlat %The1 breathes fire!	Dragon Scale
+xlat  scores: %1	Yeti
+xlat  scores: %1	Ice Diamond
+xlat Secondary orb: %1	Wine
+xlat Secondary orb: %1	Fire Fairy
+xlat Orbs of Yendor found: %1	R'Lyeh
+xlat Orbs of Yendor found: %1	Rose Lady
+xlat You overheard Hedgehog Warriors talking about emeralds...	Mirage
+xlat friends destroyed: %1	Witch Apprentice
+xlat friends destroyed: %1	Hell
+xlat You activate the Flash spell!	Crossroads
+xlat %1 x E	Mirror Image
+xlat %1 x E	xyz
+xlat cells not covered: %1	Camelot
+xlat cells not covered: %1	Elemental Planes
+xlat %The1 says, "not this place, it looks even worse..."	Orb of Yendor
+xlat %The1 says, "not this place, it looks even worse..."	Spice
+xlat  You need to go deep to collect lots of them.	Kraken Depths
+xlat You have improved your total high score on Steam. Congratulations!	Dragon Scale
+xlat %The1 melts away!	Ice Diamond
+xlat %The1 melts away!	Yeti
+xlat Cells to uncover: %1	Fire Fairy
+xlat Cells to uncover: %1	Wine
+xlat %the1: number of PTM runs	Rose Lady
+xlat %the1: number of PTM runs	R'Lyeh
+xlat Game statistics saved to %1	Goblin
+xlat Game statistics saved to %1	Mirage
+xlat Objects at distance less than %1 absolute units from the center will be displayed with high detail, and at distance at least %2 with low detail.	Hell	Mirror Image
+xlat Objects at distance less than %1 absolute units from the center will be displayed with high detail, and at distance at least %2 with low detail.	Witch Apprentice	xyz
+xlat %The1 breathes fire at you!	Jungle
+xlat %The1 breathes fire at you!	Crossroads
+xlat solving the geodesics on: %1, %2/%3	xyz	Orb of Yendor	Princess
+xlat solving the geodesics on: %1, %2/%3	Mirror Image	Spice	Dragon Scale
+xlat render now (length: %1)	Elemental Planes
+xlat render now (length: %1)	Camelot
+xlat You destroy %the1 with a mental blast!	Spice
+xlat You destroy %the1 with a mental blast!	Orb of Yendor
+xlat A tourist from another world. They mutter something about the 'tutorial', and claim that they are here just to learn, and to leave without any treasures. Do not kill them!	7
+xlat %The1 claws %the2!	Princess	Fire Fairy
+xlat %The1 claws %the2!	Dragon Scale	Wine
+xlat %The1 curses you with %the2!	Yeti	Rose Lady
+xlat %The1 curses you with %the2!	Ice Diamond	R'Lyeh
+xlat \n\nLeaves cut offscreen (approximately): %1	Wine
+xlat \n\nLeaves cut offscreen (approximately): %1	Fire Fairy
+xlat You stun %the1!	R'Lyeh
+xlat You stun %the1!	Rose Lady
+xlat You stun %the1.	Mirage
+xlat You stun %the1.	Goblin
+xlat Unexpected missing cell #%1/%1	Witch Apprentice
+xlat Unexpected missing cell #%1/%1	Hell
+xlat No room to push %the1.	Crossroads
+xlat No room to push %the1.	Jungle
+xlat You need special glasses to view the game in 3D	Mirror Image
+xlat %The1 can only be used on monsters.	Camelot
+xlat %The1 can only be used on monsters.	Elemental Planes
+xlat leaves cut: %1	Orb of Yendor
+xlat leaves cut: %1	Spice
+xlat %The1 squeaks gratefully!	Kraken Depths
+xlat %The1 squeaks gratefully!	7
+xlat native to %the1 (collect 1 %2)	Dragon Scale	Wine
+xlat native to %the1 (collect 1 %2)	Princess	Fire Fairy
+xlat Now, go to the Burial Grounds and find an Orb of the Sword. The Sword appears to always be facing in the same direction whatever you do, and it appears that you have to rotate the sword to excavate the treasures; yet, it is possible to excavate them! You might have already noticed that the world rotates after you move around a loop and return to an old place.\n\nThis is related to the fact that the world of HyperRogue is curved, and the sum of angles in a triangle is not equal to 180 degrees.	Ice Diamond
+xlat Save %the1 first to unlock this challenge!	Fire Fairy
+xlat Save %the1 first to unlock this challenge!	Wine
+xlat %The1 would get you!	Rose Lady
+xlat %The1 would get you!	R'Lyeh
+xlat You won!	Goblin
+xlat You blow %the1 away!	Hell
+xlat You blow %the1 away!	Witch Apprentice
+xlat area: %1	Jungle
+xlat area: %1	Crossroads
+xlat next challenge in %1	xyz
+xlat next challenge in %1	Mirror Image
+xlat %The1 raises his weapon...	Elemental Planes
+xlat %The1 raises his weapon...	Camelot
+xlat After killing %the1, you feel able to reach the Elemental Planes!	Spice
+xlat After killing %the1, you feel able to reach the Elemental Planes!	Orb of Yendor
+xlat The die is now happy, and you are rewarded!	7
+xlat You are recalled!	Princess
+xlat You feel that %the2 become%s2 more dangerous.	Yeti	Rose Lady
+xlat You feel that %the2 become%s2 more dangerous.	Ice Diamond	R'Lyeh
+xlat Number of uses left: %1	Wine
+xlat Number of uses left: %1	Fire Fairy
+xlat You activate your terraforming powers!	R'Lyeh
+xlat A mouse squeaks at you. It seems that it wants you to go somewhere. That's interesting, what could you find here?\n\nNote: in the part of the Palace that you are exploring during this quest, the distribution of monsters, pressure plates, and items has been changed somewhat, to make it a bit more suitable for less experienced players. The number of monsters does not depend on the number of Hypersian Rugs you have collected, and there are more opening plates.\n\nHowever, even with the normal distribution, it appears that it should be always possible to reach your goal. If you want this challenge, select it from the special game modes menu.	Mirage
+xlat Mode saved to %1	Witch Apprentice
+xlat Mode saved to %1	Hell
+xlat You feel attuned to gravity, ready to face mountains and dungeons.	Crossroads
+xlat You cannot move through %the1!	Mirror Image
+xlat You cannot move through %the1!	xyz
+xlat %1 turns (%2)	Camelot	7
+xlat %1 turns (%2)	Elemental Planes	Kraken Depths
+xlat You give %the1 a grim look.	Orb of Yendor
+xlat You give %the1 a grim look.	Spice
+xlat order %1%2 (%3 %4-gons)	Kraken Depths	Yeti	Rose Lady	Witch Apprentice
+xlat order %1%2 (%3 %4-gons)	7	Ice Diamond	R'Lyeh	Hell
+xlat Commanded %the1!	Dragon Scale
+xlat Commanded %the1!	Princess
+xlat You need to find the right Key to unlock this Orb of Yendor!	Ice Diamond
+xlat Unlocked by: %1 in %2	Fire Fairy	Mirage
+xlat Unlocked by: %1 in %2	Wine	Goblin
+xlat you have cheated %1 times	Rose Lady
+xlat you have cheated %1 times	R'Lyeh
+xlat currently no more than %1 faces in vertex	Goblin
+xlat currently no more than %1 faces in vertex	Mirage
+xlat You are too fatigued!	Hell
+xlat Are you sure you want to hit %the1?	Jungle
+xlat Are you sure you want to hit %the1?	Crossroads
+xlat Saved the SVG shot to %1 (sightrange %2)	xyz	Orb of Yendor
+xlat Saved the SVG shot to %1 (sightrange %2)	Mirror Image	Spice
+xlat %The1 stabs %the2.	Elemental Planes	Kraken Depths
+xlat %The1 stabs %the2.	Camelot	7
+xlat You feel that %the1 slowly become%s1 dangerous...	Spice
+xlat You feel that %the1 slowly become%s1 dangerous...	Orb of Yendor
+xlat You leave %the1.	7
+xlat You leave %the1.	Kraken Depths
+xlat Must be less than %1°. Panini projection can be used to get higher values.	Princess
+xlat Must be less than %1°. Panini projection can be used to get higher values.	Dragon Scale
+xlat %The1 scares %the2 a bit!	Yeti	Rose Lady
+xlat %The1 scares %the2 a bit!	Ice Diamond	R'Lyeh
+xlat  (turns to reload: %1)	Wine
+xlat  (turns to reload: %1)	Fire Fairy
+xlat left-handed	R'Lyeh
+xlat You kill %the1.	Mirage
+xlat You kill %the1.	Goblin
+xlat Find a %1 in %the2.	Witch Apprentice	xyz
+xlat Find a %1 in %the2.	Hell	Mirror Image
+xlat #%1, cells: %2, p=%3	Crossroads	Elemental Planes	Kraken Depths
+xlat #%1, cells: %2, p=%3	Jungle	Camelot	7
+xlat turn count = %1 last exploration = %2 ghost timer = %3	Mirror Image	Spice	Dragon Scale
+xlat turn count = %1 last exploration = %2 ghost timer = %3	xyz	Orb of Yendor	Princess
+xlat x: %1	Camelot
+xlat x: %1	Elemental Planes
+xlat You have improved your '%1' high score on Steam!	Orb of Yendor
+xlat You have improved your '%1' high score on Steam!	Spice
+xlat %The1 squeaks sadly.	Kraken Depths
+xlat %The1 squeaks sadly.	7
+xlat median edge: %1 minimum: %2	Dragon Scale	Wine
+xlat median edge: %1 minimum: %2	Princess	Fire Fairy
+xlat Are you sure?	Ice Diamond
+xlat There is no room for %the1!	Fire Fairy
+xlat There is no room for %the1!	Wine
+xlat %The1 kills %the2!	Rose Lady	Witch Apprentice
+xlat %The1 kills %the2!	R'Lyeh	Hell
+xlat Spherical version of %the1. 	Goblin
+xlat Spherical version of %the1. 	Mirage
+xlat %The1 takes %his1 revenge on %the2!	Hell	Mirror Image
+xlat %The1 takes %his1 revenge on %the2!	Witch Apprentice	xyz
+xlat This being radiates an aura of wisdom. It is made of a beautiful crystal, you would love to take it home. But how is it going to defend itself? Better not to think of it, thinking causes your brain to go hot...\n\nCrystal Sages melt at -30 °C, and they can raise the temperature around you from afar.	Jungle
+xlat orb power: %1	xyz
+xlat orb power: %1	Mirror Image
+xlat Have you reached the edge of the Poincaré disk? No, it must just be the edge of this world. Which happens to be floating on the backs of some turtles. Wondering how such not very big turtles could support such a large world? Well, there are LOTS of them! This one got so annoyed by the fact that you discovered this that it left its post. However, the world still stands, because there are so many turtles.	Elemental Planes
+xlat would be destroyed in %the1	Spice
+xlat would be destroyed in %the1	Orb of Yendor
+xlat Config file: %1	7
+xlat Config file: %1	Kraken Depths
+xlat score: %1	Princess
+xlat score: %1	Dragon Scale
+xlat Humans are %1 absolute units high. Your head travels %2 times the distance travelled by your feet.	Yeti	Rose Lady
+xlat Humans are %1 absolute units high. Your head travels %2 times the distance travelled by your feet.	Ice Diamond	R'Lyeh
+xlat You become a bit nervous...	Wine
+xlat Finished lands required: %1 (collect %2 treasure)\n	R'Lyeh	Hell
+xlat Finished lands required: %1 (collect %2 treasure)\n	Rose Lady	Witch Apprentice
+xlat \n\nLeaves cut onscreen: %1	Mirage
+xlat \n\nLeaves cut onscreen: %1	Goblin
+xlat The ivy destroys %the1!	Witch Apprentice
+xlat The ivy destroys %the1!	Hell
+xlat \nSpawn rate (as prize Orb): %1%/%2\n	Crossroads	Elemental Planes
+xlat \nSpawn rate (as prize Orb): %1%/%2\n	Jungle	Camelot
+xlat d%1 rolled %2	Mirror Image	Spice
+xlat d%1 rolled %2	xyz	Orb of Yendor
+xlat Treasure required: %1 x %2.\n	Camelot	7
+xlat Treasure required: %1 x %2.\n	Elemental Planes	Kraken Depths
+xlat Collect at least %1 Demon Daisies to find the Orbs of Yendor	Orb of Yendor
+xlat Collect at least %1 Demon Daisies to find the Orbs of Yendor	Spice
+xlat "I have been trained to fight with a Hypersian scimitar, you know?"	Kraken Depths
+xlat %The1 picks up %the2!	Dragon Scale	Wine
+xlat %The1 picks up %the2!	Princess	Fire Fairy
+xlat Orb unlocked: %1	Ice Diamond
+xlat Orb unlocked: %1	Yeti
+xlat Can only use %the1 on a monster!	Fire Fairy
+xlat Can only use %the1 on a monster!	Wine
+xlat %The1 raises some undead!	Rose Lady
+xlat %The1 raises some undead!	R'Lyeh
+xlat difficulty of %the1	Goblin
+xlat difficulty of %the1	Mirage
+xlat  $$$: %1	Hell
+xlat  $$$: %1	Witch Apprentice
+xlat Cannot fire again yet. Turns to reload: %1.	Jungle
+xlat Cannot fire again yet. Turns to reload: %1.	Crossroads
+xlat  kills: %1/%2	xyz	Orb of Yendor
+xlat  kills: %1/%2	Mirror Image	Spice
+xlat There are many possible solutions to the Yendor Quest. In the Yendor Challenge, you will try many of them!\n\nEach challenge takes part in a specific land, and you have to use what you have available.\n\nYou need to obtain an Orb of Yendor in the normal game to activate this challenge, and (ever) collect 10 treasures in one or two lands to activate a specific level.\n\nAfter you complete each challenge, you can try it again, on a harder difficulty level.\n\nAll the solutions showcased in the Yendor Challenge work in the normal play too. However, passages to other lands, and (sometimes) some land features are disabled in the Yendor Challenge, so that you have to use the expected method. Also, the generation rules are changed slightly for the Palace and Minefield while you are looking for the Orb of Yendor, to make the challenge more balanced (but these changes are also active during the normal Yendor Quest).\n\nYou get 1000 points for each challenge won, and 1 extra point for each extra difficulty level.	Elemental Planes
+xlat You phase through %the1!	Spice
+xlat You phase through %the1!	Orb of Yendor
+xlat %The1 breathes fire at %the2!	7	Ice Diamond
+xlat %The1 breathes fire at %the2!	Kraken Depths	Yeti
+xlat Polygon number %1 did not close correctly (%2 %3). Here is the picture to help you understand the issue.\n\n	Princess	Fire Fairy	Mirage
+xlat Polygon number %1 did not close correctly (%2 %3). Here is the picture to help you understand the issue.\n\n	Dragon Scale	Wine	Goblin
+xlat %The1 breaks the mirror!	Yeti
+xlat %The1 breaks the mirror!	Ice Diamond
+xlat Wow! %1! This trip should be worth it!	Wine
+xlat Wow! %1! This trip should be worth it!	Fire Fairy
+xlat bestiary of %the1	R'Lyeh
+xlat bestiary of %the1	Rose Lady
+xlat You drop %the1.	Mirage
+xlat You drop %the1.	Goblin
+xlat \n\nActivation cost: %1 charges (reduced to %2 by %the3)\n	Witch Apprentice	xyz	Orb of Yendor
+xlat \n\nActivation cost: %1 charges (reduced to %2 by %the3)\n	Hell	Mirror Image	Spice
+xlat This Orb makes you stunningly beautiful. Monsters which come next to you will be stunned for one turn. Multi-tile monsters are not affected. Additionally, it makes you immune to beauty.	Crossroads
+xlat In the pure tactics mode, you concentrate on a specific land. Your goal to obtain as high score as possible, without using features of the other lands. You can then compare your score with your friends!\n\nYou need to be somewhat proficient in the normal game to unlock the given land in this challenge (collect 20 treasure in the given land, or 2 in case of Camelot).\n\nSince getting high scores in some lands is somewhat luck dependent, you play each land N times, and your score is based on N consecutive plays. The value of N depends on how 'fast' the land is to play, and how random it is.\n\nIn the Caribbean, you can access Orbs of Thorns, Aether, and Space if you have ever collected 25 treasure in their native lands.\n\nThe rate of treasure spawn is static in this mode. It is not increased by killing monsters.\n\nGood luck, and have fun!	Mirror Image
+xlat parameter names, e.g. '%1'	Camelot
+xlat parameter names, e.g. '%1'	Elemental Planes
+xlat %The1 is forbidden in %the2 (disables some achievements)	Orb of Yendor	Princess
+xlat %The1 is forbidden in %the2 (disables some achievements)	Spice	Dragon Scale
+xlat  (%1 more digits)	Kraken Depths
+xlat  (%1 more digits)	7
+xlat HyperRogue %1: online demo	Dragon Scale
+xlat HyperRogue %1: online demo	Princess
+xlat generators (%1,%2), size %3	Ice Diamond	R'Lyeh	Hell
+xlat generators (%1,%2), size %3	Yeti	Rose Lady	Witch Apprentice
+xlat %The1 turned out to be an illusion!	Fire Fairy
+xlat %The1 turned out to be an illusion!	Wine
+xlat Alternatively: kill a %1 in %the2.\n	Rose Lady	Witch Apprentice
+xlat Alternatively: kill a %1 in %the2.\n	R'Lyeh	Hell
+xlat The current value makes the map conformal at the latitude of %1 (%2°).	Goblin	Crossroads
+xlat The current value makes the map conformal at the latitude of %1 (%2°).	Mirage	Jungle
+xlat The camera is currently %1 units above the plane P. This makes you see the floor level as in general perspective projection with parameter %2.	Hell	Mirror Image
+xlat The camera is currently %1 units above the plane P. This makes you see the floor level as in general perspective projection with parameter %2.	Witch Apprentice	xyz
+xlat  (%1 $$$, %2 kills, %3 deaths)	Jungle	Camelot	7
+xlat  (%1 $$$, %2 kills, %3 deaths)	Crossroads	Elemental Planes	Kraken Depths
+xlat Saving full texture to %1...	xyz
+xlat Saving full texture to %1...	Mirror Image
+xlat Collect %1x %2 to unlock	Elemental Planes	Kraken Depths
+xlat Collect %1x %2 to unlock	Camelot	7
+xlat forbidden to find in %the1	Spice
+xlat forbidden to find in %the1	Orb of Yendor
+xlat Date: %1 time: %2 s 	7	Ice Diamond
+xlat Date: %1 time: %2 s 	Kraken Depths	Yeti
+xlat "Our Table seats %1 Knights!"	Princess
+xlat "Our Table seats %1 Knights!"	Dragon Scale
+xlat You shoot %the1!	Yeti
+xlat You shoot %the1!	Ice Diamond
+xlat %The1 is frozen!	Wine
+xlat %The1 is frozen!	Fire Fairy
+xlat %The1 wakes up %the2.	R'Lyeh	Hell
+xlat %The1 wakes up %the2.	Rose Lady	Witch Apprentice
+xlat "Have you tried to take a boat and go into the Ocean? Try it!"	Mirage
+xlat "There are %1 floor tiles inside our Table!"	Witch Apprentice
+xlat "There are %1 floor tiles inside our Table!"	Hell
+xlat You have used less real time than ever before. Congratulations!	Crossroads
+xlat adjacent cells from nonadjacent heptagons: %1	Mirror Image
+xlat adjacent cells from nonadjacent heptagons: %1	xyz
+xlat the native Orb of %the1	Camelot
+xlat the native Orb of %the1	Elemental Planes
+xlat %The1 squeaks with hope!	Orb of Yendor
+xlat %The1 squeaks with hope!	Spice
+xlat Ever wondered how some boardgame would look on the hyperbolic plane? I wondered about Go, so I have created this feature. Now you can try yourself!\nEnter = pick up an item (and score), space = clear an item\nOther keys place orbs and terrain features of various kinds\nIn the periodic editor, press 0-4 to switch walls in different ways\n	Kraken Depths
+xlat You mirror %the1.	Dragon Scale
+xlat You mirror %the1.	Princess
+xlat  tactic: %1	Ice Diamond
+xlat  tactic: %1	Yeti
+xlat You feel that these directions are %1 turns old.	Fire Fairy
+xlat You feel that these directions are %1 turns old.	Wine
+xlat  (E:%1)	Rose Lady
+xlat  (E:%1)	R'Lyeh
+xlat Activated Orb of Safety!	Goblin
+xlat r: %1	Hell
+xlat r: %1	Witch Apprentice
+xlat You have made a Happy Die angry!	Jungle
+xlat %1 the Knight	xyz
+xlat %1 the Knight	Mirror Image
+xlat too dangerous to use in %the1	Elemental Planes
+xlat too dangerous to use in %the1	Camelot
+xlat %The1 kisses you, and begs you to bring %him1 away from here.	Spice
+xlat %The1 kisses you, and begs you to bring %him1 away from here.	Orb of Yendor
+xlat Your score: %1	7
+xlat Your score: %1	Kraken Depths
+xlat %The1 activates her Flash spell!	Princess
+xlat %The1 activates her Flash spell!	Dragon Scale
+xlat You have improved %1 of your specific high scores!	Yeti
+xlat You have improved %1 of your specific high scores!	Ice Diamond
+xlat %The1 eats %the2!	Wine	Goblin
+xlat %The1 eats %the2!	Fire Fairy	Mirage
+xlat The height of walls, in absolute units. For the current values of g and c, wall height of %1 absolute units corresponds to projection value of %2.	R'Lyeh	Hell
+xlat The height of walls, in absolute units. For the current values of g and c, wall height of %1 absolute units corresponds to projection value of %2.	Rose Lady	Witch Apprentice
+xlat %The1 is confused!	Mirage
+xlat %The1 is confused!	Goblin
+xlat %the1 protects your boat!	Witch Apprentice
+xlat %the1 protects your boat!	Hell
+xlat %The1 crashes into %the2!	Crossroads	Elemental Planes
+xlat %The1 crashes into %the2!	Jungle	Camelot
+xlat You vault over %the1!	Mirror Image
+xlat You vault over %the1!	xyz
+xlat You push %the1.	Camelot
+xlat You push %the1.	Elemental Planes
+xlat %1 turns	Orb of Yendor
+xlat %1 turns	Spice
+xlat friends killed: %1	Kraken Depths
+xlat friends killed: %1	7
+xlat Welcome to %the1 Challenge!	Dragon Scale
+xlat Welcome to %the1 Challenge!	Princess
+xlat This guided tour is different than most other game tutorials -- you are not forced to do anything, and you can go wherever you want.\n\nHowever, %the1 is not what we are talking about now. We will not explain this land at the moment, and you could potentially get lost there.\n\nRemember that you can get to the next slide by pressing Enter.	Ice Diamond
+xlat This guided tour is different than most other game tutorials -- you are not forced to do anything, and you can go wherever you want.\n\nHowever, %the1 is not what we are talking about now. We will not explain this land at the moment, and you could potentially get lost there.\n\nRemember that you can get to the next slide by pressing Enter.	Yeti
+xlat Cannot use %the1 here!	Fire Fairy
+xlat Cannot use %the1 here!	Wine
+xlat %The1 disperses the cloud!	Rose Lady
+xlat %The1 disperses the cloud!	R'Lyeh
+xlat A magical shield protects %the1!	Goblin
+xlat A magical shield protects %the1!	Mirage
+xlat Treasure lost!	Hell
+xlat You collect your first %1!	Jungle
+xlat You collect your first %1!	Crossroads
+xlat You are too weakened to attack %the1!	xyz
+xlat You are too weakened to attack %the1!	Mirror Image
+xlat %The1 is destroyed by the Flash.	Elemental Planes
+xlat %The1 is destroyed by the Flash.	Camelot
+xlat You trick %the1.	Spice
+xlat You trick %the1.	Orb of Yendor
+xlat You need to move to give space to %the1!	7
+xlat You need to move to give space to %the1!	Kraken Depths
+xlat Cannot attack %the1 while vaulting!	Princess
+xlat Cannot attack %the1 while vaulting!	Dragon Scale
+xlat \n\nActivation cost: %1 charges\n	Yeti
+xlat \n\nActivation cost: %1 charges\n	Ice Diamond
+xlat Cannot pass through %the1 while vaulting!	Wine
+xlat Cannot pass through %the1 while vaulting!	Fire Fairy
+xlat Using %the1 in %the2 sounds dangerous...	R'Lyeh	Hell
+xlat Using %the1 in %the2 sounds dangerous...	Rose Lady	Witch Apprentice
+xlat Failed to load pictures from %1	Mirage
+xlat Failed to load pictures from %1	Goblin
+xlat "According to Merlin, the Round Table is a perfect Euclidean sphere in %1 dimensions."	Witch Apprentice
+xlat "According to Merlin, the Round Table is a perfect Euclidean sphere in %1 dimensions."	Hell
+xlat You summon a bonfire!	Crossroads
+xlat Failed to load embedding from %1	Mirror Image
+xlat Failed to load embedding from %1	xyz
+xlat To save the game you need an Orb of Safety.\n\nOrbs of Safety appear:\n\n* in the Crossroads and the Land of Eternal Motion, after you collect %1 Phoenix Feathers in the Land of Eternal Motion\n\n* in the Ocean after you unlock it (%2 treasures)\n\n* in the Prairie after you unlock it (%3 treasures)\n\n	Camelot	7	Ice Diamond
+xlat To save the game you need an Orb of Safety.\n\nOrbs of Safety appear:\n\n* in the Crossroads and the Land of Eternal Motion, after you collect %1 Phoenix Feathers in the Land of Eternal Motion\n\n* in the Ocean after you unlock it (%2 treasures)\n\n* in the Prairie after you unlock it (%3 treasures)\n\n	Elemental Planes	Kraken Depths	Yeti
+xlat %The1 is destroyed by the forces of Life!	Orb of Yendor
+xlat %The1 is destroyed by the forces of Life!	Spice
+xlat You kill %the1 with a mental blast!	Kraken Depths
+xlat You kill %the1 with a mental blast!	7
+xlat You may be unable to leave %the1 if you are not careful!\n	Dragon Scale
+xlat You may be unable to leave %the1 if you are not careful!\n	Princess
+xlat Failed to save embedding to %1	Ice Diamond
+xlat Failed to save embedding to %1	Yeti
+xlat This will enable the cheat mode, making this game ineligible for scoring. Are you sure?	Fire Fairy
+xlat %The1 is destroyed by lava!	Rose Lady
+xlat %The1 is destroyed by lava!	R'Lyeh
+xlat With each %1 you collect...	Goblin
+xlat With each %1 you collect...	Mirage
+xlat You destroy %the1.	Hell
+xlat You destroy %the1.	Witch Apprentice
+xlat %The1 tries to dismount you!	Jungle
+xlat %The1 tries to dismount you!	Crossroads
+xlat %The1 fills the hole!	xyz
+xlat %The1 fills the hole!	Mirror Image
+xlat Failed to load mode from %1	Elemental Planes
+xlat Failed to load mode from %1	Camelot
+xlat The ivy kills %the1!	Spice
+xlat The ivy kills %the1!	Orb of Yendor
+xlat %The1 is extinguished!	7
+xlat %The1 is extinguished!	Kraken Depths
+xlat These statues of Cthulhu are too large to carry, and they don't look too valuable anyway. Most monsters will never go through them... they probably have their reasons. But you can go! When you move into the cell containing a statue, you push the statue to the cell you left.\n	Princess
+xlat \n\nCollect %the1 to gain an extra Orb of the Mirror. You can gain further Orbs of the Mirror by collecting 2, 4, 8...	Yeti
+xlat \n\nCollect %the1 to gain an extra Orb of the Mirror. You can gain further Orbs of the Mirror by collecting 2, 4, 8...	Ice Diamond
+xlat monsters destroyed: %1	Wine
+xlat monsters destroyed: %1	Fire Fairy
+xlat %The1 is filled!	R'Lyeh
+xlat %The1 is filled!	Rose Lady
+xlat  kills: %1	Mirage
+xlat  kills: %1	Goblin
+xlat , %1	Witch Apprentice
+xlat , %1	Hell
+xlat %The1 bites %the2!	Crossroads	Elemental Planes
+xlat %The1 bites %the2!	Jungle	Camelot
+xlat remove %1 from the list	Mirror Image
+xlat remove %1 from the list	xyz
+xlat %The1 suffocates!	Camelot
+xlat %The1 suffocates!	Elemental Planes
+xlat Variants of %the1 are available in the Random Pattern Mode after getting a highscore of at least 10 %2.	Orb of Yendor	Princess
+xlat Variants of %the1 are available in the Random Pattern Mode after getting a highscore of at least 10 %2.	Spice	Dragon Scale
+xlat Accessible only from %the1, %2, or %3.\n	Kraken Depths	Yeti	Rose Lady
+xlat Accessible only from %the1, %2, or %3.\n	7	Ice Diamond	R'Lyeh
+xlat  (next at %1 to %2)	Dragon Scale	Wine
+xlat  (next at %1 to %2)	Princess	Fire Fairy
+xlat Strange Challenge #%1	Ice Diamond
+xlat Strange Challenge #%1	Yeti
+xlat You won in %1	Fire Fairy
+xlat You won in %1	Wine
+xlat Collect %1 $$$ to access more worlds	Rose Lady
+xlat Collect %1 $$$ to access more worlds	R'Lyeh
+xlat Treasure required: %1 $$$.\n	Goblin
+xlat Treasure required: %1 $$$.\n	Mirage
+xlat %The1 drowns!	Hell
+xlat %The1 drowns!	Witch Apprentice
+xlat This orb lets you attack adjacent cells %1 steps from the primary target.	Jungle
+xlat This orb lets you attack adjacent cells %1 steps from the primary target.	Crossroads
+xlat y: %1	xyz
+xlat y: %1	Mirror Image
+xlat \n\nEasy %1 might disappear when you collect more of its kind.	Elemental Planes
+xlat \n\nEasy %1 might disappear when you collect more of its kind.	Camelot
+xlat %The1 punches %the2!	Spice	Dragon Scale
+xlat %The1 punches %the2!	Orb of Yendor	Princess
+xlat \n\nLeaves cut directly: %1	7
+xlat \n\nLeaves cut directly: %1	Kraken Depths
+xlat %The1 is consumed!	Princess
+xlat %The1 is consumed!	Dragon Scale
+xlat press a key for '%1'	Yeti
+xlat press a key for '%1'	Ice Diamond
+xlat %The1 destroys your boat!	Wine
+xlat %The1 destroys your boat!	Fire Fairy
+xlat Accessible only from %the1, %2, %3, %4, or %5.\n	R'Lyeh	Hell	Mirror Image	Spice	Dragon Scale
+xlat Accessible only from %the1, %2, %3, %4, or %5.\n	Rose Lady	Witch Apprentice	xyz	Orb of Yendor	Princess
+xlat %The1 burns!	Mirage
+xlat %The1 burns!	Goblin
+xlat Loaded mode from %1	Witch Apprentice
+xlat Loaded mode from %1	Hell
+xlat That would have %1/%2 levels	Crossroads	Elemental Planes
+xlat That would have %1/%2 levels	Jungle	Camelot
+xlat info about: %1	Mirror Image
+xlat info about: %1	xyz
+xlat %The1 is destroyed!	Camelot
+xlat %The1 is destroyed!	Elemental Planes
+xlat "Did you know that the Cultists are relatives of the Desert Men?"	Orb of Yendor
+xlat You start chopping down the tree.	Kraken Depths
+xlat Accessible only from %the1 (until finished).\n	Dragon Scale
+xlat Accessible only from %the1 (until finished).\n	Princess
+xlat native to %the1 (collect 10 %2)	Ice Diamond	R'Lyeh
+xlat native to %the1 (collect 10 %2)	Yeti	Rose Lady
+xlat You summon some Mimics!	Fire Fairy
+xlat You collect %the1.	Rose Lady
+xlat You collect %the1.	R'Lyeh
+xlat Failed to save pictures to %1	Goblin
+xlat Failed to save pictures to %1	Mirage
+xlat %The1 squeaks happily!	Hell
+xlat %The1 squeaks happily!	Witch Apprentice
+xlat \n\nNote: when pushing %the1 off a heptagonal cell, you can control the pushing direction by clicking left or right half of the heptagon.	Jungle
+xlat \n\nNote: when pushing %the1 off a heptagonal cell, you can control the pushing direction by clicking left or right half of the heptagon.	Crossroads
+xlat Collect at least %1 treasures in each of %2 types to access Hell	xyz	Orb of Yendor
+xlat Collect at least %1 treasures in each of %2 types to access Hell	Mirror Image	Spice
+xlat Enemies killed: %1 (%2 types)	Elemental Planes	Kraken Depths
+xlat Enemies killed: %1 (%2 types)	Camelot	7
+xlat You switch places with %the1.	Spice
+xlat You switch places with %the1.	Orb of Yendor
+xlat kill a monster, or collect 25 %2	7	Ice Diamond
+xlat kill a monster, or collect 25 %2	Kraken Depths	Yeti
+xlat Don't be fooled by this red-haired boy, or you will be stabbed if you come too close!	Princess
+xlat Accessible only from %the1, %2, %3, or %4.\n	Yeti	Rose Lady	Witch Apprentice	xyz
+xlat Accessible only from %the1, %2, %3, or %4.\n	Ice Diamond	R'Lyeh	Hell	Mirror Image
+xlat You have enough treasure now to revive %the1!	Wine
+xlat You have enough treasure now to revive %the1!	Fire Fairy
+xlat %The1 destroys %the2!	R'Lyeh	Hell
+xlat %The1 destroys %the2!	Rose Lady	Witch Apprentice
+xlat Better find some other place.	Mirage
+xlat Euclidean version of %the1. 	Witch Apprentice
+xlat Euclidean version of %the1. 	Hell
+xlat You have collected 10 treasures of each type.	Crossroads
+xlat Cannot jump onto %the1!	Mirror Image
+xlat Cannot jump onto %the1!	xyz
+xlat Your Aether powers are drained by %the1!	Camelot
+xlat Your Aether powers are drained by %the1!	Elemental Planes
+xlat You construct some Elemental Gems!	Orb of Yendor
+xlat recorded mode %1	Kraken Depths
+xlat recorded mode %1	7
+xlat too difficult: %1	Dragon Scale
+xlat too difficult: %1	Princess
+xlat Different kills required: %1.\n	Ice Diamond
+xlat Different kills required: %1.\n	Yeti
+xlat You hit %the1.	Fire Fairy
+xlat You hit %the1.	Wine
+xlat %The1 drains your powers!	Rose Lady
+xlat %The1 drains your powers!	R'Lyeh
+xlat or ESC to see how it ended	Goblin
+xlat You push %the1 behind you!	Hell
+xlat You push %the1 behind you!	Witch Apprentice
+xlat Map saved to %1	Jungle
+xlat Map saved to %1	Crossroads
+xlat "Each piece of the Round Table is exactly %1 steps away from the Holy Grail."	xyz
+xlat "Each piece of the Round Table is exactly %1 steps away from the Holy Grail."	Mirror Image
+xlat useless in %the1	Elemental Planes
+xlat useless in %the1	Camelot
+xlat Defeat %1 enemies to access the Graveyard	Spice
+xlat Defeat %1 enemies to access the Graveyard	Orb of Yendor
+xlat You chop down %the1.	7
+xlat You chop down %the1.	Kraken Depths
+xlat Cannot switch places with %the1!	Princess
+xlat Cannot switch places with %the1!	Dragon Scale
+xlat %the1: PTM multiplier	Yeti
+xlat %the1: PTM multiplier	Ice Diamond
+xlat Failed to load map from %1	Wine
+xlat Failed to load map from %1	Fire Fairy
+xlat %The1 squeaks in despair.	R'Lyeh
+xlat %The1 squeaks in despair.	Rose Lady
+xlat Orbs summoned!	Mirage
+xlat %The1 cannot be used on big monsters.	Witch Apprentice
+xlat %The1 cannot be used on big monsters.	Hell
+xlat Hardness frozen at %1.	Crossroads
+xlat Hardness frozen at %1.	Jungle
+xlat %The1 shoots you!	Mirror Image
+xlat %The1 shoots you!	xyz
+xlat The ratio of Rock III to walls is %1, so Rock III are %2 absolute units high. Length of paths on the Rock III level is %3 of the corresponding length on the ground level.	Camelot	7	Ice Diamond
+xlat The ratio of Rock III to walls is %1, so Rock III are %2 absolute units high. Length of paths on the Rock III level is %3 of the corresponding length on the ground level.	Elemental Planes	Kraken Depths	Yeti
+xlat You have improved both your real time and knife count. Congratulations!	Orb of Yendor
+xlat You command %the1!	Kraken Depths
+xlat You command %the1!	7
+xlat Finished the race! Time: %1, place: %2 out of %3	Dragon Scale	Wine	Goblin
+xlat Finished the race! Time: %1, place: %2 out of %3	Princess	Fire Fairy	Mirage
+xlat Cannot vault onto %the1!	Ice Diamond
+xlat Cannot vault onto %the1!	Yeti
+xlat Kills gained!	Fire Fairy
+xlat objects found: %1	Rose Lady
+xlat objects found: %1	R'Lyeh
+xlat You polymorph %the1 into %the2!	Goblin	Crossroads
+xlat You polymorph %the1 into %the2!	Mirage	Jungle
+xlat Save the config to always use %1.	Hell
+xlat Save the config to always use %1.	Witch Apprentice
+xlat Kills required: %1.\n	Jungle
+xlat Kills required: %1.\n	Crossroads
+xlat  Yendor: %1	xyz
+xlat  Yendor: %1	Mirror Image
+xlat %The1 moves his finger downwards.	Elemental Planes
+xlat %The1 moves his finger downwards.	Camelot
+xlat  (fire mode on / turns to reload: %1)	Spice
+xlat  (fire mode on / turns to reload: %1)	Orb of Yendor
+xlat %The1 is crushed!	7
+xlat %The1 is crushed!	Kraken Depths
+xlat These huge monsters normally live below the sand, but your movements have disturbed them. They are too big to be slain with your weapons, but you can defeat them by making them unable to move. This also produces some Spice. They move two times slower than you.	Princess
+xlat rules: %1	Yeti
+xlat rules: %1	Ice Diamond
+xlat Pauses: %1 of %2 allowed	Wine	Goblin
+xlat Pauses: %1 of %2 allowed	Fire Fairy	Mirage
+xlat At first, you are shocked by the agility of this frog. Such a large creature should not be able to jump that quickly!\n\nThen, you notice the green glow around its legs. This frog must be magical... it has sacrificed its swimming abilities for superfrog jumping powers.	R'Lyeh
+xlat These fields are ravaged with many kinds of magical radiation, which not only make the ground glow nicely in various colors, but also cause the inhabitants to protect the treasures of their land in various ways. In some areas of the Irradiated Fields, you will meet powerful enemies; in other areas, you will find arrow traps, fire traps, or pools, which can kill you if you are careless, or help you if you know how to use them to your advantage. Will you walk through the Irradiated Fields randomly, or try to find areas where treasures are common but nasty monsters are not, and keep to them? It is your choice!\n\n	Mirage
+xlat Your power is drained by %the1!	Witch Apprentice
+xlat Your power is drained by %the1!	Hell
+xlat You cannot attack %the1 directly!	Crossroads
+xlat You cannot attack %the1 directly!	Jungle
+xlat \n\nOrb charges gained on pickup: %1 (increased to %2 by %the3)	Mirror Image	Spice	Dragon Scale
+xlat \n\nOrb charges gained on pickup: %1 (increased to %2 by %the3)	xyz	Orb of Yendor	Princess
+xlat You are killed by %the1!	Camelot
+xlat You are killed by %the1!	Elemental Planes
+xlat %The1 scares %the2!	Orb of Yendor	Princess
+xlat %The1 scares %the2!	Spice	Dragon Scale
+xlat Disable if you are photosensitive. Replaces flashing effects such as Orb of Storms lightning with slow, adjustable animations.	Kraken Depths
+xlat "By now, you should have your own formula, you know?"	Dragon Scale
+xlat Aww, poor %1... where is your family?	Ice Diamond
+xlat Aww, poor %1... where is your family?	Yeti
+xlat %The1 squeaks excitedly!	Fire Fairy
+xlat %The1 squeaks excitedly!	Wine
+xlat Variants of %the1 are always available in the Random Pattern Mode.	Rose Lady
+xlat Variants of %the1 are always available in the Random Pattern Mode.	R'Lyeh
+xlat This will end your current game and start a new one. Are you sure?	Goblin
+xlat You collect %the1. (%2)	Hell	Mirror Image
+xlat You collect %the1. (%2)	Witch Apprentice	xyz
+xlat Welcome to the Yendor Challenge %1!	Jungle
+xlat Welcome to the Yendor Challenge %1!	Crossroads
+xlat You are playing %the1 in the Pure Tactics mode.	xyz
+xlat You are playing %the1 in the Pure Tactics mode.	Mirror Image
+xlat %The1 shows you a finger.	Elemental Planes
+xlat %The1 shows you a finger.	Camelot
+xlat special thanks to the following people for their bug reports, feature requests, porting, and other help:\n\n%1\n\n	Spice
+xlat special thanks to the following people for their bug reports, feature requests, porting, and other help:\n\n%1\n\n	Orb of Yendor
+xlat %1 knives (%2)	7	Ice Diamond
+xlat %1 knives (%2)	Kraken Depths	Yeti
+xlat You have improved your '%1' high score on Google!	Princess
+xlat You have improved your '%1' high score on Google!	Dragon Scale
+xlat Uses to gain: %1	Yeti
+xlat Uses to gain: %1	Ice Diamond
+xlat Failed to save map to %1	Wine
+xlat Failed to save map to %1	Fire Fairy
+xlat Alternative rule when %the1 is not in the game:\n	R'Lyeh
+xlat Alternative rule when %the1 is not in the game:\n	Rose Lady
+xlat The current value makes the map conformal %1 units from the main line.	Mirage
+xlat The current value makes the map conformal %1 units from the main line.	Goblin
+xlat When you have this, initial and maximal charge amounts of all Orbs are increased by 20%.	Witch Apprentice
+xlat HyperRogue %1	Crossroads
+xlat HyperRogue %1	Jungle
+xlat You fall into a wormhole!	Mirror Image
+xlat animals killed: %1	Camelot
+xlat animals killed: %1	Elemental Planes
+xlat Press %1 again to go back to your game.	Orb of Yendor
+xlat Press %1 again to go back to your game.	Spice
+xlat You would be killed by %the1!	Kraken Depths
+xlat You would be killed by %the1!	7
+xlat You activate %the1.	Dragon Scale
+xlat You activate %the1.	Princess
+xlat Dropped floors: %1/%2	Ice Diamond	R'Lyeh
+xlat Dropped floors: %1/%2	Yeti	Rose Lady
+xlat %The1 hits %the2.	Fire Fairy	Mirage
+xlat %The1 hits %the2.	Wine	Goblin
+xlat Don't be fooled by this red-haired girl, or you will be stabbed if you come too close!	Rose Lady
+xlat "That felt great. Thanks!"	Goblin
+xlat Accessible only from %the1.\n	Hell
+xlat Accessible only from %the1.\n	Witch Apprentice
+xlat Congratulations! Your score is %1.	Jungle
+xlat Congratulations! Your score is %1.	Crossroads
+xlat Skeletons work similar to Palace Guards, but they won't die no matter how many times you hit them. Well, you have to be more creative...\n\nSkeletons attacked outside of their native land, Palace, are stunned for a longer time.	xyz
+xlat Note: cannot fire again yet. Turns to reload: %1.	Elemental Planes
+xlat Note: cannot fire again yet. Turns to reload: %1.	Camelot
+xlat You feel more experienced in demon fighting!	Spice
+xlat  saves: %1 loads: %2 branching: %3	7	Ice Diamond	R'Lyeh
+xlat  saves: %1 loads: %2 branching: %3	Kraken Depths	Yeti	Rose Lady
+xlat Your mundane weapon cannot hurt %the1!	Princess
+xlat Your mundane weapon cannot hurt %the1!	Dragon Scale
+xlat %The1 falls!	Yeti
+xlat %The1 falls!	Ice Diamond
+xlat %The1 throws fire at you!	Wine
+xlat %The1 throws fire at you!	Fire Fairy
+xlat order %1%2 (non-bitruncated cells: %3)	R'Lyeh	Hell	Mirror Image
+xlat order %1%2 (non-bitruncated cells: %3)	Rose Lady	Witch Apprentice	xyz
+xlat %The1 is immune to mental blasts!	Mirage
+xlat %The1 is immune to mental blasts!	Goblin
+xlat "I would love to come to your world with you!"	Witch Apprentice
+xlat %The1 squeaks in a confused way.	Crossroads
+xlat %The1 squeaks in a confused way.	Jungle
+xlat You punch %the1.	Mirror Image
+xlat You punch %the1.	xyz
+xlat You have found the Key! Now unlock this Orb of Yendor!	Camelot
+xlat bug: %1	Orb of Yendor
+xlat bug: %1	Spice
+xlat Enemies killed: %1	Kraken Depths
+xlat Enemies killed: %1	7
+xlat best if %1 is divisible by %2	Dragon Scale	Wine
+xlat best if %1 is divisible by %2	Princess	Fire Fairy
+xlat %The1 fights with %the2!	Ice Diamond	R'Lyeh
+xlat %The1 fights with %the2!	Yeti	Rose Lady
+xlat \n\nOrb unlocked: %1	Fire Fairy
+xlat \n\nOrb unlocked: %1	Wine
+xlat You have improved your total high score on Google. Congratulations!	Rose Lady
+xlat You join %the1.	Goblin
+xlat You join %the1.	Mirage
+xlat Map loaded from %1	Hell
+xlat Map loaded from %1	Witch Apprentice
+xlat %The1 will be revivable at %2 $$$	Jungle	Camelot
+xlat %The1 will be revivable at %2 $$$	Crossroads	Elemental Planes
+xlat %1 takes %his1 revenge on %the2!	xyz	Orb of Yendor
+xlat %1 takes %his1 revenge on %the2!	Mirror Image	Spice
+xlat You damage %the1 with a mental blast!	Elemental Planes
+xlat You damage %the1 with a mental blast!	Camelot
+xlat only native Orbs allowed in %the1	Spice
+xlat only native Orbs allowed in %the1	Orb of Yendor
+xlat kills: %1	7
+xlat kills: %1	Kraken Depths
+xlat You have been trapped in a strange, non-Euclidean world. Collect as much treasure as possible before being caught by monsters. The more treasure you collect, the more monsters come to hunt you, as long as you are in the same land type. The Orbs of Yendor are the ultimate treasure; get at least one of them to win the game!	Princess
+xlat Screenshot saved to %1	Yeti
+xlat Screenshot saved to %1	Ice Diamond
+xlat You are %1 cells away from the starting point, or the place where you used an Orb of Safety last time. There are %2 such cells.\n	Wine	Goblin
+xlat You are %1 cells away from the starting point, or the place where you used an Orb of Safety last time. There are %2 such cells.\n	Fire Fairy	Mirage
+xlat l = color group: %1	R'Lyeh
+xlat l = color group: %1	Rose Lady
+xlat Teleported to %1!	Mirage
+xlat Teleported to %1!	Goblin
+xlat These can be combined, e.g. %1	Witch Apprentice
+xlat These can be combined, e.g. %1	Hell
+xlat %The1 is immune to %the2!	Crossroads	Elemental Planes
+xlat %The1 is immune to %the2!	Jungle	Camelot
+xlat You need to stand next to a magic mirror or cloud to use %the1.	Mirror Image
+xlat You need to stand next to a magic mirror or cloud to use %the1.	xyz
+xlat Hyperstone Quest: collect at least %3 %1 in %the2	Camelot	7	Ice Diamond
+xlat Hyperstone Quest: collect at least %3 %1 in %the2	Elemental Planes	Kraken Depths	Yeti
+xlat If you want to know how much the gameplay is affected by the hyperbolic geometry in HyperRogue, this mode is for you!\n\nYou can try many different geometries here. We start by gluing n-gons in such a way that k of them meet in every vertex. Depending on n and k, this either folds into a sphere, unfolds into a plane, or requires a hyperbolic space. The result may be then 'bitruncated' by replacing each vertex by a 2k-gon. Furthermore, you can play with quotient geometries. For example, the elliptic geometry is obtained from the sphere by making the antipodes be the same point, so you return to the same spot (but as a mirror image) after going there. Have fun experimenting! Achievements and leaderboards do not work in geometry experiments, except some specific ones.\n\nIn standard geometry (bitruncated or not), you can play the full game, but in other geometries you select a particular land. Lands are unlocked by visiting them in this session, or permanently by collecting 25 treasure. Try Crossroads in Euclidean or chaos mode in non-standard non-quotient hyperbolic to visit many lands. Highlights:\n* Crystal World and Warped Coast can be understood as extra geometries.\n* Halloween is specially designed for spherical geometry.\n* To see the difference, try Hunting Grounds in Euclidean -- it is impossible.\n	Orb of Yendor
+xlat Hyperstone Quest: collect at least %3 points in %the2	Kraken Depths	Yeti	Rose Lady
+xlat Hyperstone Quest: collect at least %3 points in %the2	7	Ice Diamond	R'Lyeh
+xlat Collect %1 $$$ to access even more lands	Dragon Scale
+xlat Collect %1 $$$ to access even more lands	Princess
+xlat \n\nIn the Orb Strategy Mode, the effect is increased to +100%.	Ice Diamond
+xlat too many edges: %1	Fire Fairy
+xlat too many edges: %1	Wine
+xlat Functions available: %1	Rose Lady
+xlat Functions available: %1	R'Lyeh
+xlat %The1 is protected from this kind of magic!	Goblin
+xlat %The1 is protected from this kind of magic!	Mirage
+xlat probability of a wall (%)	Hell
+xlat  (shadow in %1)	Jungle
+xlat  (shadow in %1)	Crossroads
+xlat monsters killed: %1	xyz
+xlat monsters killed: %1	Mirror Image
+xlat You pierce %the1.	Elemental Planes
+xlat You pierce %the1.	Camelot
+xlat collect 3 %2 to unlock it in %the1	Spice	Dragon Scale
+xlat collect 3 %2 to unlock it in %the1	Orb of Yendor	Princess
+xlat collect 25 %2 to unlock it in %the1	7	Ice Diamond
+xlat collect 25 %2 to unlock it in %the1	Kraken Depths	Yeti
+xlat secondary in %the1 (collect 10 %3, or 25 %2)	Princess	Fire Fairy	Mirage
+xlat secondary in %the1 (collect 10 %3, or 25 %2)	Dragon Scale	Wine	Goblin
+xlat Follow the Mouse and escape with %the1!	Yeti
+xlat Follow the Mouse and escape with %the1!	Ice Diamond
+xlat Did you know that it is possible to break a magical sphere into finitely many parts, and then, out of the parts obtained, to make two magical spheres, just like the original? Hyperbolic geometry makes this even easier!\n\nWhen you pick up another Orb, it will not disappear from the ground -- Orb of Choice will be drained instead.	Wine
+xlat You rejoin %the1.	R'Lyeh
+xlat You rejoin %the1.	Rose Lady
+xlat z: %1	Mirage
+xlat z: %1	Goblin
+xlat %The1 attacks your shell!	Witch Apprentice
+xlat %The1 attacks your shell!	Hell
+xlat %The1 is washed away!	Crossroads
+xlat %The1 is washed away!	Jungle
+xlat %The1 pierces %the2!	Mirror Image	Spice
+xlat %The1 pierces %the2!	xyz	Orb of Yendor
+xlat Congratulations! You have found the Holy Grail!	Camelot
+xlat Failed to save mode to %1	Orb of Yendor
+xlat Failed to save mode to %1	Spice
+xlat , %1 the Knight	Kraken Depths
+xlat , %1 the Knight	7
+xlat Cannot phase to %the1!	Dragon Scale
+xlat Cannot phase to %the1!	Princess
+xlat You stab %the1.	Ice Diamond
+xlat You stab %the1.	Yeti
+xlat "Have you visited a temple in R'Lyeh?"	Fire Fairy
+xlat %1 vertices	Rose Lady
+xlat %1 vertices	R'Lyeh
+xlat Cannot phase onto %the1!	Goblin
+xlat Cannot phase onto %the1!	Mirage
+xlat  (used %1 times)	Hell
+xlat  (used %1 times)	Witch Apprentice
+xlat In the Shoot'em Up mode, you are armed with thrown Knives.	Jungle
+xlat Makes you leave a trail of shallow water. You also become afraid of water. You are unable to step into water, including shallow water and boats on water. On the good side, you are protected from fire.	xyz
+xlat Dead orbs gained!	Elemental Planes
+xlat already played	Spice
+xlat Cannot drop %the1 here!	7
+xlat Cannot drop %the1 here!	Kraken Depths
+xlat You summon %the1!	Princess
+xlat You summon %the1!	Dragon Scale
+xlat order %1%2 (%3 %4s)	Yeti	Rose Lady	Witch Apprentice	xyz
+xlat order %1%2 (%3 %4s)	Ice Diamond	R'Lyeh	Hell	Mirror Image
+xlat Treasure gained!	Wine
+xlat %The1 squeaks hopelessly.	R'Lyeh
+xlat %The1 squeaks hopelessly.	Rose Lady
+xlat  Hyperstone: %1/%2	Mirage	Jungle
+xlat  Hyperstone: %1/%2	Goblin	Crossroads
+xlat unfortunately this honeycomb is too complex for the current implementation (%1>%2)	Witch Apprentice	xyz
+xlat unfortunately this honeycomb is too complex for the current implementation (%1>%2)	Hell	Mirror Image
+xlat Are you sure you want to step there?	Crossroads
+xlat Lots of treasure gained!	Mirror Image
+xlat So, you have killed a Ratling on the unwarped sea? You will be punished for this! Luckily, if you run away from the Warped Sea quickly, the Ratling Avengers will lose track of you.	Camelot
+xlat You have improved your total high score and %1 specific high scores!	Orb of Yendor
+xlat You have improved your total high score and %1 specific high scores!	Spice
+xlat The Knights of the Round Table are the greatest warriors of these lands. They are not very inventive with names though, as they call each of their castles Camelot. You are probably worthy of joining them, but they will surely give you some quest to prove yourself...\n\nEach castle contains a single treasure, the Holy Grail, in the center. The radius of the Round Table is usually 28, but after you find a Holy Grail successfully, each new castle (and each Round Table) you find will be bigger.	Kraken Depths
+xlat The ivy attacks %the1!	Dragon Scale
+xlat The ivy attacks %the1!	Princess
+xlat Drawing %1 (layer %2), F1 for help	Ice Diamond	R'Lyeh
+xlat Drawing %1 (layer %2), F1 for help	Yeti	Rose Lady
+xlat  %1	Fire Fairy
+xlat  %1	Wine
+xlat This Orb lets you ride Dragons and other worm-like creatures. Simply move onto such a creature to ride them; while riding, you are protected from dangerous terrains and partially from attacks (they cause you to lose half of your Domination power), but you cannot collect items.\n\nWhile riding, click on a location to order your mount to move or attack there.	Rose Lady
+xlat  (%1 pkills)	Goblin
+xlat  (%1 pkills)	Mirage
+xlat Alternatively: kill a %1.\n	Hell
+xlat Alternatively: kill a %1.\n	Witch Apprentice
+xlat The slime reacts with %the1!	Jungle
+xlat The slime reacts with %the1!	Crossroads
+xlat This is the biggest Hypersian Rug you have ever seen! Unfortunately, it is too large to take it as a trophy.	xyz
+xlat Orb of Yendor gained!	Elemental Planes
+xlat %1 Challenge	Spice
+xlat %1 Challenge	Orb of Yendor
+xlat You summon an Ivy!	7
+xlat rules generated successfully: %1 states using %2-%3 cells	Princess	Fire Fairy	Mirage
+xlat rules generated successfully: %1 states using %2-%3 cells	Dragon Scale	Wine	Goblin
+xlat %The1 is mostly useless in %the2...	Yeti	Rose Lady
+xlat %The1 is mostly useless in %the2...	Ice Diamond	R'Lyeh
+xlat w: %1	Wine
+xlat w: %1	Fire Fairy
+xlat Roughly 42% cells are on the edge of your sight range. Reducing the sight range makes HyperRogue work faster, but also makes the game effectively harder.	R'Lyeh
+xlat Failed to load %1	Mirage
+xlat Failed to load %1	Goblin
+xlat You overhear miners talking about a castle...	Witch Apprentice
+xlat You summon a sandworm!	Crossroads
+xlat  (%1 self)	Mirror Image
+xlat  (%1 self)	xyz
+xlat Cannot jump through %the1!	Camelot
+xlat Cannot jump through %the1!	Elemental Planes
+xlat  (edges too short: %1)	Orb of Yendor
+xlat  (edges too short: %1)	Spice
+xlat \n\nThis Orb protects you from attacks, scents, and insulates you from electricity. It does not let you go through deadly terrain, but if you are attacked with fire, it lets you stay in place in it.	Kraken Depths
+xlat You need to dismount %the1!	Dragon Scale
+xlat You need to dismount %the1!	Princess
+xlat cells badly paired: %1	Ice Diamond
+xlat cells badly paired: %1	Yeti
+xlat  (level %1)	Fire Fairy
+xlat  (level %1)	Wine
+xlat unused modes: %1	Rose Lady
+xlat unused modes: %1	R'Lyeh
+xlat Your %1 activates!	Goblin
+xlat Your %1 activates!	Mirage
+xlat this Orb never appears in %the1	Hell
+xlat this Orb never appears in %the1	Witch Apprentice
+xlat Camera is placed %1 absolute units above a plane P in a three-dimensional world. Ground level is actually an equidistant surface, %2 absolute units below the plane P. The plane P (as well as the ground level or any other equidistant surface below it) is viewed at an angle of %3 (the tangent of the angle between the point in the center of your vision and a faraway location is 1/cosh(c) = %4).	Jungle	Camelot	7	Ice Diamond
+xlat Camera is placed %1 absolute units above a plane P in a three-dimensional world. Ground level is actually an equidistant surface, %2 absolute units below the plane P. The plane P (as well as the ground level or any other equidistant surface below it) is viewed at an angle of %3 (the tangent of the angle between the point in the center of your vision and a faraway location is 1/cosh(c) = %4).	Crossroads	Elemental Planes	Kraken Depths	Yeti
+xlat This land is a quick gateway to other lands. It is very easy to find other lands from the Crossroads. Which means that you find monsters from most other lands here!\n\nAs long as you have found enough treasure in their native lands, you can find magical items in the Crossroads. Mirror Land brings mirrors and clouds, and other land types bring magical orbs.\n\nA special treasure, Hyperstone, can be found on the Crossroads, but only after you have found 10 of every other treasure.	xyz
+xlat Pictures saved to %1	Elemental Planes
+xlat Pictures saved to %1	Camelot
+xlat Nowhere to blow %the1!	Spice
+xlat Nowhere to blow %the1!	Orb of Yendor
+xlat Joystick %1, axis %2	7	Ice Diamond
+xlat Joystick %1, axis %2	Kraken Depths	Yeti
+xlat ϕ: %1°	Princess
+xlat ϕ: %1°	Dragon Scale
+xlat Preparing the line (%1/1000)...	Yeti
+xlat Preparing the line (%1/1000)...	Ice Diamond
+xlat Objects with Z coordinate smaller than this parameter are not shown; it also affects the fog effect (near clipping plane = 0% fog, far clipping plane = 100% fog).	Wine
+xlat converted successfully -- %1 cell types	R'Lyeh
+xlat converted successfully -- %1 cell types	Rose Lady
+xlat "I wouldn't say killing that guard was not pleasant..."	Mirage
+xlat %The1 is already stunned!	Witch Apprentice
+xlat %The1 is already stunned!	Hell
+xlat %The1 says, "I die, but my clan in Trollheim will avenge me!"	Crossroads
+xlat %The1 says, "I die, but my clan in Trollheim will avenge me!"	Jungle
+xlat parts destroyed: %1	Mirror Image
+xlat parts destroyed: %1	xyz
+xlat ! (version %1)\n\n	Camelot
+xlat ! (version %1)\n\n	Elemental Planes
+xlat This will exit HyperRogue without saving your current game. Are you sure?	Orb of Yendor
+xlat bad cells: %1	Kraken Depths
+xlat bad cells: %1	7
+xlat You have found %the1!	Dragon Scale
+xlat You have found %the1!	Princess
+xlat You have used less turns than ever before. Congratulations!	Ice Diamond
+xlat The roses smell nicely, but you are just too tired to care.	Fire Fairy
+xlat You activate the Lightning spell!	Rose Lady
+xlat You swing your sword at %the1.	Goblin
+xlat You swing your sword at %the1.	Mirage
+xlat You will now start your games in %1	Hell
+xlat You will now start your games in %1	Witch Apprentice
+xlat The faster you get here, the better you are!	Jungle
+xlat Accessible only from %the1 or %the2.\n	xyz	Orb of Yendor
+xlat Accessible only from %the1 or %the2.\n	Mirror Image	Spice
+xlat Cannot vault to %the1!	Elemental Planes
+xlat Cannot vault to %the1!	Camelot
+xlat %The1 throws fire at %the2!	Spice	Dragon Scale
+xlat %The1 throws fire at %the2!	Orb of Yendor	Princess
+xlat You blow %the1 closer!	7
+xlat You blow %the1 closer!	Kraken Depths
+xlat treasure rate in %the1	Princess
+xlat treasure rate in %the1	Dragon Scale
+xlat You summon a golem!	Yeti
+xlat You have improved your total and '%1' high score!	Wine
+xlat You have improved your total and '%1' high score!	Fire Fairy
+xlat %1 period	R'Lyeh
+xlat %1 period	Rose Lady
+xlat You cannot attack %the1!	Mirage
+xlat You cannot attack %the1!	Goblin
+xlat treasure collected: %1	Witch Apprentice
+xlat treasure collected: %1	Hell
+xlat  Hell: %1/%2	Crossroads	Elemental Planes
+xlat  Hell: %1/%2	Jungle	Camelot
+xlat %The1 is killed by lava!	Mirror Image
+xlat %The1 is killed by lava!	xyz
+xlat You summon some Thumpers!	Camelot
+xlat You gain a protective Shell!	Orb of Yendor
+xlat %The1 is killed by thorns!	Kraken Depths
+xlat %The1 is killed by thorns!	7
+xlat %The1 would kill you there!	Dragon Scale
+xlat %The1 would kill you there!	Princess
+xlat Ground level is actually an equidistant surface, %1 absolute units below the plane P. Theoretically, this value affects the world -- for example, eagles could fly %2 times faster by flying above the ground level, on the plane P -- but the actual game mechanics are not affected. 	Ice Diamond	R'Lyeh
+xlat Ground level is actually an equidistant surface, %1 absolute units below the plane P. Theoretically, this value affects the world -- for example, eagles could fly %2 times faster by flying above the ground level, on the plane P -- but the actual game mechanics are not affected. 	Yeti	Rose Lady
+xlat You summon a monster!	Fire Fairy
+xlat Pictures loaded from %1	Rose Lady
+xlat Pictures loaded from %1	R'Lyeh
+xlat Kills required: %1 (%2).\n	Goblin	Crossroads
+xlat Kills required: %1 (%2).\n	Mirage	Jungle
+xlat Saved the high quality shot to %1	Hell
+xlat Saved the high quality shot to %1	Witch Apprentice
+xlat To access Hell, collect %1 treasures each of %2 kinds...	Jungle	Camelot
+xlat To access Hell, collect %1 treasures each of %2 kinds...	Crossroads	Elemental Planes
+xlat Cannot jump on %the1!	xyz
+xlat Cannot jump on %the1!	Mirror Image
+xlat \n\nAfter the Trolls leave, you have 750 turns to collect %the1, or it gets stolen.	Elemental Planes
+xlat \n\nAfter the Trolls leave, you have 750 turns to collect %the1, or it gets stolen.	Camelot
+xlat You have improved both your real time and turn count. Congratulations!	Spice
+xlat You slash %the1.	7
+xlat You slash %the1.	Kraken Depths
+xlat  (next at %1)	Princess
+xlat  (next at %1)	Dragon Scale
+# the player's codes with a female character
+ini single.charid=1
+loadconfig
+xlat Finished the race in time %1!	Camelot
+xlat You have made a die unhappy. Taste the revenge! This one won't forgive you, no matter what you do.	Orb of Yendor
+xlat Orb power gained!	Kraken Depths
+xlat You chop down the tree.	Dragon Scale
+xlat You feel even more attuned to the magic of this land!	xyz
+xlat You overheard Hedgehog Warriors talking about emeralds...	Mirage
+xlat You activate the Flash spell!	Crossroads
+xlat  You need to go deep to collect lots of them.	Kraken Depths
+xlat You have improved your total high score on Steam. Congratulations!	Dragon Scale
+xlat You destroy %the1 with a mental blast!	Spice
+xlat A tourist from another world. They mutter something about the 'tutorial', and claim that they are here just to learn, and to leave without any treasures. Do not kill them!	7
+xlat You stun %the1!	R'Lyeh
+xlat You stun %the1.	Mirage
+xlat You need special glasses to view the game in 3D	Mirror Image
+xlat Now, go to the Burial Grounds and find an Orb of the Sword. The Sword appears to always be facing in the same direction whatever you do, and it appears that you have to rotate the sword to excavate the treasures; yet, it is possible to excavate them! You might have already noticed that the world rotates after you move around a loop and return to an old place.\n\nThis is related to the fact that the world of HyperRogue is curved, and the sum of angles in a triangle is not equal to 180 degrees.	Ice Diamond
+xlat You blow %the1 away!	Hell
+xlat The die is now happy, and you are rewarded!	7
+xlat You are recalled!	Princess
+xlat You activate your terraforming powers!	R'Lyeh
+xlat A mouse squeaks at you. It seems that it wants you to go somewhere. That's interesting, what could you find here?\n\nNote: in the part of the Palace that you are exploring during this quest, the distribution of monsters, pressure plates, and items has been changed somewhat, to make it a bit more suitable for less experienced players. The number of monsters does not depend on the number of Hypersian Rugs you have collected, and there are more opening plates.\n\nHowever, even with the normal distribution, it appears that it should be always possible to reach your goal. If you want this challenge, select it from the special game modes menu.	Mirage
+xlat You feel attuned to gravity, ready to face mountains and dungeons.	Crossroads
+xlat You need to find the right Key to unlock this Orb of Yendor!	Ice Diamond
+xlat You are too fatigued!	Hell
+xlat Are you sure you want to hit %the1?	Jungle
+xlat You leave %the1.	7
+xlat left-handed	R'Lyeh
+xlat You kill %the1.	Mirage
+xlat You have improved your '%1' high score on Steam!	Orb of Yendor
+xlat Are you sure?	Ice Diamond
+xlat This being radiates an aura of wisdom. It is made of a beautiful crystal, you would love to take it home. But how is it going to defend itself? Better not to think of it, thinking causes your brain to go hot...\n\nCrystal Sages melt at -30 °C, and they can raise the temperature around you from afar.	Jungle
+xlat You become a bit nervous...	Wine
+xlat There are many possible solutions to the Yendor Quest. In the Yendor Challenge, you will try many of them!\n\nEach challenge takes part in a specific land, and you have to use what you have available.\n\nYou need to obtain an Orb of Yendor in the normal game to activate this challenge, and (ever) collect 10 treasures in one or two lands to activate a specific level.\n\nAfter you complete each challenge, you can try it again, on a harder difficulty level.\n\nAll the solutions showcased in the Yendor Challenge work in the normal play too. However, passages to other lands, and (sometimes) some land features are disabled in the Yendor Challenge, so that you have to use the expected method. Also, the generation rules are changed slightly for the Palace and Minefield while you are looking for the Orb of Yendor, to make the challenge more balanced (but these changes are also active during the normal Yendor Quest).\n\nYou get 1000 points for each challenge won, and 1 extra point for each extra difficulty level.	Elemental Planes
+xlat You drop %the1.	Mirage
+xlat This Orb makes you stunningly beautiful. Monsters which come next to you will be stunned for one turn. Multi-tile monsters are not affected. Additionally, it makes you immune to beauty.	Crossroads
+xlat In the pure tactics mode, you concentrate on a specific land. Your goal to obtain as high score as possible, without using features of the other lands. You can then compare your score with your friends!\n\nYou need to be somewhat proficient in the normal game to unlock the given land in this challenge (collect 20 treasure in the given land, or 2 in case of Camelot).\n\nSince getting high scores in some lands is somewhat luck dependent, you play each land N times, and your score is based on N consecutive plays. The value of N depends on how 'fast' the land is to play, and how random it is.\n\nIn the Caribbean, you can access Orbs of Thorns, Aether, and Space if you have ever collected 25 treasure in their native lands.\n\nThe rate of treasure spawn is static in this mode. It is not increased by killing monsters.\n\nGood luck, and have fun!	Mirror Image
+xlat You shoot %the1!	Yeti
+xlat "Have you tried to take a boat and go into the Ocean? Try it!"	Mirage
+xlat You have used less real time than ever before. Congratulations!	Crossroads
+xlat Ever wondered how some boardgame would look on the hyperbolic plane? I wondered about Go, so I have created this feature. Now you can try yourself!\nEnter = pick up an item (and score), space = clear an item\nOther keys place orbs and terrain features of various kinds\nIn the periodic editor, press 0-4 to switch walls in different ways\n	Kraken Depths
+xlat Activated Orb of Safety!	Goblin
+xlat You have made a Happy Die angry!	Jungle
+xlat %The1 kisses you, and begs you to bring %him1 away from here.	Spice
+xlat You have improved %1 of your specific high scores!	Yeti
+xlat You vault over %the1!	Mirror Image
+xlat You push %the1.	Camelot
+xlat Treasure lost!	Hell
+xlat You collect your first %1!	Jungle
+xlat You are too weakened to attack %the1!	xyz
+xlat You trick %the1.	Spice
+xlat You need to move to give space to %the1!	7
+xlat You summon a bonfire!	Crossroads
+xlat You kill %the1 with a mental blast!	Kraken Depths
+xlat You may be unable to leave %the1 if you are not careful!\n	Dragon Scale
+xlat This will enable the cheat mode, making this game ineligible for scoring. Are you sure?	Fire Fairy
+xlat You destroy %the1.	Hell
+xlat These statues of Cthulhu are too large to carry, and they don't look too valuable anyway. Most monsters will never go through them... they probably have their reasons. But you can go! When you move into the cell containing a statue, you push the statue to the cell you left.\n	Princess
+xlat Variants of %the1 are available in the Random Pattern Mode after getting a highscore of at least 10 %2.	Orb of Yendor	Princess
+xlat "Did you know that the Cultists are relatives of the Desert Men?"	Orb of Yendor
+xlat You start chopping down the tree.	Kraken Depths
+xlat You summon some Mimics!	Fire Fairy
+xlat You collect %the1.	Rose Lady
+xlat You switch places with %the1.	Spice
+xlat Don't be fooled by this red-haired boy, or you will be stabbed if you come too close!	Princess
+xlat Better find some other place.	Mirage
+xlat You have collected 10 treasures of each type.	Crossroads
+xlat You construct some Elemental Gems!	Orb of Yendor
+xlat You hit %the1.	Fire Fairy
+xlat or ESC to see how it ended	Goblin
+xlat You push %the1 behind you!	Hell
+xlat You chop down %the1.	7
+xlat Orbs summoned!	Mirage
+xlat You have improved both your real time and knife count. Congratulations!	Orb of Yendor
+xlat Finished the race! Time: %1, place: %2 out of %3	Dragon Scale	Wine	Goblin
+xlat Kills gained!	Fire Fairy
+xlat These huge monsters normally live below the sand, but your movements have disturbed them. They are too big to be slain with your weapons, but you can defeat them by making them unable to move. This also produces some Spice. They move two times slower than you.	Princess
+xlat These fields are ravaged with many kinds of magical radiation, which not only make the ground glow nicely in various colors, but also cause the inhabitants to protect the treasures of their land in various ways. In some areas of the Irradiated Fields, you will meet powerful enemies; in other areas, you will find arrow traps, fire traps, or pools, which can kill you if you are careless, or help you if you know how to use them to your advantage. Will you walk through the Irradiated Fields randomly, or try to find areas where treasures are common but nasty monsters are not, and keep to them? It is your choice!\n\n	Mirage
+xlat Disable if you are photosensitive. Replaces flashing effects such as Orb of Storms lightning with slow, adjustable animations.	Kraken Depths
+xlat "By now, you should have your own formula, you know?"	Dragon Scale
+xlat This will end your current game and start a new one. Are you sure?	Goblin
+xlat You collect %the1. (%2)	Hell	Mirror Image
+xlat You have improved your '%1' high score on Google!	Princess
+xlat You fall into a wormhole!	Mirror Image
+xlat You activate %the1.	Dragon Scale
+xlat Don't be fooled by this red-haired girl, or you will be stabbed if you come too close!	Rose Lady
+xlat Skeletons work similar to Palace Guards, but they won't die no matter how many times you hit them. Well, you have to be more creative...\n\nSkeletons attacked outside of their native land, Palace, are stunned for a longer time.	xyz
+xlat You feel more experienced in demon fighting!	Spice
+xlat You punch %the1.	Mirror Image
+xlat You have found the Key! Now unlock this Orb of Yendor!	Camelot
+xlat You have improved your total high score on Google. Congratulations!	Rose Lady
+xlat You join %the1.	Goblin
+xlat You damage %the1 with a mental blast!	Elemental Planes
+xlat You have been trapped in a strange, non-Euclidean world. Collect as much treasure as possible before being caught by monsters. The more treasure you collect, the more monsters come to hunt you, as long as you are in the same land type. The Orbs of Yendor are the ultimate treasure; get at least one of them to win the game!	Princess
+xlat Teleported to %1!	Mirage
+xlat If you want to know how much the gameplay is affected by the hyperbolic geometry in HyperRogue, this mode is for you!\n\nYou can try many different geometries here. We start by gluing n-gons in such a way that k of them meet in every vertex. Depending on n and k, this either folds into a sphere, unfolds into a plane, or requires a hyperbolic space. The result may be then 'bitruncated' by replacing each vertex by a 2k-gon. Furthermore, you can play with quotient geometries. For example, the elliptic geometry is obtained from the sphere by making the antipodes be the same point, so you return to the same spot (but as a mirror image) after going there. Have fun experimenting! Achievements and leaderboards do not work in geometry experiments, except some specific ones.\n\nIn standard geometry (bitruncated or not), you can play the full game, but in other geometries you select a particular land. Lands are unlocked by visiting them in this session, or permanently by collecting 25 treasure. Try Crossroads in Euclidean or chaos mode in non-standard non-quotient hyperbolic to visit many lands. Highlights:\n* Crystal World and Warped Coast can be understood as extra geometries.\n* Halloween is specially designed for spherical geometry.\n* To see the difference, try Hunting Grounds in Euclidean -- it is impossible.\n	Orb of Yendor
+xlat Did you know that it is possible to break a magical sphere into finitely many parts, and then, out of the parts obtained, to make two magical spheres, just like the original? Hyperbolic geometry makes this even easier!\n\nWhen you pick up another Orb, it will not disappear from the ground -- Orb of Choice will be drained instead.	Wine
+xlat You rejoin %the1.	R'Lyeh
+xlat Congratulations! You have found the Holy Grail!	Camelot
+xlat You stab %the1.	Ice Diamond
+xlat "Have you visited a temple in R'Lyeh?"	Fire Fairy
+xlat In the Shoot'em Up mode, you are armed with thrown Knives.	Jungle
+xlat Makes you leave a trail of shallow water. You also become afraid of water. You are unable to step into water, including shallow water and boats on water. On the good side, you are protected from fire.	xyz
+xlat Dead orbs gained!	Elemental Planes
+xlat already played	Spice
+xlat You summon %the1!	Princess
+xlat Treasure gained!	Wine
+xlat Are you sure you want to step there?	Crossroads
+xlat Lots of treasure gained!	Mirror Image
+xlat So, you have killed a Ratling on the unwarped sea? You will be punished for this! Luckily, if you run away from the Warped Sea quickly, the Ratling Avengers will lose track of you.	Camelot
+xlat You have improved your total high score and %1 specific high scores!	Orb of Yendor
+xlat The Knights of the Round Table are the greatest warriors of these lands. They are not very inventive with names though, as they call each of their castles Camelot. You are probably worthy of joining them, but they will surely give you some quest to prove yourself...\n\nEach castle contains a single treasure, the Holy Grail, in the center. The radius of the Round Table is usually 28, but after you find a Holy Grail successfully, each new castle (and each Round Table) you find will be bigger.	Kraken Depths
+xlat This Orb lets you ride Dragons and other worm-like creatures. Simply move onto such a creature to ride them; while riding, you are protected from dangerous terrains and partially from attacks (they cause you to lose half of your Domination power), but you cannot collect items.\n\nWhile riding, click on a location to order your mount to move or attack there.	Rose Lady
+xlat This is the biggest Hypersian Rug you have ever seen! Unfortunately, it is too large to take it as a trophy.	xyz
+xlat Orb of Yendor gained!	Elemental Planes
+xlat You summon an Ivy!	7
+xlat You overhear miners talking about a castle...	Witch Apprentice
+xlat You summon a sandworm!	Crossroads
+xlat \n\nThis Orb protects you from attacks, scents, and insulates you from electricity. It does not let you go through deadly terrain, but if you are attacked with fire, it lets you stay in place in it.	Kraken Depths
+xlat This land is a quick gateway to other lands. It is very easy to find other lands from the Crossroads. Which means that you find monsters from most other lands here!\n\nAs long as you have found enough treasure in their native lands, you can find magical items in the Crossroads. Mirror Land brings mirrors and clouds, and other land types bring magical orbs.\n\nA special treasure, Hyperstone, can be found on the Crossroads, but only after you have found 10 of every other treasure.	xyz
+xlat Preparing the line (%1/1000)...	Yeti
+xlat This will exit HyperRogue without saving your current game. Are you sure?	Orb of Yendor
+xlat You have found %the1!	Dragon Scale
+xlat You have used less turns than ever before. Congratulations!	Ice Diamond
+xlat The roses smell nicely, but you are just too tired to care.	Fire Fairy
+xlat You activate the Lightning spell!	Rose Lady
+xlat The faster you get here, the better you are!	Jungle
+xlat You summon a golem!	Yeti
+xlat You have improved your total and '%1' high score!	Wine
+xlat You summon some Thumpers!	Camelot
+xlat You gain a protective Shell!	Orb of Yendor
+xlat You summon a monster!	Fire Fairy
+xlat You have improved both your real time and turn count. Congratulations!	Spice
+xlat You slash %the1.	7
+xlatn Plane of Water
+xlatn Jelly Kingdom
+xlatn Wine
+xlatn Water Elemental
+xlatn False Prince
+xlatn Orb of Thorns
+xlatn Cellular Automaton
+xlatn Tiger's Eye
+xlatn Acid Gull
+xlatn Platform
+xlatn Galápagos
+xlatn dead troll
+xlatn Crossroads V
+xlatn Ruby
+xlatn Mouse
+xlatn Orb of Fire
+xlatn Reptile
+xlatn Onyx
+xlatn Brown Island
+xlatn Shadow
+xlatn lava
+xlatn Mirror Land
+xlatn Minefield
+xlatn Silver
+xlatn Eagle
+xlatn Red Rock Valley
+xlatn Key
+xlatn Giant Frog
+xlatn Dragon Scale
+xlatn editable statue
+xlatn Draugr
+xlatn Hunting Ground
+xlatn Orb of the Mind
+xlatn Hive
+xlatn Red Hyperbug
+xlatn Mirage
+xlatn Viking
+xlatn Canvas
+xlatn Green Hyperbug
+xlatn big bush
+xlatn wall of Camelot
+xlatn Tentacle
+xlatn small bush
+xlatn island
+xlatn Reptiles
+xlatn Orb of Teleport
+xlatn Orb of Space
+xlatn Topielec
+xlatn ruin wall
+xlatn Yendorian Researcher
+xlatn Orb of Speed
+xlatn Orb of Lava
+xlatn Wetland
+xlatn sand dune
+xlatn Lost Mountain
+xlatn Friendly Ghost
+xlatn Raging Bull
+xlatn Orb of the Mirror
+xlatn Vine Spirit
+xlatn Orb of Plague
+xlatn Happy Die
+xlatn Meteorite
+xlatn Ivy D
+xlatn Ivy N
+xlatn burning dock
+xlatn Pirate
+xlatn column
+xlatn Hunting Dog (regrouping)
+xlatn Red Troll
+xlatn Land of Power
+xlatn Amethyst
+xlatn Blue Raider
+xlatn Free Fall
+xlatn Ivy Branch
+xlatn Tame Bomberbird
+xlatn Pirate Treasure
+xlatn Land of Storms
+xlatn Red Raider
+xlatn Orb of Water
+xlatn Alchemist Lab
+xlatn Orb of Energy
+xlatn stone gargoyle floor
+xlatn Salamander
+xlatn Crystal World
+xlatn Orb of the Fish
+xlatn Docks
+xlatn Evil Golem
+xlatn Volcanic Wasteland
+xlatn Snake Oil
+xlatn Lava Lily
+xlatn Knife
+xlatn no item
+xlatn Sand Worm W
+xlatn Fire Cultist
+xlatn Royal Jelly
+xlatn Necromancer
+xlatn Orb of Domination
+xlatn grounded wall
+xlatn fatigue
+xlatn Prince
+xlatn Desert
+xlatn Earth Elemental
+xlatn Land of Eternal Motion
+xlatn Forgotten Relic
+xlatn stone gargoyle
+xlatn Ancient Jewelry
+xlatn Rock Snake Tail
+xlatn Bonfire
+xlatn Living Fjord
+xlatn Orb of Impact
+xlatn palace wall
+xlatn Fire Shard
+xlatn Giant Fox
+xlatn Orb of Undeath
+xlatn weird rock
+xlatn moat of Camelot
+xlatn Thornless Rose
+xlatn Thumper
+xlatn barrow
+xlatn Blue Frog
+xlatn Orb of Safety
+xlatn Dead Orb
+xlatn Orb of Discord
+xlatn Jiangshi
+xlatn limestone wall
+xlatn Fulgurite
+xlatn Brown Raider
+xlatn Baby Tortoise
+xlatn Mutant
+xlatn minefield
+xlatn rubble
+xlatn Orb of Ferocity
+xlatn red slime
+xlatn Orb of Horns
+xlatn Crossroads
+xlatn Gadfly
+xlatn Tasty Jelly
+xlatn Orb of Yendor
+xlatn Orb of the Warp
+xlatn Snake Nest
+xlatn Cursed Canyon
+xlatn Princess
+xlatn Active Ivy
+xlatn dead floor
+xlatn Orb of the Dragon
+xlatn Speed Witch
+xlatn fresh grave
+xlatn Orb of Stunning
+xlatn Orb of Freedom
+xlatn Cultist
+xlatn Blizzard
+xlatn no monster
+xlatn big statue of Cthulhu
+xlatn Mutant Sapling
+xlatn sandstone wall
+xlatn Necromancer's Totem
+xlatn Ratling Avenger
+xlatn Bomberbird Egg
+xlatn Green Raider
+xlatn arrow trap
+xlatn Ivory Tower
+xlatn Orb of Aether
+xlatn Statue of Cthulhu
+xlatn Terracotta Warrior
+xlatn Tentacle W
+xlatn temporary bridge
+xlatn Rock Troll
+xlatn dock
+xlatn Orb of the Frog
+xlatn Orb of Phasing
+xlatn Emerald
+xlatn crystal cabinet
+xlatn Rose Lord
+xlatn Water Lily
+xlatn Gargoyle
+xlatn stepping stones
+xlatn platform
+xlatn Curse of Draining
+xlatn Jungle
+xlatn Winter Witch
+xlatn Reptile bridge
+xlatn Blue Jelly
+xlatn Curse of Weakness
+xlatn Curse of Gluttony
+xlatn Angry Die
+xlatn Ice Golem
+xlatn Canyon Hag
+xlatn Void Beast
+xlatn Orb of Purity
+xlatn Emerald Mine
+xlatn Space Rock
+xlatn Fireball
+xlatn Earth Shard
+xlatn Caribbean
+xlatn partial fire
+xlatn closing plate
+xlatn Friendly Ivy
+xlatn tree
+xlatn living floor
+xlatn Striped Dog
+xlatn Crossroads III
+xlatn Lesser Demon
+xlatn Eclectic City
+xlatn Round Table
+xlatn Hunting Dog (guarding)
+xlatn canopy
+xlatn rosebush
+xlatn Sea Border
+xlatn lake
+xlatn Overgrown Woods
+xlatn Glowing Crystal
+xlatn Yendorian Forest
+xlatn Burial Grounds
+xlatn Bull Dash
+xlatn Orb of the Stone
+xlatn Fire Elemental
+xlatn Zebra
+xlatn Ice Diamond
+xlatn Orb of Summoning
+xlatn charged wall
+xlatn Grimoire
+xlatn Golem
+xlatn Plane of Air
+xlatn Orb of Nature
+xlatn blue slime
+xlatn cell without mine
+xlatn Forest Troll
+xlatn rock III
+xlatn Whirlpool
+xlatn Capon Stone
+xlatn Yellow Frog
+xlatn great wall
+xlatn Mutant Fruit
+xlatn Desert Man
+xlatn Dungeon
+xlatn rock II
+xlatn Fern Flower
+xlatn Rose Garden
+xlatn closed gate
+xlatn Demon Shark
+xlatn Handsome Gardener
+xlatn Kraken
+xlatn Bounty
+xlatn Orb of Empathy
+xlatn Bat
+xlatn Prairie
+xlatn your orbs
+xlatn Ranger
+xlatn Reflection
+xlatn Orb of the Triangle
+xlatn Crossroads II
+xlatn Crossroads IV
+xlatn Water Shard
+xlatn Game Board
+xlatn Hypersian Rug
+xlatn metal wall
+xlatn Dice Reserve
+xlatn Haunted Woods
+xlatn Ice Sapphire
+xlatn Dodecahedron
+xlatn Sea Glass
+xlatn Slime Mold
+xlatn Gold Ball
+xlatn Orb of Slaying
+xlatn Clearing
+xlatn Ice Shark
+xlatn Orb of Recall
+xlatn Halloween
+xlatn Air Elemental
+xlatn Lava Wolf
+xlatn Great Wall
+xlatn Familiar
+xlatn Fire Fairy
+xlatn Vineyard
+xlatn Plane of Fire
+xlatn Tentacle+Ghost
+xlatn Orb of Choice
+xlatn Holy Grail
+xlatn Orb of the Bull
+xlatn Tongue
+xlatn Greater Demon
+xlatn electric discharge
+xlatn Vizier
+xlatn Sand Worm
+xlatn Hedgehog Warrior
+xlatn Orb of Friendship
+xlatn Gray Raider
+xlatn Orb of Slashing
+xlatn Palace Quest
+xlatn trapdoor
+xlatn Shard
+xlatn Shark
+xlatn Bronze Beast
+xlatn Icewolf
+xlatn Pikeman
+xlatn Amber
+xlatn Master Crossroads
+xlatn Terracotta Army
+xlatn Curse of Water
+xlatn Skeleton
+xlatn Cocytus
+xlatn Tortoise
+xlatn Witch Apprentice
+xlatn Miner
+xlatn Demon Daisy
+xlatn Rusałka
+xlatn Knight
+xlatn mercury river
+xlatn frozen lake
+xlatn White Dove Feather
+xlatn Flail Guard
+xlatn Lost Memory
+xlatn Dark Troll
+xlatn stranded boat
+xlatn Sleeping Bull
+xlatn rock I
+xlatn Orb of Trickery
+xlatn Icy Land
+xlatn Garnet
+xlatn Dead Ivy
+xlatn Butterfly
+xlatn Orb of Love
+xlatn Irradiated Field
+xlatn Torbernite
+xlatn Eternal Fire
+xlatn Orb of Shielding
+xlatn Green Grass
+xlatn Orb of Flash
+xlatn Storm Troll
+xlatn ancient grave
+xlatn Metal Beast
+xlatn Zombie
+xlatn shallow water
+xlatn Hell
+xlatn saloon wall
+xlatn Ancient Weapon
+xlatn Ratling
+xlatn ladder
+xlatn Orb of Life
+xlatn Rose Beauty
+xlatn Red Jelly
+xlatn Plane of Earth
+xlatn Crystal Sage
+xlatn mirror wall
+xlatn Cult Leader
+xlatn trunk
+xlatn Fire Witch
+xlatn sea
+xlatn Aether Witch
+xlatn big tree
+xlatn Mirror Spirit
+xlatn Orb of the Shell
+xlatn Hunting Dog
+xlatn Orb of Storms
+xlatn Pike
+xlatn Camelot
+xlatn weak branch
+xlatn stone gargoyle bridge
+xlatn barrow wall
+xlatn Ivy Root
+xlatn opening plate
+xlatn Explosive Barrel
+xlatn Hall of Mirrors
+xlatn Orb of Beauty
+xlatn Parrot
+xlatn Vampire Bat
+xlatn Mimic
+xlatn Kraken Depths
+xlatn Coral
+xlatn giant rug
+xlatn Trollheim
+xlatn Phoenix Feather
+xlatn Reptile floor
+xlatn Hyperstone
+xlatn Western Hawk
+xlatn R'Lyeh
+xlatn Running Dog
+xlatn stone statue
+xlatn Dry Forest
+xlatn open gate
+xlatn Blueball
+xlatn Treat
+xlatn Fat Guard
+xlatn Frog Park
+xlatn Palace
+xlatn Warped Coast
+xlatn Outlaw
+xlatn Elemental Planes
+xlatn Fire
+xlatn Unhappy Die
+xlatn Rogue
+xlatn dead wall
+xlatn dead rock troll
+xlatn living wall
+xlatn Turquoise
+xlatn Ruined City
+xlatn temporary wall
+xlatn Gold
+xlatn no wall
+xlatn Pearl
+xlatn Windy Plains
+xlatn Sand Worm Tail
+xlatn Dragon
+xlatn none
+xlatn Orb of the Sword II
+xlatn Wind Crow
+xlatn Dormant Ivy
+xlatn Elemental Gem
+xlatn Fuel
+xlatn Servant
+xlatn Powerstone
+xlatn Orb of Earth
+xlatn Dragon Head
+xlatn Tentacle (withdrawing)
+xlatn Temple of Cthulhu
+xlatn shrub
+xlatn Curse of Fatigue
+xlatn Cloud of Mirage
+xlatn Illusion
+xlatn Bomberbird
+xlatn Kraken Tentacle
+xlatn Orb of Gravity
+xlatn vine
+xlatn deep water
+xlatn Tentacle Tail
+xlatn Ivory Figurine
+xlatn lake of sulphur
+xlatn Animated Die
+xlatn Rock Snake
+xlatn Rose Lady
+xlatn Herd Bull
+xlatn Vine Beast
+xlatn Seep
+xlatn Orb of Winter
+xlatn Dead Cave
+xlatn Orb of Invisibility
+xlatn Sunken Treasure
+xlatn chasm
+xlatn Orb of Matter
+xlatn Fjord Troll
+xlatn Slime Beast
+xlatn Dragon Chasms
+xlatn Crystal Die
+xlatn Yeti
+xlatn Black Lotus
+xlatn Spice
+xlatn Giant Ape
+xlatn Air Shard
+xlatn Curse of Repulsion
+xlatn Sparrowhawk
+xlatn Narcissist
+xlatn Graveyard
+xlatn Living Cave
+xlatn Orb of Time
+xlatn Ghost
+xlatn boat
+xlatn Mutant Ivy
+xlatn temporary floor
+xlatn Orb of Chaos
+xlatn Orb of Luck
+xlatn Blue Hyperbug
+xlatn Golden Egg
+xlatn Elixir of Life
+xlatn Orb of Vaulting
+xlatn Red Gem
+xlatn strong wind
+xlatn Orb of Air
+xlatn Orb of Change
+xlatn Palace Guard
+xlatn Space Rocks
+xlatn Wild West
+xlatn Warped Sea
+xlatn Flash Witch
+xlatn Magic Mirror
+xlatn Orb of the Sword
+xlatn False Princess
+xlatn Goblin
+xlatn ice wall
+xlatn Mirror Image
+xlatn Compass
+xlatn solid branch
+xlatn Ocean
+xlatn Falling Dog
+xlatn Orb of Intensity
+xlatn warp gate
+xlatn Chrysoberyl
+xlatn Crossroads VI
+xlatn Revolver
+xlatn Lazurite Figurine
+xlatn Rich Metal Beast
+xlatn fire trap
+xlatn Flail
+xlatn Spinel
+xlatn Apple
+xlatn Albatross
+xlatn fan

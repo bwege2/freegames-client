@@ -12,6 +12,7 @@ import {
   K_MISSILE, K_STARBURST, K_HARRYKEYS, MAXCRASH, type Mode, type Obj,
 } from './sim.ts';
 import { DEFAULT_TUNE, TunePlayer } from './tune.ts';
+import { inLobbyLayer } from './lobby-layer.ts';
 
 const MAP_TEXT = import.meta.glob('../assets/maps/*.sop', {
   eager: true, query: '?raw', import: 'default',
@@ -557,11 +558,11 @@ export class SopwithApp {
     this.state = 'lobby';
     this.drawLobby('Connecting...');
     try {
-      const round = await this.ctx.lobby(this.host, {
+      const round = await inLobbyLayer(this.host, (layer) => this.ctx.lobby(layer, {
         title: 'Sopwith online', seats: { min: 2, max: 2 },
         seatNames: ['Player 1', 'Player 2'],
         options: () => packGame(Options, (o) => { o.mission = this.missionIndex; }),
-      });
+      }));
       this.seat = round.you;
       const missionIdx = readMissionIndex(round.options, this.missions.length);
       this.missionIndex = missionIdx;

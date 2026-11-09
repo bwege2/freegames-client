@@ -1,0 +1,153 @@
+# A long walk (150 turns) in the Living Caves with a larger dump radius.
+radius 4
+start 11 -W laCaves
+move 3
+move 1
+move 2
+move 0
+move 5
+move 4
+move 3
+move 1
+move 1
+move 0
+move 2
+move 6
+move 3
+move 4
+wait
+move 1
+move 2
+move 4
+move 3
+move 3
+wait
+wait
+move 3
+move 2
+move 1
+wait
+wait
+move 0
+move 2
+move 0
+move 3
+move 6
+move 3
+move 3
+move 3
+wait
+move 4
+move 2
+move 3
+move 5
+move 0
+move 1
+move 6
+move 0
+move 1
+move 1
+move 1
+move 6
+move 4
+move 0
+move 0
+move 0
+move 3
+move 4
+move 0
+move 3
+move 2
+move 1
+move 5
+wait
+wait
+move 4
+move 3
+move 4
+move 6
+move 3
+move 3
+move 2
+move 2
+move 2
+move 0
+move 5
+move 1
+move 2
+move 6
+move 4
+move 0
+move 1
+move 2
+move 2
+move 4
+wait
+move 6
+wait
+move 6
+move 1
+move 3
+move 0
+move 0
+move 3
+move 5
+move 6
+move 2
+move 5
+move 4
+move 3
+move 2
+move 5
+move 5
+move 3
+move 3
+move 6
+move 3
+move 0
+move 4
+move 4
+move 2
+move 3
+move 1
+move 3
+move 5
+move 4
+move 0
+move 3
+move 3
+move 6
+wait
+move 0
+move 0
+move 6
+move 4
+move 4
+move 4
+move 6
+wait
+wait
+move 0
+move 5
+move 5
+move 5
+move 3
+move 5
+move 4
+move 0
+move 4
+move 3
+move 6
+move 4
+wait
+move 6
+move 4
+move 5
+move 3
+move 3
+wait
+move 2
+move 0
+move 6
+move 1
+move 4

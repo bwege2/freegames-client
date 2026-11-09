@@ -1,0 +1,33 @@
+# U4: hyperrogue.ini. The configuration of a fresh start as saveConfig writes it, then a file in the new format
+# read by loadNewConfig (new names and legacy names, colors, booleans, enums by number and by option name, floats,
+# strings, colour tables, the player's character) and saved again.
+start 1
+saveconfig
+ini # a comment line
+ini color:background=102030
+ini color_foreground=FFFF00
+ini fontscale=150
+ini grid=yes
+ini mouse circle=1
+ini pinned_glyphs=$*!
+ini linewidth=2.5
+ini mapfontscale=1/3
+ini single.skincolor=FF00FFFF
+ini single.lefthanded=yes
+ini message_style=1
+ini glyph sort order=by land
+ini 3D wall height=0.4
+ini wall_height3=4.25
+ini color:ring=rgb(1,0.5,0.25)
+ini mines=FF0000,00FF00,0000FF
+ini color:monster:7=ABCDEF
+ini sight-g0=3.5
+ini menu_darkening=5
+ini orb_mode=types
+ini neon_nofill=1
+ini precisewidth=0.1
+ini window_rel_x=0.75
+ini dialog_font_scale=1.25
+ini player3.charid=5
+loadconfig
+saveconfig

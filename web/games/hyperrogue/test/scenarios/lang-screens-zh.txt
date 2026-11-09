@@ -1,0 +1,20 @@
+# Translations (stage 3): the window in Chinese (lang 8), 640x480 without the map (nomap=1): the HUD and the
+# messages, the game menu, the interface settings, the language menu, the help screen (long text, wrapped with
+# the font metrics of the translation's characters: Noto Sans, kerned, set_cfont's font for Chinese).
+start 1 nomap=1
+lang 8
+ticks 1000
+svg 640 480 screen
+key Escape
+svg 640 480 screen
+key s
+key i
+svg 640 480 screen
+key l
+svg 640 480 screen
+key Escape
+key Escape
+key Escape
+key Escape
+key F1
+svg 640 480 screen

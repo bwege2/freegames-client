@@ -1,0 +1,11 @@
+# Drawing oracle (PORTING-STAGE2.md): the map of the default game (seed 1, Icy Land) as the original's SVG
+# screenshot draws it (svg ... map: no HUD, coordinates in tenths of a pixel), at the start and after two steps
+# (ticks 1000: the step's animation has just begun; ticks 5000: it is over).
+start 1
+ticks 1000
+svg 640 480 map
+move 0
+svg 640 480 map
+move 0
+ticks 5000
+svg 640 480 map

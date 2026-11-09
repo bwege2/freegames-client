@@ -1,0 +1,46 @@
+# Translations (stage 3): the game in Chinese, chosen with the command line option -lang 8: the walks of
+# deaths.txt (Hell and R'Lyeh, deaths, restarts), whose messages come from the rules (XLAT with the monsters,
+# items and lands as parameters).
+radius 1
+start 31 -lang 8 -W laHell
+move 5
+move 5
+move 0
+move 2
+move 2
+move 2
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+wait
+restart
+move 1
+move 3
+move 1
+move 3
+move 5
+move 5
+move 3
+move 3
+goto laRlyeh
+move 3
+wait
+move 5
+wait
+move 2
+move 3
+move 3
+move 2
+move 4
+move 5
+restart
+move 6
+move 4
+move 0
+move 2
+move 3
+move 0

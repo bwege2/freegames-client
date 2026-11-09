@@ -1,0 +1,382 @@
+== start 44 -H -W laHell
+msg 1 One wrong move and it is game over!
+msg 1 Welcome to HyperRogue! (cheat mode on)
+msg 1 Press F1 or right-click things for help.
+turn 0 canmove 1 cheater 1
+pos d0 / -1 spin 0
+items
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash bd947eed
+== move 2
+ret 1
+turn 1 canmove 1 cheater 1
+pos d0 / 2 spin 0
+items
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.2 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 4889e327
+== move 1
+ret 1
+turn 2 canmove 1 cheater 1
+pos d0 / 1 spin 5
+items
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHell waNone moNone itHell d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 096f2a12
+== move 3
+ret 1
+msg 1 You collect your first Demon Daisy!
+turn 3 canmove 1 cheater 1
+pos d2 4 / -1 spin 3
+items itHell=1
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.2 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 582 hash 8652c136
+== move 0
+ret 1
+turn 4 canmove 1 cheater 1
+pos d0 / 1 spin 2
+items itHell=1
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 696c94dd
+== move 4
+ret 1
+msg 1 You are killed by the Lesser Demon!
+turn 5 canmove 0 cheater 1
+pos d0 / -1 spin 1
+items itHell=1
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laHell waNone moLesserM itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash b28a499e
+== cheat F
+ret 1
+msg 1 Revived!
+turn 5 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itHell=1
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laHell waNone moLesserM itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash b28a499e
+== wait
+ret 1
+turn 6 canmove 1 cheater 1
+pos d0 / -1 spin 1
+items itHell=1
+kills
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHell waNone moLesser itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 53e2393f
+== move 4
+ret 1
+msg 1 You kill the Lesser Demon.
+turn 7 canmove 1 cheater 1
+pos d0 / -1 spin 5
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c7 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 582 hash 69f58fc5
+== move 6
+ret 1
+turn 8 canmove 1 cheater 1
+pos d0 / 4 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 74f740fd
+== move 0
+ret 1
+turn 9 canmove 1 cheater 1
+pos d0 / -1 spin 4
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.0 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c7 1 0.0 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 582 hash 4a36c800
+== move 1
+ret 1
+turn 10 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 6286594a
+== wait
+ret 1
+turn 11 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 4bb8d5f7
+== wait
+ret 1
+turn 12 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 962f31a8
+== wait
+ret 1
+turn 13 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash bd5660b7
+== wait
+ret 1
+turn 14 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 561f8aeb
+== wait
+ret 1
+turn 15 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 9ddaf7b7
+== wait
+ret 1
+turn 16 canmove 1 cheater 1
+pos d0 / 5 spin 0
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash 6ccd3e28
+== move 5
+ret 1
+turn 17 canmove 1 cheater 1
+pos d0 / 6 spin 1
+items itHell=1
+kills moLesser=1
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.6 laHell waNone moLesserM itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 79fee8b0
+== move 5
+ret 1
+msg+ 2 You kill the Lesser Demon.
+turn 18 canmove 1 cheater 1
+pos d0 / 6 spin 0
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.6 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c4 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash ac3d0e8f
+== move 1
+ret 1
+turn 19 canmove 1 cheater 1
+pos d0 / 5 spin 5
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c3 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c6 1 0.1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+dcal 574 hash aac6b60a
+== move 2
+ret 1
+msg 1 You are killed by the Greater Demon!
+turn 20 canmove 0 cheater 1
+pos d0 / 4 spin 5
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moGreaterM itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash a47c9427
+== cheat F
+ret 1
+msg 1 Revived!
+turn 20 canmove 1 cheater 1
+pos d0 / 4 spin 5
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moGreaterM itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash a47c9427
+== move 3
+ret 0
+msg 1 You cannot defeat the Greater Demon yet!
+turn 20 canmove 1 cheater 1
+pos d0 / 4 spin 2
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.3 laHell waNone moGreaterM itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.4 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.1 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c5 1 0.4 laHell waNone moNone itNone d3 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.5 laHell waNone moNone itNone d2 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash a47c9427
+== move 1
+ret 1
+turn 21 canmove 1 cheater 1
+pos d2 0 / 2 spin 5
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laHell waNone moGreater itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash 10e3c2ab
+== wait
+ret 1
+msg 1 You are killed by the Greater Demon!
+turn 22 canmove 0 cheater 1
+pos d2 0 / 2 spin 5
+items itHell=1
+kills moLesser=2
+c0 0 -1.-1 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c1 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c2 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c3 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c4 1 0.5 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+c5 1 0.3 laHell waNone moNone itNone d126 h0 s0 p00000000 f0 w0 m0 b126 laNone laNone
+c6 1 0.2 laHell waNone moGreaterM itNone d6 h0 s0 p00000000 f0 w0 m1 b126 laNone laNone
+dcal 574 hash e011828b

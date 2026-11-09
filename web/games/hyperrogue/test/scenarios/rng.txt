@@ -1,0 +1,7 @@
+# The random number generators alone (src/rand.ts): hrngen (std::mt19937) and the game.cpp functions built on it,
+# and glibc rand(); several seeds, including 0, a negative one and HARNESS_TIME.
+rng 0 40
+rng 1 40
+rng 5489 40
+rng -7 40
+rng 1767225600 700
