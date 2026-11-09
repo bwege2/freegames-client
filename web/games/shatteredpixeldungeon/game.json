@@ -1,0 +1,89 @@
+{
+  "id": "shatteredpixeldungeon",
+  "title": "Shattered Pixel Dungeon",
+  "tagline": "A traditional roguelike: descend 26 floors of a randomly made dungeon for the Amulet of Yendor.",
+  "summary": [
+    "Choose one of six heroes, the warrior, mage, rogue, huntress, duelist or cleric, and go down into a dungeon that is made anew every game: the sewers, the prison, the caves, the dwarven city and the demon halls, each with its own monsters, traps and boss. Find weapons, armour, wands, rings, potions and scrolls, most of them unknown until you use or identify them, and choose a subclass and talents as your hero grows.",
+    "Every action is a turn and death is permanent: when your hero dies the run is over and its story goes into the rankings. Badges, challenges and seeded runs reward the ones who come back.",
+    "This is a port of Shattered Pixel Dungeon 4.0.2, Evan Debenham's continuation of Watabou's Pixel Dungeon, translated from its Java source and checked against the original: the same levels for the same seed, the same pictures, music, sounds and texts in all its languages. Your games, rankings, badges and settings are kept with your player on this site."
+  ],
+  "original": {
+    "author": "Evan Debenham (Shattered Pixel), based on Pixel Dungeon by Oleg Dolya (Watabou)",
+    "year": 2014,
+    "platform": "Java (libGDX: Windows, macOS, Linux), Android, iOS",
+    "version": "4.0.2 (2026)",
+    "license": "GPL-3.0-or-later (code); art, music and sounds GPL-3.0 / CC BY-SA 4.0",
+    "packageBytes": 54253547,
+    "url": "https://shatteredpixel.com/shatteredpd/"
+  },
+  "players": "1",
+  "genres": [
+    "Roguelike"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-09",
+  "links": [
+    {
+      "label": "Shattered Pixel Dungeon's home page, with its versions for Steam, Android and iOS (they support its author, Evan Debenham)",
+      "url": "https://shatteredpixel.com/shatteredpd/"
+    },
+    {
+      "label": "Its source code on GitHub",
+      "url": "https://github.com/00-Evan/shattered-pixel-dungeon"
+    }
+  ],
+  "controls": [
+    {
+      "input": "Click or tap a cell",
+      "action": "Walk there, attack, open, pick up or search (tap the hero: search, or wait)"
+    },
+    {
+      "input": "W A S D, arrow keys, number pad",
+      "action": "Move one cell (the number pad also diagonally); Space or Numpad 5: wait or pick up"
+    },
+    {
+      "input": "I or F, E, Z, J, H",
+      "action": "Inventory; examine; rest; journal; hero info"
+    },
+    {
+      "input": "1–6, F1–F4",
+      "action": "Quick slots; the bags of the inventory"
+    },
+    {
+      "input": "Q, Tab, X, C or Enter, R",
+      "action": "Attack the target; cycle targets; the action button; pick up or loot; resume what was interrupted"
+    },
+    {
+      "input": "Mouse wheel, + and -",
+      "action": "Zoom in and out"
+    },
+    {
+      "input": "Esc or Backspace",
+      "action": "Back: close a window, open the menu"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "title.png",
+      "caption": "The title screen"
+    },
+    {
+      "file": "hero-select.png",
+      "caption": "Choosing a hero: the warrior"
+    },
+    {
+      "file": "dungeon.png",
+      "caption": "The first floor of the sewers, with the inventory and the quick slots"
+    },
+    {
+      "file": "hero.png",
+      "caption": "The hero's window: strength, health, experience and the run's seed"
+    }
+  ],
+  "lazyAssets": [
+    "assets/music/**",
+    "assets/messages/**/*_*.properties"
+  ]
+}

@@ -290,6 +290,18 @@ def i_hyperrogue(S):
     return clip(place(base, trim(art), (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
 
 
+def i_shatteredpixeldungeon(S):
+    # the desktop version's own icon (desktop/src/main/assets/icons, GPL-3.0-or-later): the treasure chest, a
+    # rounded tile of its own; 48 px exactly as the original's icon_48.png, 180 px from icon_256.png
+    if S == 48:
+        art = Image.open(orig('shatteredpixeldungeon', 'orig', 'spd', 'desktop', 'src', 'main', 'assets', 'icons', 'icon_48.png')).convert('RGBA')
+        art.load()
+        return art
+    art = Image.open(orig('shatteredpixeldungeon', 'orig', 'spd', 'desktop', 'src', 'main', 'assets', 'icons', 'icon_256.png')).convert('RGBA')
+    art.load()
+    return art.resize((S, S), Image.LANCZOS)
+
+
 def i_netrek(S):
     # the client's own icon (pixmaps/icon.png, 48x48 pixel art), on deep space
     art = Image.open(G('netrek', 'assets', 'pixmaps', 'icon.png')).convert('RGBA')
