@@ -35,9 +35,9 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     }, signal);
   }
   const shots = g.shots.length
-    ? el('div', { className: 'shots' }, ...g.shots.map((s) => {
+    ? el('div', { className: 'shots' }, ...g.shots.map((s, i) => {
       const b = el('button', { className: 'shot', type: 'button', title: s.caption }, el('img', { src: s.url, alt: s.caption, loading: 'lazy' }));
-      b.addEventListener('click', () => zoom(s.url, s.caption));
+      b.addEventListener('click', () => zoom(g.shots, i));
       return b;
     }))
     : el('div', { className: 'shots' }, el('span', { className: 'shot shot-none' }, thumb(g), el('span', { textContent: 'Screenshots arrive with the port.' })));
@@ -82,10 +82,49 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     legalFooter());
 }
 
-function zoom(url: string, caption: string): void {
-  const d = el('dialog', { className: 'zoom' }, el('img', { src: url, alt: caption }), el('p', { textContent: caption }));
-  d.addEventListener('click', () => d.close());
+/**
+ * The screenshot in a dialog, with the others of the game one step away: the arrows or the left and right
+ * half of the picture (mouse), the arrow keys (keyboard). A click on the dark backdrop closes it, Esc too.
+ */
+function zoom(shots: { url: string; caption: string }[], start: number): void {
+  let at = start;
+  const img = el('img', { alt: '' });
+  const caption = el('p', {});
+  const count = el('span', { className: 'zoom-count' });
+  const show = (): void => {
+    const s = shots[at];
+    img.src = s.url;
+    img.alt = s.caption;
+    caption.textContent = s.caption;
+    count.textContent = `${at + 1} / ${shots.length}`;
+  };
+  const step = (by: number): void => {
+    at = (at + by + shots.length) % shots.length;
+    show();
+  };
+  const arrow = (side: 'prev' | 'next', label: string, by: number): HTMLButtonElement => {
+    const b = el('button', { className: `zoom-arrow zoom-${side}`, type: 'button', textContent: label, title: label === '‹' ? 'Previous' : 'Next' });
+    b.addEventListener('click', () => step(by));
+    return b;
+  };
+  const many = shots.length > 1;
+  const frame = el('div', { className: 'zoom-frame' }, img, ...(many ? [arrow('prev', '‹', -1), arrow('next', '›', 1)] : []));
+  const d = el('dialog', { className: 'zoom' }, frame, caption, count);
+  if (many) {
+    img.addEventListener('click', (e) => {
+      const r = img.getBoundingClientRect();
+      step(e.clientX < r.left + r.width / 2 ? -1 : 1);
+    });
+    d.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+        e.preventDefault();
+        step(e.key === 'ArrowLeft' ? -1 : 1);
+      }
+    });
+  }
+  d.addEventListener('click', (e) => { if (e.target === d || e.target === frame) d.close(); });
   d.addEventListener('close', () => d.remove());
+  show();
   document.body.append(d);
   d.showModal();
 }

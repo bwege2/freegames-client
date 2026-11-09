@@ -541,6 +541,18 @@ try {
       check(head.icon === `${at('wumpus')}wumpus/icon.png`, `hosts: the page's icon is the game's own PNG (${head.icon})`);
       check(head.back === `http://${site}/#/` && head.legal === `http://${site}/impressum.html`,
         `hosts: the game's page (the website) leads back to the site's list and legal pages (${head.back}, ${head.legal})`);
+      // the screenshots: a click opens one, the arrow keys step to the next and back, Escape closes it
+      await h.click('.shot');
+      await h.waitForSelector('dialog.zoom img');
+      const shotFirst = await h.$eval('dialog.zoom img', (e) => e.src);
+      await h.keyboard.press('ArrowRight');
+      const shotNext = await h.$eval('dialog.zoom img', (e) => e.src);
+      await h.keyboard.press('ArrowLeft');
+      const shotBack = await h.$eval('dialog.zoom img', (e) => e.src);
+      check(shotNext !== shotFirst && shotBack === shotFirst, 'hosts: the screenshots step with the arrow keys, and back');
+      await h.keyboard.press('Escape');
+      await h.waitForSelector('dialog.zoom', { hidden: true });
+
       const plain = await h.evaluate(() => fetch('/').then((r) => r.text()));
       check(plain.includes('<a class="play" href="https://freegames.stream/#/wumpus/play">') && plain.includes('<a href="https://ballerburg.freegames.stream/">Ballerburg</a>')
         && plain.includes('<script type="module" crossorigin src="/assets/'), "hosts: the page's plain content (for search engines) links Play into the site and the other games to their hosts");

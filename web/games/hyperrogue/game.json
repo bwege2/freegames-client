@@ -27,6 +27,12 @@
     "online"
   ],
   "added": "2026-11-03",
+  "links": [
+    {
+      "label": "Buy HyperRogue on Steam (supports its author, Zeno Rogue)",
+      "url": "https://store.steampowered.com/app/342610/HyperRogue/"
+    }
+  ],
   "controls": [
     {
       "input": "Left click on a neighbouring cell",
