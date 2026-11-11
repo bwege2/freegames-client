@@ -34,6 +34,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
       popular.hidden = !popular.textContent;
     }, signal);
   }
+  const warning = m.warning ? el('div', { className: 'warning-note', role: 'note' }, el('strong', { textContent: '⚠ Please read: ' }), m.warning) : null;
   const shots = g.shots.length
     ? el('div', { className: 'shots' }, ...g.shots.map((s, i) => {
       const b = el('button', { className: 'shot', type: 'button', title: s.caption }, el('img', { src: s.url, alt: s.caption, loading: 'lazy' }));
@@ -69,7 +70,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
   return el('main', { className: 'page' },
     el('a', { className: 'back-link', href: siteHref(listHref()), textContent: '← All games' }),
     el('header', { className: 'page-head' },
-      el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), brokenNote, live, popular),
+      el('div', {}, el('h1', { textContent: m.title }), el('p', { className: 'tagline', textContent: m.tagline }), warning, brokenNote, live, popular),
       el('div', { className: 'play-box' }, play, playSize)),
     shots,
     el('section', { className: 'about' },

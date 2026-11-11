@@ -93,6 +93,9 @@ button { font: inherit; }
 .play-size { font-size: .82rem; color: var(--muted); }
 .caveat-note { margin: 1rem 0 0; padding: .5rem .75rem; border-left: 3px solid var(--accent); color: var(--muted); font-size: .95rem; }
 .badge-broken { background: #b3261e; color: #fff; }
+.warning-note { margin: .8rem 0 0; padding: .7rem .9rem; border-radius: 8px; border: 2px solid #b3261e; background: #fff4e5; color: #5c1410; font-size: 1.05rem; font-weight: 500; }
+.warning-note strong { font-weight: 800; }
+@media (prefers-color-scheme: dark) { .warning-note { background: #3a1a0c; color: #ffd9c7; border-color: #ff7a5c; } }
 .broken-note { margin: .5rem 0 0; padding: .45rem .7rem; border-radius: 8px; background: #fdecea; color: #7a1d16; font-size: .95rem; }
 .try-anyway { margin-left: .4rem; font: inherit; font-size: .85rem; padding: .1rem .55rem; border: 1px solid #b3261e; border-radius: 6px; background: transparent; color: #7a1d16; cursor: pointer; }
 .feedback { max-width: 46rem; margin: 2rem 0 1rem; }

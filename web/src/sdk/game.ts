@@ -58,6 +58,8 @@ export interface GameManifest {
   listed?: boolean;
   /** set while the port is known to be broken: what the page says (it shows "Broken right now", Play asks twice) */
   broken?: string;
+  /** a prominent warning the page shows right under the tagline, before the Play button (for things a player must know first) */
+  warning?: string;
   /** an honest note about the port that the page shows under the summary (what is not checked yet) */
   caveat?: string;
   /**
