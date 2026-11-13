@@ -203,6 +203,10 @@ does not claim the original's graphics and levels. `"links": [{ "label": "...", 
 addresses on a game's page (an index's entry, the original's project page, a tool it was made with). The catalog test
 checks both.
 
+`"madeWith": "ai"` marks a game made by an AI (its design, pictures or levels, not only the port's code); `"human"`, or
+no `madeWith` at all, is an original. The game list's slop filter ("Alle", "Originals", "AI-Spiele", `#/?made=ai`)
+shows one kind or both. The catalog test refuses any other value.
+
 ## When a port is broken
 
 `"broken": "what the page says"` in `game.json` marks a port that does not work right: its card says "Broken right

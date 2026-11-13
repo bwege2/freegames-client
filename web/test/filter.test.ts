@@ -111,6 +111,51 @@ test('URL: unknown or malformed values are ignored', () => {
   assert.equal(parseState('sort=playing').sort, 'playing');
 });
 
+test('slop filter: all, only originals, only AI games; madeWith missing means human', () => {
+  const gs = [
+    fake('a', { madeWith: 'human', genres: ['Puzzle'] }),
+    fake('b', { madeWith: 'ai', genres: ['Arcade'] }),
+    fake('c', { genres: ['Puzzle'] }),
+    fake('d', { madeWith: 'ai', genres: ['Puzzle'] }),
+  ];
+  assert.deepEqual(ids(apply(gs, state({ made: 'all' }))), ['a', 'b', 'c', 'd']);
+  assert.deepEqual(ids(apply(gs, state({ made: 'human' }))), ['a', 'c']);
+  assert.deepEqual(ids(apply(gs, state({ made: 'ai' }))), ['b', 'd']);
+  assert.deepEqual(ids(apply(gs, state({ made: 'ai', genres: ['Puzzle'] }))), ['d'], 'adds up with the other filters');
+});
+
+test('slop filter: counts per choice, with the other filters but not its own choice', () => {
+  const gs = [
+    fake('a', { madeWith: 'human', genres: ['Puzzle'] }),
+    fake('b', { madeWith: 'ai', genres: ['Arcade'] }),
+    fake('c', { genres: ['Puzzle'] }),
+    fake('d', { madeWith: 'ai', genres: ['Puzzle'] }),
+  ];
+  assert.deepEqual(counts(gs, NO_FILTERS).made, { all: 4, human: 2, ai: 2 });
+  assert.deepEqual(counts(gs, state({ made: 'ai' })).made, { all: 4, human: 2, ai: 2 }, 'its own choice does not change its counts');
+  assert.deepEqual(counts(gs, state({ genres: ['Puzzle'] })).made, { all: 3, human: 2, ai: 1 });
+  assert.deepEqual([...counts(gs, state({ made: 'ai' })).genres], [['Arcade', 1], ['Puzzle', 1]], 'the other filters count within it');
+});
+
+test('slop filter on the real list: originals and AI games add up to all', () => {
+  const c = counts(all, NO_FILTERS);
+  assert.equal(c.made.all, all.length);
+  assert.equal(c.made.human + c.made.ai, all.length);
+  for (const m of ['human', 'ai'] as const) assert.equal(c.made[m], apply(all, state({ made: m })).length, m);
+});
+
+test('slop filter in the URL: made=ai / made=human; Alle is the default; unknown values fall back to Alle', () => {
+  assert.equal(formatState(state({ made: 'ai' })), 'made=ai');
+  assert.equal(formatState(state({ made: 'human', sort: 'year' })), 'made=human&sort=year');
+  assert.equal(formatState(state({ made: 'all' })), '', 'Alle is the plain list');
+  assert.equal(parseState('made=ai').made, 'ai');
+  assert.equal(parseState('made=human').made, 'human');
+  assert.equal(parseState('').made, 'all');
+  for (const v of ['robot', 'AI', '', 'all,ai', 'ai ']) assert.equal(parseState(`made=${encodeURIComponent(v)}`).made, 'all', v);
+  assert.equal(isFiltered(state({ made: 'ai' })), true);
+  assert.equal(isFiltered(state({ made: 'all' })), false);
+});
+
 test('isFiltered: the sort alone does not count as a filter', () => {
   assert.equal(isFiltered(state({ sort: 'size' })), false);
   assert.equal(isFiltered(state({ q: ' ' })), false);

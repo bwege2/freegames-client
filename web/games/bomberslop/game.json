@@ -27,6 +27,7 @@
   ],
   "added": "2026-11-02",
   "remake": true,
+  "madeWith": "ai",
   "caveat": "Bomberslop is 100% made by AI (Claude): all of its code and every picture. Its base, the rules, and its sounds come from ClanBomber 2 (2.2.0, GPL-3.0-or-later): the rules are a port of the original's code, checked frame by frame against it; the sound effects are ClanBomber 2's own, unchanged. The blobs, bombs, arenas, extras and the Ladle are new.",
   "links": [
     { "label": "ClanBomber in the Open Source Game Index", "url": "https://foss-gameindex.github.io/opensourcegameindex/games/clanbomber/index.html" },

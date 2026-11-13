@@ -9,6 +9,12 @@
   --accent-text: #ffffff;
   --live: #1a7f37;
   --shadow: 0 1px 3px rgb(0 0 0 / .08), 0 6px 20px rgb(0 0 0 / .06);
+  /* the slop filter (Alle / Originals / AI-Spiele) */
+  --made-bg: #e9ecf0;
+  --made-text: #3d454e;
+  --made-on-bg: #ffffff;
+  --made-on-text: #1d2125;
+  --made-on-ai: #8a3ffc;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -21,6 +27,11 @@
     --accent: #5b8ff0;
     --live: #3fb950;
     --shadow: 0 1px 3px rgb(0 0 0 / .4);
+    --made-bg: #262b31;
+    --made-text: #b7bec7;
+    --made-on-bg: #3a4049;
+    --made-on-text: #ffffff;
+    --made-on-ai: #c19bff;
     color-scheme: dark;
   }
 }
@@ -46,6 +57,16 @@ button { font: inherit; }
 .filters-toggle { padding: .4rem .9rem; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: inherit; cursor: pointer; }
 .filters-toggle[aria-expanded="true"] { border-color: var(--accent); }
 .clear { padding: .4rem .9rem; border: 1px solid var(--line); border-radius: 999px; background: transparent; color: var(--accent); cursor: pointer; }
+/* the slop filter: a segmented control that wraps on narrow screens */
+.made-filter { display: flex; flex-wrap: wrap; gap: .25rem; width: fit-content; max-width: 100%; margin: 0 0 .6rem; padding: .25rem;
+  border-radius: 12px; background: var(--made-bg); }
+.made-option { flex: 1 0 auto; padding: .4rem .9rem; border: 0; border-radius: 9px; background: transparent; color: var(--made-text);
+  font-size: .93rem; cursor: pointer; white-space: nowrap; }
+.made-option:hover { color: var(--made-on-text); }
+.made-option:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.made-option[aria-pressed="true"] { background: var(--made-on-bg); color: var(--made-on-text); font-weight: 600; box-shadow: var(--shadow); }
+.made-ai[aria-pressed="true"] { color: var(--made-on-ai); }
+.made-count { font-size: .8rem; opacity: .75; font-variant-numeric: tabular-nums; }
 .chips { display: flex; flex-wrap: wrap; gap: .35rem 1rem; margin-top: .6rem; }
 .chip-group { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
 .chip-group-name { color: var(--muted); font-size: .8rem; margin-right: .1rem; }

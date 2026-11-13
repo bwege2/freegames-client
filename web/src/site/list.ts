@@ -7,8 +7,8 @@ import { el, legalFooter } from './dom.ts';
 import { gameHref } from './hosts.ts';
 import { thumb } from './thumb.ts';
 import {
-  apply, counts, decadeLabel, formatState, isFiltered, parseState, MODE_LABELS, NO_FILTERS, PLAYING_STEPS, SORT_LABELS, SORTS,
-  type ListState, type SortKey,
+  apply, counts, decadeLabel, formatState, isFiltered, parseState, MADE, MADE_LABELS, MODE_LABELS, NO_FILTERS, PLAYING_STEPS, SORT_LABELS, SORTS,
+  type ListState, type Made, type SortKey,
 } from './filter.ts';
 import { liveText, onLive, playersOf, type Live } from './live.ts';
 
@@ -68,6 +68,29 @@ export function listView(query = '', signal: AbortSignal = new AbortController()
     showFilters();
   });
   showFilters();
+  // the slop filter: Alle / Originals / AI-Spiele, one choice at a time, always in view. The buttons stay
+  // (render() updates their state and counts), so the focused one keeps the focus.
+  const madeButtons = new Map<Made, { b: HTMLButtonElement; n: HTMLElement }>();
+  const made = el('div', { className: 'made-filter' }, ...MADE.map((k) => {
+    const n = el('span', { className: 'made-count' });
+    const b = el('button', { type: 'button', className: `made-option made-${k}` }, el('span', { textContent: MADE_LABELS[k] }), ' ', n);
+    b.addEventListener('click', () => set({ made: k }));
+    madeButtons.set(k, { b, n });
+    return b;
+  }));
+  made.setAttribute('role', 'group');
+  made.setAttribute('aria-label', 'Slopfilter: Originals oder AI-Spiele');
+  // arrow keys move between the choices (Tab, Enter and Space work as on any button)
+  made.addEventListener('keydown', (e) => {
+    const bs = MADE.map((k) => madeButtons.get(k)!.b);
+    const i = bs.indexOf(document.activeElement as HTMLButtonElement);
+    if (i < 0) return;
+    const j = e.key === 'ArrowRight' ? (i + 1) % bs.length : e.key === 'ArrowLeft' ? (i + bs.length - 1) % bs.length
+      : e.key === 'Home' ? 0 : e.key === 'End' ? bs.length - 1 : -1;
+    if (j < 0) return;
+    e.preventDefault();
+    bs[j].focus();
+  });
   const status = el('p', { className: 'result-count' });
   status.setAttribute('role', 'status');
   const cards = el('div', { className: 'cards' });
@@ -114,6 +137,12 @@ export function listView(query = '', signal: AbortSignal = new AbortController()
       group('Genre', [...c.genres].map(([g, n]) => chip(`genre:${g}`, g, n, s.genres.includes(g), () => set({ genres: toggle(s.genres, g) })))),
     ].filter((g): g is HTMLElement => !!g));
     if (focused) (chips.querySelector(`[data-key="${CSS.escape(focused)}"]`) as HTMLElement | null)?.focus();
+    for (const k of MADE) {
+      const { b, n } = madeButtons.get(k)!;
+      b.setAttribute('aria-pressed', String(s.made === k));
+      const text = `(${c.made[k]})`;
+      if (n.textContent !== text) n.textContent = text;
+    }
 
     const active = s.genres.length + s.decades.length + s.modes.length + (s.playable ? 1 : 0) + (s.playing ? 1 : 0);
     filters.textContent = active ? `Filters · ${active}` : 'Filters';
@@ -161,7 +190,7 @@ export function listView(query = '', signal: AbortSignal = new AbortController()
     el('header', { className: 'site-head' },
       el('h1', { textContent: 'freegames' }),
       el('p', { textContent: 'A free games collection, browser-ported to run in 2 clicks.' })),
-    el('div', { className: 'toolbar' }, el('div', { className: 'toolbar-row' }, search, filters, sortLabel, clear), chips, status),
+    el('div', { className: 'toolbar' }, made, el('div', { className: 'toolbar-row' }, search, filters, sortLabel, clear), chips, status),
     cards,
     legalFooter());
 }

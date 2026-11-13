@@ -5,13 +5,23 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { GENRES, PLAY_MODES } from '../src/sdk/game.ts';
+import { GENRES, MADE_WITH, PLAY_MODES } from '../src/sdk/game.ts';
+
+/** `madeWith` is absent (an original) or one of MADE_WITH */
+function checkMadeWith(m: { madeWith?: unknown }): void {
+  if (m.madeWith !== undefined) assert.ok((MADE_WITH as readonly unknown[]).includes(m.madeWith), `madeWith is ${MADE_WITH.join(' or ')} (${String(m.madeWith)})`);
+}
 
 const GAMES = join(import.meta.dirname, '..', 'games');
 const dirs = readdirSync(GAMES, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 
 test('there are game folders', () => {
   assert.ok(dirs.length >= 1);
+});
+
+test('madeWith: absent, "human" or "ai"; anything else is refused', () => {
+  for (const v of [undefined, 'human', 'ai']) assert.doesNotThrow(() => checkMadeWith({ madeWith: v }), String(v));
+  for (const v of ['robot', 'AI', '', true, 1]) assert.throws(() => checkMadeWith({ madeWith: v }), String(v));
 });
 
 for (const dir of dirs) {
@@ -38,6 +48,7 @@ for (const dir of dirs) {
     assert.ok(Array.isArray(m.genres) && m.genres.every((g: string) => (GENRES as readonly string[]).includes(g)), `genres from the vocabulary in src/sdk/game.ts (${m.genres})`);
     assert.ok(Array.isArray(m.modes) && m.modes.length > 0 && m.modes.every((x: string) => (PLAY_MODES as readonly string[]).includes(x)), `modes are ${PLAY_MODES.join('/')}`);
     if (m.listed !== false) assert.ok(m.genres.length > 0, 'a listed game has a genre');
+    checkMadeWith(m);
     if (m.added !== undefined) assert.match(m.added, /^\d{4}-\d{2}-\d{2}$/, 'added is YYYY-MM-DD');
     if (m.remake !== undefined) {
       assert.equal(typeof m.remake, 'boolean', 'remake is true or false');

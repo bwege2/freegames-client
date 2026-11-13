@@ -21,6 +21,12 @@ export type Genre = typeof GENRES[number];
 export const PLAY_MODES = ['single', 'multi', 'online'] as const;
 export type PlayMode = typeof PLAY_MODES[number];
 
+/** Who made the game itself (its design, pictures, levels): people ("human", the originals) or an AI ("ai"). */
+export const MADE_WITH = ['human', 'ai'] as const;
+export type MadeWith = typeof MADE_WITH[number];
+/** a manifest's `madeWith`; a game.json without one is an original ("human") */
+export const madeWithOf = (m: { madeWith?: MadeWith }): MadeWith => (m.madeWith === 'ai' ? 'ai' : 'human');
+
 /** web/games/<id>/game.json */
 export interface GameManifest {
   /** = the folder name, the server's game id, protocol/games/<id>.capnp */
@@ -67,6 +73,11 @@ export interface GameManifest {
    * page says "Based on" instead of "This port follows", and the caveat says what comes from the original
    */
   remake?: boolean;
+  /**
+   * "ai" for a game made by an AI (a new game, not a port of a game people made): the list's "AI-Spiele" filter shows it.
+   * Absent or "human": an original, shown under "Originals". (The port's code is not what this is about.)
+   */
+  madeWith?: MadeWith;
   /** more about the game and where it comes from (an index's entry, the original's project page, a tool it was made with): shown on its page */
   links?: { label: string; url: string }[];
   /**

@@ -2,7 +2,7 @@
 // The game list's search, filters and sort, and how they sit in the URL (#/?q=…&genre=…&sort=…).
 // Plain functions over the catalog's games and the players now (live.ts), so node tests check them
 // without a browser.
-import { GENRES, PLAY_MODES, type GameManifest, type Genre, type PlayMode } from '../sdk/game.ts';
+import { GENRES, PLAY_MODES, madeWithOf, type GameManifest, type Genre, type MadeWith, type PlayMode } from '../sdk/game.ts';
 import { playersOf, type Live } from './live.ts';
 
 /** what the list needs of a catalog entry */
@@ -22,6 +22,11 @@ export const PLAYING_STEPS = [1, 2, 5] as const;
 
 export const MODE_LABELS: Record<PlayMode, string> = { single: '1 player', multi: '2+ on one computer', online: 'Online' };
 
+/** the slop filter: every game, only the originals (made by people) or only the games an AI made */
+export const MADE = ['all', 'human', 'ai'] as const;
+export type Made = typeof MADE[number];
+export const MADE_LABELS: Record<Made, string> = { all: 'Alle', human: 'Originals', ai: 'AI-Spiele' };
+
 export interface ListState {
   /** the search text, as typed */
   q: string;
@@ -34,9 +39,11 @@ export interface ListState {
   /** only games with at least this many players now (one of PLAYING_STEPS), 0: any */
   playing: number;
   sort: SortKey;
+  /** the slop filter */
+  made: Made;
 }
 
-export const NO_FILTERS: ListState = { q: '', genres: [], decades: [], modes: [], playable: false, playing: 0, sort: 'title' };
+export const NO_FILTERS: ListState = { q: '', genres: [], decades: [], modes: [], playable: false, playing: 0, sort: 'title', made: 'all' };
 
 export const decadeOf = (year: number) => Math.floor(year / 10) * 10;
 export const decadeLabel = (decade: number) => `${decade}s`;
@@ -49,7 +56,7 @@ export function fold(s: string): string {
   return s.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
 }
 
-/** The state in a list URL's query ("q=cave&genre=puzzle,adventure&year=1980s&players=online&playable=1&playing=2&sort=year"). */
+/** The state in a list URL's query ("q=cave&genre=puzzle,adventure&year=1980s&players=online&playable=1&playing=2&made=ai&sort=year"). */
 export function parseState(query: string): ListState {
   const p = new URLSearchParams(query);
   const list = (k: string) => (p.get(k) ?? '').split(',').map((v) => v.trim()).filter(Boolean);
@@ -58,9 +65,10 @@ export function parseState(query: string): ListState {
   const modes = list('players').filter((v): v is PlayMode => (PLAY_MODES as readonly string[]).includes(v));
   const sort = (SORTS as readonly string[]).includes(p.get('sort') ?? '') ? (p.get('sort') as SortKey) : 'title';
   const playing = Number(p.get('playing'));
+  const made = (MADE as readonly string[]).includes(p.get('made') ?? '') ? (p.get('made') as Made) : 'all';
   return {
     q: p.get('q') ?? '', genres: unique(genres), decades: unique(decades).sort((a, b) => a - b), modes: unique(modes),
-    playable: p.get('playable') === '1', playing: (PLAYING_STEPS as readonly number[]).includes(playing) ? playing : 0, sort,
+    playable: p.get('playable') === '1', playing: (PLAYING_STEPS as readonly number[]).includes(playing) ? playing : 0, sort, made,
   };
 }
 
@@ -73,6 +81,7 @@ export function formatState(s: ListState): string {
   if (s.modes.length) p.set('players', s.modes.join(','));
   if (s.playable) p.set('playable', '1');
   if (s.playing) p.set('playing', String(s.playing));
+  if (s.made !== 'all') p.set('made', s.made);
   if (s.sort !== 'title') p.set('sort', s.sort);
   return p.toString().replace(/%2C/g, ',');
 }
@@ -99,7 +108,7 @@ export function matches(m: GameManifest, q: string): boolean {
   return words.every((w) => hay!.includes(w));
 }
 
-type Facet = 'genres' | 'decades' | 'modes' | 'playable' | 'playing';
+type Facet = 'genres' | 'decades' | 'modes' | 'playable' | 'playing' | 'made';
 
 /** The search and every filter but `except` (a facet's counts ignore its own choice). */
 function passes(g: Listed, s: ListState, live: Live | null, except?: Facet): boolean {
@@ -110,6 +119,7 @@ function passes(g: Listed, s: ListState, live: Live | null, except?: Facet): boo
   if (except !== 'modes' && s.modes.length && !s.modes.some((x) => m.modes?.includes(x))) return false;
   if (except !== 'playable' && s.playable && !g.load) return false;
   if (except !== 'playing' && s.playing && playersOf(live, m.id).playing < s.playing) return false;
+  if (except !== 'made' && s.made !== 'all' && madeWithOf(m) !== s.made) return false;
   return true;
 }
 
@@ -149,6 +159,8 @@ export interface FacetCounts {
   playable: number;
   /** each PLAYING_STEPS value: the games with at least that many players now */
   playing: Map<number, number>;
+  /** the slop filter's choices: all, human, ai */
+  made: Record<Made, number>;
 }
 
 /**
@@ -162,13 +174,18 @@ export function counts(games: Listed[], s: ListState, live: Live | null = null):
   for (const mo of PLAY_MODES) if (games.some((x) => x.manifest.modes?.includes(mo))) modes.set(mo, 0);
   const playing = new Map<number, number>(PLAYING_STEPS.map((n) => [n, 0]));
   let playable = 0;
+  const made: Record<Made, number> = { all: 0, human: 0, ai: 0 };
   for (const g of games) {
     const m = g.manifest;
+    if (passes(g, s, live, 'made')) {
+      made.all++;
+      made[madeWithOf(m) satisfies MadeWith]++;
+    }
     if (passes(g, s, live, 'genres')) for (const x of m.genres ?? []) genres.set(x, (genres.get(x) ?? 0) + 1);
     if (passes(g, s, live, 'decades')) decades.set(decadeOf(m.original.year), (decades.get(decadeOf(m.original.year)) ?? 0) + 1);
     if (passes(g, s, live, 'modes')) for (const x of m.modes ?? []) modes.set(x, (modes.get(x) ?? 0) + 1);
     if (g.load && passes(g, s, live, 'playable')) playable++;
     if (passes(g, s, live, 'playing')) for (const n of PLAYING_STEPS) if (playersOf(live, m.id).playing >= n) playing.set(n, playing.get(n)! + 1);
   }
-  return { genres, decades, modes, playable, playing };
+  return { genres, decades, modes, playable, playing, made };
 }
