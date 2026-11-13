@@ -1,7 +1,8 @@
 // Teeworlds online, end to end, on the real server: three browsers play deathmatch in one room, two more play
 // capture the flag in another. Checks that every client sees the others where they are (the position one client
 // has for a tee is, at the same moment, where that tee's own client has it, within what it runs in a moment),
-// that the snapshots come at the original's rate (25 a second), that the datagrams flow both ways (the clients'
+// that the snapshots come every tick (50 a second, not the original's 25), that the inputs reach the server before
+// their tick, that the datagrams flow both ways (the clients'
 // counts and the server's /stats), that chat goes round, that a player can leave and drop back in, that the CTF
 // game has its flags and team scores and that a tee steered as the oracle's bots grabs the enemy flag and
 // captures it, which ends the round at its score limit, that Back stops everything and that the rooms close
@@ -248,7 +249,7 @@ try {
 
   // ---- what they saw
   const samples = await Promise.all(all.map(({ p }) => p.evaluate(() => window.__samples)));
-  // the snapshots come at the original's rate: the server ticks 50 times a second and sends every second tick
+  // the snapshots come every tick: the server ticks 50 times a second and sends a snapshot each (sv_high_bandwidth)
   const rate = samples.map((ss) => {
     let n = 0, dt = 0;
     for (let i = 1; i < ss.length; i++) {
@@ -258,7 +259,10 @@ try {
     }
     return dt ? n / (dt / 1000) : 0;
   });
-  check(rate.every((f) => f > 20 && f < 30), `snapshots at the original's rate (25/s): ${rate.map((f) => f.toFixed(1)).join(', ')} per second`);
+  check(rate.every((f) => f > 42 && f < 55), `snapshots every tick (50/s): ${rate.map((f) => f.toFixed(1)).join(', ')} per second`);
+  // the inputs come before their tick (PREDICTION_MARGIN): a late one is moved to the next tick and the prediction was off
+  const late = end.map((s) => [s.lateInputs, s.inputTimings]);
+  check(late.every(([l, n]) => n > 100 && l <= n * 0.05), `inputs after their tick: ${late.map(([l, n]) => `${l} of ${n}`).join(', ')}`);
   check(end.every((s) => s.state === 3 && s.datagramsIn > 0 && s.datagramsOut > 0),
     `datagrams both ways: ${end.map((s, i) => `${all[i].name} ${s.datagramsIn} in (${s.bytesIn} B), ${s.datagramsOut} out (${s.bytesOut} B)`).join('; ')}`);
   const dOut = (s1.wtDatagram.outMsgs - s0.wtDatagram.outMsgs) / elapsed, dIn = (s1.wtDatagram.inMsgs - s0.wtDatagram.inMsgs) / elapsed;

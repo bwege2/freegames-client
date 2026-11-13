@@ -132,6 +132,9 @@ export interface Snapshot {
   /** snapshots received per second (over the last second) */
   snapsPerSecond: number;
   snapshots: number;
+  /** the server's answers on the inputs' timing, and how many of them came after their tick */
+  inputTimings: number;
+  lateInputs: number;
   datagramsIn: number;
   datagramsOut: number;
   bytesIn: number;
@@ -453,7 +456,7 @@ class TeeworldsGame implements GameInstance {
     }
     return {
       localId: gc.m_LocalClientID, state: cl.State(), tick: cl.GameTick(), predTick: cl.PredGameTick(),
-      snapsPerSecond: this.snapTimes.length, snapshots: cl.stats.snapshots,
+      snapsPerSecond: this.snapTimes.length, snapshots: cl.stats.snapshots, inputTimings: cl.stats.inputTimings, lateInputs: cl.stats.lateInputs,
       ...this.stats,
       map: utf8Decode(cl.CurrentMap()), gameType: cl.GetServerInfo().m_aGameType,
       menuActive: gc.m_pMenus.IsActive(), pointerLocked: this.input.locked(),

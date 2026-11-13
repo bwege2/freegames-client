@@ -45,7 +45,7 @@ The server (in our server):
   tournament and ready modes, team balance, inactivity kick, spectator settings, vote settings, spam protection,
   the name and the message of the day. Only those keys, each within its limits, and vote options with commands
   of a fixed set (map, game type, limits, restart, reload, pause, team commands, say). Not available:
-  `sv_high_bandwidth` (the update rate stays the original's), passwords, ports, logs, demos, the econ console.
+  `sv_high_bandwidth` (every room has it on, see *The network*), passwords, ports, logs, demos, the econ console.
 * **Only the official maps** (dm1–dm3, dm6–dm9, ctf1–ctf8, lms1) are on the server; clients that lack one
   download it from the server as in the original.
 * **At most 16 players** per room (the site's seat limit; the server is configured for 16 clients).
@@ -90,3 +90,27 @@ The network:
 
 * **The network** is the site's: the datagrams go as WebTransport datagrams, or over the WebSocket fallback,
   where none is lost; a datagram larger than the transport's datagram size goes reliably.
+
+**Not the original's netcode** (the protocol stays 0.7's, these are on top of it; the server's replay of the
+original's recordings, which use none of them, still gives the original's bytes):
+
+* **The ninja is predicted.** The original fires the ninja the moment its input reaches the server, ticks before the
+  tick the client predicted it for, and the client's prediction knows no dash: your tee stood still for your ping,
+  then jumped the whole dash at once. Here the server fires it at the tick its input is for (a press of fire between
+  the last tick's input and this one's; a press while it reloads does nothing, as before) and sends the dash's state
+  (direction, ticks left, the speed before it, reload, end) to the tee's own client in a snapshot item of its own
+  (type 63, `NETOBJTYPE_FG_NINJA`, ignored by any other client). The client moves its tee through the dash as the
+  server does, float for float (`src/game/ninja.ts`), and swings the sword when the predicted dash starts.
+  Measured on a room of this server (`test/ninja.test.ts` on the fixture `NinjaTest.java` writes: two dashes and a
+  press in the reload): of 1245 predictions up to 10 ticks ahead all are the server's tee to the unit; the
+  original's prediction got 290 of them wrong, by up to 386 units.
+* **A snapshot every tick** (50 a second, `sv_high_bandwidth 1` in every room; the original sends every second
+  tick): the other tees are drawn up to 20 ms fresher and a correction of your own comes twice as soon. Measured in
+  the end-to-end test: 50.0 snapshots a second, 3.2 KiB/s to each player (five players in two rooms), the server's
+  tick 0.07 to 0.10 ms on average; a full room of 16 (`TeeworldsBudgetTest`): 0.21 ms a tick instead of 0.15, 4.1 kB
+  a second to each player instead of 2.5.
+* **Corrections are drawn away, not jumped.** When a snapshot puts your predicted tee right (you were hit, hooked or
+  pushed, which the client cannot know), the difference is drawn away over about 100 ms (it halves every 30 ms;
+  more than 200 units, as a respawn, is not smoothed). The camera follows.
+* Inputs still aim at 10 ms before their tick (the original's margin): in the end-to-end test 0.3 to 0.4 % came
+  after their tick with 10 ms or with 20 ms alike; the client counts them (the end-to-end test asks for at most 5 %).

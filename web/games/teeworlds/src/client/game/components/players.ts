@@ -44,7 +44,9 @@ export class CPlayers extends CComponent {
       gc.m_PredictedPrevChar.Write(Prev);
       IntraTick = Cl.PredIntraGameTick();
     }
-    const Position = vmix(new vec2(Prev.m_X, Prev.m_Y), new vec2(Player.m_X, Player.m_Y), IntraTick);
+    let Position = vmix(new vec2(Prev.m_X, Prev.m_Y), new vec2(Player.m_X, Player.m_Y), IntraTick);
+    // not the original's: the own tee drawn where its correction is being drawn away (CGameClient::PredSmooth)
+    if (this.usePredicted(ClientID)) Position = Position.add(gc.PredSmooth());
     if (Prev.m_HookState > 0 && Player.m_HookState > 0) {
       G.TextureSet(ImageTex(C.IMAGE_GAME));
       G.QuadsBegin();
@@ -52,7 +54,7 @@ export class CPlayers extends CComponent {
       let HookPos: vec2;
       if (pPlayerChar.m_HookedPlayer !== -1) {
         if (gc.m_LocalClientID !== -1 && pPlayerChar.m_HookedPlayer === gc.m_LocalClientID)
-          HookPos = vmix(gc.m_PredictedPrevChar.m_Pos, gc.m_PredictedChar.m_Pos, Cl.PredIntraGameTick());
+          HookPos = vmix(gc.m_PredictedPrevChar.m_Pos, gc.m_PredictedChar.m_Pos, Cl.PredIntraGameTick()).add(gc.PredSmooth());
         else if (gc.m_LocalClientID === ClientID) {
           const h = gc.m_Snap.m_aCharacters[pPlayerChar.m_HookedPlayer];
           HookPos = vmix(new vec2(h.m_Prev.m_X, h.m_Prev.m_Y), new vec2(h.m_Cur.m_X, h.m_Cur.m_Y), Cl.IntraGameTick());
@@ -92,7 +94,8 @@ export class CPlayers extends CComponent {
       IntraTick = Cl.PredIntraGameTick();
     }
     const Direction = direction(Angle);
-    const Position = vmix(new vec2(Prev.m_X, Prev.m_Y), new vec2(Player.m_X, Player.m_Y), IntraTick);
+    let Position = vmix(new vec2(Prev.m_X, Prev.m_Y), new vec2(Player.m_X, Player.m_Y), IntraTick);
+    if (this.usePredicted(ClientID)) Position = Position.add(gc.PredSmooth());
     const Vel = vmix(new vec2(Prev.m_VelX / 256, Prev.m_VelY / 256), new vec2(Player.m_VelX / 256, Player.m_VelY / 256), IntraTick);
     gc.m_pFlow.Add(Position, Vel.mul(100), 10);
     RenderInfo.m_GotAirJump = Player.m_Jumped & 2 ? 0 : 1;
@@ -114,7 +117,10 @@ export class CPlayers extends CComponent {
       State.Add(A[C.ANIM_HAMMER_SWING], clamp(ct * 5, 0, 1), 1);
     }
     if (Player.m_Weapon === P.WEAPON_NINJA) {
-      const ct = (Cl.PrevGameTick() - Player.m_AttackTick) / SERVER_TICK_SPEED + this.s_LastGameTickTime;
+      let ct = (Cl.PrevGameTick() - Player.m_AttackTick) / SERVER_TICK_SPEED + this.s_LastGameTickTime;
+      // not the original's: the own ninja swings when its predicted dash starts, on the predicted clock
+      if (this.usePredicted(ClientID) && gc.m_PredictedNinjaAttackTick >= Player.m_AttackTick)
+        ct = (Cl.PredGameTick() - 1 - gc.m_PredictedNinjaAttackTick + Cl.PredIntraGameTick()) / SERVER_TICK_SPEED;
       State.Add(A[C.ANIM_NINJA_SWING], clamp(ct * 2, 0, 1), 1);
     }
     if (!InAir && WantOtherDir && length(Vel.mul(50)) > 500) {

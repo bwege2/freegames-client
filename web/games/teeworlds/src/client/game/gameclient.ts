@@ -13,6 +13,7 @@ import { SANITIZE_CC } from '../../engine/shared/packer.ts';
 import { CLayers } from '../../game/layers.ts';
 import { CCollision } from '../../game/collision.ts';
 import { CCharacterCore, CTuningParams, CWorldCore } from '../../game/gamecore.ts';
+import { CNinja, FG_NINJA_INTS, NETOBJTYPE_FG_NINJA } from '../../game/ninja.ts';
 import { CClient, STATE_DEMOPLAYBACK, STATE_ONLINE, SNAP_CURRENT, SNAP_PREV, type IGameClient, type CSnapItem } from '../engine/client.ts';
 import type { CGraphics } from '../engine/graphics.ts';
 import { CQuadItem, FORMAT_AUTO, TEXLOAD_LINEARMIPMAPS } from '../engine/graphics.ts';
@@ -100,6 +101,11 @@ const gs_GameMsgList: { m_Action: number; m_ParaType: number; m_pText: string }[
 ];
 
 export const SERVERMODE_PURE = 0, SERVERMODE_MOD = 1, SERVERMODE_PUREMOD = 2;
+/**
+ * Not the original's: a correction of the own tee's prediction is drawn away, its offset halving every SMOOTH_HALF
+ * seconds (90 % gone after 0.1 s); one larger than SMOOTH_MAX units (x + y: a respawn, a teleport) is not smoothed.
+ */
+export const SMOOTH_HALF = 0.03, SMOOTH_MAX = 200;
 
 export interface CPlayerInfoItem { m_pPlayerInfo: P.CNetObj_PlayerInfo | null; m_ClientID: number }
 export interface CCharacterInfo { m_Active: boolean; m_Prev: P.CNetObj_Character; m_Cur: P.CNetObj_Character; m_Position: vec2 }
@@ -131,6 +137,8 @@ export class CSnapState {
   m_aInfoByScore: CPlayerInfoItem[] = Array.from({ length: MAX_CLIENTS }, () => ({ m_pPlayerInfo: null, m_ClientID: 0 }));
   m_SpecInfo = { m_Active: false, m_SpecMode: 0, m_SpectatorID: 0, m_UsePosition: false, m_Position: new vec2(0, 0) };
   m_aCharacters: CCharacterInfo[] = Array.from({ length: MAX_CLIENTS }, () => ({ m_Active: false, m_Prev: emptyCharacter(), m_Cur: emptyCharacter(), m_Position: new vec2(0, 0) }));
+  /** not the original's: the own tee's ninja at the snapshot's tick (the server's item NETOBJTYPE_FG_NINJA), or null */
+  m_pLocalNinja: CNinja | null = null;
 }
 
 const s_aBotColors = [
@@ -513,10 +521,11 @@ export class CGameClient implements IGameClient {
 
   private UpdatePositions(): void {
     const S = this.m_Snap;
+    this.DecaySmooth();
     if (this.Config().m_ClPredict && this.Client().State() !== STATE_DEMOPLAYBACK) {
       if (!S.m_pLocalCharacter || (S.m_pGameData && S.m_pGameData.m_GameStateFlags & (P.GAMESTATEFLAG_PAUSED | P.GAMESTATEFLAG_ROUNDOVER | P.GAMESTATEFLAG_GAMEOVER))) {
         // don't use predicted
-      } else this.m_LocalCharacterPos = vmix(this.m_PredictedPrevChar.m_Pos, this.m_PredictedChar.m_Pos, this.Client().PredIntraGameTick());
+      } else this.m_LocalCharacterPos = vmix(this.m_PredictedPrevChar.m_Pos, this.m_PredictedChar.m_Pos, this.Client().PredIntraGameTick()).add(this.PredSmooth());
     } else if (S.m_pLocalCharacter && S.m_pLocalPrevCharacter) {
       this.m_LocalCharacterPos = vmix(new vec2(S.m_pLocalPrevCharacter.m_X, S.m_pLocalPrevCharacter.m_Y), new vec2(S.m_pLocalCharacter.m_X, S.m_pLocalCharacter.m_Y), this.Client().IntraGameTick());
     }
@@ -823,6 +832,8 @@ export class CGameClient implements IGameClient {
       const Num = Cl.SnapNumItems(SNAP_CURRENT);
       for (let Index = 0; Index < Num; Index++) {
         const d = Cl.SnapGetItem(SNAP_CURRENT, Index, Item);
+        // the server's own item (not the original's protocol): checked here, by its size
+        if (Item.m_Type === NETOBJTYPE_FG_NINJA && Item.m_DataSize === FG_NINJA_INTS * 4) continue;
         if (this.m_NetObjHandler.ValidateObj(Item.m_Type, d, Item.m_DataSize) !== 0) {
           if (this.Config().m_Debug)
             this.Console().Print(OUTPUT_LEVEL_DEBUG, 'game', str_format(256, 'invalidated index=%d type=%d (%s) size=%d id=%d', Index, Item.m_Type, this.m_NetObjHandler.GetObjName(Item.m_Type), Item.m_DataSize, Item.m_ID));
@@ -900,6 +911,8 @@ export class CGameClient implements IGameClient {
           S.m_pGameDataRace = P.read_CNetObj_GameDataRace(d);
         } else if (Item.m_Type === P.NETOBJTYPE_FLAG) {
           S.m_paFlags[Item.m_ID % 2] = P.read_CNetObj_Flag(d);
+        } else if (Item.m_Type === NETOBJTYPE_FG_NINJA && Item.m_ID === this.m_LocalClientID) {
+          S.m_pLocalNinja = CNinja.read(d);
         }
       }
     }
@@ -965,6 +978,9 @@ export class CGameClient implements IGameClient {
       this.m_aClients[i].m_Predicted.Read(S.m_aCharacters[i].m_Cur);
     }
     const Cl = this.Client();
+    const OldTick = this.m_PredictedTick, OldPos = this.m_PredictedChar.m_Pos;
+    // not the original's: the own tee's ninja from the snapshot's item, moved on with the inputs (game/ninja.ts)
+    let Ninja = S.m_pLocalNinja ? S.m_pLocalNinja.clone() : null;
     for (let Tick = Cl.GameTick() + 1; Tick <= Cl.PredGameTick(); Tick++) {
       if (Tick === Cl.PredGameTick() && World.m_apCharacters[this.m_LocalClientID]) this.m_PredictedPrevChar = World.m_apCharacters[this.m_LocalClientID]!.clone();
       for (let c = 0; c < MAX_CLIENTS; c++) {
@@ -975,6 +991,11 @@ export class CGameClient implements IGameClient {
           const pInput = Cl.GetInput(Tick);
           if (pInput) ch.m_Input = P.read_CNetObj_PlayerInput(pInput);
           ch.Tick(true);
+          if (Ninja) {
+            const pPrev = Cl.GetInput(Tick - 1);
+            if (!Ninja.Tick(ch, Tick, ch.m_Input, pPrev ? P.read_CNetObj_PlayerInput(pPrev) : ch.m_Input)) Ninja = null;
+            else if (Ninja.m_AttackTick === Tick) this.m_PredictedNinjaAttackTick = Math.max(this.m_PredictedNinjaAttackTick, Tick);
+          }
         } else ch.Tick(false);
       }
       for (let c = 0; c < MAX_CLIENTS; c++) {
@@ -991,6 +1012,38 @@ export class CGameClient implements IGameClient {
       if (Tick === Cl.PredGameTick() && World.m_apCharacters[this.m_LocalClientID]) this.m_PredictedChar = World.m_apCharacters[this.m_LocalClientID]!.clone();
     }
     this.m_PredictedTick = Cl.PredGameTick();
+    // not the original's: where a new snapshot puts the prediction right (the server's tee was hit, hooked, pushed),
+    // the tee is not drawn jumping there: the difference is drawn away over some 100 ms (PredSmooth)
+    let Err: vec2 | null = null;
+    if (this.m_PredictedTick === OldTick) Err = OldPos.sub(this.m_PredictedChar.m_Pos);
+    else if (this.m_PredictedTick === OldTick + 1) Err = OldPos.sub(this.m_PredictedPrevChar.m_Pos);
+    if (Err && (Err.x !== 0 || Err.y !== 0)) {
+      const o = this.m_SmoothOffset.add(Err);
+      this.m_SmoothOffset = Math.abs(o.x) + Math.abs(o.y) > SMOOTH_MAX ? new vec2(0, 0) : o;
+    }
+  }
+
+  /** not the original's: what the own tee is drawn off its predicted place, while a correction is drawn away */
+  m_SmoothOffset = new vec2(0, 0);
+  private m_SmoothTime = 0;
+  /** the tick of the own ninja's latest predicted attack (-1: none), for its swing (players.ts) */
+  m_PredictedNinjaAttackTick = -1;
+
+  /** the own tee's drawing offset now (see OnPredict); every frame it halves each SMOOTH_HALF seconds */
+  PredSmooth(): vec2 {
+    return this.m_SmoothOffset;
+  }
+
+  private DecaySmooth(): void {
+    const Now = this.Client().LocalTime(), dt = Math.max(0, Now - this.m_SmoothTime);
+    this.m_SmoothTime = Now;
+    const S = this.m_Snap;
+    if (!S.m_pLocalCharacter || !this.Config().m_ClPredict) {
+      this.m_SmoothOffset = new vec2(0, 0);
+      return;
+    }
+    const k = 0.5 ** (dt / SMOOTH_HALF), o = this.m_SmoothOffset.mul(k);
+    this.m_SmoothOffset = Math.abs(o.x) + Math.abs(o.y) < 0.25 ? new vec2(0, 0) : o;
   }
 
   DoEnterMessage(pName: string, ClientID: number, Team: number): void {
