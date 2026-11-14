@@ -1,0 +1,115 @@
+# The menu and the keys: every option up and down, the level lock, screen size and full screen,
+# mouse clicks on the menu, a game with pause, the menu in between (it changes the speed
+# adjustment in the first 400 frames), keypad and arrow keys, the item keys, self-destruct, game
+# over, and quit.
+seed 31337
+wait 40
+press DOWN
+press RIGHT
+wait 30
+press RIGHT
+wait 5
+press DOWN
+press RIGHT
+press RIGHT
+press LEFT
+wait 3
+press DOWN
+press LEFT
+press LEFT
+press RIGHT
+wait 3
+press DOWN
+press RETURN
+wait 3
+press RETURN
+press DOWN
+press LEFT
+press RIGHT
+wait 3
+press DOWN
+press RIGHT
+press LEFT
+press LEFT
+wait 3
+press DOWN
+press LEFT
+press RIGHT
+wait 3
+press DOWN
+press RIGHT
+press LEFT
+press LEFT
+wait 3
+press KP8
+press KP2
+press KP5
+wait 600
+click 1 300 330
+unclick 1 300 330
+wait 5
+click 1 150 330
+unclick 1 150 330
+wait 5
+click 1 200 300
+unclick 1 200 300
+wait 5
+click 1 300 150
+unclick 1 300 150
+wait 20
+press ESCAPE
+wait 30
+down SPACE
+down LEFT
+wait 25
+up LEFT
+down KP9
+wait 10
+up KP9
+press KP1
+press KP3
+press KP7
+press KP4
+press KP6
+press QUOTE
+press KP_PLUS
+press n
+press 9
+press 0
+wait 50
+press p
+wait 40
+press PAUSE
+wait 5
+press ESCAPE
+wait 10
+press ESCAPE
+wait 100
+move 30 -20
+wait 1
+move -60 10
+wait 1
+up SPACE
+click 1 400 300
+wait 60
+unclick 1 400 300
+click 2 400 300
+unclick 2 400 300
+press g
+wait 2
+press g
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 20
+click 3 400 300
+unclick 3 400 300
+wait 200
+press RETURN
+wait 3
+press RETURN
+wait 400
+bot 3000
+wait 200
+press q
+wait 5

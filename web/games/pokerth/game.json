@@ -1,0 +1,38 @@
+{
+  "id": "pokerth",
+  "title": "PokerTH",
+  "tagline": "Texas Hold'em against up to nine computer opponents, or against people online.",
+  "summary": [
+    "PokerTH plays Texas Hold'em, the poker of two hole cards and five board cards: the blinds, four betting rounds (preflop, flop, turn, river), side pots for players who are all in, and the showdown. Every player starts with the same cash, the blinds double every few hands, and the game goes on until one player has all the money.",
+    "Alone you sit at the table with one to nine computer opponents, each with a temper of its own, that bet by the odds of their hand, bluff now and then and remember how aggressive you play. Fold, check, call, bet, raise or go all in with the buttons or F1 to F4, set pre-actions while the others think, or let the table check and call or fold for you. The log tells every action and every shown hand.",
+    "This is PokerTH 1.1.2 (2017), its engine and computer opponents translated from the C++ source and checked hand by hand against the original. Online, two to ten people play one game over our server, which deals the cards: nobody sees a card before the table does."
+  ],
+  "original": {
+    "author": "Felix Hammer, Florian Thauer, Lothar May and the PokerTH team",
+    "year": 2006,
+    "platform": "C++ with Qt (Linux, Windows, macOS)",
+    "version": "1.1.2 (2017), the last release of the classic Qt client",
+    "license": "AGPL-3.0-or-later",
+    "packageBytes": 0,
+    "url": "https://www.pokerth.net/"
+  },
+  "players": "1 against 1–9 computer opponents, 2–10 online",
+  "genres": ["Card game"],
+  "modes": ["single", "online"],
+  "added": "2026-11-14",
+  "controls": [
+    { "input": "Mouse", "action": "The Fold, Check/Call, Bet/Raise and All-In buttons; the slider or the field above them sets the bet" },
+    { "input": "F1, F2, F3, F4", "action": "Fold, Check/Call, Bet/Raise, All-In" },
+    { "input": "Return in the bet field", "action": "Bet or raise that amount" },
+    { "input": "Buttons while the others act", "action": "Pre-actions: the checked button is taken when it is your turn" },
+    { "input": "F6, F7, F8", "action": "Away: manual, auto check/fold all, auto check/call any" },
+    { "input": "Shift, or the Stop button", "action": "Stop after this hand (local game); Start goes on, or starts a new game" },
+    { "input": "Speed slider", "action": "Game speed 1 to 11" },
+    { "input": "Ctrl+N", "action": "A new local game" }
+  ],
+  "screenshots": [
+    { "file": "table.png", "caption": "A local game with nine computer opponents, preflop" },
+    { "file": "showdown.png", "caption": "The showdown: the winner's best five cards stay bright" }
+  ],
+  "links": [{ "label": "PokerTH on GitHub", "url": "https://github.com/pokerth/pokerth" }]
+}

@@ -1,0 +1,119 @@
+# The three levels and both bosses: "fish in a barrel" skill, the bot with its shields kept up
+# (god) through level 1 (boss 0), level 2 (boss 1, gnats), level 3 (tanks); then without shields
+# while it blows itself up (self-destruct) until the game is over with a new high score; the
+# high-score file, the menu and its high-score list.
+seed 4242
+config gameSkillBase 0.2
+config maxLevel 3
+wait 30
+press DOWN
+press DOWN
+press LEFT
+press LEFT
+press LEFT
+press UP
+press UP
+wait 5
+press RETURN
+god 45000
+bot 2000
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+click 3 400 300
+unclick 3 400 300
+wait 2
+click 3 400 300
+unclick 3 400 300
+wait 300
+press RETURN
+wait 100
+press ESCAPE
+wait 300

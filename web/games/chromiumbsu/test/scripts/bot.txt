@@ -1,0 +1,6 @@
+# The default skill and level 1, played by the bot (driver.cpp bot()): shooting, shots and
+# collisions, power-ups, losing lives, game over and starting again.
+seed 1
+wait 30
+press RETURN
+bot 15000

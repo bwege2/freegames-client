@@ -208,6 +208,13 @@ def i_teeworlds(S):
     return clip(place(base, t, (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
 
 
+def i_pokerth(S):
+    # the PokerTH chip of the default table style (gfx/gui/table/default/genereticAvatar.png) on the table's green felt
+    chip = Image.open(G('pokerth', 'assets', 'table', 'genereticAvatar.png')).convert('RGBA')
+    base = tile(S, '#145300', top='#2f7d00')
+    return clip(place(base, trim(chip), (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
+
+
 def i_maelstrom(S):
     # the player's ship (sprites/icl8_200.png, 32x32) on black space with a few stars
     ship = Image.open(G('maelstrom', 'assets', 'sprites', 'icl8_200.png')).convert('RGBA')
@@ -249,6 +256,13 @@ def i_sopwith(S):
     art = Image.open(G('sopwith', 'assets', 'sopwith.png')).convert('RGBA')
     plane = art.crop((10, 10, 118, 118))
     return clip(place(tile(S, '#000000'), plane, (0, 0, S, S)), S)
+
+
+def i_chromiumbsu(S):
+    # the ship (data/png/hero.png, which the original also uses as its window icon) on the metal-blue night
+    art = Image.open(G('chromiumbsu', 'assets', 'png', 'hero.png')).convert('RGBA')
+    base = tile(S, '#0b0f1c', top='#2a3350')
+    return clip(place(base, art, (S * 0.08, S * 0.06, S * 0.84, S * 0.88)), S)
 
 
 def i_freecol(S):

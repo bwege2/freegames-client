@@ -13,14 +13,14 @@ export const SOURCE_URL = `https://github.com/${SOURCE_REPO}`;
  * tools from the pinned upstream source; the scripts that do both belong to its source. re/abuse: the
  * scripts that build Abuse's data pack (assets/abuse-data.bin) and fonts (src/fontdata.ts) from the
  * pinned release. re/frozenbubble: the script that packs Frozen Bubble's data (assets/fb-data.bin) from the pinned
- * release, and its test oracle. re/freecol: the Java-to-TypeScript translator (j2ts) that wrote FreeCol's
+ * release, and its test oracle. re/pokerth: the scripts that copy PokerTH's data and build its test oracle from the pinned release. re/freecol: the Java-to-TypeScript translator (j2ts) that wrote FreeCol's
  * port (src/gen) from the pinned release, and its test oracle.
  */
 export const SOURCE_PATHS = ['web', 'protocol', 'tools/gen-protocol.sh', 'docs/GAME-INTEGRATION.md', 'server/src/main/resources/xpilot/lib/maps',
-  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol'];
+  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol', 're/pokerth'];
 /** what it may never hold: the game server and the operations files */
 export const NEVER = [/^server\/(?!src\/main\/resources\/xpilot\/lib\/maps\/)/, /^slipstream\//, /^tools\/deploy/, /^docs\/(SERVER|DEPLOY)\.md$/, /^pom\.xml$/,
-  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/)/];
+  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/)/];
 
 /** The ids of the closed games at `commit`: those whose web/games/<id>/game.json says "closed": true. */
 export function closedGames(git, commit) {

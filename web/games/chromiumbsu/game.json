@@ -1,0 +1,74 @@
+{
+  "id": "chromiumbsu",
+  "title": "Chromium B.S.U.",
+  "tagline": "A cargo ship, a fleet of robot fighters, and not one enemy may get past.",
+  "summary": [
+    "Chromium B.S.U. (Mark B. Allan, 2000; version 0.9.16.1) is a fast vertically scrolling shoot-em-up: you are the cargo ship Chromium B.S.U. and steer its robot fighter over a metal world, shooting down waves of enemy craft before they get past you. Every enemy that gets by costs a life.",
+    "This port keeps the original's game code number for number: the ship with its three guns and their ammunition, shields, super shields and repairs, the seven enemy types with their movement and weapons, the three levels with both bosses, the score, extra lives and the high-score list. The OpenGL scene, the chrome title, the textures, sounds and music are the original's.",
+    "Play it with the mouse as the original (click into the game to let it capture the pointer) or with the arrow keys and the keypad; space or the left button fires."
+  ],
+  "original": {
+    "author": "Mark B. Allan (The Reptile Labour Project); later releases by Paul Wise, Tristan Heaven and others",
+    "year": 2000,
+    "platform": "C++/OpenGL (Linux, Windows, macOS)",
+    "version": "0.9.16.1",
+    "license": "Clarified Artistic License (game, images); MIT (sounds, music); GPL-2.0-or-later (font)",
+    "packageBytes": 1709898,
+    "url": "https://chromium-bsu.sourceforge.io/"
+  },
+  "players": "1",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-14",
+  "controls": [
+    {
+      "input": "Mouse / arrow keys / keypad 1-9",
+      "action": "Move the ship"
+    },
+    {
+      "input": "Left button / Space",
+      "action": "Fire (the extra guns fire with it once you have their ammunition)"
+    },
+    {
+      "input": "Right button twice / Enter twice",
+      "action": "Self-destruct (the ship's ammunition is ejected for the next one)"
+    },
+    {
+      "input": "P / Pause",
+      "action": "Pause"
+    },
+    {
+      "input": "Esc",
+      "action": "Menu (Esc again goes back to the game)"
+    },
+    {
+      "input": "Arrow keys, Enter, mouse",
+      "action": "Menu: choose, change values with left/right, start"
+    },
+    {
+      "input": "G / Q",
+      "action": "Release or capture the mouse / quit"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The menu with the chrome title, the options and the high scores"
+    },
+    {
+      "file": "playing.png",
+      "caption": "Level 1: the ship, enemy fighters and the status gauges"
+    }
+  ],
+  "links": [
+    {
+      "label": "Chromium B.S.U. on SourceForge",
+      "url": "https://sourceforge.net/projects/chromium-bsu/"
+    }
+  ],
+  "lazyAssets": []
+}
