@@ -9,6 +9,7 @@ import { siteHref } from './hosts.ts';
 import { listHref } from './list.ts';
 import { liveText, onLive, playersOf, popularText } from './live.ts';
 import { thumb } from './thumb.ts';
+import { CLOSED_LABEL } from '../sdk/game.ts';
 
 /** The page; it listens for the players now until `signal` aborts (the route moved on). */
 export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new AbortController().signal): HTMLElement {
@@ -52,17 +53,20 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
     });
   }
   const caveat = m.caveat ? el('p', { className: 'caveat-note', textContent: m.caveat }) : null;
+  // a closed game: not open source, and says what else is not free
+  const closedNote = m.closed ? el('p', { className: 'caveat-note closed-note' }, el('strong', { textContent: `${CLOSED_LABEL}. ` }), m.closedNote ?? '') : null;
   const o = m.original;
   const facts: [string, Node | string][] = [
-    ['Original', `${o.author}, ${o.year}`],
+    [m.own ? 'Made by' : 'Original', `${o.author}, ${o.year}`],
     ['Platform', o.platform],
-    [m.remake ? 'Based on' : 'This port follows', o.version],
-    ['License', o.license],
-    ['Original package', size(o.packageBytes)],
+    [m.own ? 'Version' : m.remake ? 'Based on' : 'This port follows', o.version],
+    ['License', m.closed ? CLOSED_LABEL : o.license],
+    // a game of our own has no original package to weigh
+    ...(m.own ? [] : [['Original package', size(o.packageBytes)] as [string, string]]),
     ['Genre', m.genres.join(', ')],
     ['Players', m.players],
     ...(g.load ? [['Download', download] as [string, Node]] : []),
-    ['Source', el('a', { href: o.url, textContent: o.url.replace(/^https?:\/\//, ''), target: '_blank', rel: 'noopener' })],
+    ['Source', m.closed ? 'not published (closed source)' : el('a', { href: o.url, textContent: o.url.replace(/^https?:\/\//, ''), target: '_blank', rel: 'noopener' })],
     ...(m.links?.length
       ? [['Links', el('ul', { className: 'links' }, ...m.links.map((l) => el('li', {}, el('a', { href: l.url, textContent: l.label, target: '_blank', rel: 'noopener' }))))] as [string, Node]]
       : []),
@@ -74,7 +78,7 @@ export function pageView(g: Game, onPlay: () => void, signal: AbortSignal = new 
       el('div', { className: 'play-box' }, play, playSize)),
     shots,
     el('section', { className: 'about' },
-      el('div', { className: 'summary' }, ...m.summary.map((p) => el('p', { textContent: p })), caveat),
+      el('div', { className: 'summary' }, ...m.summary.map((p) => el('p', { textContent: p })), caveat, closedNote),
       el('dl', { className: 'facts' }, ...facts.flatMap(([k, v]) => [el('dt', { textContent: k }), el('dd', {}, v)]))),
     m.controls.length > 0 && el('section', { className: 'controls' },
       el('h2', { textContent: 'Controls' }),

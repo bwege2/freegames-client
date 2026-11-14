@@ -26,6 +26,8 @@ export const MADE_WITH = ['human', 'ai'] as const;
 export type MadeWith = typeof MADE_WITH[number];
 /** a manifest's `madeWith`; a game.json without one is an original ("human") */
 export const madeWithOf = (m: { madeWith?: MadeWith }): MadeWith => (m.madeWith === 'ai' ? 'ai' : 'human');
+/** what the page of a closed game (GameManifest.closed) shows as its license, word for word */
+export const CLOSED_LABEL = 'freegames-exclusive (closed source)';
 
 /** web/games/<id>/game.json */
 export interface GameManifest {
@@ -78,6 +80,20 @@ export interface GameManifest {
    * Absent or "human": an original, shown under "Originals". (The port's code is not what this is about.)
    */
   madeWith?: MadeWith;
+  /**
+   * true for a game of this website's own, with no original elsewhere: `original` then says who made it and which
+   * version this is, the page says "Made by" and "Version" instead of "Original" and "This port follows", and
+   * nothing claims to be a port
+   */
+  own?: boolean;
+  /**
+   * true for a game exclusive to freegames.stream that is not open source: the page shows CLOSED_LABEL as its
+   * license, and the public source repository leaves its folder, its schema, its icons and its server module out
+   * (scripts/source-paths.mjs)
+   */
+  closed?: boolean;
+  /** a closed game: one more sentence the page shows with the label (what else is not free, e.g. its music) */
+  closedNote?: string;
   /** more about the game and where it comes from (an index's entry, the original's project page, a tool it was made with): shown on its page */
   links?: { label: string; url: string }[];
   /**

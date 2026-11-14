@@ -5,7 +5,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { GENRES, MADE_WITH, PLAY_MODES } from '../src/sdk/game.ts';
+import { CLOSED_LABEL, GENRES, MADE_WITH, PLAY_MODES } from '../src/sdk/game.ts';
 
 /** `madeWith` is absent (an original) or one of MADE_WITH */
 function checkMadeWith(m: { madeWith?: unknown }): void {
@@ -53,6 +53,19 @@ for (const dir of dirs) {
     if (m.remake !== undefined) {
       assert.equal(typeof m.remake, 'boolean', 'remake is true or false');
       if (m.remake) assert.ok(typeof m.caveat === 'string' && m.caveat.trim(), 'a remake says in its caveat what comes from the original');
+    }
+    if (m.own !== undefined) {
+      assert.equal(typeof m.own, 'boolean', 'own is true or false');
+      if (m.own) assert.ok(!m.remake, 'a game of our own is no remake of another');
+    }
+    if (m.closed !== undefined) {
+      // a closed game: exclusive to this site, its own, and its page and license say so
+      assert.equal(typeof m.closed, 'boolean', 'closed is true or false');
+      if (m.closed) {
+        assert.ok(m.own, 'only a game of our own can be closed');
+        assert.equal(m.original.license, CLOSED_LABEL, 'its license is the label');
+        assert.ok(typeof m.closedNote === 'string' && m.closedNote.trim(), 'it says what else is not free');
+      }
     }
     if (m.links !== undefined) {
       assert.ok(Array.isArray(m.links) && m.links.length > 0, 'links: a list');

@@ -38,9 +38,12 @@ for (const g of games) {
 const LICENSE_TEXTS = [['GPL-2.0', 'GNU General Public License, version 2'], ['GPL-3.0', 'GNU General Public License, version 3'],
   ['LGPL-3.0', 'GNU Lesser General Public License, version 3']];
 const rows = games.map(({ id, m }) => `<tr><td><strong>${esc(m.title)}</strong><br><span class="muted">${esc(m.original.author)}, ${esc(m.original.year)}</span></td>
-<td>${esc(m.original.license)}</td>
+<td>${esc(m.closed ? 'freegames-exclusive (closed source)' : m.original.license)}</td>
 <td><a href="licenses/${esc(id)}.txt">License and credits</a><br><a href="${esc(m.original.url)}" rel="noopener">The original</a><br>
-<a href="${tree(`web/games/${esc(id)}`)}" rel="noopener">Source</a>${SOURCE_PATHS.includes(`re/${id}`) ? `, <a href="${tree(`re/${esc(id)}`)}" rel="noopener">how it was made</a>` : ''}</td></tr>`).join('\n');
+${m.closed
+    // a closed game (game.json "closed"): its source is not published (source-paths.mjs leaves it out)
+    ? '<span class="muted">Source not published (closed source)</span>'
+    : `<a href="${tree(`web/games/${esc(id)}`)}" rel="noopener">Source</a>${SOURCE_PATHS.includes(`re/${id}`) ? `, <a href="${tree(`re/${esc(id)}`)}" rel="noopener">how it was made</a>` : ''}`}</td></tr>`).join('\n');
 const page = `<!doctype html>
 <html lang="en">
 <head>
@@ -65,7 +68,8 @@ the game server sends to the browser; each game's folder is linked below. How to
 release is one commit and tag there, so earlier versions stay available too.</p>
 <p>On request we send you the complete source code of every version this site served in the last three years, free of
 charge (contact: <a href="impressum.html">Impressum</a>).</p>
-<p class="muted">The game server, which runs only on our machine and is not distributed, is not part of it.</p>
+<p class="muted">The game server, which runs only on our machine and is not distributed, is not part of it; nor are the games
+marked “freegames-exclusive (closed source)” below, which are not open source.</p>
 </div>
 
 <h2>The website and the game SDK</h2>

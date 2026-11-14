@@ -207,6 +207,10 @@ checks both.
 no `madeWith` at all, is an original. The game list's slop filter ("Alle", "Originals", "AI-Spiele", `#/?made=ai`)
 shows one kind or both. The catalog test refuses any other value.
 
+A game of this website's own, with no original elsewhere (Tekk No), sets `"own": true`: `original` then says who made
+it and which version this is, its page says "Made by" and "Version" instead of "Original" and "This port follows", and
+nothing claims that it is a port. The porting rules do not apply to it; everything else here does.
+
 ## When a port is broken
 
 `"broken": "what the page says"` in `game.json` marks a port that does not work right: its card says "Broken right

@@ -21,6 +21,8 @@ further releases that day); the site's page "Licenses & source" links the tag of
   NetHack's C source, for example, is translated into the TypeScript of `web/games/nethack/src/` by
   `re/nethack/tools/`.
 
-The game server itself runs only on our machine; it is not distributed and not part of this repository. On
-request we send the complete source code of every version the site served in the last three years (contact:
+The game server itself runs only on our machine; it is not distributed and not part of this repository. Nor are
+the games that are exclusive to freegames.stream and not open source (`"closed": true` in their `game.json`, shown
+as "freegames-exclusive (closed source)" on their page): their folders, schemas and icons are left out. On
+request we send what this repository holds for every version the site served in the last three years (contact:
 the site's Impressum).

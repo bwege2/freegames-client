@@ -111,8 +111,14 @@ ${siteLink('/', '← freegames', 'back')}
 ${(m.summary ?? []).map((p) => `<p>${esc(p)}</p>`).join('\n')}
 ${shots.length ? `<h2>Screenshots</h2>\n<div class="seo-shots">\n${shots.map((s) => `<figure><img src="/${id}/${esc(s.file)}" alt="${esc(s.caption)}" loading="lazy"><figcaption>${esc(s.caption)}</figcaption></figure>`).join('\n')}\n</div>` : ''}
 ${m.controls?.length ? `<h2>Controls</h2>\n<table class="seo-controls">\n${m.controls.map((c) => `<tr><td><b>${esc(c.input)}</b></td><td>${esc(c.action)}</td></tr>`).join('\n')}\n</table>` : ''}
-<h2>The original</h2>
-${m.remake
+<h2>${m.own ? 'About the game' : 'The original'}</h2>
+${m.own
+    // a game of this website's own: nothing is ported, so nothing is said about an original
+    ? `<p>${esc(m.title)} is an original game of this website${o.year ? ` (${esc(o.year)})` : ''}${o.author ? `, made by ${esc(o.author)}` : ''}${o.platform ? `; ${esc(o.platform)}` : ''}.${o.version ? ` Version: ${esc(o.version)}.` : ''}</p>
+${m.caveat ? `<p>${esc(m.caveat)}</p>` : ''}
+${m.closed ? `<p><strong>freegames-exclusive (closed source).</strong> ${esc(m.closedNote ?? '')}</p>` : ''}
+<p>${o.license ? `License: ${esc(m.closed ? 'freegames-exclusive (closed source)' : o.license)} (${siteLink('/licenses.html', 'Licenses &amp; source')}). ` : ''}Players: ${esc(m.players ?? '1')}.</p>`
+    : m.remake
     // a new game on the original's base: what it is based on, and what comes from where (the caveat)
     ? `<p>Based on ${esc(o.version)}${o.year ? ` (first released ${esc(o.year)})` : ''}${o.author ? ` by ${esc(o.author)}` : ''}${o.platform ? `; ${esc(o.platform)}` : ''}.</p>
 ${m.caveat ? `<p>${esc(m.caveat)}</p>` : ''}

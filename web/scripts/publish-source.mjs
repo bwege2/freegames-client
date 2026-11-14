@@ -1,8 +1,9 @@
 // freegames.stream website and game SDK: GPL-3.0-or-later, with an additional permission and additional terms under its section 7 (web/LICENSE.md).
 // Publishes the source of a release to the public repository (source-paths.mjs): the files of SOURCE_PATHS at a commit
-// of this repository, as one commit on its main branch with the release's tag, and web/SOURCE.md as its README.md. So
-// the public history is the list of releases, and the game server never goes there (NEVER). tools/deploy.sh runs it
-// before it uploads a release; a tag that is published already for the same commit is left as it is.
+// of this repository but the closed games' (game.json "closed": true; source-paths.mjs closedPaths), as one commit
+// on its main branch with the release's tag, and web/SOURCE.md as its README.md. So the public history is the list
+// of releases, and the game server never goes there (NEVER). tools/deploy.sh runs it before it uploads
+// a release; a tag that is published already for the same commit is left as it is.
 //   node web/scripts/publish-source.mjs <release-YYYY-MM-DD[.n]> [<commit>]      (default HEAD)
 // The clone of the public repository lives in $FREEGAMES_SOURCE_DIR (default ~/.cache/freegames-client);
 // $FREEGAMES_SOURCE_REMOTE publishes to another repository (a test).
@@ -56,7 +57,8 @@ else git(dir, 'checkout', '-q', '--orphan', 'main');
 // the tree becomes exactly the release's files
 try { git(dir, 'rm', '-rqf', '--ignore-unmatch', '.'); } catch { /* an empty repository has nothing to remove */ }
 git(dir, 'clean', '-fdxq');
-const tar = execFileSync('git', ['archive', '--format=tar', commit, '--', ...SOURCE_PATHS], { cwd: repo, maxBuffer: 1 << 30 });
+// exactly the files of sourceFiles (the closed games' are not among them), not the whole of SOURCE_PATHS
+const tar = execFileSync('git', ['archive', '--format=tar', commit, '--', ...files], { cwd: repo, maxBuffer: 1 << 30 });
 execFileSync('tar', ['-x', '-C', dir], { input: tar, maxBuffer: 1 << 20 });
 writeFileSync(join(dir, 'README.md'), readFileSync(join(web, 'SOURCE.md'), 'utf8'));
 git(dir, 'add', '-A');

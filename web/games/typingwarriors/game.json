@@ -1,0 +1,65 @@
+{
+  "id": "typingwarriors",
+  "title": "Typing Warriors",
+  "tagline": "Type against players and bots, with an ELO rating for every keyboard layout.",
+  "summary": [
+    "Typing Warriors is a typing duel for one to six players, with bots from beginner to champion. Five modes play differently: a race through one text, a last-one-typing round with less time every wave, a table of words that everybody grabs from (some with power-ups), a 60-second sprint with a combo, and Switch Wars, where the text must be typed with two keyboard layouts in turn.",
+    "You choose your keyboard layout, and a helper keyboard shows it: QWERTZ, QWERTY, AZERTY, Dvorak, Colemak, Colemak-DH, Workman, Norman, Bépo, and the Neo family (Neo 2, NeoQwertz, Bone, Mine, Noted, AdNW, KOY, 3l). Your rating counts per layout, so a Neo beginner is not measured by the QWERTZ veteran they also are.",
+    "A course teaches every layout step by step, the home row first, with stars for accuracy and speed. The switch trainer practises changing between two layouts: the game sees from your key presses which layout is active wherever the two differ, and says so."
+  ],
+  "original": {
+    "author": "freegames.stream (made by an AI, Claude)",
+    "year": 2026,
+    "platform": "Browser (TypeScript, DOM)",
+    "version": "Typing Warriors 1.0",
+    "license": "GPL-3.0-or-later (browser code)",
+    "packageBytes": 0,
+    "url": "https://freegames.stream/"
+  },
+  "players": "1-6 (against bots, or online in one room)",
+  "genres": [
+    "Educational",
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "The keyboard",
+      "action": "Type what is shown. A wrong key counts as a typo; the cursor waits for the right one"
+    },
+    {
+      "input": "Esc / Backspace",
+      "action": "Word Loot: let go of the word you are typing. Course: Esc leaves the lesson"
+    },
+    {
+      "input": "Enter",
+      "action": "After a lesson: the next one"
+    },
+    {
+      "input": "Your system's layout switch",
+      "action": "Switch Wars and the switch trainer: change the layout when the text changes colour"
+    },
+    {
+      "input": "Touch",
+      "action": "Tap the text to bring up the phone's keyboard; \"Keyboard\" shows or hides the helper keyboard"
+    }
+  ],
+  "added": "2026-11-14",
+  "own": true,
+  "madeWith": "ai",
+  "caveat": "Typing Warriors is made by an AI (Claude): its rules, its word lists and its code. The keyboard layouts come from xkeyboard-config and the Neo project. So far it was played by its maker and by bots only; the bots' speeds and the rating steps are first guesses.",
+  "links": [
+    { "label": "The Neo layouts", "url": "https://www.neo-layout.org/Layouts/" }
+  ],
+  "screenshots": [
+    { "file": "race.png", "caption": "A race against four bots: the text, everybody's progress, the helper keyboard with the next key lit" },
+    { "file": "menu.png", "caption": "The menu: your layout, your rating, the duel, the course, the switch trainer" },
+    { "file": "loot.png", "caption": "Word Loot: ten words for everybody, some with a power-up" },
+    { "file": "course.png", "caption": "The course of Neo 2: lessons from the home row up, with stars" },
+    { "file": "lesson.png", "caption": "A lesson: the new keys, the finger for the next one" },
+    { "file": "switch.png", "caption": "Switch Wars: the next segment is due in the other layout, and a key typed with the wrong one is refused" }
+  ]
+}

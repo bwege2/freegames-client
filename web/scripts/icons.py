@@ -231,6 +231,18 @@ def i_bomberslop(S):
     scale = 2 if S < 96 else 9
     return clip(pixel_place(base, blob, scale, dy=-1 if S < 96 else -4), S)
 
+    # MANGO, the first of the game's characters (assets/sprites.png, drawn by an AI with pxl; closed source, all rights reserved), on the title
+def i_tekkno(S):
+    # MANGO, the first of the game's characters (assets/sprites.png, drawn by an AI with pxl; ours, GPL-3.0-or-later), on the title
+    # picture's night sky: purple into magenta
+    import json as _json
+    sheet = Image.open(G('tekkno', 'assets', 'sprites.png')).convert('RGBA')
+    x, y, w, h = _json.load(open(G('tekkno', 'assets', 'sprites.json')))['mango_idle_0']
+    hero = sheet.crop((x, y, x + w, y + h))
+    base = tile(S, '#b0297f', top='#1a1240')
+    scale = 2 if S < 96 else 8
+    return clip(pixel_place(base, hero, scale, dy=0 if S < 96 else 2), S)
+
 
 def i_sopwith(S):
     # SDL Sopwith's window icon (assets/sopwith.png, 128x128), already a black rounded tile with the plane
@@ -403,6 +415,7 @@ LETTERS = {
     'ballerburg': ('B', '#8a5a26'),
     'pinball': ('P', '#b0307f'),
     'worms': ('W', '#258a45'),
+    'typingwarriors': ('T', '#b8860b'),  # ours: a game of our own without artwork
 }
 TERMINAL = {
     'wumpus': ('H', '#ffb000'),       # amber

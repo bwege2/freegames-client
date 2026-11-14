@@ -6,3 +6,5 @@ export declare const SOURCE_URL: string;
 export declare const SOURCE_PATHS: string[];
 export declare const NEVER: RegExp[];
 export declare function sourceFiles(git: (...args: string[]) => string, commit: string): string[];
+export declare function closedGames(git: (...args: string[]) => string, commit: string): string[];
+export declare function closedPaths(id: string): RegExp[];
