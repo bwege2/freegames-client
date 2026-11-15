@@ -1,0 +1,59 @@
+{
+  "id": "brogue",
+  "title": "Brogue",
+  "tagline": "Retrieve the Amulet of Yendor from the 26th level of the Dungeons of Doom.",
+  "summary": [
+    "Brogue is a roguelike about one descent: 26 levels of caves, vaults and lakes made anew for every game, full of monsters, traps and allies to free, down to the Amulet of Yendor and back up. There are no classes and no experience levels: your character grows only with the potions, scrolls, staffs, charms and gear you find, so every game is decided by what you make of what the dungeon gives you.",
+    "Brian Walker wrote it from 2009 to 2012; since 2019 the Community Edition keeps it going with fixes, the graphical tiles and the variants Rapid Brogue and Bullet Brogue.",
+    "This port follows Brogue: Community Edition 1.15.1, translated to TypeScript from its C source and checked frame for frame against it, with its text and tile graphics (G switches). Saved games and recordings are kept with your account, and the high scores are shared by everyone who plays here."
+  ],
+  "original": {
+    "author": "Brian Walker; Community Edition: Tom Mewett and contributors",
+    "year": 2009,
+    "platform": "C (Windows, macOS, Linux)",
+    "version": "Brogue: Community Edition 1.15.1",
+    "license": "AGPL-3.0",
+    "packageBytes": 1380928,
+    "url": "https://github.com/tmewett/BrogueCE"
+  },
+  "players": "1",
+  "genres": ["Roguelike"],
+  "modes": ["single"],
+  "added": "2026-11-14",
+  "controls": [
+    {
+      "input": "h j k l y u b n, arrow keys",
+      "action": "Move or attack in that direction; with Shift (H J K L ..., Shift+arrow) travel until something happens"
+    },
+    {
+      "input": "Mouse",
+      "action": "Point at a cell to see what is there and the path to it; click to travel there; the buttons and the sidebar are clickable"
+    },
+    {
+      "input": "x, >, <, z, Z, s",
+      "action": "Explore, travel to the stairs down (again: descend) or up, rest, rest until better, search"
+    },
+    {
+      "input": "i a e r t d c R w T",
+      "action": "Inventory, apply, equip, remove, throw, drop, call, relabel, swap weapons, throw again"
+    },
+    {
+      "input": "M D F ? ~",
+      "action": "Message archive, discoveries, feats, help (all keys), the seed"
+    },
+    {
+      "input": "G, \\, ]",
+      "action": "Text, tiles or both; true colours; the stealth range"
+    },
+    {
+      "input": "S, Q, Esc",
+      "action": "Save and leave (Play > Load Game goes on), quit the game, cancel"
+    }
+  ],
+  "screenshots": [
+    { "file": "title.png", "caption": "The title screen with its flames" },
+    { "file": "depth1.png", "caption": "The first level, explored, in text mode" },
+    { "file": "tiles.png", "caption": "The same level with the graphical tiles (G)" },
+    { "file": "inventory.png", "caption": "The inventory and an item's description" }
+  ]
+}

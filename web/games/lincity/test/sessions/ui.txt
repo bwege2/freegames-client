@@ -1,0 +1,84 @@
+# the menu, help pages, statistics, preferences, a market, the mini map, pause and slow
+seed 11
+500 key Space
+1000 move 281 314
+1010 press 1
+1020 release 1
+2520 move 300 445
+2620 dump village
+2820 move 28 12
+2830 press 1
+2840 release 1
+3140 move 300 445
+3240 dump menu
+3440 key Escape
+3740 move 300 445
+3840 dump menu_closed
+4040 key h
+4340 move 300 445
+4440 dump help
+4640 key Escape
+4840 move 28 60
+4850 press 1
+4860 release 1
+5160 move 300 445
+5260 dump stats
+5560 key Space
+5860 move 300 445
+5960 dump stats_closed
+6160 key o
+6460 move 300 445
+6560 dump prefs
+6760 move 122 43
+6770 press 1
+6780 release 1
+6980 move 122 59
+6990 press 1
+7000 release 1
+7300 move 300 445
+7400 dump prefs_toggled
+7600 move 448 400
+7610 press 1
+7620 release 1
+7920 move 300 445
+8020 dump prefs_closed
+8220 key h
+8520 move 339 193
+8530 press 1
+8540 release 1
+8840 move 300 445
+8940 dump help_keyboard
+9140 move 448 400
+9150 press 1
+9160 release 1
+9460 move 300 445
+9560 dump help_out
+9860 move 184 166
+9870 press 1
+9880 release 1
+10180 move 300 445
+10280 dump market
+10580 move 140 120
+10590 press 3
+10600 release 3
+10900 move 300 445
+11000 dump rightclick
+11300 move 560 330
+11310 press 1
+11320 release 1
+11620 move 300 445
+11720 dump minimap_moved
+11920 move 70 422
+11930 press 1
+11940 release 1
+13940 move 300 445
+14040 dump paused
+14240 move 70 438
+14250 press 1
+14260 release 1
+17260 move 300 445
+17360 dump slow
+17560 key v
+17860 move 300 445
+17960 dump rotated
+18060 quit

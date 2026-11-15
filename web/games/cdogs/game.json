@@ -1,0 +1,76 @@
+{
+  "id": "cdogs",
+  "title": "C-Dogs SDL",
+  "tagline": "Top-down run-and-gun: missions, co-op and deathmatch for up to four players.",
+  "summary": [
+    "C-Dogs SDL (Ronny Wester's C-Dogs, 1997; SDL port by Jeremy Chin, Lucas Martin-King and Cong Xu) is an overhead shooter: pick a campaign, kill the targets, rescue the prisoners, collect the items and get everyone to the exit, alone or with up to three friends on one screen.",
+    "This port follows C-Dogs SDL 2.5.0: the same campaigns (Ogre Rampage, Cyberdogs, Zombie and the rest), dogfight and deathmatch arenas, weapons, enemies and their AI, the menus, the briefing and equipment screens, the high scores, the original's 320x200 view with the DOS pixel aspect, its sounds and music.",
+    "Up to four local players on keyboards and gamepads, AI team-mates, and online games through this website's rooms, where every client runs the same lockstep simulation."
+  ],
+  "original": {
+    "author": "Ronny Wester; SDL port by Jeremy Chin, Lucas Martin-King and Cong Xu",
+    "year": 1997,
+    "platform": "DOS; SDL port (C)",
+    "version": "2.5.0",
+    "license": "GPL-2.0-or-later; data CC0, CC BY and CC BY-SA",
+    "packageBytes": 38590422,
+    "url": "https://cxong.github.io/cdogs-sdl/"
+  },
+  "players": "1-4",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-14",
+  "controls": [
+    {
+      "input": "Arrow keys / Enter / Esc",
+      "action": "Menus: choose, confirm, back; Esc also pauses"
+    },
+    {
+      "input": "Arrow keys, X, Z, S",
+      "action": "Keyboard 1: move, fire, switch weapon / slide, grenade"
+    },
+    {
+      "input": "A",
+      "action": "Keyboard 1: map"
+    },
+    {
+      "input": "Keypad 4 6 8 2, Keypad Enter, Keypad . , Keypad 3",
+      "action": "Keyboard 2: move, fire, switch weapon / slide, grenade (Keypad 0: map)"
+    },
+    {
+      "input": "Gamepad",
+      "action": "Move, A fire, B switch, X grenade, Start pause"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "main-menu.png",
+      "caption": "The original's main menu over its live background: Start, Options, Quit"
+    },
+    {
+      "file": "online-menu.png",
+      "caption": "Online play: a campaign, a dogfight or a deathmatch through the website's rooms"
+    },
+    {
+      "file": "mission.png",
+      "caption": "A mission of Cyberdogs: the HUD with health, score, ammo and the map, and the objectives"
+    },
+    {
+      "file": "mission-2.png",
+      "caption": "Fighting through a prison block, with the original's 320x200 look and its pixel aspect"
+    },
+    {
+      "file": "dogfight.png",
+      "caption": "A dogfight for two players on one keyboard, split screen"
+    }
+  ],
+  "lazyAssets": [
+    "assets/music/**"
+  ]
+}

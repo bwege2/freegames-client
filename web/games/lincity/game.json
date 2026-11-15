@@ -1,0 +1,71 @@
+{
+  "id": "lincity",
+  "title": "Lincity",
+  "tagline": "Build a city or a country, feed it and power it, then make it last or launch its people into space.",
+  "summary": [
+    "Lincity is a city and country simulation from 1995. You lay out farms, homes, markets and tracks, then mines, mills and power stations; the people need food, jobs and goods, and the transport carries everything between them. Technology grows with schools and universities and unlocks railways, steel works, coal and solar power and finally rocket pads.",
+    "Every resource is finite: coal and ore run out, waste piles up and pollution spreads with the wind. You can build a sustainable economy with renewable power and recycling, or go for broke and evacuate a ruined planet by rocket.",
+    "This port follows Lincity 1.13.1 for X11, the last release of the classic game, with its screens, help pages, built-in scenarios and save files. Your saved scenes and your preferences are kept in your account."
+  ],
+  "original": {
+    "author": "I J Peters; Greg Sharp, Corey Keasling and others",
+    "year": 1995,
+    "platform": "C (X11, SVGALIB, Windows)",
+    "version": "Lincity 1.13.1 (2004), X11 version",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 1064236,
+    "url": "https://sourceforge.net/projects/lincity/"
+  },
+  "players": "1",
+  "genres": [
+    "City-building"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-14",
+  "controls": [
+    {
+      "input": "Left mouse button",
+      "action": "Pick a building in the palette on the left and place it on the map; drag to lay a line of track, road, rail or power line; click a building for its figures, a market or port twice for what it buys and sells; buttons and help links"
+    },
+    {
+      "input": "Right mouse button",
+      "action": "Help for almost anything: the palette, the panels on the right, the map's views; on the map, a square's coverage, pollution and bulldoze cost"
+    },
+    {
+      "input": "Middle mouse button",
+      "action": "Drag the map; on the mini map's title, show the mini map's view over the main map"
+    },
+    {
+      "input": "Arrow keys (with Shift: faster), mouse wheel (with Ctrl: sideways)",
+      "action": "Scroll the map"
+    },
+    {
+      "input": "Esc, H",
+      "action": "The menu (new game, load, save, options, help, quit); the help index"
+    },
+    {
+      "input": "P, S, L, O, V, r, Q",
+      "action": "Pause, save, load, options, the mini map's view over the main map, the statistics, quit"
+    },
+    {
+      "input": "Space, Enter, Backspace",
+      "action": "A left click (OK, Yes), a right click; in dialogs Y and N answer"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "opening.png",
+      "caption": "The original's opening screen with the first buildings to place: a farm, a pottery, residences, communes, a market and an ore mine, on tracks"
+    },
+    {
+      "file": "good-times.png",
+      "caption": "The built-in scene \"Good Times\", 731 years on: 42 million people, with a square's coverage, pollution and bulldoze cost in the panel"
+    },
+    {
+      "file": "statistics.png",
+      "caption": "The statistics of that city: jobs, food and goods, pollution and deaths, the buildings and the rockets launched"
+    }
+  ]
+}

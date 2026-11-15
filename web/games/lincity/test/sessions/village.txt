@@ -1,0 +1,18 @@
+# a random village on fast for a few years
+seed 1234
+500 key Space
+1000 move 281 314
+1010 press 1
+1020 release 1
+1420 move 70 470
+1430 press 1
+1440 release 1
+1740 move 300 445
+1840 dump v0
+3840 move 300 446
+3940 dump v1
+7940 move 300 447
+8040 dump v2
+12040 move 300 445
+12140 dump v3
+12240 quit

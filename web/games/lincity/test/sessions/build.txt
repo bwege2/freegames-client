@@ -1,0 +1,522 @@
+# a bare board in test mode: every module built, transport dragged, bulldozing, fire, the mini map modes, three decades on fast
+seed 5
+500 key Space
+1000 move 281 333
+1010 press 1
+1020 release 1
+1420 key m
+1620 key y
+1625 key T
+1630 key T
+1635 key T
+1640 key T
+1645 key T
+1650 key T
+1655 key T
+1660 key T
+1665 key T
+1670 key T
+1675 key T
+1680 key T
+1685 key T
+1690 key T
+1695 key T
+1700 key T
+1705 key T
+1710 key T
+1715 key T
+1720 key T
+1725 key T
+1730 key T
+1735 key T
+1740 key T
+1745 key T
+1750 key T
+1755 key T
+1760 key T
+1765 key T
+1770 key T
+1775 key T
+1780 key T
+1785 key T
+1790 key T
+1795 key T
+1800 key T
+1805 key T
+1810 key T
+1815 key T
+1820 key T
+1825 key T
+1830 key T
+1835 key T
+1840 key T
+1845 key T
+1850 key T
+1855 key T
+1860 key T
+1865 key T
+1870 key T
+1875 key T
+1880 key T
+1885 key T
+1890 key T
+1895 key T
+1900 key T
+1905 key T
+1910 key T
+1915 key T
+1920 key T
+1925 key T
+1930 key T
+1935 key T
+1940 key T
+1945 key T
+1950 key T
+1955 key T
+1960 key T
+1965 key T
+1970 key T
+1975 key T
+1980 key T
+1985 key T
+1990 key T
+1995 key T
+2000 key T
+2005 key T
+2010 key T
+2015 key T
+2020 key T
+2025 key T
+2030 key T
+2035 key T
+2040 key T
+2045 key T
+2050 key T
+2055 key T
+2060 key T
+2065 key T
+2070 key T
+2075 key T
+2080 key T
+2085 key T
+2090 key T
+2095 key T
+2100 key T
+2105 key T
+2110 key T
+2115 key T
+2120 key T
+2125 key m
+2130 key m
+2135 key m
+2140 key m
+2145 key m
+2150 key m
+2155 key m
+2160 key m
+2165 key m
+2170 key m
+2175 key m
+2180 key m
+2185 key m
+2190 key m
+2195 key m
+2200 key m
+2205 key m
+2210 key m
+2215 key m
+2220 key m
+2225 key m
+2230 key m
+2235 key m
+2240 key m
+2245 key m
+2250 key m
+2255 key m
+2260 key m
+2265 key m
+2270 key m
+2275 key m
+2280 key m
+2285 key m
+2290 key m
+2295 key m
+2300 key m
+2305 key m
+2310 key m
+2315 key m
+2320 key m
+2420 dump cheats
+5420 move 300 445
+5520 dump wait
+5670 key Space
+5820 key Space
+5970 key Space
+6120 key Space
+6270 key Space
+6420 key Space
+6570 key Space
+6720 key Space
+6870 key Space
+7020 key Space
+7170 key Space
+7320 key Space
+7470 key Space
+7620 key Space
+7770 key Space
+7920 key Space
+8070 key Space
+8220 key Space
+8370 key Space
+8520 key Space
+8670 key Space
+8820 key Space
+8970 key Space
+9120 key Space
+9270 key Space
+9420 key Space
+9570 key Space
+9720 key Space
+9870 key Space
+10020 key Space
+10170 key Space
+10320 key Space
+10470 key Space
+10620 key Space
+10770 key Space
+10920 key Space
+11070 key Space
+11220 key Space
+11370 key Space
+11520 key Space
+11620 dump popups
+11770 move 16 88
+11780 press 1
+11790 release 1
+11990 move 170 152
+12000 press 1
+12010 release 1
+12110 move 73 16
+12120 press 1
+12130 release 1
+12280 move 16 112
+12290 press 1
+12300 release 1
+12500 key Escape
+12600 move 121 16
+12610 press 1
+12620 release 1
+12770 move 16 136
+12780 press 1
+12790 release 1
+12990 key Escape
+13090 move 185 16
+13100 press 1
+13110 release 1
+13260 move 16 160
+13270 press 1
+13280 release 1
+13480 key Escape
+13580 move 73 80
+13590 press 1
+13600 release 1
+13750 move 16 184
+13760 press 1
+13770 release 1
+13970 key Escape
+14070 move 137 80
+14080 press 1
+14090 release 1
+14240 move 16 328
+14250 press 1
+14260 release 1
+14460 key Escape
+14560 move 201 80
+14570 press 1
+14580 release 1
+14680 dump build1
+14830 move 40 400
+14840 press 1
+14850 release 1
+15050 key Escape
+15150 move 73 144
+15160 press 1
+15170 release 1
+15320 move 40 280
+15330 press 1
+15340 release 1
+15540 key Escape
+15640 move 137 144
+15650 press 1
+15660 release 1
+15810 move 40 208
+15820 press 1
+15830 release 1
+16030 key Escape
+16130 move 169 144
+16140 press 1
+16150 release 1
+16300 move 16 352
+16310 press 1
+16320 release 1
+16520 key Escape
+16620 move 201 144
+16630 press 1
+16640 release 1
+16790 move 40 352
+16800 press 1
+16810 release 1
+17010 key Escape
+17110 move 73 208
+17120 press 1
+17130 release 1
+17280 move 16 376
+17290 press 1
+17300 release 1
+17500 key Escape
+17600 move 121 208
+17610 press 1
+17620 release 1
+17770 move 40 136
+17780 press 1
+17790 release 1
+17990 key Escape
+18090 move 185 208
+18100 press 1
+18110 release 1
+18260 move 40 232
+18270 press 1
+18280 release 1
+18480 key Escape
+18580 move 217 208
+18590 press 1
+18600 release 1
+18750 move 16 280
+18760 press 1
+18770 release 1
+18970 key Escape
+19070 move 185 240
+19080 press 1
+19090 release 1
+19240 move 40 328
+19250 press 1
+19260 release 1
+19460 key Escape
+19560 move 73 272
+19570 press 1
+19580 release 1
+19730 move 40 256
+19740 press 1
+19750 release 1
+19950 key Escape
+20050 move 105 272
+20060 press 1
+20070 release 1
+20220 move 16 256
+20230 press 1
+20240 release 1
+20440 key Escape
+20540 move 137 272
+20550 press 1
+20560 release 1
+20710 move 16 232
+20720 press 1
+20730 release 1
+20930 key Escape
+21030 move 169 272
+21040 press 1
+21050 release 1
+21200 move 16 208
+21210 press 1
+21220 release 1
+21420 key Escape
+21520 move 73 320
+21530 press 1
+21540 release 1
+21690 move 40 424
+21700 press 1
+21710 release 1
+21910 key Escape
+22010 move 137 320
+22020 press 1
+22030 release 1
+22180 move 40 112
+22190 press 1
+22200 release 1
+22400 key Escape
+22500 move 169 320
+22510 press 1
+22520 release 1
+22670 move 16 448
+22680 press 1
+22690 release 1
+22890 key Escape
+22990 move 201 272
+23000 press 1
+23010 release 1
+23110 dump build2
+23260 move 40 160
+23270 press 1
+23280 release 1
+23380 move 73 400
+23390 press 1
+23410 move 89 400
+23430 move 105 400
+23450 move 121 400
+23470 move 137 400
+23490 move 153 400
+23510 move 169 400
+23530 move 185 400
+23550 move 201 400
+23570 move 217 400
+23590 move 233 400
+23640 release 1
+23790 move 40 304
+23800 press 1
+23810 release 1
+24010 key Escape
+24110 move 233 400
+24120 press 1
+24140 move 233 384
+24160 move 233 368
+24180 move 233 352
+24200 move 233 336
+24250 release 1
+24350 move 393 176
+24360 press 1
+24380 move 409 176
+24400 move 425 176
+24420 move 441 176
+24440 move 457 176
+24460 move 473 176
+24480 move 489 176
+24530 release 1
+24680 move 40 376
+24690 press 1
+24700 release 1
+24900 key Escape
+25000 move 393 208
+25010 press 1
+25030 move 409 208
+25050 move 425 208
+25070 move 441 208
+25090 move 457 208
+25110 move 473 208
+25130 move 489 208
+25180 release 1
+25330 move 16 400
+25340 press 1
+25350 release 1
+25550 key Escape
+25650 move 265 112
+25660 press 1
+25680 move 265 128
+25700 move 265 144
+25720 move 265 160
+25740 move 265 176
+25760 move 265 192
+25780 move 265 208
+25800 move 265 224
+25820 move 265 240
+25840 move 265 256
+25860 move 265 272
+25880 move 265 288
+25900 move 265 304
+25920 move 265 320
+25940 move 265 336
+25990 release 1
+26090 move 265 112
+26100 press 1
+26120 move 249 112
+26140 move 233 112
+26190 release 1
+26340 move 16 424
+26350 press 1
+26360 release 1
+26560 key Escape
+26660 move 233 176
+26670 press 1
+26680 release 1
+26830 move 40 184
+26840 press 1
+26850 release 1
+27050 key Escape
+27150 move 281 96
+27160 press 1
+27170 release 1
+27320 move 16 304
+27330 press 1
+27340 release 1
+27540 key Escape
+27640 move 297 240
+27650 press 1
+27660 release 1
+27810 move 40 448
+27820 press 1
+27830 release 1
+28030 key Escape
+28130 move 425 48
+28140 press 1
+28150 release 1
+28250 dump build3
+28450 move 70 470
+28460 press 1
+28470 release 1
+33470 move 300 445
+33570 dump fast1
+43570 move 300 446
+43670 dump fast2
+43820 move 40 88
+43830 press 1
+43840 release 1
+44040 key Escape
+44140 move 169 272
+44150 press 1
+44160 release 1
+44260 move 137 80
+44270 press 1
+44280 release 1
+44480 key y
+44580 dump bulldoze
+44880 key f
+47880 move 300 445
+47980 dump fire
+48280 move 518 288
+48290 press 1
+48300 release 1
+48400 dump mini0
+48700 move 518 288
+48710 press 1
+48720 release 1
+48820 dump mini1
+49120 move 518 288
+49130 press 1
+49140 release 1
+49240 dump mini2
+49540 move 518 288
+49550 press 1
+49560 release 1
+49660 dump mini3
+49960 move 518 288
+49970 press 1
+49980 release 1
+50080 dump mini4
+50380 move 518 288
+50390 press 1
+50400 release 1
+50500 dump mini5
+50800 move 518 288
+50810 press 1
+50820 release 1
+50920 dump mini6
+51220 move 518 288
+51230 press 1
+51240 release 1
+51340 dump mini7
+51640 move 518 288
+51650 press 1
+51660 release 1
+51760 dump mini8
+71760 move 300 447
+71860 dump fast3
+71960 quit

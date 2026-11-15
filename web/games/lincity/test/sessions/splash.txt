@@ -1,0 +1,7 @@
+# the splash screen, then the opening page
+seed 42
+100 dump start
+2000 key Space
+4000 move 300 445
+4100 dump opening
+4200 quit

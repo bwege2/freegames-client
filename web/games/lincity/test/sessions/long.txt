@@ -1,0 +1,25 @@
+# good_times.scn on fast for half a century
+seed 47
+500 key Space
+1000 move 281 293
+1010 press 1
+1020 release 1
+1320 move 281 60
+1330 press 1
+1340 release 1
+2340 move 70 470
+2350 press 1
+2360 release 1
+12360 move 300 445
+12460 dump y00
+22460 move 300 446
+22560 dump y01
+32560 move 300 447
+32660 dump y02
+42660 move 300 445
+42760 dump y03
+52760 move 300 446
+52860 dump y04
+62860 move 300 447
+62960 dump y05
+63060 quit

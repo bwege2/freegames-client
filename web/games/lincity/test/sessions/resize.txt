@@ -1,0 +1,23 @@
+# resizing the window: the main view grows with it
+seed 31
+500 key Space
+1000 move 281 314
+1010 press 1
+1020 release 1
+2020 move 300 445
+2120 dump small
+2320 resize 800 600
+2820 move 300 445
+2920 dump big
+3220 move 600 420
+3230 press 1
+3240 release 1
+3540 move 300 445
+3640 dump big_click
+3840 resize 1024 768
+4340 move 300 445
+4440 dump bigger
+4640 resize 640 480
+5140 move 300 445
+5240 dump back
+5340 quit

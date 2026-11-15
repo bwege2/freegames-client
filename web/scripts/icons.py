@@ -12,7 +12,7 @@
 #
 # Needs Python 3 with Pillow, and ImageMagick (`magick`) for the one SVG source (TuxMath). A few sources are not
 # committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax,
-# A Dark Room, HyperRogue, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
+# A Dark Room, Brogue, HyperRogue, Lincity, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
 #   python3 -I web/scripts/icons.py [path/to/repo]
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -316,6 +316,14 @@ def i_hyperrogue(S):
     return clip(place(base, trim(art), (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
 
 
+def i_brogue(S):
+    # the game's own icon (bin/assets/icon.png of Brogue CE 1.15.1, Brian Walker, AGPL-3.0-or-later, 256x256)
+    art = Image.open(orig('brogue', 'orig', 'BrogueCE-1.15.1', 'bin', 'assets', 'icon.png')).convert('RGBA')
+    art.load()
+    base = tile(S, '#000000', top='#1a1a2a')
+    return clip(place(base, trim(art), (S * 0.04, S * 0.04, S * 0.92, S * 0.92)), S)
+
+
 def i_shatteredpixeldungeon(S):
     # the desktop version's own icon (desktop/src/main/assets/icons, GPL-3.0-or-later): the treasure chest, a
     # rounded tile of its own; 48 px exactly as the original's icon_48.png, 180 px from icon_256.png
@@ -352,6 +360,15 @@ def i_biniax(S):
     # the original's window icon (src/icon.ico, 32x32, zlib): its two elements in the field's corners
     art = Image.open(orig('biniax', 'orig', 'src', 'icon.ico')).convert('RGBA')
     base = tile(S, '#202020')
+    if S == 48:
+        return clip(place(base, art, (4, 4, 40, 40)), S)
+    return clip(pixel_place(base, art, S // 36), S)
+
+
+def i_lincity(S):
+    # the original's window icon (lincity.ico of the Windows build, 32x32, GPL), whole
+    art = Image.open(orig('lincity', 'orig', 'lincity-1.13.1', 'lincity.ico')).convert('RGBA')
+    base = tile(S, '#008080')
     if S == 48:
         return clip(place(base, art, (4, 4, 40, 40)), S)
     return clip(pixel_place(base, art, S // 36), S)
@@ -419,6 +436,19 @@ def i_gnuchess(S):
     f = ImageFont.truetype(FONT_PLAIN, round(big * 0.86))
     d = ImageDraw.Draw(lay)
     d.text((big / 2, big * 0.53), '♞', font=f, fill=(20, 20, 20, 255), anchor='mm')
+    base.alpha_composite(lay.resize((S, S), Image.LANCZOS))
+    return clip(base, S)
+
+
+def i_cdogs(S):
+    # the game's own logo (web/games/cdogs/assets/graphics/logo.png), as its loading screen shows it, on a dark tile
+    logo = Image.open(G('cdogs', 'assets', 'graphics', 'logo.png')).convert('RGBA')
+    base = tile(S, '#20242c')
+    big = S * SS
+    scale = big * 0.94 / max(logo.size)
+    c = logo.resize((round(logo.width * scale), round(logo.height * scale)), Image.LANCZOS)
+    lay = Image.new('RGBA', (big, big), (0, 0, 0, 0))
+    lay.alpha_composite(c, ((big - c.width) // 2, (big - c.height) // 2))
     base.alpha_composite(lay.resize((S, S), Image.LANCZOS))
     return clip(base, S)
 

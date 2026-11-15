@@ -1,0 +1,83 @@
+# saving two scenes, loading one back, the built-in scenes good_times and bad_times
+seed 23
+500 key Space
+1000 move 281 314
+1010 press 1
+1020 release 1
+1320 move 70 470
+1330 press 1
+1340 release 1
+5340 move 300 445
+5440 dump before_save
+5640 key s
+5940 move 300 445
+6040 dump save_menu
+6240 key 1
+6540 move 300 445
+6640 dump save_comment
+6670 key m
+6700 key y
+6730 key Space
+6760 key t
+6790 key o
+6820 key w
+6850 key n
+6900 key Return
+7400 move 300 445
+7500 dump saved
+7700 key s
+7900 key 2
+7930 key s
+7960 key e
+7990 key c
+8020 key o
+8050 key n
+8080 key d
+8130 key Return
+8630 move 300 445
+14630 move 300 445
+14730 dump later
+14930 key l
+15230 move 300 445
+15330 dump load_menu
+15530 key 1
+15830 move 300 445
+15930 dump load_ask
+16130 key y
+16630 move 300 445
+16730 dump loaded
+19730 move 300 445
+19830 dump loaded_later
+20030 move 28 12
+20040 press 1
+20050 release 1
+20350 move 281 154
+20360 press 1
+20370 release 1
+20670 move 300 445
+20770 dump menu_load
+21070 move 281 60
+21080 press 1
+21090 release 1
+21390 move 300 445
+21490 dump good_times_ask
+21690 key y
+22690 move 300 445
+22790 dump good_times
+26790 move 300 445
+26890 dump good_times_later
+27090 move 28 12
+27100 press 1
+27110 release 1
+27410 move 281 154
+27420 press 1
+27430 release 1
+27730 move 281 130
+27740 press 1
+27750 release 1
+27950 key y
+28950 move 300 445
+29050 dump bad_times
+33050 move 300 445
+33150 dump bad_times_later
+33250 quit
