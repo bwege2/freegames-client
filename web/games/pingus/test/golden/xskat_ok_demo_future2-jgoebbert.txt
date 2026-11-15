@@ -1,0 +1,36 @@
+level levels/xskat/ok/future2-jgoebbert.pingus
+demo levels/xskat/ok/demo/future2-jgoebbert.pingus-demo
+C 250 484907cf
+C 500 93f51a5e
+C 750 4a712d9e
+C 1000 975d1102
+C 1250 ab2026a2
+C 1500 6a721291
+C 1750 e01437b8
+C 2000 d76068d5
+C 2250 c1dde267
+C 2500 9a50619d
+C 2750 b3e45c51
+C 3000 a0956e2e
+C 3250 78ba8aa9
+C 3500 2484d0d6
+C 3750 daa482c9
+C 4000 cea99c9c
+C 4250 bad7878b
+C 4500 d9ed7762
+C 4750 dfd3f9b6
+C 5000 997a87de
+C 5250 7a1a8a90
+C 5500 0c9be7fd
+C 5750 d9d58e35
+C 6000 ee2fb3bd
+C 6250 3628148a
+C 6500 db8f3ca1
+C 6750 52d752a5
+C 7000 c835aec2
+C 7250 db3d777b
+C 7500 322793aa
+C 7750 84be7296
+C 8000 76ecda97
+H e61a8d11
+E 8126 1 0 basher:5:5 blocker:4:1 bridger:13:7 digger:4:6 miner:4:1

@@ -1,0 +1,33 @@
+# German (LANG=de_DE), the menus at 320x240 with the small font, the notice about Liquid War 6 at start,
+# the "not enough teams" error, the teams and map menus at that size, a short battle at 1024x768.
+lang de_DE.UTF-8
+cfg [MAIN]
+cfg DUMMY = 5003000
+cfg GFX_MENU = 0
+cfg GFX_GAME = 4
+cfg LW6_ADVERTISING_SKIP = 0
+cfg [CONTROL_TYPE]
+cfg 0 = 1
+cfg 5 = 0
+mouse 1000 159 201 1
+mouse 1100 159 201 0
+mouse 2500 159 75 1
+mouse 2600 159 75 0
+tap 4000 ENTER
+mouse 5500 159 129 1
+mouse 5600 159 129 0
+mouse 7000 160 53 1
+mouse 7100 160 53 0
+tap 7700 ESC
+mouse 8900 159 111 1
+mouse 9000 159 111 0
+tap 10900 ESC
+mouse 12100 159 75 1
+mouse 12200 159 75 0
+press 15100 LEFT
+release 17100 LEFT
+tap 19100 ESC
+tap 28100 ENTER
+tap 29600 ESC
+tap 30400 ENTER
+end 33400

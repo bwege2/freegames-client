@@ -1,0 +1,38 @@
+level levels/xskat/ok/stair.pingus
+demo levels/xskat/ok/demo/Stair.pingus-demo
+C 250 b472fff9
+C 500 c9a74a93
+C 750 b6f79a6c
+C 1000 42582a48
+C 1250 37ff4064
+C 1500 bad761e2
+C 1750 98730fce
+C 2000 91ed085e
+C 2250 6aa1646f
+C 2500 dedff223
+C 2750 6bb66a9c
+C 3000 fa04e56c
+C 3250 3dfbed62
+C 3500 a2ee4999
+C 3750 85e43011
+C 4000 ae33eb53
+C 4250 f257df83
+C 4500 65eecdf1
+C 4750 46820cc2
+C 5000 fac498f3
+C 5250 6c8a8cb6
+C 5500 d2fea93a
+C 5750 09bf963e
+C 6000 563ee091
+C 6250 6feb8d15
+C 6500 a9ee3f33
+C 6750 ab637152
+C 7000 3de37f67
+C 7250 e5c78d62
+C 7500 0967db50
+C 7750 181cc302
+C 8000 c9ca0de8
+C 8250 a8eb1185
+C 8500 17be6eb8
+H a0a818cb
+E 8639 0 60 basher:7:3 blocker:9:1 bomber:5:0 bridger:15:5 climber:8:2 digger:9:1

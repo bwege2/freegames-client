@@ -1,0 +1,13 @@
+level levels/playable/xmas-complex-timpany.pingus
+demo levels/xskat/ok/demo/xmas-complex-timpany.pingus-demo
+C 250 d486c21c
+C 500 5325ce99
+C 750 06a7ee62
+C 1000 4378a446
+C 1250 ac8b3a54
+C 1500 86f32a6e
+C 1750 fa8ff33b
+C 2000 d806a35e
+C 2250 b386a53c
+H 8913198f
+E 2454 26 74 bridger:4:1 climber:5:0 floater:5:0 jumper:1:4

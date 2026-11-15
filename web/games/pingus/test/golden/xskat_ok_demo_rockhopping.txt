@@ -1,0 +1,27 @@
+level levels/playable/rockhopping.pingus
+demo levels/xskat/ok/demo/rockhopping.pingus-demo
+C 250 839b362c
+C 500 694628ae
+C 750 f70c09d2
+C 1000 a3c6689a
+C 1250 6668ff43
+C 1500 542722a5
+C 1750 97fbc97f
+C 2000 52367cff
+C 2250 7a58f1b1
+C 2500 f42cf260
+C 2750 79cbd080
+C 3000 9fa6d1b4
+C 3250 1ee11828
+C 3500 8d8cb96b
+C 3750 866f7b1d
+C 4000 0b355a81
+C 4250 028d5a77
+C 4500 3d618756
+C 4750 ea00710e
+C 5000 4a85a648
+C 5250 cc4286da
+C 5500 f9f68f87
+C 5750 5afc4ee7
+H 038101ef
+E 5754 0 50 basher:4:2 blocker:3:1 bomber:4:0 bridger:2:1 digger:0:1 floater:30:0 miner:1:0

@@ -1,0 +1,29 @@
+level levels/xskat/new/snow1-marcotte.pingus
+demo levels/xskat/new/demo/snow1-marcotte.pingus-demo
+C 250 c9caf573
+C 500 25a054ce
+C 750 7a8a24e5
+C 1000 58719b23
+C 1250 b2a9511d
+C 1500 32c84cfb
+C 1750 13883c5f
+C 2000 4cc53430
+C 2250 dcb29365
+C 2500 780e14a3
+C 2750 7417ea20
+C 3000 25a8db69
+C 3250 40c7fcd4
+C 3500 aac6300b
+C 3750 6776c8c9
+C 4000 cdd8b701
+C 4250 314e3562
+C 4500 c966fe17
+C 4750 fa80987b
+C 5000 211c6185
+C 5250 2dddfa45
+C 5500 293183b6
+C 5750 0672d6bf
+C 6000 6c6c87b4
+C 6250 d9b2abba
+H b911807c
+E 6496 0 15 bridger:18:7 miner:0:2 slider:0:2

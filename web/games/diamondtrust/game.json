@@ -1,0 +1,50 @@
+{
+  "id": "diamondtrust",
+  "title": "Diamond Trust of London",
+  "tagline": "Two diamond firms, six regions, one UN inspector.",
+  "summary": [
+    "Diamond Trust of London (Jason Rohrer, 2012; open-source Nintendo DS version) is a two-player game of secret moves, hidden salaries and bribes, diamond bids and a UN inspector in Angola.",
+    "This port follows the source rules: eight months, three agents per firm, six producing regions plus London and Antwerp, simultaneous secret moves and bids, bribed agents leaking information, deposits, confiscation and the open market. The original map/unit/title art and bitmap fonts are used, with canvas tweens for moves and diamond awards.",
+    "Local hot-seat with pass screens for private decisions, a single-player game against the computer, and an online two-seat room through this website; the server is the referee and keeps both seats' hidden money, salaries, bribes, moves and bids. The original DS dual-screen graphics and touch map are adapted to a browser board and panel."
+  ],
+  "original": {
+    "author": "Jason Rohrer",
+    "year": 2012,
+    "platform": "Nintendo DS; open-source C++ source",
+    "version": "source at fb9e51a4 (master)",
+    "license": "Public domain",
+    "packageBytes": 28000000,
+    "url": "https://github.com/jasonrohrer/DiamondTrust"
+  },
+  "players": "1-2",
+  "genres": [
+    "Turn-based strategy"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-01",
+  "controls": [
+    {
+      "input": "Mouse",
+      "action": "Select map regions and use the panel buttons"
+    },
+    {
+      "input": "Keyboard",
+      "action": "Esc returns to the title screen"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "title.png",
+      "caption": "The original title and Angola board"
+    },
+    {
+      "file": "board.png",
+      "caption": "A hot-seat month: hidden salaries, the map, agents and the UN inspector"
+    }
+  ],
+  "lazyAssets": []
+}

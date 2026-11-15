@@ -1,0 +1,29 @@
+level levels/xskat/ok/industrial-plumber-timpany.pingus
+demo levels/xskat/ok/demo/industrial-plumber-timpany.pingus-demo
+C 250 604a40b9
+C 500 e53d459f
+C 750 dc216436
+C 1000 feebbb09
+C 1250 dc278abe
+C 1500 9b830993
+C 1750 4997b17f
+C 2000 a8619029
+C 2250 772e6cd9
+C 2500 1729bf1e
+C 2750 182c9c40
+C 3000 829725fa
+C 3250 b330a078
+C 3500 ccc061ad
+C 3750 407641a5
+C 4000 a3653f2f
+C 4250 df1d55e7
+C 4500 0c3f47b0
+C 4750 6375c226
+C 5000 90de7cd8
+C 5250 292bfcd6
+C 5500 d2bf9acf
+C 5750 5e99869b
+C 6000 04677a6d
+C 6250 d0f358b0
+H 0f7ca4bb
+E 6297 0 30 basher:9:1 blocker:0:1 bridger:19:1 digger:6:4

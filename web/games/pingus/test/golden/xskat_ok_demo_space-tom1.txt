@@ -1,0 +1,12 @@
+level levels/alien/space-tom1.pingus
+demo levels/xskat/ok/demo/space-tom1.pingus-demo
+C 250 cdca5f10
+C 500 edd560ab
+C 750 f2eceb4c
+C 1000 0371cf87
+C 1250 e4cd9e17
+C 1500 26a6a2f9
+C 1750 949a879d
+C 2000 461f4d71
+H 060bc221
+E 2091 0 30 blocker:5:0 bomber:2:0 bridger:10:0 jumper:5:0 miner:5:0

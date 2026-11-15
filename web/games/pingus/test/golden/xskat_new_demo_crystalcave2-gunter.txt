@@ -1,0 +1,15 @@
+level levels/crystal/crystalcave2-gunter.pingus
+demo levels/xskat/new/demo/crystalcave2-gunter.pingus-demo
+C 250 25448265
+C 500 cfd14f8d
+C 750 aa627f73
+C 1000 c66fb29f
+C 1250 40432ab5
+C 1500 e8d3d699
+C 1750 d64770c2
+C 2000 9a624fcc
+C 2250 7b2714c2
+C 2500 23eccb77
+C 2750 da37077d
+H 929a7c4a
+E 2955 0 10 basher:20:0 bridger:30:0 jumper:12:28

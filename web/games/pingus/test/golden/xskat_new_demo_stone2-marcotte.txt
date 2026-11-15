@@ -1,0 +1,18 @@
+level levels/xskat/new/stone2-marcotte.pingus
+demo levels/xskat/new/demo/stone2-marcotte.pingus-demo
+C 250 7888f2a6
+C 500 13427591
+C 750 b19139bd
+C 1000 5f28118f
+C 1250 eb201be4
+C 1500 5f95c84f
+C 1750 89869557
+C 2000 8cf5ca0d
+C 2250 c12d6c7d
+C 2500 38f58b74
+C 2750 ef5cd711
+C 3000 84743b0a
+C 3250 5c0b3a24
+C 3500 ad73ae39
+H 6d1bab8c
+E 3626 0 0 blocker:0:1 jumper:0:5

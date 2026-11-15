@@ -1,0 +1,8 @@
+level levels/xskat/ok/digger-tutorial-grumbel.pingus
+demo levels/xskat/ok/demo/digger-tutorial-grumbel.pingus-demo
+C 250 632550c5
+C 500 0de5a80b
+C 750 b2932b86
+C 1000 1fc009c4
+H 8a9f4f97
+E 1207 20 0 digger:19:1

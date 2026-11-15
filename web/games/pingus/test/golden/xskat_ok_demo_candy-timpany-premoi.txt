@@ -1,0 +1,25 @@
+level levels/xskat/ok/candy-timpany-premoi.pingus
+demo levels/xskat/ok/demo/candy-timpany-premoi.pingus-demo
+C 250 81ebdcd6
+C 500 b03156f5
+C 750 b521dd15
+C 1000 5d8e46f1
+C 1250 26b77ce8
+C 1500 273d9493
+C 1750 e704f6d7
+C 2000 03dcd7b0
+C 2250 4fe56645
+C 2500 564d617b
+C 2750 3cd3668f
+C 3000 f2403ed4
+C 3250 28741215
+C 3500 0f0fc5e4
+C 3750 8f8827ed
+C 4000 a2e9b905
+C 4250 d0c02412
+C 4500 20a5ae9e
+C 4750 0816c24f
+C 5000 ed2626d3
+C 5250 fdb8a18f
+H d506aae7
+E 5443 0 40 basher:18:2 blocker:1:0 bridger:15:5 digger:18:2 floater:0:2

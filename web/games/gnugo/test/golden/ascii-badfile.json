@@ -1,0 +1,18 @@
+{
+ "args": [
+  "--mode",
+  "ascii",
+  "-l",
+  "bad.sgf",
+  "-r",
+  "7"
+ ],
+ "input": "quit\n",
+ "files": {
+  "bad.sgf": "(;GM[2]SZ[9];B[ee];W[dd\n"
+ },
+ "stdout": "",
+ "stderr": "expected: ]\n",
+ "status": 1,
+ "written": {}
+}

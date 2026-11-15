@@ -1,0 +1,27 @@
+level levels/pacman/pacman3-yingwan.pingus
+demo levels/xskat/ok/demo/pacman3-yingwan.pingus-demo
+C 250 cde133bd
+C 500 5ba6bfe0
+C 750 6a114243
+C 1000 5ea9e42a
+C 1250 b87776c1
+C 1500 fa374990
+C 1750 4c5f0562
+C 2000 91614031
+C 2250 b1d5b757
+C 2500 80df3333
+C 2750 39572df9
+C 3000 346cdbaf
+C 3250 51e4e0fd
+C 3500 d51e65fe
+C 3750 f930d2d1
+C 4000 3521c012
+C 4250 da0137a1
+C 4500 7477ecb0
+C 4750 39dc6ec0
+C 5000 daaed07d
+C 5250 3c9a460d
+C 5500 3b202f64
+C 5750 21ba13b6
+H 7e2097d6
+E 5794 0 20 basher:19:1 blocker:17:3 bomber:20:0 bridger:17:3 climber:5:15 digger:19:1 floater:20:0 jumper:18:2 miner:20:0

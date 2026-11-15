@@ -1,0 +1,38 @@
+level levels/xskat/new/winter1-chei.pingus
+demo levels/xskat/new/demo/winter1-chei.pingus-demo
+C 250 1ffc2a00
+C 500 8029ba98
+C 750 fdc077e1
+C 1000 7d9b1f42
+C 1250 9613346d
+C 1500 10715ac8
+C 1750 2e1dcb8b
+C 2000 fdc9f8c6
+C 2250 3c0e4f29
+C 2500 773d0341
+C 2750 f3176db6
+C 3000 92580ddf
+C 3250 8590b08a
+C 3500 7608c418
+C 3750 0c266198
+C 4000 dbe97a19
+C 4250 ba141330
+C 4500 ae1def3f
+C 4750 8615ccbc
+C 5000 cfe71bc3
+C 5250 fc3e469c
+C 5500 a334d385
+C 5750 bfee07fc
+C 6000 5f505da5
+C 6250 8fd4ff6c
+C 6500 b02b9ca8
+C 6750 c00ece82
+C 7000 f6832d7f
+C 7250 8a074f86
+C 7500 4324b6e8
+C 7750 75d046c4
+C 8000 f8009705
+C 8250 a3505aca
+C 8500 e1a69cf0
+H 837de026
+E 8507 0 30 blocker:4:1 bomber:1:1 bridger:2:1 digger:1:1 jumper:0:2

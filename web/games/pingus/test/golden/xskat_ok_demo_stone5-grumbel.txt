@@ -1,0 +1,20 @@
+level levels/xskat/ok/stone5-grumbel.pingus
+demo levels/xskat/ok/demo/stone5-grumbel.pingus-demo
+C 250 10c09832
+C 500 2283fc4d
+C 750 ecfd56f6
+C 1000 019a1db6
+C 1250 eda675e1
+C 1500 ca6fe3fb
+C 1750 97f5677b
+C 2000 bc584746
+C 2250 04cb2e22
+C 2500 d9d4b771
+C 2750 32e9f9f1
+C 3000 9220983a
+C 3250 3cc217fe
+C 3500 a14f0f66
+C 3750 0828ab28
+C 4000 dea650b5
+H 067fe179
+E 4209 0 30 basher:2:3 blocker:4:1 bomber:5:0 bridger:1:1

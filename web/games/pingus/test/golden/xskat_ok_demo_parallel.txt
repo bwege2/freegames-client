@@ -1,0 +1,28 @@
+level levels/crystal/parallel.pingus
+demo levels/xskat/ok/demo/parallel.pingus-demo
+C 250 9fc5da92
+C 500 8c09b6a0
+C 750 c70fa299
+C 1000 1791427b
+C 1250 f752fafc
+C 1500 baa655e2
+C 1750 cb39c8f4
+C 2000 88ca6846
+C 2250 8aefc090
+C 2500 61868f91
+C 2750 2cdf3468
+C 3000 80b33d2e
+C 3250 45e9d4ce
+C 3500 f2754163
+C 3750 795ebfd7
+C 4000 33625636
+C 4250 e44947bd
+C 4500 c917a037
+C 4750 190fa83a
+C 5000 a68d841a
+C 5250 7450f4f9
+C 5500 f49054c0
+C 5750 9322d7bf
+C 6000 a48db22a
+H 5bfdae1d
+E 6071 6 54 basher:2:3 bridger:5:0 climber:5:0 digger:0:5 floater:4:1 miner:0:1

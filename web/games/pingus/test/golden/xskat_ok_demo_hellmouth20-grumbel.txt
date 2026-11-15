@@ -1,0 +1,16 @@
+level levels/hellmouth/hellmouth20-grumbel.pingus
+demo levels/xskat/ok/demo/hellmouth20-grumbel.pingus-demo
+C 250 575c7fc8
+C 500 3be913ec
+C 750 f89573c4
+C 1000 33239f81
+C 1250 8a784530
+C 1500 f983173c
+C 1750 1a7d8924
+C 2000 9f1ad1a1
+C 2250 18fdcd87
+C 2500 fe516029
+C 2750 4da3e748
+C 3000 871a2180
+H c9733ab6
+E 3090 2 18 jumper:0:100

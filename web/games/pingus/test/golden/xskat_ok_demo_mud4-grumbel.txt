@@ -1,0 +1,20 @@
+level levels/xskat/ok/mud4-grumbel.pingus
+demo levels/xskat/ok/demo/mud4-grumbel.pingus-demo
+C 250 bd2e9faf
+C 500 17580c65
+C 750 d84677be
+C 1000 1b993000
+C 1250 2e6d683b
+C 1500 262d0698
+C 1750 3c407a6f
+C 2000 382c5253
+C 2250 c7324840
+C 2500 5507ce7f
+C 2750 f4df2294
+C 3000 d3237c4f
+C 3250 21d10d10
+C 3500 112e0339
+C 3750 b9087a3c
+C 4000 78e2d099
+H 15371a32
+E 4203 0 50 basher:4:1 blocker:3:2 bomber:9:1 bridger:3:2 miner:4:1

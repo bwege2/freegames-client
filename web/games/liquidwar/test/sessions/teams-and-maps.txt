@@ -1,0 +1,130 @@
+# The map menu (sliders, +/- buttons, number fields, default texture, the colour palettes clicked) and the
+# teams' menu (a name typed, controls cycled, a key changed, a colour taken from another team), then a
+# battle of six teams (one human) on the map chosen, Escape, the scores, Quit.
+mouse 1000 318 223 1
+mouse 1100 318 223 0
+tap 2200 TAB
+tap 2450 RIGHT
+tap 3050 RIGHT
+tap 3650 RIGHT
+tap 4250 LEFT
+tap 4850 TAB
+tap 5100 UP
+tap 5700 UP
+tap 6300 TAB
+tap 6550 UP
+tap 7150 TAB
+tap 7400 ENTER
+tap 8100 TAB
+tap 8350 ENTER
+tap 9050 ENTER
+tap 9750 TAB
+tap 10000 ENTER
+tap 10700 TAB
+tap 10950 ENTER
+tap 11650 TAB
+tap 11900 ENTER
+tap 12600 TAB
+tap 12850 ENTER
+tap 13550 TAB
+tap 13800 BACKSPACE
+tap 14050 BACKSPACE
+tap 14300 BACKSPACE
+tap 14550 BACKSPACE
+tap 14800 3
+tap 15050 5
+tap 15300 ENTER
+tap 16200 TAB
+tap 16450 BACKSPACE
+tap 16700 BACKSPACE
+tap 16950 BACKSPACE
+tap 17200 BACKSPACE
+tap 17450 1
+tap 17700 4
+tap 17950 0
+tap 18200 ENTER
+tap 19100 TAB
+tap 19350 BACKSPACE
+tap 19600 BACKSPACE
+tap 19850 BACKSPACE
+tap 20100 BACKSPACE
+tap 20350 9
+tap 20600 ENTER
+tap 21500 TAB
+tap 21750 ENTER
+tap 22650 ENTER
+mouse 23550 28 128 1
+mouse 23650 28 128 0
+mouse 24250 44 160 1
+mouse 24350 44 160 0
+mouse 24950 560 150 1
+mouse 25050 560 150 0
+mouse 25650 590 200 1
+mouse 25750 590 200 0
+tap 26350 ESC
+mouse 27350 318 259 1
+mouse 27450 318 259 0
+mouse 28550 126 74 0
+mouse 28750 630 200 0
+tap 28950 END
+tap 29200 BACKSPACE
+tap 29350 BACKSPACE
+tap 29500 BACKSPACE
+tap 29650 BACKSPACE
+tap 29800 BACKSPACE
+tap 29950 BACKSPACE
+tap 30100 BACKSPACE
+tap 30250 BACKSPACE
+tap 30400 BACKSPACE
+tap 30550 BACKSPACE
+tap 30700 U
+tap 30850 L
+tap 31000 Y
+tap 31150 S
+tap 31300 S
+tap 31450 E
+mouse 31600 163 105 1
+mouse 31700 163 105 0
+mouse 32300 163 105 1
+mouse 32400 163 105 0
+mouse 33000 163 105 1
+mouse 33100 163 105 0
+mouse 33700 161 161 1
+mouse 33800 161 161 0
+tap 33720 W
+mouse 34420 300 133 1
+mouse 34520 300 133 0
+mouse 35120 319 105 1
+mouse 35220 319 105 0
+mouse 35820 319 105 1
+mouse 35920 319 105 0
+mouse 36520 475 105 1
+mouse 36620 475 105 0
+mouse 37220 475 105 1
+mouse 37320 475 105 0
+mouse 37920 163 291 1
+mouse 38020 163 291 0
+mouse 38620 163 291 1
+mouse 38720 163 291 0
+mouse 39320 319 291 1
+mouse 39420 319 291 0
+mouse 40020 319 291 1
+mouse 40120 319 291 0
+mouse 40720 475 291 1
+mouse 40820 475 291 0
+mouse 41420 475 291 1
+mouse 41520 475 291 0
+mouse 42120 475 291 1
+mouse 42220 475 291 0
+tap 42820 H
+press 46820 RIGHT
+press 47320 W
+release 50820 RIGHT
+press 50820 LEFT
+release 53820 W
+release 56820 LEFT
+tap 64820 ESC
+tap 73820 ENTER
+tap 75320 ESC
+tap 76120 ENTER
+end 79120

@@ -1,0 +1,28 @@
+# A battle on a custom map (the meditating gnu, custom/map/meditate.bmp, with its own texture
+# custom/texture/meditate.bmp) at 1024x768, four teams, a slower and a different wave setting.
+cfg [MAIN]
+cfg DUMMY = 5003000
+cfg GFX_GAME = 4
+cfg LEVEL_MAP = 19
+cfg FRAMES_PER_SEC_LIMIT = 3
+cfg ROUNDS_PER_SEC_LIMIT = 6
+cfg FIGHTER_NUMBER = 24
+cfg INFO_BAR = 2
+cfg [WAVE_AMPLI]
+cfg 0 = 16
+cfg 2 = 3
+cfg [CONTROL_TYPE]
+cfg 0 = 1
+cfg 1 = 2
+cfg 3 = 2
+cfg 5 = 2
+tap 1000 ENTER
+press 3500 DOWN
+press 3900 RIGHT
+release 7000 DOWN
+release 9000 RIGHT
+tap 15000 ESC
+tap 24000 ENTER
+tap 25500 ESC
+tap 26300 ENTER
+end 29300

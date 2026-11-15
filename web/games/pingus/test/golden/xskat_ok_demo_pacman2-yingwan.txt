@@ -1,0 +1,15 @@
+level levels/pacman/pacman2-yingwan.pingus
+demo levels/xskat/ok/demo/pacman2-yingwan.pingus-demo
+C 250 dfacbebd
+C 500 70298e8c
+C 750 f09b33db
+C 1000 f9c5060d
+C 1250 3cada8e2
+C 1500 8bc0e256
+C 1750 5cbfd303
+C 2000 17f2f01c
+C 2250 ad125128
+C 2500 d2382ee9
+C 2750 a389bc37
+H ab2a360a
+E 2976 0 50 basher:5:0 blocker:8:2 bomber:10:0 bridger:9:1 digger:5:0 floater:10:0 jumper:4:1 miner:4:1

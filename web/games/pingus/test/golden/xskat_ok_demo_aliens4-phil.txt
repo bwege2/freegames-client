@@ -1,0 +1,33 @@
+level levels/alien/aliens4-phil.pingus
+demo levels/xskat/ok/demo/aliens4-phil.pingus-demo
+C 250 af34c46f
+C 500 6afc9e80
+C 750 09e4cd55
+C 1000 88b1b41e
+C 1250 42288962
+C 1500 3a08599f
+C 1750 abadadb3
+C 2000 77a4115c
+C 2250 cd4d0a09
+C 2500 04465214
+C 2750 053edd5c
+C 3000 a224f7d4
+C 3250 ef8f9ac2
+C 3500 17662839
+C 3750 89bbcab8
+C 4000 51173626
+C 4250 504b37a5
+C 4500 e077a040
+C 4750 7d29775a
+C 5000 e57a67cc
+C 5250 2cd9fdbb
+C 5500 ddae1794
+C 5750 bcb3de78
+C 6000 12413827
+C 6250 dac9fe60
+C 6500 eed40cef
+C 6750 956ada6c
+C 7000 8ea6f41e
+C 7250 88e6389b
+H 0a3379eb
+E 7291 0 50 basher:12:8 blocker:18:2 bridger:13:7 climber:20:0 digger:18:2 floater:20:0 jumper:20:0

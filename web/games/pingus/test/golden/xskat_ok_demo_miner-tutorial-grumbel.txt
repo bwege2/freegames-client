@@ -1,0 +1,12 @@
+level levels/xskat/ok/miner-tutorial-grumbel.pingus
+demo levels/xskat/ok/demo/miner-tutorial-grumbel.pingus-demo
+C 250 6278ae84
+C 500 cfd9d15f
+C 750 2d32e3e8
+C 1000 8a7f7f12
+C 1250 2cdf9d99
+C 1500 ff3c7442
+C 1750 f12b0e4f
+C 2000 a66aaf58
+H 26df01f1
+E 2023 20 0 miner:18:2

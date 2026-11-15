@@ -1,0 +1,10 @@
+level levels/xskat/ok/climber-tutorial-lukis.pingus
+demo levels/xskat/ok/demo/climber-tutorial-lukis.pingus-demo
+C 250 90be11c7
+C 500 eed7e593
+C 750 d7c39382
+C 1000 af1ed7c9
+C 1250 3f54af9a
+C 1500 d670d683
+H d08eee64
+E 1718 10 0 climber:40:10

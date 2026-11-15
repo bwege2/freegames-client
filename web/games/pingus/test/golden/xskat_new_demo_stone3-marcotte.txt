@@ -1,0 +1,19 @@
+level levels/xskat/new/stone3-marcotte.pingus
+demo levels/xskat/new/demo/stone3-marcotte.pingus-demo
+C 250 d1d4470f
+C 500 4f34534b
+C 750 750f4a49
+C 1000 e151b2e2
+C 1250 2b6b05f9
+C 1500 68ca6499
+C 1750 fdf30b91
+C 2000 17385294
+C 2250 72dbbc88
+C 2500 7c8c85c7
+C 2750 8b65c028
+C 3000 360b95d3
+C 3250 6c97a6e9
+C 3500 de678ec6
+C 3750 03a831c6
+H 5d3780fe
+E 3876 1 2 bomber:3:2 climber:0:3 jumper:66:54

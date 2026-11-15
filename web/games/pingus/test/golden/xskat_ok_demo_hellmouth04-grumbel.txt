@@ -1,0 +1,16 @@
+level levels/hellmouth/hellmouth04-grumbel.pingus
+demo levels/xskat/ok/demo/hellmouth04-grumbel.pingus-demo
+C 250 da29dcc2
+C 500 014f9767
+C 750 8223f45f
+C 1000 d549f6a4
+C 1250 b9c5ef4a
+C 1500 d797c671
+C 1750 716b7fff
+C 2000 41c88cd6
+C 2250 aafcb31c
+C 2500 10754029
+C 2750 66afaf29
+C 3000 a704bd6f
+H db707683
+E 3017 34 1 basher:0:2 blocker:5:0 bomber:5:0 jumper:3:2 miner:4:1

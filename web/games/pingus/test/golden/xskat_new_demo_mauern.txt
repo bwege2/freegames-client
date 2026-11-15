@@ -1,0 +1,22 @@
+level levels/xskat/new/mauern.pingus
+demo levels/xskat/new/demo/mauern.pingus-demo
+C 250 415e2321
+C 500 6f54a22c
+C 750 b90e51d8
+C 1000 7f8abe56
+C 1250 d531acd9
+C 1500 0cbd6b72
+C 1750 048b5989
+C 2000 606f34d9
+C 2250 9f68223c
+C 2500 dff0b2c9
+C 2750 cef6b0c0
+C 3000 ba210f0e
+C 3250 d7d63efd
+C 3500 96df34f3
+C 3750 ce914a0b
+C 4000 73a6fc0c
+C 4250 a0785f5a
+C 4500 2ed44a55
+H 7890a575
+E 4591 0 50 basher:3:2 blocker:9:1 bomber:20:0 bridger:29:1 climber:2:0 digger:5:0 floater:2:0 miner:1:1

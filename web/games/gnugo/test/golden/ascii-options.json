@@ -1,0 +1,14 @@
+{
+ "args": [
+  "--mode",
+  "ascii",
+  "--boardsize",
+  "30"
+ ],
+ "input": "quit\n",
+ "files": {},
+ "stdout": "",
+ "stderr": "Unsupported board size: 30. Max size is 19.\nTry `gnugo --help' for more information.\n",
+ "status": 1,
+ "written": {}
+}

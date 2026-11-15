@@ -1,0 +1,38 @@
+level levels/xskat/new/avaritia-cbrucher.pingus
+demo levels/xskat/new/demo/avaritia-cbrucher.pingus-demo
+C 250 40984c04
+C 500 4727cf38
+C 750 2e529424
+C 1000 4e79e234
+C 1250 3fc99fbc
+C 1500 ac4b01c6
+C 1750 4a18cff6
+C 2000 992412b6
+C 2250 730deb65
+C 2500 e5d4c2a7
+C 2750 ad6965ee
+C 3000 4b6ecdea
+C 3250 aa243b35
+C 3500 7e5acf4b
+C 3750 679b343f
+C 4000 43ac326e
+C 4250 a08727b6
+C 4500 18d12042
+C 4750 80e3fae3
+C 5000 a7fe4aef
+C 5250 bda0bba5
+C 5500 d6ca8bb7
+C 5750 fba86d38
+C 6000 90b8b23f
+C 6250 ca21811e
+C 6500 ffc7d58d
+C 6750 f8262919
+C 7000 9a3b0324
+C 7250 1500252e
+C 7500 bc262ace
+C 7750 425c47fb
+C 8000 82b49130
+C 8250 5b7bb780
+C 8500 c712239d
+H d3bc1682
+E 8618 0 50 basher:1:0 blocker:0:2 bomber:2:0 bridger:1:6 digger:0:1 floater:1:0

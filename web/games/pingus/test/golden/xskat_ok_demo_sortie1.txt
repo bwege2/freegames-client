@@ -1,0 +1,44 @@
+level levels/playable/sortie1.pingus
+demo levels/xskat/ok/demo/sortie1.pingus-demo
+C 250 ebb7283d
+C 500 90b7670e
+C 750 a8466381
+C 1000 2a5baef8
+C 1250 0e709fe0
+C 1500 4df08a05
+C 1750 514bb2a9
+C 2000 7a371836
+C 2250 ddb170be
+C 2500 7d7ff245
+C 2750 d61266ad
+C 3000 d222c643
+C 3250 2e6d1335
+C 3500 cbdbad96
+C 3750 0ae385c0
+C 4000 1964e0f4
+C 4250 faf23980
+C 4500 ae997c40
+C 4750 5a177c5f
+C 5000 d2ed7b04
+C 5250 0aa76ae5
+C 5500 c9d2caa2
+C 5750 0320f80f
+C 6000 72e4b9d2
+C 6250 ccb5611d
+C 6500 a44e79eb
+C 6750 934aa40b
+C 7000 6673091a
+C 7250 39a6401a
+C 7500 deb78fd9
+C 7750 482889f4
+C 8000 b2f7cb40
+C 8250 9e6ffad0
+C 8500 6c825d9f
+C 8750 8d446264
+C 9000 dc56f0e8
+C 9250 0537aea5
+C 9500 40a97f71
+C 9750 e79f089c
+C 10000 6f9e9ecf
+H 4ba09194
+E 10126 0 75 basher:12:8 blocker:5:15 bomber:19:1 bridger:31:19 digger:19:1

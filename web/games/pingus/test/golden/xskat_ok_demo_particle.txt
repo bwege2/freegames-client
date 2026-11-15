@@ -1,0 +1,17 @@
+level levels/playable/particle.pingus
+demo levels/xskat/ok/demo/particle.pingus-demo
+C 250 21bf55e4
+C 500 29d0dbaa
+C 750 74745652
+C 1000 79ff6382
+C 1250 02fd3f67
+C 1500 472e5f4b
+C 1750 755628db
+C 2000 43af97e0
+C 2250 25e6d705
+C 2500 4074c627
+C 2750 39604093
+C 3000 bc31f320
+C 3250 fa55bef6
+H 757c8c34
+E 3469 1 99 basher:9:1 blocker:1:2 bridger:1:0 digger:8:2 floater:0:1

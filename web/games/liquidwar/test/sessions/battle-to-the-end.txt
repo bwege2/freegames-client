@@ -1,0 +1,27 @@
+# A 15 second battle (GAME_TIME 0) of the human player (arrow keys) against two computer players on the
+# default map, to the end of the time, then the scores filling their tubes, Back to the main menu, Quit.
+cfg [MAIN]
+cfg DUMMY = 5003000
+cfg GAME_TIME = 0
+cfg [CONTROL_TYPE]
+cfg 0 = 1
+cfg 1 = 2
+cfg 2 = 2
+cfg 5 = 0
+tap 2000 ENTER
+press 3500 RIGHT
+press 4200 DOWN
+release 6000 RIGHT
+press 6100 LEFT
+release 8000 DOWN
+press 8100 UP
+release 9000 LEFT
+release 11000 UP
+press 12000 RIGHT
+press 12000 DOWN
+release 14500 RIGHT
+release 14500 DOWN
+tap 26000 ENTER
+tap 28000 ESC
+tap 29000 ENTER
+end 31000

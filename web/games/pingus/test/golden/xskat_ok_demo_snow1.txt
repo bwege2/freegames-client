@@ -1,0 +1,27 @@
+level levels/xskat/ok/snow1.pingus
+demo levels/xskat/ok/demo/snow1.pingus-demo
+C 250 81103871
+C 500 6cd1eb0f
+C 750 32c0f504
+C 1000 c29af951
+C 1250 61987fac
+C 1500 2148d2d9
+C 1750 7edbb03b
+C 2000 eae4e1b4
+C 2250 3d2532e3
+C 2500 b96fef7c
+C 2750 61df9e00
+C 3000 fbedc419
+C 3250 cfc57cef
+C 3500 d534d781
+C 3750 e00b7a04
+C 4000 9e3d48cb
+C 4250 07f98613
+C 4500 9485e35a
+C 4750 6234dc38
+C 5000 cba989e6
+C 5250 084d31b8
+C 5500 25622ddb
+C 5750 e0b3ca6a
+H 3c32bb49
+E 5844 0 120 basher:24:1 blocker:9:1 bomber:10:0 bridger:19:1 floater:20:0

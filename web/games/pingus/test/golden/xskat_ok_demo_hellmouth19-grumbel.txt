@@ -1,0 +1,36 @@
+level levels/wip/hellmouth19-grumbel.pingus
+demo levels/xskat/ok/demo/hellmouth19-grumbel.pingus-demo
+C 250 36df35bb
+C 500 ef1eba25
+C 750 6871afd6
+C 1000 4cad7fca
+C 1250 22b89247
+C 1500 6c6c8b1a
+C 1750 d318111d
+C 2000 1ddfd182
+C 2250 8100213e
+C 2500 16ede65c
+C 2750 936fe0fc
+C 3000 8ce3e20c
+C 3250 2e8586d1
+C 3500 95988118
+C 3750 ad8248b0
+C 4000 c0da684c
+C 4250 b347e27c
+C 4500 7acb3bc3
+C 4750 a712a54b
+C 5000 f5d7d689
+C 5250 87130cb9
+C 5500 16661eea
+C 5750 cb2fde26
+C 6000 01f56fd6
+C 6250 b308d7a6
+C 6500 09e8624d
+C 6750 f53dcbe9
+C 7000 7ff6b743
+C 7250 7e8a4963
+C 7500 36eb8fcc
+C 7750 2033fa34
+C 8000 f5a399f6
+H 5065036e
+E 8232 0 50 basher:18:2 blocker:17:3 bomber:19:1 bridger:18:2 jumper:17:3 slider:20:0

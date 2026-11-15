@@ -1,0 +1,27 @@
+level levels/hellmouth/hellmouth23-rz+eriksoe.pingus
+demo levels/xskat/new/demo/hellmouth-23-rz+eriksoe.pingus-demo
+C 250 bcfb7b53
+C 500 ad93e8c0
+C 750 6f13d1d3
+C 1000 df546954
+C 1250 b35c72fc
+C 1500 95beacd2
+C 1750 b2718565
+C 2000 58dbf035
+C 2250 5b9ace1c
+C 2500 7cce888e
+C 2750 a1308151
+C 3000 27f2e9be
+C 3250 da8894c9
+C 3500 35522e0e
+C 3750 01798ece
+C 4000 a427c0a3
+C 4250 485923df
+C 4500 d3672eda
+C 4750 3be62b69
+C 5000 3b6640be
+C 5250 b0e96cb8
+C 5500 e748b1e2
+C 5750 48879e83
+H 59e26169
+E 5855 49 1 bridger:1:1 climber:1:19 digger:20:0 floater:8:12 jumper:1:19 miner:17:3

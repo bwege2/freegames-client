@@ -1,0 +1,16 @@
+level levels/xskat/new/forest2-chei.pingus
+demo levels/xskat/new/demo/forest2-chei.pingus-demo
+C 250 e4c47f24
+C 500 cc5a7ac2
+C 750 c4764a75
+C 1000 ab85e1cf
+C 1250 6fae7995
+C 1500 14d29119
+C 1750 f68a4ce0
+C 2000 572fd928
+C 2250 7e4687f4
+C 2500 08c42749
+C 2750 2ec44ba9
+C 3000 bd30d3cc
+H 5dda36a4
+E 3204 2 8 basher:1:3 digger:0:1 floater:0:10 jumper:1:9

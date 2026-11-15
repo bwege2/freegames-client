@@ -295,6 +295,23 @@ def i_tuxmath(S):
     return clip(place(base, trim(art), (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
 
 
+def i_pingus(S):
+    # the game's icon: a pingu on its grey rounded tile (data/images/icons/pingus-icon.png at 48, pingus-icon.svg
+    # for the large one; GPL-3.0-or-later), its own tile filling ours
+    if S <= 48:
+        art = Image.open(orig('pingus', 'orig', 'pingus-0.7.6', 'data', 'images', 'icons', 'pingus-icon.png')).convert('RGBA')
+    else:
+        with tempfile.TemporaryDirectory() as t:
+            p = os.path.join(t, 'pingus.png')
+            subprocess.run(['magick', '-background', 'none', '-density', '600',
+                            orig('pingus', 'orig', 'pingus-0.7.6', 'data', 'images', 'icons', 'pingus-icon.svg'),
+                            '-resize', f'{S}x{S}', p], check=True)
+            art = Image.open(p).convert('RGBA')
+            art.load()
+    base = tile(S, '#3c3c3c')
+    return clip(place(base, trim(art), (0, 0, S, S)), S)
+
+
 def i_powdertoy(S):
     # the game's own icon (resources/icon_exe.svg of the source, GPL-3.0), on the game's black
     base = tile(S, '#000000', top='#202020')
@@ -428,6 +445,13 @@ def i_gltron(S):
     return clip(base.resize((S, S), Image.LANCZOS), S)
 
 
+def i_liquidwar(S):
+    # the original's window icon (misc/liquidwar.ico, 48x48, GPL): the liquid "LW" in red, green and blue
+    art = Image.open(orig('liquidwar', 'orig', 'liquidwar-5.6.6', 'misc', 'liquidwar.ico')).convert('RGBA')
+    base = tile(S, '#101018')
+    return clip(pixel_place(base, art, max(1, round(S / 48))), S)
+
+
 def i_gnuchess(S):
     # drawn by us: a knight (DejaVu Sans' chess glyph) on a board square
     base = tile(S, '#b58863', top='#f0d9b5')
@@ -436,6 +460,22 @@ def i_gnuchess(S):
     f = ImageFont.truetype(FONT_PLAIN, round(big * 0.86))
     d = ImageDraw.Draw(lay)
     d.text((big / 2, big * 0.53), '♞', font=f, fill=(20, 20, 20, 255), anchor='mm')
+    base.alpha_composite(lay.resize((S, S), Image.LANCZOS))
+    return clip(base, S)
+
+
+def i_gnugo(S):
+    # drawn by us: a black and a white stone on the lines of a Go board
+    base = tile(S, '#c99a4e', top='#e6c27a')
+    big = S * SS
+    lay = Image.new('RGBA', (big, big), (0, 0, 0, 0))
+    d = ImageDraw.Draw(lay)
+    for t in (0.25, 0.5, 0.75):
+        d.line([(big * t, 0), (big * t, big)], fill=(60, 40, 20, 255), width=max(1, round(big * 0.025)))
+        d.line([(0, big * t), (big, big * t)], fill=(60, 40, 20, 255), width=max(1, round(big * 0.025)))
+    r = big * 0.2
+    for (cx, cy), fill, edge in (((0.5, 0.5), (24, 24, 24, 255), (0, 0, 0, 255)), ((0.75, 0.25), (245, 245, 240, 255), (90, 90, 90, 255))):
+        d.ellipse((big * cx - r, big * cy - r, big * cx + r, big * cy + r), fill=fill, outline=edge, width=max(1, round(big * 0.015)))
     base.alpha_composite(lay.resize((S, S), Image.LANCZOS))
     return clip(base, S)
 
@@ -468,6 +508,15 @@ TERMINAL = {
     'nethack': ('@', '#ffffff'),      # the player, as NetHack draws it
     'corewar': ('C', '#00e5ff'),      # cyan: the core
 }
+
+
+def i_diamondtrust(S):
+    # the original's diamond (gameSource/graphics/diamond.png, 32x32, Jason Rohrer, public domain), its corner colour
+    # keyed out as the game's applyCornerTransparency() does, on the map's olive land
+    art = Image.open(G('diamondtrust', 'assets', 'diamond.png')).convert('RGB')
+    art = trim(opaque_to_alpha(art, art.getpixel((0, 0)), tol=0))
+    base = tile(S, '#6b6a1e', top='#8f8b2a')
+    return clip(pixel_place(base, art, 1 if S < 96 else 5), S)
 
 
 def site(S):

@@ -1,0 +1,34 @@
+level levels/xskat/new/stairway1-valar.pingus
+demo levels/xskat/new/demo/stairway1-valar.pingus-demo
+C 250 1f4ef958
+C 500 323ab043
+C 750 0bdb44da
+C 1000 39a85fde
+C 1250 a1808f2c
+C 1500 62165da6
+C 1750 579b9d0e
+C 2000 f8709311
+C 2250 b5693e7e
+C 2500 9f6d0d18
+C 2750 23c9b1db
+C 3000 4455ec04
+C 3250 c6f293a4
+C 3500 da7a4a60
+C 3750 b19ba167
+C 4000 842efb34
+C 4250 78c1012d
+C 4500 7b2a6985
+C 4750 ae38ce20
+C 5000 4d6bf2d5
+C 5250 91d1e190
+C 5500 148c54a3
+C 5750 ff3c0cb8
+C 6000 91b5c487
+C 6250 56029111
+C 6500 c6474c59
+C 6750 90ca8d41
+C 7000 9bf9c8b9
+C 7250 734014f5
+C 7500 d978f7a2
+H 6d0c9859
+E 7677 0 50 blocker:3:2 bomber:19:1 bridger:19:1 climber:1:0 floater:0:1 jumper:0:2

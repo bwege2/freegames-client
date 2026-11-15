@@ -1,0 +1,76 @@
+{
+  "id": "gnugo",
+  "title": "GNU Go",
+  "tagline": "The GNU Project's Go program, at its ASCII board.",
+  "summary": [
+    "GNU Go is the GNU Project's program that plays Go, the board game of black and white stones on a grid of 19, 13 or 9 lines. It started in 1989 and was developed by many people until version 3.8 in 2009.",
+    "You play it as in a terminal: it draws the board in letters (X for Black, O for White, the last move in parentheses), and you type moves such as d4 or click a point. Commands set the board size, handicap and komi, take moves back, step through the game, save and load SGF files, and let two people play each other with force. After two passes it counts the game, and you can mark dead groups.",
+    "This is GNU Go 3.8's ASCII mode with its Monte Carlo player; its larger pattern and reading engine is not part of this port, so the computer plays more weakly than the original, especially on 19x19."
+  ],
+  "original": {
+    "author": "Man Li, Wayne Iba, Daniel Bump, Gunnar Farnebäck, Arend Bayer and others (the GNU Project)",
+    "year": 1989,
+    "platform": "C (command line)",
+    "version": "3.8",
+    "license": "GPL-3.0-or-later",
+    "packageBytes": 3200454,
+    "url": "https://www.gnu.org/software/gnugo/"
+  },
+  "players": "1 against the computer, or 2 at one keyboard",
+  "genres": ["Turn-based strategy"],
+  "modes": ["single", "multi"],
+  "added": "2026-11-15",
+  "caveat": "The computer player is GNU Go's Monte Carlo search (its own code, checked move for move against the original); the rest of GNU Go's engine (patterns, reading, influence) is not ported. So the computer plays weaker than GNU Go 3.8, and its passing and its count of dead stones at the end are the port's own (README).",
+  "controls": [
+    {
+      "input": "Keyboard",
+      "action": "Type a move (d4, k10) or a command, and press Enter; several separated by ;"
+    },
+    {
+      "input": "Mouse",
+      "action": "Click a point of the board to type its coordinate"
+    },
+    {
+      "input": "pass, undo, resign",
+      "action": "Pass, take your last move back, give up"
+    },
+    {
+      "input": "boardsize N, handicap N, komi K",
+      "action": "Set up the game before the first move (also as options in the bar: --boardsize 13 --handicap 2)"
+    },
+    {
+      "input": "level N",
+      "action": "How strong the computer plays (default 10)"
+    },
+    {
+      "input": "force MOVE, Two players",
+      "action": "Two people at one keyboard: force plays a move for the side to move without the computer answering; the Two players box types force for you"
+    },
+    {
+      "input": "save FILE, load FILE",
+      "action": "Save the game as SGF in your account, load it again; Files lists them"
+    },
+    {
+      "input": "back, forward, goto N",
+      "action": "Step through the game tree"
+    },
+    {
+      "input": "help",
+      "action": "The list of commands"
+    },
+    {
+      "input": "quit",
+      "action": "Back to the game page"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "play.png",
+      "caption": "A 9x9 game against GNU Go"
+    },
+    {
+      "file": "count.png",
+      "caption": "Counting at the end: dead stones in small letters"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+level levels/xskat/new/teamwork-cbrucher.pingus
+demo levels/xskat/new/demo/teamwork-cbrucher.pingus-demo
+C 250 3733b0b3
+C 500 7dc51e14
+C 750 2f4507fc
+C 1000 6e547475
+C 1250 ef967bb9
+C 1500 cc657ca2
+C 1750 ad6fc581
+C 2000 e1d17950
+C 2250 1e697337
+C 2500 b02c270e
+C 2750 3075cb70
+C 3000 8f38ff8c
+C 3250 6dc1b505
+C 3500 27a7e6ec
+C 3750 e476f72f
+C 4000 891ddb67
+C 4250 d0e7f214
+C 4500 30037e46
+C 4750 8f3c7894
+C 5000 e4064947
+C 5250 f6652e96
+C 5500 0e834c06
+C 5750 bda63a60
+C 6000 1336d0fe
+C 6250 a982883e
+C 6500 54546c7f
+C 6750 96fb82f4
+C 7000 4badc3bd
+C 7250 3361af4c
+C 7500 8579e6d0
+C 7750 e14c5de8
+C 8000 6e94aa1c
+H de56ad50
+E 8123 0 50 basher:2:0 bridger:13:7 climber:2:0 digger:2:0 jumper:2:0 miner:0:2

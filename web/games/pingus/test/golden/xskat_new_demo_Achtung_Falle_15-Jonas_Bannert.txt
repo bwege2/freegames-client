@@ -1,0 +1,12 @@
+level levels/xskat/new/achtung_falle_15-jonas_bannert.pingus
+demo levels/xskat/new/demo/Achtung_Falle_15-Jonas_Bannert.pingus-demo
+C 250 02f15437
+C 500 587592b1
+C 750 7dbd41e4
+C 1000 08def066
+C 1250 e2015e4b
+C 1500 55a8214a
+C 1750 90987c40
+C 2000 898f9bb0
+H 42dc0b6f
+E 2125 13 6 basher:2:0 blocker:0:1 bridger:0:2 digger:3:0 jumper:29:1 miner:0:1

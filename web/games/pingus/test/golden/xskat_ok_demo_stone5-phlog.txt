@@ -1,0 +1,24 @@
+level levels/xskat/ok/stone5-phlog.pingus
+demo levels/xskat/ok/demo/stone5-phlog.pingus-demo
+C 250 5a750d6a
+C 500 45590008
+C 750 7889467f
+C 1000 088dae4d
+C 1250 0d6e85e0
+C 1500 e1c1b4dd
+C 1750 c0e3c0e4
+C 2000 783a5dae
+C 2250 ee7fbbc0
+C 2500 023f5109
+C 2750 836d9f96
+C 3000 6b6c9f90
+C 3250 00960067
+C 3500 a12f6b41
+C 3750 270418fa
+C 4000 b7fd353d
+C 4250 9c4dd413
+C 4500 ebd35364
+C 4750 d3cfbbf8
+C 5000 aad868cb
+H 2c5774ff
+E 5116 0 50 basher:0:0 blocker:4:1 bomber:5:0 bridger:3:2 climber:0:0 digger:4:1 floater:5:0 jumper:5:0 miner:5:0

@@ -1,0 +1,38 @@
+level levels/xskat/new/egypt1-moredhel.pingus
+demo levels/xskat/new/demo/egypt1-moredhel.pingus-demo
+C 250 f5ed1bb6
+C 500 83f95c5e
+C 750 a3080ebe
+C 1000 9a92f609
+C 1250 3b202d38
+C 1500 2eee511b
+C 1750 8381e28a
+C 2000 787d8ba7
+C 2250 13a02e04
+C 2500 b571fd9e
+C 2750 b65625db
+C 3000 27ffb297
+C 3250 21d3594c
+C 3500 2b866815
+C 3750 a81508b4
+C 4000 23a9bf8c
+C 4250 b67d7cb9
+C 4500 69005c84
+C 4750 59e289fa
+C 5000 1c1e6be1
+C 5250 7e085dcc
+C 5500 40012b7e
+C 5750 c5a5e9ea
+C 6000 9df5c0a7
+C 6250 bd5130cf
+C 6500 b2c5d2db
+C 6750 fbd50d0b
+C 7000 0ac88b20
+C 7250 56bfc206
+C 7500 1b88c9a5
+C 7750 1d046aa6
+C 8000 344713bb
+C 8250 ece87c58
+C 8500 5ee0d8a5
+H 5ee0d8a5
+E 8500 0 30 basher:19:1 blocker:19:1 bomber:20:0 bridger:19:1 climber:20:0 digger:20:0 floater:20:0 jumper:20:0 miner:20:0 slider:20:0

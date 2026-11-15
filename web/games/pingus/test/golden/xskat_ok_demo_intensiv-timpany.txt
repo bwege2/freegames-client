@@ -1,0 +1,15 @@
+level levels/xskat/ok/intensiv-timpany.pingus
+demo levels/xskat/ok/demo/intensiv-timpany.pingus-demo
+C 250 dce47d19
+C 500 9af6f723
+C 750 6adb8e3a
+C 1000 dc215df6
+C 1250 652bb0f9
+C 1500 b732aabf
+C 1750 8d6902af
+C 2000 8ef70d65
+C 2250 c0bd79ae
+C 2500 c12564a3
+C 2750 c3237c29
+H 1498960e
+E 2935 0 100 bomber:18:2 climber:20:0 floater:0:20

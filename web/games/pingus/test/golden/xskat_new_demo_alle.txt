@@ -1,0 +1,18 @@
+level levels/xskat/new/alle.pingus
+demo levels/xskat/new/demo/alle.pingus-demo
+C 250 58db63d8
+C 500 62e2167e
+C 750 62a17372
+C 1000 9bd5c845
+C 1250 670542d0
+C 1500 8f4c2239
+C 1750 835ffd8e
+C 2000 1b0d7fde
+C 2250 1337ae7d
+C 2500 938899de
+C 2750 64964a13
+C 3000 c3e1ab86
+C 3250 7536e71a
+C 3500 530bc6a4
+H 3abf9e05
+E 3628 0 50 basher:17:3 bridger:13:7 digger:16:4 miner:19:1

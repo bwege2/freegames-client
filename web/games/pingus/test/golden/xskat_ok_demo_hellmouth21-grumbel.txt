@@ -1,0 +1,12 @@
+level levels/hellmouth/hellmouth21-grumbel.pingus
+demo levels/xskat/ok/demo/hellmouth21-grumbel.pingus-demo
+C 250 d6a583e0
+C 500 e63ead67
+C 750 954cb998
+C 1000 0011be62
+C 1250 5f393b5a
+C 1500 bdd53ba5
+C 1750 b18bb932
+C 2000 124b7605
+H 621031b2
+E 2248 0 30 bomber:2:8 bridger:1:0

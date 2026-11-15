@@ -1,0 +1,25 @@
+level levels/alien/space-loop-timpany.pingus
+demo levels/xskat/ok/demo/space-loop-timpany.pingus-demo
+C 250 ee3acf65
+C 500 b088dbc0
+C 750 fd77ec87
+C 1000 df6ce758
+C 1250 496759bf
+C 1500 589daa32
+C 1750 e65d214f
+C 2000 92ae8303
+C 2250 15bdd6e9
+C 2500 e4ad3a1e
+C 2750 2930e5e5
+C 3000 7d2aefba
+C 3250 9687766b
+C 3500 0b186f2d
+C 3750 7dc00400
+C 4000 56aaa988
+C 4250 677892a0
+C 4500 54716d2c
+C 4750 db10f099
+C 5000 242f77ed
+C 5250 9c41246b
+H b10e93b3
+E 5302 0 75 basher:17:3 bridger:14:6 climber:19:1 floater:20:0 jumper:20:0

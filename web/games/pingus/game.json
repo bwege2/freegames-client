@@ -1,0 +1,90 @@
+{
+  "id": "pingus",
+  "title": "Pingus",
+  "tagline": "Lead a crowd of penguins safely to the exit: they walk wherever they walk, you hand out the jobs.",
+  "summary": [
+    "Penguins drop out of an entrance and walk straight ahead, turning at walls and falling off ledges and into water. You cannot steer them; you give single penguins a job: block the others, build a bridge, bash or mine or dig through the ground, climb, float down on an umbrella, jump, or blow up. Each level allows only so many of each, and a number of penguins has to reach the exit before the time runs out.",
+    "The story starts on Tutorial Island: walk the map from level to level, each finished one opens the next. The Levelsets menu holds the desert, factory, Halloween and Christmas sets, unlocked one level after another. Arrow keys or the right mouse button scroll the level, the small map shows all of it, fast forward and pause help with the timing, and armageddon blows up whoever is left.",
+    "This is a port of Pingus 0.7.6 (2011) from its C++ source: the penguins, their jobs, the traps and the levels tick for tick as the original computes them, its graphics, sounds and tracker music."
+  ],
+  "original": {
+    "author": "Ingo Ruhnke and the Pingus contributors (programming, graphics, levels); music by Joseph Toscano, H. Matthew Smith and others",
+    "year": 1998,
+    "platform": "C++ with SDL (Linux, Windows, Mac OS X)",
+    "version": "0.7.6 (2011), the last release",
+    "license": "GPL-3.0-or-later",
+    "packageBytes": 12622268,
+    "url": "https://pingus.seul.org/"
+  },
+  "players": "1",
+  "genres": [
+    "Puzzle"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    {
+      "input": "Left mouse button",
+      "action": "Menus: choose. In a level: give the penguin under the cursor the selected job; click a job on the left to select it"
+    },
+    {
+      "input": "Right mouse button (held)",
+      "action": "Scroll the level towards the pointer"
+    },
+    {
+      "input": "Arrow keys",
+      "action": "Scroll the level"
+    },
+    {
+      "input": "1–9, 0",
+      "action": "Select the 1st to 10th job"
+    },
+    {
+      "input": "Tab, mouse wheel",
+      "action": "Select the next or previous job"
+    },
+    {
+      "input": "Space or F (held)",
+      "action": "Fast forward"
+    },
+    {
+      "input": "P",
+      "action": "Pause"
+    },
+    {
+      "input": "S",
+      "action": "Single step (pauses)"
+    },
+    {
+      "input": "A, or the armageddon button twice",
+      "action": "Armageddon: every penguin becomes a bomber"
+    },
+    {
+      "input": "Escape",
+      "action": "Give up the level, leave a screen"
+    },
+    {
+      "input": "Small map",
+      "action": "Click or drag to look at another part of the level"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The main menu"
+    },
+    {
+      "file": "worldmap.png",
+      "caption": "Tutorial Island, the story's map"
+    },
+    {
+      "file": "playing.png",
+      "caption": "A level of the tutorial with its job buttons, counter and small map"
+    }
+  ],
+  "lazyAssets": [
+    "assets/data/music/**"
+  ]
+}

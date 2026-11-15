@@ -1,0 +1,26 @@
+level levels/crystal/jewel.pingus
+demo levels/xskat/ok/demo/jewel.pingus-demo
+C 250 8d1ffe71
+C 500 1c83b248
+C 750 a2f729a9
+C 1000 f775c767
+C 1250 c858af41
+C 1500 9ec61eea
+C 1750 91452760
+C 2000 76eb267c
+C 2250 339bc7f0
+C 2500 260f703b
+C 2750 d91b9d8b
+C 3000 81b0da17
+C 3250 735c4b92
+C 3500 075b437a
+C 3750 2587bf88
+C 4000 6509ae3b
+C 4250 aabe5c4c
+C 4500 8905d8d7
+C 4750 439be524
+C 5000 da1e7d5a
+C 5250 c4da7772
+C 5500 e5ad1cf6
+H 46d22348
+E 5749 0 100 basher:5:5 blocker:0:5 bomber:0:5 bridger:7:3 floater:0:1

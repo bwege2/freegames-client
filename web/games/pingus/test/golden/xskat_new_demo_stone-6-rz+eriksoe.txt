@@ -1,0 +1,19 @@
+level levels/xskat/new/stone-6-rz+eriksoe.pingus
+demo levels/xskat/new/demo/stone-6-rz+eriksoe.pingus-demo
+C 250 770b03ba
+C 500 508e2f87
+C 750 74a47bad
+C 1000 c003ccc5
+C 1250 cc90b14b
+C 1500 6e9ab2dd
+C 1750 e7526aa8
+C 2000 6655c17c
+C 2250 000525c7
+C 2500 9326239e
+C 2750 883e1d08
+C 3000 f3a36882
+C 3250 dbbd31e5
+C 3500 32d96547
+C 3750 987868de
+H a2ada2aa
+E 3773 5 35 blocker:2:0 digger:0:2 jumper:1:1

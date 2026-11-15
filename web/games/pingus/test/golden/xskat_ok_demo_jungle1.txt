@@ -1,0 +1,24 @@
+level levels/jungle/jungle1.pingus
+demo levels/xskat/ok/demo/jungle1.pingus-demo
+C 250 7a28f41d
+C 500 1ab51122
+C 750 bb6509d6
+C 1000 24a29cca
+C 1250 f7e1a98a
+C 1500 f9d6915b
+C 1750 9bc60fdc
+C 2000 da49d359
+C 2250 11a0db14
+C 2500 884abf7b
+C 2750 4a5d762b
+C 3000 b08893ed
+C 3250 6c9991e2
+C 3500 d644d012
+C 3750 4c078faf
+C 4000 05e49333
+C 4250 8697a185
+C 4500 76b9b2c8
+C 4750 080a978c
+C 5000 bbaee0d4
+H 7bc50812
+E 5126 3 46 basher:1:0 blocker:3:1 bomber:2:0 digger:0:1

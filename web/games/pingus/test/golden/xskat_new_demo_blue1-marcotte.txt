@@ -1,0 +1,26 @@
+level levels/xskat/new/blue1-marcotte.pingus
+demo levels/xskat/new/demo/blue1-marcotte.pingus-demo
+C 250 05c5e314
+C 500 20bf6248
+C 750 d84ca465
+C 1000 a713db2a
+C 1250 0e58297b
+C 1500 79a33ca2
+C 1750 afcfb8f1
+C 2000 02cdae63
+C 2250 aedb27ae
+C 2500 637dd805
+C 2750 a8b2ca0c
+C 3000 bd395ea8
+C 3250 32b35e53
+C 3500 ecd36ef2
+C 3750 ca6847b8
+C 4000 fac9201b
+C 4250 376120a4
+C 4500 f52616d2
+C 4750 cedcf28f
+C 5000 f2fa2bb0
+C 5250 58cdec54
+C 5500 63ee65f5
+H bfed97d8
+E 5608 0 30 bridger:4:6 miner:0:1

@@ -1,0 +1,12 @@
+level levels/jungle/jungle-crisscross-timpany.pingus
+demo levels/xskat/ok/demo/jungle-crisscross-timpany.pingus-demo
+C 250 42b1f4d9
+C 500 ba2352d8
+C 750 20346b94
+C 1000 2ff8490b
+C 1250 8a32d8a7
+C 1500 36dd60f7
+C 1750 5b349df2
+C 2000 66f2e9f4
+H 387dce54
+E 2078 13 7 climber:3:2 digger:3:2 miner:2:3

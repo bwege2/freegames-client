@@ -1,0 +1,13 @@
+level levels/xskat/ok/bomber-tutorial-grumbel.pingus
+demo levels/xskat/ok/demo/bomber-tutorial-grumbel.pingus-demo
+C 250 959c6f3c
+C 500 5628d00b
+C 750 7b7fe10e
+C 1000 ae8641cc
+C 1250 efa36c26
+C 1500 6f2edaa1
+C 1750 e9d39af1
+C 2000 ce30d290
+C 2250 c0b01eca
+H c3a66c2b
+E 2367 27 3 bomber:12:3

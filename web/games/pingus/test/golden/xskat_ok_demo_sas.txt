@@ -1,0 +1,36 @@
+level levels/snow/sas.pingus
+demo levels/xskat/ok/demo/sas.pingus-demo
+C 250 f880ed8f
+C 500 6f68b930
+C 750 a1156d02
+C 1000 8d4e940f
+C 1250 bb25bd67
+C 1500 e519ba20
+C 1750 136d21ac
+C 2000 44c9ea9c
+C 2250 7966bc96
+C 2500 4b63fdd6
+C 2750 71db1c81
+C 3000 54f9e0cd
+C 3250 67909542
+C 3500 bf5786bc
+C 3750 01319edc
+C 4000 fab1272f
+C 4250 4907f7cc
+C 4500 89db8851
+C 4750 55709002
+C 5000 1f33e78a
+C 5250 b3b987d4
+C 5500 7e888cad
+C 5750 45470586
+C 6000 128f5160
+C 6250 0f37aaec
+C 6500 4237e8bd
+C 6750 a53f5dda
+C 7000 6b8cd8e7
+C 7250 329fb0d4
+C 7500 6ab64a4c
+C 7750 063e79a6
+C 8000 f4726a16
+H f1454391
+E 8126 0 76 blocker:4:0 bomber:20:0 bridger:20:0 climber:20:0 digger:17:3 miner:1:0

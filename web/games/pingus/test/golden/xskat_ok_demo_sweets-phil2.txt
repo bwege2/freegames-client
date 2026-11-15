@@ -1,0 +1,12 @@
+level levels/xskat/ok/sweets-phil2.pingus
+demo levels/xskat/ok/demo/sweets-phil2.pingus-demo
+C 250 423b70cb
+C 500 f1ed7586
+C 750 d2192b09
+C 1000 5182f1ec
+C 1250 c9decfb3
+C 1500 78cad74d
+C 1750 31815096
+C 2000 5bda61d1
+H 2b5ad946
+E 2108 59 1 bomber:5:0 bridger:19:1 climber:1:0 floater:5:0 jumper:1:0 miner:4:1

@@ -1,0 +1,31 @@
+level levels/xskat/new/winter2-chei.pingus
+demo levels/xskat/new/demo/winter2-chei.pingus-demo
+C 250 0faa032a
+C 500 91d251c0
+C 750 f5d50b1b
+C 1000 e3c0fe98
+C 1250 f880ec5c
+C 1500 153cd101
+C 1750 fd4f3ee1
+C 2000 19875287
+C 2250 c2a295fa
+C 2500 6efbbd77
+C 2750 27f5703b
+C 3000 e39424b5
+C 3250 df698c18
+C 3500 d855a1c4
+C 3750 c6bc8ece
+C 4000 29a55ba5
+C 4250 35c4eb45
+C 4500 e3ae1a6f
+C 4750 193f8958
+C 5000 2bc18032
+C 5250 06ff681b
+C 5500 e692d5df
+C 5750 f8d248ec
+C 6000 4cab11cb
+C 6250 1525166a
+C 6500 af4c4c3c
+C 6750 bed0ce43
+H 82877c44
+E 6871 30 0 floater:0:10 jumper:0:20 slider:0:20

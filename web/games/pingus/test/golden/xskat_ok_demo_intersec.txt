@@ -1,0 +1,12 @@
+level levels/jungle/intersec.pingus
+demo levels/xskat/ok/demo/intersec.pingus-demo
+C 250 3729ea5a
+C 500 6f9d3469
+C 750 2b0affcc
+C 1000 1cd0b5da
+C 1250 4c54d67d
+C 1500 4603caa9
+C 1750 33330918
+C 2000 a024fa56
+H e22e47f4
+E 2013 0 50 basher:0:5 bomber:5:0 bridger:5:5 digger:3:2 jumper:29:1

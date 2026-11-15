@@ -1,0 +1,256 @@
+> size 5
+> komi 6.5
+> play b C4
+> play w D2
+> play b A4
+> play w C5
+> play b C2
+> play w B2
+> play b D4
+> play w D1
+> dump
+board0010020220000000121000010
+ko pass captured w 0 b 0 hash a3ca44249155f611
+string C5 size 1 stones C5 libs 2 B5 D5 first B5 D5
+string A4 size 1 stones A4 libs 3 A3 A5 B4 first A3 A5 B4
+string C4 size 2 stones C4 D4 libs 5 C3 B4 D3 D5 E4 first C3 B4 D3
+string B2 size 1 stones B2 libs 3 B1 A2 B3 first B1 A2 B3
+string C2 size 1 stones C2 libs 2 C1 C3 first C1 C3
+string D2 size 2 stones D2 D1 libs 4 D3 E2 C1 E1 first D3 E2 C1
+point A5 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point B5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point D5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 -
+point E5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point B4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 8 accurate 8 ko 0 -
+point E4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point A3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point B3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point C3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point D3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 -
+point E3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point A2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point E2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point A1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point B1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point C1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point E1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 -
+> uncond b
+territory 0000000000000000000000000
+> uncond w
+territory 0000000000000000000000000
+> play b B4
+> play w A2
+> play b E5
+> play w E1
+> play b E4
+> play w A5
+> play b C1
+> play w E2
+> dump
+board1010222222000001121100211
+ko pass captured w 0 b 0 hash cdceea5fb98ffcfc
+string A5 size 1 stones A5 libs 1 B5 first B5
+string C5 size 1 stones C5 libs 2 B5 D5 first B5 D5
+string E5 size 6 stones E5 A4 B4 C4 D4 E4 libs 7 D5 A3 B3 B5 C3 D3 E3 first D5 A3 B3
+string A2 size 2 stones A2 B2 libs 4 A1 A3 B1 B3 first A1 A3 B1
+string C2 size 2 stones C2 C1 libs 2 C3 B1 first C3 B1
+string D2 size 4 stones D2 E2 E1 D1 libs 2 D3 E3 first D3 E3
+point B5 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 7 ko 0 -
+point D5 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point A3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point B3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point C3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 7 accurate 7 ko 0 -
+point D3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point E3 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 6 accurate 6 ko 0 -
+point A1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 -
+point B1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+> uncond b
+territory 0000000000000000000000000
+> uncond w
+territory 0000000000000000000000000
+> play b B1
+> play w A1
+> play b D5
+> play w E3
+> play b D3
+> play w pass
+> play b A3
+> play w D1
+> dump
+board1012222222200201120012210
+ko pass captured w 5 b 0 hash efc4b51e72e90a4c
+string A5 size 1 stones A5 libs 1 B5 first B5
+string C5 size 1 stones C5 libs 1 B5 first B5
+string D5 size 9 stones D5 E5 E4 A3 A4 B4 C4 D3 D4 libs 5 E3 B3 B5 C3 D2 first E3 B3 B5
+string A2 size 3 stones A2 B2 A1 libs 1 B3 first B3
+string C2 size 3 stones C2 B1 C1 libs 2 C3 D2 first C3 D2
+string D1 size 1 stones D1 libs 2 D2 E1 first D2 E1
+point B5 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 6 ko 0 -
+point B3 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 6 ko 0 -
+point C3 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point E3 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 -
+point D2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 5 accurate 5 ko 0 -
+point E2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point E1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 -
+> uncond b
+territory 0000000000000000000000000
+> uncond w
+territory 0000000000000000000000000
+> play b E3
+> play w D2
+> play b B5
+> play w B3
+> play b C3
+> play w E1
+> play b C5
+> play w A1
+> dump
+board0222222222202220021012211
+ko pass captured w 11 b 0 hash 36dbe5b78d3d54dd
+string B5 size 16 stones B5 E3 E4 E5 C5 D5 D4 D3 B1 C1 C2 C3 C4 A3 A4 B4 libs 5 A5 E2 B2 B3 A2 first A5 E2 B2
+string D2 size 3 stones D2 E1 D1 libs 1 E2 first E2
+string A1 size 1 stones A1 libs 1 A2 first A2
+point A5 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point B3 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point A2 w legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 5 ko 0 -
+point B2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point E2 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 7 ko 0 -
+> uncond b
+territory 2111111111121112212221122
+> uncond w
+territory 0000000000000000000000000
+> play b A5
+> play w B3
+> play b E2
+> play w A2
+> play b B2
+> play w A1
+> play b D1
+> play w pass
+> dump
+board2222222222202220220212220
+ko pass captured w 17 b 0 hash 2e7dcce5bc48f628
+string A5 size 20 stones A5 E2 E3 E4 E5 D5 D4 D3 D1 B2 B1 C1 C2 C3 C4 C5 B5 B4 A3 A4 libs 4 E1 D2 A2 B3 first E1 D2 A2
+string A1 size 1 stones A1 libs 1 A2 first A2
+point B3 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point A2 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 4 ko 0 -
+point D2 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point E1 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+> uncond b
+territory 1111111111121112112121112
+> uncond w
+territory 0000000000000000000000000
+> play b D2
+> play w pass
+> play b E1
+> play w pass
+> play b B3
+> play w A2
+> play b E4
+> play w D5
+> dump
+board0001000002000001000010000
+ko pass captured w 17 b 23 hash 650e8c58cd855eab
+string D5 size 1 stones D5 libs 3 D4 C5 E5 first D4 C5 E5
+string E4 size 1 stones E4 libs 3 E3 D4 E5 first E3 D4 E5
+string A2 size 2 stones A2 A1 libs 3 A3 B2 B1 first A3 B2 B1
+point A5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point B5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point C5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point E5 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point A4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point B4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point C4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point D4 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point A3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point B3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point C3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point D3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point E3 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point B2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point C2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point D2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 4 accurate 4 ko 0 -
+point E2 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point B1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point C1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point D1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 3 accurate 3 ko 0 -
+point E1 w legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+> uncond b
+territory 0000000000000000000000000
+> uncond w
+territory 0000000000000000000000000
+> undo 7
+undo 1
+> dump
+board2222222222202220222212220
+ko pass captured w 17 b 0 hash a2ca62f39f90051f
+string A5 size 21 stones A5 E2 E3 E4 E5 D5 D4 D3 D2 D1 B2 B1 C1 C2 C3 C4 C5 B5 B4 A3 A4 libs 3 E1 A2 B3 first E1 A2 B3
+string A1 size 1 stones A1 libs 1 A2 first A2
+point B3 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+point A2 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 3 ko 0 -
+point E1 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 2 accurate 2 ko 0 -
+> play b A2
+> play w pass
+> play b B3
+> play w pass
+> play b A1
+> play w E1
+> play b C2
+> play w E3
+> play b A5
+> play w D5
+> play b C5
+> play w D2
+> play b C1
+> play w A4
+> play b B3
+> play w C3
+> play b D1
+> play w C4
+> play b A1
+> play w B2
+> play b B5
+> play w E4
+> play b A3
+> play w E2
+> play b A2
+> play w B1
+> play b D4
+> play w D1
+> play b B4
+> play w D3
+> play b C2
+> play w E5
+> play b C1
+> play w B2
+> play b B1
+> play w pass
+> play b B2
+> play w A4
+> play b A5
+> play w B2
+> play b B5
+> play w A1
+> play b C5
+> play w C1
+> play b A3
+> play w C2
+> play b A2
+> play w D4
+> play b B4
+> play w B1
+> dump
+board2221102111201112111111111
+ko pass captured w 23 b 40 hash 370cf1a27af39313
+string A5 size 4 stones A5 C5 B4 B5 libs 2 A4 B3 first A4 B3
+string D5 size 17 stones D5 E5 E4 E3 E2 E1 C4 C3 C2 B2 A1 B1 C1 D1 D2 D3 D4 libs 1 B3 first B3
+string A3 size 2 stones A3 A2 libs 2 A4 B3 first A4 B3
+point A4 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 1 approx 1 accurate 1 ko 0 -
+point B3 w legal 0 allowed 0 suicide 1 selfatari 1 approx 0 accurate 0 ko 0 - b legal 1 allowed 1 suicide 0 selfatari 0 approx 1 accurate 6 ko 0 -
+> uncond b
+territory 1112221222122221222222222
+> uncond w
+territory 0000000000000000000000000
+> meaningless
+meaningless w
+meaningless b A4>pass B3>pass

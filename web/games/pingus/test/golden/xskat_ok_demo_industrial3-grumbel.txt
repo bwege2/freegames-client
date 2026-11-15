@@ -1,0 +1,21 @@
+level levels/xskat/ok/industrial3-grumbel.pingus
+demo levels/xskat/ok/demo/industrial3-grumbel.pingus-demo
+C 250 19a177ce
+C 500 3a782826
+C 750 f044ab6c
+C 1000 e69b7024
+C 1250 a2126438
+C 1500 813a0ecf
+C 1750 f72e08c8
+C 2000 97fef401
+C 2250 051dea06
+C 2500 ae8d1a33
+C 2750 87fa4a3b
+C 3000 7951b0a5
+C 3250 3f08ce5e
+C 3500 436cb3a6
+C 3750 3a0b2b6b
+C 4000 65d06b60
+C 4250 612c54ad
+H c3290ddd
+E 4269 0 50 bridger:6:4 climber:4:1

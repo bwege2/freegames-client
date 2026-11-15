@@ -1,0 +1,14 @@
+{
+ "args": [
+  "--mode",
+  "ascii",
+  "--handicap",
+  "12"
+ ],
+ "input": "quit\n",
+ "files": {},
+ "stdout": "",
+ "stderr": "Unsupported handicap: 12.\nTry `gnugo --help' for more information.\n",
+ "status": 1,
+ "written": {}
+}

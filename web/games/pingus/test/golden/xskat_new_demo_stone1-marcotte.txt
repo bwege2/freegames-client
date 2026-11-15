@@ -1,0 +1,23 @@
+level levels/xskat/new/stone1-marcotte.pingus
+demo levels/xskat/new/demo/stone1-marcotte.pingus-demo
+C 250 30e3f7aa
+C 500 481e0c72
+C 750 c01b4bcb
+C 1000 a2412773
+C 1250 7ef7cee2
+C 1500 07e56d9e
+C 1750 ca8f67fc
+C 2000 6228f19e
+C 2250 31ec46ba
+C 2500 f1e79bdb
+C 2750 7296b122
+C 3000 d7046701
+C 3250 a7770fbc
+C 3500 ca045482
+C 3750 c9d9ed48
+C 4000 eb31a39e
+C 4250 ec494b3a
+C 4500 42ebda82
+C 4750 a0c095d7
+H ee283eb3
+E 4953 2 16 bridger:3:2 climber:0:2 digger:0:1 floater:0:2 miner:1:0

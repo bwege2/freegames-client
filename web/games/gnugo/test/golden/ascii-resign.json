@@ -1,0 +1,18 @@
+{
+ "args": [
+  "--mode",
+  "ascii",
+  "--boardsize",
+  "7",
+  "-r",
+  "5"
+ ],
+ "input": "force d4\nresign\nsave r.sgf\ncontinue\n",
+ "files": {},
+ "stdout": "GNU Go 3.8\nCopyright 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007\n2008 and 2009 by the Free Software Foundation, Inc.\nSee http://www.gnu.org/software/gnugo/ or contact\ngnugo@gnu.org for information about GNU Go. GNU Go comes with NO WARRANTY to\nthe extent permitted by law. This program is free software; you can\nredistribute it and/or modify it under the terms of the GNU General Public\nLicense as published by the Free Software Foundation - version 3 or\n(at your option) any later version. For more\ninformation about these matters, see the files named COPYING.\n\nBeginning ASCII mode game.\n\nBoard Size:   7\nHandicap      0\nKomi:         0.0\nMove Number:  0\nTo Move:      black\nComputer player: White\n\n    White (O) has captured 0 pieces\n    Black (X) has captured 0 pieces\n\n    A B C D E F G\n  7 . . . . . . . 7\n  6 . . . . . . . 6\n  5 . . + . + . . 5\n  4 . . . + . . . 4\n  3 . . + . + . . 3\n  2 . . . . . . . 2\n  1 . . . . . . . 1\n    A B C D E F G\n\nblack(1): \n    White (O) has captured 0 pieces\n    Black (X) has captured 0 pieces\n\n    A B C D E F G        Last move: Black D4\n  7 . . . . . . . 7\n  6 . . . . . . . 6\n  5 . . + . + . . 5\n  4 . . .(X). . . 4\n  3 . . + . + . . 3\n  2 . . . . . . . 2\n  1 . . . . . . . 1\n    A B C D E F G\n\nGNU Go is thinking...\n\n    White (O) has captured 0 pieces\n    Black (X) has captured 0 pieces\n\n    A B C D E F G        Last move: Black D4\n  7 . . . . . . . 7\n  6 . . . . . . . 6\n  5 . . + . + . . 5\n  4 . . .(X). . . 4\n  3 . . + . + . . 3\n  2 . . . . . . . 2\n  1 . . . . . . . 1\n    A B C D E F G\n\nwhite(2): GNU Go wins by resignation.\nResult: B+Resign\n\nYou may optionally save the game as an SGF file.\n\nType \"save <filename>\" to save,\n     \"quit\" to quit\n or  \"game\" to play again\nYou may optionally save the game as an SGF file.\n\nType \"save <filename>\" to save,\n     \"quit\" to quit\n or  \"game\" to play again\n\nThanks! for playing GNU Go.\n\n",
+ "stderr": "",
+ "status": 0,
+ "written": {
+  "r.sgf": "(;GM[1]FF[4]\nSZ[7]\nGN[GNU Go 3.8 Random Seed 5 level 10]\nDT[2026-11-15]\nKM[0.0]HA[0]RU[Japanese]AP[GNU Go:3.8]RE[B+R]\n;B[dd]C[forced])\n"
+ }
+}

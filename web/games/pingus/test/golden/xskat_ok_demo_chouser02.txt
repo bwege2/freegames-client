@@ -1,0 +1,23 @@
+level levels/xskat/ok/chouser02.pingus
+demo levels/xskat/ok/demo/chouser02.pingus-demo
+C 250 48227f2c
+C 500 1ebeff3f
+C 750 f134ff5c
+C 1000 7575e8d9
+C 1250 71af1ca6
+C 1500 510024c8
+C 1750 bcc77ce3
+C 2000 908e9497
+C 2250 6258280c
+C 2500 0fd71ad0
+C 2750 916ecd2d
+C 3000 aff4cbae
+C 3250 99b03333
+C 3500 ef418ba7
+C 3750 24c95a4b
+C 4000 a7efcdb9
+C 4250 d763a04a
+C 4500 e179389c
+C 4750 a7d6828d
+H e95b44c7
+E 4832 0 100 basher:4:1 blocker:4:1 bomber:5:0 bridger:0:5 climber:2:3 digger:5:0 floater:5:0 jumper:5:0 miner:4:1

@@ -1,0 +1,19 @@
+level levels/xskat/new/blue3-marcotte.pingus
+demo levels/xskat/new/demo/blue3-marcotte.pingus-demo
+C 250 2a4e65b6
+C 500 1683d671
+C 750 994d4c6d
+C 1000 a8a32854
+C 1250 3312e67e
+C 1500 942b5af1
+C 1750 130f81fc
+C 2000 4052e006
+C 2250 29df9307
+C 2500 384956bb
+C 2750 52f42d8d
+C 3000 913bfa78
+C 3250 275cd205
+C 3500 5ebf027d
+C 3750 89085d72
+H bb41b367
+E 3910 0 30 bomber:3:1 bridger:6:0 climber:0:30

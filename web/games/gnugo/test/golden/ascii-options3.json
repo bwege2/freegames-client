@@ -1,0 +1,16 @@
+{
+ "args": [
+  "--mode",
+  "ascii",
+  "--komi",
+  "abc",
+  "--color",
+  "red"
+ ],
+ "input": "quit\n",
+ "files": {},
+ "stdout": "",
+ "stderr": "Invalid komi selection: abc\nTry `gnugo --help' for more information.\n",
+ "status": 1,
+ "written": {}
+}

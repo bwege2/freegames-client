@@ -1,0 +1,17 @@
+level levels/desert/desert5-tflavel.pingus
+demo levels/xskat/ok/demo/desert5-tflavel.pingus-demo
+C 250 59860744
+C 500 e426b8c9
+C 750 5c99b82c
+C 1000 24ac0fd1
+C 1250 9045401b
+C 1500 3b0a8f7a
+C 1750 38a3cf3a
+C 2000 78976a31
+C 2250 5ba15d14
+C 2500 ea22f09b
+C 2750 e552542e
+C 3000 d96ab0c9
+C 3250 8e9d303f
+H cadf5a5e
+E 3465 0 30 basher:0:1 blocker:0:1 bomber:2:0 bridger:0:1 climber:1:0 digger:0:1 floater:1:0 jumper:1:0

@@ -1,0 +1,25 @@
+level levels/xskat/new/hellmouth-11-rz.pingus
+demo levels/xskat/new/demo/hellmouth-11-rz.pingus-demo
+C 250 385a4981
+C 500 1c5e1cfb
+C 750 e6b0d434
+C 1000 880c780d
+C 1250 8ad19715
+C 1500 4ec7ff8d
+C 1750 a5708e8a
+C 2000 fb9e9036
+C 2250 dd3cd6a5
+C 2500 036e13ef
+C 2750 500937a8
+C 3000 cb7b508f
+C 3250 c7b0ab1b
+C 3500 b7a8dc20
+C 3750 e53ca294
+C 4000 7760912b
+C 4250 ad6083b7
+C 4500 f9a35d44
+C 4750 2d3b9d32
+C 5000 8ed5b8e3
+C 5250 e41cdcd0
+H 67278621
+E 5458 0 20 basher:0:1 blocker:0:1 bomber:1:0 bridger:0:1 digger:0:1 floater:0:1 jumper:0:1 miner:0:1

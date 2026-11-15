@@ -1,0 +1,44 @@
+level levels/xskat/new/theway-mips.pingus
+demo levels/xskat/new/demo/theway-mips.pingus-demo
+C 250 9eaa1dbe
+C 500 6c6333ad
+C 750 0c898e84
+C 1000 193ba7a2
+C 1250 82c2a76d
+C 1500 5e8f868b
+C 1750 354f9ba8
+C 2000 bca467e0
+C 2250 2add10fd
+C 2500 2e766a90
+C 2750 bd75ac32
+C 3000 cfe03d25
+C 3250 8ab97099
+C 3500 12546ab2
+C 3750 9ce46fb6
+C 4000 09020220
+C 4250 af438be8
+C 4500 5219eeb7
+C 4750 6cf393a2
+C 5000 fb209ede
+C 5250 2f15ca30
+C 5500 6705de6b
+C 5750 c38a8ace
+C 6000 c7c47db0
+C 6250 d3d75997
+C 6500 e32476fa
+C 6750 bb7c61bd
+C 7000 4daf8e6a
+C 7250 2ada7bb3
+C 7500 7e973a27
+C 7750 6da33275
+C 8000 ebd952a0
+C 8250 28d7b7d0
+C 8500 4d95c5c1
+C 8750 794ab103
+C 9000 eaed51d5
+C 9250 8228d98b
+C 9500 ae0f8057
+C 9750 be86c072
+C 10000 cbf3fc4a
+H 8fedb06c
+E 10216 2 27 basher:3:1 bridger:3:7 digger:2:0 floater:0:2 jumper:2:0

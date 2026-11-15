@@ -1,0 +1,28 @@
+level levels/alien/space-11-rz+eriksoe.pingus
+demo levels/xskat/new/demo/space-11-rz+eriksoe.pingus-demo
+C 250 c3a03d6a
+C 500 0793c82d
+C 750 747edd4e
+C 1000 d4967965
+C 1250 a2003ca9
+C 1500 1ee88eb2
+C 1750 ee634911
+C 2000 5b3fac35
+C 2250 e07fef96
+C 2500 03bd2dcf
+C 2750 2deb6ade
+C 3000 25ee808d
+C 3250 9b13730f
+C 3500 d3f45ba3
+C 3750 0aefe718
+C 4000 f7014aeb
+C 4250 4cab0b8d
+C 4500 cec14414
+C 4750 2949385e
+C 5000 79d3fc21
+C 5250 81425562
+C 5500 e6f59cc1
+C 5750 291c269c
+C 6000 8d0aa59e
+H dbe2caf0
+E 6126 0 26 bomber:4:0 jumper:0:1 miner:1:3

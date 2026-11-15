@@ -1,0 +1,108 @@
+# A battle of a human, a computer and a mouse-driven team on a custom map with its own texture, at 800x600:
+# the info bar switched off and around the screen (F1, F2), pause (F3), waves (F4), the speed figures
+# (F5-F8), the secret codes (ufootspeed, ufootgrad1, 3, 7, 8, 0), Escape, scores, Quit.
+cfg [MAIN]
+cfg DUMMY = 5003000
+cfg GFX_GAME = 3
+cfg LEVEL_MAP = 13
+cfg [CONTROL_TYPE]
+cfg 0 = 1
+cfg 1 = 2
+cfg 2 = 0
+cfg 5 = 1
+tap 1000 ENTER
+press 3000 RIGHT
+release 4500 RIGHT
+mouse 4000 320 240 0
+mouse 4100 350 250 0
+mouse 4200 380 260 0
+mouse 4300 410 270 0
+mouse 4400 440 280 0
+mouse 4500 470 290 0
+mouse 4600 500 300 0
+mouse 4700 530 310 0
+mouse 4800 560 320 0
+mouse 4900 590 330 0
+tap 5000 F1
+tap 5800 F1
+tap 6600 F2
+tap 7400 F2
+tap 8200 F2
+tap 9000 F2
+tap 9800 F3
+tap 11300 F3
+tap 12100 F4
+tap 13100 F4
+tap 14100 F5
+tap 14500 F6
+tap 14900 F7
+tap 15300 F8
+tap 15700 U
+tap 15760 F
+tap 15820 O
+tap 15880 O
+tap 15940 T
+tap 16000 S
+tap 16060 P
+tap 16120 E
+tap 16180 E
+tap 16240 D
+tap 17800 U
+tap 17860 F
+tap 17920 O
+tap 17980 O
+tap 18040 T
+tap 18100 G
+tap 18160 R
+tap 18220 A
+tap 18280 D
+tap 18340 1
+tap 19600 U
+tap 19660 F
+tap 19720 O
+tap 19780 O
+tap 19840 T
+tap 19900 G
+tap 19960 R
+tap 20020 A
+tap 20080 D
+tap 20140 3
+tap 21400 U
+tap 21460 F
+tap 21520 O
+tap 21580 O
+tap 21640 T
+tap 21700 G
+tap 21760 R
+tap 21820 A
+tap 21880 D
+tap 21940 7
+tap 23200 U
+tap 23260 F
+tap 23320 O
+tap 23380 O
+tap 23440 T
+tap 23500 G
+tap 23560 R
+tap 23620 A
+tap 23680 D
+tap 23740 8
+tap 25000 U
+tap 25060 F
+tap 25120 O
+tap 25180 O
+tap 25240 T
+tap 25300 G
+tap 25360 R
+tap 25420 A
+tap 25480 D
+tap 25540 0
+press 26800 UP
+press 27300 LEFT
+release 29800 UP
+release 30300 LEFT
+tap 30800 ESC
+tap 38800 ENTER
+tap 40300 ESC
+tap 41100 ENTER
+end 44100

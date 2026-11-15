@@ -12,7 +12,7 @@ import type { LobbyOptions } from './lobby.ts';
  * (docs/RESEARCH.md), spelled out. A game names one or more.
  */
 export const GENRES = [
-  'Adventure', 'Arcade', 'Artillery', 'Card game', 'City-building', 'Educational', 'Game creation', 'Pinball', 'Programming', 'Puzzle', 'Racing', 'Roguelike',
+  'Adventure', 'Arcade', 'Artillery', 'Card game', 'City-building', 'Educational', 'Game creation', 'Maze games', 'Pinball', 'Programming', 'Puzzle', 'Racing', 'Roguelike',
   'Role-playing', 'Side-scroller', 'Software toy', 'Survival horror', 'Text adventure', 'Turn-based strategy',
 ] as const;
 export type Genre = typeof GENRES[number];

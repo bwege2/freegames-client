@@ -1,0 +1,16 @@
+level levels/jungle/jungle-airline-timpany.pingus
+demo levels/xskat/ok/demo/jungle-airline-timpany.pingus-demo
+C 250 8c752f8d
+C 500 6becb635
+C 750 a806b5ce
+C 1000 3e7a1cee
+C 1250 475a3bf1
+C 1500 cfaee931
+C 1750 0909fbc4
+C 2000 12e0fed2
+C 2250 19c8081e
+C 2500 942554f4
+C 2750 212dd03a
+C 3000 5b99385c
+H 28c9d4af
+E 3103 1 99 basher:3:2 bridger:5:0 climber:5:0 digger:0:1 floater:10:20 jumper:30:0

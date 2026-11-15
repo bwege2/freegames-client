@@ -1,0 +1,10 @@
+level levels/xskat/new/panic-cbrucher.pingus
+demo levels/xskat/new/demo/panic-cbrucher.pingus-demo
+C 250 278d1f5a
+C 500 8d0b3018
+C 750 10466574
+C 1000 f93c8a42
+C 1250 0a34e038
+C 1500 00aa9277
+H 46c98cf0
+E 1516 15 0 blocker:1:2 bomber:3:0 jumper:1:2 slider:2:1

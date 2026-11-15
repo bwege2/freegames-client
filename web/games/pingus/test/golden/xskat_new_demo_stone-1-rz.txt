@@ -1,0 +1,41 @@
+level levels/xskat/new/stone-1-rz.pingus
+demo levels/xskat/new/demo/stone-1-rz.pingus-demo
+C 250 9a3b8bd8
+C 500 346921e3
+C 750 256ea73a
+C 1000 ba119bee
+C 1250 ec739719
+C 1500 63285842
+C 1750 c91a88f1
+C 2000 562ad931
+C 2250 b3b0278b
+C 2500 97e5dfba
+C 2750 a69cb23b
+C 3000 eda19b6d
+C 3250 3771ec37
+C 3500 8404a978
+C 3750 5d6f9fe0
+C 4000 acd39489
+C 4250 47c872b9
+C 4500 2794a173
+C 4750 8fffe0bc
+C 5000 2a1df68b
+C 5250 9a095c97
+C 5500 7e29c37d
+C 5750 31bd6876
+C 6000 5270d984
+C 6250 44af3683
+C 6500 afc7226a
+C 6750 436c8ba5
+C 7000 7fdb9a56
+C 7250 df77b2b0
+C 7500 7dbab579
+C 7750 ddbef51d
+C 8000 fc6121f7
+C 8250 d9ed468f
+C 8500 fae9392b
+C 8750 36890bf9
+C 9000 8b759162
+C 9250 9db7bdbb
+H bfb4b176
+E 9399 0 60 blocker:3:2 bridger:8:2 jumper:4:1 miner:4:1

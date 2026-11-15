@@ -1,0 +1,15 @@
+level levels/hellmouth/hellmouth24-rz.pingus
+demo levels/xskat/new/demo/hellmouth-24-rz.pingus-demo
+C 250 0a55b9b8
+C 500 e4d724b9
+C 750 c26a2f77
+C 1000 6cdbca63
+C 1250 b722fdd9
+C 1500 005205de
+C 1750 9dcea7e7
+C 2000 e37cdaba
+C 2250 462be2cc
+C 2500 0a10d158
+C 2750 b5aaef89
+H 119914e4
+E 2880 24 26 basher:10:0 blocker:1:0 bridger:2:1 digger:10:0 jumper:1:1 miner:10:0

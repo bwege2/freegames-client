@@ -1,0 +1,12 @@
+level levels/xskat/ok/bridger-tutorial-grumbel.pingus
+demo levels/xskat/ok/demo/bridger-tutorial-grumbel.pingus-demo
+C 250 d9c47580
+C 500 2d1c6d2d
+C 750 ba920146
+C 1000 d4124cf4
+C 1250 4986170c
+C 1500 d2ece81e
+C 1750 98cffd6b
+C 2000 7acbe4cb
+H 8022eb23
+E 2080 10 0 bridger:6:4

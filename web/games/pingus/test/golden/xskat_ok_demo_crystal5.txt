@@ -1,0 +1,26 @@
+level levels/crystal/crystal5.pingus
+demo levels/xskat/ok/demo/crystal5.pingus-demo
+C 250 96c494c3
+C 500 b46a1665
+C 750 cbbb2182
+C 1000 37584f7a
+C 1250 43084bae
+C 1500 129ae3d9
+C 1750 83dcb532
+C 2000 3c59966f
+C 2250 a82cd8dd
+C 2500 84216ee6
+C 2750 2181047e
+C 3000 1745013a
+C 3250 1e3bc2cb
+C 3500 4e2c0018
+C 3750 193887fc
+C 4000 407d6a6c
+C 4250 327b443e
+C 4500 595ee36f
+C 4750 231443c5
+C 5000 2164d2eb
+C 5250 1134e899
+C 5500 1a25033b
+H d6900dff
+E 5724 1 49 blocker:1:4 bomber:3:2 bridger:5:0 digger:5:0 jumper:2:3

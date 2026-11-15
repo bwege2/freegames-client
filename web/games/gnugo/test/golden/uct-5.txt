@@ -1,0 +1,143 @@
+> size 5
+> komi 5.5
+> play b C4
+> play w A2
+> play b A5
+> play w D1
+> uct b 2000 1
+best C3
+move B5 47 0.340425521
+move C5 29 0.172413796
+move D5 52 0.365384609
+move E5 38 0.263157904
+move A4 62 0.419354826
+move B4 82 0.48780489
+move D4 97 0.525773168
+move E4 67 0.432835817
+move A3 41 0.292682916
+move B3 136 0.588235319
+move C3 235 0.668085098
+move D3 186 0.639784932
+move E3 65 0.430769235
+move B2 213 0.657276988
+move C2 180 0.633333325
+move D2 120 0.566666663
+move E2 62 0.419354826
+move A1 33 0.212121218
+move B1 71 0.450704217
+move C1 57 0.403508782
+move E1 41 0.292682916
+rand 793599502
+> uct w 1000 1000
+best C3
+move B5 39 0.589743614
+move C5 35 0.54285717
+move D5 40 0.600000024
+move E5 25 0.400000006
+move A4 40 0.600000024
+move B4 50 0.680000007
+move D4 47 0.659574449
+move E4 29 0.482758611
+move A3 27 0.444444448
+move B3 62 0.758064508
+move C3 77 0.83116883
+move D3 65 0.784615397
+move E3 45 0.644444466
+move B2 50 0.699999988
+move C2 71 0.802816927
+move D2 65 0.784615397
+move E2 47 0.659574449
+move A1 30 0.466666669
+move B1 50 0.699999988
+move C1 47 0.659574449
+move E1 28 0.464285702
+rand 1412897455
+> play b E2
+> play w E1
+> play b C5
+> play w B4
+> play b D4
+> play w E5
+> play b D5
+> play w B2
+> uct w 2000 2
+best C3
+move B5 160 0.831250012
+move A4 184 0.858695626
+move E4 104 0.75
+move A3 101 0.742574275
+move B3 97 0.731958747
+move C3 277 0.909747303
+move D3 141 0.815602839
+move E3 127 0.795275569
+move C2 179 0.854748607
+move D2 144 0.819444418
+move A1 49 0.53061223
+move B1 164 0.835365832
+move C1 109 0.761467874
+rand 4130960804
+> uct b 1000 1001
+best B3
+move B5 81 0.358024687
+move A4 83 0.361445785
+move E4 71 0.323943675
+move A3 44 0.204545453
+move B3 98 0.448979586
+move C3 130 0.438461542
+move D3 44 0.204545453
+move E3 40 0.174999997
+move C2 120 0.425000012
+move D2 72 0.333333343
+move A1 37 0.162162155
+move B1 46 0.217391297
+move C1 44 0.204545453
+rand 2246171490
+> play b A1
+> play w E4
+> play b C1
+> play w A3
+> play b D2
+> play w C2
+> play b B5
+> play w D1
+> play b E3
+> play w B1
+> play b C3
+> play w A4
+> uct b 2000 3
+best E4
+move E5 466 1
+move E4 466 1
+move B3 466 1
+move E1 421 0.995249391
+rand 1119530087
+> uct w 1000 1002
+best pass
+move E5 184 0
+move E4 184 0
+move B3 184 0
+move C1 184 0
+move E1 185 0
+rand 3142903597
+> play b E1
+> play w B3
+> play b C1
+> play w E5
+> play b A1
+> play w A3
+> play b B2
+> play w A2
+> play b D3
+> play w A4
+> play b B4
+> play w B1
+> play b E4
+> play w A1
+> play b B3
+> play w B1
+> uct w 2000 4
+best pass
+rand 3905538198
+> uct b 1000 1003
+best pass
+rand 1791867305

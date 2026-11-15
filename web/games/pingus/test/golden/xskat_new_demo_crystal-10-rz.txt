@@ -1,0 +1,33 @@
+level levels/crystal/crystal10-rz.pingus
+demo levels/xskat/new/demo/crystal-10-rz.pingus-demo
+C 250 faa595bb
+C 500 81f58134
+C 750 a12edac5
+C 1000 dcffa1ca
+C 1250 94640064
+C 1500 aa8c5538
+C 1750 8872a658
+C 2000 96cafaaf
+C 2250 72adfc90
+C 2500 d023af31
+C 2750 4590b2b6
+C 3000 729add17
+C 3250 19d32238
+C 3500 049adbb5
+C 3750 4b4e9dec
+C 4000 745ca6ec
+C 4250 b4141ae0
+C 4500 04e5177b
+C 4750 4bcfd8d1
+C 5000 54500423
+C 5250 456792a8
+C 5500 c0b2cb96
+C 5750 429c3e8e
+C 6000 f0220db8
+C 6250 aaf1d268
+C 6500 c439c534
+C 6750 e8bb1104
+C 7000 c9d8a8c5
+C 7250 93e4c0a4
+H 9c371c15
+E 7496 26 94 basher:2:3 bridger:5:3 jumper:0:5

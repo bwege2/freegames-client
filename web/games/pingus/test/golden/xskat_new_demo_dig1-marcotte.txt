@@ -1,0 +1,31 @@
+level levels/xskat/new/dig1-marcotte.pingus
+demo levels/xskat/new/demo/dig1-marcotte.pingus-demo
+C 250 c5bb16df
+C 500 4e7eb147
+C 750 51395898
+C 1000 5409761d
+C 1250 6d766125
+C 1500 7c7ba744
+C 1750 d063009e
+C 2000 cc41b0d7
+C 2250 09e2eec1
+C 2500 5f9da47b
+C 2750 3855c5b7
+C 3000 0d517125
+C 3250 1dfadd5f
+C 3500 9c1f5ec4
+C 3750 a5911cf2
+C 4000 79d0cac2
+C 4250 2c8da4be
+C 4500 abf46a01
+C 4750 0ecb1039
+C 5000 048aa6a3
+C 5250 87daa6e3
+C 5500 16f0943c
+C 5750 1c4299b4
+C 6000 46d2ed58
+C 6250 bb90ce74
+C 6500 da4a152f
+C 6750 1c124c1b
+H 46a76ca1
+E 6876 0 74 blocker:4:1 bomber:4:1 jumper:97:3 slider:24:6

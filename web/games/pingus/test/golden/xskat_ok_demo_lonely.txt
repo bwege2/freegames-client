@@ -1,0 +1,7 @@
+level levels/crystal/lonely.pingus
+demo levels/xskat/ok/demo/lonely.pingus-demo
+C 250 4929e07d
+C 500 5b13c8e1
+C 750 f4f32beb
+H a37cd2e4
+E 828 0 1 basher:5:0 bridger:5:0 climber:0:1 miner:5:0

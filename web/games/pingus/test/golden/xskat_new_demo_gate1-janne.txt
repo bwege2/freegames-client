@@ -1,0 +1,10 @@
+level levels/xskat/new/gate1-janne.pingus
+demo levels/xskat/new/demo/gate1-janne.pingus-demo
+C 250 bbcecc6c
+C 500 abb2fca8
+C 750 a1a34eec
+C 1000 41686d71
+C 1250 746245b2
+C 1500 062d9d16
+H cd6195bd
+E 1562 0 2 basher:5:0 blocker:5:0 bomber:5:0 digger:5:0 jumper:3:2

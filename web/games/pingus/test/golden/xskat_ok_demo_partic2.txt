@@ -1,0 +1,22 @@
+level levels/xskat/ok/partic2.pingus
+demo levels/xskat/ok/demo/partic2.pingus-demo
+C 250 491575c2
+C 500 8de22b79
+C 750 33558b95
+C 1000 45a1d9f7
+C 1250 0e870dc3
+C 1500 25354477
+C 1750 9c96a60b
+C 2000 9eeec9d3
+C 2250 01ff582f
+C 2500 baa5745b
+C 2750 382c9435
+C 3000 4b02769b
+C 3250 a2dac0a2
+C 3500 b443105f
+C 3750 9a7c5f6a
+C 4000 b8d32ca4
+C 4250 ca122267
+C 4500 8f6e307d
+H 17c358c6
+E 4546 1 99 blocker:1:2 digger:7:3 floater:0:1

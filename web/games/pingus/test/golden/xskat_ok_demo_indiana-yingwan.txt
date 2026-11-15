@@ -1,0 +1,44 @@
+level levels/desert/indiana-yingwan.pingus
+demo levels/xskat/ok/demo/indiana-yingwan.pingus-demo
+C 250 f746ab41
+C 500 e899e78f
+C 750 f5532db5
+C 1000 1d2b412a
+C 1250 f86f4f11
+C 1500 ba80c533
+C 1750 3c2925a5
+C 2000 6a241d2b
+C 2250 0a4edbdb
+C 2500 e18e91c8
+C 2750 adcda292
+C 3000 46e68e5d
+C 3250 855d4c60
+C 3500 fd1c6e45
+C 3750 e418146c
+C 4000 d676aec9
+C 4250 419331ac
+C 4500 220b38e3
+C 4750 85e4e906
+C 5000 c0a503b3
+C 5250 9f8286da
+C 5500 084b4f63
+C 5750 f97d86a3
+C 6000 f9ee6d0a
+C 6250 5ce30b85
+C 6500 9cfa67fe
+C 6750 1cbd8de1
+C 7000 53585621
+C 7250 22cf3023
+C 7500 2efd6b15
+C 7750 43fac103
+C 8000 9e03a53f
+C 8250 3b060c05
+C 8500 9a9b659e
+C 8750 9d8356ea
+C 9000 375db28d
+C 9250 e48b5f7a
+C 9500 0e2523df
+C 9750 c1daf386
+C 10000 544409e7
+H 1b4be17f
+E 10089 0 30 basher:4:1 blocker:9:1 bomber:10:0 bridger:1:5 digger:5:0 jumper:3:27 miner:4:1

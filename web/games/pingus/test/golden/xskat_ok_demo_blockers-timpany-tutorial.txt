@@ -1,0 +1,17 @@
+level levels/xskat/ok/blockers-timpany-tutorial.pingus
+demo levels/xskat/ok/demo/blockers-timpany-tutorial.pingus-demo
+C 250 8d1863d4
+C 500 355fa05d
+C 750 fb75375c
+C 1000 d508a279
+C 1250 aa7447ac
+C 1500 c2e71b99
+C 1750 51a60dbf
+C 2000 1103545e
+C 2250 fda35f16
+C 2500 ad0e5ed4
+C 2750 5c95345f
+C 3000 c22d4d60
+C 3250 02bbfaf7
+H 0b82cc56
+E 3438 0 50 basher:17:3 blocker:18:2 bridger:17:3

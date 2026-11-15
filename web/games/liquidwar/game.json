@@ -1,0 +1,81 @@
+{
+  "id": "liquidwar",
+  "title": "Liquid War",
+  "tagline": "Command an army of liquid: flood the maze, swallow the other colours, run.",
+  "summary": [
+    "Liquid War is a game of flowing armies. Every player's army is liquid with a colour, poured into a maze of walls. You steer a cursor; your fighters follow it and the nearest of them take the way around walls, so the crowd streams through the corridors towards the enemy.",
+    "Each drop that touches an enemy drop of another colour converts it. Stronger armies win a meeting, so the trick is to attack from several sides at once, to block a corridor with your own body and to keep your fighters close to the cursor.",
+    "This port follows Liquid War 5.6.6: the same mazes, textures, teams, rules, menus and music, playable against the computer, in hot seat and online for up to six players."
+  ],
+  "original": {
+    "author": "Christian Mauduit and contributors",
+    "year": 1995,
+    "platform": "C (Allegro)",
+    "version": "Liquid War 5.6.6",
+    "license": "GPL-2.0-or-later; data GPL, one texture GPL-3.0-or-later",
+    "packageBytes": 6291456,
+    "url": "https://ufoot.org/liquidwar/"
+  },
+  "players": "1-6",
+  "genres": [
+    "Maze games"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-14",
+  "controls": [
+    {
+      "input": "Arrow keys",
+      "action": "Move the first team's cursor (Napoleon); its fighters flow towards it"
+    },
+    {
+      "input": "I J K L, Q A Z X, keypad 8 4 5 6, mouse",
+      "action": "The cursors of the other teams in a game on one computer (the original's defaults; the Teams menu changes them)"
+    },
+    {
+      "input": "Esc",
+      "action": "End the battle (the scores follow)"
+    },
+    {
+      "input": "F1, F2",
+      "action": "Show or hide the info bar (time and teams); move it to another side"
+    },
+    {
+      "input": "F3",
+      "action": "Pause (not in a network game)"
+    },
+    {
+      "input": "F4",
+      "action": "Wave effect on or off"
+    },
+    {
+      "input": "F10",
+      "action": "Quit at once (back to the website)"
+    },
+    {
+      "input": "Mouse, Tab, Enter",
+      "action": "The menus; \"Net game\" opens the online lobby (2 to 6 computers, up to 6 teams)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "title.png",
+      "caption": "The original's title screen and menu: play, a net game, map, teams, options, about"
+    },
+    {
+      "file": "battle.png",
+      "caption": "Two armies of liquid in a maze: red against yellow, the clock and the team bars on the right"
+    },
+    {
+      "file": "battle-2.png",
+      "caption": "The cursor leads the fighters through the corridors; every drop they touch changes side"
+    },
+    {
+      "file": "scores.png",
+      "caption": "The scores: how much of the liquid each team holds"
+    }
+  ]
+}

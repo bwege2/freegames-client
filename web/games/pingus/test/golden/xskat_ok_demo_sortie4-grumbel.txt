@@ -1,0 +1,36 @@
+level levels/xskat/ok/sortie4-grumbel.pingus
+demo levels/xskat/ok/demo/sortie4-grumbel.pingus-demo
+C 250 87f323ad
+C 500 01527011
+C 750 e7118549
+C 1000 28a6dab4
+C 1250 e9492dc6
+C 1500 4652b158
+C 1750 dcd7ca8d
+C 2000 9ac0ed85
+C 2250 40883649
+C 2500 70b9f512
+C 2750 474b1870
+C 3000 fcad562b
+C 3250 031b4235
+C 3500 0f9f9f73
+C 3750 1bcdd7fb
+C 4000 52ea779c
+C 4250 5eef363a
+C 4500 adfd8b1b
+C 4750 92f51656
+C 5000 f043f841
+C 5250 9ff83986
+C 5500 512245dc
+C 5750 90937174
+C 6000 0dc2276a
+C 6250 1408bf99
+C 6500 fb940685
+C 6750 9f559e41
+C 7000 5da87e2d
+C 7250 3bff705f
+C 7500 d2596259
+C 7750 cbad139c
+C 8000 6bd91847
+H 910665c9
+E 8064 0 30 blocker:1:0 bomber:9:1 bridger:7:3 slider:2:3

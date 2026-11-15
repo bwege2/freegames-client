@@ -1,0 +1,11 @@
+level levels/crystal/longway.pingus
+demo levels/xskat/ok/demo/longway.pingus-demo
+C 250 4789ad66
+C 500 e738ee20
+C 750 67ca7422
+C 1000 afa2aed6
+C 1250 7c9e3c4f
+C 1500 9647ef2c
+C 1750 596592df
+H 728796cc
+E 1808 0 20 basher:0:2 blocker:3:0 miner:6:4
