@@ -1,0 +1,18 @@
+# the map maker for several seeds: the height map (51x51 corners) and the tree density (50x50)
+new 1234 1
+heights
+trees
+new 1 1
+heights
+trees
+new 777777 1
+heights
+trees
+new 4000000000 1
+heights
+trees
+new 1731675600 1
+heights
+trees
+new 99 1
+dump

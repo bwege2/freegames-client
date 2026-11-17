@@ -1,0 +1,52 @@
+# Every tool of the game, the save file and loading it back: map 777777
+new 777777 7
+tool DESTROY 0 0 49 49
+dump
+tool ROAD 5 5 40 5
+tool ROAD 5 6 5 30
+tool ROAD 40 6 40 30
+tool ROAD 5 30 39 30
+tool ROAD 20 5 20 30
+tool ELINE 6 6 19 6
+tool ZONE_RES 6 7 19 15
+tool ZONE_COM 21 7 39 12
+tool ZONE_IND 21 20 39 29
+tool ZONE_RES 6 20 19 29
+tool EPLANT_NUCLEAR 6 16 6 16
+tool EPLANT_COAL 30 14 30 14
+tool PARK 10 33 12 35
+tool FLORA 14 33 18 36
+tool FIRE 22 33 22 33
+tool POLICE 26 33 26 33
+tool HOSPITAL 30 33 30 33
+tool EDUCATION 38 33 38 33
+tool HEIGHT_UP 45 45 45 45
+tool HEIGHT_UP 45 45 45 45
+tool HEIGHT_DOWN 46 46 46 46
+tool HEIGHT_UP 5 5 5 5
+dump
+run 300000
+dump
+save city1.save
+pause
+run 100000
+dump
+play
+run 200000
+tool DESTROY 31 15 31 15
+tool DESTROY 6 16 6 16
+tool DESTROY 20 10 20 12
+tool DESTROY 10 10 10 10
+tool DESTROY 25 25 26 26
+dump
+run 200000
+dump
+load city1.save
+dump
+run 300000
+dump
+save city2.save
+new 1 2
+dump
+load city2.save
+dump

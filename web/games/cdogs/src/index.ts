@@ -25,7 +25,7 @@ import { assetFS } from './platform/assets.ts';
 import { Audio } from './platform/audio.ts';
 import { ev, mouseButton, mouseMove, mouseWheel, onKey, onText } from './platform/input.ts';
 import { FontLoad, Gfx, setGfx, gGfx } from './render/gfx.ts';
-import { LoopRunner } from './ui/loop.ts';
+import { GameLoopDataNew, LoopRunner, UPDATE_RESULT_DRAW, type GameLoopData } from './ui/loop.ts';
 import { LoadingScreenDrawInner, ScreenLoading } from './ui/loading.ts';
 import { LoadAllCampaigns, MainMenu } from './ui/mainmenu.ts';
 import { applyHooks, configStore } from './ui/options.ts';
@@ -33,6 +33,11 @@ import { briefingHooks } from './ui/briefing.ts';
 import { templateStore } from './ui/playerselect.ts';
 import { scoreStore } from './ui/hiscores.ts';
 import { setupOnline } from './online.ts';
+
+/** a screen that waits (nothing to draw, no update): for a test that loads a campaign from the menu */
+function idleScreen(): GameLoopData {
+  return GameLoopDataNew({ label: 'wait', UpdateFunc: () => UPDATE_RESULT_DRAW });
+}
 
 const CONFIG_FILE = 'options.cnf';
 const AUTOSAVE_FILE = 'autosave.json';
@@ -112,6 +117,9 @@ class CDogs {
 
   /** a mission straight from a campaign path (the browser tests and the screenshots: the menus are slow) */
   async quickStart(path: string, mode: number, mission: number, players: number): Promise<boolean> {
+    // the menu's live background runs GameUpdate on its own quick-play campaign every frame; a campaign
+    // loading under it would leave its actors without characters, so the menu goes first
+    this.loop.reset(idleScreen());
     const entry = await CampaignEntryTryLoad(this.fs, path, mode);
     if (!entry) return false;
     gCampaign.Entry.Mode = mode;
@@ -135,7 +143,6 @@ class CDogs {
       p.deviceIndex = 0;
     }
     CampaignAndMissionSetup();
-    // the test starts a mission from nothing: the menus below go
     this.loop.reset(ScreenLoading('Starting game...', true, RunGame(), false));
     return true;
   }

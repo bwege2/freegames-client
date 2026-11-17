@@ -1,0 +1,8962 @@
+[
+{
+"dir": "tutorial_advanced",
+"title": "Advanced Tutorial",
+"group": "Tutorials",
+"location": 10100,
+"levels": [
+{
+"id": "m_tutor/adv_tutorial",
+"title": "Advanced Tutorial",
+"author": "Jacob Scott",
+"file": "tutorial_advanced/adv_tutorial.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "tutorial_basic",
+"title": "Basic Tutorial",
+"group": "Tutorials",
+"location": 10120,
+"levels": [
+{
+"id": "a_tut01",
+"title": "Doors and Triggers",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut02",
+"title": "Timers",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "welcome",
+"title": "Welcome",
+"author": "Daniel Heck",
+"file": "enigma_i/welcometopack1_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain10",
+"title": "Sierpinski",
+"author": "Alain Busser",
+"file": "enigma_iv/alain10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain03",
+"title": "- Meditation -",
+"author": "Alain Busser",
+"file": "enigma_i/alain03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb13",
+"title": "(Counter)Clockwise",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "jc01",
+"title": "Hurry!",
+"author": "Jens-Christian Korth",
+"file": "enigma_i/jc01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "a_tut03",
+"title": "Blocks and Slopes",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind03",
+"title": "Hanging In The Balance",
+"author": "illmind",
+"file": "enigma_i/illmind03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation6",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat1",
+"title": "Indoor Pool",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "balance",
+"title": "Balance",
+"author": "Erich Schubert",
+"file": "enigma_i/erich01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat5",
+"title": "Push Them In",
+"author": "Andreas Persenius, Nat Pryce",
+"file": "enigma_ii/nat05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "richi04",
+"title": "Without Tremor",
+"author": "Richi Bützer",
+"file": "enigma_i/richi04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat7",
+"title": "Sok It To 'Em",
+"author": "Nat Pryce",
+"file": "enigma_i/nat07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut04",
+"title": "Lasers and Mirrors",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation1",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried33_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc12",
+"title": "Mirror Room",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "martin04",
+"title": "Sokoban Revival",
+"author": "Martin Hawlisch",
+"file": "enigma_i/martin04_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc17",
+"title": "Mirror Room II",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "lasers101",
+"title": "Lasers 101",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy3",
+"title": "Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy42",
+"title": "Inverted Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy42_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mp03",
+"title": "Laser Games",
+"author": "moonpearl",
+"file": "enigma_iv/mp03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut05",
+"title": "Items",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc07",
+"title": "Flying",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb9",
+"title": "Annoying little balls",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb09_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "space",
+"title": "The Grim Reaper",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant07",
+"title": "Automaton Magic",
+"author": "Petr Machata",
+"file": "enigma_ii/ant07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy21",
+"title": "If They'd Just Hold Still",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc06",
+"title": "Formentera!",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb10",
+"title": "- Meditation -",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_ii/wb10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peter_001",
+"title": "Beam0r",
+"author": "Peter Santo",
+"file": "enigma_ii/peter01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "c_tut01",
+"title": "Chess Stones",
+"author": "Raoul Bourquin, ShadowPhrogg32642342, Andreas Lochmann",
+"file": "tutorial_basic/a_tut07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut06",
+"title": "Bye!",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut06_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "tutorial_old",
+"title": "Tutorial",
+"group": "Tutorials",
+"location": 10130,
+"levels": [
+{
+"id": "a_tut08",
+"title": "Enigma",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut08_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut01",
+"title": "Doors and Triggers",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut02",
+"title": "Timers",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "welcome",
+"title": "Welcome",
+"author": "Daniel Heck",
+"file": "enigma_i/welcometopack1_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain10",
+"title": "Sierpinski",
+"author": "Alain Busser",
+"file": "enigma_iv/alain10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain03",
+"title": "- Meditation -",
+"author": "Alain Busser",
+"file": "enigma_i/alain03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb13",
+"title": "(Counter)Clockwise",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "jc01",
+"title": "Hurry!",
+"author": "Jens-Christian Korth",
+"file": "enigma_i/jc01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "a_tut03",
+"title": "Blocks and Slopes",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind03",
+"title": "Hanging In The Balance",
+"author": "illmind",
+"file": "enigma_i/illmind03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation6",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat1",
+"title": "Indoor Pool",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "balance",
+"title": "Balance",
+"author": "Erich Schubert",
+"file": "enigma_i/erich01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat5",
+"title": "Push Them In",
+"author": "Andreas Persenius, Nat Pryce",
+"file": "enigma_ii/nat05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "richi04",
+"title": "Without Tremor",
+"author": "Richi Bützer",
+"file": "enigma_i/richi04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat7",
+"title": "Sok It To 'Em",
+"author": "Nat Pryce",
+"file": "enigma_i/nat07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut04",
+"title": "Lasers and Mirrors",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation1",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried33_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc12",
+"title": "Mirror Room",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "martin04",
+"title": "Sokoban Revival",
+"author": "Martin Hawlisch",
+"file": "enigma_i/martin04_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc17",
+"title": "Mirror Room II",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "lasers101",
+"title": "Lasers 101",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy3",
+"title": "Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy42",
+"title": "Inverted Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy42_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mp03",
+"title": "Laser Games",
+"author": "moonpearl",
+"file": "enigma_iv/mp03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut05",
+"title": "Items",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc07",
+"title": "Flying",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb9",
+"title": "Annoying little balls",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb09_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "space",
+"title": "The Grim Reaper",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant07",
+"title": "Automaton Magic",
+"author": "Petr Machata",
+"file": "enigma_ii/ant07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy21",
+"title": "If They'd Just Hold Still",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc06",
+"title": "Formentera!",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb10",
+"title": "- Meditation -",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_ii/wb10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peter_001",
+"title": "Beam0r",
+"author": "Peter Santo",
+"file": "enigma_ii/peter01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "c_tut01",
+"title": "Chess Stones",
+"author": "Raoul Bourquin, ShadowPhrogg32642342, Andreas Lochmann",
+"file": "tutorial_basic/a_tut07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "a_tut06",
+"title": "Bye!",
+"author": "Andreas Lochmann",
+"file": "tutorial_basic/a_tut06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "m_tutor/adv_tutorial",
+"title": "Advanced Tutorial",
+"author": "Jacob Scott",
+"file": "tutorial_advanced/adv_tutorial.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "tutorial_training",
+"title": "Training",
+"group": "Tutorials",
+"location": 10140,
+"levels": [
+{
+"id": "a_training01",
+"title": "Double Pendulum",
+"author": "Andreas Lochmann",
+"file": "tutorial_training/a_training01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr44",
+"title": "Biathlon",
+"author": "Zephyr",
+"file": "tutorial_training/zephyr44_1.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_i",
+"title": "Enigma I",
+"group": "Enigma",
+"location": 10200,
+"levels": [
+{
+"id": "welcome",
+"title": "Welcome",
+"author": "Daniel Heck",
+"file": "enigma_i/welcometopack1_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc07",
+"title": "Flying",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf03",
+"title": "Welcome to the Machine",
+"author": "Ralf Westram",
+"file": "enigma_i/ralf03_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat7",
+"title": "Sok It To 'Em",
+"author": "Nat Pryce",
+"file": "enigma_i/nat07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss1",
+"title": "Easy?",
+"author": "Sven Siggelkow",
+"file": "enigma_i/ss01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant18",
+"title": "Ingrowing",
+"author": "Petr Machata",
+"file": "enigma_i/ant18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain03",
+"title": "- Meditation -",
+"author": "Alain Busser",
+"file": "enigma_i/alain03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb13",
+"title": "(Counter)Clockwise",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind03",
+"title": "Hanging In The Balance",
+"author": "illmind",
+"file": "enigma_i/illmind03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "natmaze1",
+"title": "Desert Ruins",
+"author": "Nat Pryce",
+"file": "enigma_i/nat32_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc10",
+"title": "The Big Swamp",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation1",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried33_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain06",
+"title": "Bendixxon",
+"author": "Alain Busser",
+"file": "enigma_i/alain06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas01",
+"title": "Lissajous",
+"author": "Andreas Lochmann",
+"file": "enigma_i/andreas01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas12",
+"title": "Lissajous' Revenge",
+"author": "Andreas Lochmann",
+"file": "enigma_i/andreas12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy46",
+"title": "No Jumping Necessary",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy46_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation6",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "space",
+"title": "The Grim Reaper",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy4",
+"title": "The Document",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "richi04",
+"title": "Without Tremor",
+"author": "Richi Bützer",
+"file": "enigma_i/richi04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain04",
+"title": "- Meditation -",
+"author": "Alain Busser",
+"file": "enigma_i/alain04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "richi03",
+"title": "Light Barrier",
+"author": "Richi Bützer",
+"file": "enigma_i/richi03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "martin04",
+"title": "Sokoban Revival",
+"author": "Martin Hawlisch",
+"file": "enigma_i/martin04_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind08",
+"title": "Dead Ball Walking",
+"author": "illmind",
+"file": "enigma_i/illmind08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat2",
+"title": "Duck and Cover",
+"author": "Nat Pryce",
+"file": "enigma_i/nat02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy79",
+"title": "Oxyd Maze",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy79_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "jc01",
+"title": "Hurry!",
+"author": "Jens-Christian Korth",
+"file": "enigma_i/jc01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "meditation15",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried36_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain05",
+"title": "The Enigmhanoi Towers",
+"author": "Alain Busser",
+"file": "enigma_i/alain05_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc12",
+"title": "Mirror Room",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb9",
+"title": "Annoying little balls",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb09_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc17",
+"title": "Mirror Room II",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy10",
+"title": "Islands",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy10_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy24",
+"title": "Turbulence",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy24_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "lasers101",
+"title": "Lasers 101",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant12",
+"title": "Black Lava",
+"author": "Petr Machata",
+"file": "enigma_i/ant12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas14",
+"title": "Laser Arena",
+"author": "Andreas Lochmann",
+"file": "enigma_i/andreas14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc23",
+"title": "Advanced Lasers",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc23_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant24",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_i/ant24_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb6",
+"title": "Spiral Race",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_i/wb06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mirrors",
+"title": "Way To Go",
+"author": "Daniel Heck",
+"file": "enigma_i/daniel09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc06",
+"title": "Formentera!",
+"author": "Lukas Schüller",
+"file": "enigma_i/luc06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy21",
+"title": "If They'd Just Hold Still",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf02",
+"title": "Ibiza!",
+"author": "Ralf Westram",
+"file": "enigma_i/ralf02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant01",
+"title": "Puzzle Hacker",
+"author": "Petr Machata",
+"file": "enigma_i/ant01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy47",
+"title": "Cage The Lions",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy47_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy74",
+"title": "Confetti",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy74_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "jc03",
+"title": "Why So Slow?",
+"author": "Jens-Christian Korth",
+"file": "enigma_i/jc03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation5",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_i/siegfried38_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant09",
+"title": "Escher's World",
+"author": "Petr Machata",
+"file": "enigma_i/ant09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat9",
+"title": "Balancing Act",
+"author": "Nat Pryce",
+"file": "enigma_i/nat09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas24",
+"title": "Floppy Floors",
+"author": "Andreas Lochmann",
+"file": "enigma_i/andreas24_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy13",
+"title": "Space Tubes",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "balance",
+"title": "Balance",
+"author": "Erich Schubert",
+"file": "enigma_i/erich01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy33",
+"title": "More Space Tubes",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy33_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul04",
+"title": "- Meditation -",
+"author": "Raoul Bourquin",
+"file": "enigma_i/raoul04_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy122",
+"title": "Civil Engineer",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy122_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy108",
+"title": "Security Guards",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy108_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat11",
+"title": "Time is Money",
+"author": "Nat Pryce",
+"file": "enigma_i/nat11_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant13",
+"title": "Impulsive",
+"author": "Petr Machata",
+"file": "enigma_i/ant13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy7",
+"title": "Jump!",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy100",
+"title": "Island Paradise",
+"author": "Jacob Scott",
+"file": "enigma_i/duffy100_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_ii",
+"title": "Enigma II",
+"group": "Enigma",
+"location": 10300,
+"levels": [
+{
+"id": "welcometopack2",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_ii/welcometopack2_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy48",
+"title": "Blocks and Grates",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy48_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat5",
+"title": "Push Them In",
+"author": "Andreas Persenius, Nat Pryce",
+"file": "enigma_ii/nat05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant14",
+"title": "Dancers",
+"author": "Petr Machata",
+"file": "enigma_ii/ant14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb10",
+"title": "- Meditation -",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_ii/wb10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant07",
+"title": "Automaton Magic",
+"author": "Petr Machata",
+"file": "enigma_ii/ant07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20091215ral591",
+"title": "Enignimm",
+"author": "Ronald Lamprecht",
+"file": "enigma_ii/ral52_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc25",
+"title": "One Way Ticket",
+"author": "Lukas Schüller",
+"file": "enigma_ii/luc25_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "qq3",
+"title": "Stomp Stomp",
+"author": "Andrzej Szombierski",
+"file": "enigma_ii/qq03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat3",
+"title": "Knock Knock!",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peter_001",
+"title": "Beam0r",
+"author": "Peter Santo",
+"file": "enigma_ii/peter01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas17",
+"title": "- Meditation -",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc26",
+"title": "Growing Boxes",
+"author": "Lukas Schüller",
+"file": "enigma_ii/luc26_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy118",
+"title": "Kaleidoscope",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy118_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain16",
+"title": "Enigmastermind",
+"author": "Alain Busser",
+"file": "enigma_ii/alain16_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "natmaze3",
+"title": "Gopher It",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat34_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat6",
+"title": "Twelve Doors",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "guy01",
+"title": "Guitar",
+"author": "Guy Busser",
+"file": "enigma_ii/guy01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy80",
+"title": "Path in the Stars",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy80_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "nat10",
+"title": "When Gravity Fails",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc18",
+"title": "More Black Holes",
+"author": "Lukas Schüller",
+"file": "enigma_ii/luc18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy98",
+"title": "Solar System",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy98_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy59",
+"title": "Space Meditation",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy59_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas13",
+"title": "Robin's Wood",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy87",
+"title": "Puppet",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy87_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "immanuel02",
+"title": "Door Maze",
+"author": "Immanuel Herrmann",
+"file": "enigma_ii/immanuel02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation16",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_ii/siegfried37_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind02",
+"title": "Disk Royal",
+"author": "illmind",
+"file": "enigma_ii/illmind02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas02",
+"title": "Spaceless",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "illmind05",
+"title": "Laser Paradise",
+"author": "illmind",
+"file": "enigma_ii/illmind05_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas15",
+"title": "Spaceleast",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas15_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ralf01",
+"title": "Easy Shifting ...",
+"author": "Ralf Westram",
+"file": "enigma_ii/ralf01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "capkoh02",
+"title": "The Fuse",
+"author": "capkoh",
+"file": "enigma_ii/capkoh02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy2",
+"title": "The Disappearing Block",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "edward10",
+"title": "- Meditation -",
+"author": "Edward",
+"file": "enigma_ii/edward10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy38",
+"title": "Drunk",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy38_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain01",
+"title": "Buridan",
+"author": "Alain Busser",
+"file": "enigma_ii/alain01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant30",
+"title": "Laser Magic",
+"author": "Petr Machata",
+"file": "enigma_ii/ant30_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas10",
+"title": "Moure-Switches",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas10_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy89",
+"title": "Almost There",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy89_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant16",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_ii/ant16_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant20",
+"title": "Come To Me",
+"author": "Petr Machata",
+"file": "enigma_ii/ant20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy3",
+"title": "Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy42",
+"title": "Inverted Laser Spiral",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy42_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas07",
+"title": "Turn Around",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas07_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy103",
+"title": "Bungeeball",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy103_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat1",
+"title": "Indoor Pool",
+"author": "Nat Pryce",
+"file": "enigma_ii/nat01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf_pento2",
+"title": "Pentomino II",
+"author": "Enigma Team",
+"file": "enigma_ii/pento02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf_pento3",
+"title": "Pentomino III",
+"author": "Enigma Team",
+"file": "enigma_ii/pento03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf_pento4",
+"title": "Pentomino IV",
+"author": "Enigma Team",
+"file": "enigma_ii/pento04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf_pento5",
+"title": "Pentomino V",
+"author": "Enigma Team",
+"file": "enigma_ii/pento05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy45",
+"title": "Washing Machine",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy45_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "xerxes02",
+"title": "Dirt Clod",
+"author": "Xerxes M. Dynatos",
+"file": "enigma_ii/xerxes02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy120",
+"title": "Snowing",
+"author": "Jacob Scott",
+"file": "enigma_ii/duffy120_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas05",
+"title": "Friend or Foe?",
+"author": "Andreas Lochmann",
+"file": "enigma_ii/andreas05_2.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_iii",
+"title": "Enigma III",
+"group": "Enigma",
+"location": 10400,
+"levels": [
+{
+"id": "welcometopack3",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_iii/welcometopack3_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "wb4",
+"title": "Bridge Builders",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iii/wb04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc09",
+"title": "Teamplay Doors",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy8",
+"title": "Checkerboard",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "deadend",
+"title": "Deadend",
+"author": "Daniel Heck",
+"file": "enigma_iii/daniel07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc03",
+"title": "Coloured Doors",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy20",
+"title": "Family Business",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy20_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy99",
+"title": "Blocks and Water",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy99_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind09",
+"title": "deja-vu",
+"author": "illmind",
+"file": "enigma_iii/illmind09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant25",
+"title": "Dependants",
+"author": "Petr Machata",
+"file": "enigma_iii/ant25_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "edward25",
+"title": "Space City",
+"author": "Edward",
+"file": "enigma_iii/edward25_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy16",
+"title": "Control Panel",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy16_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant28",
+"title": "Wild",
+"author": "Petr Machata",
+"file": "enigma_iii/ant28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy25",
+"title": "Teamwork",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy25_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy18",
+"title": "Yo-yo",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "immanuel01",
+"title": "Portable Laser",
+"author": "Immanuel Herrmann",
+"file": "enigma_iii/immanuel01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb3",
+"title": "Lotsa Triggers",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iii/wb03_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy88",
+"title": "Bomb Shelter",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy88_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "natmaze5",
+"title": "Grow Your Own",
+"author": "Nat Pryce",
+"file": "enigma_iii/nat36_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant19",
+"title": "Wells",
+"author": "Petr Machata",
+"file": "enigma_iii/ant19_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss11",
+"title": "Blind Date",
+"author": "Sven Siggelkow",
+"file": "enigma_iii/ss11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy58",
+"title": "Upstream Journey",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy58_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy75",
+"title": "Bishop",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy75_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy54",
+"title": "Keepaway",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy54_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy86",
+"title": "Fly High",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy86_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul09",
+"title": "Bright Dots",
+"author": "Raoul Bourquin",
+"file": "enigma_iii/raoul09_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy52",
+"title": "Monster in the Dark",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy52_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant15",
+"title": "- Snow White -",
+"author": "Petr Machata",
+"file": "enigma_iii/ant15_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy28",
+"title": "Black Diamond Course",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy28_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "richi01",
+"title": "The Ditch",
+"author": "Richi Bützer",
+"file": "enigma_iii/richi01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy62",
+"title": "Rush Hour Traffic",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy62_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy60",
+"title": "Automatic Transmission",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy60_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss17",
+"title": "Something Went Wrong",
+"author": "Sven Siggelkow",
+"file": "enigma_iii/ss17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind06",
+"title": "Set Me Free",
+"author": "illmind",
+"file": "enigma_iii/illmind06_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "illmind07",
+"title": "White Contrast",
+"author": "illmind",
+"file": "enigma_iii/illmind07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy84",
+"title": "Laser Tricks",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy84_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just07",
+"title": "Manamana",
+"author": "JuSt",
+"file": "enigma_iii/just07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy9",
+"title": "Double-Maze",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul07",
+"title": "Don't Touch",
+"author": "Raoul Bourquin",
+"file": "enigma_iii/raoul07_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss5",
+"title": "Emergency Exit",
+"author": "Sven Siggelkow",
+"file": "enigma_iii/ss05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas04",
+"title": "Laser Castle",
+"author": "Andreas Lochmann",
+"file": "enigma_iii/andreas04_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "wb5",
+"title": "Block its way!",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iii/wb05_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "illmind01",
+"title": "Bump Ahead",
+"author": "illmind",
+"file": "enigma_iii/illmind01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy64",
+"title": "Slinky Mayhem",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy64_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy65",
+"title": "Overwhelming",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy65_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy107",
+"title": "Break Down the Wall",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy107_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy109",
+"title": "One-Way Streets",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy109_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc11",
+"title": "Killer Hills",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "RayWick004",
+"title": "The Exchange",
+"author": "Ray Wick",
+"file": "enigma_iii/raywick04_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy15",
+"title": "Bumperball",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy15_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy112",
+"title": "Versailles",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy112_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy29",
+"title": "Run!",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy29_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy26",
+"title": "Lock Them In",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy26_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc22",
+"title": "Remote Control",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc22_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc04",
+"title": "Walk the Dog",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc04_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "daniel6",
+"title": "In Sync",
+"author": "Daniel Heck",
+"file": "enigma_iii/daniel06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy66",
+"title": "Tilt Control",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy66_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy69",
+"title": "Tilt Maze",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy69_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy85",
+"title": "Think Fast",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy85_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ss2",
+"title": "Overshoot",
+"author": "Sven Siggelkow",
+"file": "enigma_iii/ss02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy57",
+"title": "Fool the Watchdog",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy57_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy40",
+"title": "Cover Your Ears",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy40_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy55",
+"title": "Build Up Speed",
+"author": "Jacob Scott",
+"file": "enigma_iii/duffy55_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc27",
+"title": "Changing Positions",
+"author": "Lukas Schüller",
+"file": "enigma_iii/luc27_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_iv",
+"title": "Enigma IV",
+"group": "Enigma",
+"location": 10500,
+"levels": [
+{
+"id": "welcometopack4",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_iv/welcometopack4_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy76",
+"title": "Happy New Year",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy76_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain08",
+"title": "Wood robbing",
+"author": "Alain Busser",
+"file": "enigma_iv/alain08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy104",
+"title": "Termites",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy104_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "wb1",
+"title": "Hurry!",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iv/wb01_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc02",
+"title": "Antimaze",
+"author": "Lukas Schüller",
+"file": "enigma_iv/luc02_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy6",
+"title": "Boulder-Puzzle",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "RayWick001",
+"title": "Doors Galore",
+"author": "Ray Wick",
+"file": "enigma_iv/raywick01_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "RayWick002",
+"title": "Switch-Switch",
+"author": "Ray Wick",
+"file": "enigma_iv/raywick02_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy14",
+"title": "Slinky-Racing",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant22",
+"title": "Chained",
+"author": "Petr Machata",
+"file": "enigma_iv/ant22_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy94",
+"title": "Graduated Puzzles",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy94_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "christophanita_runningstone",
+"title": "Running Stone",
+"author": "Christoph &amp; Anita",
+"file": "enigma_iv/christophanita01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "nat8",
+"title": "Flood Gates",
+"author": "Nat Pryce",
+"file": "enigma_iv/nat08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain10",
+"title": "Sierpinski",
+"author": "Alain Busser",
+"file": "enigma_iv/alain10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy35",
+"title": "Labyrinth of Puzzles",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy35_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy1",
+"title": "Meditation Puzzle",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant04",
+"title": "The Tomb",
+"author": "Petr Machata",
+"file": "enigma_iv/ant04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant29",
+"title": "Robbery",
+"author": "Petr Machata",
+"file": "enigma_iv/ant29_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain13",
+"title": "The Life Game",
+"author": "Alain Busser",
+"file": "enigma_iv/alain13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant23",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_iv/ant23_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul03",
+"title": "Eternal Circulation",
+"author": "Raoul Bourquin",
+"file": "enigma_iv/raoul03_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy106",
+"title": "Under the Radar",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy106_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy17",
+"title": "Double-Spiral",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy17_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy36",
+"title": "It Never Stops",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy36_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant10",
+"title": "Circularity",
+"author": "Petr Machata",
+"file": "enigma_iv/ant10_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant08",
+"title": "Mourning Palace",
+"author": "Petr Machata",
+"file": "enigma_iv/ant08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "RayWick003",
+"title": "Block the Way",
+"author": "Ray Wick",
+"file": "enigma_iv/raywick03_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy11",
+"title": "The Race",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy130",
+"title": "Limited Supplies",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy130_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas11",
+"title": "Patterns of Impulse",
+"author": "Andreas Lochmann",
+"file": "enigma_iv/andreas11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy41",
+"title": "Ball and Chain",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy41_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf05",
+"title": "Stay There!",
+"author": "Ralf Westram",
+"file": "enigma_iv/ralf05_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy5",
+"title": "Just Moving Blocks?",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy05_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy111",
+"title": "Artillery",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy111_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss14",
+"title": "What's the Problem?",
+"author": "Sven Siggelkow",
+"file": "enigma_iv/ss14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc14",
+"title": "Pull it!",
+"author": "Lukas Schüller",
+"file": "enigma_iv/luc14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy83",
+"title": "Fire Safety",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy83_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf09",
+"title": "Run Like Hell",
+"author": "Ralf Westram",
+"file": "enigma_iv/ralf09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy68",
+"title": "What a Mess",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy68_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul10",
+"title": "Sleeping Serpent",
+"author": "Raoul Bourquin",
+"file": "enigma_iv/raoul10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf08",
+"title": "- No Meditation -",
+"author": "Ralf Westram",
+"file": "enigma_iv/ralf08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas03",
+"title": "How solid?",
+"author": "Andreas Lochmann",
+"file": "enigma_iv/andreas03_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain12",
+"title": "Cluenigma",
+"author": "Alain Busser",
+"file": "enigma_iv/alain12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas09",
+"title": "The Flagstone Reaper",
+"author": "Andreas Lochmann",
+"file": "enigma_iv/andreas09_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ralf15",
+"title": "U-Swap",
+"author": "Ralf Westram",
+"file": "enigma_iv/ralf15_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy125",
+"title": "Triple-Maze",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy125_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas16",
+"title": "The Dark Outside",
+"author": "Andreas Lochmann",
+"file": "enigma_iv/andreas16_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy123",
+"title": "Electric Meditation",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy123_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy77",
+"title": "Seed Puzzle",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy77_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy121",
+"title": "Action at a Distance",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy121_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy43",
+"title": "Long Jump",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy43_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy93",
+"title": "Seed Puzzle 2",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy93_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just02",
+"title": "Bolder Run",
+"author": "JuSt",
+"file": "enigma_iv/just02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss15",
+"title": "Electric Funeral",
+"author": "Sven Siggelkow",
+"file": "enigma_iv/ss15_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just04",
+"title": "Laser Pushing",
+"author": "JuSt",
+"file": "enigma_iv/just04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc01",
+"title": "Friction Nightmare",
+"author": "Lukas Schüller",
+"file": "enigma_iv/luc01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy117",
+"title": "Bad Nightmare",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy117_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mp03",
+"title": "Laser Games",
+"author": "moonpearl",
+"file": "enigma_iv/mp03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy124",
+"title": "Worse Nightmare",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy124_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant27",
+"title": "Pain",
+"author": "Petr Machata",
+"file": "enigma_iv/ant27_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy105",
+"title": "Drunkard's Walk",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy105_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy72",
+"title": "Where Am I?",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy72_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy82",
+"title": "Flood Zone",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy82_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant03",
+"title": "MetaPuzzle",
+"author": "Petr Machata",
+"file": "enigma_iv/ant03_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "martin100",
+"title": ".c.R.a.Z.y.W.o.R.l.D.",
+"author": "Martin Hawlisch, Ronald Lamprecht",
+"file": "enigma_iv/martin100_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy73",
+"title": "Bizarro World",
+"author": "Jacob Scott",
+"file": "enigma_iv/duffy73_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "wb11",
+"title": "Little Puzzles",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iv/wb11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "wb12",
+"title": "Big Adventures",
+"author": "Jon 'WB' Sneyers",
+"file": "enigma_iv/wb12_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_v",
+"title": "Enigma V",
+"group": "Enigma",
+"location": 10600,
+"levels": [
+{
+"id": "welcometopack5",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_v/welcometopack5_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain09",
+"title": "Send me the keys !",
+"author": "Alain Busser",
+"file": "enigma_v/alain09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas06",
+"title": "Laser Path",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas06_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain15",
+"title": "Hobbyte",
+"author": "Alain Busser",
+"file": "enigma_v/alain15_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc21",
+"title": "Water Castle",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc13",
+"title": "Moving Puzzles",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant26",
+"title": "Spiders",
+"author": "Petr Machata",
+"file": "enigma_v/ant26_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "capkoh01",
+"title": "Table Hockey",
+"author": "capkoh",
+"file": "enigma_v/capkoh01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy23",
+"title": "Shrinking Pits",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy23_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "richi02",
+"title": "Jesusbond",
+"author": "Richi Bützer",
+"file": "enigma_v/richi02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas33",
+"title": "Thievish Alleys",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas33_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ant21",
+"title": "Draggers",
+"author": "Petr Machata",
+"file": "enigma_v/ant21_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just06",
+"title": "Double play",
+"author": "JuSt",
+"file": "enigma_v/just06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul05",
+"title": "Oxyd-Puzzle",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf12",
+"title": "- Meditation -",
+"author": "Ralf Westram",
+"file": "enigma_v/ralf12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy114",
+"title": "Plan Ahead",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy114_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul12",
+"title": "Keystone",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc24",
+"title": "Laser Crossing",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc24_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "qq2",
+"title": "The Cage",
+"author": "Andrzej Szombierski",
+"file": "enigma_v/qq02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy81",
+"title": "Listen Carefully",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy81_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy50",
+"title": "Take Turns",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy50_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc30",
+"title": "The Carousel",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc30_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy32",
+"title": "Two Billiard Tables",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy32_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy131",
+"title": "Ocean Cruising",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy131_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain07",
+"title": "Pirates Island",
+"author": "Alain Busser",
+"file": "enigma_v/alain07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy27",
+"title": "Island of Safety",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy27_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas08",
+"title": "Tropical Island",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas08_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "natmaze2",
+"title": "Shipwreck",
+"author": "Nat Pryce",
+"file": "enigma_v/nat33_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul15",
+"title": "Ghost Islands",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul15_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy119",
+"title": "Reach the Dock",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy119_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy61",
+"title": "Mount Etna",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy61_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul02",
+"title": "- Giza Meditation -",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy110",
+"title": "Clear the Path",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy110_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy22",
+"title": "Choo-Choo",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy22_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy133",
+"title": "Humid Maze",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy133_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy39",
+"title": "Turnstile City",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss3",
+"title": "Psycho Pushing",
+"author": "Sven Siggelkow",
+"file": "enigma_v/ss03_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy53",
+"title": "Turnstile Maze",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy53_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf11",
+"title": "Swamp Stomp",
+"author": "Ralf Westram",
+"file": "enigma_v/ralf11_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy56",
+"title": "Crossfire",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy56_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc08",
+"title": "Swamp of Balls",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy67",
+"title": "Anticipation",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy67_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy70",
+"title": "Build Up and Tear Down",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy70_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain21",
+"title": "A bayou by you",
+"author": "Alain Busser",
+"file": "enigma_v/alain21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain24",
+"title": "Blet",
+"author": "Alain Busser",
+"file": "enigma_v/alain24_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain26",
+"title": "Banana Republic",
+"author": "Alain Busser",
+"file": "enigma_v/alain26_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy127",
+"title": "Now What?",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy127_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "malla01",
+"title": "Pneumatic Delivery",
+"author": "Manuel König",
+"file": "enigma_v/malla01_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ss10",
+"title": "Jumpin' Jack Flash",
+"author": "Sven Siggelkow",
+"file": "enigma_v/ss10_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul16",
+"title": "Venice I",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul16_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul17",
+"title": "Venice II",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just05",
+"title": "Walking around",
+"author": "JuSt",
+"file": "enigma_v/just05_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mp01",
+"title": "Gods of Enigma",
+"author": "moonpearl",
+"file": "enigma_v/mp01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy78",
+"title": "Stealing from Thieves",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy78_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mp02",
+"title": "Gods of Enigma II",
+"author": "moonpearl",
+"file": "enigma_v/mp02_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain14",
+"title": "- Meditation -",
+"author": "Alain Busser",
+"file": "enigma_v/alain14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "spaceman1",
+"title": "Fatal Attraction I",
+"author": "Spaceman",
+"file": "enigma_v/spaceman01_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas25",
+"title": "Acoustic Reminiscence",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas25_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "spaceman2",
+"title": "Fatal Attraction II",
+"author": "Spaceman",
+"file": "enigma_v/spaceman02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy51",
+"title": "Stranded",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy51_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "spaceman3",
+"title": "Fatal Attraction III",
+"author": "Spaceman",
+"file": "enigma_v/spaceman03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just03",
+"title": "Doors forever",
+"author": "JuSt",
+"file": "enigma_v/just03_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy113",
+"title": "Help Yourself",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy113_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060505ral007",
+"title": "Catwalk Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_v/ral05_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas20",
+"title": "Dynamice",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy115",
+"title": "Randomizer",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy115_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas18",
+"title": "Cold Mail",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul01",
+"title": "Life's Cross",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas19",
+"title": "Frozen Magnets",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas19_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc28",
+"title": "Glacial Chasm",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas21",
+"title": "Ice-Bomb",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul08",
+"title": "- Meditation -",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul08_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ralf04",
+"title": "Enigris",
+"author": "Ralf Westram",
+"file": "enigma_v/ralf04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul11",
+"title": "You need them",
+"author": "Raoul Bourquin",
+"file": "enigma_v/raoul11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas27",
+"title": "Pipes and Plumbing",
+"author": "Andreas Lochmann",
+"file": "enigma_v/andreas27_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc31",
+"title": "The Chamber",
+"author": "Lukas Schüller",
+"file": "enigma_v/luc31_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy95",
+"title": "Automaton",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy95_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy129",
+"title": "Island Labyrinth",
+"author": "Jacob Scott",
+"file": "enigma_v/duffy129_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_vi",
+"title": "Enigma VI",
+"group": "Enigma",
+"location": 10700,
+"levels": [
+{
+"id": "welcometopack6",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/welcometopack6_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "richi06",
+"title": "A-way",
+"author": "Richi Bützer",
+"file": "enigma_vi/richi06_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc29",
+"title": "Laser Splitting",
+"author": "Lukas Schüller",
+"file": "enigma_vi/luc29_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "edward01",
+"title": "No Memory",
+"author": "Edward",
+"file": "enigma_vi/edward01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas26",
+"title": "Orbitting",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas26_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ralf07",
+"title": "Im-pull-se",
+"author": "Ralf Westram",
+"file": "enigma_vi/ralf07_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060429ral006",
+"title": "Meditation Disturbance",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral04_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul21",
+"title": "Cold Way",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul21_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul14",
+"title": "Oxydmoron",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20060510ral008",
+"title": "Rhapsody on Cracks",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral06_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070116money001",
+"title": "Red Herrings",
+"author": "Andy Geldmacher",
+"file": "enigma_vi/andy01_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain27",
+"title": "Bomb raider",
+"author": "Alain Busser",
+"file": "enigma_vi/alain27_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas29",
+"title": "Checkmate I",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas29_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "edward02",
+"title": "Edwards Second Level",
+"author": "Edward",
+"file": "enigma_vi/edward02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy132",
+"title": "Prepare Your Defense",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy132_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas30",
+"title": "The Stable",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas30_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul13",
+"title": "Oxydrings",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060911ral294",
+"title": "Persecution Mania",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "edward14",
+"title": "Holes!",
+"author": "Edward",
+"file": "enigma_vi/edward14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul22",
+"title": "Chessing Positions",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul22_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul24",
+"title": "- Meditation -",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul24_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul19",
+"title": "Zeus",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul19_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20061011ral390",
+"title": "Ben Hur",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas37",
+"title": "Troy",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas37_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas39",
+"title": "Phaeton",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas39_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas34",
+"title": "Procrustes",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas34_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas40",
+"title": "Ariadne",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas40_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas38",
+"title": "Janus",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas38_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ant39",
+"title": "Odyssey",
+"author": "Petr Machata",
+"file": "enigma_vi/ant39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas36",
+"title": "- Meditation -",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas36_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul20",
+"title": "Laserpowered",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul20_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas28",
+"title": "Dancing on Light Beams",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas28_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "edward24",
+"title": "Wormhole Madness!",
+"author": "Edward",
+"file": "enigma_vi/edward24_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ralf14",
+"title": "Alcatraz",
+"author": "Ralf Westram",
+"file": "enigma_vi/ralf14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas31",
+"title": "Chess, Bugs &amp; Rock'n'Roll",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas31_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul25",
+"title": "Oil Trace",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul25_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060628ulf002",
+"title": "Simple Space",
+"author": "Ulf Stegemann",
+"file": "enigma_vi/ulf02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060527ral010",
+"title": "Hot Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral08_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas35",
+"title": "Checkmate II",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas35_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060730ral012",
+"title": "Bodyguard",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral10_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "illmind12",
+"title": "be quick or be dead",
+"author": "illmind",
+"file": "enigma_vi/illmind12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul26",
+"title": "Puzzle Puzzles",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul26_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070126ulf020",
+"title": "Counterclockwise",
+"author": "Ulf Stegemann",
+"file": "enigma_vi/ulf05_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20061201johannes313",
+"title": "Chess and Boxes",
+"author": "Johannes Laire",
+"file": "enigma_vi/johannes01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "erich02",
+"title": "Walk the line",
+"author": "Erich Schubert",
+"file": "enigma_vi/erich02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20060525ral009",
+"title": "Jump into Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral07_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just09_1",
+"title": "Playing with Lasers",
+"author": "JuSt",
+"file": "enigma_vi/just09_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20061210johannes313",
+"title": "Knight's Journey",
+"author": "Johannes Laire",
+"file": "enigma_vi/johannes02_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas43",
+"title": "A Cooler Spot in Hell",
+"author": "Andreas Lochmann",
+"file": "enigma_vi/andreas43_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just10",
+"title": "Check the light",
+"author": "JuSt",
+"file": "enigma_vi/just10_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just11",
+"title": "The Passage",
+"author": "JuSt",
+"file": "enigma_vi/just11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain23",
+"title": "Twisting by the pool",
+"author": "Alain Busser",
+"file": "enigma_vi/alain23_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070214ral703",
+"title": "Revolver",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral16_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul29",
+"title": "Same Task ...",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul29_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ralf06",
+"title": "ZigZag",
+"author": "Ralf Westram",
+"file": "enigma_vi/ralf06_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20060816ral719",
+"title": "Houdini",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral11_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just17",
+"title": "The wrong Place?",
+"author": "JuSt",
+"file": "enigma_vi/just17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy145",
+"title": "Idempotency",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy145_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070314ral189",
+"title": "Turnstiles for Two",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral17_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy146",
+"title": "Magic Trinity",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy146_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy137",
+"title": "Pontoon Bridges",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy137_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc322006",
+"title": "Blitz Chess",
+"author": "Lukas Schüller",
+"file": "enigma_vi/luc32_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy135",
+"title": "One-Way Woods",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy135_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc342007",
+"title": "Tandem Chess",
+"author": "Lukas Schüller",
+"file": "enigma_vi/luc34_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc352007",
+"title": "Correspondence Chess",
+"author": "Lukas Schüller",
+"file": "enigma_vi/luc35_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just13",
+"title": "Magic Triangle",
+"author": "JuSt",
+"file": "enigma_vi/just13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy136",
+"title": "Group Trip to Meditation",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy136_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul28",
+"title": "Twokoban I",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul28_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy140",
+"title": "Oxyd Drilling",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy140_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy141",
+"title": "In the Middle",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy141_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy142",
+"title": "Construction Workers",
+"author": "Jacob Scott",
+"file": "enigma_vi/duffy142_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul30",
+"title": "Industrial Puzzles",
+"author": "Raoul Bourquin",
+"file": "enigma_vi/raoul30_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070314ral394",
+"title": "Polar Bears' Paradise",
+"author": "Ronald Lamprecht",
+"file": "enigma_vi/ral19_2.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_vii",
+"title": "Enigma VII",
+"group": "Enigma",
+"location": 10800,
+"levels": [
+{
+"id": "welcometopack7",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_vii/welcometopack7_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe01",
+"title": "Advancing",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy152",
+"title": "Open Path",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy152_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy153",
+"title": "Laser Squad",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy153_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley02",
+"title": "Action Potential",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe18",
+"title": "Making Shapes",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy158",
+"title": "Widgets in the Attic",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy158_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke03",
+"title": "Balance Beam",
+"author": "mecke",
+"file": "enigma_vii/mecke03_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe28",
+"title": "Recover the Stone",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull37",
+"title": "Hip to be Square",
+"author": "/dev/null",
+"file": "enigma_vii/devnull37_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy147",
+"title": "Comet",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy147_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull09",
+"title": "Under control?",
+"author": "/dev/null",
+"file": "enigma_vii/devnull09_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just20",
+"title": "Give Way",
+"author": "JuSt",
+"file": "enigma_vii/just20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe8",
+"title": "Deserted Island",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley05",
+"title": "Re-entry Circuit",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy171",
+"title": "Alpha Factor",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy171_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe5",
+"title": "- Meditation -",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy165",
+"title": "Knot Garden",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy165_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe11",
+"title": "Super Puzzle",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull12",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_vii/devnull12_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090422ais523001",
+"title": "Rainbow Adjacencies",
+"author": "Alex Smith",
+"file": "enigma_vii/ais05_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas50",
+"title": "Colored Oxyds",
+"author": "Andreas Lochmann",
+"file": "enigma_vii/andreas50_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy164",
+"title": "Seasonal Patterns",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy164_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley16",
+"title": "Color Maze",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley16_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "cel2",
+"title": "Pentachromos",
+"author": "J.Dunne, R.Lamprecht, D.Lehmann, M.Pulley, L.Schüller",
+"file": "enigma_vii/cel2_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080814ral422",
+"title": "Scarlett's Necklace",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral30_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas51",
+"title": "Colored Turnstiles",
+"author": "Andreas Lochmann",
+"file": "enigma_vii/andreas51_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070623ral914",
+"title": "Restless Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral09_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke11",
+"title": "Black Liberation",
+"author": "mecke",
+"file": "enigma_vii/mecke11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "dpl01",
+"title": "Multiban",
+"author": "Dominik Leipold",
+"file": "enigma_vii/dpl01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley03",
+"title": "Circulation",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley03_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe24",
+"title": "Minor Tangler",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe24_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas48",
+"title": "Styles Change",
+"author": "Andreas Lochmann",
+"file": "enigma_vii/andreas48_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy172",
+"title": "Double Oneways",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy172_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy162",
+"title": "Mayan Meditation",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy162_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe19",
+"title": "Clever Pushing",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe19_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley06",
+"title": "Puppet",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley06_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070413jet001",
+"title": "Not Fast Enough",
+"author": "James Taylor, Ronald Lamprecht",
+"file": "enigma_vii/jet04_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090923ais523001",
+"title": "Perfect Trajectory",
+"author": "Alex Smith",
+"file": "enigma_vii/ais09_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090325ral180",
+"title": "Inverse Maze",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral44_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas54",
+"title": "Minopal",
+"author": "Andreas Lochmann, Ronald Lamprecht",
+"file": "enigma_vii/andreas54_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20081207ral610",
+"title": "Coober Pedy Opals",
+"author": "Ronald Lamprecht, Andreas Lochmann",
+"file": "enigma_vii/ral35_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy138",
+"title": "Upstairs Meditation",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy138_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20081207ral708",
+"title": "Butterfly Opals",
+"author": "Ronald Lamprecht, Andreas Lochmann",
+"file": "enigma_vii/ral36_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20081212ral162",
+"title": "Brilliant Opals",
+"author": "Ronald Lamprecht, Andreas Lochmann",
+"file": "enigma_vii/ral37_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090327ral218",
+"title": "Inverse Maze II",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral45_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just28",
+"title": "Pull the Puller",
+"author": "JuSt",
+"file": "enigma_vii/just28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "dpl02",
+"title": "Remote Meditation",
+"author": "Dominik Leipold",
+"file": "enigma_vii/dpl02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070502ral466",
+"title": "Meditation in Peace",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral20_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe13",
+"title": "Manuevre",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke15",
+"title": "Enigmaparcour I",
+"author": "mecke",
+"file": "enigma_vii/mecke15_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe20",
+"title": "Using Rotators",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke29",
+"title": "Enigmaparcour II",
+"author": "mecke",
+"file": "enigma_vii/mecke29_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke35",
+"title": "Enigmaparcour III",
+"author": "mecke",
+"file": "enigma_vii/mecke35_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe21",
+"title": "Swapping Puzzle",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe22",
+"title": "Swapping Puzzle II",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe22_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas55",
+"title": "Sokopal",
+"author": "Andreas Lochmann, Ronald Lamprecht",
+"file": "enigma_vii/andreas55_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070314ral728",
+"title": "Cold Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral18_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pulley07",
+"title": "Little Shop Of Horrors",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "huesing01",
+"title": "Watchmaker",
+"author": "Johannes Hüsing",
+"file": "enigma_vii/huesing01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas46",
+"title": "Tinker, Tailor",
+"author": "Andreas Lochmann",
+"file": "enigma_vii/andreas46_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy157",
+"title": "Oneway for White",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy157_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy156",
+"title": "Protected Exhibition",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy156_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe6",
+"title": "Working Outwards",
+"author": "Joseph Dunne",
+"file": "enigma_vii/joe06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pulley04",
+"title": "The Lone Ranger",
+"author": "Mark Pulley",
+"file": "enigma_vii/pulley04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas47",
+"title": "The Show Jumper",
+"author": "Andreas Lochmann",
+"file": "enigma_vii/andreas47_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy163",
+"title": "Horseshoes",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy163_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull08",
+"title": "Relaxing at the sea",
+"author": "/dev/null",
+"file": "enigma_vii/devnull08_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke12",
+"title": "Jack-Of-All-Trades",
+"author": "mecke",
+"file": "enigma_vii/mecke12_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alias01",
+"title": "Reflections I",
+"author": "Alan Smithee",
+"file": "enigma_vii/alias01_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy176",
+"title": "Ghost Driver",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy176_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy155",
+"title": "Free Riders",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy155_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy161",
+"title": "Advanced Space Tubes",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy161_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke9",
+"title": "Audience in Venice",
+"author": "mecke",
+"file": "enigma_vii/mecke09_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090620ral141",
+"title": "Water Galore",
+"author": "Ronald Lamprecht",
+"file": "enigma_vii/ral49_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy168",
+"title": "Arctic Jumping",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy168_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke22",
+"title": "The Green Hell",
+"author": "mecke",
+"file": "enigma_vii/mecke22_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy151",
+"title": "Temple of Gold",
+"author": "Jacob Scott",
+"file": "enigma_vii/duffy151_4.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_viii",
+"title": "Enigma VIII",
+"group": "Enigma",
+"location": 10900,
+"levels": [
+{
+"id": "welcometopack8",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_viii/welcometopack8_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070519npb015045",
+"title": "Inkblot 1",
+"author": "Nathan Bronecke",
+"file": "enigma_viii/npb01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe4",
+"title": "- Meditation -",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull29",
+"title": "alternate X",
+"author": "/dev/null",
+"file": "enigma_viii/devnull29_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe27",
+"title": "Pick-Up",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe27_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe29",
+"title": "The Red Room",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe29_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "johann03",
+"title": "Cross Mail",
+"author": "Johann Freymuth",
+"file": "enigma_viii/johann03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull06",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_viii/devnull06_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joona02",
+"title": "Joona's Chess",
+"author": "Joona Laire",
+"file": "enigma_viii/joona02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke48",
+"title": "Helios I",
+"author": "mecke",
+"file": "enigma_viii/mecke07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke20",
+"title": "Rhythm of Space",
+"author": "mecke",
+"file": "enigma_viii/mecke20_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul34",
+"title": "Mazelets",
+"author": "Raoul Bourquin",
+"file": "enigma_viii/raoul34_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke08",
+"title": "Helios II",
+"author": "mecke",
+"file": "enigma_viii/mecke08_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas58",
+"title": "Symopal",
+"author": "Andreas Lochmann, Ronald Lamprecht",
+"file": "enigma_viii/andreas58_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just24",
+"title": "Alternatives?",
+"author": "JuSt",
+"file": "enigma_viii/just24_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke19",
+"title": "Turbulencia",
+"author": "mecke",
+"file": "enigma_viii/mecke19_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "just25",
+"title": "No More Alternatives",
+"author": "JuSt",
+"file": "enigma_viii/just25_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull07",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_viii/devnull07_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090312ral718",
+"title": "The Gordian Knot",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral15_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raywick5",
+"title": "Impulsive Order",
+"author": "Ray Wick",
+"file": "enigma_viii/raywick05_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke21",
+"title": "Red Cave",
+"author": "mecke",
+"file": "enigma_viii/mecke21_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090403ral538",
+"title": "Fight of Elements",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral48_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "manfi01",
+"title": "Missing Oxyds?",
+"author": "Manfredi Carta",
+"file": "enigma_viii/manfi01_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090427ais523001",
+"title": "From Six To Twenty-Six",
+"author": "Alex Smith",
+"file": "enigma_viii/ais04_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "just26",
+"title": "The Walls",
+"author": "JuSt",
+"file": "enigma_viii/just26_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull33",
+"title": "Filler",
+"author": "/dev/null",
+"file": "enigma_viii/devnull33_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull04",
+"title": "- Meditation -",
+"author": "/dev/null",
+"file": "enigma_viii/devnull04_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080708ral196",
+"title": "Push Wires",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral24_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20071017ral096",
+"title": "Maze for Two",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral22_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull11",
+"title": "2 + 2",
+"author": "/dev/null",
+"file": "enigma_viii/devnull11_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090330ral370",
+"title": "Maze for Two II",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral23_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080721ral073",
+"title": "Wired Five",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral25_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe14",
+"title": "Double Sense",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe14_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe15",
+"title": "Double Sense II",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe15_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20081223ral510",
+"title": "Wired Strips",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral38_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ill0907-01",
+"title": "mad-ill-tation",
+"author": "illmind",
+"file": "enigma_viii/illmind14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy174",
+"title": "Transpositions",
+"author": "Jacob Scott",
+"file": "enigma_viii/duffy174_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke05",
+"title": "Sanssouci",
+"author": "mecke",
+"file": "enigma_viii/mecke05_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080717ral427",
+"title": "Microwire",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral27_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke10",
+"title": "Southside Life",
+"author": "mecke",
+"file": "enigma_viii/mecke10_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080717ral282",
+"title": "More Microwire",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral28_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull02",
+"title": "Status code 302",
+"author": "/dev/null",
+"file": "enigma_viii/devnull02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080719ral530",
+"title": "Freestyle Microwire",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral29_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080715ral161",
+"title": "Wireban Premiere",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral26_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke23",
+"title": "Fifty Years Later ...",
+"author": "mecke",
+"file": "enigma_viii/mecke23_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul31",
+"title": "- Meditation -",
+"author": "Raoul Bourquin",
+"file": "enigma_viii/raoul31_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20081227ral230",
+"title": "Squared Microwire",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral39_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke17",
+"title": "Alternation I",
+"author": "mecke",
+"file": "enigma_viii/mecke17_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090416ais523003",
+"title": "Deathbridge",
+"author": "Alex Smith",
+"file": "enigma_viii/ais01_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas53",
+"title": "Vanity's Constrictions",
+"author": "Andreas Lochmann",
+"file": "enigma_viii/andreas53_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas56",
+"title": "5 Days and 5 Nights",
+"author": "Andreas Lochmann",
+"file": "enigma_viii/andreas56_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas49",
+"title": "Weirdly Wired",
+"author": "Andreas Lochmann",
+"file": "enigma_viii/andreas49_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke31",
+"title": "Alternation II",
+"author": "mecke",
+"file": "enigma_viii/mecke31_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul32",
+"title": "Involution",
+"author": "Raoul Bourquin",
+"file": "enigma_viii/raoul32_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080828ral417",
+"title": "Wired Shogun",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral34_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080821wcr001",
+"title": "Meditation Sorting",
+"author": "Helge Blohmer",
+"file": "enigma_viii/wesley02_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull16",
+"title": "Hang-dogging?",
+"author": "/dev/null",
+"file": "enigma_viii/devnull16_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull24",
+"title": "Two Is A Company I",
+"author": "/dev/null",
+"file": "enigma_viii/devnull24_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pulley15",
+"title": "Earthlink",
+"author": "Mark Pulley",
+"file": "enigma_viii/pulley15_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull25",
+"title": "Two Is A Company II",
+"author": "/dev/null",
+"file": "enigma_viii/devnull25_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke06",
+"title": "Techno Voodoo",
+"author": "mecke",
+"file": "enigma_viii/mecke06_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull03",
+"title": "Multi-lane",
+"author": "/dev/null",
+"file": "enigma_viii/devnull03_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull27",
+"title": "Two Is A Company III",
+"author": "/dev/null",
+"file": "enigma_viii/devnull27_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke01",
+"title": "A Screenful of Secrets",
+"author": "mecke",
+"file": "enigma_viii/mecke01_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull28",
+"title": "Two Is A Company IV",
+"author": "/dev/null",
+"file": "enigma_viii/devnull28_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy178",
+"title": "Zero Magnetism Lab",
+"author": "Jacob Scott",
+"file": "enigma_viii/duffy178_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull15",
+"title": "On belay?",
+"author": "/dev/null",
+"file": "enigma_viii/devnull15_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull34",
+"title": "Crabwise I",
+"author": "/dev/null",
+"file": "enigma_viii/devnull34_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke16",
+"title": "Plutos World",
+"author": "mecke",
+"file": "enigma_viii/mecke16_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull35",
+"title": "Crabwise II",
+"author": "/dev/null",
+"file": "enigma_viii/devnull35_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20081229ral",
+"title": "More or Less Wired",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral42_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke32",
+"title": "New York Jungle",
+"author": "mecke",
+"file": "enigma_viii/mecke32_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull38",
+"title": "Crabwise III",
+"author": "/dev/null",
+"file": "enigma_viii/devnull38_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke30",
+"title": "Plutos Confusion",
+"author": "mecke",
+"file": "enigma_viii/mecke13_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull45",
+"title": "Crabwise IV",
+"author": "/dev/null",
+"file": "enigma_viii/devnull45_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "joe9",
+"title": "The Fortress",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090424pulley001",
+"title": "Caving",
+"author": "Mark Pulley",
+"file": "enigma_viii/pulley31_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe25",
+"title": "Mountain Climbing II",
+"author": "Joseph Dunne",
+"file": "enigma_viii/joe25_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pulley23",
+"title": "Volcano Day",
+"author": "Mark Pulley",
+"file": "enigma_viii/pulley23_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke36",
+"title": "Pinnacles I",
+"author": "mecke",
+"file": "enigma_viii/mecke36_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090338ais523002",
+"title": "Danger Flag",
+"author": "Alex Smith",
+"file": "enigma_viii/ais02_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090112ral228",
+"title": "Mole Hill Meditation",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral43_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull19",
+"title": "Near Halley I",
+"author": "/dev/null",
+"file": "enigma_viii/devnull19_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080803pulley001",
+"title": "Path Through Flood",
+"author": "Mark Pulley",
+"file": "enigma_viii/pulley24_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090406ais523002",
+"title": "Number Crunching",
+"author": "Alex Smith",
+"file": "enigma_viii/ais06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ais10",
+"title": "FizzBuzz",
+"author": "Alex Smith",
+"file": "enigma_viii/ais10_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "luc362009",
+"title": "The Sum of its Parts",
+"author": "Lukas Schüller",
+"file": "enigma_viii/luc36_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090926ais523001",
+"title": "Claustrophobia",
+"author": "Alex Smith",
+"file": "enigma_viii/ais11_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull01",
+"title": "Changing conditions",
+"author": "/dev/null",
+"file": "enigma_viii/devnull01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull32",
+"title": "Afraid of water",
+"author": "/dev/null",
+"file": "enigma_viii/devnull32_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas52",
+"title": "Christmas Star",
+"author": "Andreas Lochmann",
+"file": "enigma_viii/andreas52_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070822ral291",
+"title": "Tutoxyd's Pyramid",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral21_2.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_ix",
+"title": "Enigma IX",
+"group": "Enigma",
+"location": 11100,
+"levels": [
+{
+"id": "welcometopack9",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/welcometopack9_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090316ais523001",
+"title": "Three Times Through",
+"author": "Alex Smith",
+"file": "enigma_ix/ais03_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul39",
+"title": "Pillar",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/raoul39_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull26",
+"title": "CrissCross",
+"author": "/dev/null",
+"file": "enigma_ix/devnull26_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull122",
+"title": "Vapid",
+"author": "/dev/null",
+"file": "enigma_ix/devnull122_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr06",
+"title": "Life Seed",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr06_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070406joona005",
+"title": "DownDown",
+"author": "Joona Laire",
+"file": "enigma_ix/joona01_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull102",
+"title": "Shogun Connection I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull102_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090525ais523001",
+"title": "Su Dyxo",
+"author": "Alex Smith",
+"file": "enigma_ix/ais33_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke25",
+"title": "Rainbow~Meditation",
+"author": "mecke",
+"file": "enigma_ix/mecke25_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull31",
+"title": "Bicolor",
+"author": "/dev/null",
+"file": "enigma_ix/devnull31_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20081018pulley001",
+"title": "Collapsing Building",
+"author": "Mark Pulley",
+"file": "enigma_ix/pulley28_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull57",
+"title": "More Gaps I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull57_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "hairball12",
+"title": "Parabola",
+"author": "Hairball",
+"file": "enigma_ix/hairball12_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas65",
+"title": "Pulling on the Rings",
+"author": "Andreas Lochmann",
+"file": "enigma_ix/andreas65_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy182",
+"title": "Flickering Passages",
+"author": "Jacob Scott, Raoul Bourquin",
+"file": "enigma_ix/duffy182_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "alain31",
+"title": "Mike's hammer",
+"author": "Alain Busser",
+"file": "enigma_ix/alain31_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull103",
+"title": "Shogun Connection II",
+"author": "/dev/null",
+"file": "enigma_ix/devnull103_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "rudolf01",
+"title": "Behind Glass",
+"author": "Rudolf",
+"file": "enigma_ix/rudolf01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull60",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_ix/devnull60_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull61",
+"title": "Thread-safe I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull61_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "luc372009",
+"title": "Floodoban",
+"author": "Lukas Schüller",
+"file": "enigma_ix/luc37_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul33",
+"title": "Push? Pull? Rotate!",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/raoul33_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas57",
+"title": "Camel and Needle",
+"author": "Andreas Lochmann",
+"file": "enigma_ix/andreas57_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull43",
+"title": "Oh nO",
+"author": "/dev/null",
+"file": "enigma_ix/devnull43_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul36",
+"title": "Wired Pulls",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/raoul36_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull105",
+"title": "Shogun Connection III",
+"author": "/dev/null",
+"file": "enigma_ix/devnull105_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull91",
+"title": "Stackable",
+"author": "/dev/null",
+"file": "enigma_ix/devnull91_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "alain28",
+"title": "Pool with a pole",
+"author": "Alain Busser",
+"file": "enigma_ix/alain28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "hadas04",
+"title": "Forget Me Not",
+"author": "Daniel Hadas",
+"file": "enigma_ix/hadas04_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull88",
+"title": "Do Me a Favor",
+"author": "/dev/null",
+"file": "enigma_ix/devnull88_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080601pulley001",
+"title": "Logic Gates",
+"author": "Mark Pulley",
+"file": "enigma_ix/pulley17_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy173",
+"title": "Wood - Water - Wood",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy173_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090602ais523001",
+"title": "Once, No More No Less",
+"author": "Alex Smith",
+"file": "enigma_ix/ais07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull39",
+"title": "lower i",
+"author": "/dev/null",
+"file": "enigma_ix/devnull39_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20061124ral279",
+"title": "Bold Boulder",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral14_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull59",
+"title": "More Gaps II",
+"author": "/dev/null",
+"file": "enigma_ix/devnull59_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ais71",
+"title": "Origami",
+"author": "Alex Smith",
+"file": "enigma_ix/ais71_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull111",
+"title": "Island Puzzles",
+"author": "/dev/null",
+"file": "enigma_ix/devnull111_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr03",
+"title": "Light Life",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull41",
+"title": "Snippet for One",
+"author": "/dev/null",
+"file": "enigma_ix/devnull41_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "zephyr22",
+"title": "Life Strip, Stripped Pipe",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr22_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy184",
+"title": "Escape in Chains",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy184_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy185",
+"title": "Zero Magnetism Lab II",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy185_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20100514ral450",
+"title": "Trade Barriers",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral54_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080820ral639",
+"title": "Panelled Puzzle I",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral32_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "another04",
+"title": "Enibricks",
+"author": "Another",
+"file": "enigma_ix/another04_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull47",
+"title": "Load Balancing",
+"author": "/dev/null",
+"file": "enigma_ix/devnull47_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ais70",
+"title": "Distribution Meditation",
+"author": "Alex Smith",
+"file": "enigma_ix/ais70_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "hadas03",
+"title": "Double Barrier",
+"author": "Daniel Hadas",
+"file": "enigma_ix/hadas03_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull44",
+"title": "Hide them",
+"author": "/dev/null",
+"file": "enigma_ix/devnull44_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull65",
+"title": "Interlude I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull65_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull55",
+"title": "traceroute I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull55_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "zephyr01",
+"title": "Puzzle Shift",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "hadas06",
+"title": "Take Your Time!",
+"author": "Jonatan and Daniel Hadas",
+"file": "enigma_ix/hadas06_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull23",
+"title": "more is not less",
+"author": "/dev/null",
+"file": "enigma_ix/devnull23_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull42",
+"title": "Snippet for Two",
+"author": "/dev/null",
+"file": "enigma_ix/devnull42_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull66",
+"title": "Splinter",
+"author": "/dev/null",
+"file": "enigma_ix/devnull66_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy148",
+"title": "Speed Meditation",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy148_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull56",
+"title": "traceroute II",
+"author": "/dev/null",
+"file": "enigma_ix/devnull56_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "hadas07",
+"title": "Lose Control",
+"author": "Daniel Hadas",
+"file": "enigma_ix/hadas07_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull71",
+"title": "Thread-safe II",
+"author": "/dev/null",
+"file": "enigma_ix/devnull71_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080131ral603",
+"title": "Panic Room",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral53_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull126",
+"title": "Blocking Puzzles I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull126_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull64",
+"title": "Offshore",
+"author": "/dev/null",
+"file": "enigma_ix/devnull64_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20091216ais523001",
+"title": "What I Don't Have",
+"author": "Alex Smith",
+"file": "enigma_ix/ais14_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "raoul37",
+"title": "Building Blocks I",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/raoul37_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull10",
+"title": "Flashback",
+"author": "/dev/null",
+"file": "enigma_ix/devnull10_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy180",
+"title": "See Saw Meditation",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy180_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090308ral237",
+"title": "Panelled Puzzle II",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral33_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull58",
+"title": "Island Hopping I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull58_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull54",
+"title": "Two Is A Company V",
+"author": "/dev/null",
+"file": "enigma_ix/devnull54_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull67",
+"title": "Down In The Bottom",
+"author": "/dev/null",
+"file": "enigma_ix/devnull67_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull52",
+"title": "Duopal Variation I",
+"author": "/dev/null",
+"file": "enigma_ix/devnull52_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke27",
+"title": "Babylon",
+"author": "mecke",
+"file": "enigma_ix/mecke27_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090926ais523003",
+"title": "Nabokos",
+"author": "Alex Smith",
+"file": "enigma_ix/ais12_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "zephyr36",
+"title": "Don Quixote",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr36_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "hadas11",
+"title": "Rush Hour",
+"author": "Jonatan Hadas",
+"file": "enigma_ix/hadas11_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull68",
+"title": "Crescent Wrench",
+"author": "/dev/null",
+"file": "enigma_ix/devnull68_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke40",
+"title": "Carcassonne",
+"author": "mecke",
+"file": "enigma_ix/mecke40_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke37",
+"title": "Naoussa",
+"author": "mecke",
+"file": "enigma_ix/mecke37_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20100610ral768",
+"title": "Waterloo",
+"author": "Ronald Lamprecht",
+"file": "enigma_ix/ral55_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull62",
+"title": "Island Hopping II",
+"author": "/dev/null",
+"file": "enigma_ix/devnull62_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull20",
+"title": "Trickshot?",
+"author": "/dev/null",
+"file": "enigma_ix/devnull20_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20090508ais523001",
+"title": "Choices, choices ...",
+"author": "Alex Smith",
+"file": "enigma_ix/ais08_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "harry07",
+"title": "Springtime Again",
+"author": "daydreamer",
+"file": "enigma_ix/harry07_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ais13",
+"title": "Seasonal Timings",
+"author": "Alex Smith",
+"file": "enigma_ix/ais13_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ais73",
+"title": "Marching Formation",
+"author": "Alex Smith",
+"file": "enigma_ix/ais73_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pulley18",
+"title": "Sunrise Sunset",
+"author": "Mark Pulley",
+"file": "enigma_ix/pulley18_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr08",
+"title": "Dorothy",
+"author": "Zephyr",
+"file": "enigma_ix/zephyr08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080614pulley001",
+"title": "Perennial Creek",
+"author": "Mark Pulley",
+"file": "enigma_ix/pulley20_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke02",
+"title": "A Little Tropical Castle",
+"author": "mecke",
+"file": "enigma_ix/mecke02_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy183",
+"title": "Odyssey in Space",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy183_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080101pulley001",
+"title": "The Pilgrim's Progress",
+"author": "Mark Pulley",
+"file": "enigma_ix/pulley14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ulf07",
+"title": "Poe's Nightmare",
+"author": "Ulf Stegemann",
+"file": "enigma_ix/ulf07_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke04",
+"title": "Tour de France",
+"author": "mecke",
+"file": "enigma_ix/mecke04_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul40",
+"title": "Smuggling",
+"author": "Raoul Bourquin",
+"file": "enigma_ix/raoul40_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy181",
+"title": "The Inferno",
+"author": "Jacob Scott",
+"file": "enigma_ix/duffy181_2.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_x",
+"title": "Enigma X",
+"group": "Enigma",
+"location": 11200,
+"levels": [
+{
+"id": "welcometopack10",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_x/welcometopack10_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pulley29",
+"title": "Key Cupboard",
+"author": "Mark Pulley",
+"file": "enigma_x/pulley29_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "joe02",
+"title": "Cross The Chazm",
+"author": "Joseph Dunne",
+"file": "enigma_x/joe02_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull170",
+"title": "Door Jamb Switch",
+"author": "/dev/null",
+"file": "enigma_x/devnull170_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ash27",
+"title": "Go with the Flow",
+"author": "Ash",
+"file": "enigma_x/ash27_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy188",
+"title": "Black-White Patterns",
+"author": "Jacob Scott",
+"file": "enigma_x/duffy188_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "Hairball_009",
+"title": "Varied Puzzles",
+"author": "Hairball",
+"file": "enigma_x/hairball09_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas66",
+"title": "Half Hertz",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas66_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "pzykosiz02",
+"title": "Mad Hatter's Tea Party",
+"author": "pzykosiz",
+"file": "enigma_x/pzykosiz02_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "nanook02",
+"title": "Checklist",
+"author": "nanook",
+"file": "enigma_x/nanook02_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "hadas13",
+"title": "Permutation",
+"author": "Jonatan and Daniel Hadas",
+"file": "enigma_x/hadas13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "Hairball_028",
+"title": "Forays",
+"author": "Hairball",
+"file": "enigma_x/hairball28_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull133",
+"title": "Inside I",
+"author": "/dev/null",
+"file": "enigma_x/devnull133_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20081228ral",
+"title": "Wired Lone Star",
+"author": "Ronald Lamprecht",
+"file": "enigma_x/ral40_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas67",
+"title": "West Wind",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas67_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg057_3",
+"title": "Troublemakers",
+"author": "gorg",
+"file": "enigma_x/gorg057_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke43",
+"title": "South Wind",
+"author": "mecke",
+"file": "enigma_x/mecke43_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull84",
+"title": "Blocked I",
+"author": "/dev/null",
+"file": "enigma_x/devnull84_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull131",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_x/devnull131_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas71",
+"title": "Careful, glass!",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas71_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr16",
+"title": "Panic Room",
+"author": "Zephyr",
+"file": "enigma_x/zephyr16_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy186",
+"title": "Pyramid Climbing",
+"author": "Jacob Scott",
+"file": "enigma_x/duffy186_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull86",
+"title": "Blocked II",
+"author": "/dev/null",
+"file": "enigma_x/devnull86_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "Hairball_018",
+"title": "Seemingly Impossible",
+"author": "Hairball",
+"file": "enigma_x/hairball18_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull161",
+"title": "To and Fro",
+"author": "/dev/null",
+"file": "enigma_x/devnull161_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ais11_2",
+"title": "Test of Dexterity",
+"author": "Alex Smith",
+"file": "enigma_x/ais11_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull137",
+"title": "Nice Neighbour",
+"author": "/dev/null",
+"file": "enigma_x/devnull137_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg096_2",
+"title": "Ink Barriers",
+"author": "gorg",
+"file": "enigma_x/gorg096_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull132",
+"title": " - Meditation - ",
+"author": "/dev/null",
+"file": "enigma_x/devnull132_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas70",
+"title": "Assembly Line",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas70_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull112",
+"title": "Left Lost?",
+"author": "/dev/null",
+"file": "enigma_x/devnull112_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull94",
+"title": "Two Halfs",
+"author": "/dev/null",
+"file": "enigma_x/devnull94_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg008_3",
+"title": "Golden Brown",
+"author": "gorg",
+"file": "enigma_x/gorg008_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy170",
+"title": "Docking",
+"author": "Jacob Scott",
+"file": "enigma_x/duffy170_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull165",
+"title": "Riding light beams",
+"author": "/dev/null",
+"file": "enigma_x/devnull165_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke41",
+"title": "Alaska",
+"author": "mecke",
+"file": "enigma_x/mecke41_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull92",
+"title": "No pearl diving I",
+"author": "/dev/null",
+"file": "enigma_x/devnull92_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg098_1",
+"title": "Seance",
+"author": "gorg",
+"file": "enigma_x/gorg098_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke65",
+"title": "Wildflowers Party",
+"author": "mecke",
+"file": "enigma_x/mecke65_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas41",
+"title": "A Barn in Summer",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas41_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull63",
+"title": "Island Hopping III",
+"author": "/dev/null",
+"file": "enigma_x/devnull63_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul41",
+"title": "Inside Puzzling",
+"author": "Raoul Bourquin",
+"file": "enigma_x/raoul41_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg044_2",
+"title": "Papillon",
+"author": "gorg",
+"file": "enigma_x/gorg044_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull107",
+"title": "See my pony run",
+"author": "/dev/null",
+"file": "enigma_x/devnull107_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke42",
+"title": "Alaska II",
+"author": "mecke",
+"file": "enigma_x/mecke42_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull115",
+"title": "No pearl diving II",
+"author": "/dev/null",
+"file": "enigma_x/devnull115_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "harry06",
+"title": "Checkmate III",
+"author": "daydreamer",
+"file": "enigma_x/harry06_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull69",
+"title": "Interlude II",
+"author": "/dev/null",
+"file": "enigma_x/devnull69_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull129",
+"title": "Hidden Meditation",
+"author": "/dev/null",
+"file": "enigma_x/devnull129_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull108",
+"title": "D-Day",
+"author": "/dev/null",
+"file": "enigma_x/devnull108_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg028_3",
+"title": "Laser Opals",
+"author": "gorg",
+"file": "enigma_x/gorg028_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull46",
+"title": "Near Halley II",
+"author": "/dev/null",
+"file": "enigma_x/devnull46_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull120",
+"title": "Team Trial",
+"author": "/dev/null",
+"file": "enigma_x/devnull120_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20110309ais523001",
+"title": "Meandering Impulses",
+"author": "Alex Smith",
+"file": "enigma_x/ais76_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy190",
+"title": "Even more Mess",
+"author": "Jacob Scott",
+"file": "enigma_x/duffy190_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull163",
+"title": "Y Junction",
+"author": "/dev/null",
+"file": "enigma_x/devnull163_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20091116ais523001",
+"title": "Braking Distance",
+"author": "Alex Smith",
+"file": "enigma_x/ais53_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull70",
+"title": "Interlude III",
+"author": "/dev/null",
+"file": "enigma_x/devnull70_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg055_2",
+"title": "Behind the Mirror",
+"author": "gorg",
+"file": "enigma_x/gorg055_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mww01",
+"title": "Don't waste wood",
+"author": "Martin Woyda-Wolf",
+"file": "enigma_x/mww01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull142",
+"title": "Blocked III",
+"author": "/dev/null",
+"file": "enigma_x/devnull142_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull167",
+"title": "Delta Time",
+"author": "/dev/null",
+"file": "enigma_x/devnull167_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg062_2",
+"title": "Wallpaper",
+"author": "gorg",
+"file": "enigma_x/gorg062_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas68",
+"title": "Freezing Ising",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas68_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull162",
+"title": "traceroute III",
+"author": "/dev/null",
+"file": "enigma_x/devnull162_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "duffy189",
+"title": "Safety Line",
+"author": "Jacob Scott",
+"file": "enigma_x/duffy189_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull143",
+"title": "Blocked IV",
+"author": "/dev/null",
+"file": "enigma_x/devnull143_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg054_2",
+"title": "A Walk",
+"author": "gorg",
+"file": "enigma_x/gorg054_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "Hairball_053",
+"title": "Drunk Transmeditation",
+"author": "Hairball",
+"file": "enigma_x/hairball53_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg099_3",
+"title": "Spy vs. Spy",
+"author": "gorg",
+"file": "enigma_x/gorg099_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "pzykosiz04_1",
+"title": "Volcano Run",
+"author": "pzykosiz",
+"file": "enigma_x/pzykosiz04_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas69",
+"title": "Ad Nihilum",
+"author": "Andreas Lochmann",
+"file": "enigma_x/andreas69_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull157",
+"title": "Mixed Puzzles",
+"author": "/dev/null",
+"file": "enigma_x/devnull157_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr42",
+"title": "Meteor Shower",
+"author": "Zephyr",
+"file": "enigma_x/zephyr42_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull14",
+"title": "Watch out",
+"author": "/dev/null",
+"file": "enigma_x/devnull14_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg024_5",
+"title": "Hiddensee",
+"author": "gorg",
+"file": "enigma_x/gorg024_5.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull30",
+"title": "What a ...",
+"author": "/dev/null",
+"file": "enigma_x/devnull30_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "hadas09",
+"title": "Cage of Light",
+"author": "Daniel Hadas",
+"file": "enigma_x/hadas09_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull75",
+"title": "- Meditation -",
+"author": "/dev/null",
+"file": "enigma_x/devnull75_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull118",
+"title": "Excursion for Two I",
+"author": "/dev/null",
+"file": "enigma_x/devnull118_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg080_2",
+"title": "Countdown",
+"author": "gorg",
+"file": "enigma_x/gorg080_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr13",
+"title": "Surgery",
+"author": "Zephyr",
+"file": "enigma_x/zephyr13_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "nanook01",
+"title": "Things Gonna Change",
+"author": "nanook",
+"file": "enigma_x/nanook01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "icewing02",
+"title": "Dual flash",
+"author": "Icewing",
+"file": "enigma_x/icewing02_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull51",
+"title": "Suckerfish I",
+"author": "/dev/null",
+"file": "enigma_x/devnull51_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg010_3",
+"title": "Double-Crossed",
+"author": "gorg",
+"file": "enigma_x/gorg010_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull119",
+"title": "Excursion for Two II",
+"author": "/dev/null",
+"file": "enigma_x/devnull119_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "harry08",
+"title": "Chess Challenge II",
+"author": "daydreamer",
+"file": "enigma_x/harry08_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg071_2",
+"title": "Cosmic Pearls",
+"author": "gorg",
+"file": "enigma_x/gorg071_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull53",
+"title": "Duopal Variation II",
+"author": "/dev/null",
+"file": "enigma_x/devnull53_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg003_4",
+"title": "Firecracker",
+"author": "gorg",
+"file": "enigma_x/gorg003_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke66",
+"title": "Enigmaparcour IV",
+"author": "mecke",
+"file": "enigma_x/mecke66_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20100707ais523001",
+"title": "All is Rubble",
+"author": "Alex Smith",
+"file": "enigma_x/ais69_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull123",
+"title": "Excursion for Two III",
+"author": "/dev/null",
+"file": "enigma_x/devnull123_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ais46",
+"title": "Steering The Flood",
+"author": "Alex Smith",
+"file": "enigma_x/ais46_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke67",
+"title": "San Francisco Bay Area",
+"author": "mecke",
+"file": "enigma_x/mecke67_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull164",
+"title": "Suckerfish II",
+"author": "/dev/null",
+"file": "enigma_x/devnull164_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "cel3",
+"title": "Enigmas wildcat",
+"author": "Raoul Bourquin, Hairball, mecke, Mark Pulley, Alex Smith, Zephyr, /dev/null",
+"file": "enigma_x/cel3_1.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_xi",
+"title": "Enigma XI",
+"group": "Enigma",
+"location": 11300,
+"levels": [
+{
+"id": "welcometopack11",
+"title": "Welcome",
+"author": "Raoul Bourquin",
+"file": "enigma_xi/welcometopack11_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas72",
+"title": "Gestures I",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas72_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "Hairball_004",
+"title": "Out of Hand",
+"author": "Hairball",
+"file": "enigma_xi/hairball4_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090716ais523001",
+"title": "Color Memory",
+"author": "Alex Smith",
+"file": "enigma_xi/ais42_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "sadie001_3",
+"title": "King V.",
+"author": "Sadie",
+"file": "enigma_xi/sadie001_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull78",
+"title": "Spacer I",
+"author": "/dev/null",
+"file": "enigma_xi/devnull78_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg050_2",
+"title": "EZ-Pass",
+"author": "gorg",
+"file": "enigma_xi/gorg050_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20150130jl0010",
+"title": "Salt Mining",
+"author": "Jürgen Lange",
+"file": "enigma_xi/jl10_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg042_2",
+"title": "Puddles",
+"author": "gorg",
+"file": "enigma_xi/gorg042_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke72",
+"title": "Rainbow~Meditation II",
+"author": "mecke",
+"file": "enigma_xi/mecke72_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20150127jl0007",
+"title": "Coal Mining",
+"author": "Jürgen Lange",
+"file": "enigma_xi/jl07_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull169",
+"title": "Free Turns",
+"author": "/dev/null",
+"file": "enigma_xi/devnull169_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg043_2",
+"title": "Valet Parking",
+"author": "gorg",
+"file": "enigma_xi/gorg043_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull154",
+"title": "Flip Flop",
+"author": "/dev/null",
+"file": "enigma_xi/devnull154_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20110407ais523001",
+"title": "Sokoban 1D",
+"author": "Alex Smith",
+"file": "enigma_xi/ais77_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull79",
+"title": "Spacer II",
+"author": "/dev/null",
+"file": "enigma_xi/devnull79_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg045_2",
+"title": "Four Horsemen",
+"author": "gorg",
+"file": "enigma_xi/gorg045_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull48",
+"title": "Two in One",
+"author": "/dev/null",
+"file": "enigma_xi/devnull48_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20150124jl0006",
+"title": "Gold Digger",
+"author": "Jürgen Lange",
+"file": "enigma_xi/jl06_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg021_4",
+"title": "Tilt Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg021_4.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull117",
+"title": "upper Q",
+"author": "/dev/null",
+"file": "enigma_xi/devnull117_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull80",
+"title": "Spacer III",
+"author": "/dev/null",
+"file": "enigma_xi/devnull80_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy187",
+"title": "White Excitation",
+"author": "Jacob Scott, /dev/null",
+"file": "enigma_xi/duffy187_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090420ais523003",
+"title": "Dichotomy I",
+"author": "Alex Smith",
+"file": "enigma_xi/ais15_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull90",
+"title": "Flip",
+"author": "/dev/null",
+"file": "enigma_xi/devnull90_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg079_3",
+"title": "Do Not Open",
+"author": "gorg",
+"file": "enigma_xi/gorg079_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20090421ais523001",
+"title": "Dichotomy II",
+"author": "Alex Smith",
+"file": "enigma_xi/ais16_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull76",
+"title": "Chessopal I",
+"author": "/dev/null",
+"file": "enigma_xi/devnull76_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg058_3",
+"title": "Pool Season",
+"author": "gorg",
+"file": "enigma_xi/gorg058_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg085_3",
+"title": "Fiery Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg085_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull49",
+"title": "double you",
+"author": "/dev/null",
+"file": "enigma_xi/devnull49_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "Hairball_044",
+"title": "Gaps",
+"author": "Hairball",
+"file": "enigma_xi/hairball44_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull97",
+"title": "Only two ...",
+"author": "/dev/null",
+"file": "enigma_xi/devnull97_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull81",
+"title": "Spacer IV",
+"author": "/dev/null",
+"file": "enigma_xi/devnull81_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg027_2",
+"title": "Backdraft",
+"author": "gorg",
+"file": "enigma_xi/gorg027_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg091_2",
+"title": "Pyromaniac",
+"author": "gorg",
+"file": "enigma_xi/gorg091_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "2012mmiti2",
+"title": "Diamond Jump",
+"author": "ItTheIt",
+"file": "enigma_xi/iti2_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg075_2",
+"title": "Rotary Club",
+"author": "gorg",
+"file": "enigma_xi/gorg075_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull89",
+"title": "Bait",
+"author": "/dev/null",
+"file": "enigma_xi/devnull89_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke69",
+"title": "Blues Meditation",
+"author": "mecke",
+"file": "enigma_xi/mecke69_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull36",
+"title": "At the Pool",
+"author": "/dev/null",
+"file": "enigma_xi/devnull36_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg090_3",
+"title": "Backdraft II",
+"author": "gorg",
+"file": "enigma_xi/gorg090_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull114",
+"title": "Island Journey",
+"author": "/dev/null",
+"file": "enigma_xi/devnull114_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull138",
+"title": "Entente",
+"author": "/dev/null",
+"file": "enigma_xi/devnull138_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull87",
+"title": "Reddish",
+"author": "/dev/null",
+"file": "enigma_xi/devnull87_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg060_3",
+"title": "Skullopal",
+"author": "gorg",
+"file": "enigma_xi/gorg060_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull116",
+"title": "Padding",
+"author": "/dev/null",
+"file": "enigma_xi/devnull116_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull82",
+"title": "Spacer V",
+"author": "/dev/null",
+"file": "enigma_xi/devnull82_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull121",
+"title": "Unusual",
+"author": "/dev/null",
+"file": "enigma_xi/devnull121_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg083_2",
+"title": "Sticky Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg083_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg056_2",
+"title": "Switch Your Way",
+"author": "gorg",
+"file": "enigma_xi/gorg056_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull50",
+"title": "Off Minor",
+"author": "/dev/null",
+"file": "enigma_xi/devnull50_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull83",
+"title": "Spacer VI",
+"author": "/dev/null",
+"file": "enigma_xi/devnull83_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg063_2",
+"title": "On the Fly",
+"author": "gorg",
+"file": "enigma_xi/gorg063_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull106",
+"title": "Pony trek",
+"author": "/dev/null",
+"file": "enigma_xi/devnull106_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20130407icewing072",
+"title": "Stick Balancing",
+"author": "Icewing",
+"file": "enigma_xi/icewing01_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg001_6",
+"title": "Arrested Development",
+"author": "gorg",
+"file": "enigma_xi/gorg001_6.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke70",
+"title": "...it is boiling over ...!",
+"author": "mecke",
+"file": "enigma_xi/mecke70_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull127",
+"title": "Free and Caged",
+"author": "/dev/null",
+"file": "enigma_xi/devnull127_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg084_2",
+"title": "Forward Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg084_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull172",
+"title": "Camouflage I",
+"author": "/dev/null",
+"file": "enigma_xi/devnull172_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg023_4",
+"title": "Nightblind",
+"author": "gorg",
+"file": "enigma_xi/gorg023_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull77",
+"title": "Chessopal II",
+"author": "/dev/null",
+"file": "enigma_xi/devnull77_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull85",
+"title": "Spacer VII",
+"author": "/dev/null",
+"file": "enigma_xi/devnull85_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg049_2",
+"title": "Spoonman",
+"author": "gorg",
+"file": "enigma_xi/gorg049_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull144",
+"title": "Ride the Broomstick",
+"author": "/dev/null",
+"file": "enigma_xi/devnull144_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull173",
+"title": "Camouflage II",
+"author": "/dev/null",
+"file": "enigma_xi/devnull173_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg034_3",
+"title": "The Great Escape",
+"author": "gorg",
+"file": "enigma_xi/gorg034_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke68",
+"title": "Waste",
+"author": "mecke",
+"file": "enigma_xi/mecke68_6.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg082_2",
+"title": "Explosive Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg082_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas73",
+"title": "The Philosophizing Stone",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas73_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas74",
+"title": "The Cherry of Secrets",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas74_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas75",
+"title": "The Prisoner of Sokoban",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas75_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas76",
+"title": "The Droplet in Fire",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas76_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas77",
+"title": "The Order of the Sea Fix",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas77_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas78",
+"title": "The Half-Burned Prints",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas78_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "andreas79",
+"title": "The Deadly Hollows",
+"author": "Andreas Lochmann",
+"file": "enigma_xi/andreas79_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg077_4",
+"title": "Go East",
+"author": "gorg",
+"file": "enigma_xi/gorg077_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull149",
+"title": "Small Business I",
+"author": "/dev/null",
+"file": "enigma_xi/devnull149_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg035_2",
+"title": "Wallflower",
+"author": "gorg",
+"file": "enigma_xi/gorg035_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg053_2",
+"title": "Space Invaders",
+"author": "gorg",
+"file": "enigma_xi/gorg053_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull145",
+"title": "Chessopal III",
+"author": "/dev/null",
+"file": "enigma_xi/devnull145_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "duffy175",
+"title": "Spacetunnel",
+"author": "Jacob Scott",
+"file": "enigma_xi/duffy175_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg017_3",
+"title": "Silverado",
+"author": "gorg",
+"file": "enigma_xi/gorg017_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull150",
+"title": "Small Business II",
+"author": "/dev/null",
+"file": "enigma_xi/devnull150_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul35",
+"title": "Flood puzzles",
+"author": "Raoul Bourquin, Jacob Scott",
+"file": "enigma_xi/raoul35_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg039_2",
+"title": "Disarm",
+"author": "gorg",
+"file": "enigma_xi/gorg039_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull17",
+"title": "Do it",
+"author": "/dev/null",
+"file": "enigma_xi/devnull17_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "gorg086_2",
+"title": "Elimination Meditation",
+"author": "gorg",
+"file": "enigma_xi/gorg086_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg095_3",
+"title": "Chain Reactions",
+"author": "gorg",
+"file": "enigma_xi/gorg095_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ais75",
+"title": "Volatile Storage",
+"author": "Alex Smith",
+"file": "enigma_xi/ais75_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull151",
+"title": "Small Business III",
+"author": "/dev/null",
+"file": "enigma_xi/devnull151_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull140",
+"title": "AMGINE",
+"author": "/dev/null",
+"file": "enigma_xi/devnull140_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "gorg097_2",
+"title": "Hillbilly",
+"author": "gorg",
+"file": "enigma_xi/gorg097_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20140725jl0002",
+"title": "Caesar Cipher",
+"author": "Jürgen Lange",
+"file": "enigma_xi/jl02_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr039_4",
+"title": "Magic Show",
+"author": "Zephyr",
+"file": "enigma_xi/zephyr039_4.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke71",
+"title": "Spiders...!",
+"author": "mecke",
+"file": "enigma_xi/mecke71_3.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull13",
+"title": "Di niente!",
+"author": "/dev/null",
+"file": "enigma_xi/devnull13_1.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_esprit",
+"title": "Esprit",
+"group": "Déjà-vu",
+"location": 20100,
+"levels": [
+{
+"id": "ss_esp07",
+"title": "esprit 7",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit07_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp08",
+"title": "esprit 8",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp09",
+"title": "esprit 9",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation10",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_esprit/esprit10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp11",
+"title": "esprit 11",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp12",
+"title": "esprit 12",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp16",
+"title": "esprit 16",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit16_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp17",
+"title": "esprit 17",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp18",
+"title": "esprit 18",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp20",
+"title": "- Meditation -",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp21",
+"title": "esprit 21",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp22",
+"title": "esprit 22",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit22_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp23",
+"title": "esprit 23",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit23_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp25",
+"title": "esprit 25",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit25_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss4",
+"title": "Bank-O-Mat",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit26_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation11",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_esprit/esprit30_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp31",
+"title": "esprit 31",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit31_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp32",
+"title": "esprit 32",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit32_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp35",
+"title": "esprit 35",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit35_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp38",
+"title": "esprit 38",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit38_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp39",
+"title": "esprit 39",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit39_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation7",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_esprit/esprit40_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp41",
+"title": "esprit 41",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit41_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp42",
+"title": "esprit 42",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit42_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp43",
+"title": "esprit 43",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit43_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp48",
+"title": "esprit 48",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit48_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp52",
+"title": "esprit 52",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit52_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp54",
+"title": "esprit 54",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit54_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp55",
+"title": "esprit 55",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit55_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp58",
+"title": "esprit 58",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit58_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp59",
+"title": "esprit 59",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit59_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation12",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_esprit/esprit60_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp61",
+"title": "esprit 61",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit61_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp63",
+"title": "esprit 63",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit63_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp65",
+"title": "esprit 65",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit65_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp66",
+"title": "esprit 66",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit66_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp68",
+"title": "esprit 68",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit68_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp69",
+"title": "esprit 69",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit69_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp70",
+"title": "- Meditation -",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit70_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp73",
+"title": "esprit 73",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit73_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp74",
+"title": "esprit 74",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit74_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp75",
+"title": "esprit 75",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit75_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp76",
+"title": "esprit 76",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit76_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp77",
+"title": "esprit 77",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit77_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp79",
+"title": "esprit 79",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit79_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp80",
+"title": "- Meditation -",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit80_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp84",
+"title": "esprit 84",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit84_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp85",
+"title": "esprit 85",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit85_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp86",
+"title": "esprit 86",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit86_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp87",
+"title": "esprit 87",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit87_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "ss_esp88",
+"title": "The Locksmith",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit88_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp89",
+"title": "Death in the Caribbean",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit89_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp92",
+"title": "esprit 92",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit92_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp93",
+"title": "esprit 93",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit93_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp95",
+"title": "Burn baby, burn",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit95_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp97",
+"title": "esprit 97",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit97_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp98",
+"title": "esprit 98",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit98_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp99",
+"title": "esprit 99",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit99_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_esp100",
+"title": "esprit 100",
+"author": "Sven Siggelkow",
+"file": "enigma_esprit/esprit100_2.xml",
+"easy": true,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_oxyd",
+"title": "Oxyd",
+"group": "Déjà-vu",
+"location": 20200,
+"levels": [
+{
+"id": "oxyd1",
+"title": "Oxyd 1",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxyd01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "daniel1",
+"title": "- Meditation -",
+"author": "Daniel Heck",
+"file": "enigma_oxyd/oxyd10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20061221ulf009",
+"title": "Oxyd 11",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20061221ulf010",
+"title": "Oxyd 15",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd15_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20061221ulf011",
+"title": "Oxyd 17",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd20",
+"title": "Oxyd 20",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxyd20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070104ulf017",
+"title": "Oxyd 28",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation9",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_oxyd/oxyd30_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20061222ulf012",
+"title": "Oxyd 31",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd31_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060629ulf005",
+"title": "Oxyd 37",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd37_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_ox38",
+"title": "The Amazing Maze",
+"author": "Sven Siggelkow",
+"file": "enigma_oxyd/oxyd38_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20080111ulf035",
+"title": "Oxyd 59",
+"author": "Ulf Stegemann",
+"file": "enigma_oxyd/oxyd59_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd70",
+"title": "Oxyd 70",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxyd70_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd2p1",
+"title": "Oxyd Link 1",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxydlink01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd2p3",
+"title": "Oxyd Link 3",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxydlink03_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd2p33",
+"title": "Oxyd Link 33",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxydlink33_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd2p68",
+"title": "Oxyd Link 68",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxydlink68_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxyd2p87",
+"title": "Oxyd Link 87",
+"author": "Raoul Bourquin",
+"file": "enigma_oxyd/oxydlink87_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_peroxyd",
+"title": "PerOxyd",
+"group": "Déjà-vu",
+"location": 20300,
+"levels": [
+{
+"id": "daniel2",
+"title": "The Swing",
+"author": "Daniel Heck",
+"file": "enigma_peroxyd/peroxyd01_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "sesame",
+"title": "Open Sesame",
+"author": "Daniel Heck",
+"file": "enigma_peroxyd/peroxyd04_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060629ulf007",
+"title": "Still Swapping?",
+"author": "Ulf Stegemann",
+"file": "enigma_peroxyd/peroxyd08_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation2",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_peroxyd/peroxyd10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_pox11",
+"title": "Per.Oxyd 11",
+"author": "Sven Siggelkow",
+"file": "enigma_peroxyd/peroxyd11_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20060629ulf008",
+"title": "Per.Oxyd #27",
+"author": "Ulf Stegemann",
+"file": "enigma_peroxyd/peroxyd27_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "20070104ulf016",
+"title": "Per.Oxyd 28",
+"author": "Ulf Stegemann",
+"file": "enigma_peroxyd/peroxyd28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd30",
+"title": "- Meditation - ",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxyd30_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "daniel4",
+"title": "- Meditation -",
+"author": "Daniel Heck",
+"file": "enigma_peroxyd/peroxyd40_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "ss_pox55",
+"title": "Per.Oxyd 55",
+"author": "Sven Siggelkow",
+"file": "enigma_peroxyd/peroxyd55_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd62",
+"title": "Per.Oxyd 62",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxyd62_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080109ulf028",
+"title": "Per.Oxyd 76",
+"author": "Ulf Stegemann",
+"file": "enigma_peroxyd/peroxyd76_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "daniel5",
+"title": "- Meditation -",
+"author": "Daniel Heck",
+"file": "enigma_peroxyd/peroxyd80_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080111ulf034",
+"title": "Per.Oxyd 84",
+"author": "Ulf Stegemann",
+"file": "enigma_peroxyd/peroxyd84_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "peroxyd88",
+"title": "Per.Oxyd 88",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxyd88_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd2p6",
+"title": "Per.Oxyd Link 6",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxydlink06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd2p13",
+"title": "Per.Oxyd Link 13",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxydlink13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation17",
+"title": "- Meditation -",
+"author": "Siegfried Fennig",
+"file": "enigma_peroxyd/peroxydlink60_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd2p61",
+"title": "Per.Oxyd Link 61",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxydlink61_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "peroxyd2p64",
+"title": "Per.Oxyd Link 64",
+"author": "Raoul Bourquin",
+"file": "enigma_peroxyd/peroxydlink64_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_oxydmagnum",
+"title": "Oxyd Magnum",
+"group": "Déjà-vu",
+"location": 20400,
+"levels": [
+{
+"id": "oxm009",
+"title": "What's That?!",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm09_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm010",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm011",
+"title": "Marbles &amp; Mountains",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm012",
+"title": "Laser Room",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20070105ulf018",
+"title": "Oxyd Magnum 13",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm016",
+"title": "Pull Me!",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm16_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm020",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm021",
+"title": "Laser Room II",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxm023",
+"title": "Black Holes",
+"author": "Petr Machata",
+"file": "enigma_oxydmagnum/oxm23_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxydmagnum40",
+"title": "Oxyd Magnum 40",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydmagnum/oxm40_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080110ulf033",
+"title": "Oxyd Magnum 61",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm61_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080110ulf031",
+"title": "Oxyd Magnum 65",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm65_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080108ulf026",
+"title": "Oxyd Magnum 73",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm73_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080110ulf032",
+"title": "Oxyd Magnum 75",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm75_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "magnum82",
+"title": "Puller Mailing",
+"author": "anonymous",
+"file": "enigma_oxydmagnum/oxm82_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080110ulf030",
+"title": "Oxyd Magnum 94",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm94_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080110ulf029",
+"title": "Oxyd _agnum 98",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydmagnum/oxm98_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxydmagnumgold17",
+"title": "Oxyd Magnum Gold 17",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydmagnum/oxmg17_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxydmagnumgold18",
+"title": "Oxyd Magnum Gold 18",
+"author": "Edward",
+"file": "enigma_oxydmagnum/oxmg18_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxydmagnumgold19",
+"title": "Oxyd Magnum Gold 19",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydmagnum/oxmg19_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_oxydextra",
+"title": "Oxyd Extra",
+"group": "Déjà-vu",
+"location": 20500,
+"levels": [
+{
+"id": "oxe01",
+"title": "Memory",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe01_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe03",
+"title": "Down Hill",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe03_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe05",
+"title": "Buzzer",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe05_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20080109ulf027",
+"title": "Propeller",
+"author": "Ulf Stegemann",
+"file": "enigma_oxydextra/oxe06_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe09",
+"title": "Laser Cannons",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe09_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation3",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_oxydextra/oxe10_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe11",
+"title": "Inverse",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe11_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe12",
+"title": "Paper Chase",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe12_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe13",
+"title": "Mirror Moves",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe13_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe14",
+"title": "Ice Breaker",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe14_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe15",
+"title": "Break through",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe15_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe17",
+"title": "Invisible Path",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe17_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe19",
+"title": "Cherries",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe19_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "meditation4",
+"title": "- Meditation -",
+"author": "anonymous",
+"file": "enigma_oxydextra/oxe20_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe21",
+"title": "The Bug",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe21_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe23",
+"title": "Island of Mirrors",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe23_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe24",
+"title": "Underground",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe24_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe26",
+"title": "Shadows",
+"author": "Raoul Bourquin",
+"file": "enigma_oxydextra/oxe26_1.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe28",
+"title": "Dance With Me",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe28_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "oxe30",
+"title": "- Meditation -",
+"author": "Petr Machata",
+"file": "enigma_oxydextra/oxe30_2.xml",
+"easy": false,
+"par": ""
+}
+]
+},
+{
+"dir": "enigma_advent_10",
+"title": "Advent 2010",
+"group": "Facets",
+"location": 69000,
+"levels": [
+{
+"id": "mecke50",
+"title": "Meditation I",
+"author": "mecke",
+"file": "enigma_advent_10/mecke50_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul27",
+"title": "Schwarz-Weiss-Gebäck",
+"author": "Raoul Bourquin",
+"file": "enigma_advent_10/raoul27_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke51",
+"title": "Noel I",
+"author": "mecke",
+"file": "enigma_advent_10/mecke51_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas59",
+"title": "Decorations",
+"author": "Andreas Lochmann",
+"file": "enigma_advent_10/andreas59_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke52",
+"title": "Meditation II",
+"author": "mecke",
+"file": "enigma_advent_10/mecke52_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull73",
+"title": "The Brimmed Boot",
+"author": "/dev/null",
+"file": "enigma_advent_10/devnull73_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "20071017ral096",
+"title": "Maze for Two",
+"author": "Ronald Lamprecht",
+"file": "enigma_viii/ral22_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "devnull74",
+"title": "Black And White Cookie",
+"author": "/dev/null",
+"file": "enigma_advent_10/devnull74_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke53",
+"title": "Noel II",
+"author": "mecke",
+"file": "enigma_advent_10/mecke53_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "raoul35",
+"title": "Rubberpuzzling",
+"author": "Raoul Bourquin",
+"file": "enigma_advent_10/raoul35_2.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke54",
+"title": "Meditation III",
+"author": "mecke",
+"file": "enigma_advent_10/mecke54_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke55",
+"title": "Boulder...Race",
+"author": "mecke",
+"file": "enigma_advent_10/mecke55_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "devnull72",
+"title": "Break On Through",
+"author": "/dev/null",
+"file": "enigma_advent_10/devnull72_3.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "zephyr30",
+"title": "Stairway to Heaven",
+"author": "Zephyr",
+"file": "enigma_advent_10/zephyr30_1.xml",
+"easy": true,
+"par": ""
+},
+{
+"id": "mecke56",
+"title": "Noel III",
+"author": "mecke",
+"file": "enigma_advent_10/mecke56_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke57",
+"title": "Little Ice Cave I",
+"author": "mecke",
+"file": "enigma_advent_10/mecke57_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke58",
+"title": "Meditation IV",
+"author": "mecke",
+"file": "enigma_advent_10/mecke58_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke59",
+"title": "Spirit I",
+"author": "mecke",
+"file": "enigma_advent_10/mecke59_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas61",
+"title": "Christmas Thieves",
+"author": "Andreas Lochmann",
+"file": "enigma_advent_10/andreas61_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke60",
+"title": "Mid-Night-Sun",
+"author": "mecke",
+"file": "enigma_advent_10/mecke60_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "andreas62",
+"title": "Preparing the Sleigh",
+"author": "Andreas Lochmann",
+"file": "enigma_advent_10/andreas62_2.xml",
+"easy": false,
+"par": ""
+},
+{
+"id": "mecke61",
+"title": "Rudi on Trigger",
+"author": "mecke",
+"file": "enigma_advent_10/mecke61_2.xml",
+"easy": false,
+"par": ""
+}
+]
+}
+]

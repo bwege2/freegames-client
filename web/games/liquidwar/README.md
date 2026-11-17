@@ -50,6 +50,11 @@ original's "incorrect checksum" line to the log (the browser console), as the or
 
 - The window is the page's game area; the original's video modes appear at their own size, and
   `PageUp`/`PageDown`/scroll-wheel full screen is the browser's.
+- The mouse is where the pointer is over the screen, read every frame as Allegro's X11 driver reads the X
+  pointer. The browser cannot move the pointer, so when the game puts its mouse elsewhere (`position_mouse`: a
+  video-mode change centres it, a battle start resets the mouse-control reference) that holds only for the
+  game's immediate reads and the mouse is back under the player's pointer on the next frame or event; a click
+  always acts where the pointer is. Until the page has seen the pointer over the game it draws no cursor.
 - Settings (`~/.lwrc`) go to the player's account storage; there is no home directory.
 - Sound and music: Web Audio; the original's MIDI tracks are played by a small MIDI synthesiser
   (`src/al/midi.ts`), not by the operating system's device.

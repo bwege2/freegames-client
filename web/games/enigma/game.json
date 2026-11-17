@@ -1,0 +1,40 @@
+{
+  "id": "enigma",
+  "title": "Enigma",
+  "tagline": "Steer a black marble with the mouse and open all pairs of Oxyd stones.",
+  "summary": [
+    "Enigma is a puzzle game in the tradition of Oxyd by Dongleware: you move a small black marble by moving the mouse, and you have to find and uncover all pairs of identical Oxyd stones in each landscape. Simple? Yes. Easy? Not with hidden traps, mazes, doors and switches, slopes, water and abysses in the way.",
+    "The levels come with Enigma 1.30 (2021) itself: the tutorials, the packs Enigma I to XI, Esprit, Advent 2010 and the Oxyd, PerOxyd, Oxyd Magnum and Oxyd Extra remakes, each a Lua program on the original's object library. The marble's physics, the stones, floors and items are ported from the C++ source; the level menu shows previews and keeps your solved levels and times on the server.",
+    "This port runs the levels whose licence is compatible with the GPL version 3 and whose objects are ported so far; the game page's README lists what is not yet there."
+  ],
+  "original": {
+    "author": "Daniel Heck, Andreas Lochmann, Ronald Lamprecht and the Enigma team",
+    "year": 2002,
+    "platform": "C++ with SDL 2 and Lua (Linux, Windows, macOS)",
+    "version": "1.30 (2021)",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 43653520,
+    "url": "https://www.nongnu.org/enigma/"
+  },
+  "players": "1",
+  "genres": ["Puzzle"],
+  "modes": ["single"],
+  "added": "2026-11-15",
+  "lazyAssets": ["assets/music/**", "assets/levels/enigma_*.json"],
+  "controls": [
+    { "input": "Mouse", "action": "Accelerate the marble (the pointer is captured while playing; click to capture it again)" },
+    { "input": "Left mouse button", "action": "Activate or drop the leftmost inventory item" },
+    { "input": "Right mouse button or Tab", "action": "Rotate the inventory" },
+    { "input": "Esc", "action": "Game menu (resume, restart, abort level)" },
+    { "input": "F3 / Shift+F3", "action": "Kill the current marble / restart the level" },
+    { "input": "Left / right arrow", "action": "Change the mouse speed" },
+    { "input": "F4 / F5", "action": "Skip to the next level" }
+  ],
+  "links": [
+    { "label": "Enigma on GitHub", "url": "https://github.com/Enigma-Game/Enigma" }
+  ],
+  "screenshots": [
+    { "file": "playing.png", "caption": "Doors and Triggers, the second tutorial level: the marble, the Oxyd stones on the right and a document to read" },
+    { "file": "levels.png", "caption": "The level menu of the tutorial pack with a preview of every level" }
+  ]
+}

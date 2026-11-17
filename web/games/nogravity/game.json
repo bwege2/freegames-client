@@ -1,0 +1,53 @@
+{
+  "id": "nogravity",
+  "title": "No Gravity",
+  "tagline": "A space fighter, five star systems and fifty missions against the Empire.",
+  "summary": [
+    "No Gravity (realtech VR; Stéphane Denis, Romuald Genevois, Philippe Meisburger) is a 3D space shoot-em-up in the manner of Wing Commander: you fly a fighter through five episodes of ten missions each, destroy mines, fighters, bases and motherships, escort transports, pick up power-ups and jump from NAV point to NAV point until the warp gate opens.",
+    "This port follows release 2.0 (2006), which realtech VR published with its source code and all of its data under the GPL. Its game code is translated line by line: the three ships (Viper, Raiden, Raptor) with their six weapons, ammunition and reload times, the shields, booster and power-ups, the enemies' tactics (patrol, attack, kamikaze, mines, tracks, group attacks), the mission scripts of every stage, the NAV points, the radar, the HUD, the score and the pilots' roster with their progress. The scenes, textures, explosions, sounds and music are the original's files; the 3D scenes are drawn with three.js as the original's OpenGL renderer draws them.",
+    "Steer with the mouse (the default) or the arrow keys, fire with the left mouse button or Alt, accelerate with the right button or right Shift."
+  ],
+  "original": {
+    "author": "realtech VR (Stéphane Denis, Romuald Genevois, Philippe Meisburger, Alexandre Liverneaux); Linux port by Matt Williams",
+    "year": 1996,
+    "platform": "C/OpenGL with SDL (Linux, Windows, Mac OS X, BeOS)",
+    "version": "2.0 (2006)",
+    "license": "GPL-2.0-or-later (code and data)",
+    "packageBytes": 33086394,
+    "url": "https://sourceforge.net/projects/nogravity/"
+  },
+  "players": "1",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    { "input": "Mouse (position) / arrow keys", "action": "Steer the ship (the mouse steers by where the pointer is on the screen)" },
+    { "input": "Left mouse button / Alt", "action": "Fire the selected weapon" },
+    { "input": "Right mouse button / right Shift", "action": "Accelerate" },
+    { "input": "Keypad + / Keypad - / /", "action": "Cruise speed up / down / full" },
+    { "input": "Tab / Backspace", "action": "Booster forward / backward" },
+    { "input": "Delete / Insert", "action": "Roll left / right" },
+    { "input": "1-6 / 0 / mouse wheel", "action": "Choose a weapon / next weapon" },
+    { "input": "Enter", "action": "Lock the next target" },
+    { "input": "Space, = and -", "action": "Use the selected power-up, choose the next / previous" },
+    { "input": "A", "action": "Jump to the next NAV point (when its objectives are done)" },
+    { "input": "C, then 1-8", "action": "Orders to your wingmen" },
+    { "input": "R / I", "action": "Radar mode / HUD on or off" },
+    { "input": "F1 / F2-F7", "action": "Help / views (cockpit, outside cameras, rear view, NAV view, missile)" },
+    { "input": "Esc", "action": "Pause menu (resume, briefing, retry, abort, quit)" },
+    { "input": "Key left of 1", "action": "Console (\"god\", \"/cheat\", ...)" },
+    { "input": "Arrow keys, Enter, Esc, mouse", "action": "Menus; in the mission map left/right choose the mission and up/down the ship" }
+  ],
+  "screenshots": [
+    { "file": "menu.png", "caption": "The main menu" },
+    { "file": "playing.png", "caption": "Episode 1, the first mission: the friendly base, the Raiden's HUD and the radar" }
+  ],
+  "links": [
+    { "label": "No Gravity (Classic) on SourceForge", "url": "https://sourceforge.net/projects/nogravity/" }
+  ],
+  "lazyAssets": ["assets/music/**", "assets/ep_*/**", "assets/menu/record*.dem"]
+}

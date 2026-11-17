@@ -809,6 +809,78 @@ try {
     }
   }
 
+  // ---- Liquid War online: two browsers (a background tab stops requestAnimationFrame, and this game is
+  // real-time), both open "Net game", one creates the room, the other joins, the host starts: the two run
+  // the same lockstep game — the same clock, no checksum disagreement, no page errors
+  if (listed.includes('liquidwar')) {
+    let lwOther = null;
+    try {
+      lwOther = await puppeteer.launch({ executablePath: chrome, headless: true, args: ['--no-sandbox', '--autoplay-policy=no-user-gesture-required'] });
+      const la = await browser.newPage();
+      const lb = await lwOther.newPage();
+      const lerr = [];
+      for (const p of [la, lb]) {
+        await p.setViewport({ width: 900, height: 700 });
+        p.on('pageerror', (e) => lerr.push(e.message));
+        await p.goto(`${base}#/liquidwar`, { waitUntil: 'networkidle0' });
+        await p.click('.page .play');
+        await p.waitForFunction(() => window.__lw?.frames() > 20, { timeout: 30000 });
+        // the splash scrolls: the menu with "Net game" comes after it
+        await wait(4000);
+      }
+      /** a click on the game's own menu: the screen is 640x480, scaled into the page */
+      const gameClick = async (p, x, y) => {
+        const b = await (await p.$('.player-host canvas')).boundingBox();
+        await p.mouse.move(b.x + x * b.width / 640, b.y + y * b.height / 480);
+        await wait(150);
+        await p.mouse.down();
+        await wait(180);
+        await p.mouse.up();
+        await wait(800);
+      };
+      const lobbyButton = async (p, text) => (await p.evaluateHandle((t) => [...document.querySelectorAll('.fg-lobby button')].find((x) => x.textContent.trim() === t), text)).click();
+      const state = (p) => p.evaluate(() => window.__lw?.state() ?? '');
+      const online = (p) => p.evaluate(() => window.__lw?.online() ?? '');
+      for (const p of [la, lb]) {
+        for (let i = 0; i < 3 && !(await p.$('.fg-lobby')); i++) await gameClick(p, 315, 188); // Net game
+        await p.waitForFunction(() => !!document.querySelector('.fg-lobby'), { timeout: 8000 });
+      }
+      await la.$eval('.fg-lobby input[placeholder="Room name"]', (e) => { e.value = 'e2e liquid'; e.dispatchEvent(new Event('input')); e.dispatchEvent(new Event('change')); });
+      await lobbyButton(la, 'Create room');
+      await la.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e liquid', { timeout: 8000 });
+      await lb.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('e2e liquid')), { timeout: 8000 });
+      await lobbyButton(lb, 'Join');
+      await lb.waitForFunction(() => document.querySelector('.fg-lobby h2')?.textContent === 'e2e liquid', { timeout: 8000 });
+      await lobbyButton(lb, 'Ready');
+      await la.waitForFunction(() => [...document.querySelectorAll('.fg-lobby li')].some((li) => li.textContent.includes('ready ✓')), { timeout: 8000 });
+      await lobbyButton(la, 'Start');
+      // "Net game" runs the original's netplay_sequence: the start goes straight into the battle
+      for (const p of [la, lb]) await p.waitForFunction(() => !document.querySelector('.fg-lobby') && /game=1 /.test(window.__lw?.state() ?? ''), { timeout: 40000 });
+      const clocks = [];
+      for (let i = 0; i < 6; i++) {
+        await wait(700);
+        // both at once: the two pages are read a moment apart, and the clock moves ~100 times a second
+        clocks.push(await Promise.all([state(la), state(lb)]));
+      }
+      const clockOf = (str) => Number(/clock=(\d+)/.exec(str)?.[1] ?? -1);
+      const teams = (str) => Number(/teams=(\d+)/.exec(str)?.[1] ?? -1);
+      const io = [await online(la), await online(lb)];
+      const sameClock = clocks.every(([a, b]) => Math.abs(clockOf(a) - clockOf(b)) <= 5);
+      check(clockOf(clocks.at(-1)[0]) > 100 && teams(clocks.at(-1)[0]) >= 2 && sameClock,
+        `liquidwar online: both run the same game (clock ${clockOf(clocks.at(-1)[0])}, teams ${teams(clocks.at(-1)[0])}, clocks per sample: ${clocks.map(([a, b]) => `${clockOf(a)}/${clockOf(b)}`).join(' ')})`);
+      // the module's key exchanges came through: steps, no stalls counted as errors, no checksum disagreement
+      const keysOk = io.every((i) => /step=\d+/.test(i) && /bad=0/.test(i) && !/error=/.test(i));
+      check(keysOk, `liquidwar online: the keys of every team come back from the server, no checksum disagreement${keysOk ? '' : ` (${io.join(' | ')})`}`);
+      check(lerr.length === 0, `liquidwar online: no page errors${lerr.length ? ` (${lerr.join('; ')})` : ''}`);
+      await la.screenshot({ path: join(shots, 'liquidwar-online.png') });
+      await la.close();
+    } catch (e) {
+      check(false, `liquidwar online: ${e.message}`);
+    } finally {
+      await lwOther?.close().catch(() => {});
+    }
+  }
+
   // ---- every playable game: Play from its page, it draws, takes keys, Back stops it
   const playable = listed.filter((d) => existsSync(join(web, 'games', d, 'src', 'index.ts')));
   for (const id of playable) {

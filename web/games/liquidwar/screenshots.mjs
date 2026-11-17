@@ -15,6 +15,9 @@ export default async (page, shot) => {
     await page.mouse.up();
     await wait(ms);
   };
+  // the page draws the game's cursor once it has seen the pointer: put it over Play for the title shot
+  await page.mouse.move(game(315, 158).x, game(315, 158).y);
+  await wait(400);
   await shot('title.png');
 
   // Play: the default teams and map, then the battle; the cursor leads the army

@@ -1,0 +1,94 @@
+{
+  "id": "kiki",
+  "title": "kiki the nano bot",
+  "tagline": "Steer a little robot through cubic nano worlds where down is wherever your wheels are.",
+  "summary": [
+    "kiki is a small robot in a cube-shaped world. He drives forward and backward, turns, jumps, pushes stones, shoots and climbs: when he drives over an edge he rolls around it, and when he meets a wall he drives up it. Down is always under his wheels, so stones he pushes fall towards whatever is his floor.",
+    "Fifty levels lead from the first steps to wire stones that carry current from generators to motors, gears that drive each other, bombs that push everything around them, switches that open the exit and, at the end, a cube full of mutant bots. Every level counts your moves against the par of the original; the level list opens two new levels for each one you solve.",
+    "This is a port of kiki 1.0.2 (2006) by Thorsten Kohnhorst from its C++ and Python source: the same movement and timing, the same fifty levels, colour schemes, menus, 3D font and texts. Its sound effects are new (the original's sounds have no known licence)."
+  ],
+  "caveat": "Honest note: the game logic is checked against the original's own C++ code, built headless, and the levels against the original's level scripts; the drawing (three.js in place of OpenGL 1) follows the original's display code but has not been compared with the running original. The sound effects are not the original's: they are new ones, made for this port, because the licence of the original sounds is unknown.",
+  "original": {
+    "author": "Thorsten Kohnhorst (\"monsterkodi\"); levels also by Michael Abel, Niko Boehm and Ben Griffin",
+    "year": 2002,
+    "platform": "C++, OpenGL, SDL and Python (Mac OS X, Linux, Windows)",
+    "version": "1.0.2 (2006), the last source release",
+    "license": "Public domain",
+    "packageBytes": 3366523,
+    "url": "https://kiki.sourceforge.net/"
+  },
+  "players": "1",
+  "genres": [
+    "Puzzle"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-16",
+  "controls": [
+    {
+      "input": "Up / Down",
+      "action": "Move forward / backward (held: keep moving; climbs walls, rolls over edges)"
+    },
+    {
+      "input": "Left / Right",
+      "action": "Turn left / right"
+    },
+    {
+      "input": "Ctrl",
+      "action": "Jump (while moving: jump forward)"
+    },
+    {
+      "input": "Shift (held)",
+      "action": "Push the stone in front while moving"
+    },
+    {
+      "input": "Space",
+      "action": "Shoot (switches, bombs, mutants)"
+    },
+    {
+      "input": "Page Down",
+      "action": "Change the view: inside, behind, follow"
+    },
+    {
+      "input": "Home / End",
+      "action": "Look up / down"
+    },
+    {
+      "input": "Escape",
+      "action": "The level's menu: help, restart, load level, setup, about, quit"
+    },
+    {
+      "input": "1–9",
+      "action": "Game speed"
+    },
+    {
+      "input": "Menus",
+      "action": "Up, Down to choose, Return or Space to select (Right for setup values), Escape back; level list: Left, Right by columns"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The main menu over the first level"
+    },
+    {
+      "file": "start.png",
+      "caption": "The first level: jump on the stones to reach the exit"
+    },
+    {
+      "file": "electro.png",
+      "caption": "Electro: connect the generator with the motor to power the exit"
+    },
+    {
+      "file": "levels.png",
+      "caption": "The level selection with a preview of the level"
+    }
+  ],
+  "links": [
+    {
+      "label": "kiki on SourceForge",
+      "url": "https://sourceforge.net/projects/kiki/"
+    }
+  ]
+}

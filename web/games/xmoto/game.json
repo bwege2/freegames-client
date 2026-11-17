@@ -1,0 +1,84 @@
+{
+  "id": "xmoto",
+  "title": "X-Moto",
+  "tagline": "A trial motorbike, physics that bite, and islands in the sky.",
+  "summary": [
+    "X-Moto (Rasmus Neckelmann and the X-Moto team, 2005; version 0.6.3) is a 2D trial motorbike game where physics play the main role: collect every strawberry of a level, then touch the flower, without landing on your head and without touching a wrecker. Throttle, brake, lean back and forth, and turn round on the spot.",
+    "This port keeps the original's bike and rider physics (its ODE simulation translated step by step and checked bit for bit against the original code), all 307 levels of the 0.6.3 package in their packs (Tutorials, Classical, New Age, Cup o' Joe, ...), their Lua scripts, the Classic theme's textures, sprites, sounds and music, checkpoints, the time panel and minimap.",
+    "Your best times and your replays (the original .rpl format) are kept in your account on this website; finishing a level faster than before saves the ride as a replay automatically."
+  ],
+  "original": {
+    "author": "Rasmus Neckelmann, Nicolas Adenis-Lamarre, Emmanuel Gorse and the X-Moto team",
+    "year": 2005,
+    "platform": "C++/SDL/OpenGL (Linux, Windows, macOS)",
+    "version": "0.6.3",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 42113475,
+    "url": "https://xmoto.org/"
+  },
+  "players": "1",
+  "genres": [
+    "Arcade",
+    "Racing"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    {
+      "input": "Arrow Up / Arrow Down",
+      "action": "Accelerate / brake"
+    },
+    {
+      "input": "Arrow Left / Arrow Right",
+      "action": "Lean back (counter-clockwise) / lean forward (clockwise)"
+    },
+    {
+      "input": "Space",
+      "action": "Turn round and drive the other way"
+    },
+    {
+      "input": "Escape",
+      "action": "Pause menu; after a crash, the level menu"
+    },
+    {
+      "input": "Enter",
+      "action": "Restart the level"
+    },
+    {
+      "input": "Backspace",
+      "action": "Restart at the last checkpoint"
+    },
+    {
+      "input": "Page Up / Page Down",
+      "action": "Next / previous level of the pack"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "playing.png",
+      "caption": "Riding the first level of the Classical pack, with the time panel, strawberry counter and minimap"
+    },
+    {
+      "file": "menu.png",
+      "caption": "The level packs of the 0.6.3 package over the original title screen"
+    }
+  ],
+  "lazyAssets": [
+    "assets/Textures/Anims/**",
+    "assets/Textures/Textures/**",
+    "assets/Textures/Effects/**",
+    "assets/Textures/Riders/**",
+    "assets/Textures/Musics/**",
+    "assets/Textures/Sounds/**",
+    "assets/Textures/Misc/**",
+    "assets/Textures/UI/**"
+  ],
+  "links": [
+    {
+      "label": "X-Moto on GitHub",
+      "url": "https://github.com/xmoto/xmoto"
+    }
+  ]
+}

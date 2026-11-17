@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "capnp-es": "0.0.16",
+    "fengari": "0.1.5",
     "fflate": "0.8.2",
     "jpeg-js": "0.4.4",
     "jquery": "3.7.1",

@@ -1,0 +1,53 @@
+{
+  "id": "opencity",
+  "title": "OpenCity",
+  "tagline": "Zone homes, shops and factories in 3D, power them and connect them with roads, and watch the city grow.",
+  "summary": [
+    "OpenCity is a free 3D city simulation: you zone residential, commercial and industrial land, lay roads and power lines, build coal and nuclear power plants, fire and police stations, schools, hospitals, parks and trees, and raise or lower the terrain. The zones grow into bigger buildings when they have power, a road and the other two kinds of zone nearby; traffic and cars follow.",
+    "Every new city is a generated landscape of 50 by 50 squares with lakes and forests. Taxes come in once a year, every road, line, tree and public building costs maintenance each month, and the money is shown with the population and the date in the status bar.",
+    "This port follows OpenCity 0.0.6.5stable with its tool circles, status bar, main menu and 3D view; its simulation, map generator and save file are checked against the original's own code. Your saved city is kept in your account."
+  ],
+  "caveat": "Honest note: two textures of the original contain photographs under non-free licenses (the hospital's bricks, windows and fan; the shipping containers). They are replaced by textures we drew ourselves (CC0), in the same layout, so the hospital and the container yard look plainer than in the original. Everything else is the original's data.",
+  "original": {
+    "author": "Duong Khang Nguyen, Frédéric Rodrigo and contributors",
+    "year": 2003,
+    "platform": "C++ (SDL, OpenGL)",
+    "version": "OpenCity 0.0.6.5stable (2015)",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 8385950,
+    "url": "https://sourceforge.net/projects/opencity/"
+  },
+  "links": [
+    { "label": "OpenCity on Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenCity" }
+  ],
+  "players": "1",
+  "genres": [
+    "City-building"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    { "input": "Right mouse button", "action": "Open or close the tool circle at the mouse (zones, save/load, power, road, terrain/destroy/query, government)" },
+    { "input": "Left mouse button", "action": "Pick a tool in the circle; on the map, click or drag a rectangle to use the tool (roads and power lines follow the longer side, then turn)" },
+    { "input": "Mouse wheel", "action": "Zoom; with Ctrl move left/right, with Shift move up/down" },
+    { "input": "Arrow keys", "action": "Move the map (Alt: ten times faster)" },
+    { "input": "Page Up / Page Down", "action": "Rotate the map" },
+    { "input": "Insert / Delete", "action": "Zoom in / out" },
+    { "input": "R, C, I", "action": "Residential, commercial, industrial zone tool" },
+    { "input": "P, L, E", "action": "Road, power line, nuclear power plant tool" },
+    { "input": "U, D", "action": "Raise, lower the terrain" },
+    { "input": "X, Q, N", "action": "Destroy, query, no tool" },
+    { "input": "B, G, T, W, F, K, O", "action": "Toggle buildings, grid, terrain, water, wireframe, status bar, projection" },
+    { "input": "H", "action": "Back to the home view" },
+    { "input": "S", "action": "Sound on/off" },
+    { "input": "F2 / F6", "action": "Save / load the city" },
+    { "input": "Esc", "action": "Main menu: new city, load, save, quit" }
+  ],
+  "screenshots": [
+    { "file": "start.jpg", "caption": "A new city: the generated landscape with forests, hills and lakes, the status bar with fund, population, date and the minimap" },
+    { "file": "town.jpg", "caption": "Seven months later: roads, residential, commercial and industrial zones growing into houses, shops and factories, a coal power plant and its line" },
+    { "file": "tools.jpg", "caption": "The power tool circle (right mouse button): back, power line, nuclear and coal power plant" }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "astromenace",
+  "title": "AstroMenace",
+  "tagline": "A 3D space shooter: fly fifteen missions against aliens and pirates.",
+  "summary": [
+    "AstroMenace (Mikhail Kurinnoi, Viewizard, 2007; version 1.4.3) is a scrolling space shoot-em-up with 3D graphics and 2D gameplay: your fighter flies over planets, asteroid fields and alien bases while waves of alien fighters, motherships, pirate ships, tanks and turrets come at you. Destroyed enemies earn money and experience.",
+    "This port keeps the original's game code number for number: the ships, the weapons and their projectiles, the enemies with their AI scripts, the fifteen missions and three menu scenes, the explosions, the score, the pilot profiles with their difficulty settings and the original's save format. The 3D models, textures, sounds, voices and music are the original's.",
+    "Steer the ship with the mouse (click into the game to capture the pointer) or with the arrow keys; the left button or Left Ctrl fires the primary weapons, the right button or Space the secondary ones. Esc opens the game menu."
+  ],
+  "original": {
+    "author": "Mikhail Kurinnoi (Viewizard); 3D models by Max Shelekhov (3drt.com), Oleg Linkov, Egor Kurteanu",
+    "year": 2007,
+    "platform": "C++/OpenGL, SDL 2, OpenAL (Linux, Windows, macOS)",
+    "version": "1.4.3",
+    "license": "GPL-3.0-or-later (code, most data); CC BY-SA 4.0 (3D models); OFL 1.1 and GPL with font exception (fonts)",
+    "packageBytes": 67248904,
+    "url": "https://viewizard.com/"
+  },
+  "players": "1",
+  "genres": [
+    "Arcade"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    {
+      "input": "Mouse / arrow keys",
+      "action": "Fly the ship"
+    },
+    {
+      "input": "Left button / Left Ctrl",
+      "action": "Fire the primary weapon group"
+    },
+    {
+      "input": "Right button / Space",
+      "action": "Fire the secondary weapon group"
+    },
+    {
+      "input": "Esc",
+      "action": "Game menu (pause)"
+    },
+    {
+      "input": "F5 / F6 / F7",
+      "action": "Slower / normal / faster game speed"
+    },
+    {
+      "input": "F8 / F9 / F10",
+      "action": "Weapon panel view / primary and secondary fire mode"
+    },
+    {
+      "input": "Mouse, Tab, arrow keys, Enter",
+      "action": "Menus"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "playing.png",
+      "caption": "Mission 1: the fighter, alien fighters, asteroids and the HUD with the weapon panels"
+    },
+    {
+      "file": "menu.png",
+      "caption": "The main menu over the 3D menu scene"
+    },
+    {
+      "file": "missions.png",
+      "caption": "The mission list of a pilot profile"
+    }
+  ],
+  "links": [
+    {
+      "label": "AstroMenace on GitHub",
+      "url": "https://github.com/viewizard/astromenace"
+    }
+  ],
+  "lazyAssets": [
+    "assets/music/**"
+  ],
+  "caveat": "The workshop's shops (shipyard, systems, weaponry) and the advanced, interface and control options are not ported yet: you fly every mission with the starting ship and weapons. Shadows and normal maps are not drawn."
+}

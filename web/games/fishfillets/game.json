@@ -1,0 +1,98 @@
+{
+  "id": "fishfillets",
+  "title": "Fish Fillets NG",
+  "tagline": "Two fish, one room, and every object in the wrong place: push, lift and drop until both can swim out.",
+  "summary": [
+    "Fish Fillets is a puzzle game for two fish. The small orange fish is quick but can move only light things; the big blue one also moves steel. Neither may let anything fall on it, and neither survives an object pushed onto it from above. Pushing things around the room so that both fish can swim out of it is harder than it sounds, and the room is full of chairs, pipes, skulls, snails and crabs that have something to say about it.",
+    "The rooms lie on a map of eleven branches, from the Fish House to the shipwrecks, the city in the deep, the UFO, the coral reef, the dump and the secret computer: 80 levels and an ending. Every level knows its dialogues and animations; the fish talk about the room, about each other, and get bored when nothing happens. Undo goes back step by step, a level can be saved and loaded, and a solved level can be replayed.",
+    "This is a port of Fish Fillets - Next Generation 1.0.1 (2010), the free remake of ALTAR interactive's game of 1998: its rules from the C++ source, and its levels, dialogues, pictures, voices and music as they are, the level scripts running in a Lua 5.0 interpreter written for the port."
+  ],
+  "original": {
+    "author": "ALTAR interactive (original game, 1998; graphics, levels, sounds, music); Ivo Danihelka, Pavel Danihelka, Mirek Olšák and contributors (Next Generation engine and new levels)",
+    "year": 1998,
+    "platform": "C++ with SDL and Lua 5.0 (Linux, Windows, Mac OS X)",
+    "version": "Fish Fillets - Next Generation 1.0.1 (2010)",
+    "license": "GPL-2.0-or-later (engine); GPL (data)",
+    "packageBytes": 146799687,
+    "url": "https://fillets.sourceforge.net/"
+  },
+  "players": "1",
+  "genres": [
+    "Puzzle"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-15",
+  "controls": [
+    {
+      "input": "Arrow keys",
+      "action": "Move the active fish (a turn first if it looks the other way); choose on the map with the mouse"
+    },
+    {
+      "input": "Space",
+      "action": "Switch to the other fish"
+    },
+    {
+      "input": "I J K L / W A S D",
+      "action": "Move the small fish / the big fish directly"
+    },
+    {
+      "input": "Left mouse button",
+      "action": "Map: start the level under the pointer, the corners: intro, exit, credits, options. Level: select the fish under the pointer; held, the active fish swims towards the pointer"
+    },
+    {
+      "input": "Right mouse button (held)",
+      "action": "The active fish moves straight towards the pointer"
+    },
+    {
+      "input": "Minus / Plus (held)",
+      "action": "Undo / redo moves"
+    },
+    {
+      "input": "Backspace",
+      "action": "Restart the level"
+    },
+    {
+      "input": "F2 / F3",
+      "action": "Save / load the level (in your storage on the server)"
+    },
+    {
+      "input": "Shift (held)",
+      "action": "Four times faster"
+    },
+    {
+      "input": "Tab / Enter",
+      "action": "Map: select the next open level / start it"
+    },
+    {
+      "input": "F1 / F10 / F5 / F6",
+      "action": "Help / options (volume, language, speech, subtitles) / step counter / subtitles on or off"
+    },
+    {
+      "input": "Escape",
+      "action": "Leave the level for the map; on the map, leave the game"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "playing.png",
+      "caption": "The first level, How It All Started: the two fish in their house"
+    },
+    {
+      "file": "worldmap.png",
+      "caption": "The map with the first branch, the Fish House"
+    }
+  ],
+  "links": [
+    {
+      "label": "Fish Fillets - Next Generation",
+      "url": "https://fillets.sourceforge.net/"
+    }
+  ],
+  "lazyAssets": [
+    "assets/data/images/**",
+    "assets/data/sound/**",
+    "assets/data/music/**"
+  ]
+}

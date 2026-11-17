@@ -1,0 +1,306 @@
+// AstroMenace 1.4.3 (Mikhail Kurinnoi, Viewizard; GPL-3.0-or-later), port of SetExplosionGFX in
+// src/object3d/explosion/explosion.cpp: the particle systems of the explosions.
+// Changed for the browser by the freegames project, 2026.
+import { Vec3, fRand0 } from '../core/math.ts';
+import { type ParticleSystem, ParticleCreationType, createPointLight } from '../core/particles.ts';
+
+export function SetExplosionGFX(ParticleSystem: ParticleSystem, GFXNum: number): void {
+    const tmpHash = "gfx/flare1.tga";
+    ParticleSystem.Texture = tmpHash;
+    switch (GFXNum) {
+    case 0: // projectile
+        ParticleSystem.ColorStart.r = 1.00;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 1.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 0.20;
+        ParticleSystem.SizeVar = 0.10;
+        ParticleSystem.SizeEnd = 0.05;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 1.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 10;
+        ParticleSystem.NeedStop = true;
+        break;
+    case 1: // asteroid
+        ParticleSystem.ColorStart.r = 1.00;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 1.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.50;
+        ParticleSystem.SizeEnd = 0.05;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 2.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    1.0, 0.35, 0.15, 0.0, 0.005);
+        break;
+    case 2: // small alien
+        ParticleSystem.ColorStart.r = 0.10;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 0.30;
+        ParticleSystem.SizeVar = 0.20;
+        ParticleSystem.SizeEnd = 0.10;
+        ParticleSystem.Speed = 5.0;
+        ParticleSystem.SpeedVar = 1.5 * fRand0();
+        ParticleSystem.Life = 3.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 100;
+        ParticleSystem.NeedStop = true;
+        break;
+    case 3: // alien
+        ParticleSystem.ColorStart.r = 0.10;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 0.80;
+        ParticleSystem.SizeVar = 0.40;
+        ParticleSystem.SizeEnd = 0.10;
+        ParticleSystem.Speed = 5.0;
+        ParticleSystem.SpeedVar = 1.5 * fRand0();
+        ParticleSystem.Life = 2.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 20;
+        ParticleSystem.CreationType = ParticleCreationType.Sphere;
+        ParticleSystem.CreationSize = new Vec3(2.8, 2.8, 2.8);
+        ParticleSystem.NeedStop = true;
+        break;
+    case 4: // medium explision
+        ParticleSystem.ColorStart.r = 0.10;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.50;
+        ParticleSystem.SizeEnd = 0.20;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 2.3;
+        ParticleSystem.LifeVar = fRand0();
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    0.05, 0.85, 1.0, 0.0, 0.002);
+        break;
+    case 5: // earth
+        ParticleSystem.ColorStart.r = 1.00;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 1.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 0.30;
+        ParticleSystem.SizeVar = 0.20;
+        ParticleSystem.SizeEnd = 0.05;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 3.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    1.0, 0.35, 0.15, 0.0, 0.003);
+        break;
+    case 6: // earth
+        ParticleSystem.ColorStart.r = 1.00;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 1.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.50;
+        ParticleSystem.SizeEnd = 0.20;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 2.3;
+        ParticleSystem.LifeVar = fRand0();
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        break;
+    case 7: // nuke
+        ParticleSystem.ColorStart.r = 0.30;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 3.00;
+        ParticleSystem.SizeVar = 0.10;
+        ParticleSystem.SizeEnd = 0.10;
+        ParticleSystem.Speed = 0.00;
+        ParticleSystem.SpeedOnCreation = -1.00;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.Life = 1.00;
+        ParticleSystem.ParticlesPerSec = 300;
+        ParticleSystem.CreationType = ParticleCreationType.Sphere;
+        ParticleSystem.CreationSize = new Vec3(2.0, 0.3, 2.0);
+        ParticleSystem.DeadZone = 1.9;
+        ParticleSystem.AlphaShowHide = true;
+        ParticleSystem.IsMagnet = true;
+        ParticleSystem.MagnetFactor = -2.5;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    0.15, 0.35, 1.0, 0.0, 0.0001);
+        break;
+    case 8: // torpedo
+        ParticleSystem.ColorStart.r = 0.70;
+        ParticleSystem.ColorStart.g = 1.00;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.10;
+        ParticleSystem.SizeEnd = 0.30;
+        ParticleSystem.Speed = 0.00;
+        ParticleSystem.SpeedOnCreation = -1.00;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.Life = 1.00;
+        ParticleSystem.ParticlesPerSec = 100;
+        ParticleSystem.CreationType = ParticleCreationType.Sphere;
+        ParticleSystem.CreationSize = new Vec3(3.0, 0.3, 3.0);
+        ParticleSystem.DeadZone = 0.9;
+        ParticleSystem.AlphaShowHide = true;
+        ParticleSystem.IsMagnet = true;
+        ParticleSystem.MagnetFactor = -2.5;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    0.35, 1.0, 0.15, 0.0, 0.0005);
+        break;
+    case 9: // nuke
+        ParticleSystem.ColorStart.r = 0.30;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 2.00;
+        ParticleSystem.SizeVar = 0.10;
+        ParticleSystem.SizeEnd = 0.30;
+        ParticleSystem.Speed = 0.00;
+        ParticleSystem.SpeedOnCreation = -1.00;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.Life = 1.00;
+        ParticleSystem.ParticlesPerSec = 100;
+        ParticleSystem.CreationType = ParticleCreationType.Sphere;
+        ParticleSystem.CreationSize = new Vec3(3.0, 0.3, 3.0);
+        ParticleSystem.DeadZone = 0.9;
+        ParticleSystem.AlphaShowHide = true;
+        ParticleSystem.IsMagnet = true;
+        ParticleSystem.MagnetFactor = -2.5;
+        break;
+    case 10: // missile, swarm
+        ParticleSystem.ColorStart.r = 1.00;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 0.30;
+        ParticleSystem.ColorEnd.r = 1.00;
+        ParticleSystem.ColorEnd.g = 0.00;
+        ParticleSystem.ColorEnd.b = 0.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.10;
+        ParticleSystem.SizeEnd = 0.30;
+        ParticleSystem.Speed = 0.00;
+        ParticleSystem.SpeedOnCreation = -1.00;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.Life = 1.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.CreationType = ParticleCreationType.Sphere;
+        ParticleSystem.CreationSize = new Vec3(3.0, 0.3, 3.0);
+        ParticleSystem.DeadZone = 0.9;
+        ParticleSystem.AlphaShowHide = false;
+        ParticleSystem.IsMagnet = true;
+        ParticleSystem.MagnetFactor = -2.5;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    1.0, 0.35, 0.15, 0.0, 0.005);
+        break;
+    case 11: // alien mothership explision
+        ParticleSystem.ColorStart.r = 0.10;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 0.30;
+        ParticleSystem.SizeVar = 0.20;
+        ParticleSystem.SizeEnd = 0.05;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 3.0;
+        ParticleSystem.LifeVar = fRand0() / 10.0;
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        ParticleSystem.Light = createPointLight(new Vec3(0.0, 0.0, 0.0),
+                                                    0.05, 0.85, 1.0, 0.0, 0.001);
+        break;
+    case 12: // alien mothership explision
+        ParticleSystem.ColorStart.r = 0.10;
+        ParticleSystem.ColorStart.g = 0.70;
+        ParticleSystem.ColorStart.b = 1.00;
+        ParticleSystem.ColorEnd.r = 0.00;
+        ParticleSystem.ColorEnd.g = 1.00;
+        ParticleSystem.ColorEnd.b = 1.00;
+        ParticleSystem.AlphaStart = 1.00;
+        ParticleSystem.AlphaEnd = 0.00;
+        ParticleSystem.SizeStart = 1.00;
+        ParticleSystem.SizeVar = 0.50;
+        ParticleSystem.SizeEnd = 0.20;
+        ParticleSystem.Speed = 2.0;
+        ParticleSystem.SpeedVar = 2.0 * fRand0();
+        ParticleSystem.Life = 2.3;
+        ParticleSystem.LifeVar = fRand0();
+        ParticleSystem.Theta = 360.00;
+        ParticleSystem.ParticlesPerSec = 50;
+        ParticleSystem.NeedStop = true;
+        break;
+    default:
+        break;
+    }
+}

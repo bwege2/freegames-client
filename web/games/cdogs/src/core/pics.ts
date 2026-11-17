@@ -506,16 +506,17 @@ export const BODY_PART_GUN_R = 7;
 export const BODY_PART_GUN_L = 8;
 export const BODY_PART_COUNT = 9;
 export function StrBodyPart(s: string): number {
+  // utils.c StrBodyPart: the names as the sprite JSONs write them (lower case)
   switch (s) {
-    case 'Head': return BODY_PART_HEAD;
-    case 'Hair': return BODY_PART_HAIR;
-    case 'Facehair': return BODY_PART_FACEHAIR;
-    case 'Hat': return BODY_PART_HAT;
-    case 'Glasses': return BODY_PART_GLASSES;
-    case 'Body': return BODY_PART_BODY;
-    case 'Legs': return BODY_PART_LEGS;
-    case 'Gun': case 'GunR': return BODY_PART_GUN_R;
-    case 'GunL': return BODY_PART_GUN_L;
+    case 'head': return BODY_PART_HEAD;
+    case 'hair': return BODY_PART_HAIR;
+    case 'facehair': return BODY_PART_FACEHAIR;
+    case 'hat': return BODY_PART_HAT;
+    case 'glasses': return BODY_PART_GLASSES;
+    case 'body': return BODY_PART_BODY;
+    case 'legs': return BODY_PART_LEGS;
+    case 'gun_r': return BODY_PART_GUN_R;
+    case 'gun_l': return BODY_PART_GUN_L;
     default: return BODY_PART_HEAD;
   }
 }

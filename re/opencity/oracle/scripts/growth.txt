@@ -1,0 +1,31 @@
+# A town that grows on the flat south of map 1234: roads, R/C/I zones side by side, a coal plant and a
+# power line, years of play; the zones level up and grow into bigger models, vehicles drive
+new 1234 42
+tool DESTROY 0 31 49 49
+tool ROAD 2 40 47 40
+tool ROAD 14 32 14 48
+tool ROAD 26 32 26 48
+tool ZONE_RES 6 36 13 39
+tool ZONE_RES 6 41 13 44
+tool ZONE_COM 15 36 17 39
+tool ZONE_COM 15 41 17 44
+tool ZONE_IND 18 36 25 39
+tool ZONE_IND 18 41 25 44
+tool ZONE_RES 27 36 33 39
+tool ZONE_COM 27 41 33 44
+tool ZONE_IND 34 36 40 44
+tool EPLANT_COAL 2 31 2 31
+tool ELINE 7 33 13 35
+dump
+run 20000
+dump
+run 120000
+dump
+run 400000
+dump
+run 1000000
+dump
+run 2000000
+dump
+run 3000000
+dump

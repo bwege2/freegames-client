@@ -11,7 +11,7 @@
 # games, a white letter on a colour of their own for the others. Games whose art may not be used (Abuse) get a letter.
 #
 # Needs Python 3 with Pillow, and ImageMagick (`magick`) for the one SVG source (TuxMath). A few sources are not
-# committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax,
+# committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax, kiki,
 # A Dark Room, Brogue, HyperRogue, Lincity, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
 #   python3 -I web/scripts/icons.py [path/to/repo]
 import json, os, subprocess, sys, tempfile
@@ -258,11 +258,31 @@ def i_sopwith(S):
     return clip(place(tile(S, '#000000'), plane, (0, 0, S, S)), S)
 
 
+def i_xmoto(S):
+    # X-Moto's own icon (extra/xmoto.png of the 0.6.3 source, 256x256: the "X" and the wheel) on a night-blue tile
+    art = Image.open(orig('xmoto', 'orig', 'src', 'xmoto-0.6.3', 'extra', 'xmoto.png')).convert('RGBA')
+    base = tile(S, '#08083a', top='#202060')
+    return clip(place(base, art, (S * 0.04, S * 0.04, S * 0.92, S * 0.92)), S)
+
+def i_astromenace(S):
+    # the original's first mission icon (gamedata/script/mission1_icon.tga, GPL-3.0, Viewizard) on deep space
+    art = Image.open(G('astromenace', 'assets', 'script', 'mission1_icon.tga.png')).convert('RGBA')
+    base = tile(S, '#05070f', top='#1a2240')
+    return clip(place(base, art, (S * 0.08, S * 0.08, S * 0.84, S * 0.84)), S)
+
+
 def i_chromiumbsu(S):
     # the ship (data/png/hero.png, which the original also uses as its window icon) on the metal-blue night
     art = Image.open(G('chromiumbsu', 'assets', 'png', 'hero.png')).convert('RGBA')
     base = tile(S, '#0b0f1c', top='#2a3350')
     return clip(place(base, art, (S * 0.08, S * 0.06, S * 0.84, S * 0.88)), S)
+
+
+def i_nogravity(S):
+    # the game's logo from the menu picture (menu/lit_mn01.png, GPL like all its data) on the dark blue of the menu
+    art = Image.open(G('nogravity', 'assets', 'menu', 'lit_mn01.png')).convert('RGBA').crop((42, 22, 246, 132))
+    base = tile(S, '#04101e', top='#123a66')
+    return clip(place(base, art, (S * 0.02, S * 0.2, S * 0.96, S * 0.6)), S)
 
 
 def i_freecol(S):
@@ -382,10 +402,35 @@ def i_biniax(S):
     return clip(pixel_place(base, art, S // 36), S)
 
 
+def i_fishfillets(S):
+    # the original's window icon (src/game/fillets.ico of fillets-ng 1.0.1, 32x32, GPL), whole, on deep water
+    art = Image.open(orig('fishfillets', 'orig', 'fillets-ng-1.0.1', 'src', 'game', 'fillets.ico')).convert('RGBA')
+    base = tile(S, '#0b3a5a', top='#1d6f9e')
+    if S == 48:
+        return clip(place(base, art, (4, 4, 40, 40)), S)
+    return clip(pixel_place(base, art, S // 36), S)
+
+def i_enigma(S):
+    # the release's marble (gfx/enigma_marble.png, GPL-2.0-or-later) on a dark tile
+    art = Image.open(G('enigma', 'assets', 'gfx', 'enigma_marble.png')).convert('RGBA')
+    base = tile(S, '#1c2430')
+    m = S * 0.1
+    return clip(place(base, art, (m, m, S - 2 * m, S - 2 * m)), S)
+
+
 def i_lincity(S):
     # the original's window icon (lincity.ico of the Windows build, 32x32, GPL), whole
     art = Image.open(orig('lincity', 'orig', 'lincity-1.13.1', 'lincity.ico')).convert('RGBA')
     base = tile(S, '#008080')
+    if S == 48:
+        return clip(place(base, art, (4, 4, 40, 40)), S)
+    return clip(pixel_place(base, art, S // 36), S)
+
+
+def i_opencity(S):
+    # the original's window icon (graphism/icon/OpenCity32.png, 32x32, GPL), whole, on the splash screen's green
+    art = Image.open(G('opencity', 'assets', 'graphism', 'icon', 'OpenCity32.png')).convert('RGBA')
+    base = tile(S, '#26663f', top='#3c8a5a')
     if S == 48:
         return clip(place(base, art, (4, 4, 40, 40)), S)
     return clip(pixel_place(base, art, S // 36), S)
@@ -508,6 +553,16 @@ TERMINAL = {
     'nethack': ('@', '#ffffff'),      # the player, as NetHack draws it
     'corewar': ('C', '#00e5ff'),      # cyan: the core
 }
+
+
+def i_kiki(S):
+    # the original's own icon (win32-vc/kiki.ico, 32x32: kiki the bot, Thorsten Kohnhorst, public domain), at a whole
+    # number scale on the default colour scheme's dark grey
+    ico = Image.open(orig('kiki', 'orig', 'kiki', 'win32-vc', 'kiki.ico'))
+    ico.size = max(ico.info['sizes'])
+    art = trim(ico.convert('RGBA'))
+    base = tile(S, '#212121', top='#3a3a3a')
+    return clip(pixel_place(base, art, 1 if S < 96 else 5), S)
 
 
 def i_diamondtrust(S):

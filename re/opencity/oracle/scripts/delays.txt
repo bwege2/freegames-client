@@ -1,0 +1,3 @@
+# Simulator::RCIDelay(): the simulator thread's pause for every number of structures
+new 5 5
+delays

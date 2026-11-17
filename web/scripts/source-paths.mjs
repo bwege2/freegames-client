@@ -15,13 +15,14 @@ export const SOURCE_URL = `https://github.com/${SOURCE_REPO}`;
  * pinned release. re/frozenbubble: the script that packs Frozen Bubble's data (assets/fb-data.bin) from the pinned
  * release, and its test oracle. re/pokerth: the scripts that copy PokerTH's data and build its test oracle from the pinned release. re/freecol: the Java-to-TypeScript translator (j2ts) that wrote FreeCol's
  * port (src/gen) from the pinned release, and its test oracle. re/lincity: the script that packs Lincity's data
- * (assets/lincity-data.bin) from the pinned release, and its test oracle.
+ * (assets/lincity-data.bin) from the pinned release, and its test oracle. re/opencity: the scripts that copy OpenCity's
+ * data, draw its two replacement textures (tools/make_textures.py) and convert its font, and its test oracle.
  */
 export const SOURCE_PATHS = ['web', 'protocol', 'tools/gen-protocol.sh', 'docs/GAME-INTEGRATION.md', 'server/src/main/resources/xpilot/lib/maps',
-  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol', 're/pokerth', 're/lincity'];
+  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol', 're/pokerth', 're/lincity', 're/opencity'];
 /** what it may never hold: the game server and the operations files */
 export const NEVER = [/^server\/(?!src\/main\/resources\/xpilot\/lib\/maps\/)/, /^slipstream\//, /^tools\/deploy/, /^docs\/(SERVER|DEPLOY)\.md$/, /^pom\.xml$/,
-  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/|lincity\/)/];
+  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/|lincity\/|opencity\/)/];
 
 /** The ids of the closed games at `commit`: those whose web/games/<id>/game.json says "closed": true. */
 export function closedGames(git, commit) {

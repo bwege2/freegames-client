@@ -54,6 +54,10 @@ class LiquidWarPage {
   private screenStop: AbortController | null = null;
   private image: ImageData | null = null;
   private serial = -1;
+  /** the real pointer in client coordinates while it is over the host (the screen's window) */
+  private readonly pointer = { clientX: 0, clientY: 0, over: false };
+  /** set once the pointer has been mapped into the screen; before that the page does not know where it is */
+  private pointerKnown = false;
   private readonly lut = new Uint32Array(256);
   private fade: { from: Palette; to: Palette; t0: number } | null = null;
   private readonly audio: WebAudioSink;
@@ -138,6 +142,7 @@ class LiquidWarPage {
       this.image = this.screen.ctx.createImageData(s.w, s.h);
     }
     if (screenRef.textMode) return;
+    this.followPointer();
     this.frames++;
     let pal: Palette = current_palette;
     if (this.fade) {
@@ -159,7 +164,7 @@ class LiquidWarPage {
       let si = s.base + y * s.stride, di = y * w;
       for (let x = 0; x < w; x++) out[di++] = lut[s.data[si++]!]!;
     }
-    if (mouseShown && mouseSprite) this.drawCursor(out, w, h, mouseSprite);
+    if (mouseShown && mouseSprite && this.pointerKnown) this.drawCursor(out, w, h, mouseSprite);
     this.screen!.ctx.putImageData(img, 0, 0);
   }
 
@@ -200,32 +205,35 @@ class LiquidWarPage {
       _handle_key_release(k.scan);
     }, { signal });
     window.addEventListener('blur', () => this.releaseAll(), { signal });
-    // The mouse moves by the pointer's movement, so the game can put it elsewhere (position_mouse) as
-    // Allegro warps the X11 pointer; entering the screen puts it under the pointer.
-    const clampTo = (x: number, y: number): void => {
-      mouse.x = Math.max(0, Math.min(screenRef.screen.w - 1, Math.round(x)));
-      mouse.y = Math.max(0, Math.min(screenRef.screen.h - 1, Math.round(y)));
-    };
-    const scale = (): number => {
-      const c = this.screen?.canvas;
-      if (!c) return 1;
-      const r = c.getBoundingClientRect();
-      return r.width ? c.width / r.width : 1;
-    };
+    // Allegro's X11 driver reads the X pointer every frame, and the game may put it elsewhere with
+    // position_mouse (set_gfx_mode centres it, lw_mouse_reset_control puts it at the mouse-control reference).
+    // The browser cannot move the real pointer, so the page keeps the game's mouse under the player's pointer:
+    // every frame (followPointer) and on every pointer event the mouse takes the pointer's position over the
+    // screen. position_mouse still moves the game's mouse for the game's own immediate reads, but that never
+    // leaves the drawn cursor or the clicks away from the pointer. A pointer outside the screen (the letterbox
+    // around a scaled canvas, or outside the host) keeps the mouse at its last in-screen position, so the
+    // cursor sticks to the edge.
     const absolute = (e: PointerEvent): void => {
-      const p = this.screen?.toPixel(e.clientX, e.clientY);
-      if (p) clampTo(p.x, p.y);
+      this.pointer.clientX = e.clientX;
+      this.pointer.clientY = e.clientY;
+      this.pointer.over = true;
+      this.followPointer();
     };
     host.addEventListener('pointerenter', absolute, { signal });
+    host.addEventListener('pointerleave', () => {
+      this.pointer.over = false;
+    }, { signal });
     host.addEventListener('pointermove', (e) => {
-      if (document.pointerLockElement === host || this.screen?.toPixel(e.clientX, e.clientY)) {
-        const k = scale();
+      if (document.pointerLockElement === host) {
+        const k = (this.screen ? this.screen.canvas.width / (this.screen.canvas.getBoundingClientRect().width || 1) : 1);
         this.subX += e.movementX * k;
         this.subY += e.movementY * k;
         const dx = Math.trunc(this.subX), dy = Math.trunc(this.subY);
         this.subX -= dx;
         this.subY -= dy;
-        if (dx || dy) clampTo(mouse.x + dx, mouse.y + dy);
+        if (dx || dy) this.clampTo(mouse.x + dx, mouse.y + dy);
+      } else {
+        absolute(e);
       }
     }, { signal });
     const bit = (b: number): number => (b === 0 ? 1 : b === 2 ? 2 : b === 1 ? 4 : 0);
@@ -234,6 +242,8 @@ class LiquidWarPage {
       const b = bit(e.button);
       if (!b) return;
       e.preventDefault();
+      // the click is the pointer's: sync before the button so the GUI sees both at the same place
+      absolute(e);
       mouse.b |= b;
     }, { signal });
     window.addEventListener('pointerup', (e) => {
@@ -259,6 +269,34 @@ class LiquidWarPage {
   private subX = 0;
   private subY = 0;
 
+  private clampTo(x: number, y: number): void {
+    mouse.x = Math.max(0, Math.min(screenRef.screen.w - 1, Math.round(x)));
+    mouse.y = Math.max(0, Math.min(screenRef.screen.h - 1, Math.round(y)));
+  }
+
+  /**
+   * Put the game's mouse under the real pointer. Called every frame and on every pointer event, after
+   * position_mouse calls (the game's warps hold only for the game's immediate reads, because the browser
+   * cannot move the pointer and the drawn cursor must stay where the player clicks).
+   */
+  private followPointer(): void {
+    if (!this.pointer.over || document.pointerLockElement === this.host) return;
+    const screen = this.screen;
+    // between set_gfx_mode and the next frame the canvas still shows the old mode: its pixels are not the
+    // new screen's, so wait for draw() to replace it
+    if (!screen || screen.width !== screenRef.screen.w || screen.height !== screenRef.screen.h) return;
+    const p = screen.toPixel(this.pointer.clientX, this.pointer.clientY);
+    if (p) {
+      this.pointerKnown = true;
+      this.clampTo(p.x, p.y);
+    }
+  }
+
+  /** the game's mouse and cursor state (drawn: the page has seen the pointer and the sprite is up) */
+  mouseState(): { x: number; y: number; shown: boolean; drawn: boolean } {
+    return { x: mouse.x, y: mouse.y, shown: mouseShown, drawn: mouseShown && this.pointerKnown };
+  }
+
   /** what the end-to-end test and the screenshots read */
   state(): string {
     return `w=${screenRef.screen.w} h=${screenRef.screen.h} game=${G.CURRENT_ARMY ? 1 : 0} clock=${G.GLOBAL_CLOCK} teams=${G.PLAYING_TEAMS}`;
@@ -280,6 +318,8 @@ export const start: StartGame = (host, ctx) => {
     frames: () => page.frames,
     state: () => page.state(),
     online: () => page.online.info(),
+    /** the game's mouse (the drawn pointer's tip) and whether its sprite is up or drawn */
+    mouse: () => page.mouseState(),
   };
   page.start().catch((e) => {
     if (!ctx.signal.aborted) console.error(e);
