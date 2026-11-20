@@ -1,0 +1,11 @@
+0.48.6
+
+name Goggles 2
+type HeadAccessory
+left textures/bodies/eyes/goggles2/goggles2_left.png
+right textures/bodies/eyes/goggles2/goggles2_right.png
+texture-scale 1
+category Eyes
+detach False
+hidden False
+offset 8 6

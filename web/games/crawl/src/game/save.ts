@@ -1,7 +1,7 @@
 // Saves, morgue files and the score list. The original writes a binary save and text morgue files in
 // its working directory; here they are JSON and text in the account's server storage (ctx.storage).
 // The save is the port's own format; README.md says so.
-import { FEATURE, type Cell, type Item, type ItemOnFloor, type Level, type Monster, type Stair, W, H } from './model.ts';
+import { FEATURE, type Cell, type Item, type ItemOnFloor, type Level, type Monster, type Stair, type Trap, type Shop, W, H } from './model.ts';
 import { JOBS_BY_NAME, SPECIES_BY_NAME } from './data.ts';
 import type { Gear, Player, SkillState } from './player.ts';
 import { emptyGear, armourClass, evasion, shieldClass } from './player.ts';
@@ -46,7 +46,7 @@ interface SavedLevel {
   key: string; branch: string; depth: number; absDepth: number; layout: string;
   entry: number;
   feats: string; known: string; visible: string;
-  monsters: Monster[]; items: ItemOnFloor[];
+  monsters: Monster[]; items: ItemOnFloor[]; traps?: Trap[]; shops?: Shop[];
   up: Stair[]; down: Stair[]; branches: Stair[];
 }
 
@@ -84,14 +84,14 @@ function encodeLevel(l: Level): SavedLevel {
   return {
     key: l.key, branch: l.branch, depth: l.depth, absDepth: l.absDepth, layout: l.layout, entry: l.entry,
     feats: c.feats, known: c.known, visible: c.visible,
-    monsters: l.monsters, items: l.items, up: l.up, down: l.down, branches: l.branches,
+    monsters: l.monsters, items: l.items, traps: l.traps, shops: l.shops, up: l.up, down: l.down, branches: l.branches,
   };
 }
 function decodeLevel(s: SavedLevel): Level {
   return {
     key: s.key, branch: s.branch, depth: s.depth, absDepth: s.absDepth, layout: s.layout, entry: s.entry,
     cells: decodeCells({ feats: s.feats, known: s.known, visible: s.visible }),
-    monsters: s.monsters, items: s.items, up: s.up, down: s.down, branches: s.branches, visited: true,
+    monsters: s.monsters, items: s.items, traps: s.traps ?? [], shops: s.shops ?? [], up: s.up, down: s.down, branches: s.branches, visited: true,
   };
 }
 
@@ -101,6 +101,8 @@ interface SavedPlayer {
   skills: Record<string, SkillState>; skillOrder: Record<string, number>; inventory: Item[];
   gear: Record<string, number | null>; knownSpells: string[]; memorised: string[];
   mutations: Record<string, number>; turns: number; elapsed: number; place: string; god: string | null;
+  piety?: number; pietyMax?: number; giftTimeout?: number; penance?: number; divineVigour?: number;
+  identifiedTypes?: Record<string, boolean>; appearances?: import('./appearance.ts').Appearances;
   lives: number; status: Record<string, number>; nextUid: number;
 }
 
@@ -113,6 +115,8 @@ export function encodePlayer(p: Player): SavedPlayer {
     skills: p.skills, skillOrder: p.skillOrder, inventory: p.inventory, gear,
     knownSpells: p.knownSpells, memorised: p.memorised, mutations: p.mutations, turns: p.turns,
     elapsed: p.elapsed, place: p.place, god: p.god, lives: p.lives, status: p.status, nextUid: p.nextUid,
+    piety: p.piety, pietyMax: p.pietyMax, giftTimeout: p.giftTimeout, penance: p.penance,
+    divineVigour: p.divineVigour, identifiedTypes: p.identifiedTypes, appearances: p.appearances,
   };
 }
 export function decodePlayer(s: SavedPlayer): Player {
@@ -127,6 +131,9 @@ export function decodePlayer(s: SavedPlayer): Player {
   }
   return {
     ...s, species, job, gear,
+    piety: s.piety ?? (s.god ? 15 : 0), pietyMax: s.pietyMax ?? (s.piety ?? 0),
+    giftTimeout: s.giftTimeout ?? 0, penance: s.penance ?? 0, divineVigour: s.divineVigour ?? 0,
+    identifiedTypes: s.identifiedTypes ?? {}, appearances: s.appearances ?? { potions: {}, scrolls: {}, wands: {}, rings: {}, amulets: {} },
   } as Player;
 }
 

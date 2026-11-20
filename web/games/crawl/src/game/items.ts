@@ -1,8 +1,10 @@
 // The original's items: base weapons and armour from item-prop.cc, the potion/scroll/wand/ring/amulet
 // names and descriptions from dat/descript/items.txt, and the original's generation weights.
-import { ARMOUR, ARMOUR_BY_ID, ITEM_NAMES, WEAPONS, type ArmourDef, type WeaponDef } from './data.ts';
+import { ARMOUR, ARMOUR_BY_ID, BOOKS, ITEM_NAMES, MISSILES, MISSILE_BY_ID, WEAPONS, type ArmourDef, type MissileDef, type WeaponDef } from './data.ts';
+import { appearanceName } from './appearance.ts';
 import type { Item } from './model.ts';
 import type { Rng } from './rng.ts';
+import { SPELL_BY_ID } from './data.ts';
 
 export const WEAPON_GLYPH = ')';
 export const ARMOUR_GLYPH = '[';
@@ -12,6 +14,7 @@ export const WAND_GLYPH = '/';
 export const RING_GLYPH = '=';
 export const AMULET_GLYPH = '"';
 export const BOOK_GLYPH = '+';
+export const MISSILE_GLYPH = ')';
 export const GOLD_GLYPH = '$';
 
 export const WEAPON_CHOICES = ['WPN_RAPIER', 'WPN_FLAIL', 'WPN_WAR_AXE', 'WPN_TRIDENT', 'WPN_LONG_SWORD', 'WPN_UNARMED'];
@@ -53,22 +56,32 @@ export function makeArmour(id: string, plus = 0, ego = 'normal'): Item {
   return { uid: 0, cls: 'armour', id, qty: 1, plus, ego, charges: 0, identified: true };
 }
 export function makePotion(name: string, qty = 1): Item {
-  return { uid: 0, cls: 'potion', id: name, qty, plus: 0, ego: 'normal', charges: 0, identified: true };
+  return { uid: 0, cls: 'potion', id: name, qty, plus: 0, ego: 'normal', charges: 0, identified: false };
 }
 export function makeScroll(name: string, qty = 1): Item {
-  return { uid: 0, cls: 'scroll', id: name, qty, plus: 0, ego: 'normal', charges: 0, identified: true };
+  return { uid: 0, cls: 'scroll', id: name, qty, plus: 0, ego: 'normal', charges: 0, identified: false };
 }
 export function makeWand(name: string, charges: number): Item {
-  return { uid: 0, cls: 'wand', id: name, qty: 1, plus: 0, ego: 'normal', charges, identified: true };
+  return { uid: 0, cls: 'wand', id: name, qty: 1, plus: 0, ego: 'normal', charges, identified: false };
 }
 export function makeRing(name: string, plus = 0): Item {
-  return { uid: 0, cls: 'ring', id: name, qty: 1, plus, ego: 'normal', charges: 0, identified: true };
+  return { uid: 0, cls: 'ring', id: name, qty: 1, plus, ego: 'normal', charges: 0, identified: false };
 }
 export function makeAmulet(name: string): Item {
-  return { uid: 0, cls: 'amulet', id: name, qty: 1, plus: 0, ego: 'normal', charges: 0, identified: true };
+  return { uid: 0, cls: 'amulet', id: name, qty: 1, plus: 0, ego: 'normal', charges: 0, identified: false };
 }
-export function makeBook(name: string): Item {
-  return { uid: 0, cls: 'book', id: name, qty: 1, plus: 0, ego: 'normal', charges: 0, identified: true };
+export function makeBook(name: string, spells: string[] = []): Item {
+  return { uid: 0, cls: 'book', id: name, qty: 1, plus: 0, ego: 'normal', charges: 0, identified: true, spells };
+}
+
+export function randomBook(rng: Rng, depth: number): Item {
+  const maxLevel = Math.min(9, 2 + Math.trunc(depth / 2));
+  const pool = BOOKS.filter((b) => b.spells.every((s) => (SPELL_BY_ID.get(s)?.level ?? 9) <= maxLevel));
+  const b = rng.choose(pool.length ? pool : BOOKS);
+  return makeBook(b.name, b.spells);
+}
+export function makeMissile(id: string, qty = 1): Item {
+  return { uid: 0, cls: 'missile', id, qty, plus: 0, ego: 'normal', charges: 0, identified: true };
 }
 export function makeGold(amount: number): Item {
   return { uid: 0, cls: 'gold', id: 'gold', qty: amount, plus: 0, ego: 'normal', charges: 0, identified: true };
@@ -97,6 +110,10 @@ export function itemName(item: Item): string {
     const sign = item.plus > 0 ? `+${item.plus} ` : item.plus < 0 ? `${item.plus} ` : '';
     return `${sign}${d?.name ?? item.id}`;
   }
+  if (item.cls === 'missile') {
+    const d = MISSILE_BY_ID.get(item.id);
+    return d?.name ?? item.id;
+  }
   if (item.cls === 'potion' || item.cls === 'scroll' || item.cls === 'wand' || item.cls === 'ring'
       || item.cls === 'amulet' || item.cls === 'book') {
     if (item.cls === 'wand') return `${item.id} (${item.charges})`;
@@ -115,6 +132,7 @@ export function itemGlyph(item: Item): string {
     case 'ring': return RING_GLYPH;
     case 'amulet': return AMULET_GLYPH;
     case 'book': return BOOK_GLYPH;
+    case 'missile': return item.id === 'MI_STONE' || item.id === 'MI_LARGE_ROCK' ? '*' : MISSILE_GLYPH;
     case 'gold': return GOLD_GLYPH;
     default: return '?';
   }
@@ -136,7 +154,18 @@ export function itemColour(item: Item): string {
   if (item.cls === 'ring') return 'LIGHTGREEN';
   if (item.cls === 'amulet') return 'YELLOW';
   if (item.cls === 'book') return 'LIGHTRED';
+  if (item.cls === 'missile') return 'LIGHTGREY';
   return 'LIGHTGREY';
+}
+
+/** item-name.cc type_is_identified + the appearance for an unidentified type. */
+export function displayItemName(item: Item, p: { identifiedTypes?: Record<string, boolean>; appearances?: import('./appearance.ts').Appearances }): string {
+  if ((item.cls === 'potion' || item.cls === 'scroll' || item.cls === 'wand' || item.cls === 'ring' || item.cls === 'amulet')
+      && !p.identifiedTypes?.[item.id]) {
+    const appearance = appearanceName(item.id, p.appearances);
+    if (appearance) return appearance;
+  }
+  return itemName(item);
 }
 
 export function itemDescription(item: Item): string {
@@ -155,12 +184,13 @@ export function itemDescription(item: Item): string {
     return base;
   }
   if (item.cls === 'armour') return armourDef(item.id)?.description ?? '';
+  if (item.cls === 'missile') return MISSILE_BY_ID.get(item.id)?.description ?? '';
   const key = item.id.toLowerCase();
   return ITEM_NAMES[key] ?? '';
 }
 
 export function stackable(item: Item): boolean {
-  return item.cls === 'potion' || item.cls === 'scroll' || item.cls === 'gold';
+  return item.cls === 'potion' || item.cls === 'scroll' || item.cls === 'gold' || item.cls === 'missile';
 }
 
 /** _job_def equipment specs: "potion of might q:2", "dagger plus:2", "dart ego:poisoned q:9". */
@@ -190,6 +220,8 @@ export function itemFromSpec(spec: string): Item | null {
   if (name.startsWith('amulet of ')) return makeAmulet(name);
   if (name.includes('book') || name.startsWith('book of ')) return makeBook(name);
   if (name === 'gold') return makeGold(qty);
+  const missile = MISSILES.find((m) => m.name === name || m.id === name);
+  if (missile) return makeMissile(missile.id, qty);
   return null;
 }
 
@@ -236,11 +268,28 @@ export function randomConsumable(rng: Rng, depth: number): Item {
   return makeAmulet('amulet of regeneration');
 }
 
+const THROWABLE = ['MI_DART', 'MI_STONE', 'MI_JAVELIN', 'MI_BOOMERANG'];
+
+/** Throwable missiles a character can use; item-prop.cc `is_throwable`. */
+export function randomMissiles(rng: Rng, depth: number): Item {
+  const id = rng.choose(THROWABLE);
+  const qty = 2 + rng.int(4 + Math.min(8, depth));
+  return makeMissile(id, qty);
+}
+
+export function isLauncher(id: string): boolean {
+  return weaponDef(id)?.skill === 'SK_RANGED_WEAPONS';
+}
+
+export function missileDef(id: string): MissileDef | undefined { return MISSILE_BY_ID.get(id); }
+
 export function randomItem(rng: Rng, depth: number): Item {
   const r = rng.int(100);
-  if (r < 28) return randomWeapon(rng, depth);
-  if (r < 48) return randomArmour(rng, depth);
-  if (r < 78) return randomConsumable(rng, depth);
-  if (r < 88) return makeGold(1 + rng.int(20 + depth * 8));
+  if (r < 7) return randomMissiles(rng, depth);
+  if (r < 33) return randomWeapon(rng, depth);
+  if (r < 51) return randomArmour(rng, depth);
+  if (r < 79) return randomConsumable(rng, depth);
+  if (r < 89) return makeGold(1 + rng.int(20 + depth * 8));
+  if (r < 95) return randomBook(rng, depth);
   return randomConsumable(rng, depth);
 }

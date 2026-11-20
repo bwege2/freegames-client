@@ -1,0 +1,108 @@
+{
+  "id": "endlesssky",
+  "title": "Endless Sky",
+  "tagline": "Trade, fight and explore a galaxy of stars in a ship you can afford.",
+  "summary": [
+    "Endless Sky (M. C. Martin and the community, from 2015) is a 2D space trading and combat game. You start with a pilot's licence, a mortgage and a small starship in human space; from there you trade cargo between worlds, take on combat and delivery work, outfit your ship, and fly wherever the hyperlinks go.",
+    "This port follows the stable release 0.11.4. The original's own data files drive the galaxy: its 694 star systems, 619 planets, 917 ship definitions and 938 outfits, with their prices, masses, thrust, shields, hull, weapons, trade prices and descriptions. Flight uses the original's frame-by-frame physics, and the star map, landing, trading, shipyard and outfitter use the original's numbers.",
+    "The original's sprites, sounds and two bitmap fonts are used. The port runs single-player in the browser; the pilot is saved in your account storage."
+  ],
+  "original": {
+    "author": "M. C. Martin and the Endless Sky community",
+    "year": 2015,
+    "platform": "C++/SDL (Linux, Windows, macOS)",
+    "version": "0.11.4 (2026-10-31)",
+    "license": "GPL-3.0-or-later; artwork CC-BY-SA-4.0",
+    "packageBytes": 366129610,
+    "url": "https://github.com/endless-sky/endless-sky"
+  },
+  "players": "1",
+  "genres": [
+    "Adventure",
+    "Role-playing"
+  ],
+  "modes": [
+    "single"
+  ],
+  "controls": [
+    {
+      "input": "Arrow keys or W A S D",
+      "action": "Thrust, reverse and turn"
+    },
+    {
+      "input": "Space / Enter",
+      "action": "Fire the primary weapons"
+    },
+    {
+      "input": "Q",
+      "action": "Fire the secondary weapons (missiles)"
+    },
+    {
+      "input": "Shift or F",
+      "action": "Afterburner"
+    },
+    {
+      "input": "L",
+      "action": "Land on the planet or station in range"
+    },
+    {
+      "input": "J",
+      "action": "Jump to the next system of the course"
+    },
+    {
+      "input": "M",
+      "action": "Star map (click a system to set a course)"
+    },
+    {
+      "input": "I",
+      "action": "Pilot and ship information"
+    },
+    {
+      "input": "Esc",
+      "action": "Pause menu, or back from a panel"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "flight.png",
+      "caption": "Flying the Star Barge out of New Boston: the original star, planet and ship sprites"
+    },
+    {
+      "file": "map.png",
+      "caption": "The star map with the course from Rutilicus into the Dirt Belt"
+    },
+    {
+      "file": "planet.png",
+      "caption": "New Boston: the original landscape, description and spaceport text"
+    },
+    {
+      "file": "shipyard.png",
+      "caption": "The New Boston shipyard: the Basic Ships with their original prices and stats"
+    },
+    {
+      "file": "outfitter.png",
+      "caption": "The outfitter at New Boston: the original outfits, masses, capacities and prices"
+    },
+    {
+      "file": "trade.png",
+      "caption": "Trading at New Boston with the original commodity prices and cargo hold"
+    }
+  ],
+  "added": "2026-11-20",
+  "lazyAssets": [
+    "assets/images/ship/**",
+    "assets/images/thumbnail/**",
+    "assets/images/outfit/**",
+    "assets/images/projectile/**",
+    "assets/images/effect/**",
+    "assets/images/star/**",
+    "assets/images/planet/**",
+    "assets/images/land/**",
+    "assets/images/asteroid/**",
+    "assets/images/hardpoint/**",
+    "assets/images/scene/**",
+    "assets/images/ui/**",
+    "assets/images/map/**",
+    "assets/sounds/**"
+  ]
+}

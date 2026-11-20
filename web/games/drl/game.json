@@ -1,0 +1,24 @@
+{
+  "id": "drl",
+  "title": "DRL (Doom, the Roguelike)",
+  "tagline": "Not shipped: id Software's audio and Doom's monsters, weapons and levels.",
+  "summary": [
+    "This is an assessment folder, not a port. DRL's code is GPL-2.0 and its tiles are CC BY-SA 4.0, but its release ships id Software's Doom music and sound effects, ten music tracks under CC BY-NC-SA, and it is built on Doom's monsters, weapons, levels and story; an extra condition asks redistributors to inform the author.",
+    "The project ships only games whose code and every asset are free for any use including commercial, compatible with GPL-3.0+, and without trademark problems; DRL is none of these. LICENSE.md records the file-by-file assessment, re/drl/NOTES.md the sources."
+  ],
+  "original": {
+    "author": "Kornel Kisielewicz (ChaosForge)",
+    "year": 2002,
+    "platform": "Free Pascal (Linux, Windows)",
+    "version": "0.10.0e",
+    "license": "GPL-2.0 (code); assets not free for this project (see LICENSE.md)",
+    "packageBytes": 0,
+    "url": "https://drl.chaosforge.org/"
+  },
+  "players": "1",
+  "genres": ["Roguelike"],
+  "modes": ["single"],
+  "controls": [],
+  "screenshots": [],
+  "listed": false
+}

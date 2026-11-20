@@ -13,6 +13,7 @@ import populationJson from '../data/population.json' with { type: 'json' };
 import descriptJson from '../data/descript.json' with { type: 'json' };
 import tutorialJson from '../data/tutorial.json' with { type: 'json' };
 import playableJson from '../data/playable.json' with { type: 'json' };
+import mutationsJson from '../data/mutations.json' with { type: 'json' };
 
 export interface SpeciesDef {
   id: string; name: string; abbr: string; derives?: string | null;
@@ -33,7 +34,7 @@ export interface JobDef {
 export interface AttackDef { type: string; damage: number; flavour?: string }
 export interface MonsterDef {
   id: string; name: string; glyph: string; colour: string;
-  flags: string[]; attacks: AttackDef[]; hd: number; hp: number; ac: number; ev: number;
+  flags: string[]; holiness?: string[]; attacks: AttackDef[]; hd: number; hp: number; ac: number; ev: number;
   will: number; exp: number; speed: number; size: string; shape: string;
   intelligence: string; habitat: string; genus?: string | null; species?: string | null;
   uses?: string | null; unique: boolean; hasCorpse: boolean; shout?: string | null;
@@ -49,6 +50,12 @@ export interface WeaponDef {
   min2h: string; min1h: string; damType: string; commonness: number; acquire: number;
   price: number; description: string;
 }
+export interface MutationDef { id: string; weight: number; levels: number; flags: string[]; short: string; have: string[]; gain: string[]; lose: string[] }
+
+export interface BookDef { name: string; title: string; spells: string[] }
+
+export interface MissileDef { id: string; name: string; damage: number; mulch: number; price: number; description: string }
+
 export interface ArmourDef {
   id: string; name: string; ac: number; ev: number; price: number; slot: string;
   fitMin: string; fitMax: string; mundane: boolean; acquire: number; description: string;
@@ -69,6 +76,9 @@ export const MONSTERS = monstersJson as unknown as MonsterDef[];
 export const SPELLS = spellsJson as unknown as SpellDef[];
 export const WEAPONS = (itemsJson as unknown as { weapons: WeaponDef[] }).weapons;
 export const ARMOUR = (itemsJson as unknown as { armour: ArmourDef[] }).armour;
+export const MISSILES = (itemsJson as unknown as { missiles: MissileDef[] }).missiles;
+export const BOOKS = (itemsJson as unknown as { books: BookDef[] }).books;
+export const MUTATIONS = (mutationsJson as unknown as MutationDef[]);
 export const ITEM_NAMES = (itemsJson as unknown as { names: Record<string, string> }).names;
 export const FEATURES = featuresJson as unknown as FeatureDef[];
 export const BRANCHES = branchesJson as unknown as BranchDef[];
@@ -93,6 +103,7 @@ export const SPELL_BY_NAME = new Map(SPELLS.map((s) => [s.name.toLowerCase(), s]
 export const WEAPON_BY_ID = new Map(WEAPONS.map((w) => [w.id, w]));
 export const WEAPON_BY_NAME = new Map(WEAPONS.map((w) => [w.name, w]));
 export const ARMOUR_BY_ID = new Map(ARMOUR.map((a) => [a.id, a]));
+export const MISSILE_BY_ID = new Map(MISSILES.map((m) => [m.id, m]));
 export const ARMOUR_BY_NAME = new Map(ARMOUR.map((a) => [a.name, a]));
 export const BRANCH_BY_ID = new Map(BRANCHES.map((b) => [b.id, b]));
 

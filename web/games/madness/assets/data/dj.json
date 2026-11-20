@@ -1,0 +1,205 @@
+[
+	{
+		"Name": "A Casual Trip Through Hell",
+		"Author": "Lothyde",
+		"BPM": 128,
+		"StartOffset": 15.1,
+		"Sound": "sounds/music/Lothyde/a_casual_trip_through_hell.ogg"
+	},
+	{
+		"Name": "AGR3",
+		"Author": "Lothyde",
+		"BPM": 200,
+		"StartOffset": 5.486,
+		"Sound": "sounds/music/Lothyde/agr3.ogg"
+	},
+	{
+		"Name": "Brake Breaker",
+		"Author": "Lothyde",
+		"BPM": 150,
+		"StartOffset": 0,
+		"Sound": "sounds/music/Lothyde/brake_breaker.ogg"
+	},
+	{
+		"Name": "Calliope",
+		"Author": "Cheshyre",
+		"BPM": 200,
+		"StartOffset": 0.04,
+		"Sound": "sounds/music/calliope.ogg"
+	},
+	{
+		"Name": "Chicken Dance",
+		"Author": "DJ Birdie",
+		"BPM": 139,
+		"StartOffset": 0.163,
+		"Sound": "sounds/music/madness_1.ogg"
+	},
+	{
+		"Name": "Clown song of Death",
+		"Author": "Cheshyre",
+		"BPM": 200,
+		"StartOffset": 0,
+		"Sound": "sounds/music/clown_song_of_death.ogg"
+	},
+	{
+		"Name": "Come to Blows",
+		"Author": "Lothyde",
+		"BPM": 100,
+		"StartOffset": 0.056,
+		"Sound": "sounds/music/Lothyde/come_to_blows.ogg"
+	},
+	{
+		"Name": "Deaths Flashing Before My Eyes",
+		"Author": "Lothyde",
+		"BPM": 143,
+		"StartOffset": 0.103,
+		"Sound": "sounds/music/Lothyde/deaths_flashing_before_my_eyes.ogg"
+	},
+	{
+		"Name": "Emergence",
+		"Author": "Lothyde",
+		"BPM": 115,
+		"StartOffset": 7.279,
+		"Sound": "sounds/music/Lothyde/emergence.ogg"
+	},
+	{
+		"Name": "Fancy Fiddle",
+		"Author": "Arthur Smith",
+		"BPM": 96.5,
+		"StartOffset": 4.755,
+		"Sound": "sounds/music/fancy_fiddle.ogg"
+	}, 
+	{
+		"Name": "From the Outset",
+		"Author": "Lothyde",
+		"BPM": 110,
+		"StartOffset": 26.258,
+		"Sound": "sounds/music/Lothyde/from_the_outset.ogg"
+	},
+	{
+		"Name": "Incident 001a",
+		"Author": "Meonly70",
+		"BPM": 160,
+		"StartOffset": 0.031,
+		"Sound": "sounds/music/incident_001a.ogg"
+	},
+	{
+		"Name": "incident_010a",
+		"Author": "Meonly70",
+		"BPM": 146,
+		"StartOffset": 16.475,
+		"Sound": "sounds/music/incident_010a.ogg"
+	},
+	{
+		"Name": "Jazzed Madness Overture",
+		"Author": "Lothyde",
+		"BPM": 110,
+		"StartOffset": 0,
+		"Sound": "sounds/music/Lothyde/jazzed_madness_overture.ogg"
+	},
+	{
+		"Name": "Living on the Edge (feat. MonoCronic)",
+		"Author": "Lothyde & MonoCronic",
+		"BPM": 130,
+		"StartOffset": 73.966,
+		"Sound": "sounds/music/Lothyde/living_on_the_edge_(feat_monocronic).ogg"
+	},
+	{
+		"Name": "Madness Combat 4",
+		"Author": "Cheshyre",
+		"BPM": 145,
+		"StartOffset": 0,
+		"Sound": "sounds/music/madness_4.ogg"
+	},
+	{
+		"Name": "Madness Combat 5",
+		"Author": "Cheshyre",
+		"BPM": 170,
+		"StartOffset": 0.031,
+		"Sound": "sounds/music/madness_5_a.ogg"
+	},
+	{
+		"Name": "Madness Combat 6",
+		"Author": "API",
+		"BPM": 180,
+		"StartOffset": 1.095,
+		"Sound": "sounds/music/api_madness.ogg"
+	},
+	{
+		"Name": "Madness Combat 6.5",
+		"Author": "Cheshyre",
+		"BPM": 130,
+		"StartOffset": 0,
+		"Sound": "sounds/music/madness_6.5.ogg"
+	},
+	{
+		"Name": "Madness Combat 7",
+		"Author": "Cheshyre",
+		"BPM": 200,
+		"StartOffset": 47.552,
+		"Sound": "sounds/music/madness_7.ogg"
+	},
+	{
+		"Name": "Madness Combat 9.5",
+		"Author": "Cheshyre",
+		"BPM": 140,
+		"StartOffset": 0,
+		"Sound": "sounds/music/madness_9.5.ogg"
+	},
+	{
+		"Name": "Monks",
+		"Author": "Mmodule",
+		"BPM": 100,
+		"StartOffset": 0,
+		"Sound": "sounds/music/monks.ogg"
+	},
+	{
+		"Name": "Precarious State",
+		"Author": "Lothyde",
+		"BPM": 144,
+		"StartOffset": 13.515,
+		"Sound": "sounds/music/Lothyde/precarious_state.ogg"
+	},
+	{
+		"Name": "Splitmek",
+		"Author": "Mmodule",
+		"BPM": 103,
+		"StartOffset": 0,
+		"Sound": "sounds/music/splitmek.ogg"
+	},
+	{
+		"Name": "Strenuous",
+		"Author": "Lothyde",
+		"BPM": 145,
+		"StartOffset": 0,
+		"Sound": "sounds/music/Lothyde/strenuous.ogg"
+	},
+	{
+		"Name": "Train Madness",
+		"Author": "Cheshyre",
+		"BPM": 116,
+		"StartOffset": 0,
+		"Sound": "sounds/music/trainmadness.ogg"
+	},
+	{
+		"Name": "Underachiever (feat. Cheshyre)",
+		"Author": "Lothyde",
+		"BPM": 64,
+		"StartOffset": 0,
+		"Sound": "sounds/music/Lothyde/underachiever_(feat_cheshyre).ogg"
+	},
+	{
+		"Name": "Unusual Tranquillity",
+		"Author": "Lothyde",
+		"BPM": 110,
+		"StartOffset": 0,
+		"Sound": "sounds/music/Lothyde/unusual_tranquillity.ogg"
+	},
+	{
+		"Name": "WARNING: PARTY IMMINENT",
+		"Author": "Lothyde",
+		"BPM": 140,
+		"StartOffset": 0.126,
+		"Sound": "sounds/music/Lothyde/warning_party_imminent.ogg"
+	}
+]

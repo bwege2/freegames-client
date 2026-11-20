@@ -186,6 +186,7 @@ def extract_monsters():
             "glyph": glyph["char"],
             "colour": glyph.get("colour", "LIGHTGREY"),
             "flags": data.get("flags") or [],
+            "holiness": data.get("holiness") or ["natural"],
             "attacks": data.get("attacks") or [],
             "hd": int(data.get("hd", 1)),
             "hp": int(data.get("hp_10x", 0)) / 10,
@@ -292,7 +293,22 @@ def extract_items():
     for heading, body in desc.items():
         if heading.startswith(("potion of ", "scroll of ", "wand of ", "ring of ", "amulet of ", "talisman of ")):
             names[heading] = body
-    return {"weapons": weapons, "armour": armour, "names": names}
+    missiles = []
+    # { MI_DART, "dart", 0, 12, 3 },
+    for m in re.finditer(r"\{\s*(MI_[A-Z0-9_]+),\s*\"(.*?)\",\s*(\d+),\s*(\d+),\s*(\d+)\s*\}", text):
+        missiles.append({
+            "id": m.group(1), "name": m.group(2), "damage": int(m.group(3)),
+            "mulch": int(m.group(4)), "price": int(m.group(5)),
+            "description": desc.get(m.group(2).lower(), ""),
+        })
+    books = []
+    book_text = read(os.path.join(SRC, "book-data.h"))
+    for m in re.finditer(r"\{\s*//\s*Book of ([^\n]+)\n(.*?)\n\},", book_text, re.S):
+        title = m.group(1).strip()
+        spells = re.findall(r"(SPELL_[A-Z0-9_]+)", m.group(2))
+        if spells:
+            books.append({"name": "book of " + title, "title": title, "spells": spells})
+    return {"weapons": weapons, "armour": armour, "missiles": missiles, "books": books, "names": names}
 
 
 # --------------------------------------------------------------------------------------- features
@@ -335,6 +351,23 @@ def extract_branches():
                 "short": m.group(11), "long": m.group(12), "abbr": m.group(13),
             })
     return branches
+
+
+# --------------------------------------------------------------------------------------- mutations
+def extract_mutations():
+    text = read(os.path.join(SRC, "mutation-data.h"))
+    out = []
+    for m in re.finditer(r"\{\s*(MUT_[A-Z0-9_]+),\s*(\d+),\s*(\d+),\s*([^,]+),\s*\"((?:[^\"\\\\]|\\\\.)*)\",\s*\{(.*?)\},\s*\{(.*?)\},\s*\{(.*?)\},", text, re.S):
+        strings = lambda block: [x.replace('\\\\"', '"') for x in re.findall(r'"((?:[^"\\\\]|\\\\.)*)"', block)]
+        have = strings(m.group(6))
+        gain = strings(m.group(7))
+        lose = strings(m.group(8))
+        out.append({
+            "id": m.group(1), "weight": int(m.group(2)), "levels": int(m.group(3)),
+            "flags": re.findall(r"mutflag::(\w+)", m.group(4)),
+            "short": m.group(5), "have": have, "gain": gain, "lose": lose,
+        })
+    return out
 
 
 # --------------------------------------------------------------------------------------- skills
@@ -390,8 +423,9 @@ def main():
     branches = extract_branches()
     skills = extract_skills()
     tutorial = extract_tutorial()
+    mutations = extract_mutations()
     descriptions = {}
-    for f in ("species", "backgrounds", "monsters", "items", "spells", "skills", "tutorial", "features", "branches"):
+    for f in ("species", "backgrounds", "monsters", "items", "spells", "skills", "tutorial", "features", "branches", "gods"):
         try:
             d = parse_pct_blocks(os.path.join(SRC, "dat", "descript", f + ".txt"))
             descriptions[f] = {k: strip_markup(v) for k, v in d.items()}
@@ -408,6 +442,7 @@ def main():
     write("branches.json", branches)
     write("skills.json", skills)
     write("tutorial.json", tutorial)
+    write("mutations.json", mutations)
     write("descript.json", descriptions)
     print(f"species={len(species)} jobs={len(jobs)} monsters={len(monsters)} spells={len(spells)} "
           f"weapons={len(items['weapons'])} armour={len(items['armour'])} features={len(features)}")

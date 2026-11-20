@@ -5,6 +5,9 @@ import {
 } from './data.ts';
 import type { Item } from './model.ts';
 import { armourDef, itemFromSpec, itemName, makeArmour, makeWeapon, weaponChoices, weaponDef } from './items.ts';
+import { startingPiety } from './religion.ts';
+import { makeAppearances, type Appearances } from './appearance.ts';
+import { Rng } from './rng.ts';
 
 export const MAX_SKILL_LEVEL = 27;
 export const MIN_START_STAT = 3;
@@ -85,6 +88,19 @@ export interface Player {
   elapsed: number;
   place: string;
   god: string | null;
+  /** Item types the player has identified, by item id (item-name.cc type_is_identified). */
+  identifiedTypes: Record<string, boolean>;
+  /** you.item_description: the per-game appearances (ng-init.cc). */
+  appearances: Appearances;
+  /** religion.h MAX_PIETY: 0..200; piety_breakpoint() gives the six star ranks. */
+  piety: number;
+  pietyMax: number;
+  /** religion.cc `_gain_piety_point`: gifts shorten later piety gains. */
+  giftTimeout: number;
+  /** religion.cc player_under_penance: pays piety before it can rise again. */
+  penance: number;
+  /** religion.cc elyvilon_divine_vigour: ATTR_DIVINE_VIGOUR, +5% HP/MP per point. */
+  divineVigour: number;
   lives: number;
   status: Record<string, number>;
   nextUid: number;
@@ -108,7 +124,13 @@ export function skillOf(p: Player, key: string, scale = 1): number {
   if (apt <= -99) return 0;
   const st = p.skills[key];
   if (!st) return 0;
-  const level = skillLevelFor(st.points, apt);
+  let level = skillLevelFor(st.points, apt);
+  // player.cc player::skill: Heroism adds five levels to every mundane skill.
+  // SK_LAST_MUNDANE is SK_UNARMED_COMBAT (skill-type.h, tag 34).
+  if ((p.status.DUR_HEROISM ?? 0) > 0
+      && SKILL_ORDER.indexOf(key) <= SKILL_ORDER.indexOf('unarmed_combat')) {
+    level = Math.min(MAX_SKILL_LEVEL, level + 5);
+  }
   if (level >= MAX_SKILL_LEVEL) return level * scale;
   const prev = skillExpNeeded(level, apt);
   const next = skillExpNeeded(level + 1, apt);
@@ -125,9 +147,22 @@ export function statBonus(p: Player, stat: 'str' | 'int' | 'dex'): number {
   };
   return ring(p.gear.ring1) + ring(p.gear.ring2);
 }
-export function strength(p: Player): number { return Math.max(1, p.baseStats[0] + statBonus(p, 'str') + ((p.status.DUR_MIGHT ?? 0) > 0 ? 5 : 0)); }
-export function intelligence(p: Player): number { return Math.max(1, p.baseStats[1] + statBonus(p, 'int')); }
-export function dexterity(p: Player): number { return Math.max(1, p.baseStats[2] + statBonus(p, 'dex')); }
+export function strength(p: Player): number {
+  // mutation-data.h MUT_STRONG/MUT_CLEVER/MUT_AGILE: +4 to one stat, -1 to the others per level.
+  const strong = mutationLevel(p, 'MUT_STRONG');
+  return Math.max(1, p.baseStats[0] + statBonus(p, 'str')
+    + 4 * strong - mutationLevel(p, 'MUT_CLEVER') - mutationLevel(p, 'MUT_AGILE')
+    + ((p.status.DUR_MIGHT ?? 0) > 0 ? 5 : 0)
+    + ((p.status.DUR_BERSERK ?? 0) > 0 ? 5 : 0));
+}
+export function intelligence(p: Player): number {
+  return Math.max(1, p.baseStats[1] + statBonus(p, 'int')
+    + 4 * mutationLevel(p, 'MUT_CLEVER') - mutationLevel(p, 'MUT_STRONG') - mutationLevel(p, 'MUT_AGILE'));
+}
+export function dexterity(p: Player): number {
+  return Math.max(1, p.baseStats[2] + statBonus(p, 'dex')
+    + 4 * mutationLevel(p, 'MUT_AGILE') - mutationLevel(p, 'MUT_STRONG') - mutationLevel(p, 'MUT_CLEVER'));
+}
 
 export function unadjustedBodyArmourPenalty(p: Player): number {
   const b = p.gear.body;
@@ -157,6 +192,10 @@ export function recalc(p: Player): void {
   hp = Math.trunc(hp * (10 + p.species.mods.hp) / 10);
   hp += mutationLevel(p, 'MUT_FLAT_HP') * 4;
   hp = Math.trunc(hp * (100 + mutationLevel(p, 'MUT_ROBUST') * 10 - mutationLevel(p, 'MUT_FRAIL') * 10) / 100);
+  // player.cc calc_hp: berserk multiplies hit points by 3/2, divine vigour by
+  // (100 + 5 * ATTR_DIVINE_VIGOUR) / 100.
+  if ((p.status.DUR_BERSERK ?? 0) > 0) hp = Math.trunc(hp * 3 / 2);
+  hp = Math.trunc(hp * (100 + p.divineVigour * 5) / 100);
   p.hpMax = Math.max(1, hp);
 
   let mp = 0;
@@ -172,6 +211,7 @@ export function recalc(p: Player): void {
     enp = Math.trunc(enp * (100 + mutationLevel(p, 'MUT_HIGH_MAGIC') * 10 - mutationLevel(p, 'MUT_LOW_MAGIC') * 10) / (100 * scale));
     enp += p.species.mods.mp;
     enp = Math.max(0, enp);
+    enp = Math.trunc(enp * (100 + p.divineVigour * 5) / 100);
     mp = enp;
   }
   p.mpMax = mp;
@@ -323,14 +363,21 @@ function addMutations(p: Player): void {
   for (const [m, lvl] of Object.entries(p.species.mutations)) p.mutations[m] = Math.max(p.mutations[m] ?? 0, lvl);
 }
 
-export function createPlayer(species: SpeciesDef, job: JobDef, weaponId: string, name: string, rng?: { int(n: number): number; choose<T>(a: T[]): T }): Player {
+export function createPlayer(species: SpeciesDef, job: JobDef, weaponId: string, name: string, rng?: Rng): Player {
   const p: Player = {
     name: name.slice(0, 30) || 'Adventurer',
     species, job, x: 0, y: 0, hp: 1, hpMax: 1, mp: 0, mpMax: 0, gold: 0, xl: 1, xp: 0,
     baseStats: [species.stats[0] + job.stats[0], species.stats[1] + job.stats[1], species.stats[2] + job.stats[2]],
     skills: {}, skillOrder: {}, inventory: [], gear: emptyGear(), knownSpells: [], memorised: [],
     mutations: {}, turns: 0, elapsed: 0, place: 'Dungeon:1', god: null, lives: 1, status: {}, nextUid: 1,
+    piety: 0, pietyMax: 0, giftTimeout: 0, penance: 0, divineVigour: 0,
+    identifiedTypes: {}, appearances: makeAppearances(rng ?? new Rng(1n)),
   };
+  // ng-setup.cc give_items_skills: a Berserker starts as a worshipper of Trog with 35 piety.
+  const start = startingPiety(job.name);
+  p.god = start.god;
+  p.piety = start.piety;
+  p.pietyMax = start.piety;
   addMutations(p);
   // _unfocus_stats
   for (let i = 0; i < 3; i++) {

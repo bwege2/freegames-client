@@ -7,6 +7,7 @@ import { DIRS, dist, inBounds, xy, idx, FEATURE } from './model.ts';
 import { SPELL_BY_ID, SPELL_BY_NAME, MONSTER_BY_NAME } from './data.ts';
 import { monsterAt } from './world.ts';
 import type { CombatCtx } from './combat.ts';
+import { pietyRank } from './religion.ts';
 
 export function spellPower(p: Player, spellId: string): number {
   const spell = SPELL_BY_ID.get(spellId);
@@ -38,11 +39,23 @@ export function rawSpellFail(p: Player, spellId: string): number {
   c2 -= 2 * (p.mutations.MUT_SUBDUED_MAGIC ?? 0);
   c2 += 4 * (p.mutations.MUT_WILD_MAGIC ?? 0);
   if ((p.status.DUR_VERTIGO ?? 0) > 0) c2 += 7;
+  // spl-cast.cc _apply_spellcasting_success_boosts: Vehumet's 3* passive multiplies
+  // the failure rate of supported spells by 2/3 (god-passive.cc spells_success).
+  if (p.god === 'GOD_VEHUMET' && pietyRank(p.piety) >= 3 && vehumetSupportsSpell(spellId)) {
+    c2 = Math.trunc(c2 * 2 / 3);
+  }
   return Math.min(100, Math.max(0, c2));
 }
 
 export function spellManaCost(spellId: string): number {
   return SPELL_BY_ID.get(spellId)?.level ?? 0;
+}
+
+/** god-abil.cc vehumet_supports_spell: conjurations and destructive spells. */
+export function vehumetSupportsSpell(spellId: string): boolean {
+  const s = SPELL_BY_ID.get(spellId);
+  if (!s) return false;
+  return s.schools.includes('conjuration') || s.flags.includes('destructive');
 }
 
 export function spellName(spellId: string): string {
@@ -97,11 +110,26 @@ function damageSpell(ctx: MagicCtx, spellId: string, target: Monster, dice: numb
   trainSkill(p, 'spellcasting', 2);
 }
 
+/** zap-data.h dicedef_calculator<num, adder, mult_num, mult_denom>. */
+function zapDice(rng: { dice(n: number, s: number): number }, pow: number,
+  num: number, adder: number, mulNum: number, mulDenom: number): number {
+  return rng.dice(num, Math.max(1, adder + Math.trunc(pow * mulNum / mulDenom)));
+}
+
+/** The spells whose effects the port implements (README.md lists the deviations). */
+export const IMPLEMENTED_SPELLS = new Set([
+  'SPELL_MAGIC_DART', 'SPELL_SHOCK', 'SPELL_FREEZE', 'SPELL_SANDBLAST', 'SPELL_SEARING_RAY',
+  'SPELL_POISONOUS_VAPOURS', 'SPELL_SCORCH', 'SPELL_KINETIC_GRAPNEL', 'SPELL_KISS_OF_DEATH',
+  'SPELL_FOXFIRE', 'SPELL_BLINK', 'SPELL_SUMMON_SMALL_MAMMAL', 'SPELL_HIBERNATION', 'SPELL_CONFUSE',
+  'SPELL_CONFUSING_TOUCH', 'SPELL_SWIFTNESS', 'SPELL_INNER_FLAME',
+]);
+
 export function castSpell(ctx: MagicCtx, spellId: string): string | null {
   const { rng, player: p, level } = ctx;
   const spell = SPELL_BY_ID.get(spellId);
   if (!spell) return 'You don\'t know that spell.';
   if (!p.memorised.includes(spellId)) return 'You haven\'t memorised that spell.';
+  if (!IMPLEMENTED_SPELLS.has(spellId)) return 'That spell is not implemented in this port.';
   const cost = spellManaCost(spellId);
   if (!hasMutation(p, 'MUT_HP_CASTING') && p.mp < cost) return 'You don\'t have enough magic to cast that spell.';
   if (rawSpellFail(p, spellId) > rng.int(100)) {
@@ -114,16 +142,20 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
   if (!hasMutation(p, 'MUT_HP_CASTING')) p.mp -= cost;
   else { p.hp -= Math.max(1, Math.trunc(cost / 2)); }
   const dir = ctx.direction;
-  const range = Math.max(1, Math.min(8, spell.rangeMax > 0 ? spell.rangeMax : 8));
+  let range = Math.max(1, Math.min(8, spell.rangeMax > 0 ? spell.rangeMax : 8));
+  // spl-util.cc spell_range: Vehumet's 4* passive adds one tile to supported spells.
+  if (p.god === 'GOD_VEHUMET' && pietyRank(p.piety) >= 4 && spell.rangeMax > 1
+      && vehumetSupportsSpell(spellId)) {
+    range = Math.min(8, range + 1);
+  }
   const autoTarget = !dir && !spell.flags.includes('selfench') && !spell.flags.includes('escape');
   const target = autoTarget ? nearestVisible(ctx, range) : null;
-  const name = spell.name;
   switch (spellId) {
     case 'SPELL_MAGIC_DART': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
       if (!t) return 'There is nothing in that direction.';
-      const power = spellPower(p, spellId);
-      const damage = rng.dice(1, 3 + Math.trunc(power / 1000));
+      // zap-data.h ZAP_MAGIC_DART: dicedef_calculator<1, 3, 1, 5>.
+      const damage = zapDice(rng, spellPower(p, spellId), 1, 3, 1, 5);
       t.hp -= damage; t.asleep = false; t.known = true;
       ctx.msg(`The magic dart hits the ${t.name}.`);
       if (t.hp <= 0) { t.hp = 0; ctx.msg(`You kill the ${t.name}!`, 'LIGHTGREEN'); ctx.onMonsterKilled(t); }
@@ -133,31 +165,40 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
     case 'SPELL_SHOCK': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
       if (!t) return 'There is nothing in that direction.';
-      damageSpell(ctx, spellId, t, 1, 3, false);
+      // zap-data.h ZAP_SHOCK: dicedef_calculator<1, 3, 1, 4>.
+      const dmg = zapDice(rng, spellPower(p, spellId), 1, 3, 1, 4);
+      t.hp -= dmg; t.asleep = false; t.known = true;
+      ctx.msg(`The zap hits the ${t.name}.`);
+      if (t.hp <= 0) { t.hp = 0; ctx.msg(`You kill the ${t.name}!`, 'LIGHTGREEN'); ctx.onMonsterKilled(t); }
       break;
     }
     case 'SPELL_FREEZE': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], 1)[0] : null);
       if (!t) return 'There is nothing adjacent to freeze.';
-      damageSpell(ctx, spellId, t, 1, 5, false);
+      // zap-data.h ZAP_FREEZE: dicedef_calculator<1, 3, 3, 10>.
+      damageSpell(ctx, spellId, t, 1, 3 + Math.trunc(spellPower(p, spellId) * 3 / 10), false);
       break;
     }
     case 'SPELL_SANDBLAST': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
       if (!t) return 'There is nothing in that direction.';
-      damageSpell(ctx, spellId, t, 1, 4);
+      // zap-data.h ZAP_SANDBLAST: dicedef_calculator<2, 4, 1, 3>.
+      damageSpell(ctx, spellId, t, 2, 4 + Math.trunc(spellPower(p, spellId) / 3));
       break;
     }
     case 'SPELL_SEARING_RAY': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
       if (!t) return 'There is nothing in that direction.';
-      damageSpell(ctx, spellId, t, 1, 6);
+      // zap-data.h ZAP_SEARING_RAY: calcdice_calculator<2, 9, 1, 7>.
+      const max = 9 + Math.trunc(spellPower(p, spellId) / 7);
+      damageSpell(ctx, spellId, t, 2, Math.max(1, Math.trunc(max / 2)));
       break;
     }
     case 'SPELL_POISONOUS_VAPOURS': {
       const t = target ?? nearestVisible(ctx, range);
       if (!t) return 'There is nothing in that direction.';
-      damageSpell(ctx, spellId, t, 1, 3, false);
+      // spl-damage.cc poisonous_vapours_damage: dice_def(1, 1 + pow / 8).
+      damageSpell(ctx, spellId, t, 1, 1 + Math.trunc(spellPower(p, spellId) / 8), false);
       t.poisoned = Math.max(t.poisoned, 4 + rng.int(4));
       ctx.msg(`The ${t.name} is poisoned.`, 'LIGHTGREEN');
       break;
@@ -165,7 +206,9 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
     case 'SPELL_SCORCH': {
       const t = nearestVisible(ctx, range);
       if (!t) return 'There is nothing nearby to scorch.';
-      damageSpell(ctx, spellId, t, 2, 4, false);
+      // spl-damage.cc scorch_damage: calc_dice(2, 10 + pow / 6).
+      const max = 10 + Math.trunc(spellPower(p, spellId) / 6);
+      damageSpell(ctx, spellId, t, 2, Math.max(1, rng.divRandRound(max, 2)));
       break;
     }
     case 'SPELL_SOUL_SPLINTER': {
@@ -177,20 +220,25 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
     case 'SPELL_KINETIC_GRAPNEL': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
       if (!t) return 'There is nothing in that direction.';
-      damageSpell(ctx, spellId, t, 1, 4);
+      // zap-data.h ZAP_KINETIC_GRAPNEL: dicedef_calculator<1, 4, 4, 25>.
+      damageSpell(ctx, spellId, t, 1, 4 + Math.trunc(spellPower(p, spellId) * 4 / 25));
       break;
     }
     case 'SPELL_KISS_OF_DEATH': {
       const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], 1)[0] : null);
       if (!t) return 'There is nothing adjacent.';
-      damageSpell(ctx, spellId, t, 1, 4, false);
-      p.hp = Math.max(1, p.hp - 1);
+      // zap-data.h ZAP_KISS_OF_DEATH: calcdice_calculator<2, 11, 3, 5>.
+      let max = 11 + Math.trunc(spellPower(p, spellId) * 3 / 5);
+      max = Math.min(max, 26); // caps at 2d13
+      damageSpell(ctx, spellId, t, 2, Math.max(1, Math.trunc(max / 2)), false);
+      p.mp = 0; // spl-cast.cc _apply_post_zap_effect: drain_player(100, ...)
       break;
     }
     case 'SPELL_FOXFIRE': {
       const t = nearestVisible(ctx, 3);
       if (!t) return 'There is nothing nearby.';
-      const dmg = 1 + rng.int(4);
+      // zap-data.h ZAP_FOXFIRE: dicedef_calculator<1, 4, 1, 5>.
+      const dmg = zapDice(rng, spellPower(p, spellId), 1, 4, 1, 5);
       t.hp -= dmg;
       ctx.msg(`The foxfire burns the ${t.name}.`);
       if (t.hp <= 0) { t.hp = 0; ctx.msg(`You kill the ${t.name}!`, 'LIGHTGREEN'); ctx.onMonsterKilled(t); }
@@ -230,10 +278,9 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
       const t = target ?? nearestVisible(ctx, range);
       if (!t) return 'There is nothing in that direction.';
       if (t.hp <= 0) return null;
-      if (rng.int(100) < 50 + Math.trunc(spellPower(p, spellId) / 100)) {
-        t.asleep = true;
-        ctx.msg(`The ${t.name} falls asleep.`, 'LIGHTBLUE');
-      } else ctx.msg(`The ${t.name} resists.`);
+      // beam.cc BEAM_SLEEP: random_range(4, 7) turns.
+      t.asleep = true;
+      ctx.msg(`The ${t.name} falls asleep.`, 'LIGHTBLUE');
       break;
     }
     case 'SPELL_CONFUSE':
@@ -258,19 +305,8 @@ export function castSpell(ctx: MagicCtx, spellId: string): string | null {
       ctx.msg(`The ${t.name} is filled with inner flame.`, 'LIGHTRED');
       break;
     }
-    default: {
-      // The port implements a generic effect for the remaining starting spells: a direct damage
-      // spell of the spell's level, or a self-enchantment.
-      if (spell.flags.includes('selfench') || spell.rangeMax < 0) {
-        p.status[`DUR_${spellId.replace(/^SPELL_/, '')}`] = 15 + rng.int(20);
-        ctx.msg(`You cast ${name}.`, 'LIGHTGREEN');
-      } else {
-        const t = target ?? (dir ? beamMonsters(level, p, dir[0], dir[1], range)[0] : null);
-        if (!t) return 'There is nothing in that direction.';
-        damageSpell(ctx, spellId, t, 1, 3 + spell.level);
-      }
-      break;
-    }
+    default:
+      return 'That spell is not implemented in this port.';
   }
   return null;
 }

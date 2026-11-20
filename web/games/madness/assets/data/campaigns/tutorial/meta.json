@@ -1,0 +1,14 @@
+{
+  "id": "tutorial",
+  "name": "Training program",
+  "author": "Studio Minus",
+  "thumbnail": "data/campaigns/tutorial/thumb.png",
+  "description": "This program will equip you with the necessary skills to combat the enemies of our organization. Your performance will be closely monitored. Failure is not an option.",
+  "order": -1,
+  "levels": [
+    "tut_move",
+    "tut_pickupshoot",
+    "tut_dodging",
+    "tut_melee"
+  ]
+}

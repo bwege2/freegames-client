@@ -5,10 +5,11 @@ import { BRANCHES, BRANCH_BY_ID, BRANCH_INDEX, MONSTER_BY_ID, MONSTERS, POPULATI
 import type { Rng } from './rng.ts';
 import { LEVELGEN } from './rng.ts';
 import {
-  ALTARS, BRANCH_ENTRANCE_FEATURE, DIRS, FEATURE, H, LOS_RADIUS, W, idx, inBounds, type Cell, type ItemOnFloor,
-  type Level, type Monster, type Stair, xy,
+  ALTARS, BRANCH_ENTRANCE_FEATURE, DIRS, FEATURE, H, LOS_RADIUS, W, idx, inBounds, type Cell,
+  type ItemOnFloor, type Level, type Monster, type Shop, type Stair, xy,
 } from './model.ts';
 import { randomItem } from './items.ts';
+import { makeShop, SHOP_TYPES } from './shops.ts';
 
 export interface World {
   seed: string;
@@ -290,7 +291,7 @@ function spawnMonster(rng: Rng, level: Level, branch: string, depth: number, at:
 function spawnItem(rng: Rng, level: Level, depth: number, at: number): void {
   const item = randomItem(rng, depth);
   const existing = level.items.find((x) => x.at === at && x.item.cls === item.cls && x.item.id === item.id && x.item.cls !== 'gold');
-  if (existing && (item.cls === 'potion' || item.cls === 'scroll')) { existing.item.qty += item.qty; return; }
+  if (existing && (item.cls === 'potion' || item.cls === 'scroll' || item.cls === 'missile')) { existing.item.qty += item.qty; return; }
   level.items.push({ at, item });
 }
 
@@ -333,8 +334,102 @@ function populate(level: Level, rng: Rng, branch: string, depth: number): void {
   }
 }
 
-function reachable(level: Level, start: number): Set<number> {
-  const seen = new Set<number>();
+/** traps.cc trap_rate_for_place: 1 + env.absdepth0 / 10, none in the Temple. */
+export function trapRateForPlace(branch: string, absDepth: number): number {
+  if (branch === 'BRANCH_TEMPLE') return 0;
+  return 1 + Math.trunc((absDepth - 1) / 10);
+}
+
+/** traps.cc is_valid_shaft_level: not the bottom of a branch. */
+function validShaftLevel(branch: string, depth: number): boolean {
+  return (branchInfo(branch).depth || 1) - depth >= 1;
+}
+
+/** traps.cc random_trap_for_place: the 0.34 weights and depth gates. */
+export function randomTrapForPlace(rng: Rng, branch: string, absDepth: number): string | null {
+  const depth0 = absDepth - 1;
+  if (branch === 'BRANCH_ZOT' && rng.coinflip()) return 'TRAP_ZOT';
+  if (rng.int(1 + depth0) > 14 && rng.oneChanceIn(3)) return 'TRAP_ZOT';
+  const shaftOk = validShaftLevel(branch, absDepth - (branchInfo(branch).absDepth || 0));
+  const alarmOk = depth0 > 3;
+  const tyrantOk = ['BRANCH_ORC', 'BRANCH_SNAKE', 'BRANCH_VAULTS'].includes(branch);
+  const archmageOk = ['BRANCH_SNAKE', 'BRANCH_ELF', 'BRANCH_DEPTHS'].includes(branch);
+  const harlequinOk = ['BRANCH_DEPTHS', 'BRANCH_ZOT'].includes(branch);
+  const devourerOk = branch === 'BRANCH_SLIME';
+  const weights: [number, string | null][] = [
+    [4, 'TRAP_DISPERSAL'], [5, 'TRAP_TELEPORT'], [shaftOk ? 4 : 0, 'TRAP_SHAFT'],
+    [alarmOk ? 5 : 0, 'TRAP_ALARM'], [tyrantOk ? 3 : 0, 'TRAP_TYRANT'],
+    [archmageOk ? 3 : 0, 'TRAP_ARCHMAGE'], [harlequinOk ? 2 : 0, 'TRAP_HARLEQUIN'],
+    [devourerOk ? 2 : 0, 'TRAP_DEVOURER'],
+  ];
+  const total = weights.reduce((n, [w]) => n + w, 0);
+  if (!total) return null;
+  let r = rng.int(total);
+  for (const [w, id] of weights) {
+    if (r < w) return id;
+    r -= w;
+  }
+  return null;
+}
+
+/** traps.cc `trap_def::prepare_ammo`: teleport traps are one-shot, Golubria has 10-19. */
+function trapAmmo(rng: Rng, type: string): number {
+  if (type === 'TRAP_GOLUBRIA') return 10 + rng.int(10);
+  if (type === 'TRAP_TELEPORT') return 1;
+  return 0;
+}
+
+/** traps.cc place_traps/dgn `_place_traps`: random2avg(2 * rate, 2) traps. */
+function placeTraps(level: Level, rng: Rng, branch: string, depth: number): void {
+  const rate = trapRateForPlace(branch, level.absDepth);
+  if (!rate) return;
+  let count = rng.intAvg(2 * rate, 2);
+  if (branch === 'BRANCH_SNAKE') count += 2;
+  else if (branch === 'BRANCH_VAULTS') count += 1;
+  for (let i = 0; i < count; i++) {
+    let at = -1;
+    for (let tries = 0; tries < 200; tries++) {
+      const x = rng.int(W), y = rng.int(H);
+      if (!inBounds(x, y)) continue;
+      const n = idx(x, y);
+      if (!floorCell(level, n)) continue;
+      if (level.traps.some((t) => t.at === n)) continue;
+      if (level.monsters.some((m) => m.hp > 0 && m.x === x && m.y === y)) continue;
+      if ([...level.up, ...level.down, ...level.branches].some((s) => s.at === n)) continue;
+      at = n;
+      break;
+    }
+    if (at < 0) break;
+    const type = randomTrapForPlace(rng, branch, level.absDepth);
+    if (!type) continue;
+    level.traps.push({ at, type, ammo: trapAmmo(rng, type), known: true });
+  }
+  void depth;
+}
+
+/**
+ * Shops. The original places shops from vaults; the port has no vaults, so a shop
+ * appears on some Dungeon levels. Its greed and stock follow shopping.cc/dungeon.cc.
+ */
+function placeShops(level: Level, rng: Rng, branch: string, depth: number): void {
+  if (branch !== DUNGEON || depth < 2 || !rng.oneChanceIn(6)) return;
+  for (let tries = 0; tries < 200; tries++) {
+    const x = rng.int(W), y = rng.int(H);
+    if (!floorCell(level, idx(x, y))) continue;
+    const at = idx(x, y);
+    if (at === level.entry) continue;
+    if (level.traps.some((t) => t.at === at)) continue;
+    if ([...level.up, ...level.down, ...level.branches].some((s) => s.at === at)) continue;
+    if (level.monsters.some((m) => m.hp > 0 && m.x === x && m.y === y)) continue;
+    const type = rng.choose(SHOP_TYPES);
+    const { greed, stock } = makeShop(rng, type, Math.max(0, level.absDepth - 1));
+    const shop: Shop = { at, type, greed, stock };
+    level.shops.push(shop);
+    return;
+  }
+}
+
+function reachable(level: Level, start: number): Set<number> {  const seen = new Set<number>();
   const q = [start];
   seen.add(start);
   while (q.length) {
@@ -360,7 +455,7 @@ export function generateLevel(rng: Rng, branch: string, depth: number, schedule:
   return rng.withStream(index, () => {
     const cells: Cell[] = Array.from({ length: W * H }, () => ({ feat: 'DNGN_ROCK_WALL', known: false, visible: false }));
     const level: Level = {
-      key, branch, depth, absDepth: absDepth(branch, depth), cells, monsters: [], items: [],
+      key, branch, depth, absDepth: absDepth(branch, depth), cells, monsters: [], items: [], traps: [], shops: [],
       up: [], down: [], branches: [], visited: true, entry: 0, layout: branch === 'BRANCH_TEMPLE' ? 'temple' : 'rooms',
     };
     if (branch === 'BRANCH_TEMPLE') {
@@ -380,6 +475,8 @@ export function generateLevel(rng: Rng, branch: string, depth: number, schedule:
     addPools(level, rng, branch);
     addStairs(level, rng, branch, depth, schedule);
     populate(level, rng, branch, depth);
+    placeTraps(level, rng, branch, depth);
+    placeShops(level, rng, branch, depth);
     if (branch === 'BRANCH_ZOT' && depth === 5) {
       const at = randomFloor(rng, level, 800, { x: level.entry % W, y: Math.floor(level.entry / W), min: 10, max: 70 });
       level.items.push({ at, item: { uid: 1, cls: 'misc', id: 'Orb of Zot', qty: 1, plus: 0, ego: 'normal', charges: 0, identified: true } });

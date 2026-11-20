@@ -1,0 +1,25 @@
+{
+  "id": "cartlife",
+  "title": "Cart Life",
+  "tagline": "A street vendor's life in grayscale — not ported: its soundtrack and font are not free.",
+  "summary": [
+    "Cart Life (2011) is Richard Hofmeier's street-vendor life simulation: three vendors — Melanie, Andrus and Vinny — run their carts in a grayscale city while rent, stock, family and health press in on them. The game won the IGF 2013 Seumas McNally Grand Prix, the Nuovo Award and the Excellence in Narrative award.",
+    "This is not a port. The 2014 source release's own license covers the code and the pixel art, but expressly excludes the soundtrack and the HOOGE font; the music is CC BY-NC-SA, CC BY-NC-ND or all rights reserved, and the font is a commercial font licensed for personal use only. The project ships only games whose code and every asset are free for any use including commercial, so the port stops at the assessment in LICENSE.md."
+  ],
+  "original": {
+    "author": "Richard Hofmeier; music by Lo-Bat, Mat64, Pocketmaster and STU; HOOGE font by Nikolay Dubina and Craig Kroeger",
+    "year": 2011,
+    "platform": "Windows (Adventure Game Studio 3.4.0)",
+    "version": "Open Sores 0.1 (2017-06-30)",
+    "license": "Cart Life's Free License (code and art); music CC BY-NC-SA / CC BY-NC-ND / all rights reserved; HOOGE font proprietary — not free as a whole",
+    "packageBytes": 92362455,
+    "url": "https://sourceforge.net/projects/cartlife/files/OpenSores_0.1/"
+  },
+  "players": "1",
+  "genres": [],
+  "modes": ["single"],
+  "controls": [],
+  "screenshots": [],
+  "listed": false,
+  "caveat": "Not ported: the license assessment found that the soundtrack and the HOOGE font are not free, so a 1:1 port cannot ship. See LICENSE.md."
+}

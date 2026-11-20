@@ -8,8 +8,8 @@
 // The clone of the public repository lives in $FREEGAMES_SOURCE_DIR (default ~/.cache/freegames-client);
 // $FREEGAMES_SOURCE_REMOTE publishes to another repository (a test).
 import { execFileSync } from 'node:child_process';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { homedir } from 'node:os';
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { homedir, tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SOURCE_PATHS, SOURCE_REMOTE, SOURCE_URL, sourceFiles } from './source-paths.mjs';
@@ -57,9 +57,23 @@ else git(dir, 'checkout', '-q', '--orphan', 'main');
 // the tree becomes exactly the release's files
 try { git(dir, 'rm', '-rqf', '--ignore-unmatch', '.'); } catch { /* an empty repository has nothing to remove */ }
 git(dir, 'clean', '-fdxq');
-// exactly the files of sourceFiles (the closed games' are not among them), not the whole of SOURCE_PATHS
-const tar = execFileSync('git', ['archive', '--format=tar', commit, '--', ...files], { cwd: repo, maxBuffer: 1 << 30 });
-execFileSync('tar', ['-x', '-C', dir], { input: tar, maxBuffer: 1 << 20 });
+// the archive of the source paths; the closed games' files are pruned below (a release has tens of thousands
+// of files, and one argument per file exceeds the system's limit: E2BIG)
+// straight to a file: a release's assets are hundreds of megabytes, too much to hold in a pipe
+const tarFile = join(tmpdir(), `freegames-source-${process.pid}.tar`);
+execFileSync('git', ['archive', '--format=tar', '-o', tarFile, commit, '--', ...SOURCE_PATHS], { cwd: repo, maxBuffer: 1 << 28 });
+execFileSync('tar', ['-x', '-f', tarFile, '-C', dir], { maxBuffer: 1 << 20 });
+rmSync(tarFile, { force: true });
+const keep = new Set(files);
+const prune = (abs, rel) => {
+  for (const e of readdirSync(abs, { withFileTypes: true })) {
+    if (!rel && e.name === '.git') continue;
+    const a = join(abs, e.name), r = rel ? `${rel}/${e.name}` : e.name;
+    if (e.isDirectory()) prune(a, r);
+    else if (!keep.has(r)) rmSync(a);
+  }
+};
+prune(dir, '');
 writeFileSync(join(dir, 'README.md'), readFileSync(join(web, 'SOURCE.md'), 'utf8'));
 git(dir, 'add', '-A');
 const name = git(repo, 'config', 'user.name').trim(), email = git(repo, 'config', 'user.email').trim();

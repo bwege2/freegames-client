@@ -1,0 +1,11 @@
+{
+  "Name": "Player",
+  "Allies": [
+    "player"
+  ],
+  "Enemies": [
+    "aahw",
+    "rogue",
+    "zed"
+  ]
+}

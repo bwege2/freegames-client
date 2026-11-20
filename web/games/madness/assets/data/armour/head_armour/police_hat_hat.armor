@@ -1,0 +1,11 @@
+0.48.6
+
+name Police hat
+type HeadAccessory
+left textures/bodies/hats/police_hat/police_hat_left.png
+right textures/bodies/hats/police_hat/police_hat_right.png
+texture-scale 1
+category Hat
+detach False
+hidden False
+offset 0 -111

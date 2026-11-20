@@ -1,0 +1,12 @@
+0.48.6
+
+name Visor 3
+type HeadAccessory
+left textures/bodies/eyes/visor3/visor3_left.png
+right textures/bodies/eyes/visor3/visor3_right.png
+texture-scale 1
+category Eyes
+detach False
+hidden False
+offset-left 10 12
+offset-right 7 12

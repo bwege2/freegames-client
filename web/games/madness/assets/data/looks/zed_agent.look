@@ -1,0 +1,13 @@
+﻿0.36.5
+
+name Zed Agent
+
+body
+   agent_suit_body
+
+head
+   zed_head
+   black_agent_glasses_eyes
+
+hands zed
+blood #ff0000

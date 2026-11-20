@@ -1,0 +1,12 @@
+0.48.5
+
+name Agent glasses
+type HeadAccessory
+left textures/bodies/eyes/black_agent_glasses/black_agent_glasses_left.png
+right textures/bodies/eyes/black_agent_glasses/black_agent_glasses_right.png
+texture-scale 1
+category Eyes
+detach True
+hidden False
+offset 78 -2
+damage-size 0

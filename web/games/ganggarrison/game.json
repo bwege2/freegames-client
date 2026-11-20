@@ -1,0 +1,24 @@
+{
+  "id": "ganggarrison",
+  "title": "Gang Garrison 2",
+  "tagline": "Not shipped: the assets are Valve's Team Fortress 2 and Cave Story's.",
+  "summary": [
+    "This is an assessment folder, not a port. Gang Garrison 2's code is MPL-2.0, but its nine classes, several maps and two music tracks are Valve's Team Fortress 2, and its secret class is Cave Story's Quote/Curly.",
+    "The project ships only games whose code and every asset are free for any use including commercial, compatible with GPL-3.0+, and without trademark problems; those assets are not. LICENSE.md records the file-by-file assessment, and re/ganggarrison/NOTES.md has the sources and raw findings."
+  ],
+  "original": {
+    "author": "Faucet Software (mrfredman, MedO, Synnah)",
+    "year": 2008,
+    "platform": "Windows (GameMaker 8)",
+    "version": "2.9.2",
+    "license": "MPL-2.0 (code); assets not free for this project (see LICENSE.md)",
+    "packageBytes": 0,
+    "url": "https://github.com/Gang-Garrison-2/Gang-Garrison-2"
+  },
+  "players": "2–32 online",
+  "genres": [],
+  "modes": ["online"],
+  "controls": [],
+  "screenshots": [],
+  "listed": false
+}

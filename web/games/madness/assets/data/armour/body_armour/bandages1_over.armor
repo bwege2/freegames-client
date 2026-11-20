@@ -1,0 +1,13 @@
+0.50.0
+
+name Bandages 1
+type BodyAccessory
+left textures/bodies/body2/bandages1/bandages1_left.png
+right textures/bodies/body2/bandages1/bandages1_right.png
+texture-scale 1
+category All
+detach False
+hidden False
+damage-size 1
+offset-left 4 17
+offset-right 3 23

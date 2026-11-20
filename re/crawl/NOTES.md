@@ -26,6 +26,9 @@ missing.
 `tools/extract.py` writes `web/games/crawl/src/data/*.json`; it is deterministic and can be rerun after
 `fetch.sh` and a build (the generated headers need the original's `-builddb`; `oracle/build.sh` does
 it). The original's texts are kept verbatim apart from HTML-like markup stripping for the tutorial.
+The extractor now also reads `monsters.json`'s `holiness` (from `dat/mons/*.yaml`), the missile table
+`Missile_prop` and the 69 fixed books of `book-data.h` (`items.json`), and the 213 entries of
+`mutation-data.h` (`mutations.json`).
 
 ## Oracle and comparisons
 
@@ -75,12 +78,24 @@ Done and verified in this round: the license check, data extraction, the charact
 the 97-sheet comparison, RNG, levels/branches/population, movement/combat/monsters, items/spells/skills,
 save/load, morgue/score, tutorial lesson 1, the page and its screenshots/favicon, and the tests.
 
+This round added, with source comments and tests: gods and religion for six gods (`religion.ts`,
+ability.cc/religion.cc/god-conduct.cc/god-abil.cc), traps (traps.cc), shops (shopping.cc, dungeon.cc
+greed and stock sizes), ranged weapons and throwing (ranged-attack.cc, throw.cc, fight.cc,
+zap-data.h), item appearances and identification (ng-init.cc, item-name.cc), spellbooks
+(book-data.h), exact `zap-data.h` damage dice for the implemented spells, and mutation-data.h's table
+with the stat mutations and the potion of mutation sequence.
+
 Next, if someone goes on:
 
-1. Port the original's layouts (`dgn-layouts.cc`, `dungeon.cc`) and the Lua vault builder, then compare
-   map cells and monster/item placement with `debug.goto_place`/`test.regenerate_level`/`debug.dump_map`
-   for a set of seeds; `re/crawl/oracle` can drive those already (`scripts/genlevel.lua`).
-2. Gods, traps, shops and the remaining branches; item identification and spellbooks; ranged combat.
-3. The rest of the tutorial lessons and their triggers; the original's start menu and options.
+1. **The original's dungeon generation.** This is still the largest gap and it was not attempted beyond
+   the assessment above. It needs `dungeon.cc`'s builder pipeline, `dgn-layouts.cc`, the Lua layout
+   library (`dat/dlua/layout/*.lua`, 6,914 lines), a Lua VM and the `.des`/vault loader (197,022 lines
+   of vault data), plus monster/item/trap placement. Without all of it a seed's levels cannot match.
+   The honest comparison target would be `debug.dump_map`/`test.regenerate_level` for D:1-D:3; the
+   port currently has no map golden.
+2. The remaining 17 gods (including gifts, wrath and passives), the rest of the trap effects (monster
+   buffs, corrosion), portals/portal vaults, shop doors/keepers, monster ranged attacks, the rest of
+   the spells, most of the 213 mutations' effects.
+3. Tutorial lessons 2-5 and their Lua triggers.
 4. A real full-session oracle (keys + screen hashes) once the maps match; the current oracle records
-   character sheets only.
+   character sheets and the first screen only.

@@ -1,0 +1,109 @@
+{
+  "id": "madness",
+  "title": "Madness Interactive Reloaded",
+  "tagline": "Grunts, agents, a train and a very rich boss: fight your way through the whole campaign, one room at a time.",
+  "summary": [
+    "Madness Interactive Reloaded (Studio Minus, 2024; version 0.51.1) is a fast side-on shooter in the style of the Madness Combat animations: you walk through rooms full of grunts and agents, shoot, dodge, punch, block with swords, pick up the weapons of the fallen and throw them, until enough bodies lie on the floor and the exit opens.",
+    "This port translates the game's C# logic line by line: the procedural animation of every character (body, head, hands, feet, recoil, iron sights), the enemies' aiming, panic, dodging and melee, the weapons with their damage, accuracy, recoil and ammunition, bullets that pass through bodies, bounce off blades and armour, the melee combos, the death animations and ragdolls, the levels with their doors, spawners and body counts, and the campaign's progress, kept in your account.",
+    "It plays the whole campaign \"Employee of the Month\" with its cutscenes, the train, the boss fights and the training program, plus the incident mode (a random run of incident levels with a kill target), the experiment mode (a sandbox where you place characters and weapons), the improbability disks hidden in the levels, the character customisation and the settings, all with the original data, graphics, sounds, videos and music."
+  ],
+  "original": {
+    "author": "Studio Minus (zooi, duston, Dikkiedik, Koof; music by Lothyde)",
+    "year": 2024,
+    "platform": "C#/.NET with the Walgelijk engine (Windows, Linux)",
+    "version": "0.51.1-beta",
+    "license": "GPL-3.0, version 3 only (code and data); fonts SIL OFL 1.1",
+    "packageBytes": 631965374,
+    "url": "https://github.com/studio-minus/madness-interactive-reloaded"
+  },
+  "players": "1",
+  "genres": [
+    "Arcade",
+    "Side-scroller"
+  ],
+  "modes": [
+    "single"
+  ],
+  "added": "2026-11-16",
+  "controls": [
+    {
+      "input": "A / D",
+      "action": "Walk left / right"
+    },
+    {
+      "input": "Mouse",
+      "action": "Aim"
+    },
+    {
+      "input": "Left button",
+      "action": "Shoot (or punch and strike when unarmed or holding a melee weapon)"
+    },
+    {
+      "input": "Right button",
+      "action": "Iron sights; block and deflect with a blade"
+    },
+    {
+      "input": "Middle button",
+      "action": "Melee attack with the weapon in hand"
+    },
+    {
+      "input": "Space",
+      "action": "Jump dodge"
+    },
+    {
+      "input": "E",
+      "action": "Pick up the weapon nearest to the mouse"
+    },
+    {
+      "input": "F",
+      "action": "Throw the weapon"
+    },
+    {
+      "input": "Shift / Q / Ctrl",
+      "action": "Abilities (when a character or disk gives you one)"
+    },
+    {
+      "input": "R",
+      "action": "Retry after dying; in the experiment: revive"
+    },
+    {
+      "input": "Esc",
+      "action": "Pause menu"
+    },
+    {
+      "input": "Tab",
+      "action": "Experiment mode: edit (place characters and weapons with a click)"
+    },
+    {
+      "input": "Hold Esc",
+      "action": "Skip a cutscene"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The main menu"
+    },
+    {
+      "file": "playing.png",
+      "caption": "The first level of Employee of the Month: the burning house"
+    },
+    {
+      "file": "incident.png",
+      "caption": "Incident mode: the first level of a random incident, with the victims still to go"
+    }
+  ],
+  "links": [
+    {
+      "label": "Madness Interactive Reloaded on GitHub",
+      "url": "https://github.com/studio-minus/madness-interactive-reloaded"
+    }
+  ],
+  "caveat": "Not ported: the level and campaign editors, the mod menu, the arena mode (switched off in the original too) and parts of the experiment mode's editing windows; the gore is simpler than the original's. The full game is large (about 630 MB): backgrounds, music and videos load while you play.",
+  "lazyAssets": [
+    "assets/textures/backgrounds/**",
+    "assets/textures/level_thumbnails/**",
+    "assets/sounds/music/**",
+    "assets/video/**"
+  ]
+}

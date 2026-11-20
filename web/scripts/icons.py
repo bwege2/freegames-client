@@ -285,6 +285,13 @@ def i_nogravity(S):
     return clip(place(base, art, (S * 0.02, S * 0.2, S * 0.96, S * 0.6)), S)
 
 
+def i_madness(S):
+    # the grunt's head (textures/bodies/default/head_right.png of Madness Interactive Reloaded, GPL-3.0) on red and black
+    art = Image.open(G('madness', 'assets', 'textures', 'bodies', 'default', 'head_right.png')).convert('RGBA')
+    base = tile(S, '#120000', top='#8a0b0b')
+    return clip(place(base, art, (S * 0.1, S * 0.08, S * 0.8, S * 0.84)), S)
+
+
 def i_freecol(S):
     # FreeCol's own icon, the ship (data/freecol.png), on the sea
     art = Image.open(G('freecol', 'assets', 'data', 'freecol.png')).convert('RGBA')
@@ -586,6 +593,13 @@ def i_supertux(S):
     # ice-blue tile of Icy Island's first level
     art = Image.open(orig('supertux', 'orig', 'SuperTux-v0.6.3-Source', 'data', 'images', 'engine', 'icons', 'supertux-256x256.png')).convert('RGBA')
     base = tile(S, '#245a8f', top='#7fb6e6')
+    return clip(place(base, trim(art), (S * 0.03, S * 0.03, S * 0.94, S * 0.94)), S)
+
+
+def i_endlesssky(S):
+    # the original's program icon (icons/icon_512x512.png, GPL-3.0-or-later), on the game's dark space blue
+    art = Image.open(G('endlesssky', 'icon-source.png')).convert('RGBA')
+    base = tile(S, '#05070d', top='#16233f')
     return clip(place(base, trim(art), (S * 0.03, S * 0.03, S * 0.94, S * 0.94)), S)
 
 

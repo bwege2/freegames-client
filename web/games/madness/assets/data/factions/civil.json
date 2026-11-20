@@ -1,0 +1,9 @@
+{
+    "Name": "Civil",
+    "Allies": [
+        "civil"
+    ],
+    "Enemies": [
+        "zeds"
+    ]
+}

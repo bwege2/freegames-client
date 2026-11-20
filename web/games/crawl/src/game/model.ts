@@ -87,6 +87,24 @@ export const FEATURE: Record<string, Feature> = {
 
 export const ALTARS = Object.keys(FEATURE).filter((k) => k.startsWith('DNGN_ALTAR_'));
 
+/** trap-type.h and feature-data.h TRAP() entries; the console glyph is DCHAR_TRAP. */
+export const TRAP_INFO: Record<string, { name: string; colour: string }> = {
+  TRAP_TELEPORT: { name: 'teleport trap', colour: 'LIGHTBLUE' },
+  TRAP_TELEPORT_PERMANENT: { name: 'permanent teleport trap', colour: 'LIGHTBLUE' },
+  TRAP_DISPERSAL: { name: 'dispersal trap', colour: 'MAGENTA' },
+  TRAP_SHAFT: { name: 'shaft', colour: 'BROWN' },
+  TRAP_ALARM: { name: 'alarm trap', colour: 'LIGHTRED' },
+  TRAP_NET: { name: 'net trap', colour: 'LIGHTCYAN' },
+  TRAP_WEB: { name: 'web', colour: 'LIGHTGREY' },
+  TRAP_ZOT: { name: 'Zot trap', colour: 'LIGHTMAGENTA' },
+  TRAP_TYRANT: { name: "tyrant's trap", colour: 'WHITE' },
+  TRAP_ARCHMAGE: { name: "archmage's trap", colour: 'BLUE' },
+  TRAP_HARLEQUIN: { name: "harlequin's trap", colour: 'YELLOW' },
+  TRAP_DEVOURER: { name: "devourer's trap", colour: 'LIGHTGREEN' },
+  TRAP_PLATE: { name: 'pressure plate', colour: 'LIGHTCYAN' },
+  TRAP_GOLUBRIA: { name: 'passage of Golubria', colour: 'GREEN' },
+};
+
 export const BRANCH_ENTRANCE_FEATURE: Record<string, string> = {
   TEMPLE: 'DNGN_ENTER_TEMPLE', LAIR: 'DNGN_ENTER_LAIR', ORC: 'DNGN_ENTER_ORC',
   ELF: 'DNGN_ENTER_ELF', VAULTS: 'DNGN_ENTER_VAULTS', DEPTHS: 'DNGN_ENTER_DEPTHS',
@@ -100,9 +118,27 @@ export const FEATURE_BRANCH: Record<string, string> = Object.fromEntries(
 export interface Cell { feat: string; known: boolean; visible: boolean }
 export interface Stair { at: number; branch: string; depth: number; up: boolean }
 
+/** shopping.cc shop_struct: the keeper's greed and stock, placed on one cell. */
+export interface Shop {
+  at: number;
+  type: string;
+  greed: number;
+  stock: Item[];
+}
+
+/** traps.cc trap_def: the type, its remaining ammo and whether the player has seen it. */
+export interface Trap {
+  at: number;
+  type: string;
+  ammo: number;
+  known: boolean;
+  /** dispersal traps go dormant for a few turns (traps.cc temp_change_terrain). */
+  dormant?: number;
+}
+
 export interface Item {
   uid: number;
-  cls: 'weapon' | 'armour' | 'potion' | 'scroll' | 'wand' | 'ring' | 'amulet' | 'book' | 'misc' | 'gold';
+  cls: 'weapon' | 'armour' | 'missile' | 'potion' | 'scroll' | 'wand' | 'ring' | 'amulet' | 'book' | 'misc' | 'gold';
   id: string;
   qty: number;
   plus: number;
@@ -110,6 +146,8 @@ export interface Item {
   charges: number;
   identified: boolean;
   name?: string;
+  /** The spells in a spellbook (book-data.h). */
+  spells?: string[];
 }
 
 export interface Monster {
@@ -143,6 +181,8 @@ export interface Level {
   cells: Cell[];
   monsters: Monster[];
   items: ItemOnFloor[];
+  traps: Trap[];
+  shops: Shop[];
   up: Stair[];
   down: Stair[];
   branches: Stair[];
