@@ -1,0 +1,45 @@
+{
+  "id": "crawl",
+  "title": "Dungeon Crawl Stone Soup",
+  "tagline": "Take one adventurer into the Dungeon, find the Orb of Zot, and come back alive.",
+  "summary": [
+    "Dungeon Crawl Stone Soup is the roguelike of the Dungeon: one character, fifteen levels of rooms, vaults and corridors, then the Lair of Beasts, the Orcish Mines, the Vaults, the Depths and the five levels of Zot. Every species and background changes what the character can do; every weapon, armour, potion, scroll, wand and spell is found, not bought. Death is permanent, and the score list remembers.",
+    "Linley Henzell wrote the original Dungeon Crawl in 1997; the Stone Soup team has developed it since 2006. Version 0.34.1 (March 2026) is the reference here: its species, backgrounds, monsters, items, spells, skills, descriptions and numbers are the original's, converted from the source archive.",
+    "This is a tested core of that game in TypeScript, not the whole 434,000-line program. Character creation, the Dungeon and its branches, movement, melee combat, monsters, items, spells, skills and leveling, stairs and save/load work and are checked against the original; the dungeon layouts are the port's own, the later branches, gods and many special vaults are not in it. README.md lists exactly what is compared and what is missing."
+  ],
+  "original": {
+    "author": "Linley Henzell, the dev team, and the contributors",
+    "year": 1997,
+    "platform": "C++ (Windows, macOS, Linux; console and tiles)",
+    "version": "0.34.1",
+    "license": "GPL-2.0-or-later",
+    "packageBytes": 30041776,
+    "url": "https://github.com/crawl/crawl"
+  },
+  "players": "1",
+  "genres": ["Roguelike"],
+  "modes": ["single"],
+  "added": "2026-11-19",
+  "controls": [
+    { "input": "h j k l y u b n, arrow keys, 1-9", "action": "Move or attack in that direction" },
+    { "input": "H J K L Y U B N", "action": "Run in that direction until something happens" },
+    { "input": "g or ,", "action": "Pick up what is under you" },
+    { "input": "i, e or w, c, d", "action": "Inventory, equip/wield/wear, take off, drop" },
+    { "input": "q, r, z, M, V", "action": "Quaff a potion, read a scroll, cast a spell, memorise a spell, zap a wand" },
+    { "input": "> and <", "action": "Take the stairs down or up (branch entrances too)" },
+    { "input": "o, R, x", "action": "Auto-explore, rest, look around" },
+    { "input": "m, C or @, ?", "action": "Skills, character sheet, all commands" },
+    { "input": "S, Q", "action": "Save and leave (Play continues), quit without saving" }
+  ],
+  "screenshots": [
+    { "file": "title.png", "caption": "The title screen" },
+    { "file": "dungeon.png", "caption": "A Human Fighter on the first level of the Dungeon" },
+    { "file": "inventory.png", "caption": "The inventory and a starting kit" },
+    { "file": "character.png", "caption": "The character sheet with skills" }
+  ],
+  "caveat": "A tested core, not the whole game: the dungeon layouts, vaults, gods, traps, shops, ranged combat and most special branches are not ported, and the later branches have a simpler population. Character creation and the data are checked against the original 0.34.1; see README.md.",
+  "links": [
+    { "label": "Dungeon Crawl Stone Soup", "url": "https://crawl.develz.org/" },
+    { "label": "The original's source", "url": "https://github.com/crawl/crawl" }
+  ]
+}

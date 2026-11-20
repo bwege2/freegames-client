@@ -1,0 +1,6 @@
+# downloaded by fetch.sh and unpacked there; never committed
+orig/
+work/
+# the natively built oracle (oracle/build.sh)
+oracle/crawl-oracle
+oracle/run/

@@ -1,0 +1,96 @@
+{
+  "id": "supertux",
+  "title": "SuperTux",
+  "tagline": "Tux the penguin jumps, swims and slides through the ice world of Icy Island.",
+  "summary": [
+    "SuperTux is a jump-and-run game: Tux runs, jumps, ducks, slides down slopes, swims, bounces off trampolines and throws fire or ice at the creatures of Icy Island. Snowballs, jumping snowmen, ice blocks, bombs, stalactites and the Yeti at the end of the world stand between him and the end of the level.",
+    "The port follows SuperTux 0.6.3 (2021), the last 0.6.x release: the original's 27 Icy Island levels and its worldmap, converted from the game's own files, its physics checked step by step against the original binary built headless, and its graphics, music and sounds taken from the release.",
+    "Two players can play together on one computer: the second player joins with A/D/W/S/F, or with a second gamepad."
+  ],
+  "original": {
+    "author": "SuperTux Team (originally Bill Kendrick, Ingo Ruhnke, Matthias Braun)",
+    "year": 2000,
+    "platform": "C++/SDL (Linux, Windows, macOS)",
+    "version": "0.6.3 (2021-12-22), the last 0.6.x release",
+    "license": "GPL-3.0-or-later; data under GPL-2.0-or-later, CC-BY-SA-3.0/4.0 and per-file free licences",
+    "packageBytes": 182065428,
+    "url": "https://www.supertux.org/"
+  },
+  "players": "1–2 (local co-op, shared keyboard or gamepads)",
+  "genres": [
+    "Side-scroller"
+  ],
+  "modes": [
+    "single",
+    "multi"
+  ],
+  "added": "2026-11-19",
+  "controls": [
+    {
+      "input": "Left / Right (player 2: A / D)",
+      "action": "Walk, run (hold), skid"
+    },
+    {
+      "input": "Space (player 2: W)",
+      "action": "Jump; hold for a higher jump"
+    },
+    {
+      "input": "Down (player 2: S)",
+      "action": "Duck, and in the air butt-jump"
+    },
+    {
+      "input": "Ctrl / Alt / C (player 2: F)",
+      "action": "Shoot fire or ice with a flower; hold with Down to turn to stone with an earth flower"
+    },
+    {
+      "input": "Up",
+      "action": "Climb a ladder, look up"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause menu: resume, restart, back to the worldmap, quit"
+    },
+    {
+      "input": "Arrow keys, Enter",
+      "action": "Worldmap: choose an unlocked level and play it; in menus: choose"
+    },
+    {
+      "input": "Gamepads",
+      "action": "The first pad plays as player 1, the second as player 2 (D-pad/left stick, A jump, X action)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The title menu over the Icy Island artwork"
+    },
+    {
+      "file": "journey.png",
+      "caption": "The first level: a snowball on the way to the end"
+    },
+    {
+      "file": "worldmap.png",
+      "caption": "Icy Island's worldmap with the levels"
+    }
+  ],
+  "links": [
+    {
+      "label": "SuperTux",
+      "url": "https://www.supertux.org/"
+    },
+    {
+      "label": "The original's source and data (0.6.3)",
+      "url": "https://github.com/SuperTux/supertux/releases/tag/v0.6.3"
+    }
+  ],
+  "lazyAssets": [
+    "assets/levels/**",
+    "assets/music/**",
+    "assets/sounds/**",
+    "assets/images/creatures/**",
+    "assets/images/background/**",
+    "assets/images/worldmap/**",
+    "assets/images/decal/**"
+  ],
+  "caveat": "Honest note: the physics, level loading and the objects the levels use are checked against the original; the Squirrel scripts are only partly interpreted (lifts, switches, doors and level switching work; lighting fades, wind and the story cutscenes are shortened), the worldmap is a level map instead of the original's tile-by-tile walking and lets you choose any level, and some later objects (the Yeti's full fight, secret-area rooms) are simplified. README.md lists exactly what is missing."
+}

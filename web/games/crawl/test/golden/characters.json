@@ -1,0 +1,2136 @@
+[
+ {
+  "title": "Covered",
+  "species": ".#             Armataur",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 7,
+  "ev": 6,
+  "sh": 4,
+  "str": 21,
+  "int": 8,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Armataur",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Covered",
+  "species": ".#             Barachi",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 17,
+  "int": 8,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Barachi",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Coglin",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 16,
+  "int": 7,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier {Otto}",
+  "species_name": "Coglin",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Gusty",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Apothecary",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 4,
+  "int": 22,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Digger",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Deep Elf",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 13,
+  "int": 12,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Deep Elf",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Firebug",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   7,
+   7
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 18,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Deep Elf",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Grave Robber",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Deep Elf",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Caller",
+  "species": ".#             Deep Elf",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   6,
+   6
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 5,
+  "int": 19,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Deep Elf",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Demigod",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 17,
+  "int": 10,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Demigod",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Demonspawn",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 16,
+  "int": 8,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Demonspawn",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 6,
+  "int": 19,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Djinni",
+  "hp": [
+   20,
+   20
+  ],
+  "mp": null,
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 15,
+  "int": 9,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Djinni",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 9,
+  "int": 15,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Djinni",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Djinni",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Djinni",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": null,
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 16,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Djinni",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Felid",
+  "hp": [
+   12,
+   12
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 1,
+  "ev": 17,
+  "sh": 0,
+  "str": 12,
+  "int": 11,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Felid",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Formicid",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 20,
+  "int": 7,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Formicid",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Gusty",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Apothecary",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 10,
+  "sh": 0,
+  "str": 10,
+  "int": 18,
+  "dex": 8,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Digger",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Gargoyle",
+  "hp": [
+   14,
+   14
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 9,
+  "ev": 8,
+  "sh": 4,
+  "str": 19,
+  "int": 8,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Gargoyle",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Firebug",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 4,
+  "ev": 10,
+  "sh": 0,
+  "str": 13,
+  "int": 14,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Gargoyle",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Grave Robber",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Gargoyle",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Caller",
+  "species": ".#             Gargoyle",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 15,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Gargoyle",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Gnoll",
+  "hp": [
+   23,
+   23
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 7,
+  "ev": 8,
+  "sh": 5,
+  "str": 15,
+  "int": 7,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Gnoll",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Gusty",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Apothecary",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Charlatan",
+  "species": ".#             Human",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 3,
+  "ev": 10,
+  "sh": 0,
+  "str": 12,
+  "int": 11,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 club",
+  "species_name": "Human",
+  "job_name": "Artificer"
+ },
+ {
+  "title": "Cutter",
+  "species": ".#             Human of Trog *.....",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 17,
+  "int": 7,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 short sword",
+  "species_name": "Human",
+  "job_name": "Berserker"
+ },
+ {
+  "title": "Sneak",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 3,
+  "ev": 10,
+  "sh": 0,
+  "str": 11,
+  "int": 11,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+2 dagger",
+  "species_name": "Human",
+  "job_name": "Brigand"
+ },
+ {
+  "title": "Cutter",
+  "species": ".#             Human of Xom ..*...",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 5,
+  "ev": 10,
+  "sh": 0,
+  "str": 12,
+  "int": 12,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 short sword (chaos)",
+  "species_name": "Human",
+  "job_name": "Chaos Knight"
+ },
+ {
+  "title": "Firebug",
+  "species": ".#             Human of Ignis *****.",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 2,
+  "ev": 10,
+  "sh": 0,
+  "str": 14,
+  "int": 14,
+  "dex": 8,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "-1 short sword (flame)",
+  "species_name": "Human",
+  "job_name": "Cinder Acolyte"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 18,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Sneak",
+  "species": "..#++              Human",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 3,
+  "ev": 11,
+  "sh": 0,
+  "str": 12,
+  "int": 10,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:5",
+  "weapon": "+0 short sword",
+  "species_name": "Human",
+  "job_name": "Delver"
+ },
+ {
+  "title": "Digger",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Vexing",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+1 dagger",
+  "species_name": "Human",
+  "job_name": "Enchanter"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Human",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 16,
+  "int": 8,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Human",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Firebug",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Tinkerer",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 hammer",
+  "species_name": "Human",
+  "job_name": "Forgewright"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 4,
+  "ev": 11,
+  "sh": 0,
+  "str": 14,
+  "int": 8,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Human",
+  "job_name": "Gladiator"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 10,
+  "int": 14,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Human",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Vexing",
+  "species": ".#             Human",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 13,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+1 sling",
+  "species_name": "Human",
+  "job_name": "Hexslinger"
+ },
+ {
+  "title": "Shooter",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 3,
+  "ev": 11,
+  "sh": 0,
+  "str": 11,
+  "int": 9,
+  "dex": 16,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 shortbow",
+  "species_name": "Human",
+  "job_name": "Hunter"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Human **....",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 2,
+  "ev": 12,
+  "sh": 0,
+  "str": 11,
+  "int": 10,
+  "dex": 15,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 short sword",
+  "species_name": "Human",
+  "job_name": "Monk"
+ },
+ {
+  "title": "Grave Robber",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Human",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 3,
+  "ev": 10,
+  "sh": 0,
+  "str": 12,
+  "int": 13,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 short sword",
+  "species_name": "Human",
+  "job_name": "Reaver"
+ },
+ {
+  "title": "Ruffian",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 14,
+  "int": 10,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Shapeshifter"
+ },
+ {
+  "title": "Caller",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Human",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Human",
+  "hp": [
+   13,
+   13
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 2,
+  "ev": 10,
+  "sh": 0,
+  "str": 10,
+  "int": 13,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Human",
+  "job_name": "Wanderer"
+ },
+ {
+  "title": "Grasshopper",
+  "species": ".#             Human",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 3,
+  "ev": 10,
+  "sh": 0,
+  "str": 11,
+  "int": 13,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 short sword",
+  "species_name": "Human",
+  "job_name": "Warper"
+ },
+ {
+  "title": "Trooper",
+  "species": "Kobold",
+  "hp": [
+   14,
+   14
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 9,
+  "sh": 4,
+  "str": 13,
+  "int": 9,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Kobold",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Merfolk",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 16,
+  "int": 7,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Merfolk",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Minotaur",
+  "hp": [
+   19,
+   19
+  ],
+  "mp": [
+   0,
+   0
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 20,
+  "int": 5,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Minotaur",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Mountain Dwarf",
+  "hp": [
+   19,
+   19
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 18,
+  "int": 8,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Mountain Dwarf",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Mummy",
+  "hp": [
+   18,
+   18
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 19,
+  "int": 7,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Mummy",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Sneak",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Apothecary",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 9,
+  "int": 18,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Sneak",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Naga",
+  "hp": [
+   21,
+   21
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 4,
+  "ev": 6,
+  "sh": 4,
+  "str": 18,
+  "int": 8,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Naga",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Sneak",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Sneak",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 12,
+  "int": 14,
+  "dex": 10,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Naga",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Grave Robber",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Naga",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Caller",
+  "species": ".#             Naga",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   3,
+   3
+  ],
+  "ac": 1,
+  "ev": 8,
+  "sh": 0,
+  "str": 10,
+  "int": 15,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Naga",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Octopode",
+  "hp": [
+   16,
+   16
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 1,
+  "ev": 12,
+  "sh": 4,
+  "str": 15,
+  "int": 10,
+  "dex": 11,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Octopode",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Oni",
+  "hp": [
+   24,
+   24
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 3,
+  "ev": 7,
+  "sh": 7,
+  "str": 19,
+  "int": 9,
+  "dex": 8,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Oni",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Poltergeist",
+  "hp": [
+   15,
+   15
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 4,
+  "str": 12,
+  "int": 10,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Poltergeist",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Trooper",
+  "species": ".#             Revenant",
+  "hp": [
+   19,
+   19
+  ],
+  "mp": [
+   1,
+   1
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 3,
+  "str": 19,
+  "int": 7,
+  "dex": 8,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Revenant",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Spriggan",
+  "hp": [
+   11,
+   11
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 2,
+  "ev": 16,
+  "sh": 4,
+  "str": 12,
+  "int": 9,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Spriggan",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Gusty",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Air Elementalist"
+ },
+ {
+  "title": "Apothecary",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Alchemist"
+ },
+ {
+  "title": "Conjurer",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 7,
+  "int": 18,
+  "dex": 12,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Conjurer"
+ },
+ {
+  "title": "Ducker",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Earth Elementalist"
+ },
+ {
+  "title": "Covered",
+  "species": ".#             Tengu",
+  "hp": [
+   14,
+   14
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 6,
+  "ev": 7,
+  "sh": 4,
+  "str": 16,
+  "int": 8,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Tengu",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Firebug",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Fire Elementalist"
+ },
+ {
+  "title": "Magician",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   5,
+   5
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 10,
+  "int": 14,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Tengu",
+  "job_name": "Hedge Wizard"
+ },
+ {
+  "title": "Chiller",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Ice Elementalist"
+ },
+ {
+  "title": "Grave Robber",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 dagger",
+  "species_name": "Tengu",
+  "job_name": "Necromancer"
+ },
+ {
+  "title": "Caller",
+  "species": ".#             Tengu",
+  "hp": [
+   10,
+   10
+  ],
+  "mp": [
+   4,
+   4
+  ],
+  "ac": 2,
+  "ev": 11,
+  "sh": 0,
+  "str": 8,
+  "int": 15,
+  "dex": 14,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "species_name": "Tengu",
+  "job_name": "Summoner"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Troll",
+  "hp": [
+   22,
+   22
+  ],
+  "mp": [
+   0,
+   0
+  ],
+  "ac": 4,
+  "ev": 7,
+  "sh": 7,
+  "str": 23,
+  "int": 4,
+  "dex": 9,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Troll",
+  "job_name": "Fighter"
+ },
+ {
+  "title": "Shield-Bearer",
+  "species": ".#             Vine Stalker",
+  "hp": [
+   11,
+   11
+  ],
+  "mp": [
+   2,
+   2
+  ],
+  "ac": 6,
+  "ev": 8,
+  "sh": 4,
+  "str": 18,
+  "int": 8,
+  "dex": 13,
+  "xl": 1,
+  "place": "Dungeon:1",
+  "weapon": "+0 rapier",
+  "species_name": "Vine Stalker",
+  "job_name": "Fighter"
+ }
+]

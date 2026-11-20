@@ -555,6 +555,14 @@ TERMINAL = {
 }
 
 
+def i_crawl(S):
+    # the human player tile (source/rltiles/player/base/human_m.png, CC0; assets/human_m.png), on the Dungeon's
+    # dark stone; the original's own artwork for its player
+    art = Image.open(G('crawl', 'assets', 'human_m.png')).convert('RGBA')
+    base = tile(S, '#1a1a22', top='#34303a')
+    return clip(pixel_place(base, art, 1 if S < 96 else 5), S)
+
+
 def i_kiki(S):
     # the original's own icon (win32-vc/kiki.ico, 32x32: kiki the bot, Thorsten Kohnhorst, public domain), at a whole
     # number scale on the default colour scheme's dark grey
@@ -563,6 +571,22 @@ def i_kiki(S):
     art = trim(ico.convert('RGBA'))
     base = tile(S, '#212121', top='#3a3a3a')
     return clip(pixel_place(base, art, 1 if S < 96 else 5), S)
+
+
+def i_teg(S):
+    # the original's empanada logo (client/teg_pix/teg_icono.png, GPL-2.0-only), on the map's night blue
+    art = Image.open(G('teg', 'assets', 'icon.png')).convert('RGBA')
+    art = trim(art)
+    base = tile(S, '#1d3557', top='#2f5580')
+    return clip(place(base, art, (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
+
+
+def i_supertux(S):
+    # the original's own SuperTux icon (data/images/engine/icons/supertux-256x256.png, GPL-3.0-or-later), Tux on the
+    # ice-blue tile of Icy Island's first level
+    art = Image.open(orig('supertux', 'orig', 'SuperTux-v0.6.3-Source', 'data', 'images', 'engine', 'icons', 'supertux-256x256.png')).convert('RGBA')
+    base = tile(S, '#245a8f', top='#7fb6e6')
+    return clip(place(base, trim(art), (S * 0.03, S * 0.03, S * 0.94, S * 0.94)), S)
 
 
 def i_diamondtrust(S):

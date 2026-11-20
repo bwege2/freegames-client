@@ -895,8 +895,8 @@ try {
     const drew = await g.waitForFunction(() => {
       const host = document.querySelector('.player-host');
       // a game that opens in the lobby (Netrek: its client connects only once a round starts) shows .fg-lobby;
-      // a DOM game (2048) shows .game-root
-      const el = host?.querySelector('canvas, .fg-term-page, .fg-lobby, .game-root');
+      // a DOM game draws its own root: 2048's .game-root, PokerTH's .pth-start, Typing Warriors' .tw
+      const el = host?.querySelector('canvas, .fg-term-page, .fg-lobby, .game-root, .pth-start, .tw');
       return !!el && el.getBoundingClientRect().width > 100;
     }, { timeout: 5000 }).then(() => true, () => false);
     for (const k of ['Space', 'ArrowRight', 'ArrowUp', 'Enter', 'y', 'Enter']) {
@@ -905,7 +905,20 @@ try {
     }
     await wait(500);
     const stillPlaying = await g.evaluate(() => !!document.querySelector('.player-host'));
-    if (stillPlaying) await g.click('.bar-button');
+    if (stillPlaying) {
+      await g.click('.bar-button');
+      // a game that holds the pointer (Chromium B.S.U. asks for pointer lock) takes that click to give the
+      // pointer back: click again, and press the button through the DOM if the page has not left by then
+      await wait(400);
+      const busy = await g.evaluate(() => (window.__freegames?.stats.running ?? 0) > 0);
+      if (busy) {
+        await g.click('.bar-button').catch(() => {});
+        await wait(400);
+      }
+      if (await g.evaluate(() => (window.__freegames?.stats.running ?? 0) > 0)) {
+        await g.evaluate(() => document.querySelector('.bar-button')?.click());
+      }
+    }
     // stopped (a game may take a moment, e.g. for its last save), and still on the game's page
     await g.waitForFunction(() => window.__freegames?.stats.running === 0, { timeout: 5000 }).catch(() => {});
     await wait(300);

@@ -1,0 +1,24 @@
+{
+ "messages": [
+  "Welcome, Test the Human Fighter.",
+  "Game seed: 7 (custom seed);",
+  "Press ? for a list of commands and other information.",
+  "Found a staircase leading out of the dungeon."
+ ],
+ "title": "Shield-Bearer",
+ "species": "Human",
+ "hp": [
+  18,
+  18
+ ],
+ "mp": [
+  1,
+  1
+ ],
+ "ac": 6,
+ "ev": 7,
+ "sh": 4,
+ "str": 16,
+ "int": 8,
+ "dex": 12
+}

@@ -1,0 +1,589 @@
+{
+ "name": "m2",
+ "author": "Wolfgang Morawetz",
+ "email": "wfx@users.sourceforge.net",
+ "version": "0.10.0",
+ "board": "board.jpg",
+ "boardW": 640,
+ "boardH": 382,
+ "dicePos": {
+  "x": 160,
+  "y": 278
+ },
+ "diceExt": {
+  "x1": 2,
+  "y1": 12,
+  "x2": 32,
+  "y2": 12,
+  "x3": 62,
+  "y3": 12,
+  "x4": 2,
+  "y4": 55,
+  "x5": 32,
+  "y5": 55,
+  "x6": 62,
+  "y6": 55
+ },
+ "diceText": {
+  "x1": 48,
+  "y1": 2,
+  "x2": 48,
+  "y2": 46,
+  "color": "blue"
+ },
+ "toolbar": {
+  "file": "infobar.png",
+  "textColor": "black"
+ },
+ "cards": {
+  "jocker": "tar_jocker.png",
+  "balloon": "tar_infantry.png",
+  "cannon": "tar_cannon.png",
+  "ship": "tar_horse.png"
+ },
+ "cardsPosY": 110,
+ "continents": [
+  {
+   "name": "South America",
+   "x": 52,
+   "y": 184,
+   "countries": [
+    {
+     "name": "Argentina",
+     "file": "Southamerica-Argentinia.png",
+     "x": 43,
+     "y": 73,
+     "armyX": -5,
+     "armyY": -20,
+     "w": 42,
+     "h": 97
+    },
+    {
+     "name": "Brazil",
+     "file": "Southamerica-Brasil.png",
+     "x": 31,
+     "y": 13,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 81,
+     "h": 74
+    },
+    {
+     "name": "Chile",
+     "file": "Southamerica-Chile.png",
+     "x": 28,
+     "y": 76,
+     "armyX": 0,
+     "armyY": -50,
+     "w": 22,
+     "h": 90
+    },
+    {
+     "name": "Colombia",
+     "file": "Southamerica-Colombia.png",
+     "x": 0,
+     "y": 0,
+     "armyX": -15,
+     "armyY": 0,
+     "w": 61,
+     "h": 48
+    },
+    {
+     "name": "Peru",
+     "file": "Southamerica-Peru.png",
+     "x": 5,
+     "y": 37,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 49,
+     "h": 43
+    },
+    {
+     "name": "Uruguay",
+     "file": "Southamerica-Uruguay.png",
+     "x": 63,
+     "y": 64,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 31,
+     "h": 40
+    }
+   ]
+  },
+  {
+   "name": "North America",
+   "x": 10,
+   "y": 4,
+   "countries": [
+    {
+     "name": "Mexico",
+     "file": "America-Mexico.png",
+     "x": 54,
+     "y": 125,
+     "armyX": -26,
+     "armyY": -20,
+     "w": 56,
+     "h": 60
+    },
+    {
+     "name": "California",
+     "file": "America-California.png",
+     "x": 48,
+     "y": 99,
+     "armyX": 6,
+     "armyY": -2,
+     "w": 59,
+     "h": 32
+    },
+    {
+     "name": "Oregon",
+     "file": "America-Oregon.png",
+     "x": 33,
+     "y": 77,
+     "armyX": 2,
+     "armyY": -24,
+     "w": 51,
+     "h": 59
+    },
+    {
+     "name": "New York",
+     "file": "America-Nuevayork.png",
+     "x": 79,
+     "y": 63,
+     "armyX": -14,
+     "armyY": -32,
+     "w": 62,
+     "h": 92
+    },
+    {
+     "name": "Alaska",
+     "file": "America-Alaska.png",
+     "x": 4,
+     "y": 21,
+     "armyX": 15,
+     "armyY": -30,
+     "w": 54,
+     "h": 68
+    },
+    {
+     "name": "Yukon",
+     "file": "America-Yukon.png",
+     "x": 50,
+     "y": 27,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 40,
+     "h": 53
+    },
+    {
+     "name": "Canada",
+     "file": "America-Canada.png",
+     "x": 71,
+     "y": 12,
+     "armyX": -16,
+     "armyY": 0,
+     "w": 89,
+     "h": 65
+    },
+    {
+     "name": "Terranova",
+     "file": "America-Terranova.png",
+     "x": 106,
+     "y": 57,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 45,
+     "h": 56
+    },
+    {
+     "name": "Labrador",
+     "file": "America-Labrador.png",
+     "x": 139,
+     "y": 46,
+     "armyX": -2,
+     "armyY": -2,
+     "w": 49,
+     "h": 42
+    },
+    {
+     "name": "Greenland",
+     "file": "America-Groenlandia.png",
+     "x": 149,
+     "y": 4,
+     "armyX": 30,
+     "armyY": -15,
+     "w": 116,
+     "h": 56
+    }
+   ]
+  },
+  {
+   "name": "Africa",
+   "x": 233,
+   "y": 180,
+   "countries": [
+    {
+     "name": "Sahara",
+     "file": "Africa-Sahara.png",
+     "x": 1,
+     "y": 4,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 67,
+     "h": 77
+    },
+    {
+     "name": "Zaire",
+     "file": "Africa-Zaire.png",
+     "x": 44,
+     "y": 73,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 48,
+     "h": 62
+    },
+    {
+     "name": "Etiopia",
+     "file": "Africa-Etiopia.png",
+     "x": 49,
+     "y": 52,
+     "armyX": 0,
+     "armyY": -15,
+     "w": 81,
+     "h": 66
+    },
+    {
+     "name": "Egypt",
+     "file": "Africa-Egipto.png",
+     "x": 59,
+     "y": 13,
+     "armyX": -5,
+     "armyY": -15,
+     "w": 96,
+     "h": 73
+    },
+    {
+     "name": "Madagascar",
+     "file": "Africa-Madagascar.png",
+     "x": 118,
+     "y": 113,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 34,
+     "h": 44
+    },
+    {
+     "name": "South Africa",
+     "file": "Africa-Sudafrica.png",
+     "x": 56,
+     "y": 99,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 63,
+     "h": 78
+    }
+   ]
+  },
+  {
+   "name": "Oceania",
+   "x": 479,
+   "y": 234,
+   "countries": [
+    {
+     "name": "Eastern Australia",
+     "file": "Australia-Australia.png",
+     "x": 91,
+     "y": 48,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 48,
+     "h": 89
+    },
+    {
+     "name": "Borneo",
+     "file": "Australia-Borneo.png",
+     "x": 81,
+     "y": 10,
+     "armyX": 10,
+     "armyY": 7,
+     "w": 53,
+     "h": 34
+    },
+    {
+     "name": "Western Australia",
+     "file": "Australia-Java.png",
+     "x": 48,
+     "y": 55,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 56,
+     "h": 65
+    },
+    {
+     "name": "Sumatra",
+     "file": "Australia-Sumatra.png",
+     "x": 29,
+     "y": 20,
+     "armyX": 13,
+     "armyY": -1,
+     "w": 49,
+     "h": 34
+    }
+   ]
+  },
+  {
+   "name": "Europe",
+   "x": 204,
+   "y": 1,
+   "countries": [
+    {
+     "name": "Spain",
+     "file": "Europe-Espania.png",
+     "x": 45,
+     "y": 145,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 36,
+     "h": 37
+    },
+    {
+     "name": "France",
+     "file": "Europe-Francia.png",
+     "x": 61,
+     "y": 117,
+     "armyX": 8,
+     "armyY": 5,
+     "w": 38,
+     "h": 38
+    },
+    {
+     "name": "Germany",
+     "file": "Europe-Alemania.png",
+     "x": 91,
+     "y": 90,
+     "armyX": 0,
+     "armyY": -5,
+     "w": 46,
+     "h": 64
+    },
+    {
+     "name": "Italy",
+     "file": "Europe-Italia.png",
+     "x": 89,
+     "y": 138,
+     "armyX": 0,
+     "armyY": -5,
+     "w": 51,
+     "h": 51
+    },
+    {
+     "name": "Poland",
+     "file": "Europe-Polonia.png",
+     "x": 125,
+     "y": 87,
+     "armyX": 5,
+     "armyY": 0,
+     "w": 46,
+     "h": 91
+    },
+    {
+     "name": "Russia",
+     "file": "Europe-Rusia.png",
+     "x": 144,
+     "y": 27,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 62,
+     "h": 138
+    },
+    {
+     "name": "Sweden",
+     "file": "Europe-Suecia.png",
+     "x": 97,
+     "y": 6,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 65,
+     "h": 86
+    },
+    {
+     "name": "Great Britain",
+     "file": "Europe-Grand_Bretania.png",
+     "x": 61,
+     "y": 67,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 29,
+     "h": 55
+    },
+    {
+     "name": "Iceland",
+     "file": "Europe-Islandia.png",
+     "x": 52,
+     "y": 44,
+     "armyX": 0,
+     "armyY": 0,
+     "w": 32,
+     "h": 18
+    }
+   ]
+  },
+  {
+   "name": "Asia",
+   "x": 271,
+   "y": 20,
+   "countries": [
+    {
+     "name": "Arabia",
+     "file": "Asia-Arabia.png",
+     "x": 119,
+     "y": 151,
+     "armyX": 17,
+     "armyY": 0,
+     "w": 57,
+     "h": 34
+    },
+    {
+     "name": "Israel",
+     "file": "Asia-Israel.png",
+     "x": 94,
+     "y": 179,
+     "armyX": -4,
+     "armyY": -2,
+     "w": 55,
+     "h": 43
+    },
+    {
+     "name": "Turkey",
+     "file": "Asia-Turquia.png",
+     "x": 84,
+     "y": 126,
+     "armyX": -42,
+     "armyY": 4,
+     "w": 104,
+     "h": 60
+    },
+    {
+     "name": "India",
+     "file": "Asia-India.png",
+     "x": 180,
+     "y": 164,
+     "armyX": 0,
+     "armyY": -25,
+     "w": 47,
+     "h": 82
+    },
+    {
+     "name": "Malaysia",
+     "file": "Asia-Malaysia.png",
+     "x": 226,
+     "y": 161,
+     "armyX": 5,
+     "armyY": -22,
+     "w": 57,
+     "h": 70
+    },
+    {
+     "name": "Iran",
+     "file": "Asia-Iran.png",
+     "x": 131,
+     "y": 70,
+     "armyX": -9,
+     "armyY": -25,
+     "w": 82,
+     "h": 96
+    },
+    {
+     "name": "Gobi",
+     "file": "Asia-Gobi.png",
+     "x": 191,
+     "y": 97,
+     "armyX": 4,
+     "armyY": 0,
+     "w": 59,
+     "h": 48
+    },
+    {
+     "name": "China",
+     "file": "Asia-China.png",
+     "x": 198,
+     "y": 61,
+     "armyX": 20,
+     "armyY": 20,
+     "w": 111,
+     "h": 126
+    },
+    {
+     "name": "Mongolia",
+     "file": "Asia-Mongolia.png",
+     "x": 162,
+     "y": 66,
+     "armyX": 18,
+     "armyY": 4,
+     "w": 99,
+     "h": 36
+    },
+    {
+     "name": "Siberia",
+     "file": "Asia-Siberia.png",
+     "x": 167,
+     "y": 22,
+     "armyX": 52,
+     "armyY": 5,
+     "w": 101,
+     "h": 53
+    },
+    {
+     "name": "Aral",
+     "file": "Asia-Aral.png",
+     "x": 129,
+     "y": 18,
+     "armyX": 0,
+     "armyY": 20,
+     "w": 41,
+     "h": 57
+    },
+    {
+     "name": "Tartary",
+     "file": "Asia-Tartaria.png",
+     "x": 156,
+     "y": -13,
+     "armyX": 0,
+     "armyY": 35,
+     "w": 51,
+     "h": 74
+    },
+    {
+     "name": "Taymir",
+     "file": "Asia-Taimir.png",
+     "x": 196,
+     "y": 9,
+     "armyX": -10,
+     "armyY": 10,
+     "w": 50,
+     "h": 49
+    },
+    {
+     "name": "Katchatka",
+     "file": "Asia-Katchatka.png",
+     "x": 263,
+     "y": 17,
+     "armyX": 0,
+     "armyY": -10,
+     "w": 81,
+     "h": 66
+    },
+    {
+     "name": "Japan",
+     "file": "Asia-Japon.png",
+     "x": 303,
+     "y": 72,
+     "armyX": 15,
+     "armyY": 25,
+     "w": 31,
+     "h": 75
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "teg",
+  "title": "Tenés Empanadas Graciela",
+  "tagline": "Risk on the original TEG world map: countries, armies, dice, cards and secret missions.",
+  "summary": [
+    "Tenés Empanadas Graciela is the Argentine answer to Risk: Ricardo Quesada's 1996 game, grown by a community of players, artists and translators. Fifty countries on a hand-painted world map are dealt out, each player places armies, attacks with dice, trades country cards and follows a secret mission.",
+    "This port follows TEG 0.13.0, the last release of the GTK program: the same map and countries, the same continent bonuses, the same dice, the same four kinds of cards and the same missions. Play against the original's robot, with friends on one computer, or online through the website's rooms; the server rolls the dice and deals the cards there."
+  ],
+  "original": {
+    "author": "Ricardo Quesada and the TEG contributors",
+    "year": 1996,
+    "platform": "Linux/Unix (GTK 3)",
+    "version": "0.13.0",
+    "license": "GPL-2.0-only",
+    "packageBytes": 12832517,
+    "url": "https://github.com/wfx/teg"
+  },
+  "players": "2–6 (on one computer, against the robot, or online)",
+  "genres": [
+    "Turn-based strategy"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "added": "2026-11-19",
+  "icon": "assets/icon.png",
+  "controls": [
+    {
+      "input": "Click your country while placing",
+      "action": "Add an army (right-click or the mouse wheel takes one back)"
+    },
+    {
+      "input": "Send armies",
+      "action": "Commit the whole placement; the continent bonuses must go in their continent"
+    },
+    {
+      "input": "Click your country, then a neighbouring enemy",
+      "action": "Attack; each click is one roll of the dice"
+    },
+    {
+      "input": "After a conquest",
+      "action": "Choose how many more armies to move (one already moved)"
+    },
+    {
+      "input": "Regroup",
+      "action": "Move armies between two neighbouring countries of yours"
+    },
+    {
+      "input": "Get card",
+      "action": "Take a country card after a conquest; use owned cards for 2 armies each"
+    },
+    {
+      "input": "End turn",
+      "action": "Finish the attack phase"
+    },
+    {
+      "input": "View → Mission / Cards / Players",
+      "action": "Your secret mission, your cards, and everybody's status"
+    },
+    {
+      "input": "Esc",
+      "action": "Cancel the selection or close a dialog"
+    },
+    {
+      "input": "Enter / R / C / E / M / P / K",
+      "action": "Send armies / regroup / get card / end turn / mission / players / cards"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "placing.png",
+      "caption": "Placing the first armies on the original's world map; the red circle and its +5 show the armies not sent yet"
+    },
+    {
+      "file": "mission.png",
+      "caption": "A secret mission on the original's mission card"
+    },
+    {
+      "file": "new-game.png",
+      "caption": "A new game: two to six players, any of them human or the original's robot"
+    },
+    {
+      "file": "welcome.png",
+      "caption": "The start screen over the map"
+    }
+  ],
+  "caveat": "The rules, the world map, the cards, the missions and the robot are TEG 0.13.0. The browser menus, the hot-seat mode and online play through this website are new; the original’s GTK window, its translations and its other themes are not part of the port.",
+  "links": [
+    {
+      "label": "TEG on GitHub",
+      "url": "https://github.com/wfx/teg"
+    }
+  ]
+}
