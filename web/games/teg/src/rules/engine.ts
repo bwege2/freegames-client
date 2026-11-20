@@ -430,33 +430,49 @@ export class TegGame {
     return -1;
   }
 
-  /** token_fichas / token_fichas2 / token_fichasc: a whole placement in one command */
-  place(seat: number, placements: ReadonlyMap<number, number>): boolean {
-    if (seat !== this.turn) return this.fail('It is not your turn to place armies.');
+  /**
+   * What is wrong with a whole placement, or null when it is legal (the checks of token_fichas inside).
+   * The page asks this before it sends a placement, so a refused plan keeps its armies where they are.
+   */
+  checkPlacement(seat: number, placements: ReadonlyMap<number, number>): string | null {
+    if (seat !== this.turn) return 'It is not your turn to place armies.';
     if (this.phase !== 'place1' && this.phase !== 'place2' && this.phase !== 'reinforce') {
-      return this.fail('It is not the moment to place armies.');
+      return 'It is not the moment to place armies.';
     }
     const required = this.requiredArmies(seat);
     const counts = new Array<number>(COUNTRY_COUNT).fill(0);
     let total = 0;
     for (const [country, n] of placements) {
-      if (!Number.isInteger(country) || country < 0 || country >= COUNTRY_COUNT) return this.fail('Unknown country.');
-      if (!Number.isInteger(n) || n < 0) return this.fail('Invalid number of armies.');
-      if (this.countries[country].owner !== seat) return this.fail('You can only place armies in your own countries.');
+      if (!Number.isInteger(country) || country < 0 || country >= COUNTRY_COUNT) return 'Unknown country.';
+      if (!Number.isInteger(n) || n < 0) return 'Invalid number of armies.';
+      if (this.countries[country].owner !== seat) return 'You can only place armies in your own countries.';
       counts[country] += n;
       total += n;
     }
-    if (total !== required) return this.fail(`You must place exactly ${required} armies (you placed ${total}).`);
+    if (total !== required) return `You must place exactly ${required} armies (you placed ${total}).`;
     if (this.phase === 'reinforce') {
       const conts = this.completeContinents(seat);
       for (const c of CONTINENTS) {
         if (!(conts & (1 << c.id))) continue;
         let n = 0;
         for (let i = 0; i < COUNTRY_COUNT; i++) if (COUNTRIES[i].continent === c.id) n += counts[i];
-        if (n < c.bonus) return this.fail(`The ${c.bonus} armies of ${c.name} must be placed in ${c.name}.`);
+        if (n < c.bonus) return `The ${c.bonus} armies of ${c.name} must be placed in ${c.name}.`;
       }
-      this.player(seat).hasExchanged = false;
     }
+    return null;
+  }
+
+  /** token_fichas / token_fichas2 / token_fichasc: a whole placement in one command */
+  place(seat: number, placements: ReadonlyMap<number, number>): boolean {
+    const wrong = this.checkPlacement(seat, placements);
+    if (wrong != null) return this.fail(wrong);
+    const counts = new Array<number>(COUNTRY_COUNT).fill(0);
+    let total = 0;
+    for (const [country, n] of placements) {
+      counts[country] += n;
+      total += n;
+    }
+    if (this.phase === 'reinforce') this.player(seat).hasExchanged = false;
     for (let i = 0; i < COUNTRY_COUNT; i++) if (counts[i]) this.countries[i].armies += counts[i];
     const name = this.player(seat).name;
     const list = [...placements].filter(([, n]) => n > 0)

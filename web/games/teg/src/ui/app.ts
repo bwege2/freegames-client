@@ -722,7 +722,10 @@ export class TegApp {
     if (!this.humanTurn()) return this.online ? `Waiting for ${g.player(g.turn).name}…` : 'The robot is thinking…';
     if (g.phase === 'card') return 'End turn when done';
     if (g.phase === 'attack') return 'R: regroup · C: get card · Enter: end turn';
-    if (g.phase === 'reinforce') return 'Enter: send armies';
+    if (g.phase === 'reinforce') return 'Left-click: place · right-click: take one back · wheel: place/take back · Enter: send armies';
+    if (g.phase === 'place1' || g.phase === 'place2') {
+      return 'Left-click: place · right-click: take one back · wheel: place/take back · “Send armies” when done';
+    }
     return '';
   }
 
@@ -730,7 +733,12 @@ export class TegApp {
   private installInput(): void {
     const signal = this.ctx.signal;
     this.canvas.addEventListener('click', (e) => this.clickCountry(e), { signal });
-    this.canvas.addEventListener('contextmenu', (e) => e.preventDefault(), { signal });
+    // a right click fires no 'click' event: the contextmenu is where it arrives. It takes a planned army
+    // back (or clears the selection), and the browser's own menu stays away
+    this.canvas.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+      this.clickCountry(e);
+    }, { signal });
     this.canvas.addEventListener('pointermove', (e) => this.pointerMove(e), { signal });
     this.canvas.addEventListener('pointerleave', () => { this.hover = -1; this.renderStatus(); this.draw(); }, { signal });
     this.canvas.addEventListener('wheel', (e) => this.wheel(e), { signal, passive: false });
@@ -944,6 +952,10 @@ export class TegApp {
     const g = this.game;
     if (!g || !this.humanTurn() || !this.isPlacement()) { this.toast('It is not the moment to place armies.'); return; }
     if (this.remaining() !== 0) { this.toast(`Place ${this.remaining()} more armies first.`); return; }
+    // the same checks the engine and the module run, before the plan leaves the page: a refused placement
+    // keeps its armies where the player put them (the continent bonuses must be placed in their continent)
+    const wrong = g.checkPlacement(g.turn, this.pending);
+    if (wrong != null) { this.toast(`${wrong} Right-click (or the wheel) takes a planned army back.`); return; }
     if (this.online) {
       const list = [...this.pending].filter(([, n]) => n > 0);
       this.sendMsg((m) => {

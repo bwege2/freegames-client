@@ -200,7 +200,13 @@ test('regroup and the continent-bonus placement rule', () => {
   h.countries[6].armies = 1;
   // six countries and a complete South America: 3 base + 3 bonus = 6
   assert.equal(h.requiredArmies(0), 6);
+  // the page asks checkPlacement before it sends a plan, so a refused plan keeps its armies placed
+  assert.equal(h.checkPlacement(0, new Map([[6, 6]])), 'The 3 armies of South America must be placed in South America.');
+  assert.equal(h.checkPlacement(0, new Map([[0, 2], [6, 4]])), 'The 3 armies of South America must be placed in South America.');
+  assert.equal(h.checkPlacement(0, new Map([[0, 3], [1, 3]])), null);
+  const before = h.countries.map((c) => c.armies);
   assert.equal(h.place(0, new Map([[6, 6]])), false, 'the South America bonus cannot go outside South America');
+  assert.deepEqual(h.countries.map((c) => c.armies), before, 'a refused placement changes nothing');
   assert.equal(h.place(0, new Map([[0, 2], [6, 4]])), false, 'the bonus must all be in South America');
   assert.equal(h.place(0, new Map([[0, 3], [1, 3]])), true);
 });
