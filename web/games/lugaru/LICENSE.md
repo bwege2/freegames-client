@@ -1,92 +1,47 @@
-# Lugaru: license assessment — **blocked, not ported**
+# Lugaru: license and credits
 
-**Verdict: this game is a licensing blocker.** The engine code is free software under the GNU General
-Public License, version 2 or (at your option) any later version, and would be compatible with the
-website's GPL-3.0-or-later. The game data is the problem. Wolfire's own 2010 release terms allowed the
-data to be redistributed **only for non-commercial purposes** and forbade **"any revenue generating
-works"**. In 2016 Wolfire's David Rosen relicensed the Wolfire assets under **CC BY-SA 3.0**, which
-does allow commercial use, but CC BY-SA 3.0 is **not compatible with GPL-3.0+**: Creative Commons
-designated only CC BY-SA 4.0 as one-way GPLv3-compatible, and no non-CC license has been designated
-compatible with CC BY-SA 3.0. The ticket's rule is that the code and **every asset** must be free for
-commercial use **and** GPL-3.0+-compatible; the data fails the second condition. Several files also
-have no clear license in the repository (the console font, the music's provenance, community textures
-derived from a non-GPL font), which a 1:1 port cannot resolve from the repository alone.
+**Approved by the operator on 2026-11-21 — variant B.** The game code is **GPL-2.0-or-later**; the
+port's code is **GPL-3.0-or-later**; the Wolfire game data is **CC BY-SA 3.0**, shipped as a
+separate work beside the code (aggregation), not relicensed under the GPL. The operator's decision
+is recorded in `docs/SPIELEPLAN.md` (commit `374cdbba`, “Lugaru is approved (variant B: no music, no
+Temple campaign, no font, no HD pack)”). This port follows that decision.
 
-Nothing was ported: this folder holds this assessment and an unlisted `game.json` stub only. The
-assessment was made on 2026-11-20 from the pinned reference below. The exact commands, hashes and the
-complete file inventory are in `re/lugaru/NOTES.md`.
+The data is the original's, copied unchanged (or converted losslessly to JSON metadata) by
+`re/lugaru/fetch.sh` and `re/lugaru/tools/assets.py`. Nothing in `assets/` is taken from the
+commercial Lugaru HD package beyond the base files in the pinned open-source tree. There is no
+NonCommercial or NoDerivatives term in what is shipped.
 
 ## The reference
 
-* **Game:** *Lugaru: The Rabbit's Foot* (Wolfire Games, first released 2005; *Lugaru HD* in 2010), a
-  third-person 3D martial-arts action game by David Rosen, with rabbits and wolves, context-sensitive
-  attacks, reversals and counter-reversals.
-* **Reference version:** the official open-source tree **`WolfireGames/lugaru`**, branch `master`,
-  commit `6a58b62858d9c3c3630abf00bf43075f65a09d38` (2020-09-29, “CI: Bump oldgcc build to CentOS 8”),
-  CMake version **1.3.0-dev** (`CMakeLists.txt`: `LUGARU_VERSION_MAJOR 1`, `MINOR 3`, `PATCH 0`,
-  suffix `-dev`). The same tree is the upstream of the OSS Lugaru project
-  (<https://gitlab.com/osslugaru/lugaru>); the stable 1.2 release was 2017-02-11.
-* **Repository:** <https://github.com/WolfireGames/lugaru>. The working clone used for this assessment
-  is `/tmp/opencode/lugaru-src` (outside the repository; nothing of it is committed).
-* **What it contains:** `Source/` (the C++ engine, 1,521,617 bytes), `Data/` (the complete game data,
-  39,530,757 bytes, **542 files**), `Dist/`, `Docs/`, `Misc/`, `COPYING.txt`, `CONTENT-LICENSE.txt`,
-  `AUTHORS`, `README.md`.
-* **License files:** `COPYING.txt` (GNU GPL version 2, SHA-256
-  `8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643`), `CONTENT-LICENSE.txt`
-  (SHA-256 `df020520630390de59394235a90a17c5d52d3b80ef76e2edf6d0690cd8b7fd7c`), `README.md`
-  (SHA-256 `6f88ac4cd80534cb34effc8579ac1db2a5ab62c27e644de2deaf1eabe32d9273`).
+* **Game:** *Lugaru: The Rabbit's Foot* (Wolfire Games, 2005; *Lugaru HD*, 2010).
+* **Reference version:** `WolfireGames/lugaru`, branch `master`, commit
+  `6a58b62858d9c3c3630abf00bf43075f65a09d38` (2020-09-29), CMake **1.3.0-dev**. The archive is
+  `https://codeload.github.com/WolfireGames/lugaru/tar.gz/6a58b62858d9c3c3630abf00bf43075f65a09d38`,
+  36,004,161 bytes, SHA-256
+  `40cddfc07e81e8c37ea770dce75e51565a56c3cb43de610b1ee0532e0de2282d`. It is downloaded by
+  `re/lugaru/fetch.sh` into `re/lugaru/orig/` (gitignored) and never committed.
+* **License files in the reference:** `COPYING.txt` (GNU GPL v2), `CONTENT-LICENSE.txt` (asset
+  licenses), `README.md`, the GPL headers in `Source/*`, and the commit history used below.
 
 ## The code: GPL-2.0-or-later
 
-Every engine source file starts with the same grant:
+Every engine source file starts with:
 
 > Lugaru is free software; you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
 > the Free Software Foundation; either version 2 of the License, or
 > (at your option) any later version.
 
-`Source/main.cpp` prints it as “Licensed under the GPL 2.0+ and CC-BY-SA 3.0 and 4.0 licenses.” The
-`COPYING.txt` is the GPL version 2 text. **GPL-2.0-or-later is compatible with the website's
-GPL-3.0-or-later**, so the code is not the blocker.
+`Source/main.cpp` prints “Licensed under the GPL 2.0+ and CC-BY-SA 3.0 and 4.0 licenses.” The only
+non-GPL source file is `Source/Thirdparty/optionparser.h` (The Lean Mean C++ Option Parser,
+Copyright (C) 2012 Matthias S. Benkmann; MIT-style permission notice, GPL-compatible). The port
+does not ship or translate the C++ code; it is a new TypeScript implementation of the game rules.
 
-The only third-party source file is `Source/Thirdparty/optionparser.h` (The Lean Mean C++ Option
-Parser, Copyright (C) 2012 Matthias S. Benkmann), under an MIT-style permission notice (“to deal in
-the Software without restriction … and/or sell copies”). It is GPL-compatible and is not a blocker.
-The port would not ship the C++ code; it would translate the game rules into TypeScript.
+## The data: Wolfire CC BY-SA 3.0
 
-## The data: the decisive point
+### Current grant
 
-### 2010–2016: the historic Lugaru data license was non-commercial
-
-The 2010 open-sourcing announcement says, in its own words:
-
-> The game assets are included in the snapshot, and can be redistributed for free, but cannot be
-> resold without our permission.
-
-and, in the details:
-
-> Please note that the game data is not under the GPL, and forbids commercial redistribution.
-
-The 2010 `CONTENT-LICENSE.txt` (commit `255ef22`, 2010-05-12) was explicit:
-
-> All game assets and demo data (should all be in "Data" folder
-> in the root of the source tree) are not under the same license
-> as the engine code. Wolfire has allowed the data to be freely redistributed
-> for non commercial purposes, but it is forbidden to use in any revenue
-> generating works.
-
-This is a **NonCommercial** term: free redistribution, but no commercial use. Under the ticket's rule
-it is a blocker on its own. It is also why the early open-source community could not simply ship the
-game data under the GPL, and why the project later had to replace or relicense assets.
-
-### 2016: Wolfire relicensed the Wolfire assets to CC BY-SA 3.0
-
-On **2016-11-21**, David Rosen (Wolfire Games, `<david@wolfire.com>`, GitHub `David20321`) committed
-`51203b531b2054a8a7c40356e2108a5ec7b9f366` to the official repository:
-
-> Relicensing all Wolfire Lugaru assets to CC-BY-SA 3.0
-
-The current `CONTENT-LICENSE.txt` says:
+`CONTENT-LICENSE.txt` at the reference commit says:
 
 > ## Wolfire assets (CC-BY-SA 3.0 Unported)
 >
@@ -100,175 +55,94 @@ The current `CONTENT-LICENSE.txt` says:
 > Those assets are all the files in the `Data` folder, except from the
 > ones listed below with different licenses or credits.
 
-This is a valid grant by the rights holder and **supersedes the historic non-commercial term for the
-Wolfire-owned assets**. CC BY-SA 3.0 permits commercial use, modification and redistribution, provided
-the attribution and ShareAlike terms are met. So the data is no longer NC or ND. But it is still not
-GPL-3.0-compatible, which is the second half of the ticket's condition:
+The grant comes from Wolfire itself: on **2016-11-21** David Rosen
+(`<david@wolfire.com>`, Wolfire Games) committed
+`51203b531b2054a8a7c40356e2108a5ec7b9f366` — *“Relicensing all Wolfire Lugaru assets to CC-BY-SA
+3.0.”* It supersedes the earlier non-commercial terms for the Wolfire-owned assets. CC BY-SA 3.0
+allows commercial use, modification and redistribution with attribution and ShareAlike.
 
-> Your contributions to adaptations of BY-SA 3.0 materials may only be licensed under:
-> BY-SA 3.0, or a later version of the BY-SA license. … Currently, **no non-CC licenses have been
-> designated as compatible with BY-SA 3.0**.
->
-> — Creative Commons, “Compatible Licenses”, <https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/>
+### The historic terms (for the record)
 
-And GPLv3 compatibility is a 4.0-only, one-way mechanism:
+The 2010 release said the assets *“can be redistributed for free, but cannot be resold without our
+permission”* and *“the game data is not under the GPL, and forbids commercial redistribution”*
+(Wolfire blog, 2010-05-11). The 2010 `CONTENT-LICENSE.txt` said:
 
-> **GPLv3** … was declared a “BY-SA–Compatible License” for version **4.0** on 8 October 2015. Note
-> that compatibility with the GPLv3 is one-way only …
+> Wolfire has allowed the data to be freely redistributed for non commercial purposes, but it is
+> forbidden to use in any revenue generating works.
 
-CC BY-SA 3.0 has no “or later” clause in Wolfire's grant and no GPLv3 compatibility. The bulk of the
-game data is therefore under a license that is free for commercial use but **not compatible with
-GPL-3.0+**, which the ticket makes a blocker. A port could not honestly call the combined work
-GPL-3.0-or-later.
+Those terms were replaced by the 2016 CC BY-SA 3.0 grant above. The operator's variant-B decision
+is what lets this site ship the CC BY-SA 3.0 data as a separate work: **code and data are
+aggregated, not combined**; the data is not relicensed under the GPL. CC BY-SA 3.0 is not
+GPL-3.0-compatible for adaptations, so the two licenses stay separate and the data keeps its own
+attribution/ShareAlike terms.
 
-### The data, package by package
+### What is shipped
 
-The table classifies all 542 files of `Data/`. “Wolfire 3.0” means the blanket Wolfire CC-BY-SA 3.0
-grant above; the other rows are the exceptions named in `CONTENT-LICENSE.txt`, plus the files whose
-provenance is discussed in the next section.
+Everything below is unchanged from `Data/` (or a lossless conversion) and **CC BY-SA 3.0**,
+attributed to **Wolfire Games** (`http://www.wolfire.com`). The port ships the base 2005 set; the
+largest terrain textures are 1024×1024 and the character skins 512×512. No separate 2048 HD pack is
+present or copied.
 
-| Package | Files | Author / source | License | Shipped by a port? |
-| --- | ---: | --- | --- | --- |
-| `Data/Animations/` | 109 | Wolfire (David Rosen) | **CC-BY-SA 3.0** | yes, if ported |
-| `Data/Campaigns/main.txt` | 1 | Wolfire | **CC-BY-SA 3.0** | yes |
-| `Data/Campaigns/temple.txt` | 1 | Slib, *Temple* campaign | **CC-BY-SA 3.0** | yes |
-| `Data/Campaigns/empire.txt` | 1 | Jendraz, *Empire* campaign | **CC-BY-SA 4.0** | yes |
-| `Data/Campaigns/seventasks.txt` | 1 | Philtron R. (skraeling), *Seven Tasks* | **CC-BY-SA 4.0** | yes |
-| `Data/Dialogues/` | 43 | Wolfire; the campaign dialogue texts | **CC-BY-SA 3.0** | yes |
-| `Data/Maps/Lugaru*.json` (31), `map*.json` (14), `tutorial.json` (1) | 46 | Wolfire; converted from the original binary maps to JSON by Côme Chilliet (2018), a derivative | **CC-BY-SA 3.0** | yes |
-| `Data/Maps/sven*.json` | 32 | Slib, *Temple* campaign | **CC-BY-SA 3.0** | yes |
-| `Data/Maps/jendraz*.json` | 41 | Jendraz, *Empire* campaign | **CC-BY-SA 4.0** | yes |
-| `Data/Maps/task*.json` | 18 | Philtron R., *Seven Tasks* | **CC-BY-SA 4.0** | yes |
-| `Data/Models/` | 37 | Wolfire; `.solid` models | **CC-BY-SA 3.0** | yes |
-| `Data/Skeleton/` | 5 | Wolfire; skeleton and animation data | **CC-BY-SA 3.0** | yes |
-| `Data/Sounds/` | 71 | Wolfire; effects, ambience and the five music tracks | **CC-BY-SA 3.0** (see the music note) | yes |
-| `Data/Textures/` | 136 | Wolfire, except the exceptions below | **CC-BY-SA 3.0** | mostly |
-| `Data/Textures/ClFeng.png`, `ClHuo.png`, `ClShan.png`, `ClShui.png` | 4 | OSS Lugaru (Rémi Verschelde), self-made replacements for Temple assets | **CC-BY-SA 4.0** | yes, if the Temple campaign is used |
-| `Data/Textures/DesertCl.png`, `GiTop.png`, `GiTeared.png`, `GiBottom.png`, `Mask.png`, `temple/World.png` | 6 | Slib, *Temple* campaign | **CC-BY-SA 3.0** | yes, if the Temple campaign is used |
-| `Data/Textures/empire/World.png` | 1 | Jendraz, *Empire* campaign (the commit says “campaign, maps and custom textures”) | **CC-BY-SA 4.0**; the file is missing from the Jendraz list in `CONTENT-LICENSE.txt` | yes, if the Empire campaign is used |
-| `Data/Textures/FontMono.png` | 1 | Rémi Verschelde, a bitmap of **Liberation Mono** generated with CBFG | **SIL OFL 1.1** (not in `CONTENT-LICENSE.txt`) | no: console/devtool font; the port can omit it |
-| `Data/Textures/Fur2.png` | 1 | restored Lugaru HD black-fur texture (commit `9b37fdb`, “Restore Ash's black fur as intended by the author”) | **CC-BY-SA 3.0** as a Wolfire HD asset; not separately listed | yes |
-| all other `Data/Textures/` files (skyboxes, fonts, fur, clothing, weapons, UI, logos) | 123 | Wolfire | **CC-BY-SA 3.0** | yes |
-| **total** | **542** | | | |
-
-The `Data/Textures/` row is the directory total; the six rows below it partition those 136 files
-(123 + 4 + 6 + 1 + 1 + 1 = 136), so they are not additional files. The counts add up:
-109 + 4 + 43 + 137 + 37 + 5 + 71 + 136 = 542. The 137 maps are 31 `Lugaru*` +
-14 `map*` + 1 `tutorial` + 32 `sven*` + 41 `jendraz*` + 18 `task*`. The 136 textures are 116 at the
-top level plus 20 in the three skybox folders (18), `temple/` (1) and `empire/` (1).
-
-The `CONTENT-LICENSE.txt` has two path typos: it names `Data/Campaign/temple.txt` and
-`Data/Campaign/seventasks.txt`, while the files are `Data/Campaigns/temple.txt` and
-`Data/Campaigns/seventasks.txt`. The intent is unambiguous, but the file is not a precise per-file
-inventory.
-
-## Files whose license is not clear from the repository
-
-These are secondary to the CC-BY-SA 3.0 blocker, but they are why a port could not simply “use the
-data under CC BY-SA 3.0 and attribute Wolfire” without further work.
-
-### The console font
-
-`Data/Textures/FontMono.png` (31,260 bytes, SHA-256
-`33d5ae38106fd15a727f17922a45446e6c5707b7ef0fd3f75e7748eca75bfb28`) was added in commit `8e4c49c`
-(2017-01-03):
-
-> The font used is Libration Mono with height 32 and some antialiasing. Bitmap font generated with
-> CBFG. Liberation Mono is under the SIL Open Font License version 1.1.
-
-Liberation Mono is under the **SIL Open Font License 1.1**, which permits commercial use but is not
-GPL-compatible. The file is not listed in `CONTENT-LICENSE.txt`; the blanket “all files in `Data` are
-Wolfire CC-BY-SA 3.0” statement is factually wrong for it. The port could omit the developer console
-and this font, but then it is not shipping every asset of the original.
-
-### The community Temple textures
-
-`Data/Textures/ClFeng.png`, `ClHuo.png`, `ClShan.png` and `ClShui.png` are released as CC-BY-SA 4.0
-(GPLv3-compatible), but commit `5bba986` says they were made with the **AR PL UKai TW** font under the
-**Arphic Public License**. The Arphic license is a copyleft font license that the project has already
-treated as not GPL-compatible in another port (Pingus). Whether the rendered glyph bitmaps are
-derivatives of the font is a question the repository does not answer. They are only needed for the
-optional Temple campaign; the main campaign does not use them.
-
-### The music
-
-`Data/Sounds/Music1Desert.ogg`, `Music1Grass.ogg`, `Music1Snow.ogg`, `Music2.ogg` and `Music3.ogg`
-(5 files, 2,267,735 bytes, 206.7 seconds) are covered only by the blanket Wolfire CC-BY-SA 3.0
-statement. The files themselves carry no composer credit; their Vorbis comments say:
-
-| File | Duration | Embedded title / comment |
+| Assets | Files | Notes |
 | --- | ---: | --- |
-| `Music1Desert.ogg` | 32.05 s | `title = -Mistic Sun.mp3.AIFF`, `transcoded = mp3;64` |
-| `Music1Grass.ogg` | 40.15 s | `title = ... Barren Wastelands`, `transcoded = mp3;64` |
-| `Music1Snow.ogg` | 63.50 s | `title = music1`, `transcoded = mp3;64` |
-| `Music2.ogg` | 28.47 s | `transcoded = mp3;160` |
-| `Music3.ogg` | 42.48 s | `title = music3`, `transcoded = mp3;64` |
+| `assets/Models/*.solid` | 37 | Body, Wolf, BodyLow, WolfLow, Box, Rock, TreeTrunk, Leaves, Bush, Sword, Staff, ThrowingKnife, Belt, … |
+| `assets/Skeleton/*` | 5 | BasicFigure, BasicFigureLow, BasicFigureWolf, BasicFigureWolfLow, RabbitBelt |
+| `assets/Animations/*` | 109 | 110 loadable animation ids from `Animation.def` (frontflipanim reuses Flip) |
+| `assets/Textures/**` | 124 | terrain, skyboxes, fur, clothing, weapons, UI, logo, all base-set textures |
+| `assets/Sounds/*.ogg` | 66 | footsteps, impacts, weapons, animals, ambience; **no music** |
+| `assets/Maps/Lugaru*.json`, `map*.json`, `tutorial.json` | 46 | the Wolfire main campaign (27), challenge maps (14) and tutorial |
+| `assets/Campaigns/main.txt` | 1 | the 27-level campaign definition |
+| `assets/Dialogues/*.txt` | 43 | the original dialogue texts |
+| `assets/HeightMap.png` | 1 | the 256×256 terrain heightmap |
+| generated metadata | 4 | `heightmap.json` (red channel in the original indexing), `animations.json` (Animation.def), `campaign.json` (main.txt), `manifest.json` |
 
-The titles “Mistic Sun” and “Barren Wastelands” and the MP3 transcode tags suggest production-library or
-third-party source tracks, not compositions documented as Wolfire's. Wolfire's 2016 blanket relicensing
-is the only evidence that they are covered; the original game's credits (not in this repository) would
-be needed to confirm the composer and the rights. This is a provenance gap, not a proven NC term, but it
-is another reason the data cannot be cleared from the repository alone.
+Total: **435 data files, 34,052,842 bytes** in `web/games/lugaru/assets/` (the manifest records
+each file and size; the directory also holds `manifest.json` itself). The original files are copied byte for byte; the four generated JSON files are
+lossless conversions of the original PNG, `Animation.def` and `main.txt` (they add no new game
+content).
 
-### The HD texture pack
+### Deliberately not shipped (variant B)
 
-`CONTENT-LICENSE.txt` says the grant includes “Lugaru HD assets”. The HD texture pack was made by
-**Tim Soret** and later included in Lugaru HD by Wolfire. The repository contains no separate permission
-from Soret; it relies on Wolfire's statement that all HD assets are covered. If a port used the HD
-textures, this would need confirmation. The base game's own textures (the 2005 set) are Wolfire's.
+* **Music:** `Data/Sounds/Music1Desert.ogg`, `Music1Grass.ogg`, `Music1Snow.ogg`, `Music2.ogg`,
+  `Music3.ogg`. Their provenance is undocumented in the reference (embedded titles/MP3 transcode
+  comments, no composer credit); the operator decided not to ship them. The game runs without music.
+* **Temple campaign:** `Data/Campaigns/temple.txt`, `Data/Maps/sven*`, `Data/Textures/DesertCl.png`,
+  `GiTop.png`, `GiTeared.png`, `GiBottom.png`, `Mask.png`, `temple/World.png`, and the four
+  `Data/Textures/ClFeng.png`, `ClHuo.png`, `ClShan.png`, `ClShui.png` made with the AR PL UKai font
+  (Arphic Public License). The port contains the Wolfire main campaign only.
+* **Console font:** `Data/Textures/FontMono.png`, a bitmap of Liberation Mono under the SIL Open
+  Font License 1.1. The port has no console; any console text would use a browser font.
+* **HD texture pack:** no separate 2048 HD pack is copied. If the reference tree were found to mix
+  HD-only files, they would have to be excluded; the tree used here contains the base set only
+  (the `Fur2.png` added in the OSS tree is the base black-fur texture restored by the project).
+* **Community campaigns:** Empire (Jendraz) and Seven Tasks (Philtron R.) are not copied. Their
+  licenses (CC BY-SA 4.0) are compatible with the Wolfire set but they are outside the operator's
+  “original Wolfire campaign(s) only” scope.
 
-## What would unblock it
+No `Cl*.png`, `FontMono.png`, `Music*.ogg`, `sven*`, `jendraz*`, `task*`, `temple/` or `empire/`
+file is in `assets/`; `re/lugaru/tools/assets.py` checks this after copying.
 
-One of these is needed:
+## The port's code
 
-1. **A GPL-3.0-compatible grant for the data.** A written statement from Wolfire Games (and the other
-   rights holders: Slib, Jendraz, Philtron R., and the music's composer if it is not Wolfire's) that the
-   `Data/` files are licensed under **CC BY-SA 4.0** (one-way GPLv3-compatible), **GPL-3.0-or-later**,
-   **CC0**, or another GPL-3.0-compatible license. The 2016 grant is CC BY-SA 3.0 only; it cannot be
-   upgraded unilaterally.
-2. **A complete free-data replacement** under GPL-3.0-compatible terms. The OSS Lugaru project's
-   replacements are CC-BY-SA 4.0, but they are only a handful of textures and campaigns; the models,
-   animations, sounds, main maps, dialogues and textures are still 3.0. No complete GPL-3.0-compatible
-   data set was found.
-3. **A project decision that separately-licensed CC-BY-SA 3.0 data is acceptable**, as some other ports
-   here do with unchanged CC-BY-SA 3.0 data (Teeworlds, C-Dogs, Tux Math). That would override the
-   ticket's “GPL-3.0+” condition for this game. It would still require: attribution to Wolfire Games and
-   the campaign authors, ShareAlike for modified data, exclusion or clearing of `FontMono.png` and the
-   AR PL UKai-derived textures, and resolution of the music's provenance. This is a human licensing
-   decision, not one a port can make.
+The TypeScript in `web/games/lugaru/src/`, the tests and the tools in `re/lugaru/` are by the
+freegames project and are licensed **GPL-3.0-or-later**, the website's license (`web/LICENSE.md`).
+The port is altered source, not the original program. It combines with the website/SDK under the
+GPL-3.0+ terms; the CC BY-SA 3.0 data stays separate and keeps its own license.
 
-## What was checked, and how
+## Favicon
 
-The full command log and hashes are in `re/lugaru/NOTES.md`. In short:
+`web/icons/lugaru.png` (48×48) and `web/icons/lugaru-180.png` (180×180) are drawn by
+`web/scripts/icons.py` (`i_lugaru`) from the game's own red/gold `Lugaru HD` logo,
+`Data/Textures/Lugaru.png` (Wolfire, **CC BY-SA 3.0**), cropped to the “L” on a dark ember tile.
+They are an adaptation of that artwork and stay under **CC BY-SA 3.0**, attributed to Wolfire Games.
 
-```sh
-mkdir -p /tmp/opencode && cd /tmp/opencode
-git clone --depth 1 https://github.com/WolfireGames/lugaru lugaru-src
-cd lugaru-src
-git fetch --unshallow
-git rev-parse HEAD                       # 6a58b62858d9c3c3630abf00bf43075f65a09d38
-git show 51203b5 --format=fuller         # the 2016 relicensing by David Rosen
-git show 255ef22:CONTENT-LICENSE.txt     # the 2010 non-commercial terms
-git log --follow -- CONTENT-LICENSE.txt  # 255ef22 → c11d380 → 51203b5 → …
-find Data -type f | wc -l                # 542
-du -sb Data                              # 39,530,757
-sha256sum CONTENT-LICENSE.txt COPYING.txt Data/Textures/FontMono.png \
-  Data/Textures/ClFeng.png Data/Sounds/Music1Grass.ogg
-ffprobe -hide_banner Data/Sounds/Music1Grass.ogg   # title/comment metadata
-```
+## How the license was checked
 
-Every file of `Data/` was classified by package and by the exceptions named in `CONTENT-LICENSE.txt`;
-the exceptions were checked against the commit that added them. The source headers were checked file by
-file for the GPL grant; the only non-GPL source file is the MIT-licensed `optionparser.h`. No build or
-run was needed for the license decision, and none was made: there is no port to compare against.
-
-## Repository housekeeping
-
-* `web/games/lugaru/game.json` is an unlisted (`"listed": false`) stub with no `src/index.ts`, no
-  screenshots and no assets. It exists only so `web/test/catalog.test.ts` (which requires a valid
-  `game.json` in every game folder) stays green. The game page shows the caveat and is not in the list.
-* No original archive, data file or extracted asset is committed. The clone is in
-  `/tmp/opencode/lugaru-src`.
-* `re/lugaru/NOTES.md` holds the reproducible evidence and is not in `web/scripts/source-paths.mjs`:
-  there is no port, so nothing from it is published (the same arrangement as the blocked Cart Life
-  assessment).
+The full command log, hashes and file inventory are in `re/lugaru/NOTES.md`. In short: the pinned
+tree was cloned, `CONTENT-LICENSE.txt` and the 2010/2016 commits were read, every file group in
+`Data/` was classified against the blanket Wolfire grant and the exception lists, and the
+CC BY-SA 3.0 compatibility statement was checked at
+<https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses/> (only
+CC BY-SA 4.0 is one-way GPLv3-compatible; CC BY-SA 3.0 is not). The operator's decision resolves
+that by treating the data as a separate work. No original archive or extracted asset is committed
+outside the `assets/` copies listed above.

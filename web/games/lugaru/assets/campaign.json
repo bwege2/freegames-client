@@ -1,0 +1,248 @@
+{
+ "levels": [
+  {
+   "name": "Lugaru1",
+   "description": "Village_-_start_campaign!",
+   "chooseNext": 2,
+   "numNext": 1,
+   "nextLevel": 2,
+   "locationX": 264,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru2",
+   "description": "Stranger",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 3,
+   "locationX": 264,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru3",
+   "description": "Village",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 4,
+   "locationX": 264,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru4",
+   "description": "Wanderer",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 5,
+   "locationX": 274,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru5",
+   "description": "Village",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 6,
+   "locationX": 264,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru6",
+   "description": "Clearing",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 7,
+   "locationX": 260,
+   "locationY": 295
+  },
+  {
+   "name": "Lugaru7",
+   "description": "Raider_Patrol",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 8,
+   "locationX": 250,
+   "locationY": 278
+  },
+  {
+   "name": "Lugaru8",
+   "description": "Raider_Camp",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 9,
+   "locationX": 240,
+   "locationY": 270
+  },
+  {
+   "name": "Lugaru9",
+   "description": "Raider_Sentries",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 10,
+   "locationX": 255,
+   "locationY": 265
+  },
+  {
+   "name": "Lugaru10",
+   "description": "Raider_Base",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 11,
+   "locationX": 265,
+   "locationY": 273
+  },
+  {
+   "name": "Lugaru11",
+   "description": "Raider_Base",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 12,
+   "locationX": 265,
+   "locationY": 273
+  },
+  {
+   "name": "Lugaru12",
+   "description": "Old_Raider_Base",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 13,
+   "locationX": 286,
+   "locationY": 276
+  },
+  {
+   "name": "Lugaru13",
+   "description": "Village",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 14,
+   "locationX": 264,
+   "locationY": 310
+  },
+  {
+   "name": "Lugaru14",
+   "description": "Rocky_Hall",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 15,
+   "locationX": 284,
+   "locationY": 312
+  },
+  {
+   "name": "Lugaru15",
+   "description": "Heading_North",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 16,
+   "locationX": 332,
+   "locationY": 272
+  },
+  {
+   "name": "Lugaru16",
+   "description": "Heading_North",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 17,
+   "locationX": 345,
+   "locationY": 246
+  },
+  {
+   "name": "Lugaru17",
+   "description": "Jack's_camp",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 18,
+   "locationX": 324,
+   "locationY": 224
+  },
+  {
+   "name": "Lugaru18",
+   "description": "Jack's_camp",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 19,
+   "locationX": 324,
+   "locationY": 224
+  },
+  {
+   "name": "Lugaru19",
+   "description": "Rocky_Hall",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 20,
+   "locationX": 284,
+   "locationY": 312
+  },
+  {
+   "name": "Lugaru20",
+   "description": "Rocky_Hall",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 21,
+   "locationX": 284,
+   "locationY": 312
+  },
+  {
+   "name": "Lugaru21",
+   "description": "To_Alpha_Wolf",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 22,
+   "locationX": 360,
+   "locationY": 269
+  },
+  {
+   "name": "Lugaru22",
+   "description": "To_Alpha_Wolf",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 23,
+   "locationX": 343,
+   "locationY": 219
+  },
+  {
+   "name": "Lugaru23",
+   "description": "Wolf_Den",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 24,
+   "locationX": 327,
+   "locationY": 179
+  },
+  {
+   "name": "Lugaru24",
+   "description": "Alpha_Wolf",
+   "chooseNext": 1,
+   "numNext": 1,
+   "nextLevel": 25,
+   "locationX": 314,
+   "locationY": 179
+  },
+  {
+   "name": "Lugaru25",
+   "description": "Rocky_Hall",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 26,
+   "locationX": 284,
+   "locationY": 312
+  },
+  {
+   "name": "Lugaru26",
+   "description": "Rocky_Hall",
+   "chooseNext": 0,
+   "numNext": 1,
+   "nextLevel": 27,
+   "locationX": 284,
+   "locationY": 312
+  },
+  {
+   "name": "Lugaru27",
+   "description": "Leave",
+   "chooseNext": 1,
+   "numNext": 0,
+   "nextLevel": 0,
+   "locationX": 284,
+   "locationY": 312
+  }
+ ],
+ "endText": "You have avenged your family and\nrestored peace to the island of Lugaru...\nBut will you find your inner peace?"
+}

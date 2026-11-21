@@ -588,6 +588,21 @@ def i_teg(S):
     return clip(place(base, art, (S * 0.06, S * 0.06, S * 0.88, S * 0.88)), S)
 
 
+def i_lugaru(S):
+    # the game's own red/gold "Lugaru HD" logo, cropped to the L, on a dark ember tile
+    base = tile(S, '#1c0a06', '#42140a')
+    art = Image.open(G('lugaru', 'assets', 'Textures', 'Lugaru.png')).convert('RGBA')
+    # the logo's background is black; make it transparent so the ember tile shows
+    px = art.load()
+    for y in range(art.height):
+        for x in range(art.width):
+            r, g, b, a = px[x, y]
+            if r + g + b < 36:
+                px[x, y] = (0, 0, 0, 0)
+    crop = art.crop((24, 26, 152, 222))
+    return place(base, crop, (S * 0.14, S * 0.12, S * 0.72, S * 0.76))
+
+
 def i_supertux(S):
     # the original's own SuperTux icon (data/images/engine/icons/supertux-256x256.png, GPL-3.0-or-later), Tux on the
     # ice-blue tile of Icy Island's first level

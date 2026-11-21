@@ -19,10 +19,10 @@ export const SOURCE_URL = `https://github.com/${SOURCE_REPO}`;
  * data, draw its two replacement textures (tools/make_textures.py) and convert its font, and its test oracle.
  */
 export const SOURCE_PATHS = ['web', 'protocol', 'tools/gen-protocol.sh', 'docs/GAME-INTEGRATION.md', 'server/src/main/resources/xpilot/lib/maps',
-  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol', 're/pokerth', 're/lincity', 're/opencity', 're/teg', 're/supertux', 're/crawl', 're/madness', 're/endlesssky'];
+  're/nethack', 're/abuse', 're/teeworlds', 're/frozenbubble', 're/freecol', 're/pokerth', 're/lincity', 're/opencity', 're/teg', 're/supertux', 're/crawl', 're/madness', 're/endlesssky', 're/lugaru'];
 /** what it may never hold: the game server and the operations files */
 export const NEVER = [/^server\/(?!src\/main\/resources\/xpilot\/lib\/maps\/)/, /^slipstream\//, /^tools\/deploy/, /^docs\/(SERVER|DEPLOY)\.md$/, /^pom\.xml$/,
-  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/|lincity\/|opencity\/|teg\/|supertux\/|crawl\/|madness\/|endlesssky\/)/];
+  /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/|lincity\/|opencity\/|teg\/|supertux\/|crawl\/|madness\/|endlesssky\/|lugaru\/)/];
 
 /**
  * The operator's own, unlisted app (web/public/auction-stars, the built AUCTION STARS): it is reachable only at its

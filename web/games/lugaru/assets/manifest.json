@@ -1,0 +1,1744 @@
+{
+ "files": [
+  {
+   "path": "Animations/BackFlip",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/BackHandspring",
+   "bytes": 6612
+  },
+  {
+   "path": "Animations/BlockHighLeft",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/BlockHighLeftStrike",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Climb",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Crouch",
+   "bytes": 864
+  },
+  {
+   "path": "Animations/CrouchDrawRight",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/CrouchRemoveKnife",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/CrouchStab",
+   "bytes": 3972
+  },
+  {
+   "path": "Animations/Dead1",
+   "bytes": 892
+  },
+  {
+   "path": "Animations/Dead2",
+   "bytes": 892
+  },
+  {
+   "path": "Animations/Dead3",
+   "bytes": 892
+  },
+  {
+   "path": "Animations/Dead4",
+   "bytes": 892
+  },
+  {
+   "path": "Animations/DodgeBack",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/DrawLeft",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/DrawRight",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/DropKick",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Dying",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/FightIdle",
+   "bytes": 2576
+  },
+  {
+   "path": "Animations/FightSideStep",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Flip",
+   "bytes": 2652
+  },
+  {
+   "path": "Animations/GetUpFromBack",
+   "bytes": 2212
+  },
+  {
+   "path": "Animations/GetUpFromFront",
+   "bytes": 864
+  },
+  {
+   "path": "Animations/HangOn",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/HurtIdle",
+   "bytes": 2576
+  },
+  {
+   "path": "Animations/Idle",
+   "bytes": 6856
+  },
+  {
+   "path": "Animations/JumpCatch",
+   "bytes": 2148
+  },
+  {
+   "path": "Animations/JumpCaught",
+   "bytes": 2148
+  },
+  {
+   "path": "Animations/JumpDown",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/JumpUp",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/Kill",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/KnifeFightIdle",
+   "bytes": 2576
+  },
+  {
+   "path": "Animations/KnifeSlashCatch",
+   "bytes": 7492
+  },
+  {
+   "path": "Animations/KnifeSlashCaught",
+   "bytes": 6612
+  },
+  {
+   "path": "Animations/KnifeSneakAttack",
+   "bytes": 3532
+  },
+  {
+   "path": "Animations/KnifeSneakAttacked",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/KnifeThrow",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/LandHard",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Landing",
+   "bytes": 2148
+  },
+  {
+   "path": "Animations/LeftFlip",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/LowKick",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/RabbitKick",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/RabbitKickCatch",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/RabbitKickCaught",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/RabbitRunning",
+   "bytes": 2212
+  },
+  {
+   "path": "Animations/RabbitTackle",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/RabbitTackledBack",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/RabbitTackledFront",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/RabbitTackling",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/RemoveKnife",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/RightFlip",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/Roll",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/Run",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/Sit",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/SlashFollow",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/SlashFollowed",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/SlashStart",
+   "bytes": 2148
+  },
+  {
+   "path": "Animations/Sleep",
+   "bytes": 892
+  },
+  {
+   "path": "Animations/Sneak",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/SneakAttack",
+   "bytes": 4716
+  },
+  {
+   "path": "Animations/SneakAttacked",
+   "bytes": 4716
+  },
+  {
+   "path": "Animations/SpinKick",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/SpinKickCatch",
+   "bytes": 4716
+  },
+  {
+   "path": "Animations/SpinKickCaught",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/SpinWhack",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/SpinWhackCatch",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/SpinWhackCaught",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/StaffGroundSmash",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/StaffHit",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/StaffHitCatch",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/StaffHitCaught",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/StaggerBackHard",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/StaggerBackHigh",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/Stop",
+   "bytes": 864
+  },
+  {
+   "path": "Animations/Sweep",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/SweepCatch",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/SweepCaught",
+   "bytes": 3860
+  },
+  {
+   "path": "Animations/SwordFightIdle",
+   "bytes": 2652
+  },
+  {
+   "path": "Animations/SwordFightIdleBoth",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/SwordGroundStab",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/SwordSlash",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/SwordSlashCatch",
+   "bytes": 8812
+  },
+  {
+   "path": "Animations/SwordSlashCaught",
+   "bytes": 7932
+  },
+  {
+   "path": "Animations/SwordSlashParried",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/SwordSneakAttack",
+   "bytes": 3532
+  },
+  {
+   "path": "Animations/SwordSneakAttacked",
+   "bytes": 4412
+  },
+  {
+   "path": "Animations/SwordUprightParry",
+   "bytes": 2652
+  },
+  {
+   "path": "Animations/TalkIdle",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/Tempanim",
+   "bytes": 436
+  },
+  {
+   "path": "Animations/Upunch",
+   "bytes": 3004
+  },
+  {
+   "path": "Animations/UpunchCatch",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/UpunchCaught",
+   "bytes": 3860
+  },
+  {
+   "path": "Animations/Walk",
+   "bytes": 1720
+  },
+  {
+   "path": "Animations/WallJumpBack",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/WallJumpFront",
+   "bytes": 1332
+  },
+  {
+   "path": "Animations/WallJumpLeft",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/WallJumpLeftKick",
+   "bytes": 2576
+  },
+  {
+   "path": "Animations/WallJumpRight",
+   "bytes": 1292
+  },
+  {
+   "path": "Animations/WallJumpRightKick",
+   "bytes": 2576
+  },
+  {
+   "path": "Animations/WindUpPunch",
+   "bytes": 4288
+  },
+  {
+   "path": "Animations/WindUpPunchBlocked",
+   "bytes": 3432
+  },
+  {
+   "path": "Animations/WolfCrouch",
+   "bytes": 8812
+  },
+  {
+   "path": "Animations/WolfIdle",
+   "bytes": 5292
+  },
+  {
+   "path": "Animations/WolfLandHard",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/WolfLanding",
+   "bytes": 2212
+  },
+  {
+   "path": "Animations/WolfRun",
+   "bytes": 3532
+  },
+  {
+   "path": "Animations/WolfRunning",
+   "bytes": 1772
+  },
+  {
+   "path": "Animations/WolfSlap",
+   "bytes": 3532
+  },
+  {
+   "path": "Animations/WolfStop",
+   "bytes": 892
+  },
+  {
+   "path": "Campaigns/main.txt",
+   "bytes": 3336
+  },
+  {
+   "path": "Dialogues/Endgood.txt",
+   "bytes": 575
+  },
+  {
+   "path": "Dialogues/Endharsh.txt",
+   "bytes": 644
+  },
+  {
+   "path": "Dialogues/Example.txt",
+   "bytes": 804
+  },
+  {
+   "path": "Dialogues/alphawolf.txt",
+   "bytes": 981
+  },
+  {
+   "path": "Dialogues/ambush.txt",
+   "bytes": 653
+  },
+  {
+   "path": "Dialogues/april.txt",
+   "bytes": 1193
+  },
+  {
+   "path": "Dialogues/april2.txt",
+   "bytes": 481
+  },
+  {
+   "path": "Dialogues/clover.txt",
+   "bytes": 577
+  },
+  {
+   "path": "Dialogues/clover2.txt",
+   "bytes": 791
+  },
+  {
+   "path": "Dialogues/guard.txt",
+   "bytes": 488
+  },
+  {
+   "path": "Dialogues/guards.txt",
+   "bytes": 998
+  },
+  {
+   "path": "Dialogues/jack.txt",
+   "bytes": 771
+  },
+  {
+   "path": "Dialogues/jack2.txt",
+   "bytes": 858
+  },
+  {
+   "path": "Dialogues/jack3.txt",
+   "bytes": 955
+  },
+  {
+   "path": "Dialogues/jack4.txt",
+   "bytes": 1731
+  },
+  {
+   "path": "Dialogues/jackguards.txt",
+   "bytes": 337
+  },
+  {
+   "path": "Dialogues/king.txt",
+   "bytes": 1008
+  },
+  {
+   "path": "Dialogues/king2.txt",
+   "bytes": 1466
+  },
+  {
+   "path": "Dialogues/protest.txt",
+   "bytes": 706
+  },
+  {
+   "path": "Dialogues/raidercamp.txt",
+   "bytes": 226
+  },
+  {
+   "path": "Dialogues/raiderchief.txt",
+   "bytes": 1329
+  },
+  {
+   "path": "Dialogues/raiderguard.txt",
+   "bytes": 252
+  },
+  {
+   "path": "Dialogues/raiders.txt",
+   "bytes": 576
+  },
+  {
+   "path": "Dialogues/raiderscout.txt",
+   "bytes": 125
+  },
+  {
+   "path": "Dialogues/raiderscout2.txt",
+   "bytes": 686
+  },
+  {
+   "path": "Dialogues/skipper.txt",
+   "bytes": 804
+  },
+  {
+   "path": "Dialogues/skipper2.txt",
+   "bytes": 813
+  },
+  {
+   "path": "Dialogues/skipper3.txt",
+   "bytes": 1087
+  },
+  {
+   "path": "Dialogues/trixie.txt",
+   "bytes": 507
+  },
+  {
+   "path": "Dialogues/trixie2.txt",
+   "bytes": 711
+  },
+  {
+   "path": "Dialogues/turner.txt",
+   "bytes": 387
+  },
+  {
+   "path": "Dialogues/turner10.txt",
+   "bytes": 547
+  },
+  {
+   "path": "Dialogues/turner2.txt",
+   "bytes": 237
+  },
+  {
+   "path": "Dialogues/turner3.txt",
+   "bytes": 208
+  },
+  {
+   "path": "Dialogues/turner4.txt",
+   "bytes": 195
+  },
+  {
+   "path": "Dialogues/turner5.txt",
+   "bytes": 171
+  },
+  {
+   "path": "Dialogues/turner6.txt",
+   "bytes": 779
+  },
+  {
+   "path": "Dialogues/turner7.txt",
+   "bytes": 246
+  },
+  {
+   "path": "Dialogues/turner8.txt",
+   "bytes": 1548
+  },
+  {
+   "path": "Dialogues/turner81.txt",
+   "bytes": 1058
+  },
+  {
+   "path": "Dialogues/turner82.txt",
+   "bytes": 502
+  },
+  {
+   "path": "Dialogues/turner9.txt",
+   "bytes": 889
+  },
+  {
+   "path": "Dialogues/wolfpatrol.txt",
+   "bytes": 411
+  },
+  {
+   "path": "HeightMap.png",
+   "bytes": 46363
+  },
+  {
+   "path": "Maps/Lugaru1.json",
+   "bytes": 51682
+  },
+  {
+   "path": "Maps/Lugaru10.json",
+   "bytes": 15517
+  },
+  {
+   "path": "Maps/Lugaru11.json",
+   "bytes": 24677
+  },
+  {
+   "path": "Maps/Lugaru12.json",
+   "bytes": 26176
+  },
+  {
+   "path": "Maps/Lugaru13.json",
+   "bytes": 18217
+  },
+  {
+   "path": "Maps/Lugaru14.json",
+   "bytes": 36612
+  },
+  {
+   "path": "Maps/Lugaru15.json",
+   "bytes": 21953
+  },
+  {
+   "path": "Maps/Lugaru16.json",
+   "bytes": 15765
+  },
+  {
+   "path": "Maps/Lugaru17.json",
+   "bytes": 23948
+  },
+  {
+   "path": "Maps/Lugaru18.json",
+   "bytes": 25705
+  },
+  {
+   "path": "Maps/Lugaru19.json",
+   "bytes": 43713
+  },
+  {
+   "path": "Maps/Lugaru2.json",
+   "bytes": 15714
+  },
+  {
+   "path": "Maps/Lugaru20.json",
+   "bytes": 41808
+  },
+  {
+   "path": "Maps/Lugaru21.json",
+   "bytes": 25512
+  },
+  {
+   "path": "Maps/Lugaru22.json",
+   "bytes": 27703
+  },
+  {
+   "path": "Maps/Lugaru23.json",
+   "bytes": 24268
+  },
+  {
+   "path": "Maps/Lugaru24.json",
+   "bytes": 22664
+  },
+  {
+   "path": "Maps/Lugaru25.json",
+   "bytes": 42229
+  },
+  {
+   "path": "Maps/Lugaru26.json",
+   "bytes": 38018
+  },
+  {
+   "path": "Maps/Lugaru27.json",
+   "bytes": 38508
+  },
+  {
+   "path": "Maps/Lugaru28.json",
+   "bytes": 52786
+  },
+  {
+   "path": "Maps/Lugaru29.json",
+   "bytes": 50384
+  },
+  {
+   "path": "Maps/Lugaru3.json",
+   "bytes": 56312
+  },
+  {
+   "path": "Maps/Lugaru30.json",
+   "bytes": 28999
+  },
+  {
+   "path": "Maps/Lugaru31.json",
+   "bytes": 51629
+  },
+  {
+   "path": "Maps/Lugaru4.json",
+   "bytes": 24585
+  },
+  {
+   "path": "Maps/Lugaru5.json",
+   "bytes": 28670
+  },
+  {
+   "path": "Maps/Lugaru6.json",
+   "bytes": 10086
+  },
+  {
+   "path": "Maps/Lugaru7.json",
+   "bytes": 9070
+  },
+  {
+   "path": "Maps/Lugaru8.json",
+   "bytes": 9451
+  },
+  {
+   "path": "Maps/Lugaru9.json",
+   "bytes": 17270
+  },
+  {
+   "path": "Maps/map1.json",
+   "bytes": 16927
+  },
+  {
+   "path": "Maps/map10.json",
+   "bytes": 8223
+  },
+  {
+   "path": "Maps/map11.json",
+   "bytes": 12451
+  },
+  {
+   "path": "Maps/map12.json",
+   "bytes": 16243
+  },
+  {
+   "path": "Maps/map13.json",
+   "bytes": 13609
+  },
+  {
+   "path": "Maps/map14.json",
+   "bytes": 11360
+  },
+  {
+   "path": "Maps/map2.json",
+   "bytes": 10958
+  },
+  {
+   "path": "Maps/map3.json",
+   "bytes": 18511
+  },
+  {
+   "path": "Maps/map4.json",
+   "bytes": 12076
+  },
+  {
+   "path": "Maps/map5.json",
+   "bytes": 8817
+  },
+  {
+   "path": "Maps/map6.json",
+   "bytes": 9563
+  },
+  {
+   "path": "Maps/map7.json",
+   "bytes": 22833
+  },
+  {
+   "path": "Maps/map8.json",
+   "bytes": 13572
+  },
+  {
+   "path": "Maps/map9.json",
+   "bytes": 19436
+  },
+  {
+   "path": "Maps/tutorial.json",
+   "bytes": 6452
+  },
+  {
+   "path": "Models/Belt.solid",
+   "bytes": 748
+  },
+  {
+   "path": "Models/Body.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body2.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body3.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body4.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body5.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body6.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/Body7.solid",
+   "bytes": 38104
+  },
+  {
+   "path": "Models/BodyLow.solid",
+   "bytes": 11092
+  },
+  {
+   "path": "Models/Box.solid",
+   "bytes": 532
+  },
+  {
+   "path": "Models/Bush.solid",
+   "bytes": 604
+  },
+  {
+   "path": "Models/Chimney.solid",
+   "bytes": 2116
+  },
+  {
+   "path": "Models/Cool.solid",
+   "bytes": 2380
+  },
+  {
+   "path": "Models/Cornea.solid",
+   "bytes": 1804
+  },
+  {
+   "path": "Models/Eye.solid",
+   "bytes": 9604
+  },
+  {
+   "path": "Models/Hawk.solid",
+   "bytes": 1408
+  },
+  {
+   "path": "Models/Iris.solid",
+   "bytes": 9604
+  },
+  {
+   "path": "Models/Leaves.solid",
+   "bytes": 964
+  },
+  {
+   "path": "Models/Platform.solid",
+   "bytes": 532
+  },
+  {
+   "path": "Models/Rabbit.solid",
+   "bytes": 30340
+  },
+  {
+   "path": "Models/Rock.solid",
+   "bytes": 1288
+  },
+  {
+   "path": "Models/Spike.solid",
+   "bytes": 256
+  },
+  {
+   "path": "Models/Staff.solid",
+   "bytes": 4396
+  },
+  {
+   "path": "Models/Sword.solid",
+   "bytes": 4468
+  },
+  {
+   "path": "Models/ThrowingKnife.solid",
+   "bytes": 3700
+  },
+  {
+   "path": "Models/TreeTrunk.solid",
+   "bytes": 256
+  },
+  {
+   "path": "Models/Tunnel.solid",
+   "bytes": 2116
+  },
+  {
+   "path": "Models/Wall.solid",
+   "bytes": 532
+  },
+  {
+   "path": "Models/Weird.solid",
+   "bytes": 2116
+  },
+  {
+   "path": "Models/Wolf.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf2.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf3.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf4.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf5.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf6.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/Wolf7.solid",
+   "bytes": 44956
+  },
+  {
+   "path": "Models/WolfLow.solid",
+   "bytes": 11524
+  },
+  {
+   "path": "Skeleton/BasicFigure",
+   "bytes": 4405
+  },
+  {
+   "path": "Skeleton/BasicFigureLow",
+   "bytes": 3069
+  },
+  {
+   "path": "Skeleton/BasicFigureWolf",
+   "bytes": 4757
+  },
+  {
+   "path": "Skeleton/BasicFigureWolfLow",
+   "bytes": 4757
+  },
+  {
+   "path": "Skeleton/RabbitBelt",
+   "bytes": 2573
+  },
+  {
+   "path": "Sounds/Alarm.ogg",
+   "bytes": 36836
+  },
+  {
+   "path": "Sounds/Bark.ogg",
+   "bytes": 10838
+  },
+  {
+   "path": "Sounds/Bark2.ogg",
+   "bytes": 10143
+  },
+  {
+   "path": "Sounds/Bark3.ogg",
+   "bytes": 12123
+  },
+  {
+   "path": "Sounds/BarkGrowl.ogg",
+   "bytes": 7798
+  },
+  {
+   "path": "Sounds/Break.ogg",
+   "bytes": 41894
+  },
+  {
+   "path": "Sounds/Broken.ogg",
+   "bytes": 11643
+  },
+  {
+   "path": "Sounds/BushRustle.ogg",
+   "bytes": 10901
+  },
+  {
+   "path": "Sounds/Clank1.ogg",
+   "bytes": 6580
+  },
+  {
+   "path": "Sounds/Clank2.ogg",
+   "bytes": 8892
+  },
+  {
+   "path": "Sounds/Clank3.ogg",
+   "bytes": 8068
+  },
+  {
+   "path": "Sounds/Clank4.ogg",
+   "bytes": 8258
+  },
+  {
+   "path": "Sounds/ClawSlice.ogg",
+   "bytes": 10555
+  },
+  {
+   "path": "Sounds/ConsoleFail.ogg",
+   "bytes": 11183
+  },
+  {
+   "path": "Sounds/ConsoleSuccess.ogg",
+   "bytes": 15653
+  },
+  {
+   "path": "Sounds/DesertAmbient.ogg",
+   "bytes": 442713
+  },
+  {
+   "path": "Sounds/Fire.ogg",
+   "bytes": 53032
+  },
+  {
+   "path": "Sounds/FireEnd.ogg",
+   "bytes": 12668
+  },
+  {
+   "path": "Sounds/FireStart.ogg",
+   "bytes": 11547
+  },
+  {
+   "path": "Sounds/FleshStab.ogg",
+   "bytes": 7186
+  },
+  {
+   "path": "Sounds/FleshStabRemove.ogg",
+   "bytes": 7235
+  },
+  {
+   "path": "Sounds/FootStepGrass1.ogg",
+   "bytes": 9018
+  },
+  {
+   "path": "Sounds/FootStepGrass2.ogg",
+   "bytes": 9640
+  },
+  {
+   "path": "Sounds/FootStepSnow1.ogg",
+   "bytes": 5807
+  },
+  {
+   "path": "Sounds/FootStepSnow2.ogg",
+   "bytes": 6559
+  },
+  {
+   "path": "Sounds/FootStepStone1.ogg",
+   "bytes": 8499
+  },
+  {
+   "path": "Sounds/FootStepStone2.ogg",
+   "bytes": 8330
+  },
+  {
+   "path": "Sounds/Growl.ogg",
+   "bytes": 22412
+  },
+  {
+   "path": "Sounds/Growl2.ogg",
+   "bytes": 18133
+  },
+  {
+   "path": "Sounds/Hawk.ogg",
+   "bytes": 29552
+  },
+  {
+   "path": "Sounds/HeavyImpact.ogg",
+   "bytes": 15785
+  },
+  {
+   "path": "Sounds/HighWhoosh.ogg",
+   "bytes": 6476
+  },
+  {
+   "path": "Sounds/Jump.ogg",
+   "bytes": 14467
+  },
+  {
+   "path": "Sounds/KnifeDraw.ogg",
+   "bytes": 10154
+  },
+  {
+   "path": "Sounds/KnifeSheathe.ogg",
+   "bytes": 7745
+  },
+  {
+   "path": "Sounds/KnifeSlice.ogg",
+   "bytes": 7854
+  },
+  {
+   "path": "Sounds/KnifeSwish.ogg",
+   "bytes": 6544
+  },
+  {
+   "path": "Sounds/Land.ogg",
+   "bytes": 8916
+  },
+  {
+   "path": "Sounds/Land1.ogg",
+   "bytes": 12182
+  },
+  {
+   "path": "Sounds/Land2.ogg",
+   "bytes": 6260
+  },
+  {
+   "path": "Sounds/LowWhoosh.ogg",
+   "bytes": 8303
+  },
+  {
+   "path": "Sounds/MetalHit.ogg",
+   "bytes": 13454
+  },
+  {
+   "path": "Sounds/MidWhoosh.ogg",
+   "bytes": 7813
+  },
+  {
+   "path": "Sounds/MoveWhoosh.ogg",
+   "bytes": 9181
+  },
+  {
+   "path": "Sounds/RabbitAttack.ogg",
+   "bytes": 9090
+  },
+  {
+   "path": "Sounds/RabbitAttack2.ogg",
+   "bytes": 12405
+  },
+  {
+   "path": "Sounds/RabbitAttack3.ogg",
+   "bytes": 18756
+  },
+  {
+   "path": "Sounds/RabbitAttack4.ogg",
+   "bytes": 11728
+  },
+  {
+   "path": "Sounds/RabbitChitter.ogg",
+   "bytes": 10976
+  },
+  {
+   "path": "Sounds/RabbitChitter2.ogg",
+   "bytes": 10976
+  },
+  {
+   "path": "Sounds/RabbitPain.ogg",
+   "bytes": 7198
+  },
+  {
+   "path": "Sounds/RabbitPain2.ogg",
+   "bytes": 12935
+  },
+  {
+   "path": "Sounds/Skid.ogg",
+   "bytes": 11792
+  },
+  {
+   "path": "Sounds/Snarl.ogg",
+   "bytes": 9035
+  },
+  {
+   "path": "Sounds/Snarl2.ogg",
+   "bytes": 9211
+  },
+  {
+   "path": "Sounds/SnowSkid.ogg",
+   "bytes": 10440
+  },
+  {
+   "path": "Sounds/Splatter.ogg",
+   "bytes": 10449
+  },
+  {
+   "path": "Sounds/StaffBody.ogg",
+   "bytes": 10613
+  },
+  {
+   "path": "Sounds/StaffBreak.ogg",
+   "bytes": 9891
+  },
+  {
+   "path": "Sounds/StaffHead.ogg",
+   "bytes": 10573
+  },
+  {
+   "path": "Sounds/SwordSlice.ogg",
+   "bytes": 8134
+  },
+  {
+   "path": "Sounds/SwordStaff.ogg",
+   "bytes": 7536
+  },
+  {
+   "path": "Sounds/Thud.ogg",
+   "bytes": 9197
+  },
+  {
+   "path": "Sounds/Whoosh.ogg",
+   "bytes": 21579
+  },
+  {
+   "path": "Sounds/WhooshHit.ogg",
+   "bytes": 6634
+  },
+  {
+   "path": "Sounds/Wind.ogg",
+   "bytes": 437430
+  },
+  {
+   "path": "Textures/Belt.png",
+   "bytes": 58977
+  },
+  {
+   "path": "Textures/Blood.png",
+   "bytes": 6682
+  },
+  {
+   "path": "Textures/BloodApril.png",
+   "bytes": 601630
+  },
+  {
+   "path": "Textures/BloodClover.png",
+   "bytes": 474208
+  },
+  {
+   "path": "Textures/BloodFlame.png",
+   "bytes": 12536
+  },
+  {
+   "path": "Textures/BloodFur.png",
+   "bytes": 7280
+  },
+  {
+   "path": "Textures/BloodJack.png",
+   "bytes": 534006
+  },
+  {
+   "path": "Textures/BloodKnife.png",
+   "bytes": 137193
+  },
+  {
+   "path": "Textures/BloodKnifeLight.png",
+   "bytes": 140235
+  },
+  {
+   "path": "Textures/BloodParticle.png",
+   "bytes": 1546
+  },
+  {
+   "path": "Textures/BloodParticleInverse.png",
+   "bytes": 8313
+  },
+  {
+   "path": "Textures/BloodTrixie.png",
+   "bytes": 601082
+  },
+  {
+   "path": "Textures/Bodyprint.png",
+   "bytes": 1229
+  },
+  {
+   "path": "Textures/Boulder.jpg",
+   "bytes": 581622
+  },
+  {
+   "path": "Textures/BoulderDesert.jpg",
+   "bytes": 687952
+  },
+  {
+   "path": "Textures/BoulderSnow.jpg",
+   "bytes": 704553
+  },
+  {
+   "path": "Textures/Break.png",
+   "bytes": 6729
+  },
+  {
+   "path": "Textures/Bush.png",
+   "bytes": 327879
+  },
+  {
+   "path": "Textures/BushDesert.png",
+   "bytes": 273738
+  },
+  {
+   "path": "Textures/BushSnow.png",
+   "bytes": 315462
+  },
+  {
+   "path": "Textures/Cloud.png",
+   "bytes": 34444
+  },
+  {
+   "path": "Textures/CloudImpact.png",
+   "bytes": 36395
+  },
+  {
+   "path": "Textures/Cursor.png",
+   "bytes": 1942
+  },
+  {
+   "path": "Textures/DesertBox.jpg",
+   "bytes": 634466
+  },
+  {
+   "path": "Textures/DesertTree.png",
+   "bytes": 965707
+  },
+  {
+   "path": "Textures/EarWrap.png",
+   "bytes": 53764
+  },
+  {
+   "path": "Textures/EndGame.png",
+   "bytes": 6441
+  },
+  {
+   "path": "Textures/Eyelid.png",
+   "bytes": 1090585
+  },
+  {
+   "path": "Textures/FancyPants.png",
+   "bytes": 116064
+  },
+  {
+   "path": "Textures/FancyPantsCamo.png",
+   "bytes": 109718
+  },
+  {
+   "path": "Textures/FancyPantsCamoArctic.png",
+   "bytes": 94095
+  },
+  {
+   "path": "Textures/FancyPantsCamoDesert.png",
+   "bytes": 124767
+  },
+  {
+   "path": "Textures/Fire.jpg",
+   "bytes": 63088
+  },
+  {
+   "path": "Textures/Flame.png",
+   "bytes": 6480
+  },
+  {
+   "path": "Textures/Font.png",
+   "bytes": 58357
+  },
+  {
+   "path": "Textures/FootWrap.png",
+   "bytes": 46034
+  },
+  {
+   "path": "Textures/Footprint.png",
+   "bytes": 5207
+  },
+  {
+   "path": "Textures/FootprintSand.png",
+   "bytes": 510
+  },
+  {
+   "path": "Textures/Fur.jpg",
+   "bytes": 267936
+  },
+  {
+   "path": "Textures/Fur2.png",
+   "bytes": 395837
+  },
+  {
+   "path": "Textures/FurBlack.jpg",
+   "bytes": 245940
+  },
+  {
+   "path": "Textures/FurBlackWhite.jpg",
+   "bytes": 265135
+  },
+  {
+   "path": "Textures/FurBrown.jpg",
+   "bytes": 138173
+  },
+  {
+   "path": "Textures/FurBrownWhite.jpg",
+   "bytes": 332569
+  },
+  {
+   "path": "Textures/FurChocolate.jpg",
+   "bytes": 366132
+  },
+  {
+   "path": "Textures/FurDarko.jpg",
+   "bytes": 282299
+  },
+  {
+   "path": "Textures/FurDavid.jpg",
+   "bytes": 236584
+  },
+  {
+   "path": "Textures/FurLynx.jpg",
+   "bytes": 345672
+  },
+  {
+   "path": "Textures/FurOpal.jpg",
+   "bytes": 307740
+  },
+  {
+   "path": "Textures/FurOtter.jpg",
+   "bytes": 239425
+  },
+  {
+   "path": "Textures/FurSable.jpg",
+   "bytes": 389982
+  },
+  {
+   "path": "Textures/FurWhite.jpg",
+   "bytes": 267936
+  },
+  {
+   "path": "Textures/FurWolfDark.jpg",
+   "bytes": 288240
+  },
+  {
+   "path": "Textures/FurWolfGrey.jpg",
+   "bytes": 327142
+  },
+  {
+   "path": "Textures/FurWolfLizard.jpg",
+   "bytes": 267933
+  },
+  {
+   "path": "Textures/FurWolfSnow.jpg",
+   "bytes": 292610
+  },
+  {
+   "path": "Textures/Gi.png",
+   "bytes": 257223
+  },
+  {
+   "path": "Textures/GrassBox.jpg",
+   "bytes": 715272
+  },
+  {
+   "path": "Textures/GrassDirt.jpg",
+   "bytes": 955423
+  },
+  {
+   "path": "Textures/GrassDirt2.jpg",
+   "bytes": 766540
+  },
+  {
+   "path": "Textures/Hawk.png",
+   "bytes": 66838
+  },
+  {
+   "path": "Textures/HeadBand.png",
+   "bytes": 13772
+  },
+  {
+   "path": "Textures/HeightMap.png",
+   "bytes": 46363
+  },
+  {
+   "path": "Textures/Knife.png",
+   "bytes": 137078
+  },
+  {
+   "path": "Textures/Leaf.png",
+   "bytes": 3325
+  },
+  {
+   "path": "Textures/LeatherArmor.png",
+   "bytes": 124466
+  },
+  {
+   "path": "Textures/LeatherPants.png",
+   "bytes": 163096
+  },
+  {
+   "path": "Textures/LeatherWristLeft.png",
+   "bytes": 21939
+  },
+  {
+   "path": "Textures/LeatherWristRight.png",
+   "bytes": 22119
+  },
+  {
+   "path": "Textures/Logo.png",
+   "bytes": 32831
+  },
+  {
+   "path": "Textures/LongSleeve.png",
+   "bytes": 96219
+  },
+  {
+   "path": "Textures/Lugaru.png",
+   "bytes": 18684
+  },
+  {
+   "path": "Textures/MapArrow.png",
+   "bytes": 3752
+  },
+  {
+   "path": "Textures/MapBox.png",
+   "bytes": 1407
+  },
+  {
+   "path": "Textures/MapCircle.png",
+   "bytes": 2911
+  },
+  {
+   "path": "Textures/MossRock.jpg",
+   "bytes": 821014
+  },
+  {
+   "path": "Textures/NewGame.png",
+   "bytes": 4616
+  },
+  {
+   "path": "Textures/Options.png",
+   "bytes": 6811
+  },
+  {
+   "path": "Textures/Pants.png",
+   "bytes": 88552
+  },
+  {
+   "path": "Textures/Quit.png",
+   "bytes": 4523
+  },
+  {
+   "path": "Textures/Resume.png",
+   "bytes": 6405
+  },
+  {
+   "path": "Textures/Rock.jpg",
+   "bytes": 704553
+  },
+  {
+   "path": "Textures/Rock2.jpg",
+   "bytes": 567487
+  },
+  {
+   "path": "Textures/Sand.jpg",
+   "bytes": 426377
+  },
+  {
+   "path": "Textures/SandSlope.jpg",
+   "bytes": 436469
+  },
+  {
+   "path": "Textures/Scar.png",
+   "bytes": 9579
+  },
+  {
+   "path": "Textures/Shadow.png",
+   "bytes": 1915
+  },
+  {
+   "path": "Textures/Shine.png",
+   "bytes": 54246
+  },
+  {
+   "path": "Textures/Shirt.png",
+   "bytes": 78834
+  },
+  {
+   "path": "Textures/ShirtFemale.png",
+   "bytes": 78407
+  },
+  {
+   "path": "Textures/Skybox(grass)/Back.jpg",
+   "bytes": 188096
+  },
+  {
+   "path": "Textures/Skybox(grass)/Down.jpg",
+   "bytes": 254007
+  },
+  {
+   "path": "Textures/Skybox(grass)/Front.jpg",
+   "bytes": 215562
+  },
+  {
+   "path": "Textures/Skybox(grass)/Left.jpg",
+   "bytes": 224919
+  },
+  {
+   "path": "Textures/Skybox(grass)/Right.jpg",
+   "bytes": 214338
+  },
+  {
+   "path": "Textures/Skybox(grass)/Up.jpg",
+   "bytes": 113294
+  },
+  {
+   "path": "Textures/Skybox(sand)/Back.jpg",
+   "bytes": 112748
+  },
+  {
+   "path": "Textures/Skybox(sand)/Down.jpg",
+   "bytes": 163368
+  },
+  {
+   "path": "Textures/Skybox(sand)/Front.jpg",
+   "bytes": 113450
+  },
+  {
+   "path": "Textures/Skybox(sand)/Left.jpg",
+   "bytes": 111616
+  },
+  {
+   "path": "Textures/Skybox(sand)/Right.jpg",
+   "bytes": 107568
+  },
+  {
+   "path": "Textures/Skybox(sand)/Up.jpg",
+   "bytes": 70299
+  },
+  {
+   "path": "Textures/Skybox(snow)/Back.jpg",
+   "bytes": 84686
+  },
+  {
+   "path": "Textures/Skybox(snow)/Down.jpg",
+   "bytes": 109847
+  },
+  {
+   "path": "Textures/Skybox(snow)/Front.jpg",
+   "bytes": 113724
+  },
+  {
+   "path": "Textures/Skybox(snow)/Left.jpg",
+   "bytes": 102730
+  },
+  {
+   "path": "Textures/Skybox(snow)/Right.jpg",
+   "bytes": 81593
+  },
+  {
+   "path": "Textures/Skybox(snow)/Up.jpg",
+   "bytes": 73475
+  },
+  {
+   "path": "Textures/Smoke.png",
+   "bytes": 20991
+  },
+  {
+   "path": "Textures/Snow.jpg",
+   "bytes": 370762
+  },
+  {
+   "path": "Textures/Snow.png",
+   "bytes": 243051
+  },
+  {
+   "path": "Textures/SnowBox.jpg",
+   "bytes": 611961
+  },
+  {
+   "path": "Textures/SnowFlake.png",
+   "bytes": 1888
+  },
+  {
+   "path": "Textures/SnowTree.png",
+   "bytes": 1740807
+  },
+  {
+   "path": "Textures/Splinter.png",
+   "bytes": 380
+  },
+  {
+   "path": "Textures/Staff.jpg",
+   "bytes": 68607
+  },
+  {
+   "path": "Textures/Sword.jpg",
+   "bytes": 100956
+  },
+  {
+   "path": "Textures/SwordBlood.jpg",
+   "bytes": 119289
+  },
+  {
+   "path": "Textures/SwordBloodLight.jpg",
+   "bytes": 111720
+  },
+  {
+   "path": "Textures/Tooth.png",
+   "bytes": 3071
+  },
+  {
+   "path": "Textures/Tree.png",
+   "bytes": 1701979
+  },
+  {
+   "path": "Textures/Wireframe.jpg",
+   "bytes": 199941
+  },
+  {
+   "path": "Textures/WolfBloodFur.png",
+   "bytes": 7825
+  },
+  {
+   "path": "Textures/World.png",
+   "bytes": 1212028
+  },
+  {
+   "path": "animations.json",
+   "bytes": 11329
+  },
+  {
+   "path": "campaign.json",
+   "bytes": 4526
+  },
+  {
+   "path": "heightmap.json",
+   "bytes": 251799
+  }
+ ]
+}
