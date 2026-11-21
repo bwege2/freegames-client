@@ -69,7 +69,8 @@ release is one commit and tag there, so earlier versions stay available too.</p>
 <p>On request we send you the complete source code of every version this site served in the last three years, free of
 charge (contact: <a href="impressum.html">Impressum</a>).</p>
 <p class="muted">The game server, which runs only on our machine and is not distributed, is not part of it; nor are the games
-marked “freegames-exclusive (closed source)” below, which are not open source.</p>
+marked “freegames-exclusive (closed source)” below, which are not open source; nor is the operator's private,
+unlisted game, which is reachable only at its direct address.</p>
 </div>
 
 <h2>The website and the game SDK</h2>

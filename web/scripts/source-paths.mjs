@@ -24,6 +24,12 @@ export const SOURCE_PATHS = ['web', 'protocol', 'tools/gen-protocol.sh', 'docs/G
 export const NEVER = [/^server\/(?!src\/main\/resources\/xpilot\/lib\/maps\/)/, /^slipstream\//, /^tools\/deploy/, /^docs\/(SERVER|DEPLOY)\.md$/, /^pom\.xml$/,
   /^re\/(?!nethack\/|abuse\/|teeworlds\/|frozenbubble\/|freecol\/|pokerth\/|lincity\/|opencity\/|teg\/|supertux\/|crawl\/|madness\/|endlesssky\/)/];
 
+/**
+ * The operator's own, unlisted app (web/public/auction-stars, the built AUCTION STARS): it is reachable only at its
+ * direct address and is not open source, so the public source repository leaves it out (deploy docs/DEPLOY.md).
+ */
+export const PRIVATE_PATHS = [/^web\/public\/auction-stars\//];
+
 /** The ids of the closed games at `commit`: those whose web/games/<id>/game.json says "closed": true. */
 export function closedGames(git, commit) {
   const manifests = git('ls-tree', '-r', '--name-only', commit, '--', 'web/games').split('\n').filter((f) => /^web\/games\/[^/]+\/game\.json$/.test(f));
@@ -54,7 +60,7 @@ export function closedPaths(id) {
 export function sourceFiles(git, commit) {
   const closed = closedGames(git, commit).flatMap(closedPaths);
   const files = git('ls-tree', '-r', '--name-only', commit, '--', ...SOURCE_PATHS).split('\n').filter(Boolean)
-    .filter((f) => !closed.some((r) => r.test(f)));
+    .filter((f) => !closed.some((r) => r.test(f)) && !PRIVATE_PATHS.some((r) => r.test(f)));
   const bad = files.filter((f) => NEVER.some((r) => r.test(f)));
   if (bad.length) throw new Error(`the public source would hold files it must not: ${bad.slice(0, 5).join(', ')}`);
   if (!files.some((f) => f.startsWith('web/src/')) || !files.includes('web/package.json')) throw new Error('the public source misses the website');

@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { NEVER, closedGames, closedPaths, sourceFiles } from '../scripts/source-paths.mjs';
+import { NEVER, PRIVATE_PATHS, closedGames, closedPaths, sourceFiles } from '../scripts/source-paths.mjs';
 
 const repo = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const git = (...args: string[]) => execFileSync('git', args, { cwd: repo, encoding: 'utf8', maxBuffer: 1 << 28 });
@@ -22,6 +22,19 @@ test('a server file in the list stops the publication', () => {
   assert.throws(() => sourceFiles(fake, 'HEAD'), /must not/);
   for (const f of ['slipstream/pom.xml', 'tools/deploy.sh', 'docs/DEPLOY.md', 'pom.xml', 're/somegame/x']) assert.ok(NEVER.some((r) => r.test(f)), f);
   assert.ok(!NEVER.some((r) => r.test('server/src/main/resources/xpilot/lib/maps/tourmination.xp')));
+});
+
+test("the operator's unlisted app stays out of the public source", () => {
+  // a made-up repository: the site, the private app and an ordinary public file
+  const tree = ['web/package.json', 'web/src/site/main.ts', 'web/public/auction-stars/index.html',
+    'web/public/auction-stars/assets/index.js', 'web/public/auction-stars/models/container20.glb', 'web/public/icon.png'];
+  const fake = (..._: string[]): string => `${tree.join('\n')}\n`;
+  assert.deepEqual(sourceFiles(fake, 'HEAD'), ['web/package.json', 'web/src/site/main.ts', 'web/public/icon.png']);
+  for (const f of ['web/public/auction-stars/index.html', 'web/public/auction-stars/assets/index.js']) {
+    assert.ok(PRIVATE_PATHS.some((r) => r.test(f)), f);
+  }
+  const real = sourceFiles(git, 'HEAD');
+  assert.deepEqual(real.filter((f) => f.startsWith('web/public/auction-stars/')), [], 'nothing of the private app');
 });
 
 test('a closed game (game.json "closed": true) stays out: its folder, schema, icons and server module', () => {
