@@ -1,0 +1,8484 @@
+{
+ "structures/athen/civil_centre": {
+  "actor": "structures/athenians/civil_centre",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Hellenes_Civic_Centre",
+      "meshes": [
+       "structural/athen_cc_struct.pmd"
+      ],
+      "textures": [
+       "structural/hele_struct.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/athenians/civic_centre_decor",
+        "mesh": "structural/athen_cc_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_nature",
+        "mesh": "structural/athen_cc_nature_transp.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_trees",
+        "mesh": "structural/athen_cc_trees.pmd",
+        "textures": [
+         "gaia/tree_cypress_f.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_props_a",
+        "mesh": "structural/athen_cc_propsa.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_roundroof",
+        "mesh": "structural/athen_cc_round_roof.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_shields",
+        "mesh": "structural/athen_cc_shields.pmd",
+        "textures": [
+         "props/athen_prop_shields.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_tiles",
+        "mesh": "structural/athen_cc_tiles_b.pmd",
+        "textures": [
+         "props/hele_tile_b.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_hele",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_hele_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/athenians/civic_centre_decor",
+        "mesh": "structural/athen_cc_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_nature",
+        "mesh": "structural/athen_cc_nature_transp.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_trees",
+        "mesh": "structural/athen_cc_trees.pmd",
+        "textures": [
+         "gaia/tree_cypress_f.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_props_a",
+        "mesh": "structural/athen_cc_propsa.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_roundroof",
+        "mesh": "structural/athen_cc_round_roof.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_shields",
+        "mesh": "structural/athen_cc_shields.pmd",
+        "textures": [
+         "props/athen_prop_shields.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/civic_centre_tiles",
+        "mesh": "structural/athen_cc_tiles_b.pmd",
+        "textures": [
+         "props/hele_tile_b.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/house": {
+  "actor": "structures/hellenes/house",
+  "material": "no_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "base",
+      "meshes": [],
+      "textures": [
+       "structural/hele_struct_b.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 3,
+      "name": "Hellenes House A",
+      "meshes": [
+       "structural/hele_house_a.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/house_a_shields",
+        "mesh": "props/hele_house_a_shields.pmd",
+        "textures": [
+         "props/hele_props_b.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_a_nature",
+        "mesh": "props/hele_house_a_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_a_struct",
+        "mesh": "props/hele_house_a_struct.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_a_props_a",
+        "mesh": "props/hele_house_a_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_a_decor",
+        "mesh": "props/hele_house_a_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 2,
+      "name": "Hellenes House B",
+      "meshes": [
+       "structural/hele_house_b.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/house_b_shields",
+        "mesh": "props/hele_house_b_shields.pmd",
+        "textures": [
+         "props/hele_props_b.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_b_nature",
+        "mesh": "props/hele_house_b_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_b_struct",
+        "mesh": "props/hele_house_b_struct.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_b_props_a",
+        "mesh": "props/hele_house_b_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_b_decor",
+        "mesh": "props/hele_house_b_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 2,
+      "name": "Hellenes House C",
+      "meshes": [
+       "structural/hele_house_c.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/house_c_shields",
+        "mesh": "props/hele_house_c_shields.pmd",
+        "textures": [
+         "props/hele_props_b.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_c_nature",
+        "mesh": "props/hele_house_c_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_c_struct",
+        "mesh": "props/hele_house_c_struct.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_c_props_a",
+        "mesh": "props/hele_house_c_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_c_decor",
+        "mesh": "props/hele_house_c_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 4,
+      "name": "Hellenes House D",
+      "meshes": [
+       "structural/hele_house_d.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/house_d_shields",
+        "mesh": "props/hele_house_d_shields.pmd",
+        "textures": [
+         "props/hele_props_b.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_d_nature",
+        "mesh": "props/hele_house_d_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_d_struct",
+        "mesh": "props/hele_house_d_struct.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_d_props_a",
+        "mesh": "props/hele_house_d_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_d_decor",
+        "mesh": "props/hele_house_d_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 4,
+      "name": "Hellenes House E",
+      "meshes": [
+       "structural/hele_house_e.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/house_e_shields",
+        "mesh": "props/hele_house_e_shields.pmd",
+        "textures": [
+         "props/hele_props_b.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_e_nature",
+        "mesh": "props/hele_house_e_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_e_struct",
+        "mesh": "props/hele_house_e_struct.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/house_e_props_a",
+        "mesh": "props/hele_house_e_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_hele",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_hele_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/storehouse": {
+  "actor": "structures/hellenes/storehouse",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Hellenes storehouse",
+      "meshes": [
+       "structural/hele_storehouse.pmd"
+      ],
+      "textures": [
+       "structural/hele_struct_b.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/storehouse_blocks",
+        "mesh": "props/hele_storehouse_blocks.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_roof",
+        "mesh": "props/hele_storehouse_roof.pmd",
+        "textures": [
+         "structural/rooftiles_broken.webp"
+        ],
+        "material": "basic_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_props",
+        "mesh": "props/hele_storehouse_props.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_wood",
+        "mesh": "props/hele_storehouse_wood.pmd",
+        "textures": [
+         "props/wood_c.webp"
+        ],
+        "material": "no_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/storehouse_blocks",
+        "mesh": "props/hele_storehouse_blocks.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_roof",
+        "mesh": "props/hele_storehouse_roof.pmd",
+        "textures": [
+         "structural/rooftiles_broken.webp"
+        ],
+        "material": "basic_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_props",
+        "mesh": "props/hele_storehouse_props.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/storehouse_wood",
+        "mesh": "props/hele_storehouse_wood.pmd",
+        "textures": [
+         "props/wood_c.webp"
+        ],
+        "material": "no_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/farmstead": {
+  "actor": "structures/hellenes/farmstead",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Hellenes Farmstead",
+      "meshes": [
+       "structural/hele_farmstead.pmd"
+      ],
+      "textures": [
+       "structural/hele_struct_b.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/farmstead_hay",
+        "mesh": "props/hele_farmstead_hay.pmd",
+        "textures": [
+         "props/wrld_hay_a.webp"
+        ],
+        "material": "player_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/farmstead_props",
+        "mesh": "props/hele_farmstead_props.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/farmstead_plants",
+        "mesh": "props/hele_farmstead_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/farmstead_hay",
+        "mesh": "props/hele_farmstead_hay.pmd",
+        "textures": [
+         "props/wrld_hay_a.webp"
+        ],
+        "material": "player_trans_ao_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/farmstead_props",
+        "mesh": "props/hele_farmstead_props.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/farmstead_plants",
+        "mesh": "props/hele_farmstead_nature.pmd",
+        "textures": [
+         "props/structs_nature.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/field": {
+  "actor": "structures/plot_field",
+  "material": "basic_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [
+       "structural/field_plot.pmd"
+      ],
+      "textures": [
+       "structural/field_01.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/special/common/field_grain",
+        "mesh": "props/field_grain.pmd",
+        "textures": [
+         "structural/field_01.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/barracks": {
+  "actor": "structures/athenians/barracks",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Hellenes Barracks",
+      "meshes": [
+       "structural/athen_barracks_struct.pmd"
+      ],
+      "textures": [
+       "structural/hele_struct.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/athenians/barracks_struct_b",
+        "mesh": "props/athen_barracks_struct_b.pmd",
+        "textures": [
+         "structural/hele_struct_b.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_props_a",
+        "mesh": "props/athen_barracks_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_props_shields",
+        "mesh": "props/athen_barracks_shields.pmd",
+        "textures": [
+         "props/athen_prop_shields.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_tile_c",
+        "mesh": "props/athen_barracks_tile_c.pmd",
+        "textures": [
+         "props/hele_tile_c.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_decor",
+        "mesh": "props/athen_barracks_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_hele",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_hele_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/athenians/barracks_struct_b",
+        "mesh": "props/athen_barracks_struct_b.pmd",
+        "textures": [
+         "structural/hele_struct_b.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_props_a",
+        "mesh": "props/athen_barracks_props_a.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_props_shields",
+        "mesh": "props/athen_barracks_shields.pmd",
+        "textures": [
+         "props/athen_prop_shields.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_tile_c",
+        "mesh": "props/athen_barracks_tile_c.pmd",
+        "textures": [
+         "props/hele_tile_c.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/athenians/barracks_decor",
+        "mesh": "props/athen_barracks_decor.pmd",
+        "textures": [
+         "props/hele_decor.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/athen/defense_tower": {
+  "actor": "structures/hellenes/scout_tower",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "scout tower",
+      "meshes": [
+       "structural/hele_scout_tower.pmd"
+      ],
+      "textures": [
+       "structural/hele_struct_b.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/scout_tower_fancy",
+        "mesh": "props/hele_scout_tower_f.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/scout_tower_props",
+        "mesh": "props/hele_scout_tower_p.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "upgrading",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/scout_tower_fancy",
+        "mesh": "props/hele_scout_tower_f.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/scout_tower_props",
+        "mesh": "props/hele_scout_tower_p.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/construction/scaf_3x3_tower",
+        "mesh": "props/scaf_3x3_tower.pmd",
+        "textures": [
+         "props/scaffold.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_hele",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_hele_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/hellenes/scout_tower_fancy",
+        "mesh": "props/hele_scout_tower_f.pmd",
+        "textures": [
+         "structural/hele_struct.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/hellenes/scout_tower_props",
+        "mesh": "props/hele_scout_tower_p.pmd",
+        "textures": [
+         "props/hele_props_a.webp"
+        ],
+        "material": "player_trans_ao_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "units/athen/infantry_spearman_b": {
+  "actor": "units/athenians/infantry_spearman_b",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_tunic_short.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/heads/new/head_hele_b",
+        "mesh": "props/new/dude_head.pmd",
+        "textures": [
+         "props/head/hele_a.webp"
+        ],
+        "material": "objectcolor_norm_spec.xml",
+        "attachpoint": "head"
+       },
+       {
+        "actor": "props/units/shields/aspis_athen_b",
+        "mesh": "props/shield/aspis_01_front.pmd",
+        "textures": [
+         "props/shield/aspis_athen_01.webp"
+        ],
+        "material": "player_trans_parallax_spec.xml",
+        "attachpoint": "shield_arm"
+       },
+       {
+        "actor": "props/units/weapons/spear_hoplite",
+        "mesh": "props/spear_hoplite.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       },
+       {
+        "actor": "props/units/helmets/hele_pilos",
+        "mesh": "props/helmet/hele_pilos_a1.pmd",
+        "textures": [
+         "props/helmet/hele_pilos_01_bronze.webp"
+        ],
+        "material": "no_trans_parallax_spec.xml",
+        "attachpoint": "helmet"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 2,
+      "name": "hele-tunic-2a",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_02_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "hele-tunic-2b",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_02_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "hele-tunic-2c",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_02_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 2,
+      "name": "hele-tunic-3a",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_03_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "hele-tunic-3b",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_03_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "hele-tunic-3c",
+      "meshes": [],
+      "textures": [
+       "skeletal/hele/tunic_03_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_01.psa",
+        "id": "idle1",
+        "frequency": 8,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_02.psa",
+        "id": "idle2",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_03.psa",
+        "id": "idle3",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_04.psa",
+        "id": "idle4",
+        "frequency": 3,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_05.psa",
+        "id": "idle5",
+        "frequency": 3,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_06.psa",
+        "id": "idle6",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_long_01.psa",
+        "id": "idle7",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_relax.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_relax.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 32.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 8.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 9.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 10.0
+       },
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/hoplite/attack_melee_04.psa",
+        "id": "attack1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/hoplite/attack_melee_05.psa",
+        "id": "attack2",
+        "frequency": 1,
+        "speed": 30.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_front.psa",
+        "id": "phalanxfrontidle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready_front.psa",
+        "id": "phalanxfrontwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_ready.psa",
+        "id": "phalanxfrontrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_01.psa",
+        "id": "phalanxmididle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready.psa",
+        "id": "phalanxmidwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_ready.psa",
+        "id": "phalanxmidrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_back.psa",
+        "id": "phalanxbacktidle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready.psa",
+        "id": "phalanxbackwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/jog_ready.psa",
+        "id": "phalanxbackrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/spear_lance_cavalry_reverse",
+        "mesh": "props/spear_lance_cavalry_reverse.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "units/athen/infantry_slinger_b": {
+  "actor": "units/athenians/infantry_slinger_b",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_tunic_short.pmd"
+      ],
+      "textures": [
+       "skeletal/hele/tunic_01_01.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/units/heads/new/head_hele_b",
+        "mesh": "props/new/dude_head.pmd",
+        "textures": [
+         "props/head/hele_a.webp"
+        ],
+        "material": "objectcolor_norm_spec.xml",
+        "attachpoint": "head"
+       },
+       {
+        "actor": "props/units/helmets/headband_generic",
+        "mesh": "props/helmet/han_bandana.pmd",
+        "textures": [
+         "props/helmets/han_bandana.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "helmet"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/sling",
+        "mesh": "props/weap_sling_a.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/slinger/idle_relax_01.psa",
+        "id": "idle1",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/slinger/idle_relax_02.psa",
+        "id": "idle2",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/slinger/idle_relax_03.psa",
+        "id": "idle3",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/slinger/idle_relax_04.psa",
+        "id": "idle4",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/slinger/jog_relax.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 10.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/slinger/jog_relax.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 11.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/slinger/jog_ready.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 4.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/slinger/jog_ready.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 4.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/slinger/jog_ready.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 4.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/sling",
+        "mesh": "props/weap_sling_a.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "attack_ranged",
+        "file": "biped/infantry/slinger/attack_ranged.psa",
+        "id": "attack_ranged_01",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "units/athen/support_civilian": {
+  "actor": "units/athenians/citizen_male",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_dress.pmd"
+      ],
+      "textures": [
+       "skeletal/imp/support_citizen_male_01.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/units/heads/new/head_hele_b",
+        "mesh": "props/new/dude_head.pmd",
+        "textures": [
+         "props/head/hele_a.webp"
+        ],
+        "material": "objectcolor_norm_spec.xml",
+        "attachpoint": "head"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_long.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_long.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_short.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 28.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 4.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 5.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 6.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/swordsman/attack_melee_shield_02.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/civil_centre": {
+  "actor": "structures/carthaginians/civil_centre",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Base",
+      "meshes": [
+       "structural/kart_civiccentre.pmd"
+      ],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/civil_centre_palms",
+        "mesh": "props/kart_civiccentre_palms.pmd",
+        "textures": [
+         "gaia/tree_palm_senegal_a.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/carthaginians/damage_variant_preloader_1",
+        "mesh": "structural/found_1x1.pmd",
+        "textures": [
+         "structural/kart_struct_damaged.webp"
+        ],
+        "material": "player_trans_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_kart",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_cart_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/civil_centre_palms",
+        "mesh": "props/kart_civiccentre_palms.pmd",
+        "textures": [
+         "gaia/tree_palm_senegal_a.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/carthaginians/damage_variant_preloader_1",
+        "mesh": "structural/found_1x1.pmd",
+        "textures": [
+         "structural/kart_struct_damaged.webp"
+        ],
+        "material": "player_trans_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/house": {
+  "actor": "structures/carthaginians/house",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Carthaginian House",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "House 01",
+      "meshes": [
+       "structural/kart_house_01.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/house_a",
+        "mesh": "props/kart_house_a_1.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "House 02",
+      "meshes": [
+       "structural/kart_house_02.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/house_b",
+        "mesh": "props/kart_house_b_1.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "House 03",
+      "meshes": [
+       "structural/kart_house_03.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/house_c",
+        "mesh": "props/kart_house_c_1.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_kart",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_cart_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "upgrading",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/construction/scaf_4x4",
+        "mesh": "props/scaf_4x4.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "no_trans_parallax_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/storehouse": {
+  "actor": "structures/carthaginians/storehouse",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Base",
+      "meshes": [
+       "structural/kart_storehouse.pmd"
+      ],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/storehouse",
+        "mesh": "props/kart_storehouse_a.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/storehouse",
+        "mesh": "props/kart_storehouse_a.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/farmstead": {
+  "actor": "structures/carthaginians/farmstead",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Base",
+      "meshes": [
+       "structural/kart_farmstead_2.pmd"
+      ],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/field": {
+  "actor": "structures/plot_field",
+  "material": "basic_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [
+       "structural/field_plot.pmd"
+      ],
+      "textures": [
+       "structural/field_01.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/special/common/field_grain",
+        "mesh": "props/field_grain.pmd",
+        "textures": [
+         "structural/field_01.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/barracks": {
+  "actor": "structures/carthaginians/barracks",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Carthage_Barracks",
+      "meshes": [
+       "structural/kart_barracks.pmd"
+      ],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/barracks",
+        "mesh": "props/kart_barracks_props_a.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/carthaginians/barracks_weap",
+        "mesh": "props/kart_barracks_props_weap.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_kart",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_cart_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/structures/carthaginians/barracks",
+        "mesh": "props/kart_barracks_props_a.pmd",
+        "textures": [
+         "structural/kart_struct.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "root"
+       },
+       {
+        "actor": "props/structures/carthaginians/barracks_weap",
+        "mesh": "props/kart_barracks_props_weap.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "structures/cart/defense_tower": {
+  "actor": "structures/carthaginians/scout_tower",
+  "material": "player_trans_ao_parallax_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Scout_Tower",
+      "meshes": [
+       "structural/kart_scout_tower.pmd"
+      ],
+      "textures": [
+       "structural/kart_struct.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "upgrading",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/structures/construction/scaf_3x3_tower",
+        "mesh": "props/scaf_3x3_tower.pmd",
+        "textures": [
+         "props/scaffold.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "root"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "garrisoned",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/special/common/garrison_flag_kart",
+        "mesh": "props/garrison_flag.pmd",
+        "textures": [
+         "props/garrison_cart_1.webp"
+        ],
+        "material": "player_trans_norm_spec.xml",
+        "attachpoint": "garrisoned"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_med.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "structural/kart_struct_damaged_heavy.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "units/cart/infantry_spearman_b": {
+  "actor": "units/carthaginians/infantry_spearman_b",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_tunic_short.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shields/aspis_kart_b",
+        "mesh": "props/shield/aspis_01_front.pmd",
+        "textures": [
+         "props/shield/aspis_cart_01.webp"
+        ],
+        "material": "player_trans_parallax_spec.xml",
+        "attachpoint": "shield_arm"
+       },
+       {
+        "actor": "props/units/weapons/spear_hoplite",
+        "mesh": "props/spear_hoplite.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       },
+       {
+        "actor": "props/units/heads/new/head_pers_a",
+        "mesh": "props/new/head_beard_small.pmd",
+        "textures": [
+         "props/head/pers_face_a.webp"
+        ],
+        "material": "objectcolor_norm_spec.xml",
+        "attachpoint": "head"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Helmet-Thracian-Bronze-01",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/helmets/hele_thracian_b2",
+        "mesh": "props/helmet/hele_thracian_b.pmd",
+        "textures": [
+         "props/helmet/hele_thracian_02_bronze.webp"
+        ],
+        "material": "basic_trans_parallax_spec.xml",
+        "attachpoint": "helmet"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "Helmet-Thracian-Bronze-02",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/helmets/hele_thracian_b5",
+        "mesh": "props/helmet/hele_thracian_d.pmd",
+        "textures": [
+         "props/helmet/hele_thracian_05_bronze.webp"
+        ],
+        "material": "basic_trans_parallax_spec.xml",
+        "attachpoint": "helmet"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "tunic_01_01",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_01_02",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_01_03",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_01.psa",
+        "id": "idle1",
+        "frequency": 8,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_02.psa",
+        "id": "idle2",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_03.psa",
+        "id": "idle3",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_04.psa",
+        "id": "idle4",
+        "frequency": 3,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_05.psa",
+        "id": "idle5",
+        "frequency": 3,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_06.psa",
+        "id": "idle6",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_relax_long_01.psa",
+        "id": "idle7",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_relax.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_relax.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 32.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 8.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 9.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_relax.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 10.0
+       },
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/hoplite/attack_melee_04.psa",
+        "id": "attack1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/hoplite/attack_melee_05.psa",
+        "id": "attack2",
+        "frequency": 1,
+        "speed": 30.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_front.psa",
+        "id": "phalanxfrontidle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready_front.psa",
+        "id": "phalanxfrontwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_ready.psa",
+        "id": "phalanxfrontrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_01.psa",
+        "id": "phalanxmididle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready.psa",
+        "id": "phalanxmidwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/run_ready.psa",
+        "id": "phalanxmidrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/hoplite/idle_ready_back.psa",
+        "id": "phalanxbacktidle",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/hoplite/walk_ready.psa",
+        "id": "phalanxbackwalk",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/hoplite/jog_ready.psa",
+        "id": "phalanxbackrun",
+        "frequency": 1,
+        "speed": 10.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/spear_lance_cavalry_reverse",
+        "mesh": "props/spear_lance_cavalry_reverse.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "units/cart/infantry_archer_b": {
+  "actor": "units/carthaginians/infantry_archer_b",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_tunic_short.pmd"
+      ],
+      "textures": [
+       "skeletal/cart/tunic_basic_01_01.webp"
+      ],
+      "props": [
+       {
+        "actor": "props/units/heads/new/head_maur_ponytail",
+        "mesh": "props/new/head_m_ponytail.pmd",
+        "textures": [
+         "props/head/numid_face_a.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "head"
+       },
+       {
+        "actor": "props/units/weapons/arrow_back",
+        "mesh": "props/weap_arrow_back.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/infantry/archer/idle_relax_01.psa",
+        "id": "idle1",
+        "frequency": 8,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/archer/idle_relax_02.psa",
+        "id": "idle2",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/archer/idle_relax_03.psa",
+        "id": "idle3",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/infantry/archer/idle_relax_04.psa",
+        "id": "idle4",
+        "frequency": 1,
+        "speed": 80.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/archer/jog_relax.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 10.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/infantry/archer/jog_relax.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 11.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/archer/run_ready.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 4.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/archer/run_ready.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 5.0
+       },
+       {
+        "name": "run",
+        "file": "biped/infantry/archer/run_ready.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 6.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "attack_ranged",
+        "file": "biped/infantry/archer/attack_ranged_hip.psa",
+        "id": "Attack1",
+        "frequency": 1,
+        "speed": 200.0
+       },
+       {
+        "name": "attack_ranged",
+        "file": "biped/infantry/archer/attack_ranged_hip.psa",
+        "id": "Attack2",
+        "frequency": 1,
+        "speed": 200.0
+       },
+       {
+        "name": "attack_ranged",
+        "file": "biped/infantry/archer/attack_ranged_hip.psa",
+        "id": "Attack3",
+        "frequency": 1,
+        "speed": 200.0
+       },
+       {
+        "name": "attack_ranged",
+        "file": "biped/infantry/archer/attack_ranged_hip.psa",
+        "id": "Attack4",
+        "frequency": 1,
+        "speed": 200.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "units/cart/support_civilian": {
+  "actor": "units/carthaginians/citizen_male",
+  "material": "player_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Base",
+      "meshes": [
+       "skeletal/new/m_tunic_short.pmd"
+      ],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/heads/new/head_pers_a",
+        "mesh": "props/new/head_beard_small.pmd",
+        "textures": [
+         "props/head/pers_face_a.webp"
+        ],
+        "material": "objectcolor_norm_spec.xml",
+        "attachpoint": "head"
+       }
+      ],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "tunic_01_01",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_01_02",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_01_03",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_01_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_sleeveless_01_01",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_sleeveless_01_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_sleeveless_01_02",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_sleeveless_01_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_sleeveless_01_03",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_sleeveless_01_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tunic_02",
+      "meshes": [],
+      "textures": [
+       "skeletal/cart/tunic_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_long.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_long.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f_short.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_f.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "walk1",
+        "frequency": 1,
+        "speed": 30.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "walk2",
+        "frequency": 1,
+        "speed": 28.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run1",
+        "frequency": 1,
+        "speed": 4.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run2",
+        "frequency": 1,
+        "speed": 5.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/run.psa",
+        "id": "run3",
+        "frequency": 1,
+        "speed": 6.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_meat_male_R",
+        "mesh": "props/shuttle_meat_male_r.pmd",
+        "textures": [
+         "props/shuttle_meat.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_meat_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_wood",
+        "mesh": "props/shuttle_wood.pmd",
+        "textures": [
+         "props/wood_e.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_wood_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_stone",
+        "mesh": "props/special/stone_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/shuttle_metal",
+        "mesh": "props/special/metal_block.pmd",
+        "textures": [
+         "props/shuttle_blocks.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/carry_ore_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_axe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_hoe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_hoe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_carry_grain_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/gatherer/idle_axe_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/gatherer/walk_pickaxe.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "biped/citizen/idle_relax_m_a.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "run",
+        "file": "biped/citizen/walk_relax_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "attack_melee",
+        "file": "biped/infantry/swordsman/attack_melee_shield_02.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_tree",
+        "file": "biped/gatherer/gather_wood.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/hoe",
+        "mesh": "props/tool_hoe.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_grain",
+        "file": "biped/gatherer/farming.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "gather_fruit",
+        "file": "biped/gatherer/gather_fruit_m.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/weapons/dagger",
+        "mesh": "props/weapons/dagger_01.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_meat",
+        "file": "biped/gatherer/gather_meat.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_rock",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "gather_ore",
+        "file": "biped/gatherer/gather_mine.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 120.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/pick",
+        "mesh": "props/tool_pick.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": [
+       {
+        "name": "build",
+        "file": "biped/citizen/build.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 100.0
+       }
+      ]
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/units/tools/mallet",
+        "mesh": "props/prop_mallet.pmd",
+        "textures": [
+         "props/prop_weap.webp"
+        ],
+        "material": "no_trans_norm_spec.xml",
+        "attachpoint": "weapon_R"
+       }
+      ],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "biped/infantry/death_a.psa",
+        "id": "death1",
+        "frequency": 1,
+        "speed": 60.0
+       },
+       {
+        "name": "death",
+        "file": "biped/infantry/death_b.psa",
+        "id": "death2",
+        "frequency": 1,
+        "speed": 60.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/tree/temperate": {
+  "actor": "flora/trees/temperate_forest_biome_tree",
+  "material": "basic_trans_wind_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "tree_1",
+      "meshes": [
+       "gaia/deciduous_15.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_2",
+      "meshes": [
+       "gaia/deciduous_15.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_3",
+      "meshes": [
+       "gaia/deciduous_14.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_4",
+      "meshes": [
+       "gaia/deciduous_14.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_5",
+      "meshes": [
+       "gaia/deciduous_14.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_6",
+      "meshes": [
+       "gaia/deciduous_15.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_7",
+      "meshes": [
+       "gaia/deciduous_13.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_8",
+      "meshes": [
+       "gaia/deciduous_13.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_9",
+      "meshes": [
+       "gaia/deciduous_13.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_10",
+      "meshes": [
+       "gaia/deciduous_12.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_11",
+      "meshes": [
+       "gaia/deciduous_12.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_12",
+      "meshes": [
+       "gaia/deciduous_12.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "tree_13",
+      "meshes": [
+       "gaia/deciduous_16.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_14",
+      "meshes": [
+       "gaia/deciduous_17.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_15",
+      "meshes": [
+       "gaia/deciduous_18.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_16",
+      "meshes": [
+       "gaia/deciduous_19.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_17",
+      "meshes": [
+       "gaia/deciduous_19.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_18",
+      "meshes": [
+       "gaia/deciduous_20.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_19",
+      "meshes": [
+       "gaia/deciduous_20.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_20",
+      "meshes": [
+       "gaia/deciduous_20.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_tree_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/tree/fir": {
+  "actor": "flora/trees/fir_tree",
+  "material": "basic_trans_wind_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_1",
+      "meshes": [
+       "gaia/fir_tree_tall_1.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_2",
+      "meshes": [
+       "gaia/fir_tree_tall_2.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_3",
+      "meshes": [
+       "gaia/fir_tree_tall_3.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_4",
+      "meshes": [
+       "gaia/fir_tree_small_3.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_5",
+      "meshes": [
+       "gaia/fir_tree_small_1.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_6",
+      "meshes": [
+       "gaia/fir_tree_tall_4.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_7",
+      "meshes": [
+       "gaia/fir_tree_tall_5.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_8",
+      "meshes": [
+       "gaia/fir_tree_tall_6.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_9",
+      "meshes": [
+       "gaia/fir_tree_small_2.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_10",
+      "meshes": [
+       "gaia/fir_tree_tall_5.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_11",
+      "meshes": [
+       "gaia/fir_tree_small_2.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_12",
+      "meshes": [
+       "gaia/fir_tree_tall_6.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_13",
+      "meshes": [
+       "gaia/fir_tree_tall_4.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_14",
+      "meshes": [
+       "gaia/fir_tree_tall_7.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_15",
+      "meshes": [
+       "gaia/fir_tree_tall_7.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_16",
+      "meshes": [
+       "gaia/fir_tree_tall_2.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_5.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_17",
+      "meshes": [
+       "gaia/fir_tree_tall_7.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_5.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_18",
+      "meshes": [
+       "gaia/fir_tree_tall_1.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_5.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_small_19",
+      "meshes": [
+       "gaia/fir_tree_tall_8.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_1.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "tree_fir_tall_20",
+      "meshes": [
+       "gaia/fir_tree_tall_8.pmd"
+      ],
+      "textures": [
+       "gaia/tree_fir_tall_2.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/tree/bush_temperate": {
+  "actor": "flora/trees/temperate_bush_biome",
+  "material": "basic_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "bush_1",
+      "meshes": [
+       "gaia/temp_bush_01.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_2",
+      "meshes": [
+       "gaia/temp_bush_02.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_3",
+      "meshes": [
+       "gaia/temp_bush_02.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_4",
+      "meshes": [
+       "gaia/temp_bush_01.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_5",
+      "meshes": [
+       "gaia/temp_bush_03.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_6",
+      "meshes": [
+       "gaia/temp_bush_03.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_7",
+      "meshes": [
+       "gaia/temp_bush_04.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "bush_8",
+      "meshes": [
+       "gaia/temp_bush_04.pmd"
+      ],
+      "textures": [
+       "gaia/temperate_bush_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/rock/temperate_small": {
+  "actor": "geology/stonemine_granite",
+  "material": "no_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "formation-a",
+      "meshes": [
+       "gaia/temperate_stone_mine_a.pmd"
+      ],
+      "textures": [
+       "gaia/temp_stone.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "formation-b",
+      "meshes": [
+       "gaia/temperate_stone_mine_b.pmd"
+      ],
+      "textures": [
+       "gaia/temp_stone.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "formation-c",
+      "meshes": [
+       "gaia/temperate_stone_mine_c.pmd"
+      ],
+      "textures": [
+       "gaia/temp_stone.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "gaia/stone_temperate_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/fruit/berry_01": {
+  "actor": "props/flora/berry_bush",
+  "material": "basic_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Berry Bush Mesh 01",
+      "meshes": [
+       "gaia/berry_bush_01.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "Berry Bush Mesh 02",
+      "meshes": [
+       "gaia/berry_bush_02.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Berry Bush Texture 01",
+      "meshes": [],
+      "textures": [
+       "gaia/berry_bush_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "Berry Bush Texture 02",
+      "meshes": [],
+      "textures": [
+       "gaia/berry_bush_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/ore/temperate_01": {
+  "actor": "geology/metal_temperate_round",
+  "material": "no_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Metal Mine Round Temperate",
+      "meshes": [],
+      "textures": [
+       "gaia/metal_round_col_temperate.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "Round Mesh A",
+      "meshes": [
+       "gaia/stonemine_round_a.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "Round Mesh B",
+      "meshes": [
+       "gaia/stonemine_round_b.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "gaia/fauna_deer": {
+  "actor": "fauna/deer",
+  "material": "no_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "base",
+      "meshes": [
+       "skeletal/deer_mesh.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "idle",
+        "file": "quadraped/deer_idle_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "idle",
+        "file": "quadraped/deer_idle_02.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "idle",
+        "file": "quadraped/deer_idle_03.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       },
+       {
+        "name": "walk",
+        "file": "quadraped/deer_walk_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 25.0
+       },
+       {
+        "name": "run",
+        "file": "quadraped/deer_run_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 15.0
+       },
+       {
+        "name": "attack_melee",
+        "file": "quadraped/deer_attack_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 20.0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Base-Grey",
+      "meshes": [],
+      "textures": [
+       "skeletal/animal_deer_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 100,
+      "name": "Base-Brown",
+      "meshes": [],
+      "textures": [
+       "skeletal/animal_deer_02.webp"
+      ],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 100,
+      "name": "Base-Brown-Freckles",
+      "meshes": [],
+      "textures": [
+       "skeletal/animal_deer_03.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "male",
+      "meshes": [],
+      "textures": [],
+      "props": [
+       {
+        "actor": "props/fauna/deer_antlers",
+        "mesh": "props/deer_antlers.pmd",
+        "textures": [
+         "skeletal/animal_deer_01.webp"
+        ],
+        "material": "basic_trans_norm_spec.xml",
+        "attachpoint": "antler"
+       }
+      ],
+      "animations": [
+       {
+        "name": "death",
+        "file": "quadraped/deer_death_01.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 40.0
+       }
+      ]
+     },
+     {
+      "frequency": 5,
+      "name": "female",
+      "meshes": [],
+      "textures": [],
+      "props": [],
+      "animations": [
+       {
+        "name": "death",
+        "file": "quadraped/deer_death_02.psa",
+        "id": "",
+        "frequency": 1,
+        "speed": 40.0
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "actor|flora/trees/grass_1": {
+  "actor": "flora/trees/grass_1",
+  "material": "basic_trans_wind_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 100,
+      "name": "Base",
+      "meshes": [
+       "gaia/wrld_grass_1.pmd"
+      ],
+      "textures": [
+       "gaia/wrld_med_plant.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ },
+ "actor|geology/stone_granite_greek_med": {
+  "actor": "geology/stone_granite_greek_med",
+  "material": "no_trans_norm_spec.xml",
+  "groups": [
+   {
+    "variants": [
+     {
+      "frequency": 3,
+      "name": "shape-a",
+      "meshes": [
+       "gaia/stone_granite_me_a.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "b",
+      "meshes": [
+       "gaia/stone_granite_me_b.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "c",
+      "meshes": [
+       "gaia/stone_granite_me_c.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "d",
+      "meshes": [
+       "gaia/stone_granite_me_d.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "e",
+      "meshes": [
+       "gaia/stone_granite_me_e.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "f",
+      "meshes": [
+       "gaia/stone_granite_me_f.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 3,
+      "name": "shape-g",
+      "meshes": [
+       "gaia/stone_granite_me_g.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "1",
+      "meshes": [
+       "gaia/wrld_rock_1.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "2",
+      "meshes": [
+       "gaia/wrld_rock_2.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "3",
+      "meshes": [
+       "gaia/wrld_rock_3.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "4",
+      "meshes": [
+       "gaia/wrld_rock_4.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "5",
+      "meshes": [
+       "gaia/wrld_rock_5.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "6",
+      "meshes": [
+       "gaia/wrld_rock_6.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "7",
+      "meshes": [
+       "gaia/wrld_rock_7.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     },
+     {
+      "frequency": 1,
+      "name": "8",
+      "meshes": [
+       "gaia/wrld_rock_8.pmd"
+      ],
+      "textures": [],
+      "props": [],
+      "animations": []
+     }
+    ]
+   },
+   {
+    "variants": [
+     {
+      "frequency": 1,
+      "name": "",
+      "meshes": [],
+      "textures": [
+       "gaia/stone_aegean_01.webp"
+      ],
+      "props": [],
+      "animations": []
+     }
+    ]
+   }
+  ]
+ }
+}

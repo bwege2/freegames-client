@@ -1,0 +1,94 @@
+{
+  "id": "0ad",
+  "title": "0 A.D.",
+  "tagline": "Farmland, two ancient armies and a race to destroy the enemy Civic Centre.",
+  "summary": [
+    "0 A.D. is Wildfire Games' free ancient-warfare real-time strategy game. This browser port follows release 0.28.0 “Boiorix” (v0.28.0, February 2026) and plays its official two-player skirmish map Farmland (2): choose the Athenians or the Carthaginians, gather food, wood, stone and metal, build a village, train your civilisation's soldiers, and take the red Civic Centre before the opponent takes yours.",
+    "The terrain, 2,921 map entities, unit and building stats, economy timings, combat formula and UI texts are read from the original release. The terrain, models, animations and textures are the original data, converted losslessly from the release's cached DDS/PMD/PSA files; the renderer is three.js and the simulation is TypeScript at the original 200 ms turn length.",
+    "This is a vertical slice, not yet the full 1:1 port: one map, two civilisations (Athenians and Carthaginians, one per player), the Village phase, a small scripted opponent in single-player and an online 1v1 lockstep mode, and no music, formations or campaign. The interactive parts that are present are real; README.md lists exactly what is missing."
+  ],
+  "original": {
+    "author": "Wildfire Games and the 0 A.D. contributors",
+    "year": 2010,
+    "platform": "C++/OpenGL (Windows, macOS, Linux)",
+    "version": "0.28.0 “Boiorix” (v0.28.0, 2026-02-16)",
+    "license": "GPL-2.0-or-later (code); CC-BY-SA-3.0 (art/audio); GPL-2.0-or-later (map/simulation data)",
+    "packageBytes": 1579988188,
+    "url": "https://play0ad.com/"
+  },
+  "players": "1 (or 2 online)",
+  "genres": [
+    "Real-time strategy"
+  ],
+  "modes": [
+    "single",
+    "online"
+  ],
+  "added": "2026-11-23",
+  "controls": [
+    {
+      "input": "W A S D / arrow keys",
+      "action": "Scroll the camera"
+    },
+    {
+      "input": "Q / E",
+      "action": "Rotate the camera"
+    },
+    {
+      "input": "Mouse wheel",
+      "action": "Zoom"
+    },
+    {
+      "input": "Middle drag / Shift + right drag",
+      "action": "Rotate and tilt the camera"
+    },
+    {
+      "input": "Left click / drag",
+      "action": "Select a unit or a box of units"
+    },
+    {
+      "input": "Shift + left click",
+      "action": "Add to the selection"
+    },
+    {
+      "input": "Right click",
+      "action": "Move, gather, attack or help a foundation"
+    },
+    {
+      "input": "H",
+      "action": "Stop the selected units"
+    },
+    {
+      "input": "Space",
+      "action": "Centre the camera on the selection"
+    },
+    {
+      "input": "Esc",
+      "action": "Pause menu"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "menu.png",
+      "caption": "The port's main menu over the original Farmland (2) terrain"
+    },
+    {
+      "file": "carthage.png",
+      "caption": "The Carthaginian Civic Centre, spearmen, archers and artisans on the same original map"
+    },
+    {
+      "file": "village.png",
+      "caption": "The Athenian Civic Centre, citizens and the original trees and deer on Farmland (2)"
+    },
+    {
+      "file": "commands.png",
+      "caption": "A selected Athenian Artisan with the original portrait and the Village-phase building commands and costs"
+    },
+    {
+      "file": "fog.png",
+      "caption": "The explored ground, the black fog of war and the minimap after the first minute"
+    }
+  ],
+  "caveat": "A vertical slice: one map (Farmland (2)), Athenians and Carthaginians (one per player), Village phase, no formations, campaign or music. Single-player against a scripted opponent and online 1v1 lockstep are here; the original campaign, the other civilisations, other maps and the remaining gaps are listed in README.md.",
+  "listed": true
+}

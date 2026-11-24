@@ -1,0 +1,117 @@
+[
+ {
+  "name": "temp_grass_01_mod",
+  "file": "terrain/temp_grass_01_mod.webp",
+  "source": "types/temp_grass_mod_01.png"
+ },
+ {
+  "name": "dirt_brown_a",
+  "file": "terrain/dirt_brown_a.webp",
+  "source": "types/dirt_brown_a.dds"
+ },
+ {
+  "name": "tropic_farmland",
+  "file": "terrain/tropic_farmland.webp",
+  "source": "types/tropic_farmland.png"
+ },
+ {
+  "name": "temp_farmland",
+  "file": "terrain/temp_farmland.webp",
+  "source": "types/temp_farmland.png"
+ },
+ {
+  "name": "dirt_brown_d",
+  "file": "terrain/dirt_brown_d.webp",
+  "source": "types/dirt_brown_d.dds"
+ },
+ {
+  "name": "mud_temp",
+  "file": "terrain/mud_temp.webp",
+  "source": "types/mud_temp.dds"
+ },
+ {
+  "name": "furrows_dirt",
+  "file": "terrain/furrows_dirt.webp",
+  "source": "types/furrows_dirt.dds"
+ },
+ {
+  "name": "furrows_fall",
+  "file": "terrain/furrows_fall.webp",
+  "source": "types/furrows_fall.dds"
+ },
+ {
+  "name": "dirt_brown_c",
+  "file": "terrain/dirt_brown_c.webp",
+  "source": "types/dirt_brown_c.dds"
+ },
+ {
+  "name": "temp_grass_06_mod",
+  "file": "terrain/temp_grass_06_mod.webp",
+  "source": "types/temp_grass_mod_06.png"
+ },
+ {
+  "name": "temp_grass_02_mod",
+  "file": "terrain/temp_grass_02_mod.webp",
+  "source": "types/temp_grass_mod_02.png"
+ },
+ {
+  "name": "furrows_summer",
+  "file": "terrain/furrows_summer.webp",
+  "source": "types/furrows_summer.dds"
+ },
+ {
+  "name": "temp_dirt_gravel",
+  "file": "terrain/temp_dirt_gravel.webp",
+  "source": "types/temp_dirt_gravel.dds"
+ },
+ {
+  "name": "dirt_soft",
+  "file": "terrain/dirt_soft.webp",
+  "source": "types/dirt_soft.dds"
+ },
+ {
+  "name": "temp_grass_05_mod",
+  "file": "terrain/temp_grass_05_mod.webp",
+  "source": "types/temp_grass_mod_05.png"
+ },
+ {
+  "name": "dirt_brown_b",
+  "file": "terrain/dirt_brown_b.webp",
+  "source": "types/dirt_brown_b.dds"
+ },
+ {
+  "name": "temp_grass_03_mod",
+  "file": "terrain/temp_grass_03_mod.webp",
+  "source": "types/temp_grass_mod_03.png"
+ },
+ {
+  "name": "temp_grass_07_mod",
+  "file": "terrain/temp_grass_07_mod.webp",
+  "source": "types/temp_grass_mod_07.png"
+ },
+ {
+  "name": "dirt_brown_e",
+  "file": "terrain/dirt_brown_e.webp",
+  "source": "types/dirt_brown_e.dds"
+ },
+ {
+  "name": "temp_forest_01_mod",
+  "file": "terrain/temp_forest_01_mod.webp",
+  "source": "types/temp_forest_mod_01.png"
+ },
+ {
+  "name": "temp_mud_a",
+  "file": "terrain/temp_mud_a.webp",
+  "source": "types/temp_mud_a.png"
+ },
+ {
+  "name": "temp_grass_04_mod",
+  "file": "terrain/temp_grass_04_mod.webp",
+  "source": "types/temp_grass_mod_04.png"
+ },
+ {
+  "name": "furrows_spring_b",
+  "file": "terrain/furrows_spring_b.webp",
+  "source": "types/furrows_spring_b.dds"
+ }
+]

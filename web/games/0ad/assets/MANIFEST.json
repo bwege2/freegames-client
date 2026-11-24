@@ -1,0 +1,3630 @@
+{
+ "reference": "0 A.D. Release 28 \"Boiorix\" (v0.28.0), Wildfire Games",
+ "map": "farmland_2p",
+ "counts": {
+  "art": 450,
+  "data": 66
+ },
+ "bytes": {
+  "art": 34546839,
+  "data": 1322848
+ },
+ "licenses": {
+  "art": "CC BY-SA 3.0 (binaries/data/mods/public/art)",
+  "data": "GPL-2.0-or-later (binaries/data: templates and maps)"
+ },
+ "files": [
+  {
+   "kind": "actor",
+   "source": "art/actors/fauna/deer.xml",
+   "dest": "actors/fauna/deer.xml",
+   "bytes": 2490,
+   "sha256": "e702d20d80811cdaf4e3ea487aa9fdd98ecbb165e6dd7fb761352cd364e53678"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/flora/trees/fir_tree.xml",
+   "dest": "actors/flora/trees/fir_tree.xml",
+   "bytes": 7007,
+   "sha256": "d9849c4a968f2d9bc3c711a0be47d1308f575cd4e57a2f471c1a8ea40a040e6b"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/flora/trees/grass_1.xml",
+   "dest": "actors/flora/trees/grass_1.xml",
+   "bytes": 506,
+   "sha256": "bb6ff5aa067fee82f91f864d7e358c3af4b217c14329a228c3938dab9fd14abb"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/flora/trees/temperate_bush_biome.xml",
+   "dest": "actors/flora/trees/temperate_bush_biome.xml",
+   "bytes": 1961,
+   "sha256": "93a1871a68282c4a73fb0ae31fd7e0e631b5101c4c2e4815229d332c1d80251f"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/flora/trees/temperate_forest_biome_tree.xml",
+   "dest": "actors/flora/trees/temperate_forest_biome_tree.xml",
+   "bytes": 6789,
+   "sha256": "bba3c5e15d9a098d8cdc31b6a1eb6a2d2f220290e0728bff06c8782f4538fbbb"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/geology/metal_temperate_round.xml",
+   "dest": "actors/geology/metal_temperate_round.xml",
+   "bytes": 823,
+   "sha256": "d05c06322cbe4c21c736ed6fda3e9e8a3729f0424dc788375d3b70c4e389713f"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/geology/stone_granite_greek_med.xml",
+   "dest": "actors/geology/stone_granite_greek_med.xml",
+   "bytes": 1902,
+   "sha256": "36b70ed232b98d353626ee5b39bd5bb39cbf2bba6bb68c6df14cf910fc3c458d"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/geology/stonemine_granite.xml",
+   "dest": "actors/geology/stonemine_granite.xml",
+   "bytes": 1097,
+   "sha256": "46f82adf2649893f8b4e42a3e19aaa3ceec013cc14dee4fa12e302326acfa5b7"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/fauna/deer_antlers.xml",
+   "dest": "actors/props/fauna/deer_antlers.xml",
+   "bytes": 471,
+   "sha256": "36956520fcc581be4aab22e12f3eec37a222701ce5ed001c73b32c8a46fb9db2"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/flora/berry_bush.xml",
+   "dest": "actors/props/flora/berry_bush.xml",
+   "bytes": 1158,
+   "sha256": "ef6aca8fda22622f3f1d7dadee134e473bddb6a08ecbb48ab0810680a04e880b"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/special/common/field_grain.xml",
+   "dest": "actors/props/special/common/field_grain.xml",
+   "bytes": 422,
+   "sha256": "83aa6ed344de28d7b6f5be0d8d930eda6698f356cf4f9c88eab16108a3a0a440"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/special/common/garrison_flag_hele.xml",
+   "dest": "actors/props/special/common/garrison_flag_hele.xml",
+   "bytes": 600,
+   "sha256": "6ba985f4c3be2add4cfdd7ace92a360c9e2b35b400a2644443f6b0e18231abb3"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/special/common/garrison_flag_kart.xml",
+   "dest": "actors/props/special/common/garrison_flag_kart.xml",
+   "bytes": 600,
+   "sha256": "33791cea1aa98daf715d7997ccdf98f3a0edd2e250fdea6edfae906d9ba5014e"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/barracks_decor.xml",
+   "dest": "actors/props/structures/athenians/barracks_decor.xml",
+   "bytes": 544,
+   "sha256": "9805fd7c4590990d2b69cf27c20772f8f7a646a3da6c3c23ad2da758eca94eba"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/barracks_props_a.xml",
+   "dest": "actors/props/structures/athenians/barracks_props_a.xml",
+   "bytes": 552,
+   "sha256": "b33a161e63077bf2bcc2ac69ba730da8c2c80bafe8f0c35571097107f5bea388"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/barracks_props_shields.xml",
+   "dest": "actors/props/structures/athenians/barracks_props_shields.xml",
+   "bytes": 479,
+   "sha256": "b80382f9edda71c19a716576e65c2bee9bde3e84f1c4838954a3a3ee206ab609"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/barracks_struct_b.xml",
+   "dest": "actors/props/structures/athenians/barracks_struct_b.xml",
+   "bytes": 609,
+   "sha256": "290b5d37d7bcc36964598124d99e395f1722325e0d7d43cb658598cebff320a2"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/barracks_tile_c.xml",
+   "dest": "actors/props/structures/athenians/barracks_tile_c.xml",
+   "bytes": 548,
+   "sha256": "6bb57acf4175573c2bb0b6bfcbadf4ff1466e6c121f8d556d2b6135a860b2363"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_decor.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_decor.xml",
+   "bytes": 549,
+   "sha256": "23f39dac6ca34875a9c7e64abceeaf1f341149c654f536c2cfde76afca8be9f4"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_nature.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_nature.xml",
+   "bytes": 455,
+   "sha256": "a5e0c737d44a977cc997285d494d50aaca0853bee3aadd41fab2c09adcc5ba76"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_props_a.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_props_a.xml",
+   "bytes": 556,
+   "sha256": "a071d6af03b6f631863bb2bd97a764999c82b77a2521d18abd8d07d0aa5f1be8"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_roundroof.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_roundroof.xml",
+   "bytes": 468,
+   "sha256": "8577b18ab70bdc20ca6f68e3e788fcf20e69b5f7f7d8d107d8045a7ee4b60cb9"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_shields.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_shields.xml",
+   "bytes": 454,
+   "sha256": "7e3b1b5b490bc77d2e79852b6974ef48fce29cd2246ef94c30459dd130f68dec"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_tiles.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_tiles.xml",
+   "bytes": 554,
+   "sha256": "cc71aaad748ac67a6f41c3e93aba176f0b9aaa1149f2a48338f3d08456777dc7"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/athenians/civic_centre_trees.xml",
+   "dest": "actors/props/structures/athenians/civic_centre_trees.xml",
+   "bytes": 443,
+   "sha256": "f3442e219be7228d20ddd62d7f4c763b1013a32602e76fabc812f5aec2271739"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/barracks.xml",
+   "dest": "actors/props/structures/carthaginians/barracks.xml",
+   "bytes": 545,
+   "sha256": "46ef43def30df34c9b011cb746dada21956cbf9f0d1c24b70cd3d29625cd99f1"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/barracks_weap.xml",
+   "dest": "actors/props/structures/carthaginians/barracks_weap.xml",
+   "bytes": 543,
+   "sha256": "be64e16dcf1125ccc2f0de85dbd68aaafbb7294c779fa1112e632796ea8ae246"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/civil_centre_palms.xml",
+   "dest": "actors/props/structures/carthaginians/civil_centre_palms.xml",
+   "bytes": 1554,
+   "sha256": "5c4a595f86fcba067b56c4d1b34744488037eeea35d192a06641a821b40377e7"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/damage_variant_preloader_1.xml",
+   "dest": "actors/props/structures/carthaginians/damage_variant_preloader_1.xml",
+   "bytes": 703,
+   "sha256": "3f456e10b8b6accb573691134517f45fa529bba051b1ea70c14466529455ec01"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/house_a.xml",
+   "dest": "actors/props/structures/carthaginians/house_a.xml",
+   "bytes": 482,
+   "sha256": "841e5ae183ae761cc20daa9734d0d2bfbd0b391d195b9afe3868311134452cad"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/house_b.xml",
+   "dest": "actors/props/structures/carthaginians/house_b.xml",
+   "bytes": 642,
+   "sha256": "d4c3a24b083e1a94dff8f39504899323a4a626dd1cd6db4a0746e5a3cdbb3f24"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/house_c.xml",
+   "dest": "actors/props/structures/carthaginians/house_c.xml",
+   "bytes": 532,
+   "sha256": "829e8d847aeaaaf7ad38da07c6c4e6c733f452811b036356ec3f2618eb08178e"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/carthaginians/storehouse.xml",
+   "dest": "actors/props/structures/carthaginians/storehouse.xml",
+   "bytes": 650,
+   "sha256": "e48db675f648189b804c5d9e309af7a1956b2555f6cd3fdf8416ef1c6f480297"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/construction/scaf_3x3_tower.xml",
+   "dest": "actors/props/structures/construction/scaf_3x3_tower.xml",
+   "bytes": 459,
+   "sha256": "4b0a8ffd08c23a6ba2c7493f74a5435ba6850e07bb3a7a1565b92b1aec0d29f4"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/construction/scaf_4x4.xml",
+   "dest": "actors/props/structures/construction/scaf_4x4.xml",
+   "bytes": 497,
+   "sha256": "ef8cca71879c1c809d437aee4ced2cc4ffeeea03c36e242c36527b89a201db76"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/farmstead_hay.xml",
+   "dest": "actors/props/structures/hellenes/farmstead_hay.xml",
+   "bytes": 553,
+   "sha256": "3b246be8a08588c2add71c3fb32ce1e9051aa6fdc0318523cbed72c5d05802f1"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/farmstead_plants.xml",
+   "dest": "actors/props/structures/hellenes/farmstead_plants.xml",
+   "bytes": 487,
+   "sha256": "66f1392b95114ab6f045b841ad8366cb8341268b33dfc77f0fd2ccfcf95182d0"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/farmstead_props.xml",
+   "dest": "actors/props/structures/hellenes/farmstead_props.xml",
+   "bytes": 563,
+   "sha256": "20e2a2765135c83080eeec8a53242c11540f161b3907682b6efc2e7e170f7157"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_a_decor.xml",
+   "dest": "actors/props/structures/hellenes/house_a_decor.xml",
+   "bytes": 542,
+   "sha256": "19532f834b8edf2509fdec22b5ccbe8aef75705cb45caf0110af61e6dc43ab73"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_a_nature.xml",
+   "dest": "actors/props/structures/hellenes/house_a_nature.xml",
+   "bytes": 554,
+   "sha256": "d572c93db3ad52d99c7dca70f965bfd2603f6f911777cf47ed3e0dc1826fe4cc"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_a_props_a.xml",
+   "dest": "actors/props/structures/hellenes/house_a_props_a.xml",
+   "bytes": 550,
+   "sha256": "2232de26671beea31501d7953ea95b28f9a9affdfc06ce16fc898753eeea0db3"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_a_shields.xml",
+   "dest": "actors/props/structures/hellenes/house_a_shields.xml",
+   "bytes": 447,
+   "sha256": "4b2e1f6db76c96dca5ba9ef06fb95dfcd58c2cf64610ad1912754d1f35a9425d"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_a_struct.xml",
+   "dest": "actors/props/structures/hellenes/house_a_struct.xml",
+   "bytes": 572,
+   "sha256": "245819ba23a8a94f1f79a4bacad97bf19fb31eac9455984955f2061ae1df6592"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_b_decor.xml",
+   "dest": "actors/props/structures/hellenes/house_b_decor.xml",
+   "bytes": 542,
+   "sha256": "2605fc016ed152e3b206c975bae8d4cf72c0a32702fd79ff44c8806e406abad3"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_b_nature.xml",
+   "dest": "actors/props/structures/hellenes/house_b_nature.xml",
+   "bytes": 554,
+   "sha256": "4ac2e95c62a5675330a640be32bfea2f32cedac4751268b9886c3995f39c59ea"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_b_props_a.xml",
+   "dest": "actors/props/structures/hellenes/house_b_props_a.xml",
+   "bytes": 550,
+   "sha256": "a98784499ac1f5cc07ac1638d17cb6d057e24e3ae1a2620307da301629f159a9"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_b_shields.xml",
+   "dest": "actors/props/structures/hellenes/house_b_shields.xml",
+   "bytes": 447,
+   "sha256": "75d4e9681a657f7bf836e209a9078dd03d4124d68074a41f93855e5d29d95c7a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_b_struct.xml",
+   "dest": "actors/props/structures/hellenes/house_b_struct.xml",
+   "bytes": 572,
+   "sha256": "efccaa20ad03716845650a313c58fcdb368c492dbf41a08e82bfa05d582ea8d4"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_c_decor.xml",
+   "dest": "actors/props/structures/hellenes/house_c_decor.xml",
+   "bytes": 542,
+   "sha256": "1ad4a1529c9794cb6a82a4d7d861ad42bd0570ee41e3c1c0f4a21ac3d3e66b68"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_c_nature.xml",
+   "dest": "actors/props/structures/hellenes/house_c_nature.xml",
+   "bytes": 554,
+   "sha256": "e09a7ae6026c19c8e5a7587b721354a2db016883e6903ecee7e32f0032a5df12"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_c_props_a.xml",
+   "dest": "actors/props/structures/hellenes/house_c_props_a.xml",
+   "bytes": 550,
+   "sha256": "0d140d81f54c6e110db9f7380dd31b4dc3578ba1c226ab36187de7a710b7d81a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_c_shields.xml",
+   "dest": "actors/props/structures/hellenes/house_c_shields.xml",
+   "bytes": 447,
+   "sha256": "36e763d33017f7254de3ad5cbbfbc9cc9064defde63c1ce75edf75a68ac85cc8"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_c_struct.xml",
+   "dest": "actors/props/structures/hellenes/house_c_struct.xml",
+   "bytes": 572,
+   "sha256": "f26759522ea1abdd8c569f6cdbf7adab8fb14376c5704ca48cd17b56fbfaa08c"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_d_decor.xml",
+   "dest": "actors/props/structures/hellenes/house_d_decor.xml",
+   "bytes": 542,
+   "sha256": "5536b18fdfeff06ead9a8774eef8d676794cd406db19b1c012324d4bb415176e"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_d_nature.xml",
+   "dest": "actors/props/structures/hellenes/house_d_nature.xml",
+   "bytes": 554,
+   "sha256": "edf69e275f6661b1360dd003f47803bea06d17827a0c9bc86db91c3ebacce0f4"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_d_props_a.xml",
+   "dest": "actors/props/structures/hellenes/house_d_props_a.xml",
+   "bytes": 550,
+   "sha256": "d99d5940c949cdd3a6f84adb5de71aaf0e0377ce52ad66872eca039e46e11b13"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_d_shields.xml",
+   "dest": "actors/props/structures/hellenes/house_d_shields.xml",
+   "bytes": 447,
+   "sha256": "85382d848fe62f4b1f9a219150c16e37db6d05cede98ad7027e48c2cd973951a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_d_struct.xml",
+   "dest": "actors/props/structures/hellenes/house_d_struct.xml",
+   "bytes": 572,
+   "sha256": "4457377d8b55ee9717952c697fb57f940907a9fd5b99a719e5c3e3fbf46c377c"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_e_nature.xml",
+   "dest": "actors/props/structures/hellenes/house_e_nature.xml",
+   "bytes": 554,
+   "sha256": "fef6960db3c43c9c9b6640fd5d71d5afb1f41c98d0033552cba09ebdd88915ad"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_e_props_a.xml",
+   "dest": "actors/props/structures/hellenes/house_e_props_a.xml",
+   "bytes": 550,
+   "sha256": "68763363e819df53c47d8875a1417a744432ab1512c5e9e5cccfa403e2abe48a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_e_shields.xml",
+   "dest": "actors/props/structures/hellenes/house_e_shields.xml",
+   "bytes": 447,
+   "sha256": "8a53a74d129168eee1df6e4eaec0bef9d051b267e3b173495cd5dd95c02c3252"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/house_e_struct.xml",
+   "dest": "actors/props/structures/hellenes/house_e_struct.xml",
+   "bytes": 572,
+   "sha256": "4490574b8c97b4b0300812702d53c7993af37eb90b4c5e03b290c93f5729800a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/scout_tower_fancy.xml",
+   "dest": "actors/props/structures/hellenes/scout_tower_fancy.xml",
+   "bytes": 540,
+   "sha256": "0c574861c3bc6f9f87ffe29adce764d0c82a55df78337caa59bf835c479f229c"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/scout_tower_props.xml",
+   "dest": "actors/props/structures/hellenes/scout_tower_props.xml",
+   "bytes": 524,
+   "sha256": "e0d5c62cbcd1cd23ec747d02cc50f3b3c48d17f7cb7d343b1c6e65744278f0c9"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/storehouse_blocks.xml",
+   "dest": "actors/props/structures/hellenes/storehouse_blocks.xml",
+   "bytes": 541,
+   "sha256": "4d0e705a2de4d27d91f9371bf90e647a8be97233e0586964fe08bdd5254cfb5a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/storehouse_props.xml",
+   "dest": "actors/props/structures/hellenes/storehouse_props.xml",
+   "bytes": 530,
+   "sha256": "ca79a4183b6f5660332eb3cea2136efd1341ada786d72e5705bc6d6c3f2e1f26"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/storehouse_roof.xml",
+   "dest": "actors/props/structures/hellenes/storehouse_roof.xml",
+   "bytes": 531,
+   "sha256": "e9b5095cf80ad561c12a312970a3abaacd21f2084e4d69e7af9ff32125973f85"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/structures/hellenes/storehouse_wood.xml",
+   "dest": "actors/props/structures/hellenes/storehouse_wood.xml",
+   "bytes": 513,
+   "sha256": "153626cd3ab48eadedcb2559bac1935f6dc33ef5721ee7dfb7e7011a66592d55"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/blood_01.xml",
+   "dest": "actors/props/units/blood_01.xml",
+   "bytes": 2187,
+   "sha256": "656f50a90ee8b9c19e4ccad0574f61d4fdee6c30c7c64b8e08b1d8654e482a35"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/heads/new/head_hele_b.xml",
+   "dest": "actors/props/units/heads/new/head_hele_b.xml",
+   "bytes": 1872,
+   "sha256": "4956b46a80ad1ab4fcebd05ac361fad08887c25565681bca29f92a757b3e28a0"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/heads/new/head_maur_ponytail.xml",
+   "dest": "actors/props/units/heads/new/head_maur_ponytail.xml",
+   "bytes": 447,
+   "sha256": "a64bdb2b0cb802ce084edd4cbd7ec74953c6b8a06a2e4e72edb72905d9327a37"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/heads/new/head_pers_a.xml",
+   "dest": "actors/props/units/heads/new/head_pers_a.xml",
+   "bytes": 2336,
+   "sha256": "b0403031f573d0f3f86c73bd9b4a14e7b0161746f722f89806bd53debbb1bdb5"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/helmets/headband_generic.xml",
+   "dest": "actors/props/units/helmets/headband_generic.xml",
+   "bytes": 500,
+   "sha256": "b8a2c2211d52830d9950299b56e8f7b68bdc19b301b36607505545c0f599b70b"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/helmets/hele_pilos.xml",
+   "dest": "actors/props/units/helmets/hele_pilos.xml",
+   "bytes": 622,
+   "sha256": "7735e8dd491bd397b5e4db075374ac412258bc52b45d62d3cb03b7b19276e372"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/helmets/hele_thracian_b2.xml",
+   "dest": "actors/props/units/helmets/hele_thracian_b2.xml",
+   "bytes": 1417,
+   "sha256": "1e8e1224a751a90db83a46a617ee0dd8506727aef8bcd7dc68fc0721a8a5fe95"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/helmets/hele_thracian_b5.xml",
+   "dest": "actors/props/units/helmets/hele_thracian_b5.xml",
+   "bytes": 1417,
+   "sha256": "ee8d85620bee500eae81454d3ae3c40ef8023d302f466182773637cfbd9b46c1"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shields/aspis_athen_b.xml",
+   "dest": "actors/props/units/shields/aspis_athen_b.xml",
+   "bytes": 798,
+   "sha256": "383bced5ae6036d3655563ff2a5951765d8cb3c7f85ebd4b0477c4752db2fba5"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shields/aspis_kart_b.xml",
+   "dest": "actors/props/units/shields/aspis_kart_b.xml",
+   "bytes": 828,
+   "sha256": "2ec8fe12303ba4e0249a79382d6f1850e25b40ce1c77cae0a32cfc58532917c0"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shuttle_meat_male_R.xml",
+   "dest": "actors/props/units/shuttle_meat_male_R.xml",
+   "bytes": 442,
+   "sha256": "5590cbc17dcf35eae7393b6b8e4253523ae4c3445799acb7eac230c3f7d17c91"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shuttle_metal.xml",
+   "dest": "actors/props/units/shuttle_metal.xml",
+   "bytes": 490,
+   "sha256": "922fd1818c99e7b2d2beb9c2500a3c46eaca11dbf292a58330d53bb4c36ce62a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shuttle_stone.xml",
+   "dest": "actors/props/units/shuttle_stone.xml",
+   "bytes": 490,
+   "sha256": "7fb10fdc594125fb979ded9938bd877cac52b2f5554be90cc0cb964f4d8c16e2"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/shuttle_wood.xml",
+   "dest": "actors/props/units/shuttle_wood.xml",
+   "bytes": 429,
+   "sha256": "a05e812fbd9301df0acb1f15a5d897ff25e49052220cbdd0974e0bbc23230897"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/tools/hoe.xml",
+   "dest": "actors/props/units/tools/hoe.xml",
+   "bytes": 731,
+   "sha256": "d55fd4d5e66deef0376a3e5ba6d7517b7d664181eeab0cee6b186daab5d5a342"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/tools/mallet.xml",
+   "dest": "actors/props/units/tools/mallet.xml",
+   "bytes": 494,
+   "sha256": "bbbd400e2cb9dbfebc48abcbd2af5b6f661fd043b37d74583e2389bdedc311c3"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/tools/pick.xml",
+   "dest": "actors/props/units/tools/pick.xml",
+   "bytes": 457,
+   "sha256": "909404049e86282743e78f0ad7901d3a66737fc2a7e40f81d7df3b501829314a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/weapons/arrow_back.xml",
+   "dest": "actors/props/units/weapons/arrow_back.xml",
+   "bytes": 463,
+   "sha256": "9d4a13d599b999f330999c7f250565ee9b6191e259baac521c7d8b96cf3fa538"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/weapons/dagger.xml",
+   "dest": "actors/props/units/weapons/dagger.xml",
+   "bytes": 465,
+   "sha256": "4b127f4094285cfe055e2a801cb38f93967d81a2df7dc677e035a0f2da7ddd7f"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/weapons/sling.xml",
+   "dest": "actors/props/units/weapons/sling.xml",
+   "bytes": 824,
+   "sha256": "a570715025337cdc222e080604c2272b6141c35ff9427c2d6ce6ab36e88782ea"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/weapons/spear_hoplite.xml",
+   "dest": "actors/props/units/weapons/spear_hoplite.xml",
+   "bytes": 445,
+   "sha256": "f8210a6fcdd623180b60dd94608b684cffc64af481689b7409bd6c66ed2deb0f"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/props/units/weapons/spear_lance_cavalry_reverse.xml",
+   "dest": "actors/props/units/weapons/spear_lance_cavalry_reverse.xml",
+   "bytes": 459,
+   "sha256": "73b06b6422d276558e8f78e4d89847035f0edea507557475cf2f5206050253fb"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/athenians/barracks.xml",
+   "dest": "actors/structures/athenians/barracks.xml",
+   "bytes": 2056,
+   "sha256": "e407498a6e5ac47892f9b3ef4851e75c0557d2145e82253127362f5cfa47e2f9"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/athenians/civil_centre.xml",
+   "dest": "actors/structures/athenians/civil_centre.xml",
+   "bytes": 2518,
+   "sha256": "e865f60d91c90ff8a15d8637e8aa993862283d91c3e3eb97172ef146ba66563f"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/barracks.xml",
+   "dest": "actors/structures/carthaginians/barracks.xml",
+   "bytes": 1662,
+   "sha256": "e367eff99f2f49f36fa13399fc634f88ba5b24d711e6bf3ff0bc1e8e257d3181"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/civil_centre.xml",
+   "dest": "actors/structures/carthaginians/civil_centre.xml",
+   "bytes": 1737,
+   "sha256": "1dd277eb70092e5557f1e4b7aa13a0ed43a45037e9bb6c1593f2a5546647ed7c"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/farmstead.xml",
+   "dest": "actors/structures/carthaginians/farmstead.xml",
+   "bytes": 993,
+   "sha256": "0bef9afc9d903c6a210340ab8cf3660fc71ef16bab11feaf1aa289e4ffd9042e"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/house.xml",
+   "dest": "actors/structures/carthaginians/house.xml",
+   "bytes": 2445,
+   "sha256": "247e03210ac9ca14df2875298929db25a23da16c91dc893ef411352104578e16"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/scout_tower.xml",
+   "dest": "actors/structures/carthaginians/scout_tower.xml",
+   "bytes": 1603,
+   "sha256": "ba5dd22041d16c7cc09e3ebc335b4f293ee3113fa0f735995ee282a2b3ecd994"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/carthaginians/storehouse.xml",
+   "dest": "actors/structures/carthaginians/storehouse.xml",
+   "bytes": 1212,
+   "sha256": "629a16b06b3c9510be40107975aa91b4858cc38d2b7ff33c6df3e0068bc88446"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/hellenes/farmstead.xml",
+   "dest": "actors/structures/hellenes/farmstead.xml",
+   "bytes": 1501,
+   "sha256": "57dfea464ce990324a793723256d9ee0972c8d7fcba34b436e8bb35828841746"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/hellenes/house.xml",
+   "dest": "actors/structures/hellenes/house.xml",
+   "bytes": 4633,
+   "sha256": "012c96f92f281dec5f25cce058bb63ecedf6689324432fde194b681b7509da91"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/hellenes/scout_tower.xml",
+   "dest": "actors/structures/hellenes/scout_tower.xml",
+   "bytes": 2109,
+   "sha256": "7a8cfeb7e24c4207e25515a59f0618798a5f79cdf7918c1e5b26b6cf0ff6c1ab"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/hellenes/storehouse.xml",
+   "dest": "actors/structures/hellenes/storehouse.xml",
+   "bytes": 1604,
+   "sha256": "0e64372f2a62b06b94ac7841b6bc5e4eea1999c7152bec0f20a0c0c66983ef9d"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/structures/plot_field.xml",
+   "dest": "actors/structures/plot_field.xml",
+   "bytes": 535,
+   "sha256": "2f75599e5d3352ac74440f45cedc26f3d1a7cff3d2469493fd4bb39a3079658b"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/athenians/citizen_male.xml",
+   "dest": "actors/units/athenians/citizen_male.xml",
+   "bytes": 1977,
+   "sha256": "d8e1887ed6c1a203eda4079484b39d59adb1b8e029469c33532cc6f78392078a"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/athenians/infantry_slinger_b.xml",
+   "dest": "actors/units/athenians/infantry_slinger_b.xml",
+   "bytes": 2033,
+   "sha256": "3667739305d22338d7dfbb5a6ca16e54c8f46cac9c1d75ce118d62c745da4cee"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/athenians/infantry_spearman_b.xml",
+   "dest": "actors/units/athenians/infantry_spearman_b.xml",
+   "bytes": 3469,
+   "sha256": "0c69b560640e603bf48a1ada8a82637306690b82fc7dcfca869240ed43e74718"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/carthaginians/citizen_male.xml",
+   "dest": "actors/units/carthaginians/citizen_male.xml",
+   "bytes": 3177,
+   "sha256": "0f3e82fc7f344a5d8a18f38c6ae32514a772d02814887f501b1af7cac4309fb0"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/carthaginians/infantry_archer_b.xml",
+   "dest": "actors/units/carthaginians/infantry_archer_b.xml",
+   "bytes": 2201,
+   "sha256": "6082a05a49145c91edeb87517a5c22ff77b6a4870138c937b7787399aefa5bf9"
+  },
+  {
+   "kind": "actor",
+   "source": "art/actors/units/carthaginians/infantry_spearman_b.xml",
+   "dest": "actors/units/carthaginians/infantry_spearman_b.xml",
+   "bytes": 3275,
+   "sha256": "d5a1dace1accef8977bd9542c4f23885001142a1195e4de052f5a2660d70cb05"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/build.dae.cached.psa",
+   "dest": "animations/biped/citizen/build.psa",
+   "bytes": 30940,
+   "sha256": "51382e3fd0b543b64c9e1fcf22549c7ccdd0928cdd37b2e1492b007df15183ec"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/idle_relax_f.dae.cached.psa",
+   "dest": "animations/biped/citizen/idle_relax_f.psa",
+   "bytes": 95340,
+   "sha256": "597100b62d46144c4cc743c72a4143d7f665d37352ffd9ff873f9e92242bef81"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/idle_relax_f_long.dae.cached.psa",
+   "dest": "animations/biped/citizen/idle_relax_f_long.psa",
+   "bytes": 239596,
+   "sha256": "269ae43cb5f7161bd540362e296308bcbff39244528e96f757319d2d21a119df"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/idle_relax_f_short.dae.cached.psa",
+   "dest": "animations/biped/citizen/idle_relax_f_short.psa",
+   "bytes": 123676,
+   "sha256": "b7f3359cf023d60d64b14a6a2681cd25dcd72a30e929488a97faffca93228e1a"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/idle_relax_m_a.dae.cached.psa",
+   "dest": "animations/biped/citizen/idle_relax_m_a.psa",
+   "bytes": 95340,
+   "sha256": "8034dbeb7937b078051d32c3374d55e9edca6596ab0cb7515f78d37a6dc83901"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/run.dae.cached.psa",
+   "dest": "animations/biped/citizen/run.psa",
+   "bytes": 30940,
+   "sha256": "eb8f1e5c08a4b1aa0d5bee59045be19488ef78f568da9559d44758293b862e62"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/citizen/walk_relax_m.dae.cached.psa",
+   "dest": "animations/biped/citizen/walk_relax_m.psa",
+   "bytes": 63140,
+   "sha256": "57cf6f175a71aea67871a58bd868dfb3ec90d476f3affef8f7037a06c3428914"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/carry_grain_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/carry_grain_m.psa",
+   "bytes": 46396,
+   "sha256": "331a54567053cee35d1ec9596a714ade40a746582eba20a00458af775d7e33f7"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/carry_meat_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/carry_meat_m.psa",
+   "bytes": 46396,
+   "sha256": "d204ce3f62e6a00efa19da03db20adaca5f50f85c484ccd494ef910c55b4e436"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/carry_ore_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/carry_ore_m.psa",
+   "bytes": 46396,
+   "sha256": "561f4db494b323247d6f6ef23467e07b5bd899854095131e35074fe43251fe66"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/carry_wood_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/carry_wood_m.psa",
+   "bytes": 46396,
+   "sha256": "b31ca1e6a79b6f9d8115c71c011757166154fced8d52760cde24f84a1087bffc"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/farming.dae.cached.psa",
+   "dest": "animations/biped/gatherer/farming.psa",
+   "bytes": 103068,
+   "sha256": "e17caad8293a9e991e5e108be6a81a1a87e098c0b979b9875cd7d839babf0598"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/gather_fruit_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/gather_fruit_m.psa",
+   "bytes": 256340,
+   "sha256": "b83e2c3008d33177187afc6753e80d02ecec2e163bf534b3c270d1cad705d15f"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/gather_meat.dae.cached.psa",
+   "dest": "animations/biped/gatherer/gather_meat.psa",
+   "bytes": 159740,
+   "sha256": "ad92cb7d88e465a47ced9a1d3d365db71ee516982549c5366689038199081690"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/gather_mine.dae.cached.psa",
+   "dest": "animations/biped/gatherer/gather_mine.psa",
+   "bytes": 90188,
+   "sha256": "0d3578a633c4db3f0b0c4a08878c2b2626a457c36ab374af07d93714963c53a9"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/gather_wood.dae.cached.psa",
+   "dest": "animations/biped/gatherer/gather_wood.psa",
+   "bytes": 87612,
+   "sha256": "9645debe8c3aa688afc2e7c60f8fa2c61fccce1c7a8041639935431292b4527f"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_axe_01.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_axe_01.psa",
+   "bytes": 76020,
+   "sha256": "dd2c3b4f44159d95c9cdca9c4df95346b3647ca94eda76ea10729678e368b8f5"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_carry_grain_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_carry_grain_m.psa",
+   "bytes": 95340,
+   "sha256": "4b82471c22ebd3f4596e1ca4c91376d8a871883fe6b7d7e6a7594a64598a900a"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_carry_meat_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_carry_meat_m.psa",
+   "bytes": 95340,
+   "sha256": "9dc35d5b8b09771349af7620f9d719b58766d9919531233291f4a6af18006dae"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_carry_ore_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_carry_ore_m.psa",
+   "bytes": 95340,
+   "sha256": "0b49bfaf8054a5b87b91f2865bf8914b16e6ceba0d008edb6c4606e40e57b457"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_carry_wood_m.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_carry_wood_m.psa",
+   "bytes": 95340,
+   "sha256": "42e338f3bf73532cee5db637805a49f75687c91cc4df6fe5e0dd7688f4bde262"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/idle_hoe_01.dae.cached.psa",
+   "dest": "animations/biped/gatherer/idle_hoe_01.psa",
+   "bytes": 76020,
+   "sha256": "99630e4b5cab64ca65d5c564ceb5c6a39ab09a06cc635417b3668f0d08abd2d7"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/walk_axe.dae.cached.psa",
+   "dest": "animations/biped/gatherer/walk_axe.psa",
+   "bytes": 50260,
+   "sha256": "34088d189294022aa9f397c9843bb1d3a82378c905f2e26802fc54514e4c6b2b"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/walk_hoe.dae.cached.psa",
+   "dest": "animations/biped/gatherer/walk_hoe.psa",
+   "bytes": 50260,
+   "sha256": "d42df8ead8e23b7e38699b6386778bf7bfe0a69e915d02898e2d20c720e33d5c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/gatherer/walk_pickaxe.dae.cached.psa",
+   "dest": "animations/biped/gatherer/walk_pickaxe.psa",
+   "bytes": 50260,
+   "sha256": "fcacef4dafc4e049f92837db4be47a089dbdf928981c174ecb9cc40bef849017"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/attack_ranged_hip.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/attack_ranged_hip.psa",
+   "bytes": 95340,
+   "sha256": "e5670f397f7ff89ae6fee87a4fd4e65b472d92dbc4e1c667da72013dd16f0cc4"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/idle_relax_01.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/idle_relax_01.psa",
+   "bytes": 95340,
+   "sha256": "dd9c04a86e75566f4cf2a4b3cf568e3239131b8e050817569a9f4fb2ef7687e1"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/idle_relax_02.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/idle_relax_02.psa",
+   "bytes": 95340,
+   "sha256": "cf8de7679f62d0a037a26220b06ae98ef97839b648bbb80c559630505daf1241"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/idle_relax_03.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/idle_relax_03.psa",
+   "bytes": 95340,
+   "sha256": "e18a98309d0b5c3c1b1a56cb2bbcd69c48da34434a8576ef2a3b5de6d1541c7b"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/idle_relax_04.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/idle_relax_04.psa",
+   "bytes": 95340,
+   "sha256": "c6db221eae8373b1153baa027c32d431409d8d4af53eecca99aa80d877d838d2"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/jog_relax.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/jog_relax.psa",
+   "bytes": 37380,
+   "sha256": "713c13b313c235e1286470d368880455a71cf61f077330e2a699ef78deec8294"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/archer/run_ready.dae.cached.psa",
+   "dest": "animations/biped/infantry/archer/run_ready.psa",
+   "bytes": 30940,
+   "sha256": "a18c9048ad136b4d1f18ecf28dc4bb297fc4c5a836ed8024f89de406bc1e7bb4"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/death_a.dae.cached.psa",
+   "dest": "animations/biped/infantry/death_a.psa",
+   "bytes": 46396,
+   "sha256": "c130fc4767d18ccfa59b8b3410c3499a87ca875e81d5133bdc1f817f0066b041"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/death_b.dae.cached.psa",
+   "dest": "animations/biped/infantry/death_b.psa",
+   "bytes": 73444,
+   "sha256": "ff7a016f7a9a1e69c66af6a8ee3ce28471fe339ace45702e5c030775bcfbab08"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/attack_melee_04.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/attack_melee_04.psa",
+   "bytes": 43820,
+   "sha256": "752176fe15af6be5d739c794342e9d27a44030ecd5adcfc55c8125e77ea0113f"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/attack_melee_05.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/attack_melee_05.psa",
+   "bytes": 43820,
+   "sha256": "614c89f929be98c528aacce62c511cd39aae959a8623839cbc5de9478a15f587"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_ready_01.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_ready_01.psa",
+   "bytes": 95340,
+   "sha256": "cef22e89390613b586b95e8d87c831f562c04fd8d6e0f28338bf19faed49035f"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_ready_back.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_ready_back.psa",
+   "bytes": 95340,
+   "sha256": "d3b187daf38bdc77e6ab6949e6d18be354c7b01d8a9872088d110b01c5e0f091"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_ready_front.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_ready_front.psa",
+   "bytes": 76020,
+   "sha256": "6f290634152830a23733e7731a94008a7585258c124ee1aafef331a71fc30822"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_01.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_01.psa",
+   "bytes": 76020,
+   "sha256": "edda95cb694635e57c7e7354cbe02b70ef11ee6f8a941dd04bb7e2baa550c693"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_02.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_02.psa",
+   "bytes": 76020,
+   "sha256": "2b8c70054f9fbca50484ce33b9448d93d4ccb7488998b002f2dac5da479a51a7"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_03.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_03.psa",
+   "bytes": 76020,
+   "sha256": "402a8e95c5ef656899e392bcc4e06a93ab3d8fb73f6ca0d66cdfb96f165b89bf"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_04.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_04.psa",
+   "bytes": 76020,
+   "sha256": "7592dd711d8c1b3919226eb64921e6540b07db9f441d76e817038d31fc9fdd6a"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_05.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_05.psa",
+   "bytes": 76020,
+   "sha256": "60721e1b0642a0ca568e63caf683116cab415430ac7bd8f7e4237b6029f4cb8c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_06.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_06.psa",
+   "bytes": 76020,
+   "sha256": "1a84be2ab62d1dd605f8440a66aeaa878636e940bd969280798ec7658974ef54"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/idle_relax_long_01.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/idle_relax_long_01.psa",
+   "bytes": 256340,
+   "sha256": "80c60c36a8dc645884d124fddb5edd5e10b66e189cc8520cc4fe8be3d6c9df4b"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/jog_ready.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/jog_ready.psa",
+   "bytes": 30940,
+   "sha256": "e4661f4016da9a668c5ec98fbd7d67de2ebc511d7188834b56368b1186def6ea"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/run_ready.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/run_ready.psa",
+   "bytes": 24500,
+   "sha256": "827f68171b6192777276372b5fc0bbffd724ad3d01b0cdd47227939b760a303c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/run_relax.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/run_relax.psa",
+   "bytes": 30940,
+   "sha256": "07b29ae7e9a687d150809151969989352038f11bf97f0b7fdf564d9fd01666ba"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/walk_ready.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/walk_ready.psa",
+   "bytes": 63140,
+   "sha256": "b03a0185f784071dbc91c769aec0521971ee570366313bd4a29f142d53ea6e91"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/walk_ready_front.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/walk_ready_front.psa",
+   "bytes": 63140,
+   "sha256": "64da5c712d2cd5cef7effd2a6cc9b80b07a9fbbd196acfd2f2a0c94f440469ed"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/hoplite/walk_relax.dae.cached.psa",
+   "dest": "animations/biped/infantry/hoplite/walk_relax.psa",
+   "bytes": 50260,
+   "sha256": "3415f833652ec48f086eded9ce49de9aca6afac4ca51bb9020a37901ce7ab458"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/attack_ranged.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/attack_ranged.psa",
+   "bytes": 100492,
+   "sha256": "6a729a89d56ea2147742a259006201ad9022728905bfe851b9dc0e65940dd6a2"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/idle_relax_01.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/idle_relax_01.psa",
+   "bytes": 95340,
+   "sha256": "a85b3a71e82539f9c00cd6c6f58f369c2d00b8ba9d45e57534d5433c9bab797e"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/idle_relax_02.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/idle_relax_02.psa",
+   "bytes": 95340,
+   "sha256": "cd6618504d41ec91cb11fcb96500fed24eeee99145c0e32e6618250f6439e250"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/idle_relax_03.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/idle_relax_03.psa",
+   "bytes": 95340,
+   "sha256": "c0498fb2a69922bf0b1873a4197b91440c39673c2f74f3a76fc0fa8bc30a8094"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/idle_relax_04.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/idle_relax_04.psa",
+   "bytes": 95340,
+   "sha256": "887847ea0186484ceebdfd508dc80448c5b370d5070b8e7832997058b5703814"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/jog_ready.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/jog_ready.psa",
+   "bytes": 37380,
+   "sha256": "8e025e1b74d532e6f7aadea3ad87f81fa878d4ce199f9d6b0b88b63cddccc657"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/slinger/jog_relax.dae.cached.psa",
+   "dest": "animations/biped/infantry/slinger/jog_relax.psa",
+   "bytes": 37380,
+   "sha256": "3e07d79b98e46579ca8bb94154346985a9c9e94f87ef3bd35211a3367944985c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/biped/infantry/swordsman/attack_melee_shield_02.dae.cached.psa",
+   "dest": "animations/biped/infantry/swordsman/attack_melee_shield_02.psa",
+   "bytes": 37380,
+   "sha256": "426ab8233bada7d31cb97814c531b33401ec6f63f217156d3c0b9546518e78c0"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_attack_01.dae.cached.psa",
+   "dest": "animations/quadraped/deer_attack_01.psa",
+   "bytes": 20328,
+   "sha256": "81f76666aaabde2417a06da9b7ed2303185d10f6d093c2cb622c53a097fa01be"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_death_01.dae.cached.psa",
+   "dest": "animations/quadraped/deer_death_01.psa",
+   "bytes": 9772,
+   "sha256": "9799c2a97d3e57d964c679752c9de2bbb3d4059650a89e9d3d46fff40f7a6fb7"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_death_02.dae.cached.psa",
+   "dest": "animations/quadraped/deer_death_02.psa",
+   "bytes": 9772,
+   "sha256": "62d36cf1017bb03454439d8f04a2afc0a048210248f75daa73f4e0ec6e44c80a"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_idle_01.dae.cached.psa",
+   "dest": "animations/quadraped/deer_idle_01.psa",
+   "bytes": 15456,
+   "sha256": "b2f95ead485b37d7e1a50cd98000c70ed70c134f495922422a6918f70231267c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_idle_02.dae.cached.psa",
+   "dest": "animations/quadraped/deer_idle_02.psa",
+   "bytes": 15456,
+   "sha256": "edbde69cd191e92dbfb2b8a618eef0d9e2091027ee88f30ea043a1a3be3ab07c"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_idle_03.dae.cached.psa",
+   "dest": "animations/quadraped/deer_idle_03.psa",
+   "bytes": 15456,
+   "sha256": "be96bda94de7ac7514c8d0fd95b852ab1f9379f268543f50b5bb7dd3e94a522e"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_run_01.dae.cached.psa",
+   "dest": "animations/quadraped/deer_run_01.psa",
+   "bytes": 34944,
+   "sha256": "b9c6063dc7b845af5f7c4006e4407e8f29e27cc8b3d64e79e6a057396ea7966d"
+  },
+  {
+   "kind": "animation",
+   "source": "art/animation/quadraped/deer_walk_01.dae.cached.psa",
+   "dest": "animations/quadraped/deer_walk_01.psa",
+   "bytes": 24388,
+   "sha256": "6bbb54b4b1a3e857a6b640719cc866bb792c53a13779c577cba13e9fdb8b7c00"
+  },
+  {
+   "kind": "font",
+   "source": "../mod/fonts/FreeFont-LICENSE.txt",
+   "dest": "fonts/FreeFont-LICENSE.txt",
+   "bytes": 1298,
+   "sha256": "47cf78711b03e3096809878b4cbb049ecf46fa4fbb0cfa77bf99fc2ed53c1dd9"
+  },
+  {
+   "kind": "font",
+   "source": "../mod/fonts/FreeSans.ttf",
+   "dest": "fonts/FreeSans.ttf",
+   "bytes": 1563256,
+   "sha256": "c80858440d8fb618e0ac5ff6f16251dbfa6b3316f00f3cdd17d477297dd87b04"
+  },
+  {
+   "kind": "font",
+   "source": "../mod/fonts/LibBiolinum-LICENSE.txt",
+   "dest": "fonts/LibBiolinum-LICENSE.txt",
+   "bytes": 1308,
+   "sha256": "eb79f0ae27d4f907f556e82756a4b31251270556c8d068fa72d70bfa283b6421"
+  },
+  {
+   "kind": "font",
+   "source": "../mod/fonts/LinBiolinum_Rah.ttf",
+   "dest": "fonts/LinBiolinum_Rah.ttf",
+   "bytes": 657744,
+   "sha256": "f7140084369db686c71e522f0e8de148f0f3f429310376d5f52325a9f0955ba5"
+  },
+  {
+   "kind": "icon-source",
+   "source": "art/textures/ui/session/portraits/emblems/emblem_athenians.png.cached.dds",
+   "dest": "icon-source.png",
+   "bytes": 126453,
+   "sha256": "45f7e94715e142e9a0ec1da1675446caa1fec76cb03b32bdbe9a73a897d6d8f7"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/barracks.png.cached.dds",
+   "dest": "icons/barracks.png",
+   "bytes": 29402,
+   "sha256": "d8bc83d1dc38f24784def8844a9f15f0490150dcb0cde4a437203a086b91658c"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/civic_centre.png.cached.dds",
+   "dest": "icons/civic_centre.png",
+   "bytes": 30258,
+   "sha256": "81185fe7d12d47e33fbee080210a717f0c93aaae87b5456a1c9d33483b548d61"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/defense_tower.png.cached.dds",
+   "dest": "icons/defense_tower.png",
+   "bytes": 32474,
+   "sha256": "cc5ecca1795abfce1ca8d761ae1fccfc097c670633727e2acd2af311929650b6"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/farmstead.png.cached.dds",
+   "dest": "icons/farmstead.png",
+   "bytes": 29716,
+   "sha256": "d58504cf631a9cc9525697bb6fc4fe9451b055a4c317944a36dcbb430ce5834c"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/gaia/fauna_deer.png.cached.dds",
+   "dest": "icons/fauna_deer.png",
+   "bytes": 23821,
+   "sha256": "c3e2f951b819b31b601ac10b0060a933c3a678d873b438d6b2d862c4eb03e51a"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/field.png.cached.dds",
+   "dest": "icons/field.png",
+   "bytes": 34100,
+   "sha256": "cad60c5a81e75fb649003b1ec8b6196512ba75b66f12bbe29d15149ee6542396"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/gaia/flora_bush_berry.png.cached.dds",
+   "dest": "icons/flora_bush_berry.png",
+   "bytes": 31152,
+   "sha256": "290b280f92e71d53be7ebc9aa1f1a88689a80e5c63fc89f31b20e5360c5318d6"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/gaia/flora_tree_generic.png.cached.dds",
+   "dest": "icons/flora_tree_generic.png",
+   "bytes": 21478,
+   "sha256": "8d6f01a3a25577b0a5c3c7094391e6511da7e8a4a20249416a9f1b8f07662ef7"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/icons/resources/food.png.cached.dds",
+   "dest": "icons/food.png",
+   "bytes": 3046,
+   "sha256": "d0939fee7d8b3e6d90729748736252cb62cc7e18d677fa4a339115d8593f06c5"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/gaia/geology_metal.png.cached.dds",
+   "dest": "icons/geology_metal.png",
+   "bytes": 22788,
+   "sha256": "f3122a34485ce3457280b8e5dfa75d7c3ac5e86c219f3d5d5cae560858c7cf12"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/gaia/geology_stone.png.cached.dds",
+   "dest": "icons/geology_stone.png",
+   "bytes": 26497,
+   "sha256": "203caa9b8b7f17b7df902a95e6581a26c945104b499299035715446ec177c2b3"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/house.png.cached.dds",
+   "dest": "icons/house.png",
+   "bytes": 31391,
+   "sha256": "08eb25236201aa3976d7c5b72fe4410b1ff0736e125590b663374c7a16fa63f8"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/icons/resources/metal.png.cached.dds",
+   "dest": "icons/metal.png",
+   "bytes": 3567,
+   "sha256": "c2993139f8a0fc23897d4d7da8c91eb6b44cb81830d515c67d48ba5d0043f839"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/icons/resources/population.png.cached.dds",
+   "dest": "icons/population.png",
+   "bytes": 5592,
+   "sha256": "357d92ecdf01bc397c78b09a785448b7f756e9e7c94dddbbde0c420e7ec64116"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/icons/resources/stone.png.cached.dds",
+   "dest": "icons/stone.png",
+   "bytes": 3890,
+   "sha256": "4342d7cbb6715305a307d7635a71915a351108b03b7a4497cdfb8dc17b0f32ff"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/structures/storehouse.png.cached.dds",
+   "dest": "icons/storehouse.png",
+   "bytes": 33567,
+   "sha256": "70236a39b7ef1cd85a09a0907a1a4b334003f4663b7d6142f24105296fe5474c"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/athen/infantry_slinger.png.cached.dds",
+   "dest": "icons/units/athen/infantry_slinger.png",
+   "bytes": 27947,
+   "sha256": "18d865f3738df6bc06ab530208ff9a688238a39b49a44c85f2da34055f11103b"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/athen/infantry_spearman.png.cached.dds",
+   "dest": "icons/units/athen/infantry_spearman.png",
+   "bytes": 30079,
+   "sha256": "f2eaffebed7d3fc7fdce3ea3360a77f1ca50391bbcc91738efaa7332d06d8e5c"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/athen/support_civilian.png.cached.dds",
+   "dest": "icons/units/athen/support_civilian.png",
+   "bytes": 33761,
+   "sha256": "4bd60b57812b8f816489ac769c451fe9f135cde938e47c6c1d094cc83cdeb1ff"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/cart/infantry_archer.png.cached.dds",
+   "dest": "icons/units/cart/infantry_archer.png",
+   "bytes": 30283,
+   "sha256": "574abf538776f7dcf3a62f9967bae045f1fdca517a9dc29c0a3c5546e449373c"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/cart/infantry_spearman.png.cached.dds",
+   "dest": "icons/units/cart/infantry_spearman.png",
+   "bytes": 31348,
+   "sha256": "7e0f2fa82d8aa0b5e96832c77109dd100393822943f2d78712df52118e4b464f"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/portraits/units/cart/support_civilian.png.cached.dds",
+   "dest": "icons/units/cart/support_civilian.png",
+   "bytes": 32726,
+   "sha256": "e192580253c8be35dfb362b480abff493aa3160032d8550205ad31ce5c0d9069"
+  },
+  {
+   "kind": "icon",
+   "source": "art/textures/ui/session/icons/resources/wood.png.cached.dds",
+   "dest": "icons/wood.png",
+   "bytes": 3684,
+   "sha256": "191d52b120bfc3d5c085c45c44b94f8d109f24a5e9a53ec638578145af6e2f0d"
+  },
+  {
+   "kind": "map",
+   "source": "maps/skirmishes/farmland_2p.pmp",
+   "dest": "maps/farmland_2p.pmp",
+   "bytes": 656820,
+   "sha256": "823fd8970ca54ce6e58192b79b1ebc3f8bb078991c9b74b9b627c5f0ee765456"
+  },
+  {
+   "kind": "map",
+   "source": "maps/skirmishes/farmland_2p.xml",
+   "dest": "maps/farmland_2p.xml",
+   "bytes": 596824,
+   "sha256": "e423cd7c7c2bd90413f8fe0b0c83d8257912ef1fff07f5df3c5e378ea41f1410"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/berry_bush_01.dae.cached.pmd",
+   "dest": "meshes/gaia/berry_bush_01.pmd",
+   "bytes": 24553,
+   "sha256": "afa621fe27d8adf66401e57519a2eb81a4e54a02ed13f3a58171c3b612e9c1e1"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/berry_bush_02.dae.cached.pmd",
+   "dest": "meshes/gaia/berry_bush_02.pmd",
+   "bytes": 32601,
+   "sha256": "a16037193fe4272e027df34bbe04892a7a6f361d0d2fd3402ab446da1a77446d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_12.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_12.pmd",
+   "bytes": 95221,
+   "sha256": "075670f8b8f39e43ea718b5415b1d803606980c449e72d4fce93c50ded0f4546"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_13.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_13.pmd",
+   "bytes": 95325,
+   "sha256": "5bb8a181cc475735db8f3b9e7c73f884409114ad1bd08ab39019adc812a81ce7"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_14.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_14.pmd",
+   "bytes": 93381,
+   "sha256": "ef5c6be77fcc36851bb2ff612bcfd89416ceaeb82393c80e1daa5f81f94daca4"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_15.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_15.pmd",
+   "bytes": 90685,
+   "sha256": "9e6b885062a9ff86ac5f931350d7ff45646235041c90238287d301c21e68b618"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_16.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_16.pmd",
+   "bytes": 104293,
+   "sha256": "65d5e1eae36659a405e92ae9b8451a8ed59597e311e59adf3f9995cf3819a9fc"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_17.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_17.pmd",
+   "bytes": 98565,
+   "sha256": "eb89ace07cda0ca4047167d5a638e06ea9dd11006f485f1f0ee7f18447a8f3f0"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_18.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_18.pmd",
+   "bytes": 73189,
+   "sha256": "d310a7a512bcb3c2fbdefd85399887a73eaf04b34899fcb0b4068ade81feab7f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_19.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_19.pmd",
+   "bytes": 73293,
+   "sha256": "1a68d2036e49fc9cfc546940087be2d0e65ee6a9ee18aa4787a2c98d91a120bd"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/deciduous_20.dae.cached.pmd",
+   "dest": "meshes/gaia/deciduous_20.pmd",
+   "bytes": 100509,
+   "sha256": "e704d0f06cb55838e6504ae758bd30559fab3dd3a48ff072fc4ea01dcae7195e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_small_1.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_small_1.pmd",
+   "bytes": 71245,
+   "sha256": "8b1d481b4f5eae4549c447a193509cd8e4e15a575107cacde26ebf19f502d25c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_small_2.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_small_2.pmd",
+   "bytes": 42085,
+   "sha256": "da36165c472d4980e97ef2ea7b288a478b386c39850d9c307b85de51454e361b"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_small_3.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_small_3.pmd",
+   "bytes": 61629,
+   "sha256": "38f2f9a2314aeae942ff5cf26f8b6a9ab82169945dd8df6c2b71bcbfaed955ad"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_1.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_1.pmd",
+   "bytes": 71141,
+   "sha256": "499be141d3b2ee03a37c1d843b104ef329d2f05f358ed2101f42ed769ea0fec4"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_2.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_2.pmd",
+   "bytes": 71245,
+   "sha256": "adaa5518aa3a04fe79042f14af08d5541775900e366860eecdd0ccec8f790d5d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_3.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_3.pmd",
+   "bytes": 81717,
+   "sha256": "de5181bbacf149049c902213e931eb1f80c9f84b01ce3950bad083ed25377d3f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_4.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_4.pmd",
+   "bytes": 42085,
+   "sha256": "37af1bb64622881d9dbc46c4ce6001115dfff5d57e59fa05772092ce3bc063da"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_5.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_5.pmd",
+   "bytes": 61629,
+   "sha256": "5d176705a52347d53e99531deca3e9941dd275a7076b5682e27fb92cebdb7e1b"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_6.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_6.pmd",
+   "bytes": 61525,
+   "sha256": "72649c95444c48ffe775cc67a50e9873ba9110e0fe5ca0de96bd699f45e02c2d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_7.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_7.pmd",
+   "bytes": 81717,
+   "sha256": "e59783a7d8458e37777e7c748b53e055c0cd0a3f28d35cde0e64d6ab0d0e88c6"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/fir_tree_tall_8.dae.cached.pmd",
+   "dest": "meshes/gaia/fir_tree_tall_8.pmd",
+   "bytes": 81717,
+   "sha256": "e3028fb47f285bdb0cf30dc14d91fc111d4f63d088ed9a509414cc7613186b0d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_a.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_a.pmd",
+   "bytes": 3889,
+   "sha256": "bb0a94a7ce042360362d115a23f77f306da28952537e67003a6e00719eb1ff5f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_b.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_b.pmd",
+   "bytes": 1765,
+   "sha256": "5957e56d42011f9685d1b4e1e1e0120cb03da32fb7b3f56adf90ef4fa31609f9"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_c.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_c.pmd",
+   "bytes": 1457,
+   "sha256": "68cfef8384993dd31623bb5ade65962cfcbbbe5d30bc750cfa995793b87650a9"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_d.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_d.pmd",
+   "bytes": 2857,
+   "sha256": "7cd7590c0e6a85bd2bb9e807f67ad53c27fef5bf280d7de7ba66e3cdd82984fb"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_e.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_e.pmd",
+   "bytes": 3073,
+   "sha256": "02e507d083f60962fd87687ec891e7693364542f97969ae4e471de9daf916337"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_f.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_f.pmd",
+   "bytes": 3073,
+   "sha256": "b7e1c1951caa553c0dc8b0c941fc768bfa1b3b40fc26a782762278e84f0fef65"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stone_granite_me_g.dae.cached.pmd",
+   "dest": "meshes/gaia/stone_granite_me_g.pmd",
+   "bytes": 1167,
+   "sha256": "a82de9ce26a8226d65e0e76c34cb9882dfd61c4f302e5a5b2770e6718aaaf4b5"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stonemine_round_a.dae.cached.pmd",
+   "dest": "meshes/gaia/stonemine_round_a.pmd",
+   "bytes": 53421,
+   "sha256": "5484ccc38c0c63b0000334944e26b4be43345402ed7201982fe6a522aa977518"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/stonemine_round_b.dae.cached.pmd",
+   "dest": "meshes/gaia/stonemine_round_b.pmd",
+   "bytes": 53421,
+   "sha256": "fb3b6347875465fde55e0dbf10eb0105ecd0f0d173a9fe0b42f898a7e54f4d2c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temp_bush_01.dae.cached.pmd",
+   "dest": "meshes/gaia/temp_bush_01.pmd",
+   "bytes": 12277,
+   "sha256": "06007123a87260829fab7ae047dc19e07f650e67758bcf4972863320ab5ffb06"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temp_bush_02.dae.cached.pmd",
+   "dest": "meshes/gaia/temp_bush_02.pmd",
+   "bytes": 12277,
+   "sha256": "5b7cb55963eaa7af8e942008253252c309404f767982a72ee578a8edeebe3d7d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temp_bush_03.dae.cached.pmd",
+   "dest": "meshes/gaia/temp_bush_03.pmd",
+   "bytes": 12069,
+   "sha256": "13f41f71857cdb086a7b256c87fd1ebdd67cd1189dca5fe23432f07c78b733f5"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temp_bush_04.dae.cached.pmd",
+   "dest": "meshes/gaia/temp_bush_04.pmd",
+   "bytes": 16917,
+   "sha256": "369c3d6106aae039a7b01b87bc98adb291e976c2a7e553d5997ee617187f34a1"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temperate_stone_mine_a.dae.cached.pmd",
+   "dest": "meshes/gaia/temperate_stone_mine_a.pmd",
+   "bytes": 18213,
+   "sha256": "25ada66e4426c37c53b17532b90d5fe576895429460b1e16696f01cca4ccfc3f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temperate_stone_mine_b.dae.cached.pmd",
+   "dest": "meshes/gaia/temperate_stone_mine_b.pmd",
+   "bytes": 16755,
+   "sha256": "32544bf1c09439121a719d3a102afc818a9c6062758a3cf02141de9f38948a94"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/temperate_stone_mine_c.dae.cached.pmd",
+   "dest": "meshes/gaia/temperate_stone_mine_c.pmd",
+   "bytes": 22425,
+   "sha256": "eea08b7fa12b93eff74b0d2b5c2b9801c07b5e21e60967b818eb618953d9cb69"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_grass_1.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_grass_1.pmd",
+   "bytes": 1829,
+   "sha256": "a5c04c9de67a64a7528804a21058133cdc2dda3057a4a36e3b8ad1f9bd682018"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_1.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_1.pmd",
+   "bytes": 2663,
+   "sha256": "72ec2200e1a8ff16a0b2b7cfbbbe71533278a8ec60afcbe40375af25a7cbd853"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_2.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_2.pmd",
+   "bytes": 3269,
+   "sha256": "314346ab65cb0877b083d1fcfd52a41e4cdd71f3b600345d5b2471f2ba38d403"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_3.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_3.pmd",
+   "bytes": 4347,
+   "sha256": "e5e2113c2a678b13bb0dfd2583f629f2644d7e5af15fd3d673b10063c819f50e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_4.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_4.pmd",
+   "bytes": 3535,
+   "sha256": "0e342ff6a8960d4bf835f8435af18098cac9a7c9f02d135c718fa00f257dab74"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_5.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_5.pmd",
+   "bytes": 3067,
+   "sha256": "7531f4693425b87e785dae3bb1e01a5f3effadb9f365a0f99cc6cbb74fe0229b"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_6.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_6.pmd",
+   "bytes": 2945,
+   "sha256": "6426d943535e19681e539f63a03e82a2e96885469ca4e9831e3c01c3c72fdb5a"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_7.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_7.pmd",
+   "bytes": 4137,
+   "sha256": "ce14f8bcf7847fd67ed6332602b798ad3e8b1fe3035210aefb49b691c6772b39"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/gaia/wrld_rock_8.dae.cached.pmd",
+   "dest": "meshes/gaia/wrld_rock_8.pmd",
+   "bytes": 3373,
+   "sha256": "051f6885b188aac49c466a79dbfdad9ced36ca3fd85f154c1587e43bc8dfec11"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/athen_barracks_decor.dae.cached.pmd",
+   "dest": "meshes/props/athen_barracks_decor.pmd",
+   "bytes": 138261,
+   "sha256": "deed0ec6d2aa5ca326fdffe187ee35373ea02b788517efed1fff354bdfa8cfa0"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/athen_barracks_props_a.dae.cached.pmd",
+   "dest": "meshes/props/athen_barracks_props_a.pmd",
+   "bytes": 324525,
+   "sha256": "8424ef6b8fd4e44b03193f8e111a0548d61f72e9a7b704a565e942c7a98dd3b1"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/athen_barracks_shields.dae.cached.pmd",
+   "dest": "meshes/props/athen_barracks_shields.pmd",
+   "bytes": 16869,
+   "sha256": "e302b2fe2b9091f750c83aedb8694f342551489e3def872e7cc715473cedc953"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/athen_barracks_struct_b.dae.cached.pmd",
+   "dest": "meshes/props/athen_barracks_struct_b.pmd",
+   "bytes": 30477,
+   "sha256": "5a402093f0a2980ea4662a4fbce23e32cd2a79843cabe5ed99621491d0e7c78d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/athen_barracks_tile_c.dae.cached.pmd",
+   "dest": "meshes/props/athen_barracks_tile_c.pmd",
+   "bytes": 74601,
+   "sha256": "fe34d0a9fefe318f39971e5f13f76ac79e037c6a992221d81da62a630a9485a3"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/deer_antlers.dae.cached.pmd",
+   "dest": "meshes/props/deer_antlers.pmd",
+   "bytes": 3377,
+   "sha256": "2e92d06170e8f2938da4f8a331a18e7a6c146a730cf699c6f71fbf4b6729caf7"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/field_grain.dae.cached.pmd",
+   "dest": "meshes/props/field_grain.pmd",
+   "bytes": 20917,
+   "sha256": "e8d1beb4b39967257c525e76ba461129823022f0e08a27d1b4a079a08a7b8eb8"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/garrison_flag.dae.cached.pmd",
+   "dest": "meshes/props/garrison_flag.pmd",
+   "bytes": 6165,
+   "sha256": "6c45696d0cb290e496fcf334220bd12a95d3a4910b7710f605c0cb7c5953874c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_farmstead_hay.dae.cached.pmd",
+   "dest": "meshes/props/hele_farmstead_hay.pmd",
+   "bytes": 11337,
+   "sha256": "ffb2465de57ca9ec4b63a0590ffcf872bc3dcaa9cadfc58938daee8a0c957ff7"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_farmstead_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_farmstead_nature.pmd",
+   "bytes": 9031,
+   "sha256": "7bb3ee844d84586ee2f078c8b1cd5f895a761897e1e081f2ae7c5900d92df37e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_farmstead_props.dae.cached.pmd",
+   "dest": "meshes/props/hele_farmstead_props.pmd",
+   "bytes": 89169,
+   "sha256": "e294740c9c5db3660f8ac4f0fcf72218aac926f8e28dd1fef196d4c5801ea6c9"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_a_decor.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_a_decor.pmd",
+   "bytes": 4053,
+   "sha256": "f8d1c7d65c9ab4f53346d97d788d2b29355c9efb5776b8af8fa73e0a54adcc22"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_a_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_a_nature.pmd",
+   "bytes": 41595,
+   "sha256": "fc0f2b85edd1e7fce3d8734a6ddb3c34a0e5c1bf0bc92162b444f43832000e55"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_a_props_a.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_a_props_a.pmd",
+   "bytes": 28641,
+   "sha256": "17a585dc5b413e55c617755033647a2ddaf71b7c0473c256ccd7a730e982615e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_a_shields.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_a_shields.pmd",
+   "bytes": 3669,
+   "sha256": "a5c32d99392c1278bced5c6cb997fe55ae7a7e65ad050591733de522d4134f56"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_a_struct.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_a_struct.pmd",
+   "bytes": 7041,
+   "sha256": "85e6e08caa9b49665af0a039b74b93885b196627527c049f96dcd1082a145af4"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_b_decor.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_b_decor.pmd",
+   "bytes": 5781,
+   "sha256": "76069a63cc002fd3f1fbcc3e58a823528e67df06113d8a306c67153be8af3f8d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_b_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_b_nature.pmd",
+   "bytes": 48261,
+   "sha256": "45c45375bc33f24b35dd40a2d056bb03eae6bd55911207bf6e4b815616b23d06"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_b_props_a.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_b_props_a.pmd",
+   "bytes": 36813,
+   "sha256": "f3d83a3168fbdbdb919c10237f5d9ce2ab361c5a96c819a1462344820f7d0b9c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_b_shields.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_b_shields.pmd",
+   "bytes": 6189,
+   "sha256": "0a61b88751966773cfe2d542cda1d92a31a2b99d269c7182465b99f3d6128878"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_b_struct.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_b_struct.pmd",
+   "bytes": 34857,
+   "sha256": "35bbf5aef6eafd9c900a22bc1be38e41ef9ebd2e71c2907656b7562e7b7fcc10"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_c_decor.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_c_decor.pmd",
+   "bytes": 3549,
+   "sha256": "298b2c8553b9da838bd7ee025fa1e891eda09d88016b25f185872dcb83b7c902"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_c_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_c_nature.pmd",
+   "bytes": 51849,
+   "sha256": "e0d0ff051306b97c131f24ce62c5385457c6fe0928bef9ccf413c1697f46ca41"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_c_props_a.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_c_props_a.pmd",
+   "bytes": 25389,
+   "sha256": "40f58f5b6bbd18575343f460ca0016e6aa71e543a92a1d39e330d0387c91c2fd"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_c_shields.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_c_shields.pmd",
+   "bytes": 5469,
+   "sha256": "d09e80fba3eaf982beb0ff97b11b57f6f14235d2401668588debf8541bb1a9a2"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_c_struct.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_c_struct.pmd",
+   "bytes": 36825,
+   "sha256": "3eafacee363fb496a482776c90d9704f93e19911d7954754d172c8a5c2f97cdf"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_d_decor.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_d_decor.pmd",
+   "bytes": 1929,
+   "sha256": "7619b8116f1d68d995ac7c239cfe5dd97b5c2390cd8d3135e62abaa1c1f5cdee"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_d_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_d_nature.pmd",
+   "bytes": 60669,
+   "sha256": "a2773b52af122b529b688f59b7b649d47067c5eb767acce0ebd07b6253f58fae"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_d_props_a.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_d_props_a.pmd",
+   "bytes": 21201,
+   "sha256": "97e81cbe08a37faaf3295562dcaec7cc8599248addead046cbf13bbd19769a9d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_d_shields.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_d_shields.pmd",
+   "bytes": 3669,
+   "sha256": "81b6cff623ce039af0cf07e0f15e018a048584c8c6c9ed65ba3a57fcd730ca51"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_d_struct.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_d_struct.pmd",
+   "bytes": 14373,
+   "sha256": "2b99945267be0921b9b417ba5426e1455556205f06b800090cde39cd53291026"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_e_nature.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_e_nature.pmd",
+   "bytes": 42927,
+   "sha256": "a648ee39d47dba5f393c55891b029e2d73894cfefb353e8ce5a44a934e344dce"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_e_props_a.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_e_props_a.pmd",
+   "bytes": 34929,
+   "sha256": "011f216bc21035c303fac8e7a6f6ebe259c790557ac55cf3892b63607a2333d4"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_e_shields.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_e_shields.pmd",
+   "bytes": 3669,
+   "sha256": "1222a217af914c9be5f09a1e16db639167cc88b2cf962daf26ea7307637abfef"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_house_e_struct.dae.cached.pmd",
+   "dest": "meshes/props/hele_house_e_struct.pmd",
+   "bytes": 13197,
+   "sha256": "9e7d65806d214ee54e2320e55eb60ed48c54e28f86721225900b1cba8585ab6d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_scout_tower_f.dae.cached.pmd",
+   "dest": "meshes/props/hele_scout_tower_f.pmd",
+   "bytes": 3501,
+   "sha256": "cf7d87e26c3e6c3a83b10379fe787bc70ff724c4b96edb7cf06f2e2ddb75b62f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_scout_tower_p.dae.cached.pmd",
+   "dest": "meshes/props/hele_scout_tower_p.pmd",
+   "bytes": 15489,
+   "sha256": "ee36b5aed896c216fb94d0f714ef88459bacdd4a6c86fd98cd1264f4986a4c4c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_storehouse_blocks.dae.cached.pmd",
+   "dest": "meshes/props/hele_storehouse_blocks.pmd",
+   "bytes": 54969,
+   "sha256": "b3fa37b3810c3d9ff98f0ba87e6ab94b0f64daf072dd9b754af6d01cc57e94a1"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_storehouse_props.dae.cached.pmd",
+   "dest": "meshes/props/hele_storehouse_props.pmd",
+   "bytes": 86433,
+   "sha256": "d8768ec765ebe297df3eb0297c83362e8970e822aa83682034b0e17898d61067"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_storehouse_roof.dae.cached.pmd",
+   "dest": "meshes/props/hele_storehouse_roof.pmd",
+   "bytes": 2301,
+   "sha256": "abafcdaf3d685357a8366ae698880857c413f0b20dfcdcfa2e771e4163641d70"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/hele_storehouse_wood.dae.cached.pmd",
+   "dest": "meshes/props/hele_storehouse_wood.pmd",
+   "bytes": 110025,
+   "sha256": "e6d4bb8150ac6759cce96b388f69dbdb3ce25f229916b3c55b1cec8327288a46"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/helmet/han_bandana.dae.cached.pmd",
+   "dest": "meshes/props/helmet/han_bandana.pmd",
+   "bytes": 1333,
+   "sha256": "40648d6b8db495f129dc9f748c4600744c1f977420427e1b5ac95d2ba2ca417a"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/helmet/hele_pilos_a1.dae.cached.pmd",
+   "dest": "meshes/props/helmet/hele_pilos_a1.pmd",
+   "bytes": 8025,
+   "sha256": "dd9e5f5ed25481b66a140662ec9ead6a59e7ab89b7d68bc4d19c119fbbd481d8"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/helmet/hele_thracian_b.dae.cached.pmd",
+   "dest": "meshes/props/helmet/hele_thracian_b.pmd",
+   "bytes": 12939,
+   "sha256": "ef21e884a193d6753db7dd22156d159ee2764faff9ddc875ae55eb2bcb4df973"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/helmet/hele_thracian_d.dae.cached.pmd",
+   "dest": "meshes/props/helmet/hele_thracian_d.pmd",
+   "bytes": 11507,
+   "sha256": "d303cdb8a17e8d66ec7e90dc7455325528943559083c2cf760b7fce532b881f7"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_barracks_props_a.dae.cached.pmd",
+   "dest": "meshes/props/kart_barracks_props_a.pmd",
+   "bytes": 22475,
+   "sha256": "30b067b2f4deee363361036a8ba9f52785d4812978d4129a54a28409e3131bce"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_barracks_props_weap.dae.cached.pmd",
+   "dest": "meshes/props/kart_barracks_props_weap.pmd",
+   "bytes": 42281,
+   "sha256": "1a403178b0cdf5753de1f2b9b03d8e158fbb83f8f5e0b8e4359be1c5b84f56f5"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_civiccentre_palms.dae.cached.pmd",
+   "dest": "meshes/props/kart_civiccentre_palms.pmd",
+   "bytes": 105029,
+   "sha256": "999d6c8085e000e44ac3a3dd7a4603083e007da675ca0aed9ad72b22880bad27"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_house_a_1.dae.cached.pmd",
+   "dest": "meshes/props/kart_house_a_1.pmd",
+   "bytes": 9749,
+   "sha256": "1e8228e627812800f4883e8731062aac34cba23edbaeb954f0fa3feaf36f53a5"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_house_b_1.dae.cached.pmd",
+   "dest": "meshes/props/kart_house_b_1.pmd",
+   "bytes": 12493,
+   "sha256": "c9facf130fcd5673b835a8fe382dd56ffea8aa32f5dfa78cd491b99db444face"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_house_c_1.dae.cached.pmd",
+   "dest": "meshes/props/kart_house_c_1.pmd",
+   "bytes": 12169,
+   "sha256": "ab5b7c099b36076351cf635ba73c6f55b1934630e12b3d1230117c53d2b64371"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/kart_storehouse_a.dae.cached.pmd",
+   "dest": "meshes/props/kart_storehouse_a.pmd",
+   "bytes": 37601,
+   "sha256": "38f7983bb03201e895a01a520e78389fe962bd2d4f17268e64210d7a5cf0ba88"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/new/dude_head.dae.cached.pmd",
+   "dest": "meshes/props/new/dude_head.pmd",
+   "bytes": 6629,
+   "sha256": "a50da2bb9da0da367ea256f79589a02a6f864b3f8cf3b631feecb667d6c40fa3"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/new/head_beard_small.dae.cached.pmd",
+   "dest": "meshes/props/new/head_beard_small.pmd",
+   "bytes": 6629,
+   "sha256": "ab4fad0c51eb9786bf8ec9dfabc2f1fd2134ff25767c94af597676845df582fd"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/new/head_m_ponytail.dae.cached.pmd",
+   "dest": "meshes/props/new/head_m_ponytail.pmd",
+   "bytes": 7985,
+   "sha256": "2e46d4675ab95cba769d68ac855a27cd0a0986952e571a054ad96772dee7e93e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/prop_mallet.dae.cached.pmd",
+   "dest": "meshes/props/prop_mallet.pmd",
+   "bytes": 2456,
+   "sha256": "a52fb17626cc41cef10af1e9d5aaa0295dd5a96af4886df531dd1e739be12115"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/scaf_3x3_tower.dae.cached.pmd",
+   "dest": "meshes/props/scaf_3x3_tower.pmd",
+   "bytes": 683901,
+   "sha256": "3e4afc9ca06dab7ed0cb64b74bac1195266ea207d966c620735b51c6f8a00dfa"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/scaf_4x4.dae.cached.pmd",
+   "dest": "meshes/props/scaf_4x4.pmd",
+   "bytes": 683661,
+   "sha256": "e422fb4e56e37699fdf4143b61092ae14fe3a04c14c275b0845742b3f1592a1e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/shield/aspis_01_front.dae.cached.pmd",
+   "dest": "meshes/props/shield/aspis_01_front.pmd",
+   "bytes": 8156,
+   "sha256": "80adcf6aa7d2801cd931003a4112c5aa24fc11fe318d2c297d33042aebd824ff"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/shuttle_meat_male_r.dae.cached.pmd",
+   "dest": "meshes/props/shuttle_meat_male_r.pmd",
+   "bytes": 5429,
+   "sha256": "8ecaa744cdad647f7370abba9583ad156f0bc873baf93e9007436af67eede870"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/shuttle_wood.dae.cached.pmd",
+   "dest": "meshes/props/shuttle_wood.pmd",
+   "bytes": 5957,
+   "sha256": "fdd3eee879aaf703f974576be7a4f56fabba46d7eaf0065cdbfb1d657663acea"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/spear_hoplite.dae.cached.pmd",
+   "dest": "meshes/props/spear_hoplite.pmd",
+   "bytes": 4741,
+   "sha256": "b04a3babc8d3819f65bbb3c29245db8a88efff0f1604a31f93597247b58e75da"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/spear_lance_cavalry_reverse.dae.cached.pmd",
+   "dest": "meshes/props/spear_lance_cavalry_reverse.pmd",
+   "bytes": 5157,
+   "sha256": "53e0d30b6c4611e6753ddefdf623034ae0d7c182b39522d8b3fae7b851008b3a"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/special/metal_block.dae.cached.pmd",
+   "dest": "meshes/props/special/metal_block.pmd",
+   "bytes": 1689,
+   "sha256": "8a8cb0fd5d832f1fe600841fa8443b7a4fcd912384d7d38beeb9d8f35e5a04c4"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/special/stone_block.dae.cached.pmd",
+   "dest": "meshes/props/special/stone_block.pmd",
+   "bytes": 1273,
+   "sha256": "d065b2d10055b36463d31208ecb3bb9e81081fa4a2f2cded1378693f57a0608b"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/tool_hoe.dae.cached.pmd",
+   "dest": "meshes/props/tool_hoe.pmd",
+   "bytes": 2789,
+   "sha256": "a6ee4564170dc90228021a6ebb2a9c2af3e86d8d814ae74a6b70d808dae4d43d"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/tool_pick.dae.cached.pmd",
+   "dest": "meshes/props/tool_pick.pmd",
+   "bytes": 10573,
+   "sha256": "75eb9a9d3efb7d38325c20f37bd92fee7ed89c920c42d08cec69e7f6538cac5e"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/weap_arrow_back.dae.cached.pmd",
+   "dest": "meshes/props/weap_arrow_back.pmd",
+   "bytes": 3991,
+   "sha256": "7479b68d7be9a6a23a3012f67301ae9fecda1221fd70ce2778cfaea9569d28f1"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/weap_sling_a.dae.cached.pmd",
+   "dest": "meshes/props/weap_sling_a.pmd",
+   "bytes": 4973,
+   "sha256": "81e15734c02ba0f59379de4a97165b3b19bc615ea0a97b1dbdb09989e37e55db"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/props/weapons/dagger_01.dae.cached.pmd",
+   "dest": "meshes/props/weapons/dagger_01.pmd",
+   "bytes": 6569,
+   "sha256": "c9549135b5fb0314f304c36730f55d951a9cc2449ec7bcd607f18c2b378dba04"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/skeletal/deer_mesh.dae.cached.pmd",
+   "dest": "meshes/skeletal/deer_mesh.pmd",
+   "bytes": 15184,
+   "sha256": "ee6611b5e1e761c9696f804a346f852f3783dd99973bd4eae2abbb0bb146ca08"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/skeletal/new/m_dress.dae.cached.pmd",
+   "dest": "meshes/skeletal/new/m_dress.pmd",
+   "bytes": 39573,
+   "sha256": "287354c1caf672bcf36431f28f1a38631ce18b93527436f75183011141433687"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/skeletal/new/m_tunic_short.dae.cached.pmd",
+   "dest": "meshes/skeletal/new/m_tunic_short.pmd",
+   "bytes": 43857,
+   "sha256": "7171a8eb818083c5ac66e9a33e8f82edf27c81cc6f1e311331282b6526d37b59"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_barracks_struct.dae.cached.pmd",
+   "dest": "meshes/structural/athen_barracks_struct.pmd",
+   "bytes": 225460,
+   "sha256": "df5cd4c0b92424c6707b0da66243f161ea1647adbbd91ae02f3b8d0b210624d0"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_decor.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_decor.pmd",
+   "bytes": 118329,
+   "sha256": "6c046db718173b25fba277ea381e2894277ba0ef517fdc8fa3ffdbec32e0993a"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_nature_transp.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_nature_transp.pmd",
+   "bytes": 78077,
+   "sha256": "afd1a37aa67f26d55631d5c1f938ead0d3dc6b62bba8e0ae24f3a21fb968f5e3"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_propsa.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_propsa.pmd",
+   "bytes": 152949,
+   "sha256": "49e9967e8e4576b71fd8b705855fd2a4cd8db352210021752daeefcba171cc32"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_round_roof.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_round_roof.pmd",
+   "bytes": 7209,
+   "sha256": "b587070cc779a89e9bc5a57468445c49e9c4da8637dec7856d1c5aa761c46121"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_shields.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_shields.pmd",
+   "bytes": 3549,
+   "sha256": "9a3148451fa9c799b4188e5f84520761a5af644aefa0f5ab1d2df369a74bf790"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_struct.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_struct.pmd",
+   "bytes": 305819,
+   "sha256": "9fa61aa1a8faec5b33f8eadda22a14ac01574661405f1ca35bda22bf0832a7d9"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_tiles_b.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_tiles_b.pmd",
+   "bytes": 50421,
+   "sha256": "720dad25708dbf0ce8207572ca0b05eb66bb5624e4ded28cc20a4fa5978c3e46"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/athen_cc_trees.dae.cached.pmd",
+   "dest": "meshes/structural/athen_cc_trees.pmd",
+   "bytes": 30921,
+   "sha256": "ea67beda174b55947d62058b8537e71e9cfa185ef02c83d612bbac91bd5bc255"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/field_plot.dae.cached.pmd",
+   "dest": "meshes/structural/field_plot.pmd",
+   "bytes": 405,
+   "sha256": "0d7234fb844db593469ea3be63ca0b72db8613285df8a6d2405743bc2734bcde"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/found_1x1.dae.cached.pmd",
+   "dest": "meshes/structural/found_1x1.pmd",
+   "bytes": 419,
+   "sha256": "67fe278c66a46bbbba5d5f0a122e64308269fe0e3099a344fe432f89098f4813"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_farmstead.dae.cached.pmd",
+   "dest": "meshes/structural/hele_farmstead.pmd",
+   "bytes": 233344,
+   "sha256": "4004f810b01bbabfd136aa8557253c2fea5ff3feb9ef96c8072add2e10928155"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_house_a.dae.cached.pmd",
+   "dest": "meshes/structural/hele_house_a.pmd",
+   "bytes": 288785,
+   "sha256": "3283e621018c622793e5e984669136c535d717fe22153f2942d2850d5f943599"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_house_b.dae.cached.pmd",
+   "dest": "meshes/structural/hele_house_b.pmd",
+   "bytes": 263117,
+   "sha256": "cf0e2dc2086d2f67488de0127b5684e23e3e1e3bd18898d133db28e772a701af"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_house_c.dae.cached.pmd",
+   "dest": "meshes/structural/hele_house_c.pmd",
+   "bytes": 275645,
+   "sha256": "d539335311a40c9f0166cea7531e5c7d9924e06dcafd9c82ea76dedf58448404"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_house_d.dae.cached.pmd",
+   "dest": "meshes/structural/hele_house_d.pmd",
+   "bytes": 256427,
+   "sha256": "bc3ed8fe98c16f0cc6a58021be97668559e5d4acdd213490f982c5fe41e3c107"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_house_e.dae.cached.pmd",
+   "dest": "meshes/structural/hele_house_e.pmd",
+   "bytes": 287165,
+   "sha256": "cb2439827de9c8ad9a58b0bd6845e9ae2349a0659d3918d23a435a041bc0198c"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_scout_tower.dae.cached.pmd",
+   "dest": "meshes/structural/hele_scout_tower.pmd",
+   "bytes": 158417,
+   "sha256": "d72a221098fed4d1e5800e2b3541ad80a0ab13007b6857e2e068c2bfcc8c3736"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/hele_storehouse.dae.cached.pmd",
+   "dest": "meshes/structural/hele_storehouse.pmd",
+   "bytes": 286167,
+   "sha256": "2fd0dbe9f1a2bbb5f3a1a1d2a46c95e543702997ceb8650b1667d5d8a60caec8"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_barracks.dae.cached.pmd",
+   "dest": "meshes/structural/kart_barracks.pmd",
+   "bytes": 169786,
+   "sha256": "5e54cb4e47a5aae82d4519af031143abf01e8d70a48df04e738fcae72d575bca"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_civiccentre.dae.cached.pmd",
+   "dest": "meshes/structural/kart_civiccentre.pmd",
+   "bytes": 356843,
+   "sha256": "2f88d033bda8041e332044e35babae0a52cdb5d4ae0d4fac465233deb35f1d77"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_farmstead_2.dae.cached.pmd",
+   "dest": "meshes/structural/kart_farmstead_2.pmd",
+   "bytes": 220575,
+   "sha256": "aea17a737c900398de744aa5b9774c53c5ae8502f7fe6964e29371a27fc6de65"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_house_01.dae.cached.pmd",
+   "dest": "meshes/structural/kart_house_01.pmd",
+   "bytes": 46163,
+   "sha256": "8ff7b4292419959f484429eb5d12400e5a164950aa1f8446fc90c77898c46684"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_house_02.dae.cached.pmd",
+   "dest": "meshes/structural/kart_house_02.pmd",
+   "bytes": 33059,
+   "sha256": "d0286cae0600c0140c5e45c467681a170e7c1f029d919d3a4b3fb1c3334a641f"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_house_03.dae.cached.pmd",
+   "dest": "meshes/structural/kart_house_03.pmd",
+   "bytes": 71033,
+   "sha256": "2b98248157d9e56db95029007b679f9d7b16f6bca9cf8f204076863feaf74067"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_scout_tower.dae.cached.pmd",
+   "dest": "meshes/structural/kart_scout_tower.pmd",
+   "bytes": 68627,
+   "sha256": "91f69c1923782f053d6b58ddf2533ceeb6ea419bad18f8009c65f699b007e6ea"
+  },
+  {
+   "kind": "mesh",
+   "source": "art/meshes/structural/kart_storehouse.dae.cached.pmd",
+   "dest": "meshes/structural/kart_storehouse.pmd",
+   "bytes": 57735,
+   "sha256": "6209144a8600878ac8fc40b05f4e4fd1873ae6dbd0d5068745c90d250e6566ec"
+  },
+  {
+   "kind": "sky",
+   "source": "../mod/art/textures/skies/default/back.dds.cached.dds",
+   "dest": "sky/default_back.webp",
+   "bytes": 12644,
+   "sha256": "3e17903a1c54ccb98a159756085c78e8f2c8910e80155522b4708af02c34595c"
+  },
+  {
+   "kind": "sky",
+   "source": "../mod/art/textures/skies/default/front.dds.cached.dds",
+   "dest": "sky/default_front.webp",
+   "bytes": 14150,
+   "sha256": "461f568b729cab878ad1d901ed7a09afcc2555a845a847977813eca6ba70ae87"
+  },
+  {
+   "kind": "sky",
+   "source": "../mod/art/textures/skies/default/left.dds.cached.dds",
+   "dest": "sky/default_left.webp",
+   "bytes": 15580,
+   "sha256": "58c509e55283d86c8255ea359567893b44b6fa37397b8a092d7c142fa26a81ad"
+  },
+  {
+   "kind": "sky",
+   "source": "../mod/art/textures/skies/default/right.dds.cached.dds",
+   "dest": "sky/default_right.webp",
+   "bytes": 10598,
+   "sha256": "8ad68f09a750d9dc5eb4d2a0b57b829b2efe9cb26ac19f4cd7aed4950db2e947"
+  },
+  {
+   "kind": "sky",
+   "source": "../mod/art/textures/skies/default/top.dds.cached.dds",
+   "dest": "sky/default_top.webp",
+   "bytes": 20600,
+   "sha256": "aa1e584022592f4dd13b5c814543318554d8ed695383e5a06a30bf5f41438807"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/fauna_deer.xml",
+   "dest": "templates/gaia/fauna_deer.xml",
+   "bytes": 626,
+   "sha256": "71d8db8b93619f12be7c11a09f774f6dac14a799cc6e2a6e71e6e42bd0f6a736"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/fruit/berry_01.xml",
+   "dest": "templates/gaia/fruit/berry_01.xml",
+   "bytes": 292,
+   "sha256": "616d81542cf7aee0d0df9f65f67b9ceecb0630de45f02baf19bc5b14112f65fc"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/ore/temperate_01.xml",
+   "dest": "templates/gaia/ore/temperate_01.xml",
+   "bytes": 177,
+   "sha256": "a0642692586b9b3da645495f347d3b7677bc1f0a2759ef36748dbbd71ab73172"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/rock/temperate_small.xml",
+   "dest": "templates/gaia/rock/temperate_small.xml",
+   "bytes": 168,
+   "sha256": "bb6520b16b7769aa42c310db339bce0de921601c4b5c07a9af460f9820d0d7e1"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/tree/bush_temperate.xml",
+   "dest": "templates/gaia/tree/bush_temperate.xml",
+   "bytes": 180,
+   "sha256": "4eb7e5716832412c2ed18f89fcd69070e76b57e2e839510f68b3cada37df9703"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/tree/fir.xml",
+   "dest": "templates/gaia/tree/fir.xml",
+   "bytes": 285,
+   "sha256": "61b0dc817d858870bc9073d0d5b3709cfe1905115715d6ab71b9d8e04cbe90a2"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/gaia/tree/temperate.xml",
+   "dest": "templates/gaia/tree/temperate.xml",
+   "bytes": 315,
+   "sha256": "fbb566906323b5a19f28b4065caad1ba5697b3846c1bffa0e20b8ad02c0068d9"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/mixins/builder.xml",
+   "dest": "templates/mixins/builder.xml",
+   "bytes": 1393,
+   "sha256": "6d0ff3884a0aba2a12f7de141b453760e37541e8e933e8f57eb0a36939bea636"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/mixins/bush.xml",
+   "dest": "templates/mixins/bush.xml",
+   "bytes": 555,
+   "sha256": "d569d57ba9d3fc4b00a2db911a24e81b4a16671cb8be71f2f136cb55c41eb267"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/mixins/civ/athen.xml",
+   "dest": "templates/mixins/civ/athen.xml",
+   "bytes": 279,
+   "sha256": "eca6a78d0a50147659d42ac1287da41ce526c5fef555d86f26ce13fe26f11c65"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/mixins/hoplite.xml",
+   "dest": "templates/mixins/hoplite.xml",
+   "bytes": 183,
+   "sha256": "ab0cc8e3ee9def7f1fa540a7a279ba559c08019022fbdbd6fa366adb48512c29"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/barracks.xml",
+   "dest": "templates/structures/athen/barracks.xml",
+   "bytes": 612,
+   "sha256": "052badfe342ad2b883265fbfb30a53e80f28a8b6c1d83fc207000a3fdeac535a"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/civil_centre.xml",
+   "dest": "templates/structures/athen/civil_centre.xml",
+   "bytes": 566,
+   "sha256": "d6dc23c9dee9a5e8ebb5d85887decbe11f6930a9e49abffc60d859d0a0a8a0f4"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/defense_tower.xml",
+   "dest": "templates/structures/athen/defense_tower.xml",
+   "bytes": 520,
+   "sha256": "6e8f5621016c35e882affb1e3c60aff6d2e260c928222ad5363969ba396533a1"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/farmstead.xml",
+   "dest": "templates/structures/athen/farmstead.xml",
+   "bytes": 584,
+   "sha256": "7741f24b565f2b3e23dc5fdec1b331bf10875d386144ea00c72be3e61cf1ee47"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/field.xml",
+   "dest": "templates/structures/athen/field.xml",
+   "bytes": 272,
+   "sha256": "765975c286004be1ff88a2c65fcdb240b212a75cc66513ee8faf3447301e9798"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/house.xml",
+   "dest": "templates/structures/athen/house.xml",
+   "bytes": 271,
+   "sha256": "d7654588a8f2b828291000be1d50da988efd48e077abed7fddfc9f686e94c7f9"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/athen/storehouse.xml",
+   "dest": "templates/structures/athen/storehouse.xml",
+   "bytes": 427,
+   "sha256": "9967e451b8a8ee5417e125746027f4b3686598d32c7a6569efca6361940ea3a4"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/barracks.xml",
+   "dest": "templates/structures/cart/barracks.xml",
+   "bytes": 614,
+   "sha256": "84957f20437d294678e7d7b2c87745ff4613bfee872e54f8865aa4eec536932b"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/civil_centre.xml",
+   "dest": "templates/structures/cart/civil_centre.xml",
+   "bytes": 677,
+   "sha256": "2543a6cff07fb7d21fc69f766fc80cc37b804f64aceda3a228b4a41698344744"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/defense_tower.xml",
+   "dest": "templates/structures/cart/defense_tower.xml",
+   "bytes": 610,
+   "sha256": "bf9b137dfc65047174d81770aba11bd4a7c4e58d838a51b604d0d91cf7385f40"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/farmstead.xml",
+   "dest": "templates/structures/cart/farmstead.xml",
+   "bytes": 511,
+   "sha256": "06ff1c550cdcbc90523c3b4c1efab20e32be55f2644b9eb1c05e0ef11a8943fd"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/field.xml",
+   "dest": "templates/structures/cart/field.xml",
+   "bytes": 271,
+   "sha256": "48f015c35efcc613e454aef69a93ef53f8089adaa7f13937b8b5140ba141b9c9"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/house.xml",
+   "dest": "templates/structures/cart/house.xml",
+   "bytes": 833,
+   "sha256": "635b6a1175289bc76d4c2688a19ba9fec395f166eb6a415b535ef804e9c3c414"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/structures/cart/storehouse.xml",
+   "dest": "templates/structures/cart/storehouse.xml",
+   "bytes": 433,
+   "sha256": "0369db09217f9a066a23163b8d8711604aa4a7a7fd70bebbc99d6b5a43cc9d3a"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia.xml",
+   "dest": "templates/template_gaia.xml",
+   "bytes": 1601,
+   "sha256": "d1923c6b620aa707e25a0ad87e0c0c48915a1e46606f89f2b59dda1f3a2fc73d"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia_fruit.xml",
+   "dest": "templates/template_gaia_fruit.xml",
+   "bytes": 1223,
+   "sha256": "06dea1f03252f80487fb0480949fb0fa66d01f74312479c0f197a09d59f09dfd"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia_ore.xml",
+   "dest": "templates/template_gaia_ore.xml",
+   "bytes": 857,
+   "sha256": "f4f821a0099435db1632a1a65dc0cf7ea2ac100e15769de434d79cf6ecd3c9d0"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia_ore_large.xml",
+   "dest": "templates/template_gaia_ore_large.xml",
+   "bytes": 426,
+   "sha256": "b659980f441a9dbcd63acdc8d7edafff10982f0c4f781e68e9934d8cd78d9fe1"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia_rock.xml",
+   "dest": "templates/template_gaia_rock.xml",
+   "bytes": 864,
+   "sha256": "678e1dbc968fb608e4209aa967cc5af25b0b9dfa978dc087cd47205bba322a7d"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_gaia_tree.xml",
+   "dest": "templates/template_gaia_tree.xml",
+   "bytes": 1404,
+   "sha256": "0b1b2136cb50e079681c16d7eaf7108a35952e1765ad96faec69d43f84cbc9a4"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure.xml",
+   "dest": "templates/template_structure.xml",
+   "bytes": 4994,
+   "sha256": "2ab01d3795ad6a70af5c492191af47e79b514d7cdc66166bbb8a0d22feb42eb6"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_civic.xml",
+   "dest": "templates/template_structure_civic.xml",
+   "bytes": 445,
+   "sha256": "e9cb76374255d771c3724cc561c71732c1131d103cfb325567d9e6a02ddf5f1c"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_civic_civil_centre.xml",
+   "dest": "templates/template_structure_civic_civil_centre.xml",
+   "bytes": 4582,
+   "sha256": "2be55aa97ca698a87c47fb4a191c0539c19ad9e6706ed9d7879babfcbe031e35"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_civic_house.xml",
+   "dest": "templates/template_structure_civic_house.xml",
+   "bytes": 2080,
+   "sha256": "2b56aaefc58ea041742a72fc5da7d3d0c6923ef6f83c9833f202161d09aa093b"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_civic_house_big.xml",
+   "dest": "templates/template_structure_civic_house_big.xml",
+   "bytes": 805,
+   "sha256": "9b6e04bcfcd03149860aa54d3802f5159a448790f19013e7cec4c2819000dc2c"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_defensive.xml",
+   "dest": "templates/template_structure_defensive.xml",
+   "bytes": 395,
+   "sha256": "31945e6e335679ff2c088b5c0a8ae196a6384ed1338aa4eaf2b0dfddd7bd9461"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_defensive_tower.xml",
+   "dest": "templates/template_structure_defensive_tower.xml",
+   "bytes": 2341,
+   "sha256": "29a3077d84e25de80aeef87a5ace99ac7b4d276b2e5605efe26da6f0825b221f"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_defensive_tower_stone.xml",
+   "dest": "templates/template_structure_defensive_tower_stone.xml",
+   "bytes": 1594,
+   "sha256": "23fa571bb4b243eb066471818df3bb4c9ad80438f224736823d7b7e3b12309e4"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_economic.xml",
+   "dest": "templates/template_structure_economic.xml",
+   "bytes": 392,
+   "sha256": "58d066a4e28f6e6e525e120cad1351dae498eed85b75877f76eee56f9e2b7ef0"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_economic_farmstead.xml",
+   "dest": "templates/template_structure_economic_farmstead.xml",
+   "bytes": 2331,
+   "sha256": "852860f54fea9ec7a4c8c5f8a9820bdd0c9a55755e527486a00df37c53fdc7f0"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_economic_storehouse.xml",
+   "dest": "templates/template_structure_economic_storehouse.xml",
+   "bytes": 2439,
+   "sha256": "a9c6fa8d6d2ab3bd7a659be5762924a2634a460f7bc7a53da6d31bc7e66ae24e"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_military.xml",
+   "dest": "templates/template_structure_military.xml",
+   "bytes": 845,
+   "sha256": "b0576a5956643ae88f2aace13c76a8a69a2c5577876e34d4fb96f25efbfe72ca"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_military_barracks.xml",
+   "dest": "templates/template_structure_military_barracks.xml",
+   "bytes": 2530,
+   "sha256": "678144ba983800f4bc18cbeb70019ea02a573efdac281230aba338a07d37c344"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_resource.xml",
+   "dest": "templates/template_structure_resource.xml",
+   "bytes": 227,
+   "sha256": "2f17a542e0ff3a6ee70d1303769ae876ce0863f123ecc040c92c2a76baff786c"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_structure_resource_field.xml",
+   "dest": "templates/template_structure_resource_field.xml",
+   "bytes": 1900,
+   "sha256": "472f37d25a6f33eecc8ca98a8825a6553910e2504f90f1f0b86e933d39149588"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit.xml",
+   "dest": "templates/template_unit.xml",
+   "bytes": 4286,
+   "sha256": "947a464f80d18992b4958423529adf638aa4ff1ebc9bb344d4eec361eec7de9a"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_fauna.xml",
+   "dest": "templates/template_unit_fauna.xml",
+   "bytes": 1490,
+   "sha256": "51409f8ac6956804dc24ad93371f8f37c317c1ac41ff259c15b6ac80538a312a"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_fauna_hunt.xml",
+   "dest": "templates/template_unit_fauna_hunt.xml",
+   "bytes": 333,
+   "sha256": "96f0707f37b124f62f5fdad2841d2091892b495f428454d23160613217f2ecab"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_fauna_hunt_skittish.xml",
+   "dest": "templates/template_unit_fauna_hunt_skittish.xml",
+   "bytes": 203,
+   "sha256": "a191eee00e1019e15921392b0db1f1db6a704b426db390468e0cbdd1eb45cf77"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry.xml",
+   "dest": "templates/template_unit_infantry.xml",
+   "bytes": 3789,
+   "sha256": "d329d8f2eacad91e8822ecea270a8d0caae9c4710356a78594bad39c87d308ca"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry_melee.xml",
+   "dest": "templates/template_unit_infantry_melee.xml",
+   "bytes": 576,
+   "sha256": "ea1e2cbd021ee5a2be58f46b3d524a8f0dea8c18586b1dc0a6b0f24c71bc9e55"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry_melee_spearman.xml",
+   "dest": "templates/template_unit_infantry_melee_spearman.xml",
+   "bytes": 1014,
+   "sha256": "a6b649688b2c0df115550e28b96f4d89d3836205ee6e6b647b1abd85a16b6230"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry_ranged.xml",
+   "dest": "templates/template_unit_infantry_ranged.xml",
+   "bytes": 549,
+   "sha256": "dbd933b4d6a7e09bfac0cc4c6ad9d709d21638939abdfdda47da297830929ec5"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry_ranged_archer.xml",
+   "dest": "templates/template_unit_infantry_ranged_archer.xml",
+   "bytes": 1333,
+   "sha256": "3b926d1dc6e4a5614193f8ff8b5fe5ab7fc30bbe4ac76e931dbe4e496ef13153"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_infantry_ranged_slinger.xml",
+   "dest": "templates/template_unit_infantry_ranged_slinger.xml",
+   "bytes": 1304,
+   "sha256": "4ae2a7d9ef9af1951de304bd623fbfbcd0acb648b8f3e3fae23e61c0ac88f1f7"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_support.xml",
+   "dest": "templates/template_unit_support.xml",
+   "bytes": 1119,
+   "sha256": "54c33f01151e044af1b8983fb46c194ae1759d3d710fd520dc3b06a15d08b630"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/template_unit_support_civilian.xml",
+   "dest": "templates/template_unit_support_civilian.xml",
+   "bytes": 3650,
+   "sha256": "d82047510ab1fba26b822f1b3d2371497117a6cb294dafbbf833b76febc36ee3"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/athen/infantry_slinger_b.xml",
+   "dest": "templates/units/athen/infantry_slinger_b.xml",
+   "bytes": 549,
+   "sha256": "44e4e4f4dd41dbd940c3c45de538d0c1000372deeda4bc3be28d6a4a9175ca3a"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/athen/infantry_spearman_b.xml",
+   "dest": "templates/units/athen/infantry_spearman_b.xml",
+   "bytes": 556,
+   "sha256": "601af9f5ffcb9009bcf12febca35f27ce13a9beac6b05e98956a83c985aded73"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/athen/support_civilian.xml",
+   "dest": "templates/units/athen/support_civilian.xml",
+   "bytes": 385,
+   "sha256": "e1d07f96d725173051359e0050df43430bbb06bfc0ed185ce3d761e72343f250"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/cart/infantry_archer_b.xml",
+   "dest": "templates/units/cart/infantry_archer_b.xml",
+   "bytes": 755,
+   "sha256": "d24e33b45e2e1f49b54a22e48c2ec73cb2ff727541cc6a1207ffda592d9de276"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/cart/infantry_spearman_b.xml",
+   "dest": "templates/units/cart/infantry_spearman_b.xml",
+   "bytes": 781,
+   "sha256": "21d65d39f9a2f410782829fdd488826a86c52a02255ab1dff4f41ec160181e4b"
+  },
+  {
+   "kind": "template",
+   "source": "simulation/templates/units/cart/support_civilian.xml",
+   "dest": "templates/units/cart/support_civilian.xml",
+   "bytes": 603,
+   "sha256": "c1d6fe70f4014949eeede8a62939688b415ee947951d72956cee9e85ba9d091b"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_brown_a.dds.cached.dds",
+   "dest": "terrain/dirt_brown_a.webp",
+   "bytes": 111822,
+   "sha256": "ad73a0235b29f90a1db507b971587ab059db18dc982b87f6a4d21ec374ed8390"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_brown_b.dds.cached.dds",
+   "dest": "terrain/dirt_brown_b.webp",
+   "bytes": 119814,
+   "sha256": "f634ad99c63ccfd5bbd9eab837c06abffff45394f3bd8c254f2069024843938f"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_brown_c.dds.cached.dds",
+   "dest": "terrain/dirt_brown_c.webp",
+   "bytes": 90770,
+   "sha256": "85eec58dcc62bf26a9aebe6d9270bdb7f2d6c578fe8f05f11c16e37ecfc5aebb"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_brown_d.dds.cached.dds",
+   "dest": "terrain/dirt_brown_d.webp",
+   "bytes": 123304,
+   "sha256": "1f26c5cd4180f9278af0b3641b7193824f42df89f314ba1a929729354830e975"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_brown_e.dds.cached.dds",
+   "dest": "terrain/dirt_brown_e.webp",
+   "bytes": 121106,
+   "sha256": "65e4b0cb2d2520c3e525f85f278417da45c6b08a77e8e31595f73c5793a02986"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/dirt_soft.dds.cached.dds",
+   "dest": "terrain/dirt_soft.webp",
+   "bytes": 99176,
+   "sha256": "f692333357f7624a1572e08b0ccbc532580c28d006ea6102fc375433b8157e56"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/furrows_dirt.dds.cached.dds",
+   "dest": "terrain/furrows_dirt.webp",
+   "bytes": 139756,
+   "sha256": "8ecbbd99dcc8934a66278eb98e5260bec3ede80f11e49d5b62f1665249edcb9f"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/furrows_fall.dds.cached.dds",
+   "dest": "terrain/furrows_fall.webp",
+   "bytes": 140060,
+   "sha256": "9a2960b35e65c840543c590f82115cef79f5532740261fd9a6cbd00ab8558f72"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/furrows_spring_b.dds.cached.dds",
+   "dest": "terrain/furrows_spring_b.webp",
+   "bytes": 90394,
+   "sha256": "880dc87faad83bbbd9b2503e83037cc86f4a7f2199880f33c18146af17728908"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/furrows_summer.dds.cached.dds",
+   "dest": "terrain/furrows_summer.webp",
+   "bytes": 126568,
+   "sha256": "2e9ce62bcc398b73ad107e3393df2b98b09f8f71cbff92986f9ecc24777b08cd"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/mud_temp.dds.cached.dds",
+   "dest": "terrain/mud_temp.webp",
+   "bytes": 121602,
+   "sha256": "9bb3e57b0c96971ee0816e23d4faa43dd4177bd037489e57b21a991aa6c95b6d"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_dirt_gravel.dds.cached.dds",
+   "dest": "terrain/temp_dirt_gravel.webp",
+   "bytes": 140418,
+   "sha256": "f39814dcbe634126929d38811fad76ca44789e32a823e88f3a3851492e55bc0c"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_farmland.png.cached.dds",
+   "dest": "terrain/temp_farmland.webp",
+   "bytes": 128430,
+   "sha256": "e4790bd1d22958753621ab92285844d5552a6aa0709ff6397e22d816250acefb"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_forest_mod_01.png.cached.dds",
+   "dest": "terrain/temp_forest_01_mod.webp",
+   "bytes": 124732,
+   "sha256": "1b6da2a6beb5bba8ae01fe66b38e76a6f60920ca92e7498ef3623d65e47e2e43"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_01.png.cached.dds",
+   "dest": "terrain/temp_grass_01_mod.webp",
+   "bytes": 102590,
+   "sha256": "b0bc0c03fcc84f0adc36a511d4d8204d63040beacfd81260b1768ffc5b64bd09"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_02.png.cached.dds",
+   "dest": "terrain/temp_grass_02_mod.webp",
+   "bytes": 110600,
+   "sha256": "c7dc020568bdd4a9de86898b5f33fee6911a1917e86adbbee484d369635abe89"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_03.png.cached.dds",
+   "dest": "terrain/temp_grass_03_mod.webp",
+   "bytes": 110098,
+   "sha256": "92f945c67411d767269cbaec72f69997b4c24edc56ea983545d1f17b82a7b473"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_04.png.cached.dds",
+   "dest": "terrain/temp_grass_04_mod.webp",
+   "bytes": 31130,
+   "sha256": "3e0cd90a74140229820f036697f415e160a89cfde9f935e3532119d0e22c8848"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_05.png.cached.dds",
+   "dest": "terrain/temp_grass_05_mod.webp",
+   "bytes": 101772,
+   "sha256": "711571afdcff1423b28998fd6054591a31a65da7418c0e8122307e1aea11d869"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_06.png.cached.dds",
+   "dest": "terrain/temp_grass_06_mod.webp",
+   "bytes": 101298,
+   "sha256": "2af8ba7fd2d3e6d8908fc564937cf1def9d397b98f4c7f2aabe8ba96d854e45e"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_grass_mod_07.png.cached.dds",
+   "dest": "terrain/temp_grass_07_mod.webp",
+   "bytes": 101062,
+   "sha256": "1ebdec87c1f8a8c2332dbabe01fbbcc8159b42790958ed02a1898efd3ca6e5ba"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/temp_mud_a.png.cached.dds",
+   "dest": "terrain/temp_mud_a.webp",
+   "bytes": 123126,
+   "sha256": "e28cb633cefd78560117541d12dcacfb6aafea99191e21427f53eef88cae2c07"
+  },
+  {
+   "kind": "terrain-texture",
+   "source": "art/textures/terrain/types/tropic_farmland.png.cached.dds",
+   "dest": "terrain/tropic_farmland.webp",
+   "bytes": 123840,
+   "sha256": "85f74848014f746dc15bfb7b1fe6c9f94f51ce364484e36299460e587b72cb58"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/berry_bush_01.png.cached.dds",
+   "dest": "textures/gaia/berry_bush_01.webp",
+   "bytes": 50928,
+   "sha256": "3288223c34992f0ae123a8409f77e9645a8363dcea9f8d8e337abe5c0d483bc8"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/berry_bush_02.png.cached.dds",
+   "dest": "textures/gaia/berry_bush_02.webp",
+   "bytes": 48790,
+   "sha256": "f067ceda4dcfe1fa71c96865d123e87ca021a09c4491535eee59eb8b83353de3"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/metal_round_col_temperate.png.cached.dds",
+   "dest": "textures/gaia/metal_round_col_temperate.webp",
+   "bytes": 1312098,
+   "sha256": "bd0687e6232b0b19b74fb144137b187cc764ea976423fe3caec9cdda5cd1b6b1"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/stone_aegean_01.png.cached.dds",
+   "dest": "textures/gaia/stone_aegean_01.webp",
+   "bytes": 321044,
+   "sha256": "3e3d5f6056b5e18d4134be1dbb95e06f37875ab70f79d5e641016435b50e0daf"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/stone_temperate_01.png.cached.dds",
+   "dest": "textures/gaia/stone_temperate_01.webp",
+   "bytes": 191944,
+   "sha256": "9f4d35c09e8696c75a6b9d040e11f7d5fe8f1b743937e44a242b7328c216bf82"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temp_stone.png.cached.dds",
+   "dest": "textures/gaia/temp_stone.webp",
+   "bytes": 296398,
+   "sha256": "c361510aaa25a0b65bfa8cc9de575f12f880ffaea9527205bf16c83c38d96307"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temperate_bush_01.png.cached.dds",
+   "dest": "textures/gaia/temperate_bush_01.webp",
+   "bytes": 49866,
+   "sha256": "2ad8a0402970d8d51c61e5a51ba4a6104a0c82f03812cdde1da6bb1ef7bf363b"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temperate_bush_02.png.cached.dds",
+   "dest": "textures/gaia/temperate_bush_02.webp",
+   "bytes": 78368,
+   "sha256": "181f0f5f9391cfd6abd3f5ee38361352111936ef9fb589757e855d8d462e697f"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temperate_tree_01.png.cached.dds",
+   "dest": "textures/gaia/temperate_tree_01.webp",
+   "bytes": 69616,
+   "sha256": "86e59f08824489a593b355183f46918815fe78f9c5501bd26cf1a1a90768b4f4"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temperate_tree_02.png.cached.dds",
+   "dest": "textures/gaia/temperate_tree_02.webp",
+   "bytes": 68024,
+   "sha256": "274f817f2eac19c1ee2a9bd36350d9665b67d99adebff98697abb77e51eb6e87"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/temperate_tree_03.png.cached.dds",
+   "dest": "textures/gaia/temperate_tree_03.webp",
+   "bytes": 70176,
+   "sha256": "1cd0c47f13cd8f2ed6b49aeb0f294080d5402e6fb695e7174358d3343affe2f3"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/tree_cypress_f.png.cached.dds",
+   "dest": "textures/gaia/tree_cypress_f.webp",
+   "bytes": 29832,
+   "sha256": "74102383a66fb2bf1d20404a38fadeea894896536d5de595c9216c7288fc62f1"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/tree_fir_tall_1.png.cached.dds",
+   "dest": "textures/gaia/tree_fir_tall_1.webp",
+   "bytes": 68108,
+   "sha256": "070e7b30b32ea03ae8d098199de73b2dff36a8ac3606dcbeae645bdc27a2ffee"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/tree_fir_tall_2.png.cached.dds",
+   "dest": "textures/gaia/tree_fir_tall_2.webp",
+   "bytes": 70828,
+   "sha256": "63c86632e2856dae3ec591f4541f1386cb1671628d6aa98510e916e3c8007b0e"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/tree_fir_tall_5.png.cached.dds",
+   "dest": "textures/gaia/tree_fir_tall_5.webp",
+   "bytes": 67766,
+   "sha256": "a1f96fa4cf20e0e7011098d6dc6adf7a4a95fe4c6df1776372515583db888f17"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/tree_palm_senegal_a.dds.cached.dds",
+   "dest": "textures/gaia/tree_palm_senegal_a.webp",
+   "bytes": 69852,
+   "sha256": "449e83a338d7bc0eb65a0d6ffefa24876d91bd8ec40a44ab79ff11b70dc59190"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/gaia/wrld_med_plant.png.cached.dds",
+   "dest": "textures/gaia/wrld_med_plant.webp",
+   "bytes": 53382,
+   "sha256": "b72f4bc63010e6830ee0fc4573e899664df876daf6cbb26e0a64ec0925777965"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/athen_prop_shields.png.cached.dds",
+   "dest": "textures/props/athen_prop_shields.webp",
+   "bytes": 266704,
+   "sha256": "832d1a8655c8bb3fe3598a1971b812032eefd082f8c9da25002ab91b7c3ae692"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/blood_01.dds.cached.dds",
+   "dest": "textures/props/blood_01.webp",
+   "bytes": 1598,
+   "sha256": "d364571f1d0bda214ac2b801f815e6f3c40139c0eb91112ccd4856215afba727"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/garrison_cart_1.png.cached.dds",
+   "dest": "textures/props/garrison_cart_1.webp",
+   "bytes": 3584,
+   "sha256": "3ca5dc4922abecc0e1a3238f8f5868bd6a45f13688d5a1c361d8df7215ec8f1c"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/garrison_hele_1.png.cached.dds",
+   "dest": "textures/props/garrison_hele_1.webp",
+   "bytes": 4334,
+   "sha256": "f36e92d2dce9e3067f2d3f10297bb4eb9a301860a3156d78455ff5231ef9bec9"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/head/hele_a.dds.cached.dds",
+   "dest": "textures/props/head/hele_a.webp",
+   "bytes": 2868,
+   "sha256": "b370c79709d15315807e9fba325fcf4fbf1fb0766dcac4d6765b6a0915eef452"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/head/numid_face_a.png.cached.dds",
+   "dest": "textures/props/head/numid_face_a.webp",
+   "bytes": 14578,
+   "sha256": "27b98d8ca5356ca14a47ccee718ea864cc0527513334b229e4749e67de060467"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/head/pers_face_a.png.cached.dds",
+   "dest": "textures/props/head/pers_face_a.webp",
+   "bytes": 8652,
+   "sha256": "944bd0a37e009968c390f26550b1416097e39325f3d55c46e56631fdf28330a7"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/hele_decor.png.cached.dds",
+   "dest": "textures/props/hele_decor.webp",
+   "bytes": 911318,
+   "sha256": "87b07a62a12bb8a48bd3c2329f0cc6524f12e7a5c96281191d72cbc5d69d6a91"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/hele_props_a.dds.cached.dds",
+   "dest": "textures/props/hele_props_a.webp",
+   "bytes": 138658,
+   "sha256": "4e59f625a07e3b713e7ec66a907a941910fd5f5cca487bbbaaf7f093b832523d"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/hele_props_b.dds.cached.dds",
+   "dest": "textures/props/hele_props_b.webp",
+   "bytes": 196670,
+   "sha256": "4be158f2f18908e3ff028a23ee4cfb3e0ba790b104b71f98a3319fd778eae105"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/hele_tile_b.dds.cached.dds",
+   "dest": "textures/props/hele_tile_b.webp",
+   "bytes": 213850,
+   "sha256": "c870d350a1a6a2c239d20f2b5394ac76da0a9792808cdef7918770b0bbba32b0"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/hele_tile_c.dds.cached.dds",
+   "dest": "textures/props/hele_tile_c.webp",
+   "bytes": 221618,
+   "sha256": "c0be388e2ad6c9d8dd751d454b762dd178f649be6670f860199f1b9d715650f8"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/helmet/hele_pilos_01_bronze.png.cached.dds",
+   "dest": "textures/props/helmet/hele_pilos_01_bronze.webp",
+   "bytes": 39198,
+   "sha256": "538343a5c7be4cfe27ad6c579c987db128d928e8720ce2db3aba1bba4e929346"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/helmet/hele_thracian_02_bronze.png.cached.dds",
+   "dest": "textures/props/helmet/hele_thracian_02_bronze.webp",
+   "bytes": 46532,
+   "sha256": "e7494146828b83428c3ab2c80d1f9d7f1424f073425b5fbad06a50fd54fc8975"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/helmet/hele_thracian_05_bronze.png.cached.dds",
+   "dest": "textures/props/helmet/hele_thracian_05_bronze.webp",
+   "bytes": 39598,
+   "sha256": "84ebc62bcaa893fa62e25feec4b2931296ee8b8aed6232423211601417ae69c5"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/helmets/han_bandana.png.cached.dds",
+   "dest": "textures/props/helmets/han_bandana.webp",
+   "bytes": 5910,
+   "sha256": "63bb52bf84efcc0d96326b93e171e5c63676a44845cda5fb5ca77fca7879ebaf"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/prop_weap.dds.cached.dds",
+   "dest": "textures/props/prop_weap.webp",
+   "bytes": 61774,
+   "sha256": "64fcf56d08ee13d29f13962bb9c0690e1075d982ad8733cbe052b212d3aada43"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/scaffold.png.cached.dds",
+   "dest": "textures/props/scaffold.webp",
+   "bytes": 322578,
+   "sha256": "35d7f815b8f0a3b64367464a2256fa5560bc32e92675ef98a255bf681e6307e3"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/shield/aspis_athen_01.png.cached.dds",
+   "dest": "textures/props/shield/aspis_athen_01.webp",
+   "bytes": 54584,
+   "sha256": "df17d9e614138493ab1e9ff82ce2ad66c2c58147fca5ff5a2558e36004738b94"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/shield/aspis_cart_01.png.cached.dds",
+   "dest": "textures/props/shield/aspis_cart_01.webp",
+   "bytes": 85086,
+   "sha256": "07e9379fed5f9e65dbe05d46779018668b14889c09a3b16e1fb4da24151b4fff"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/shuttle_blocks.png.cached.dds",
+   "dest": "textures/props/shuttle_blocks.webp",
+   "bytes": 20286,
+   "sha256": "80ab698607b4a4df9eea3818819b78e724d847ff188b65c581a84c83e90323b0"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/shuttle_meat.png.cached.dds",
+   "dest": "textures/props/shuttle_meat.webp",
+   "bytes": 6934,
+   "sha256": "3e364d34cde77b7a1c363e08fdd573977c3ee79327e899f0b0df802d4d22e8b4"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/structs_nature.png.cached.dds",
+   "dest": "textures/props/structs_nature.webp",
+   "bytes": 774630,
+   "sha256": "8d0f561ebebd4938b4f72686a55ac26cb648cef51ca414910a9a0397d4eb8223"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/wood_c.png.cached.dds",
+   "dest": "textures/props/wood_c.webp",
+   "bytes": 60156,
+   "sha256": "dd8468bbd211c2a7f21eb69e287516bf994d48e255db68d45c561df83b4cf4ef"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/wood_e.png.cached.dds",
+   "dest": "textures/props/wood_e.webp",
+   "bytes": 67828,
+   "sha256": "87be992b785f02efff75e86ef64db4d34f0a70db23c05d6efab3cc9ba120cb73"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/props/wrld_hay_a.dds.cached.dds",
+   "dest": "textures/props/wrld_hay_a.webp",
+   "bytes": 21598,
+   "sha256": "aa66a429eb68ee99ed0309c7f240844bbc35688e381b6fb519369764ddf50353"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/animal_deer_01.png.cached.dds",
+   "dest": "textures/skeletal/animal_deer_01.webp",
+   "bytes": 16392,
+   "sha256": "59ef1e7fdda7949bf2d07fb563f97f378e63a49b9dd26679f9720de1ca47cbd0"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/animal_deer_02.png.cached.dds",
+   "dest": "textures/skeletal/animal_deer_02.webp",
+   "bytes": 39828,
+   "sha256": "5ff33e8a7ed163f4d82a98bd15e495315dd8a951454727422915c45f670cc489"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/animal_deer_03.png.cached.dds",
+   "dest": "textures/skeletal/animal_deer_03.webp",
+   "bytes": 39040,
+   "sha256": "72c5e2ebc5b612d080ed5b14866e2f14ae3d216e7e03c4cd77340b199a40098c"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_01_01.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_01_01.webp",
+   "bytes": 47166,
+   "sha256": "2a2f5587c52792407294cdc4345801f8818ed4d18825437bb0266cf796c7bb8e"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_01_02.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_01_02.webp",
+   "bytes": 48070,
+   "sha256": "52be271091f852cc5643b078ad259eb4bead9105c80d135025d73f74b56cb8a3"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_01_03.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_01_03.webp",
+   "bytes": 44362,
+   "sha256": "1527906d39d24ba62a6985ca140875ad185aa588b78f2c1a0cae14d2dfe70136"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_02.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_02.webp",
+   "bytes": 66540,
+   "sha256": "98f850a6be02af6480f3f3d7c3cc5ba375b7b308987ef28d062c508fef63e271"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_basic_01_01.dds.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_basic_01_01.webp",
+   "bytes": 46976,
+   "sha256": "7758d9e57c48ff6e53e7b1075e825c3dc6c55b57caa6046da7455e188fc558ba"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_sleeveless_01_01.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_sleeveless_01_01.webp",
+   "bytes": 43544,
+   "sha256": "7a5c3dd24966852b4db91e7f394b21fa9c8b4994f00ba2fa2ea9f3bed8502594"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_sleeveless_01_02.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_sleeveless_01_02.webp",
+   "bytes": 46494,
+   "sha256": "9907fe38470101a2b8497a0b06e13d78dc7094c8fbeee5272e68b3522c2426d4"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/cart/tunic_sleeveless_01_03.png.cached.dds",
+   "dest": "textures/skeletal/cart/tunic_sleeveless_01_03.webp",
+   "bytes": 43340,
+   "sha256": "3971fc982ba29db45db209b28730a450149e1feb093cdc2834401a76d7d7d861"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_01_01.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_01_01.webp",
+   "bytes": 37666,
+   "sha256": "c388cca1f97a221c8f216acaa162c6aee66616caf1ccf60bed0f44f079536eb8"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_02_01.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_02_01.webp",
+   "bytes": 60526,
+   "sha256": "fd089592788600ae0b5ae3a34bb594d965b6ce52452dfe0bfaac5848ab8ded0a"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_02_02.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_02_02.webp",
+   "bytes": 58292,
+   "sha256": "1d045554b4586905fb79a3735286cfae07b3869857366b560bb9be6c16bd86e2"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_02_03.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_02_03.webp",
+   "bytes": 58952,
+   "sha256": "0e76911e4d4b4b216038e15295517ef72ca10f5f7041d439843febc1d8a23d8a"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_03_01.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_03_01.webp",
+   "bytes": 59186,
+   "sha256": "6a4e92bfc7d6ca4edb037f2622b8d1d05307c44115ceed2ac7ab870e0b6daa14"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_03_02.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_03_02.webp",
+   "bytes": 57190,
+   "sha256": "cc30bf7dc0a26b11565feb953daa1d8cdd5e7fcb34db4d59bad9c8905f11d19c"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/hele/tunic_03_03.png.cached.dds",
+   "dest": "textures/skeletal/hele/tunic_03_03.webp",
+   "bytes": 57848,
+   "sha256": "f6c08bdef1c95b525882224381b8a8568d4e57d85e595bedd88bc580dfe31d94"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/skeletal/imp/support_citizen_male_01.png.cached.dds",
+   "dest": "textures/skeletal/imp/support_citizen_male_01.webp",
+   "bytes": 33216,
+   "sha256": "6c8cb0798293af5e5400641e908a32a5405b555827ee1e714b27a01052840bea"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/field_01.dds.cached.dds",
+   "dest": "textures/structural/field_01.webp",
+   "bytes": 231948,
+   "sha256": "98e6b00dd9c8573a38fff5e28d9f6d3a8c4ac6498a11c8e89868f073e274d5f8"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/hele_struct.dds.cached.dds",
+   "dest": "textures/structural/hele_struct.webp",
+   "bytes": 698700,
+   "sha256": "3baab8d00aac493d250071fab1c06124802d25711bc29ddc4b460c3f545a7413"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/hele_struct_b.png.cached.dds",
+   "dest": "textures/structural/hele_struct_b.webp",
+   "bytes": 678204,
+   "sha256": "abf121583c2074d7285973c2d12360cf50d1badbf56e029359521820de4549ea"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/kart_struct.dds.cached.dds",
+   "dest": "textures/structural/kart_struct.webp",
+   "bytes": 1357546,
+   "sha256": "3489f081e2b9ef857e165958cf77e4ff69a74af5a07a6d058becced6a4462f67"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/kart_struct_damaged.png.cached.dds",
+   "dest": "textures/structural/kart_struct_damaged.webp",
+   "bytes": 1339370,
+   "sha256": "f38ad3ddf3e9468741907bf55d60a6434809876981d9a0a976a05182101f0b25"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/kart_struct_damaged_heavy.png.cached.dds",
+   "dest": "textures/structural/kart_struct_damaged_heavy.webp",
+   "bytes": 1357750,
+   "sha256": "0fec49d8166e94817a18947d11ff895dc9fd0e9599400698c2b1479a9f3513b7"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/kart_struct_damaged_med.png.cached.dds",
+   "dest": "textures/structural/kart_struct_damaged_med.webp",
+   "bytes": 1369422,
+   "sha256": "d032f44b271a3cd26a441bc2aa3a32cf0418007b9f8df5a3710da406f2309e2e"
+  },
+  {
+   "kind": "art-texture",
+   "source": "art/textures/skins/structural/rooftiles_broken.png.cached.dds",
+   "dest": "textures/structural/rooftiles_broken.webp",
+   "bytes": 165290,
+   "sha256": "58831e477a2da86caed3816bfb798b9ef37954e0e2797b17d2472ecef5ada0f9"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "name": "default",
+ "faces": {
+  "front": "sky/default_front.webp",
+  "back": "sky/default_back.webp",
+  "top": "sky/default_top.webp",
+  "right": "sky/default_right.webp",
+  "left": "sky/default_left.webp"
+ }
+}

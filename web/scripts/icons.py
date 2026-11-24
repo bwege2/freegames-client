@@ -618,6 +618,14 @@ def i_endlesssky(S):
     return clip(place(base, trim(art), (S * 0.03, S * 0.03, S * 0.94, S * 0.94)), S)
 
 
+def i_0ad(S):
+    # the Athenians' own emblem from 0 A.D.'s interface (art/textures/ui/session/portraits/emblems,
+    # Wildfire Games, CC BY-SA 3.0), on the game's dark bronze tile
+    art = trim(Image.open(G('0ad', 'assets', 'icon-source.png')).convert('RGBA'))
+    base = tile(S, '#1d150b', top='#4a3416')
+    return clip(place(base, art, (S * 0.05, S * 0.05, S * 0.90, S * 0.90)), S)
+
+
 def i_diamondtrust(S):
     # the original's diamond (gameSource/graphics/diamond.png, 32x32, Jason Rohrer, public domain), its corner colour
     # keyed out as the game's applyCornerTransparency() does, on the map's olive land
