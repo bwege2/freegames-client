@@ -1,0 +1,7 @@
+# Files of planet/ whose sources are non-commercial today (re/openclonk/NOTES.md, "Licences"). tools/pack.sh keeps
+# them out of the packed groups and beside them; the port adds them only while NONCOMMERCIAL_FILES is on
+# (web/games/openclonk/src/settings.ts, which lists the same four paths).
+Sound.ocg/Environment.ocg/WindLoop.ogg
+Sound.ocg/Hits.ocg/Materials.ocg/Glass.ocg/GlassShatter.ogg
+Graphics.ocg/StartupDlgPaper.png
+Graphics.ocg/StartupPlrPropBG.png

@@ -1,0 +1,81 @@
+{
+  "id": "openttd",
+  "title": "OpenTTD",
+  "tagline": "Build a transport empire of railways, roads, ships and planes on a generated map.",
+  "summary": [
+    "OpenTTD (2004) is the free remake of Transport Tycoon Deluxe (Chris Sawyer, 1994): a transport business simulation on a generated map of towns, industries, farms and forests. You build railways, roads, docks and airports, buy trains, buses, lorries, ships and aircraft, give them orders, and earn money by moving passengers and cargo where they are wanted.",
+    "This port follows the stable release 15.3 (2026-04-04) with the free OpenGFX graphics, OpenSFX sounds and OpenMSX music: the original's map generator and four climates, its 256 vehicle types and 27 cargo types, town growth, industry production, station ratings and the economy.",
+    "This is a playable first slice of OpenTTD, not the whole game. It generates OpenTTD's TerraGenesis landscape, rivers and trees, places a town, coal mine and power station, and lets you build roads and truck stops, buy a Balogh Coal Truck, give it a two-stop order and earn the original coal payment until you show a profit. Construction, one road vehicle type and the coal route are implemented; trains, buses, industries beyond coal, the full town simulation, online play and the wider economy are still to come."
+  ],
+  "original": {
+    "author": "Chris Sawyer (Transport Tycoon Deluxe, 1994); the OpenTTD team and contributors",
+    "year": 2004,
+    "platform": "C++/SDL2 (Windows, macOS, Linux)",
+    "version": "15.3 (2026-04-04)",
+    "license": "GPL-2.0-only (OpenSFX sounds: CC BY-SA 3.0)",
+    "packageBytes": 8531992,
+    "url": "https://www.openttd.org/"
+  },
+  "players": "1",
+  "genres": [
+    "City-building"
+  ],
+  "modes": [
+    "single"
+  ],
+  "controls": [
+    {
+      "input": "Drag with the mouse (or arrow keys)",
+      "action": "Scroll the map"
+    },
+    {
+      "input": "Mouse wheel, + / \u2212 or F5 / F6",
+      "action": "Zoom out / in"
+    },
+    {
+      "input": "Toolbar Road / Truck stop / Demolish",
+      "action": "Build or remove infrastructure; costs are deducted from the balance"
+    },
+    {
+      "input": "Click a truck stop",
+      "action": "Buy a Balogh Coal Truck"
+    },
+    {
+      "input": "Click the truck, then two truck stops",
+      "action": "Set its A\u2192B order; Clear orders removes it"
+    },
+    {
+      "input": "Save / Load",
+      "action": "Save the slice to server storage or load it again"
+    },
+    {
+      "input": "N",
+      "action": "Generate a new landscape"
+    },
+    {
+      "input": "Home",
+      "action": "Centre the map"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "scenario-town.png",
+      "caption": "Barton, the deterministic town, drawn with original OpenGFX house and road sprites"
+    },
+    {
+      "file": "road-stops.png",
+      "caption": "A player-built road between the coal mine and power station, with two truck stops"
+    },
+    {
+      "file": "truck-loaded.png",
+      "caption": "The Balogh Coal Truck loaded with 20 t of coal and ordered from the mine to the power station"
+    },
+    {
+      "file": "finance.png",
+      "caption": "After delivery: \u00a371 revenue, running costs, truck profit and the live balance"
+    }
+  ],
+  "listed": true,
+  "caveat": "Playable slice: one generated seed with a deterministic town/industry layout, L-shaped road building, one truck type, one coal route, and a simplified time scale (one game day per real second). Not yet the full OpenTTD transport empire.",
+  "added": "2026-11-24"
+}

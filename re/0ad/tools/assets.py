@@ -78,13 +78,8 @@ TEMPLATES = [
     'gaia/fauna_deer',
 ]
 
-# Map templates that only wrap a civ-specific template in SkirmishReplacer.
-REPLACED = {
-    'skirmish/structures/default_civil_centre': 'structures/{civ}/civil_centre',
-    'skirmish/units/default_support_civilian': 'units/{civ}/support_civilian',
-    'skirmish/units/default_infantry_melee_b': 'units/{civ}/infantry_spearman_b',
-    'skirmish/units/default_infantry_ranged_b': 'units/{civ}/infantry_slinger_b',
-}
+# The map's SkirmishReplacer entities are not shipped: the port maps them to the chosen
+# civilisation at load time (`src/sim/world.ts`), so only the concrete civ templates are copied.
 
 # Pure scenery actors named directly with "actor|..." in the map XML.  Ground decals, puddles
 # and the other eyecandy actors are not copied: the browser port draws no decal layer.

@@ -1,0 +1,4 @@
+# The four files whose sources are non-commercial (src/settings.ts, LICENSE.md) never ship and are never committed;
+# pack.sh keeps them beside the groups. The packed groups themselves are licence-clean (ISC/CC BY 3.0), committed, and
+# rebuilt by re/openclonk/tools/pack.sh --out web/games/openclonk/assets.
+/assets/noncommercial/

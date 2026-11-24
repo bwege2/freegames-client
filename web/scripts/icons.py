@@ -12,7 +12,7 @@
 #
 # Needs Python 3 with Pillow, and ImageMagick (`magick`) for the one SVG source (TuxMath). A few sources are not
 # committed and come from the reference archives the games' fetch scripts unpack into re/<id>/orig/ (2048, Biniax, kiki,
-# A Dark Room, Brogue, HyperRogue, Lincity, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
+# A Dark Room, Brogue, HyperRogue, Lincity, OpenClonk, Passage, The Powder Toy, TuxMath); pass the folder that holds those re/ folders if it is not this checkout's:
 #   python3 -I web/scripts/icons.py [path/to/repo]
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
@@ -443,6 +443,14 @@ def i_opencity(S):
     return clip(pixel_place(base, art, S // 36), S)
 
 
+def i_openclonk(S):
+    # the clonk's portrait as the original draws it (planet/Objects.ocd/Clonk.ocd/GraphicsPortrait.png, 64x64,
+    # content CC BY 3.0), on the earth-brown of its construction menu
+    art = Image.open(orig('openclonk', 'orig', 'openclonk', 'planet', 'Objects.ocd', 'Clonk.ocd', 'GraphicsPortrait.png')).convert('RGBA')
+    base = tile(S, '#5a4426', top='#9a7444')
+    return clip(place(base, art, (S * 0.04, S * 0.04, S * 0.92, S * 0.92)), S)
+
+
 def i_passage(S):
     # the player and the spouse as the game draws them (characterSprite.png, spouseSprite.png: 8x8 frames,
     # public domain), under a heart (heart.png)
@@ -530,6 +538,18 @@ def i_gnugo(S):
         d.ellipse((big * cx - r, big * cy - r, big * cx + r, big * cy + r), fill=fill, outline=edge, width=max(1, round(big * 0.015)))
     base.alpha_composite(lay.resize((S, S), Image.LANCZOS))
     return clip(base, S)
+
+
+def i_openttd(S):
+    # a crop of the port's own town screenshot (original OpenGFX houses and road), on a rounded tile
+    art = Image.open(G('openttd', 'screenshots', 'scenario-town.png')).convert('RGBA').crop((180, 470, 500, 790))
+    big = S * SS
+    img = art.resize((big, big), Image.LANCZOS)
+    mask = Image.new('L', (big, big), 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, big - 1, big - 1), radius=round(big * 0.22), fill=255)
+    out = Image.new('RGBA', (big, big), (0, 0, 0, 0))
+    out.paste(img, (0, 0), mask)
+    return out.resize((S, S), Image.LANCZOS)
 
 
 def i_cdogs(S):

@@ -226,6 +226,22 @@ the game's code, its workers and every asset its code references (`import x from
 while playing (music, the rest of a large world), go in `game.json` as `"lazyAssets": ["assets/music/**"]` (globs in
 the game's folder): Play does not wait for them. Built assets are named by their content, so browsers keep them.
 
+## Build-time switches
+
+Vite builds every file an import names (`import.meta.glob`, `?url`, `new URL(…, import.meta.url)`), even in code a
+constant turns off (`if (false)`). A setting that must keep files out of the build (OpenClonk's
+`NONCOMMERCIAL_FILES`) puts their imports between
+
+```ts
+// build-if ./settings.ts SOME_SETTING
+…
+// build-end
+```
+
+where `./settings.ts` (relative to the file) has `export const SOME_SETTING: boolean = true;`. While it is `false`,
+`web/scripts/build-if.mjs` (a plugin of `web/vite.config.ts`) blanks those lines before Vite reads the file, so the
+files are not built at all. TypeScript sees the whole file either way.
+
 ## Workers, shared memory and what a page may load
 
 The site's pages are cross-origin isolated (`Cross-Origin-Opener-Policy: same-origin`,

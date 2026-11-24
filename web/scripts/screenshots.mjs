@@ -44,7 +44,8 @@ try {
   await page.setViewport({ width: 1024, height: 804 });
   // a game that draws every frame on a software canvas (HyperRogue) can keep the page from ever being reported as
   // network-idle: its files are loaded by then, so go on after the timeout
-  await page.goto(`${base}#/${id}/play`, { waitUntil: 'networkidle0', timeout: 20000 }).catch(() => {});
+  // OpenTTD exposes its game object for scripted screenshots.
+  await page.goto(`${base}${id === 'openttd' ? '?debug' : ''}#/${id}/play`, { waitUntil: 'networkidle0', timeout: 20000 }).catch(() => {});
   await page.waitForSelector('.player-host');
   const shot = async (file) => {
     const host = await page.$('.player-host');

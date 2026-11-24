@@ -1,0 +1,132 @@
+{
+  "id": "openclonk",
+  "title": "OpenClonk",
+  "tagline": "Dig, build, fight and explore a world of earth, rock, water and lava.",
+  "summary": [
+    "Clonks are small, tough workers. They dig through earth and rock, build and power settlements, fly with the jetpack, swim, fight with bows, clubs and explosives, and race through parkours, alone or against each other. The original's scenarios range from tutorials and story missions to melees, parkour races and base defense.",
+    "This is a 1:1 port of OpenClonk master 36de799 (9.0 alpha): the original's C++ engine is translated to TypeScript and checked against the original, and the game content (C4Script, graphics, sounds, music) is the original's, packed by its own c4group tool. The page runs the original's application: its start menu, all 58 scenarios of its six folders, its drawing, controls, sound and music. Your player files, settings and savegames are kept in your account on the site's server.",
+    "Online, every browser runs the same round in lockstep and the site's server is the host that orders the control ticks and checks the players' sync checks, as the original's host does. 'Clonk' is a registered trademark of Matthes Bender."
+  ],
+  "original": {
+    "author": "The OpenClonk Team, RedWolf Design and Matthes Bender",
+    "year": 2009,
+    "platform": "C++ (Linux, macOS, Windows)",
+    "version": "master 36de799 (2026-04-28, 9.0 alpha)",
+    "license": "ISC (engine and scripts); content CC BY 3.0 and CC0; four files are non-commercial and are not shipped (LICENSE.md)",
+    "packageBytes": 134607499,
+    "url": "https://www.openclonk.org/"
+  },
+  "players": "1–16, on one computer or online",
+  "genres": [
+    "Side-scroller",
+    "Arcade"
+  ],
+  "modes": [
+    "single",
+    "multi",
+    "online"
+  ],
+  "controls": [
+    {
+      "input": "A, D",
+      "action": "Walk left, right (the original's default control set, \"WASD\")"
+    },
+    {
+      "input": "W",
+      "action": "Jump; climb up"
+    },
+    {
+      "input": "S",
+      "action": "Climb down; roll when landing"
+    },
+    {
+      "input": "X",
+      "action": "Fall through a platform"
+    },
+    {
+      "input": "Mouse, left button",
+      "action": "Use the item in hand, aimed at the mouse pointer; click the game's menus and dialogs"
+    },
+    {
+      "input": "Mouse, right button",
+      "action": "Throw the item in hand (its alternative use)"
+    },
+    {
+      "input": "Mouse wheel; 1 to 0",
+      "action": "Choose an inventory slot (Shift with a number: drop that item); Ctrl with the wheel zooms"
+    },
+    {
+      "input": "Space",
+      "action": "Interact: doors, buildings, vehicles, signs"
+    },
+    {
+      "input": "Left Shift; E; Q",
+      "action": "Pick up; the contents of a building; switch to the item used before"
+    },
+    {
+      "input": "R, T",
+      "action": "Next, previous clonk of the crew"
+    },
+    {
+      "input": "F",
+      "action": "The player menu"
+    },
+    {
+      "input": "Return",
+      "action": "Type a message or a command"
+    },
+    {
+      "input": "F1; F3",
+      "action": "The help; music on or off"
+    },
+    {
+      "input": "Esc",
+      "action": "The original's dialog to end the game; in the start menu, back (in its main menu: exit)"
+    },
+    {
+      "input": "Gamepad",
+      "action": "The original's gamepad control set, for a second player on the same computer (chosen in the player's properties)"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "tutorial01.png",
+      "caption": "Tutorial 1, Wandering Wipf: the guide's welcome, the clonk on the shore and the rope bridge ahead"
+    },
+    {
+      "file": "tutorial01-bridge.png",
+      "caption": "The guide's next message: follow Roger over the bridge and past the obstacles"
+    },
+    {
+      "file": "startmenu.png",
+      "caption": "The original's start menu, with the player's name below"
+    },
+    {
+      "file": "startmenu-newplayer.png",
+      "caption": "A new player: the original's player properties dialog (its parchment background is a plain stand-in)"
+    },
+    {
+      "file": "scenarios.png",
+      "caption": "The scenario selection: the Tutorials folder with Wandering Wipf selected; the other five folders are one click away"
+    }
+  ],
+  "added": "2026-11-23",
+  "caveat": "Four of the original's files come from non-commercial sources and are not shipped: the wind and glass-shatter sounds are missing, and the start menu's two parchment images are plain stand-ins of the same sizes (LICENSE.md). Online play is lockstep with the site's server as host; a newcomer cannot join a round that is already running (your own seat can rejoin after a reload), and votes such as kick or pause are not offered. On a software renderer (SwiftShader) Tutorial 1 runs at about 11 of the original's 38.5 frames a second; a browser with a GPU is needed for the original's speed.",
+  "links": [
+    {
+      "label": "OpenClonk",
+      "url": "https://www.openclonk.org/"
+    },
+    {
+      "label": "OpenClonk on GitHub",
+      "url": "https://github.com/openclonk/openclonk"
+    }
+  ],
+  "lazyAssets": [
+    "assets/Music.ocg",
+    "assets/Missions.ocf",
+    "assets/Worlds.ocf",
+    "assets/Defense.ocf",
+    "assets/Arena.ocf"
+  ]
+}

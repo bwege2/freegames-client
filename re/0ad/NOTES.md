@@ -151,10 +151,10 @@ subset come on top; music is lazy-loaded per civ.
 ## 4. What the next stage builds
 
 The stage-1 target was one complete, playable **single-player skirmish** on `temperate_roadway_2p`; the
-completed slice uses `farmland_2p` (section 6): Athenians
-(player) vs Carthaginians (Petra AI), with the original terrain, models, animations, UI texts, controls,
-timings, costs and rules. Online play, the other maps, the other civs and the campaign are later stages; they
-must not be stubbed inside this slice.
+completed slice uses `farmland_2p` (section 6): the menu's chosen civilisation (Athenians by default)
+against the other, with the original terrain, models, animations, UI texts, controls, timings, costs
+and rules. Online 1v1 is included; the other maps, the other twelve civs and the campaign are later
+stages; they must not be stubbed inside this slice.
 
 ### 4.1 Stack and folder layout
 
@@ -422,8 +422,9 @@ actors, textures and portraits. The slice therefore uses **Farmland (2)**, not t
 * **Known gaps:** 1 m hierarchical/vertex pathfinder, Petra, formations, garrison/turret/capture overlays, phases/techs, audio,
   the other twelve civilisations and maps, matchmaking/spectators/online chat UI, and the original GUI XML/shaders. The full honest list is
   `web/games/0ad/README.md`; the licence table is `web/games/0ad/LICENSE.md`.
-* **Verification:** `npx tsc --noEmit`; 41 `node --test` game tests plus `online.test.ts` against the
-  real server; `node games/0ad/e2e.mjs` (two Chromium contexts: Carthage single-player and save/load,
-  create/join/start, commands, train, reload-rejoin, leave-win); `npm run build`; catalog, downloads,
-  filter, hosts and source tests; `npm test`; `mvn -B -f pom.xml test` with Java 21 (376 pass, 0 fail);
-  five screenshots with `web/scripts/screenshots.mjs 0ad`.
+* **Verification:** `npx tsc --noEmit`; 41 `node --test` game tests, including `online.test.ts` against
+  the real server; `node games/0ad/e2e.mjs` (two Chromium contexts: Carthage single-player and
+  save/load, create/join/start, commands, train, reload-rejoin, leave-win); `npm run build`; catalog,
+  downloads, filter, hosts and source tests; `npm test` (1969 tests: 1915 pass, 0 fail, 54 skipped);
+  `mvn -B -f pom.xml test` with Java 21 (376 pass, 0 fail); five screenshots with
+  `web/scripts/screenshots.mjs 0ad`.

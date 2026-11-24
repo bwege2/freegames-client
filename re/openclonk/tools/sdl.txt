@@ -1,0 +1,53 @@
+# The SDL2 functions of the original's platform layer for Linux (platform/C4AppSDL.cpp, C4WindowSDL.cpp) and the key
+# names (gui/C4KeyboardInput.cpp), each provided by web/games/openclonk/src/rt/sdl.ts as sdl$<name> on the page's
+# canvas and the browser's events. SDL's OpenGL context functions are in gl.txt (rt/gl.ts).
+SDL_Init
+SDL_Quit
+SDL_GetError
+SDL_PollEvent
+SDL_GetModState
+SDL_GetMouseState
+SDL_EnableKeyRepeat
+SDL_GetScancodeName
+SDL_GetScancodeFromName
+SDL_CreateWindow
+SDL_DestroyWindow
+SDL_SetWindowTitle
+SDL_SetWindowSize
+SDL_SetWindowGrab
+SDL_SetWindowData
+SDL_GetWindowData
+SDL_GetWindowFromID
+SDL_GetWindowWMInfo
+SDL_SetWindowFullscreen
+SDL_SetWindowDisplayMode
+SDL_GetNumDisplayModes
+SDL_GetDisplayMode
+SDL_GetDesktopDisplayMode
+SDL_ShowCursor
+SDL_ShowSimpleMessageBox
+SDL_GetClipboardText
+SDL_SetClipboardText
+SDL_HasClipboardText
+SDL_free
+SDL_GetVersion
+# SDL's game controllers and haptics (platform/C4GamePadCon.cpp): the browser's Gamepad API (rt/sdl.ts)
+SDL_SetHint
+SDL_InitSubSystem
+SDL_QuitSubSystem
+SDL_GameControllerEventState
+SDL_NumJoysticks
+SDL_IsGameController
+SDL_JoystickNameForIndex
+SDL_GameControllerOpen
+SDL_GameControllerClose
+SDL_GameControllerGetJoystick
+SDL_GameControllerGetAttached
+SDL_JoystickInstanceID
+SDL_JoystickName
+SDL_HapticOpenFromJoystick
+SDL_HapticClose
+SDL_HapticRumbleSupported
+SDL_HapticRumbleInit
+SDL_HapticRumblePlay
+SDL_HapticRumbleStop

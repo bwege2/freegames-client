@@ -1,0 +1,11 @@
+# The FreeType functions the original's font loader calls (graphics/C4FontLoader.cpp, CStdVectorFont and
+# CStdFont::AddRenderedChar), each provided by web/games/openclonk/src/rt/freetype.ts as ft$<name>: the original's
+# TrueType font (Graphics.ocg/Endeavour.ttf) read and its glyphs rasterized as FreeType renders them without hinting.
+FT_Init_FreeType
+FT_Done_FreeType
+FT_New_Memory_Face
+FT_New_Face
+FT_Done_Face
+FT_Set_Pixel_Sizes
+FT_Set_Transform
+FT_Load_Char

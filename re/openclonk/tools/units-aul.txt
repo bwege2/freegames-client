@@ -1,0 +1,25 @@
+# the source files translated (paths below the original's source root), one per line
+src/lib/C4Real.cpp
+src/lib/StdBuf.cpp
+src/lib/Standard.cpp
+src/script/C4Aul.cpp
+src/script/C4AulCompiler.cpp
+src/script/C4AulExec.cpp
+src/script/C4AulFunc.cpp
+src/script/C4AulLink.cpp
+src/script/C4AulParse.cpp
+src/script/C4AulScriptFunc.cpp
+src/script/C4Effect.cpp
+src/script/C4PropList.cpp
+src/script/C4Script.cpp
+src/script/C4ScriptHost.cpp
+src/script/C4ScriptLibraries.cpp
+src/script/C4StringTable.cpp
+src/script/C4Value.cpp
+src/script/C4ValueArray.cpp
+src/script/C4ValueMap.cpp
+src/script/C4ScriptStandalone.cpp
+src/script/C4ScriptStandaloneStubs.cpp
+src/lib/StdCompiler.cpp
+src/lib/C4SimpleLog.cpp
+src/platform/StdFile.cpp WildcardMatch GetFilename GetExtension

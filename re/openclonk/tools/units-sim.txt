@@ -1,0 +1,72 @@
+# the headless simulation's source files (paths below the original's source root), in global-setup order.
+# No GUI, editor, network, platform SDL/OpenGL or audio: those are browser-forced and get native replacements
+# (the packet list and the blt transform stay because control packets and object flip state use them)
+# later. This profile is translated into src/sim/ and compared with the original's headless debug records;
+# the full game profile is units.txt. (The mesh/material libraries stay for now: object definitions use them.)
+src/lib/C4Real.cpp
+src/lib/StdBuf.cpp
+src/lib/Standard.cpp
+src/lib/StdCompiler.cpp
+src/lib/C4SimpleLog.cpp
+src/lib/C4InputValidation.cpp
+src/lib/C4Markup.cpp
+src/lib/StdResStr2.cpp
+src/lib/C4NameList.cpp
+src/lib/C4Rect.cpp
+src/lib/C4Log.cpp
+src/lib/C4LogBuf.cpp
+src/lib/StdMeshMath.cpp
+src/lib/StdMesh.cpp
+src/lib/StdMeshLoader.cpp
+src/lib/StdMeshLoaderBinary.cpp
+src/lib/StdMeshLoaderBinaryChunks.cpp
+src/lib/StdMeshLoaderXml.cpp
+src/lib/StdMeshMaterial.cpp
+src/lib/StdMeshUpdate.cpp
+src/platform/StdFile.cpp
+src/platform/C4TimeMilliseconds.cpp
+src/platform/StdScheduler.cpp
+src/platform/C4App.cpp
+src/platform/PlatformAbstraction.cpp
+src/c4group/CStdFile.cpp
+src/c4group/C4Group.cpp
+src/c4group/C4GroupSet.cpp
+src/c4group/C4ComponentHost.cpp
+src/c4group/C4LangStringTable.cpp
+src/c4group/C4Extra.cpp
+src/c4group/C4Language.cpp
+src/config/C4Config.cpp
+src/config/C4Reloc.cpp
+src/script/C4StringTable.cpp
+src/script/C4Value.cpp
+src/script/C4ValueArray.cpp
+src/script/C4ValueMap.cpp
+src/script/C4PropList.cpp
+src/script/C4Aul.cpp
+src/script/C4AulCompiler.cpp
+src/script/C4AulExec.cpp
+src/script/C4AulFunc.cpp
+src/script/C4AulLink.cpp
+src/script/C4AulParse.cpp
+src/script/C4AulScriptFunc.cpp
+src/script/C4AulDebug.cpp
+src/script/C4Effect.cpp
+src/script/C4Script.cpp
+src/script/C4ScriptHost.cpp
+src/script/C4ScriptLibraries.cpp
+src/object/*
+src/landscape/*
+src/graphics/C4Facet.cpp
+src/graphics/C4BltTransform.cpp
+# only what the simulation reaches: C4TargetFacet::Set (the graphics overlays' facet, C4GraphicsOverlay::UpdateFacet)
+src/graphics/C4FacetEx.cpp -
+src/gui/C4KeyboardInput.cpp
+src/gui/C4Scoreboard.cpp
+src/graphics/CSurface8.cpp
+src/control/*
+src/network/C4Client.cpp
+src/network/C4Packet2.cpp
+src/player/*
+src/game/C4Game.cpp
+src/game/C4GameScript.cpp
+src/C4Globals.cpp

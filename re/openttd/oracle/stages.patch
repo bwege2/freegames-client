@@ -1,0 +1,38 @@
+--- a/src/genworld.cpp
++++ b/src/genworld.cpp	2026-11-24 00:22:44.765047977 +0100
+@@ -47,6 +47,9 @@
+ 
+ #include "safeguards.h"
+ 
++#include <cstdlib>
++#include <cstring>
++
+ 
+ void GenerateClearTile();
+ void GenerateIndustries();
+@@ -149,13 +152,21 @@
+ 
+ 			/* Only generate towns, tree and industries in newgame mode. */
+ 			if (_game_mode != GM_EDITOR) {
+-				if (!GenerateTowns(_settings_game.economy.town_layout)) {
++				/* The port's oracle: OTTD_ORACLE_STAGES selects the world-generation
++				 * stages to run, so each generator can be compared in isolation. */
++				const char *oracle_stages = std::getenv("OTTD_ORACLE_STAGES");
++				const bool oracle = oracle_stages != nullptr;
++				const bool do_towns = !oracle || std::strstr(oracle_stages, "towns") != nullptr;
++				const bool do_industries = !oracle || std::strstr(oracle_stages, "industries") != nullptr;
++				const bool do_objects = !oracle || std::strstr(oracle_stages, "objects") != nullptr;
++				const bool do_trees = !oracle || std::strstr(oracle_stages, "trees") != nullptr;
++				if (do_towns && !GenerateTowns(_settings_game.economy.town_layout)) {
+ 					HandleGeneratingWorldAbortion();
+ 					return;
+ 				}
+-				GenerateIndustries();
+-				GenerateObjects();
+-				GenerateTrees();
++				if (do_industries) GenerateIndustries();
++				if (do_objects) GenerateObjects();
++				if (do_trees) GenerateTrees();
+ 			}
+ 		}
+ 

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { buildIf } from './scripts/build-if.mjs';
 
 // The server (server/, Java) serves the built site in production; in development Vite serves it and
 // proxies the WebSocket and the WebTransport announcement (WebTransport itself goes straight to its UDP port).
@@ -16,6 +17,8 @@ export default defineConfig({
   // the release being built (tools/deploy.sh sets RELEASE_TAG): a player's feedback names it
   define: { __RELEASE__: JSON.stringify(process.env.RELEASE_TAG || 'dev') },
   base: './',
+  // a game's build-time switches (scripts/build-if.mjs): code a setting turns off is not built, nor the files it names
+  plugins: [buildIf()],
   build: {
     target: 'es2022',
     chunkSizeWarningLimit: 2000,

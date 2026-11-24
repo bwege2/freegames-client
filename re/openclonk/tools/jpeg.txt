@@ -1,0 +1,10 @@
+# libjpeg's functions that graphics/C4SurfaceLoaders.cpp calls (C4Surface::ReadJPEG: the content's JPEG textures), for
+# the translator: rt/libjpeg.ts as jpeg$<name>. jpeg_create_decompress(c) is jpeg_CreateDecompress(c, version, size).
+jpeg_std_error
+jpeg_CreateDecompress
+jpeg_destroy_decompress
+jpeg_read_header
+jpeg_start_decompress
+jpeg_read_scanlines
+jpeg_finish_decompress
+jpeg_resync_to_restart
