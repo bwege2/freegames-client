@@ -73,12 +73,12 @@ async function setup() {
     return b;
   };
   const ws = `ws://localhost:${port}/ws`;
-  const open = async (name: string, token: string) => {
+  const open = async (name: string, token: string, groups = GROUPS) => {
     const page = await (await browserOf(name)).newPage();
     page.on('pageerror', (e) => console.log(`${name} page error: ${(e as Error).message}`));
     await page.setViewport({ width: W, height: H });
     await page.goto(`http://localhost:${webPort}/`);
-    await page.evaluate((o) => (globalThis as any).ocOnline.open(o), { server: ws, token, name, groups: GROUPS });
+    await page.evaluate((o) => (globalThis as any).ocOnline.open(o), { server: ws, token, name, groups });
     return page;
   };
   const close = async () => {
@@ -92,6 +92,7 @@ async function setup() {
 type Page = Awaited<ReturnType<Awaited<ReturnType<typeof setup>>['open']>>;
 type Status = {
   error: string; frame: number; rejoined: boolean; started: number; activated: boolean; alterAt?: number; alteredAt?: number; snaps: Record<string, string>; log: string[];
+  joined: boolean; catchingUp: boolean; players: string[]; historyTicks: number; historyTotal: number; joinFrame: number; joinPhase: string; joinRejected: string; scenarioLoaded: boolean;
   received: number; checks: number; desync: { frame: number; seat: number; other: number } | null; finished: boolean;
   outcome: { reason: string; frame: number } | null; stopped: string; packets: Record<string, number>; dropped: number; loss: boolean;
 };
@@ -113,7 +114,7 @@ async function until(pages: Page[], ok: (s: Status[]) => boolean, ms: number, wh
     }
     await wait(1000);
   }
-  assert.fail(`${what}: not in ${ms / 1000} s: ${JSON.stringify(s.map((x) => ({ frame: x.frame, received: x.received, checks: x.checks, desync: x.desync, outcome: x.outcome, log: x.log.slice(-12) })), null, 1)}`);
+  assert.fail(`${what}: not in ${ms / 1000} s: ${JSON.stringify(s.map((x) => ({ frame: x.frame, received: x.received, checks: x.checks, desync: x.desync, outcome: x.outcome, log: x.log.slice(-12), joined: x.joined, catchingUp: x.catchingUp, phase: x.joinPhase, refused: x.joinRejected, players: x.players, sent: (x as any).sent })), null, 1)}`);
 }
 
 /** keys for a browser: walk right, jump, walk left (the default control set, WASD) */
@@ -165,6 +166,103 @@ test('two browsers play an Arena melee in lockstep through the server; one reloa
     assert.ok(s.every((x) => !x.desync && !x.finished), `no desync: ${JSON.stringify(s.map((x) => x.desync))}`);
     for (const f of later) assert.equal(s[1].snaps[f], s[0].snaps[f], `the same state at frame ${f}`);
     assert.ok((s[0].packets['1'] ?? 0) > packetsBefore, `the rejoined player's control is executed (${packetsBefore} -> ${s[0].packets['1']})`);
+  } finally {
+    await env.close();
+  }
+});
+
+test('a third browser joins a running round, catches up, plays and rejoins; a corrupt check is refused', { skip, timeout: 3_600_000 }, async () => {
+  const env = await setup();
+  try {
+    const a = await env.open('Alice', 'e2e-token-alice-0123456789');
+    const b = await env.open('Bob', 'e2e-token-bob-0123456789abc');
+    const snaps = [300, 400];
+    await a.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: walk(150), snaps, snapEvery: 10 });
+    await b.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: walk(250), snaps, snapEvery: 10 });
+    const room = await a.evaluate((o) => (globalThis as any).ocOnline.host(o), { scenario: SCENARIO, controlRate: 3, seats: 4 });
+    await b.evaluate((id) => (globalThis as any).ocOnline.join(id), room);
+    await a.evaluate(() => (globalThis as any).ocOnline.start());
+    let s = await until([a, b], (x) => x.every((y) => y.frame >= 520), 1_200_000, 'the two starting browsers run past frame 520');
+    assert.ok(s.every((x) => !x.desync && !x.finished), 'the round goes on');
+    let at = Math.max(s[0].frame, s[1].frame);
+
+    // carl was not in the room at the start: the lobby joins the running round, the module sends the history from
+    // tick 0 and the frame check; the page loads the scenario and catches up before it sends a command
+    const c = await env.open('Carl', 'e2e-token-carl-0123456789xyz', GROUPS.filter((g) => g !== 'Arena.ocf'));
+    await c.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps, snapEvery: 10, missingScenario: true });
+    await c.evaluate((id) => (globalThis as any).ocOnline.join(id, false), room);
+    s = await until([a, b, c], (x) => x[2].joined && !x[2].catchingUp
+      && x[2].frame >= Math.max(x[0].frame, x[1].frame) - 30 && x[2].players.length === 3, 1_200_000,
+      'the newcomer replays the history, proves its state, is seated and catches up with its player');
+    assert.ok(s[2].joinRejected === '', `the newcomer was seated, not refused: ${s[2].joinRejected}`);
+    assert.ok(s[2].historyTicks >= s[2].historyTotal, `the newcomer got all history (${s[2].historyTicks}/${s[2].historyTotal})`);
+    assert.ok(s[2].joinFrame >= 0, `the module named a check frame (${s[2].joinFrame})`);
+    assert.ok(s[2].scenarioLoaded, 'the newcomer fetched the scenario its first content set lacked');
+    assert.ok(s.every((x) => !x.desync && !x.finished), 'no desync after the late join');
+    for (const f of snaps) assert.equal(s[2].snaps[f], s[0].snaps[f], `the newcomer's state at frame ${f} is the others'`);
+    at = Math.max(s[0].frame, s[1].frame, s[2].frame);
+
+    // the newcomer plays: its command is executed by the others and the state stays the same
+    const later = [at + 300, at + 400];
+    await a.evaluate((o) => (globalThis as any).ocOnline.more(o), { keys: [], snaps: later });
+    await b.evaluate((o) => (globalThis as any).ocOnline.more(o), { keys: [], snaps: later });
+    await c.evaluate((o) => (globalThis as any).ocOnline.more(o), { keys: walk(at + 60), snaps: later });
+    s = await until([a, b, c], (x) => x.every((y) => y.frame >= at + 420), 1_200_000, 'the newcomer plays in lockstep');
+    assert.ok(s.every((x) => !x.desync && !x.finished), `no desync while the newcomer plays: ${JSON.stringify(s.map((x) => x.desync))}`);
+    const common = Object.keys(s[0].snaps).map(Number)
+      .filter((f) => f >= later[0] && s.every((x) => x.snaps[f]) && JSON.parse(s[0].snaps[f]).slice(2).length === 3)
+      .sort((x, y) => x - y)[0];
+    assert.ok(common, `a frame both ran with all three players (${Object.keys(s[0].snaps).length} snapshots)`);
+    assert.equal(s[2].snaps[common!], s[0].snaps[common!], `the newcomer's state at frame ${common} after playing`);
+    assert.ok((s[0].packets['2'] ?? 0) > 0, `the newcomer's command reached the others (${JSON.stringify(s[0].packets)})`);
+    const players = JSON.parse(s[0].snaps[common!]).slice(2);
+    assert.equal(players.length, 3, `all three players are in the round (${players.length})`);
+
+    // it survives a reload: the same seat comes back through the history and continues with the others
+    const beforeReload = Math.max(s[0].frame, s[1].frame, s[2].frame);
+    const after = [beforeReload + 300, beforeReload + 400];
+    await c.close();
+    const c2 = await env.open('Carl', 'e2e-token-carl-0123456789xyz');
+    await c2.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps: after, snapEvery: 10 });
+    await c2.evaluate(() => (globalThis as any).ocOnline.rejoin());
+    await a.evaluate((o) => (globalThis as any).ocOnline.more(o), { keys: [], snaps: after });
+    await b.evaluate((o) => (globalThis as any).ocOnline.more(o), { keys: [], snaps: after });
+    s = await until([a, b, c2], (x) => x[2].rejoined && x[2].activated && x[2].frame >= Math.max(x[0].frame, x[1].frame) - 30, 1_200_000,
+      'the reloaded newcomer catches up again');
+    assert.ok(s.every((x) => !x.desync && !x.finished), 'no desync after the newcomer reload');
+    s = await until([a, b, c2], (x) => x.every((y) => y.frame >= after[1]), 1_200_000, 'the reloaded newcomer plays on');
+    const commonAfter = Object.keys(s[0].snaps).map(Number)
+      .filter((f) => f >= after[0] && s.every((x) => x.snaps[f]) && JSON.parse(s[0].snaps[f]).slice(2).length === 3)
+      .sort((x, y) => x - y)[0];
+    assert.ok(commonAfter, 'a frame both ran after the reload');
+    assert.equal(s[2].snaps[commonAfter!], s[0].snaps[commonAfter!], `the reloaded newcomer's state at frame ${commonAfter}`);
+
+    // a corrupt state proof is refused; the seat is not activated and no command is executed for it
+    const d = await env.open('Dora', 'e2e-token-dora-0123456789abc');
+    await d.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps: [], badJoinCheck: true });
+    await d.evaluate((id) => (globalThis as any).ocOnline.join(id, false), room);
+    s = await until([d], (x) => x[0].joinRejected !== '', 600_000, 'the corrupt newcomer is refused');
+    assert.match(s[0].joinRejected, /differs/);
+    assert.ok(!s[0].joined, 'the corrupt newcomer never got a seat');
+  } finally {
+    await env.close();
+  }
+});
+
+test('a full room refuses a newcomer before the module', { skip, timeout: 1_200_000 }, async () => {
+  const env = await setup();
+  try {
+    const a = await env.open('Alice', 'e2e-token-alice-0123456789');
+    const b = await env.open('Bob', 'e2e-token-bob-0123456789abc');
+    await a.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps: [] });
+    await b.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps: [] });
+    const room = await a.evaluate((o) => (globalThis as any).ocOnline.host(o), { scenario: SCENARIO, controlRate: 3, seats: 2 });
+    await b.evaluate((id) => (globalThis as any).ocOnline.join(id), room);
+    await a.evaluate(() => (globalThis as any).ocOnline.start());
+    const c = await env.open('Carl', 'e2e-token-carl-0123456789xyz');
+    await c.evaluate((r) => (globalThis as any).ocOnline.prepare(r), { width: W, height: H, keys: [], snaps: [] });
+    const error = await c.evaluate((id) => (globalThis as any).ocOnline.joinError(id), room);
+    assert.match(String(error), /full/i);
   } finally {
     await env.close();
   }

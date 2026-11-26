@@ -107,7 +107,22 @@ export const Msg_Which = {
 * the server to a seat that came back: the ticks so far
 *
 */
-  HISTORY: 5
+  HISTORY: 5,
+  /**
+* the server to a newcomer: where the round is, and the check it must match
+*
+*/
+  JOIN_STATE: 6,
+  /**
+* a newcomer to the server: its state after replaying the history
+*
+*/
+  JOIN_CHECK: 7,
+  /**
+* the server to a newcomer: seated, or why not
+*
+*/
+  JOIN_RESULT: 8
 } as const;
 export type Msg_Which = (typeof Msg_Which)[keyof typeof Msg_Which];
 export class Msg extends $.Struct {
@@ -117,6 +132,9 @@ export class Msg extends $.Struct {
   static readonly DESYNC = Msg_Which.DESYNC;
   static readonly ROUND_RESULTS = Msg_Which.ROUND_RESULTS;
   static readonly HISTORY = Msg_Which.HISTORY;
+  static readonly JOIN_STATE = Msg_Which.JOIN_STATE;
+  static readonly JOIN_CHECK = Msg_Which.JOIN_CHECK;
+  static readonly JOIN_RESULT = Msg_Which.JOIN_RESULT;
   static readonly _capnp = {
     displayName: "Msg",
     id: "d95dbd7fb657e042",
@@ -294,6 +312,93 @@ export class Msg extends $.Struct {
   }
   set history(value: History) {
     $.utils.setUint16(0, 5, this);
+    $.utils.copyFrom(value, $.utils.getPointer(0, this));
+  }
+  _adoptJoinState(value: $.Orphan<JoinState>): void {
+    $.utils.setUint16(0, 6, this);
+    $.utils.adopt(value, $.utils.getPointer(0, this));
+  }
+  _disownJoinState(): $.Orphan<JoinState> {
+    return $.utils.disown(this.joinState);
+  }
+  /**
+* the server to a newcomer: where the round is, and the check it must match
+*
+*/
+  get joinState(): JoinState {
+    $.utils.testWhich("joinState", $.utils.getUint16(0, this), 6, this);
+    return $.utils.getStruct(0, JoinState, this);
+  }
+  _hasJoinState(): boolean {
+    return !$.utils.isNull($.utils.getPointer(0, this));
+  }
+  _initJoinState(): JoinState {
+    $.utils.setUint16(0, 6, this);
+    return $.utils.initStructAt(0, JoinState, this);
+  }
+  get _isJoinState(): boolean {
+    return $.utils.getUint16(0, this) === 6;
+  }
+  set joinState(value: JoinState) {
+    $.utils.setUint16(0, 6, this);
+    $.utils.copyFrom(value, $.utils.getPointer(0, this));
+  }
+  _adoptJoinCheck(value: $.Orphan<JoinCheck>): void {
+    $.utils.setUint16(0, 7, this);
+    $.utils.adopt(value, $.utils.getPointer(0, this));
+  }
+  _disownJoinCheck(): $.Orphan<JoinCheck> {
+    return $.utils.disown(this.joinCheck);
+  }
+  /**
+* a newcomer to the server: its state after replaying the history
+*
+*/
+  get joinCheck(): JoinCheck {
+    $.utils.testWhich("joinCheck", $.utils.getUint16(0, this), 7, this);
+    return $.utils.getStruct(0, JoinCheck, this);
+  }
+  _hasJoinCheck(): boolean {
+    return !$.utils.isNull($.utils.getPointer(0, this));
+  }
+  _initJoinCheck(): JoinCheck {
+    $.utils.setUint16(0, 7, this);
+    return $.utils.initStructAt(0, JoinCheck, this);
+  }
+  get _isJoinCheck(): boolean {
+    return $.utils.getUint16(0, this) === 7;
+  }
+  set joinCheck(value: JoinCheck) {
+    $.utils.setUint16(0, 7, this);
+    $.utils.copyFrom(value, $.utils.getPointer(0, this));
+  }
+  _adoptJoinResult(value: $.Orphan<JoinResult>): void {
+    $.utils.setUint16(0, 8, this);
+    $.utils.adopt(value, $.utils.getPointer(0, this));
+  }
+  _disownJoinResult(): $.Orphan<JoinResult> {
+    return $.utils.disown(this.joinResult);
+  }
+  /**
+* the server to a newcomer: seated, or why not
+*
+*/
+  get joinResult(): JoinResult {
+    $.utils.testWhich("joinResult", $.utils.getUint16(0, this), 8, this);
+    return $.utils.getStruct(0, JoinResult, this);
+  }
+  _hasJoinResult(): boolean {
+    return !$.utils.isNull($.utils.getPointer(0, this));
+  }
+  _initJoinResult(): JoinResult {
+    $.utils.setUint16(0, 8, this);
+    return $.utils.initStructAt(0, JoinResult, this);
+  }
+  get _isJoinResult(): boolean {
+    return $.utils.getUint16(0, this) === 8;
+  }
+  set joinResult(value: JoinResult) {
+    $.utils.setUint16(0, 8, this);
     $.utils.copyFrom(value, $.utils.getPointer(0, this));
   }
   toString(): string { return "Msg_" + super.toString(); }
@@ -905,6 +1010,148 @@ export class History extends $.Struct {
     $.utils.copyFrom(value, $.utils.getPointer(0, this));
   }
   toString(): string { return "History_" + super.toString(); }
+}
+export class JoinState extends $.Struct {
+  static readonly _capnp = {
+    displayName: "JoinState",
+    id: "a9e47c51aaabab32",
+    size: new $.ObjectSize(16, 1),
+  };
+  /**
+* the newcomer's seat
+*
+*/
+  get seat(): number {
+    return $.utils.getUint8(0, this);
+  }
+  set seat(value: number) {
+    $.utils.setUint8(0, value, this);
+  }
+  /**
+* ticks in the history sent with this state
+*
+*/
+  get total(): number {
+    return $.utils.getUint32(4, this);
+  }
+  set total(value: number) {
+    $.utils.setUint32(4, value, this);
+  }
+  /**
+* the first tick it may send control for after the check
+*
+*/
+  get resume(): number {
+    return $.utils.getUint32(8, this);
+  }
+  set resume(value: number) {
+    $.utils.setUint32(8, value, this);
+  }
+  /**
+* the frame of check (-1: no reference check yet; wait for another JoinState)
+*
+*/
+  get frame(): number {
+    return $.utils.getInt32(12, this);
+  }
+  set frame(value: number) {
+    $.utils.setInt32(12, value, this);
+  }
+  _adoptCheck(value: $.Orphan<SyncCheck>): void {
+    $.utils.adopt(value, $.utils.getPointer(0, this));
+  }
+  _disownCheck(): $.Orphan<SyncCheck> {
+    return $.utils.disown(this.check);
+  }
+  /**
+* the first check of frame, if frame >= 0
+*
+*/
+  get check(): SyncCheck {
+    return $.utils.getStruct(0, SyncCheck, this);
+  }
+  _hasCheck(): boolean {
+    return !$.utils.isNull($.utils.getPointer(0, this));
+  }
+  _initCheck(): SyncCheck {
+    return $.utils.initStructAt(0, SyncCheck, this);
+  }
+  set check(value: SyncCheck) {
+    $.utils.copyFrom(value, $.utils.getPointer(0, this));
+  }
+  /**
+* the seat whose check it is
+*
+*/
+  get checkSeat(): number {
+    return $.utils.getUint8(1, this);
+  }
+  set checkSeat(value: number) {
+    $.utils.setUint8(1, value, this);
+  }
+  toString(): string { return "JoinState_" + super.toString(); }
+}
+export class JoinCheck extends $.Struct {
+  static readonly _capnp = {
+    displayName: "JoinCheck",
+    id: "88ce876b62cf67e4",
+    size: new $.ObjectSize(8, 1),
+  };
+  get frame(): number {
+    return $.utils.getInt32(0, this);
+  }
+  set frame(value: number) {
+    $.utils.setInt32(0, value, this);
+  }
+  _adoptCheck(value: $.Orphan<SyncCheck>): void {
+    $.utils.adopt(value, $.utils.getPointer(0, this));
+  }
+  _disownCheck(): $.Orphan<SyncCheck> {
+    return $.utils.disown(this.check);
+  }
+  get check(): SyncCheck {
+    return $.utils.getStruct(0, SyncCheck, this);
+  }
+  _hasCheck(): boolean {
+    return !$.utils.isNull($.utils.getPointer(0, this));
+  }
+  _initCheck(): SyncCheck {
+    return $.utils.initStructAt(0, SyncCheck, this);
+  }
+  set check(value: SyncCheck) {
+    $.utils.copyFrom(value, $.utils.getPointer(0, this));
+  }
+  toString(): string { return "JoinCheck_" + super.toString(); }
+}
+export class JoinResult extends $.Struct {
+  static readonly _capnp = {
+    displayName: "JoinResult",
+    id: "91c738f0e3306113",
+    size: new $.ObjectSize(8, 1),
+  };
+  get seat(): number {
+    return $.utils.getUint8(0, this);
+  }
+  set seat(value: number) {
+    $.utils.setUint8(0, value, this);
+  }
+  get ok(): boolean {
+    return $.utils.getBit(8, this);
+  }
+  set ok(value: boolean) {
+    $.utils.setBit(8, value, this);
+  }
+  /**
+* why not, at most 128 bytes
+*
+*/
+  get reason(): string {
+    return $.utils.getText(0, this);
+  }
+  set reason(value: string) {
+    $.utils.setText(0, value, this);
+  }
+  toString(): string { return "JoinResult_" + super.toString(); }
 }
 export class Results extends $.Struct {
   static readonly _capnp = {

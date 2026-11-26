@@ -98,11 +98,32 @@ export interface RoundResultsData {
   players: PlayerResult[];
 }
 
+/** What a newcomer needs before it may play (the module's JoinState). */
+export interface JoinState {
+  seat: number;
+  /** ticks in the history sent with this state */
+  total: number;
+  /** the first tick it may send control for after the check */
+  resume: number;
+  /** the check's frame, -1 while the module has no reference check yet */
+  frame: number;
+  check: SyncCheck;
+  checkSeat: number;
+}
+
 /** What the module sends. */
 export type ServerMsg =
   | { t: 'tick'; tick: TickControl }
   | { t: 'history'; start: number; total: number; resume: number; ticks: TickControl[] }
+  | { t: 'joinState'; state: JoinState }
+  | { t: 'joinResult'; result: JoinResult }
   | { t: 'desync'; frame: number; seat: number; check: SyncCheck; other: number; otherCheck: SyncCheck };
+
+export interface JoinResult {
+  seat: number;
+  ok: boolean;
+  reason: string;
+}
 
 /** How the round ended (RoomFinished.results). */
 export interface Outcome {
@@ -168,6 +189,38 @@ function readCheck(r: SyncCheckStruct): SyncCheck {
 
 export function packSyncCheck(c: SyncCheck): Uint8Array {
   return packGame(Msg, (m) => fillCheck(m._initSyncCheck(), c));
+}
+
+/** The module's JoinState for a newcomer. */
+export function packJoinState(s: JoinState): Uint8Array {
+  return packGame(Msg, (m) => {
+    const j = m._initJoinState();
+    j.seat = s.seat;
+    j.total = s.total;
+    j.resume = s.resume;
+    j.frame = s.frame;
+    fillCheck(j._initCheck(), s.check);
+    j.checkSeat = s.checkSeat;
+  });
+}
+
+/** A newcomer's own check after replaying the history. */
+export function packJoinCheck(frame: number, c: SyncCheck): Uint8Array {
+  return packGame(Msg, (m) => {
+    const j = m._initJoinCheck();
+    j.frame = frame;
+    fillCheck(j._initCheck(), c);
+  });
+}
+
+/** The module's answer to a JoinCheck. */
+export function packJoinResult(r: JoinResult): Uint8Array {
+  return packGame(Msg, (m) => {
+    const j = m._initJoinResult();
+    j.seat = r.seat;
+    j.ok = r.ok;
+    j.reason = r.reason.slice(0, 128);
+  });
 }
 
 function fillResults(b: RoundResultsStruct, r: RoundResultsData): void {
@@ -247,6 +300,13 @@ export function packServerMsg(s: ServerMsg): Uint8Array {
       h.resume = s.resume;
       const l = h._initTicks(s.ticks.length);
       s.ticks.forEach((t, i) => fillTick(l.get(i), t));
+    } else if (s.t === 'joinState') {
+      const j = m._initJoinState();
+      j.seat = s.state.seat; j.total = s.state.total; j.resume = s.state.resume; j.frame = s.state.frame;
+      fillCheck(j._initCheck(), s.state.check); j.checkSeat = s.state.checkSeat;
+    } else if (s.t === 'joinResult') {
+      const j = m._initJoinResult();
+      j.seat = s.result.seat; j.ok = s.result.ok; j.reason = s.result.reason;
     } else {
       const d = m._initDesync();
       d.frame = s.frame;
@@ -269,6 +329,16 @@ export function readServerMsg(data: Uint8Array): ServerMsg | null {
       const ticks: TickControl[] = [];
       for (let i = 0; i < h.ticks.length; i++) ticks.push(readTick(h.ticks.get(i)));
       return { t: 'history', start: h.start, total: h.total, resume: h.resume, ticks };
+    }
+    if (m._isJoinState) {
+      const j = m.joinState;
+      return { t: 'joinState', state: {
+        seat: j.seat, total: j.total, resume: j.resume, frame: j.frame, check: readCheck(j.check), checkSeat: j.checkSeat,
+      } };
+    }
+    if (m._isJoinResult) {
+      const j = m.joinResult;
+      return { t: 'joinResult', result: { seat: j.seat, ok: j.ok, reason: j.reason } };
     }
     if (m._isDesync) {
       const d = m.desync;

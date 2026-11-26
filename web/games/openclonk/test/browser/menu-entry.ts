@@ -42,7 +42,7 @@ class MapStore implements FileStore {
 
 const w = globalThis as any;
 /** what the stand-in lobby was asked and what the stand-in module got */
-const net = { lobby: null as null | { title?: string; options: ReturnType<typeof readOptions> }, controls: 0, packets: 0, checks: 0 };
+const net = { lobby: null as null | { title?: string; options: ReturnType<typeof readOptions>; dropIn?: boolean }, controls: 0, packets: 0, checks: 0 };
 w.ocMenuNet = () => net;
 
 function onlineStandIns(signal: AbortSignal) {
@@ -72,9 +72,9 @@ function onlineStandIns(signal: AbortSignal) {
   };
   const ctx = {
     signal, rooms, net: { rtt: 0 },
-    lobby: async (_host: HTMLElement, o: { title?: string; options?: () => Uint8Array }) => {
+    lobby: async (_host: HTMLElement, o: { title?: string; options?: () => Uint8Array; dropIn?: boolean }) => {
       const options = o.options!();
-      net.lobby = { title: o.title, options: readOptions(options) };
+      net.lobby = { title: o.title, options: readOptions(options), dropIn: o.dropIn };
       const round: RoundStart = { room: 1, round: 1, seed: 12345n, seats: [{ seat: 0, accountId: 1, name: 'Tester', ready: true, connected: true }],
         options, you: 0, serverTime: 0, rejoined: false };
       return round;

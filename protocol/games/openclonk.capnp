@@ -15,6 +15,12 @@
 # execute a seat's control as that client's (C4ControlPacket::iByClient = seat + 1) and drop packets in it that
 # claim another client: only the module's events act as the host.
 # The core carries these messages as Data.
+#
+# A running round takes newcomers (GameModule.dropIn): onJoin sends JoinState and the History from tick 0; the
+# newcomer replays it, proves the state with JoinCheck (one C4ControlSyncCheck against the module's reference),
+# and only then gets a seat (JoinResult, a SeatEvent.join, and the ticks wait for its control). Until then its
+# controls are ignored. A history + the round's seed is the complete deterministic state, so no savegame file is
+# transferred; a missing scenario group comes from the site's static server, not from this protocol.
 
 using Java = import "/capnp/java.capnp";
 $Java.package("net.slop.freegames.games.openclonk");
@@ -50,6 +56,9 @@ struct Msg {
     desync @3 :Desync;              # the server to all: two sync checks of a frame differ; the round ends
     roundResults @4 :RoundResults;  # a browser to the server: the round's evaluation (C4Game::Evaluate)
     history @5 :History;            # the server to a seat that came back: the ticks so far
+    joinState @6 :JoinState;        # the server to a newcomer: where the round is, and the check it must match
+    joinCheck @7 :JoinCheck;        # a newcomer to the server: its state after replaying the history
+    joinResult @8 :JoinResult;      # the server to a newcomer: seated, or why not
   }
 }
 
@@ -141,6 +150,31 @@ struct History {
   total @1 :UInt32;    # ticks so far: the next live Tick is this one
   resume @2 :UInt32;   # the first tick the seat may send control for (its control for the ticks before reached the server)
   ticks @3 :List(Tick);
+}
+
+# What a newcomer needs before it may play: the history is sent in History messages (from tick 0), and this names
+# the check it must reproduce. The check is the first sync check of `frame` the module kept, from checkSeat. A
+# newcomer that cannot reproduce it (a corrupt transfer, different content, a lost tick) is refused.
+struct JoinState {
+  seat @0 :UInt8;          # the newcomer's seat
+  total @1 :UInt32;        # ticks in the history sent with this state
+  resume @2 :UInt32;       # the first tick it may send control for after the check
+  frame @3 :Int32;         # the frame of check (-1: no reference check yet; wait for another JoinState)
+  check @4 :SyncCheck;     # the first check of frame, if frame >= 0
+  checkSeat @5 :UInt8;     # the seat whose check it is
+}
+
+# A newcomer's own C4ControlSyncCheck after it replayed the history to the JoinState's frame.
+struct JoinCheck {
+  frame @0 :Int32;
+  check @1 :SyncCheck;
+}
+
+# Seated, or not: a newcomer that is refused is not activated and sends no control; the page leaves the room.
+struct JoinResult {
+  seat @0 :UInt8;
+  ok @1 :Bool;
+  reason @2 :Text;         # why not, at most 128 bytes
 }
 
 # RoomFinished.results, from the server module.

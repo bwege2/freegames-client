@@ -129,7 +129,7 @@ control queue runs as on a client of a network game, with `web/games/openclonk/s
 | `iControlPreSend` ≤ `C4MaxPreSend` = 15 frames | the original's (`C4GameControlNetwork::CalcPerformance` from the host connection's ping: the SDK's round-trip time); the module takes control at most 20 ticks ahead of the last complete tick |
 | `C4ControlClientJoin`, `C4ControlClientUpdate` `CUT_Activate`, `C4ControlClientRemove` (players removed by `Players.RemoveAtClient(id, true)`) | `SeatEvent` `join` (every seat, tick 0), `deactivate` (its connection dropped: ticks no longer wait for it), `activate` (it sends again), `remove` (it left, or did not come back within the site's `RECONNECT_S`) |
 | a disconnected client is removed at once | deactivated: the site keeps the seat for `RECONNECT_S`; back, it gets `History` (every tick from 0, in 48 KiB messages, and `resume`, its next tick), executes them catching up (`CtrlOverflow`: complete control `C4ControlOverflowLimit` = 3 ticks ahead runs without the timer) and is activated by its first control, as a client asks the host with `C4Network2::RequestActivate` |
-| runtime join: the host sends a newcomer a savegame (`C4Network2` dynamic record) at a sync point | left out so far: the browsers write and load savegames since milestone 3 (`C4GameSave`, 187 KB packed for Tutorial01), the hookup is open. The module is not drop-in |
+| runtime join: the host sends a newcomer a savegame (`C4Network2` dynamic record) at a sync point | drop-in: the module sends the whole control history from tick 0 and a reference `C4ControlSyncCheck`; the newcomer starts the room's scenario, replays the history (player files are inside the joins), sends its own check, and is seated only if it matches. No savegame transfer is needed because history + seed is the complete deterministic state; a missing scenario group is fetched from the site's server. See "Drop-in" below |
 | `C4ControlSyncCheck` every `C4SyncCheckRate` = 100 frames: the host's goes into the control queue and the clients compare theirs ("Network: Synchronization loss!") | every browser sends its own (`SyncCheck`, the nine values and an optional hash of the port's); the module compares each with the first of that frame and on a difference sends `Desync` (both checks) and ends the round, `Results {reason: desync, frame}` |
 | `C4RoundResults` (`C4Game::Evaluate`), `PIF_Won` | `RoundResults` from every browser; the round ends when every seat still in the round reported, `evaluated` with the evaluation if all are equal (compared field by field, rebuilt), else `disagreed`; the host's FinishRoom is refused |
 | `PID_ControlReq` (recovering lost control) | not needed: the site's transport is reliable and ordered |
@@ -212,9 +212,46 @@ server 294, of them `OpenclonkModuleTest` 12, the module unchanged); `npx tsc --
 Open: an oracle of the original for online rounds (a record of the port's round replayed by the original's headless
 server, as `oracle/debugrec.sh --replay` does for local records: a network client's record has no sync checks, since the
 host's are compared, so the original's replay could only be compared through debug records the port would write in the
-browser); a round that runs already cannot be joined (the original sends a newcomer a savegame; the module is not drop-in);
-votes (kick, pause) and changing the control rate during the round are left out; async mode is tested with the module's
-loopback clients only, not with browsers.
+browser); votes (kick, pause) and changing the control rate during the round are left out; async mode is tested with the
+module's loopback clients only, not with browsers.
+
+## Drop-in: a newcomer in a running round (26.11.2026)
+
+The lobby now passes `dropIn: true`, so it lists running rooms with **Join** (and **Rejoin** for the account's own
+seat). `GameModule.dropIn()` is true for OpenClonk. A `JoinRoom` in a running round seats the newcomer in the core and
+calls `RoomLogic.onJoin(seat)`. The module (`protocol/games/openclonk.capnp`'s `JoinState`, `JoinCheck`, `JoinResult`)
+does what the original's host does with a runtime join, without a savegame:
+
+1. **History.** `onJoin` adds the seat to the round's order, inactive (`joined=false`, `catchingUp=true`) and sends a
+   `JoinState`: the tick count, the first tick the newcomer may control (`resume = history.size()`), and the newest
+   reference `C4ControlSyncCheck` of the round (frame and values). It then sends the whole `History` from tick 0 in
+   48 KiB messages. A round younger than one sync interval has no reference yet; the newcomer waits in `waitingJoin`
+   until `syncCheck` has one, then gets its `JoinState` and history.
+2. **Replay and proof.** The page (`src/net.ts`) starts the room's scenario from the round's seed, applies the history
+   ticks in order, captures the reference frame's own sync check during replay, and sends `JoinCheck`. The module
+   compares all nine `C4ControlSyncCheck` values (and hash) with the reference; on a difference it sends
+   `JoinResult {ok=false}` and the newcomer never gets a seat. A corrupt history, different content or a lost tick
+   therefore cannot play commands; the page leaves the room.
+3. **Seating.** On a match the module marks the seat joined, queues a `SeatEvent.join` for the next tick, sends
+   `JoinResult {ok=true}`, and from then on the ticks wait for the newcomer's control. The client resets its control
+   queue to the tick its simulation reached, queues its local player join if needed, and sends its first control; the
+   join event tells the other browsers about its client before the player join. Existing players, teams and colours
+   come from the replayed history; the newcomer's own player arrives with its join control. There is no savegame file
+   transfer: the history from tick 0 plus the seed is the complete deterministic snapshot, and every player file is
+   already in the joins of the history. If a newcomer's browser did not have the room's scenario folder, the page
+   fetches that group from the site's server before starting it (Play downloads all six folders; the test entry covers
+   a set that lacks one).
+
+Bounds: history messages stay 48 KiB (the existing `HISTORY_BYTES` cap, 64 MiB per round); `JoinState` is fixed size;
+`JoinResult` reasons are 128 bytes; `JoinCheck` is one `C4ControlSyncCheck`; a newcomer's controls are ignored until its
+check matched (`Seat.joined`/`catchingUp`); the core's seat and message limits still apply.
+
+Tests: `OpenclonkModuleTest.aNewcomerJoinsARunningRoundOnlyAfterItsStateCheckMatches` (loopback: JoinState/History,
+commands before the check ignored, a wrong check refused, a correct check seated, join + command in the next tick) and
+`aFullRoomRefusesANewcomerBeforeTheModule`; `test/online-e2e.test.ts`'s third-browser test (a newcomer with a missing
+scenario folder, history replay, state snapshots equal to the others, its command seen by them, reload/rejoin) plus the
+corrupt-check and full-room tests. Real browsers: the newcomer ran with A/B for hundreds of frames, its packets appear
+in the others' state, and its reload rejoined and played on.
 
 ## The oracle of the simulation: the original's debug record
 
@@ -651,20 +688,23 @@ constructors (`tools/cpp2ts/__main__.py`, `ctor_inits`); `src/gen` and `src/sim`
 modules, only the bindings move). `test/menu.test.ts` now checks that `TitleFont`, `CaptionFont`, `TextFont` and
 `TooltipFont` have glyph extents. The menu screenshots and the Tutorial01 HUD changed accordingly.
 
-`npm run build` on this 53-game site needs more than Node's 4 GiB default heap; `web/package.json`'s build script sets
+`npm run build` on this 54-game site needs more than Node's 4 GiB default heap; `web/package.json`'s build script sets
 `--max-old-space-size=8192` (Vite itself built with 12 GiB; 8 GiB passed). The openclonk download is 72.5 MB (the six
 system groups, Tutorials and Parkour first, the rest lazy).
 
 **Checks (24.11.2026), on the branch rebased onto `origin/main` 4ca85099 (the 0 A.D. merge).**
-`node --test --test-concurrency=1 games/openclonk/test/*.test.ts`: 89 tests, 88 pass and 1
+`node --test --test-concurrency=1 games/openclonk/test/*.test.ts`: 91 tests, 90 pass and 1
 skipped without `OC_COUNT` (the count); with `OC_COUNT=1` the count passes all 58 scenarios (1000 frames each, no errors,
-no rounds over; 2,604 s with three at a time), so all 89 pass. The count ran on the same OpenClonk tree before the last
+no rounds over; 2,604 s with three at a time), so all 91 pass. The count ran on the same OpenClonk tree before the last
 rebase; that rebase changed only the 0 A.D. game and the shared game lists, not OpenClonk's code or assets, and the
-89-test suite and the build were rerun on the final base. `test/count.test.ts`'s table is
-`/tmp/oc-count.json` in that session. `mvn -B -f pom.xml test`: 388 tests, 0 failures (of them `OpenclonkModuleTest`'s
-12). One full Maven run before that hit `HyperrogueModuleTest.decisionsGoToEveryoneOncePerRoundForTheirSeat` (expected
-`ORB`, got `WAIT`); the test passed twice alone and the next full run passed. It is unrelated to OpenClonk (Hyperrogue's
-module and test are untouched), and is left for the server owner to look at as a flaky test. `npx tsc --noEmit` and `npm run build` pass; the build's openclonk download is 72.5 MB. A real browser playthrough
+91-test suite and the build were rerun on the final base. `test/count.test.ts`'s table is
+`/tmp/oc-count.json` in that session. `mvn -B -f pom.xml test`: 390 tests, 0 failures (of them `OpenclonkModuleTest`'s
+14). Before the final clean full run, three loaded full runs hit unrelated, varying server tests
+(`HyperrogueModuleTest.decisionsGoToEveryoneOncePerRoundForTheirSeat` once,
+`MaelstromModuleTest.leavingEndsTheRoundForTheRemainingSeat` once,
+`DiamondTrustModuleTest.aWholeYearEndsAtTheServer` and `TegModuleTest.theServerRollsTheDiceAndDealsTheCards` once); each
+passed alone and the final `mvn -B -f pom.xml test` passed all 390. They are outside OpenClonk (none of those modules or
+tests is touched) and are left for the server owner as timing-sensitive tests under load. `npx tsc --noEmit` and `npm run build` pass; the build's openclonk download is 72.6 MB. A real browser playthrough
 of the built site and server: the game page and Play button, a new player "Tester", Start Game -> Tutorials -> Tutorial
 1, the intro clicked through and several minutes of walking/jumping, the player menu's Save game (slot 1) wrote
 `Savegames.ocf__Tutorial.ocf__Tutorial1.ocs` (190,478 bytes) and the page reload loaded it back: the scenario selection

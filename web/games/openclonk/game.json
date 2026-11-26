@@ -111,7 +111,7 @@
     }
   ],
   "added": "2026-11-23",
-  "caveat": "Four of the original's files come from non-commercial sources and are not shipped: the wind and glass-shatter sounds are missing, and the start menu's two parchment images are plain stand-ins of the same sizes (LICENSE.md). Online play is lockstep with the site's server as host; a newcomer cannot join a round that is already running (your own seat can rejoin after a reload), and votes such as kick or pause are not offered. On a software renderer (SwiftShader) Tutorial 1 runs at about 11 of the original's 38.5 frames a second; a browser with a GPU is needed for the original's speed.",
+  "caveat": "Four of the original's files come from non-commercial sources and are not shipped: the wind and glass-shatter sounds are missing, and the start menu's two parchment images are plain stand-ins of the same sizes (LICENSE.md). Online play is lockstep with the site's server as host. A newcomer can join a round that is already running: it downloads the round's scenario if its page has not loaded that folder, replays the round's control history, and is seated only after its state check matches; no savegame transfer is needed because the history from the first tick reconstructs the game. Votes such as kick or pause are not offered. On a software renderer (SwiftShader) Tutorial 1 runs at about 11 of the original's 38.5 frames a second; a browser with a GPU is needed for the original's speed.",
   "links": [
     {
       "label": "OpenClonk",

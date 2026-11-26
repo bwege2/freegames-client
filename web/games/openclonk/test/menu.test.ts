@@ -137,6 +137,7 @@ test('a network game from the start menu: "Network game", a scenario, the site\'
     const net = await page.evaluate(() => (globalThis as any).ocMenuNet());
     assert.equal(net.lobby?.options.scenario, 'Arena.ocf/FlintBrawl.ocs', `the lobby makes rooms with the chosen scenario (${JSON.stringify(net.lobby)})`);
     assert.equal(net.lobby?.options.controlRate, 3, 'and the original\'s control rate (Config.Network.ControlRate)');
+    assert.equal(net.lobby?.dropIn, true, 'the lobby offers running rooms (dropIn)');
     assert.ok(s.frame > 100, `the round runs (frame ${s.frame}, app state ${s.appState})`);
     const infos = await evalIn(page, `const l = $.Game.PlayerInfos; const out = [l.GetPlayerCount(), $.Control$2.ClientID(), $.Game.Clients.getLocal().isActivated()];
       for (let i = 0, c; (c = l.GetIndexedInfo(i)); i++) for (let j = 0; j < c.GetPlayerCount(); j++) { const p = c.GetPlayerInfo$i32(j); out.push([c.GetClientID(), p.GetID(), p.HasJoinIssued(), p.GetFilename() ? String.fromCharCode(...Array.from(p.GetFilename().a.slice(p.GetFilename().o, p.GetFilename().o + 60)).filter(x => x > 0)) : null]); }

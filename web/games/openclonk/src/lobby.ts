@@ -77,13 +77,33 @@ export class OnlineGames {
       const round = await this.ctx.lobby(this.overlay, {
         title: 'OpenClonk: network game',
         seats: { min: 1, max: 16, default: 2 },
+        // the game's rounds keep running: the lobby lists running rooms and a newcomer catches up from the history
+        dropIn: true,
         options: () => packOptions({
           scenario: path, controlRate: cfg.ControlRate, maxPlayers: 0,
           mode: cfg.ControlMode === 2 ? 'async' : 'central', asyncMaxWait: cfg.AsyncMaxWait,
         }),
       });
       if (this.ctx.signal.aborted) return;
-      this.net = new RoomsNetwork({ rooms: this.ctx.rooms, round, rtt: () => this.ctx.net.rtt });
+      this.net = new RoomsNetwork({
+        rooms: this.ctx.rooms, round, rtt: () => this.ctx.net.rtt,
+        onJoinProgress: (phase, ticks, total) => {
+          if (this.ctx.signal.aborted) return;
+          if (phase === 'history') this.say(`Joining the running round: replaying its history (${ticks}/${total} ticks)…`);
+          else if (phase === 'check') this.say('Joining the running round: checking the state…');
+          else this.say('');
+        },
+        onJoinFailed: (reason) => {
+          // the module refused the newcomer's state: no commands before the round's state matched, and no seat
+          this.say(`Could not join the running round: ${reason}`);
+          this.net?.stop();
+          this.net = null;
+          this.app.setNetwork(null);
+          this.ctx.rooms.leave();
+          $.Game.NetworkActive = false;
+          $.Application.QuitGame();
+        },
+      });
       this.app.setNetwork(this.net);
       // the round's scenario (the room joined may have another than the one chosen)
       $.Game.SetScenarioFilename(S(GAME_DATA + roundScenario(round)));

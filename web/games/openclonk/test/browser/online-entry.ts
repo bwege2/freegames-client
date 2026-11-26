@@ -11,12 +11,13 @@ import { packOptions } from '../../src/online.ts';
 import { Random$u32 } from '../../src/rt/random.ts';
 
 interface Key { frame: number; code: string; key: string; down: boolean }
-interface Run { width: number; height: number; keys: Key[]; snaps: number[]; alterAt?: number }
+interface Run { width: number; height: number; keys: Key[]; snaps: number[]; snapEvery?: number; alterAt?: number; badJoinCheck?: boolean; missingScenario?: boolean }
 
 const st: {
   log: string[]; error: string; frame: number; rejoined: boolean; started: number;
   snaps: Record<number, string>; net: RoomsNetwork | null; activated: boolean; alteredAt?: number;
-} = { log: [], error: '', frame: 0, rejoined: false, started: 0, snaps: {}, net: null, activated: true };
+  joinPhase: string; joinRejected: string; scenarioLoaded: boolean;
+} = { log: [], error: '', frame: 0, rejoined: false, started: 0, snaps: {}, net: null, activated: true, joinPhase: '', joinRejected: '', scenarioLoaded: false };
 
 let client: GameClient;
 let rooms: Rooms;
@@ -52,8 +53,18 @@ function snapshot(): string {
   return JSON.stringify(out);
 }
 
-function startGame(round: RoundStart): void {
+async function startGame(round: RoundStart): Promise<void> {
   const r = run!;
+  if (r.missingScenario) {
+    // the newcomer's first content set lacks the room's scenario: the site's server serves the group before the
+    // scenario starts, as Play downloads the content of the game
+    const folder = roundScenario(round).split('/')[0];
+    if (!groups.some((g) => g.name === folder)) {
+      groups.push({ name: folder, data: new Uint8Array(await (await fetch('/assets/' + folder)).arrayBuffer()) });
+      st.log.push(`downloaded the room's scenario folder ${folder}`);
+      st.scenarioLoaded = true;
+    }
+  }
   st.rejoined = round.rejoined;
   st.started++;
   const canvas = document.createElement('canvas');
@@ -66,9 +77,12 @@ function startGame(round: RoundStart): void {
   const $ = a.engine as any;
   const net = new RoomsNetwork({
     rooms, round, rtt: () => client.rtt, log: (l) => st.log.push(l),
+    joinCheckHook: r.badJoinCheck ? (c) => ({ ...c, randomCount: c.randomCount + 1 }) : undefined,
+    onJoinProgress: (phase, ticks, total) => { st.joinPhase = phase; st.log.push(`join ${phase} ${ticks}/${total}`); },
+    onJoinFailed: (reason) => { st.joinRejected = reason; st.log.push(`join refused: ${reason}`); },
     frameHook: (frame) => {
       st.frame = frame;
-      if (r.snaps.includes(frame) && !(frame in st.snaps)) st.snaps[frame] = snapshot();
+      if ((r.snaps.includes(frame) || (r.snapEvery && frame % r.snapEvery === 0)) && !(frame in st.snaps)) st.snaps[frame] = snapshot();
       // synchronized random numbers that the other browsers do not draw (at the given frame, or the first frame the
       // hook sees after it: a page that catches up may not call the hook at every frame number)
       if (r.alterAt !== undefined && frame >= r.alterAt && !st.snaps[-1]) {
@@ -116,7 +130,7 @@ function startGame(round: RoundStart): void {
     rooms = new Rooms(client);
     const fetchBytes = async (url: string) => new Uint8Array(await (await fetch(url)).arrayBuffer());
     groups = await Promise.all(o.groups.map(async (g) => ({ name: g, data: await fetchBytes('/assets/' + g) })));
-    rooms.on('started', (round) => { try { startGame(round); } catch (e) { st.error = String((e as Error)?.stack ?? e); } });
+    rooms.on('started', (round) => { startGame(round).catch((e) => { st.error = String((e as Error)?.stack ?? e); }); });
     return client.accountId;
   },
   prepare(r: Run) { run = r; },
@@ -131,9 +145,18 @@ function startGame(round: RoundStart): void {
     const room = await rooms.create({ name: 'e2e', maxSeats: o.seats, options: packOptions({ scenario: o.scenario, controlRate: o.controlRate }) });
     return room.id;
   },
-  async join(id: number) {
+  async join(id: number, ready = true) {
     await rooms.join(id);
-    rooms.ready(true);
+    // a newcomer enters a running round: no ready flag (the core refuses it once the round started)
+    if (ready) rooms.ready(true);
+  },
+  async joinError(id: number) {
+    try {
+      await rooms.join(id);
+      return '';
+    } catch (e) {
+      return String((e as Error)?.message ?? e);
+    }
   },
   /** a reloaded page: the running room it is still seated in */
   async rejoin() {
@@ -146,6 +169,10 @@ function startGame(round: RoundStart): void {
     const net = st.net;
     return {
       error: st.error, frame: st.frame, rejoined: st.rejoined, started: st.started, activated: st.activated,
+      joined: net?.state.joined ?? true, catchingUp: net?.state.catchingUp ?? false,
+      players: (() => { try { return JSON.parse(snapshot()).slice(2).map((p: any) => p[1]); } catch { return []; } })(),
+      historyTicks: net?.state.historyTicks ?? 0, historyTotal: net?.state.historyTotal ?? 0,
+      joinFrame: net?.state.joinFrame ?? -1, joinPhase: st.joinPhase, joinRejected: st.joinRejected, scenarioLoaded: st.scenarioLoaded,
       alterAt: run?.alterAt, alteredAt: st.alteredAt, snaps: st.snaps, log: st.log.slice(-40),
       sent: net?.sent ?? -1,
       received: net?.state.received ?? 0, checks: net?.state.checks ?? 0, desync: net?.state.desync ? { frame: net.state.desync.frame, seat: net.state.desync.seat, other: net.state.desync.other } : null,

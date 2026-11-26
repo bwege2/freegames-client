@@ -8,6 +8,7 @@ import { unpackGame, bytes, type RoundStart } from '../../../src/sdk/index.ts';
 import { Msg } from '../src/proto/openclonk.ts';
 import {
   packOptions, readOptions, packControl, packSyncCheck, packRoundResults, packServerMsg, readServerMsg,
+  packJoinState, packJoinCheck, packJoinResult,
   readResults, packResults, clientId, randomSeed,
   type TickControl, type SyncCheck, type RoundResultsData, type Outcome, type ServerMsg,
 } from '../src/online.ts';
@@ -51,8 +52,18 @@ test('the messages survive the wire, and what is not the module\'s is not read a
     { t: 'tick', tick },
     { t: 'history', start: 17, total: 19, resume: 18, ticks: [tick, { tick: 18, events: [{ seat: 1, kind: 'activate' }], controls: [] }] },
     { t: 'desync', frame: 300, seat: 1, check, other: 0, otherCheck: { ...check, hash: 1n } },
+    { t: 'joinState', state: { seat: 2, total: 19, resume: 19, frame: 300, check, checkSeat: 0 } },
+    { t: 'joinResult', result: { seat: 2, ok: true, reason: '' } },
   ];
   for (const m of msgs) assert.deepEqual(readServerMsg(packServerMsg(m)), m);
+  const js = unpackGame(Msg, packJoinState({ seat: 2, total: 19, resume: 19, frame: 300, check, checkSeat: 0 }));
+  assert.ok(js._isJoinState);
+  assert.equal(js.joinState.check.randomCount, -5);
+  const jc = unpackGame(Msg, packJoinCheck(300, check));
+  assert.ok(jc._isJoinCheck);
+  assert.equal(jc.joinCheck.check.randomCount, -5);
+  assert.deepEqual(readServerMsg(packJoinResult({ seat: 2, ok: false, reason: 'state check differs at frame 300' })),
+    { t: 'joinResult', result: { seat: 2, ok: false, reason: 'state check differs at frame 300' } });
   assert.equal(readServerMsg(packControl(1, enc('x'))), null, 'a browser\'s message');
   assert.equal(readServerMsg(new Uint8Array([0x13, 0x37, 1])), null, 'garbage');
 

@@ -25,7 +25,7 @@ import { P, S, $str } from './rt/ptr.ts';
 import type { RoundStart, GameMessage } from '../../../src/sdk/index.ts';
 import { SERVER_SEAT } from '../../../src/sdk/index.ts';
 import {
-  packControl, packSyncCheck, packRoundResults, readServerMsg, readOptions, readResults, clientId, randomSeed,
+  packControl, packSyncCheck, packJoinCheck, packRoundResults, readServerMsg, readOptions, readResults, clientId, randomSeed,
   CONTROL_BYTES, SYNC_RATE, type TickControl, type SyncCheck, type RoundResultsData, type OnlineOptions, type RoomsLike,
   type Outcome, type ServerMsg, type SeatEvent,
 } from './online.ts';
@@ -94,6 +94,17 @@ export interface OnlineState {
   /** control packets executed per seat (and dropped ones) */
   packets: Record<number, number>;
   dropped: number;
+  /** seated and allowed to play (false while a newcomer catches up) */
+  joined: boolean;
+  /** replaying the module's history after a late join or a reconnect */
+  catchingUp: boolean;
+  /** ticks of the history the newcomer has received (of historyTotal) */
+  historyTicks: number;
+  historyTotal: number;
+  /** the frame whose sync check the newcomer is proving, -1: waiting for the module's reference */
+  joinFrame: number;
+  /** a newcomer whose check did not match: it must leave the room */
+  joinRejected: string;
 }
 
 export interface OnlineRound {
@@ -104,8 +115,14 @@ export interface OnlineRound {
   log?: (line: string) => void;
   /** a C4ControlSyncCheck before it goes to the module (tests alter one to see the desync) */
   checkHook?: (c: SyncCheck) => SyncCheck;
+  /** a newcomer's state check before it goes to the module (tests send a corrupt one) */
+  joinCheckHook?: (c: SyncCheck) => SyncCheck;
   /** each frame of C4Game::Execute before its control, with Game.FrameCounter (tests look at the state there) */
   frameHook?: (frame: number) => void;
+  /** a late join's progress: "history", "check", "seated" */
+  onJoinProgress?: (phase: 'history' | 'check' | 'seated', ticks: number, total: number) => void;
+  /** a newcomer the module refused (its check did not match): the page must leave the room */
+  onJoinFailed?: (reason: string) => void;
 }
 
 /**
@@ -116,7 +133,10 @@ export class RoomsNetwork {
   readonly seat: number;
   readonly client: number;
   readonly options: OnlineOptions;
-  readonly state: OnlineState = { received: 0, checks: 0, desync: null, outcome: null, finished: false, stopped: '', packets: {}, dropped: 0 };
+  readonly state: OnlineState = {
+    received: 0, checks: 0, desync: null, outcome: null, finished: false, stopped: '', packets: {}, dropped: 0,
+    joined: true, catchingUp: false, historyTicks: 0, historyTotal: 0, joinFrame: -1, joinRejected: '',
+  };
   /** isEnabled(): from InitHost until Clear */
   private enabled = false;
   /** while false, isEnabled() answers false: player infos are made without the network's resources (Players.Init) */
@@ -128,6 +148,16 @@ export class RoomsNetwork {
   private lastSent = -1;
   private lastCheck = 0;
   private reported = false;
+  /** a late join/reconnect: history is replayed and checked before this seat sends control */
+  private catchingUp = false;
+  private joinCheckSent = false;
+  /** the module sent JoinState: this is a newcomer, not a reconnected seat */
+  private needsJoinCheck = false;
+  private joinTotal = 0;
+  private joinFrame = -1;
+  private readonly checksSeen = new Map<number, SyncCheck>();
+  /** ticks that came before their history (history and live ticks interleaved): applied in order */
+  private readonly pendingTicks = new Map<number, TickControl>();
   private readonly offs: (() => void)[] = [];
   private readonly r: OnlineRound;
   private readonly names = new Map<number, string>();
@@ -210,6 +240,8 @@ export class RoomsNetwork {
     const ctl = $.Control$2.Network;
     ctl.Init(this.client, false, 0, true, this);
     ctl.SetCtrlMode(this.ctrlMode());
+    // a newcomer must not send its queued join/control before the history check matched
+    if (this.catchingUp) $.Control$2.SetActivated(false);
     this.enabled = true;
     return true;
   }
@@ -307,7 +339,8 @@ export class RoomsNetwork {
   }
 
   private sendControl(tick: number, ctrl: any): void {
-    // the module has this seat's control for the ticks before resume (sent before the connection dropped)
+    // a newcomer sends nothing before its history check matched; a reconnected seat has the ticks before resume already
+    if (this.catchingUp || !this.state.joined || this.joinCheckSent) return;
     if (tick < this.resume) return;
     let bytes = ctrl.firstPkt() ? packetBytes(ctrl) : new Uint8Array(0);
     if (bytes.length > CONTROL_BYTES) {
@@ -328,18 +361,97 @@ export class RoomsNetwork {
     const s = readServerMsg(m.data);
     if (!s) return;
     if (s.t === 'tick') this.addTick(s.tick);
-    else if (s.t === 'history') {
-      // back in the round: the ticks so far (those here already are skipped); its own control for the ticks before resume
-      // reached the module before
-      this.resume = Math.max(this.resume, s.resume);
-      this.lastSent = Math.max(this.lastSent, s.resume - 1);
-      for (const t of s.ticks) this.addTick(t);
-    } else this.onDesync(s);
+    else if (s.t === 'history') this.onHistory(s);
+    else if (s.t === 'joinState') this.onJoinState(s.state);
+    else if (s.t === 'joinResult') this.onJoinResult(s.result);
+    else this.onDesync(s);
+  }
+
+  /**
+   * The module's catch-up: a reconnected seat gets the ticks it missed, a newcomer the whole history from tick 0.
+   * Nothing is sent before the newcomer's own check of the JoinState frame matches (C4ControlSyncCheck before the
+   * seat is activated).
+   */
+  private onHistory(s: Extract<ServerMsg, { t: 'history' }>): void {
+    this.catchingUp = true;
+    this.state.joined = false;
+    this.state.catchingUp = true;
+    this.joinTotal = Math.max(this.joinTotal, s.total);
+    this.state.historyTotal = Math.max(this.state.historyTotal, s.total);
+    // early controls sent while the page was still starting are not the module's; it ignores them for a newcomer.
+    // Its resume is authoritative after a reconnect as well.
+    this.resume = s.resume;
+    this.lastSent = s.resume - 1;
+    this.r.onJoinProgress?.('history', this.state.historyTicks, this.joinTotal);
+    for (const t of s.ticks) this.addTick(t);
+  }
+
+  private onJoinState(s: Extract<ServerMsg, { t: 'joinState' }>['state']): void {
+    this.catchingUp = true;
+    this.needsJoinCheck = true;
+    $.Control$2.SetActivated(false);
+    this.state.joined = false;
+    this.state.catchingUp = true;
+    this.joinTotal = Math.max(this.joinTotal, s.total);
+    this.state.historyTotal = Math.max(this.state.historyTotal, s.total);
+    this.resume = s.resume;
+    this.lastSent = s.resume - 1;
+    this.state.joinFrame = s.frame;
+    this.state.joinRejected = '';
+    if (s.frame >= 0) this.joinFrame = s.frame;
+    this.r.onJoinProgress?.('history', this.state.historyTicks, this.joinTotal);
+  }
+
+  private onJoinResult(result: { seat: number; ok: boolean; reason: string }): void {
+    if (result.seat !== this.seat) return;
+    if (result.ok) {
+      this.catchingUp = false;
+      this.joinCheckSent = false;
+      this.state.joined = true;
+      this.state.catchingUp = false;
+      this.state.joinRejected = '';
+      // reset the control queue to the tick its simulation has reached, then send the join queued while catching up
+      $.Control$2.SetActivated(true);
+      this.r.onJoinProgress?.('seated', this.state.historyTicks, this.joinTotal);
+      // this client was in the list as activated since InitHost (the module's join event is not executed for its
+      // own seat): send the first control now, with the player join queued while the history was replayed.
+      // If the local player was not queued (a game that started while it was still catching up), ask for it now.
+      if (!$.Game.PlayerInfos.GetInfoByClientID(this.client)) this.Players.Init();
+      this.RequestActivate();
+      return;
+    }
+    this.state.joined = false;
+    this.state.catchingUp = false;
+    this.state.joinRejected = result.reason || 'the server refused the join';
+    this.r.onJoinFailed?.(this.state.joinRejected);
   }
 
   /** a module's complete tick: the host's actions as its sync control, then the seats' control as the complete control */
   private addTick(t: TickControl): void {
-    if (t.tick !== this.state.received) return; // again (history and live) or out of order
+    if (t.tick < this.state.received) return; // again (history and live)
+    if (t.tick > this.state.received) {
+      // history and live ticks can interleave; keep it for its turn (bounded: a broken peer cannot grow it)
+      if (this.pendingTicks.size < 1000) this.pendingTicks.set(t.tick, t);
+      return;
+    }
+    this.applyTick(t);
+    for (let next = this.pendingTicks.get(this.state.received); next; next = this.pendingTicks.get(this.state.received)) {
+      this.pendingTicks.delete(this.state.received);
+      this.applyTick(next);
+    }
+    if (this.state.historyTicks < this.state.received) {
+      this.state.historyTicks = this.state.received;
+      if (this.catchingUp) this.r.onJoinProgress?.('history', this.state.historyTicks, this.joinTotal);
+    }
+    // a reconnected seat needs no check; once its history is in, it plays on. A newcomer waits for JoinResult.
+    if (this.catchingUp && !this.needsJoinCheck && this.state.received >= this.joinTotal) {
+      this.catchingUp = false;
+      this.state.joined = true;
+      this.state.catchingUp = false;
+    }
+  }
+
+  private applyTick(t: TickControl): void {
     this.state.received++;
     const net = $.Control$2.Network;
     const host = new $.C4Control().init();
@@ -439,6 +551,18 @@ export class RoomsNetwork {
     // the sync check of the frame just executed (C4GameControl::DoSyncCheck), to the module
     const frame = G.FrameCounter;
     this.r.frameHook?.(frame);
+    if (this.catchingUp || !this.state.joined) {
+      // while replaying, remember the checks a newcomer may have to prove; its own check is not sent yet
+      if (frame % SYNC_RATE === 0) {
+        const check = C.GetSyncCheck(frame);
+        if (check) {
+          this.checksSeen.set(frame, readCheck(check));
+          if (this.checksSeen.size > 500) this.checksSeen.delete(this.checksSeen.keys().next().value as number);
+        }
+      }
+      this.tryJoinCheck(frame);
+      return;
+    }
     if (frame > this.lastCheck && frame % SYNC_RATE === 0) {
       const check = C.GetSyncCheck(frame);
       if (check) {
@@ -458,6 +582,22 @@ export class RoomsNetwork {
     if (this.running && !G.Clients.getLocal()?.isActivated() && !C.Network.CtrlOverflow(C.ControlTick)) this.RequestActivate();
   }
 
+  /** after the history: send the newcomer's check of the JoinState frame once the game reached it */
+  private tryJoinCheck(frame: number): void {
+    if (this.joinCheckSent || this.joinFrame < 0 || this.state.received < this.joinTotal || frame < this.joinFrame) return;
+    let check = this.checksSeen.get(this.joinFrame);
+    if (!check) {
+      // the frame's check may have been made at the end of that frame, after this hook ran: ask the control queue
+      const c = $.Control$2.GetSyncCheck(this.joinFrame);
+      if (!c) return;
+      check = readCheck(c);
+    }
+    if (this.r.joinCheckHook) check = this.r.joinCheckHook(check);
+    this.joinCheckSent = true;
+    this.r.rooms.send(packJoinCheck(this.joinFrame, check), 'server');
+    this.r.onJoinProgress?.('check', this.state.received, this.joinTotal);
+  }
+
   /**
    * C4Network2::RequestActivate: a deactivated client asks the host to activate it. The module activates a seat with its
    * control (the activate event in a tick), and a tick waits for an activated seat's control: so this client sends (empty)
@@ -467,7 +607,10 @@ export class RoomsNetwork {
    */
   RequestActivate(): void {
     if (!this.running || $.Game.Clients.getLocal()?.isObserver()) return;
-    const t = Math.max(this.lastSent + 1, this.resume, this.state.received);
+    // the control tick the game itself has reached, not the latest tick received: a newcomer may have the whole
+    // history and live ticks queued while its simulation catches up, and must not send control far ahead of it
+    const played = Math.floor($.Game.FrameCounter / Math.max(1, this.options.controlRate));
+    const t = Math.max(this.lastSent + 1, this.resume, played);
     if (t > this.state.received) return;
     const C = $.Control$2;
     const ctrl = new $.C4Control().init();
